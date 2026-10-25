@@ -1,0 +1,704 @@
+{
+ "meta": {
+  "titulo": "Gobernabilidad: fracturas y tensiones en la coalición de gobierno",
+  "actualizado": "2026-10-25",
+  "periodo": "desde el 10/12/2023",
+  "aviso": "Los hechos llevan fuente. 'estado', 'gravedad_sugerida' y 'estado_sugerido' son lectura propia y se indican como tal.",
+  "criterio_gravedad": {
+   "1": "Salida o choque acotado, sin efecto sobre la mayoría legislativa ni sobre el núcleo del gabinete.",
+   "2": "Afecta a un ministro, a un bloque legislativo o a un aliado relevante, o tiene impacto judicial o legislativo concreto.",
+   "3": "Involucra a la vicepresidenta, al jefe de Gabinete, a un aliado estratégico (PRO, gobernadores, CGT) o deja una ruptura sin recomponer."
+  },
+  "criterio_estado": "abierta: el conflicto sigue sin resolverse a la fecha de corte. cerrada: hubo reemplazo, acuerdo o el actor dejó de ser parte de la coalición."
+ },
+ "timeline": [
+  {
+   "fecha": "2024-01-24",
+   "actores": [
+    "CGT",
+    "Gobierno nacional"
+   ],
+   "tipo": "sindicatos",
+   "que_paso": "La CGT hizo su primer paro general contra el gobierno de Milei, a unos 45 días de su asunción, contra el DNU 70/2023.",
+   "estado": "cerrada (medida puntual; el conflicto de fondo continúa en entradas posteriores)",
+   "gravedad_sugerida": 2,
+   "criterio": "Paro general, pero de un actor que no integra la coalición.",
+   "fuentes": [
+    "https://www.diariodecuyo.com.ar/argentina/milei-enfrentara-su-cuarto-paro-de-la-cgt-en-802-dias-y-queda-a-uno-del-record-de-macri-1833618.html",
+    "https://www.ambito.com/politica/cuando-es-el-paro-general-la-cgt-contra-el-gobierno-javier-milei-n5927794/amp"
+   ]
+  },
+  {
+   "fecha": "2024-01-25",
+   "actores": [
+    "Guillermo Ferraro (ministro de Infraestructura)",
+    "Javier Milei"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Milei le pidió la renuncia al ministro de Infraestructura, a 45 días de asumir, en medio de la negociación de la Ley Bases y acusaciones por filtraciones. La salida se oficializó el 05/03/2024 y el ministerio se disolvió.",
+   "estado": "cerrada (ministerio disuelto)",
+   "gravedad_sugerida": 2,
+   "criterio": "Primer ministro en salir; sin efecto legislativo directo.",
+   "fuentes": [
+    "https://eleconomista.com.ar/politica/javier-milei-le-pidio-renuncia-guillermo-ferraro-motivos-n70373",
+    "https://diariodecuyo.com.ar/argentina/Oficializaron-la-renuncia-de-Guillermo-Ferraro-como-ministro-de-Infraestructura-20240305-0002.html",
+    "https://www.inforegion.com.ar/2026/03/04/renuncia-en-el-gabinete-uno-por-uno-los-ministros-que-dejaron-el-gobierno-de-javier-milei/"
+   ],
+   "discrepancias": "Ámbito fecha la salida el 26/02/2024; InfoRegión y Diario de Cuyo, el 05/03/2024 (oficialización)."
+  },
+  {
+   "fecha": "2024-05-09",
+   "actores": [
+    "CGT",
+    "Gobierno nacional"
+   ],
+   "tipo": "sindicatos",
+   "que_paso": "Segundo paro general de la CGT contra el gobierno.",
+   "estado": "cerrada (medida puntual)",
+   "gravedad_sugerida": 2,
+   "criterio": "Paro general de un actor externo a la coalición.",
+   "fuentes": [
+    "https://www.diariodecuyo.com.ar/argentina/milei-enfrentara-su-cuarto-paro-de-la-cgt-en-802-dias-y-queda-a-uno-del-record-de-macri-1833618.html",
+    "https://www.todojujuy.com/pais/la-cgt-confirmo-el-segundo-paro-contra-del-gobierno-javier-milei-n249204"
+   ]
+  },
+  {
+   "fecha": "2024-05-27",
+   "actores": [
+    "Nicolás Posse (jefe de Gabinete)",
+    "Guillermo Francos"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Renunció el jefe de Gabinete Nicolás Posse tras conflictos con el entorno presidencial y críticas a su manejo de la agenda parlamentaria. Lo reemplazó el ministro del Interior, Guillermo Francos.",
+   "estado": "cerrada (reemplazado)",
+   "gravedad_sugerida": 3,
+   "criterio": "Salida del jefe de Gabinete.",
+   "fuentes": [
+    "https://www.ntn24.com/noticias-politica/renuncio-el-jefe-de-gabinete-de-javier-milei-nicolas-posse-y-asume-el-cargo-el-ministro-del-interior-492881",
+    "https://www.inforegion.com.ar/2026/03/04/renuncia-en-el-gabinete-uno-por-uno-los-ministros-que-dejaron-el-gobierno-de-javier-milei/"
+   ]
+  },
+  {
+   "fecha": "2024-08-26",
+   "actores": [
+    "Lourdes Arrieta (diputada)",
+    "Bloque La Libertad Avanza",
+    "Martín Menem"
+   ],
+   "tipo": "partido",
+   "que_paso": "LLA resolvió expulsar de su bloque a la diputada Lourdes Arrieta, tras la difusión de la visita de legisladores libertarios a condenados por delitos de lesa humanidad en Ezeiza y las denuncias que ella presentó contra integrantes de su propio bloque.",
+   "estado": "cerrada (Arrieta quedó fuera del bloque; en 2025 se sumó al bloque Coherencia)",
+   "gravedad_sugerida": 1,
+   "criterio": "Una banca; sin efecto sobre mayorías.",
+   "fuentes": [
+    "https://www.lacapital.com.ar/politica/la-diputada-lourdes-arrieta-sera-expulsada-del-bloque-la-libertad-avanza-n10150221.html",
+    "https://www.c5n.com/politica/lourdes-arrieta-libertad-avanza-expulsion-bloque-diputados/amp"
+   ],
+   "nota": "La nota del 26/08/2024 anuncia la expulsión para la reunión de bloque del martes siguiente; no se verificó la fecha exacta de la reunión."
+  },
+  {
+   "fecha": "2024-09-27",
+   "actores": [
+    "Mario Russo (ministro de Salud)"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Renunció el ministro de Salud, Mario Russo, invocando razones personales. Lo reemplazó Mario Lugones.",
+   "estado": "cerrada (reemplazado)",
+   "gravedad_sugerida": 1,
+   "criterio": "Salida de un ministro sin conflicto político público con la conducción.",
+   "fuentes": [
+    "https://www.ambito.com/politica/nueva-salida-del-gobierno-se-va-el-ministro-salud-mario-russo-n6064355/amp",
+    "https://www.palabrasdelderecho.com.ar/articulo/5441/Luego-de-la-renuncia-de-Russo,-oficializan-al-nuevo-Ministro-de-Salud"
+   ]
+  },
+  {
+   "fecha": "2024-10-30",
+   "actores": [
+    "Diana Mondino (canciller)",
+    "Javier Milei"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Milei desplazó a la canciller Diana Mondino después de que Argentina votara en la ONU contra el embargo a Cuba. La reemplazó Gerardo Werthein.",
+   "estado": "cerrada (reemplazada)",
+   "gravedad_sugerida": 2,
+   "criterio": "Salida forzada de una ministra por diferencias de política exterior.",
+   "fuentes": [
+    "https://www.losandes.com.ar/politica/milei-echo-a-la-canciller-diana-mondino-tras-votar-a-favor-de-cuba-en-la-onu/",
+    "https://www.cadena3.com/noticia/politica-y-economia/milei-echo-a-mondino-por-votar-contra-el-embargo-a-cuba-la-reemplaza-werthein_399855"
+   ]
+  },
+  {
+   "fecha": "2025-01-30",
+   "actores": [
+    "Ramiro Marra (legislador porteño)",
+    "La Libertad Avanza",
+    "Karina Milei"
+   ],
+   "tipo": "partido",
+   "que_paso": "LLA anunció la expulsión 'irreversible' de Ramiro Marra, uno de sus fundadores, por votar en la Legislatura porteña un aumento de impuestos impulsado por Jorge Macri y no seguir las directivas del partido.",
+   "estado": "cerrada (expulsado)",
+   "gravedad_sugerida": 1,
+   "criterio": "Dirigente distrital; sin efecto en el Congreso nacional.",
+   "fuentes": [
+    "https://www.noticiasnqn.com.ar/noticias/2025/01/30/308980-la-libertad-avanza-expulso-de-manera-irreversible-a-ramiro-marra",
+    "https://www.iprofesional.com/politica/421670-por-que-la-libertad-avanza-echo-a-ramiro-marra"
+   ],
+   "nota": "La nota de iProfesional podría ser anterior (fines de 2024); no se verificó su fecha."
+  },
+  {
+   "fecha": "2025-04-10",
+   "actores": [
+    "CGT",
+    "Gobierno nacional"
+   ],
+   "tipo": "sindicatos",
+   "que_paso": "Tercer paro general de la CGT contra el gobierno.",
+   "estado": "cerrada (medida puntual)",
+   "gravedad_sugerida": 2,
+   "criterio": "Paro general de un actor externo a la coalición.",
+   "fuentes": [
+    "https://www.diariodecuyo.com.ar/argentina/milei-enfrentara-su-cuarto-paro-de-la-cgt-en-802-dias-y-queda-a-uno-del-record-de-macri-1833618.html",
+    "https://www.todojujuy.com/pais/cuando-es-el-paro-la-cgt-abril-2025-n266343"
+   ]
+  },
+  {
+   "fecha": "2025-07-10",
+   "actores": [
+    "Victoria Villarruel (vicepresidenta)",
+    "Patricia Bullrich (ministra de Seguridad)",
+    "Javier Milei"
+   ],
+   "tipo": "vicepresidencia",
+   "que_paso": "Villarruel presidió la sesión del Senado convocada por la oposición que aprobó, entre otras, la suba jubilatoria y la emergencia en discapacidad. Bullrich la acusó públicamente y ella respondió en redes; el 23/07/2025 Milei también la criticó por sus declaraciones sobre el financiamiento de esas leyes.",
+   "estado": "abierta (la relación no se recompuso; ver 2026-08-03)",
+   "gravedad_sugerida": 3,
+   "criterio": "Choque abierto entre el Ejecutivo y la vicepresidenta que preside el Senado.",
+   "fuentes": [
+    "https://www.sitioandino.com.ar/politica/la-dura-respuesta-villarruel-bullrich-la-democracia-fue-denigrada-cuando-personas-como-usted-manejaron-el-pais-n5703356",
+    "https://misionesonline.net/2025/07/10/bullrich-critico-a-victoria-villarruel-por-habilitar-la-sesion-en-el-senado/",
+    "https://www.iprofesional.com/politica/433634-milei-califico-a-villarruel-como-bruta-traidora-y-amenazo-a-la-oposicion"
+   ]
+  },
+  {
+   "fecha": "2025-08-05",
+   "actores": [
+    "Maximiliano Pullaro",
+    "Martín Llaryora",
+    "Ignacio Torres",
+    "Carlos Sadir",
+    "Claudio Vidal",
+    "Gustavo Valdés"
+   ],
+   "tipo": "gobernadores",
+   "que_paso": "Gobernadores que habían acompañado al gobierno en el Congreso lanzaron el frente Provincias Unidas para competir en las legislativas de 2025 y reclamar fondos (impuesto a los combustibles, ATN).",
+   "estado": "abierta (tras la derrota de 2025 el frente quedó como interbloque de 18 diputados y 2 senadores; algunos de sus gobernadores volvieron a acercarse a la Casa Rosada)",
+   "gravedad_sugerida": 2,
+   "criterio": "Separación electoral de gobernadores dialoguistas; impacto legislativo parcial.",
+   "fuentes": [
+    "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp",
+    "https://www.noticiasnqn.com.ar/noticias/2025/08/06/318165-gobernadores-arman-provincias-unidas-para-presionar-a-milei"
+   ]
+  },
+  {
+   "fecha": "2025-08-20",
+   "actores": [
+    "Marcela Pagano",
+    "Carlos D'Alessandro",
+    "Gerardo González",
+    "Lourdes Arrieta",
+    "Bloque La Libertad Avanza"
+   ],
+   "tipo": "partido",
+   "que_paso": "Tres diputados dejaron el bloque de LLA y, con Lourdes Arrieta, formaron el bloque Coherencia, el mismo día en que la Cámara rechazó el veto a la emergencia en discapacidad.",
+   "estado": "cerrada (el bloque se separó; los mandatos de algunos vencían en dic. 2025)",
+   "gravedad_sugerida": 2,
+   "criterio": "Ruptura de bloque en una votación de insistencia.",
+   "fuentes": [
+    "https://www.baenegocios.com/politica/Tres-diputados-se-alejan-de-La-Libertad-Avanza-y-conforman-su-bloque-20250820-0066.html",
+    "https://www.iprofesional.com/politica/435616-diputados-cuatro-diputados-abandonan-lla-y-conforman-un-nuevo-bloque-llamado-coherencia"
+   ]
+  },
+  {
+   "fecha": "2025-08-21",
+   "actores": [
+    "Diego Spagnuolo (titular de ANDIS)",
+    "Gobierno nacional"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Tras la difusión de audios atribuidos a Spagnuolo sobre presuntos pedidos de dinero a laboratorios, el gobierno lo desplazó 'preventivamente'; el Decreto 599/2025 dejó sin efecto su designación. La causa judicial se detalla en institucionalidad/corrupcion.json.",
+   "estado": "cerrada en el gabinete (desplazado); la causa judicial sigue abierta",
+   "gravedad_sugerida": 3,
+   "criterio": "Funcionario de rango secretario; los audios mencionaban a Karina Milei y a Eduardo 'Lule' Menem.",
+   "fuentes": [
+    "https://eleconomista.com.ar/politica/audios-coimas-una-renuncia-forzada-escandalo-sacude-agencia-discapacidad-n87755",
+    "https://chequeado.com/el-explicador/diego-spagnuolo-el-ex-titular-de-la-andis-despedido-tras-hablar-de-presuntas-coimas-es-una-de-las-4-personas-que-mas-visito-a-milei-en-olivos/"
+   ]
+  },
+  {
+   "fecha": "2025-10-05",
+   "actores": [
+    "José Luis Espert (diputado, candidato de LLA)",
+    "La Libertad Avanza"
+   ],
+   "tipo": "partido",
+   "que_paso": "Espert bajó su candidatura como primer candidato a diputado de LLA en Buenos Aires tras conocerse un pago de US$ 200.000 de una empresa vinculada a Fred Machado. La Justicia electoral resolvió que lo reemplazara Karen Reichardt.",
+   "estado": "cerrada en lo partidario; la causa judicial sigue abierta",
+   "gravedad_sugerida": 2,
+   "criterio": "Cambio de cabeza de lista a tres semanas de la elección.",
+   "fuentes": [
+    "https://www.diariodecuyo.com.ar/argentina/quien-va-a-encabezar-la-lista-de-diputados-de-la-libertad-avanza-tras-la-renuncia-de-espert-a-su-candidatura-1781208.html",
+    "https://chequeado.com/el-explicador/jose-luis-espert-citado-a-indagatoria-como-avanzo-la-causa-por-su-vinculo-con-fred-machado/"
+   ]
+  },
+  {
+   "fecha": "2025-10-22",
+   "actores": [
+    "Gerardo Werthein (canciller)",
+    "Pablo Quirno"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Renunció el canciller Gerardo Werthein, días antes de las legislativas. Lo reemplazó Pablo Quirno.",
+   "estado": "cerrada (reemplazado)",
+   "gravedad_sugerida": 2,
+   "criterio": "Segundo cambio de canciller.",
+   "fuentes": [
+    "https://www.diariodecuyo.com.ar/argentina/pablo-quirno-sera-el-nuevo-canciller-del-gobierno-de-javier-milei-1789780.html",
+    "https://www.ambito.com/politica/gabinete-javier-milei-cuantas-bajas-tuvo-y-quienes-son-los-funcionarios-que-dejaron-el-gobierno-que-asumio-n6204923"
+   ],
+   "discrepancias": "Ámbito fecha la salida el 22/10/2025; la renuncia trascendió el 21/10."
+  },
+  {
+   "fecha": "2025-10-31",
+   "actores": [
+    "Guillermo Francos (jefe de Gabinete)",
+    "Lisandro Catalán (ministro del Interior)",
+    "Santiago Caputo",
+    "Manuel Adorni"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Renunciaron el jefe de Gabinete Francos, tras presiones internas y un choque con el asesor Santiago Caputo, y su aliado Catalán en Interior. Adorni asumió la Jefatura de Gabinete y Diego Santilli el Ministerio del Interior.",
+   "estado": "cerrada (reemplazados)",
+   "gravedad_sugerida": 3,
+   "criterio": "Salida del jefe de Gabinete y del ministro a cargo de la relación con los gobernadores.",
+   "fuentes": [
+    "https://www.elancasti.com.ar/edicion-impresa/adorni-reemplaza-francos-como-jefe-gabinete-n597901",
+    "https://www.diariodecuyo.com.ar/argentina/tras-la-salida-de-guillermo-francos-lisandro-catalan-renuncio-como-ministro-del-interior-1793974.html",
+    "https://www.bloomberglinea.com/latinoamerica/argentina/jefe-de-gabinete-de-milei-renuncia-y-reaviva-tensiones-al-interior-del-gobierno-argentino/"
+   ]
+  },
+  {
+   "fecha": "2025-12-18",
+   "actores": [
+    "PRO (Cristian Ritondo)",
+    "UCR",
+    "Provincias Unidas",
+    "La Libertad Avanza",
+    "Unión por la Patria",
+    "Martín Menem"
+   ],
+   "tipo": "aliados",
+   "que_paso": "Diputados designó a los auditores de la AGN Rita Mónica Almada (LLA), Juan Ignacio Forlón (peronismo) y Pamela Calletti (Innovación Federal) por 186 votos. PRO, UCR y Provincias Unidas se retiraron denunciando un 'atropello institucional' y el PRO presentó un amparo el 21/12. Santilli negó una ruptura y dijo que es 'potestad del Congreso'.",
+   "estado": "abierta (no se encontró resolución del amparo)",
+   "gravedad_sugerida": 3,
+   "criterio": "Primer choque institucional abierto con el PRO, socio legislativo principal, con judicialización.",
+   "fuentes": [
+    "https://eleconomista.com.ar/politica/escandalo-diputados-pro-denuncia-pacto-lla-k-controlar-auditoria-general-nacion-n91386",
+    "https://www.palabrasdelderecho.com.ar/articulo/6470/El-PRO-inicio-un-amparo-para-frenar-las-designaciones-de-diputados-en-la-Auditoria-General-de-la-Nacion",
+    "https://www.baenegocios.com/amp/Santilli-defendio-las-asignaciones-en-la-AGN-Es-potestad-del-Congreso-20251222-0015/"
+   ]
+  },
+  {
+   "fecha": "2026-02-19",
+   "actores": [
+    "CGT",
+    "Gobierno nacional"
+   ],
+   "tipo": "sindicatos",
+   "que_paso": "Cuarto paro general de la CGT, el día en que Diputados trataba la reforma laboral; la central informó un acatamiento superior al 90 %. Diputados la aprobó en general 135-115 con apoyo del PRO y de gobernadores; luego se sancionó como Ley 27.802.",
+   "estado": "abierta (la CGT mantiene un plan de protesta; ver 2026-08-12)",
+   "gravedad_sugerida": 3,
+   "criterio": "Paro general contra la principal reforma del año.",
+   "fuentes": [
+    "https://www.losandes.com.ar/politica/la-cgt-realizo-su-cuarto-paro-general-la-gestion-milei-y-aseguro-un-acatamiento-superior-al-90-n5981188",
+    "https://www.diariodecuyo.com.ar/politica/diputados-aprobo-la-reforma-laboral-y-ahora-el-senado-tendra-la-ultima-palabra-1834942.html",
+    "https://eleconomista.com.ar/politica/la-cgt-anuncio-una-marcha-millones-endeudados-cuando-sera-pasa-paro-general-n97341"
+   ]
+  },
+  {
+   "fecha": "2026-03-04",
+   "actores": [
+    "Mariano Cúneo Libarona (ministro de Justicia)",
+    "Juan Bautista Mahiques"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Renunció el ministro de Justicia, Mariano Cúneo Libarona, por razones personales; lo reemplazó Juan Bautista Mahiques. Su salida se había anticipado en octubre de 2025.",
+   "estado": "cerrada (reemplazado)",
+   "gravedad_sugerida": 1,
+   "criterio": "Salida anunciada con meses de anticipación.",
+   "fuentes": [
+    "https://www.lacapital.com.ar/politica/milei-confirmo-la-renuncia-mariano-cuneo-libarona-y-anuncio-su-reemplazante-n10247479.html",
+    "https://www.anbariloche.com.ar/amp/noticias/2026/03/04/102741-renuncio-mariano-cuneo-libarona-al-ministerio-de-justicia",
+    "https://www.diariodecuyo.com.ar/politica/nueva-renuncia-en-el-gabinete-de-milei-mariano-cuneo-libarona-se-ira-despues-de-las-elecciones-1789674.html"
+   ]
+  },
+  {
+   "fecha": "2026-06-10",
+   "actores": [
+    "Karina Milei (secretaria general)",
+    "Santiago Caputo (asesor)",
+    "Patricia Bullrich (jefa del bloque de senadores)",
+    "Martín y Eduardo Menem"
+   ],
+   "tipo": "partido",
+   "que_paso": "Infobae describe disputas abiertas de Karina Milei con Santiago Caputo y Patricia Bullrich por la estrategia hacia 2027; según fuentes anónimas, se pidió a la IGJ investigar la fundación vinculada a Caputo.",
+   "estado": "abierta",
+   "gravedad_sugerida": 2,
+   "criterio": "Interna en el núcleo del poder, basada mayormente en fuentes reservadas.",
+   "fuentes": [
+    "https://www.infobae.com/politica/2026/06/10/rodeada-por-las-internas-karina-milei-se-muestra-hiperactiva-y-ordena-a-su-tropa-de-cara-a-2027/",
+    "https://noticias.perfil.com/noticias/politica/por-que-se-recalento-la-interna-de-karina-milei-y-santiago-caputo-tras-el-triunfo.phtml"
+   ],
+   "nota": "Las afirmaciones provienen de fuentes no identificadas; tratarlas como versiones periodísticas."
+  },
+  {
+   "fecha": "2026-06-27",
+   "actores": [
+    "Manuel Adorni (jefe de Gabinete)",
+    "Diego Santilli",
+    "Javier Milei",
+    "Karina Milei"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Renunció el jefe de Gabinete Manuel Adorni, investigado por presunto enriquecimiento ilícito. Diego Santilli juró el 30/06/2026 como cuarto jefe de Gabinete; el Decreto 571/2026 suprimió el Ministerio del Interior y pasó sus funciones a la Jefatura.",
+   "estado": "cerrada en el gabinete (reemplazado); la causa judicial sigue abierta",
+   "gravedad_sugerida": 3,
+   "criterio": "Salida del jefe de Gabinete por un escándalo judicial.",
+   "fuentes": [
+    "https://www.teletica.com/amp/deutsche-welle/milei-mueve-fichas-de-su-gabinete-tras-renuncia-de-adorni_412529",
+    "https://www.canal26.com/politica/2026/06/30/diego-santilli-jura-como-nuevo-jefe-de-gabinete-del-gobierno-de-milei/",
+    "https://www.tiempodesanjuan.com/politica/el-gobierno-reorganizo-su-estructura-elimino-el-ministerio-del-interior-y-transfirio-sus-funciones-a-la-jefatura-de-gabinete_1783101694"
+   ]
+  },
+  {
+   "fecha": "2026-07-07",
+   "actores": [
+    "Mauricio Macri",
+    "PRO",
+    "Javier Milei",
+    "Karina Milei",
+    "Jorge Macri"
+   ],
+   "tipo": "aliados",
+   "que_paso": "Según la prensa, Macri explora una alternativa de centro con candidato presidencial propio para 2027 y se opone a una alianza con LLA en la Ciudad. El 13/08/2026 hubo una reunión formal PRO–gobierno en Casa Rosada tras un llamado entre Karina Milei y Macri; el entorno de Macri habló de confianza 'rota' a reconstruir.",
+   "estado": "abierta (recomposición en curso, sin acuerdo electoral)",
+   "gravedad_sugerida": 3,
+   "criterio": "Distanciamiento con el principal socio político; hubo un intento de recomposición.",
+   "fuentes": [
+    "https://www.iprofesional.com/politica/459336-la-pelea-de-macri-y-milei-le-dificulta-apoyos-para-2027-y-alianzas-en-ciudad-y-provincias",
+    "https://eleconomista.com.ar/politica/macri-milei-vuelven-acercarse-pro-gobierno-ya-negocian-rumbo-2027-n97380",
+    "https://eleconomista.com.ar/politica/caba-pilar-ramirez-descarto-lla-compita-sola-puso-duda-una-alianza-pro-n97114"
+   ]
+  },
+  {
+   "fecha": "2026-08-03",
+   "actores": [
+    "Javier Milei",
+    "Victoria Villarruel (vicepresidenta)"
+   ],
+   "tipo": "vicepresidencia",
+   "que_paso": "Villarruel expresó preocupación por el 'estado' del Presidente; Milei respondió que es una 'opositora' del gobierno y una figura 'intrascendente', y criticó sus encuentros con gobernadores peronistas.",
+   "estado": "abierta",
+   "gravedad_sugerida": 3,
+   "criterio": "El Presidente define públicamente a su vicepresidenta como opositora.",
+   "fuentes": [
+    "https://www.losandes.com.ar/politica/milei-redoblo-la-pelea-villarruel-y-la-trato-opositora-del-gobierno-es-una-intrascendente-n6000904",
+    "https://www.iprofesional.com/politica/461411-milei-reavivo-la-interna-con-villarruel-y-critico-sus-posturas-cercanas-al-kirchnerismo"
+   ]
+  },
+  {
+   "fecha": "2026-08-06",
+   "actores": [
+    "UCR (Sanz, Negri, Jesús Rodríguez)",
+    "Gobernadores radicales"
+   ],
+   "tipo": "aliados",
+   "que_paso": "Un sector de dirigentes históricos de la UCR propuso que el partido tenga candidato presidencial propio en 2027, como alternativa al gobierno y al kirchnerismo. Los gobernadores radicales (Pullaro, Valdés, Zdero, Cornejo, Sadir) no participaron y siguen acompañando 'con matices' en el Congreso.",
+   "estado": "abierta",
+   "gravedad_sugerida": 2,
+   "criterio": "Distanciamiento de un sector partidario sin efecto inmediato en las votaciones.",
+   "fuentes": [
+    "https://www.lanacion.com.ar/politica/sanz-negri-y-jesus-rodriguez-piden-que-la-ucr-tenga-un-candidato-a-presidente-en-2027-para-enfrentar-nid06082026/",
+    "https://www.lavozdesanjusto.com.ar/crece-la-fractura-en-la-ucr-cordobesa-por-el-acercamiento-a-milei"
+   ]
+  },
+  {
+   "fecha": "2026-08-12",
+   "actores": [
+    "CGT",
+    "Gobierno nacional"
+   ],
+   "tipo": "sindicatos",
+   "que_paso": "La CGT anunció una movilización por el endeudamiento de los hogares y debatió un quinto paro general, en el marco de su plan de protesta contra la reforma laboral (Ley 27.802). En mayo, el gobierno había congelado el diálogo con la central.",
+   "estado": "abierta",
+   "gravedad_sugerida": 2,
+   "criterio": "Conflicto sostenido; a la fecha de corte no se encontró un quinto paro convocado.",
+   "fuentes": [
+    "https://eleconomista.com.ar/politica/la-cgt-anuncio-una-marcha-millones-endeudados-cuando-sera-pasa-paro-general-n97341",
+    "https://www.canal26.com/politica/2026/05/01/el-gobierno-congelo-el-dialogo-con-la-cgt-de-que-se-trata-la-reforma-sindical-que-proyecta-para-el-segundo-semestre-del-2026/"
+   ]
+  },
+  {
+   "fecha": "2026-09-21",
+   "actores": [
+    "Alejandro Vilches (secretario nacional de Discapacidad)",
+    "Pablo Di Liscia"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Renunció el secretario nacional de Discapacidad, Alejandro Vilches, un día antes de que la Cámara Federal confirmara los procesamientos de la causa ANDIS; lo reemplazó Pablo Di Liscia. El mismo fin de semana renunció María Belén Agudiez, subsecretaria cercana a Karina Milei, sin motivo informado.",
+   "estado": "cerrada (reemplazado)",
+   "gravedad_sugerida": 1,
+   "criterio": "Segunda línea del gabinete.",
+   "fuentes": [
+    "https://www.noticiasnqn.com.ar/noticias/2026/09/21/353515-renuncio-alejandro-vilches-secretario-nacional-de-discapacidad",
+    "https://www.perfil.com/noticias/amp/politica/el-gobierno-oficializo-a-pablo-di-liscia-en-discapacidad-reemplaza-a-vilches-en-plena-discusion-por-el-presupuesto-2027.phtml",
+    "https://www.noticiasnqn.com.ar/noticias/2026/09/21/353461-renuncio-maria-belen-agudiez-funcionaria-cercana-a-karina-milei"
+   ]
+  }
+ ],
+ "relaciones": [
+  {
+   "actor": "Vicepresidenta",
+   "estado_sugerido": "ruptura",
+   "lectura": "Lectura propia: el Presidente la definió como 'opositora' y la relación no tuvo recomposición desde 2025.",
+   "ultimo_hecho": {
+    "fecha": "2026-08-03",
+    "hecho": "Milei la llamó 'opositora' e 'intrascendente' tras sus dichos sobre la salud del Presidente.",
+    "fuente": "https://www.losandes.com.ar/politica/milei-redoblo-la-pelea-villarruel-y-la-trato-opositora-del-gobierno-es-una-intrascendente-n6000904"
+   }
+  },
+  {
+   "actor": "Gabinete",
+   "estado_sugerido": "tensión",
+   "lectura": "Lectura propia: cuatro jefes de Gabinete en 31 meses; la última salida fue por una investigación judicial.",
+   "ultimo_hecho": {
+    "fecha": "2026-09-21",
+    "hecho": "Renunció el secretario nacional de Discapacidad, Alejandro Vilches.",
+    "fuente": "https://www.noticiasnqn.com.ar/noticias/2026/09/21/353515-renuncio-alejandro-vilches-secretario-nacional-de-discapacidad"
+   }
+  },
+  {
+   "actor": "Interna de La Libertad Avanza",
+   "estado_sugerido": "tensión",
+   "lectura": "Lectura propia: disputa Karina Milei–Santiago Caputo y fricción con Bullrich, sin rupturas formales de bloque en 2026.",
+   "ultimo_hecho": {
+    "fecha": "2026-06-10",
+    "hecho": "Infobae describe disputas abiertas de Karina Milei con Caputo y Bullrich de cara a 2027.",
+    "fuente": "https://www.infobae.com/politica/2026/06/10/rodeada-por-las-internas-karina-milei-se-muestra-hiperactiva-y-ordena-a-su-tropa-de-cara-a-2027/"
+   }
+  },
+  {
+   "actor": "PRO",
+   "estado_sugerido": "tensión",
+   "lectura": "Lectura propia: vota con el gobierno las leyes clave, pero la relación política se rompió y está en recomposición.",
+   "ultimo_hecho": {
+    "fecha": "2026-08-13",
+    "hecho": "Reunión formal PRO–gobierno en Casa Rosada (Santilli, Lule Menem, Ritondo, De Andreis) tras un llamado entre Karina Milei y Mauricio Macri.",
+    "fuente": "https://eleconomista.com.ar/politica/macri-milei-vuelven-acercarse-pro-gobierno-ya-negocian-rumbo-2027-n97380"
+   }
+  },
+  {
+   "actor": "UCR",
+   "estado_sugerido": "tensión",
+   "lectura": "Lectura propia: los gobernadores radicales acompañan 'con matices'; un sector del partido busca candidato propio para 2027.",
+   "ultimo_hecho": {
+    "fecha": "2026-08-06",
+    "hecho": "Sanz, Negri y Jesús Rodríguez proponen un candidato presidencial radical para 2027.",
+    "fuente": "https://www.lanacion.com.ar/politica/sanz-negri-y-jesus-rodriguez-piden-que-la-ucr-tenga-un-candidato-a-presidente-en-2027-para-enfrentar-nid06082026/"
+   }
+  },
+  {
+   "actor": "Gobernadores que negocian con el gobierno",
+   "estado_sugerido": "alineado",
+   "lectura": "Lectura propia: negocian el Presupuesto 2027 y la suspensión de las PASO sin conflicto público; el apoyo es transaccional. La postura de cada gobernador, provincia por provincia, está en la sección Afinidades.",
+   "ultimo_hecho": {
+    "fecha": "2026-09-16",
+    "hecho": "Santilli recibió a Jalil, Valdés, Sáenz y Jaldo (y luego a Sadir y Melella) para negociar el Presupuesto 2027 y las PASO; la reunión con Zdero se postergó.",
+    "fuente": "https://www.c5n.com/politica/reunion-diego-santilli-gobernadores-presupuesto-paso-miercoles-16-septiembre-2026"
+   }
+  },
+  {
+   "actor": "Gobernadores opositores",
+   "estado_sugerido": "ruptura",
+   "lectura": "Lectura propia, sobre todo por el eje con Kicillof: varias demandas ante la Corte Suprema. El grupo es heterogéneo.",
+   "ultimo_hecho": {
+    "fecha": "2026-04-21",
+    "hecho": "Audiencia en la Corte Suprema entre Nación y Buenos Aires por la deuda de ANSES con el IPS bonaerense, una de las siete demandas de Kicillof.",
+    "fuente": "https://www.letrap.com.ar/axel-kicillof-vs-javier-milei-los-fondos-que-la-corte-suprema-y-la-crisis-hagan-el-trabajo-n5423078"
+   },
+   "nota": "No se encontró un hecho de septiembre u octubre de 2026 con gobernadores opositores; el dato es de abril (convocatoria anunciada el 11/04)."
+  },
+  {
+   "actor": "CGT y sindicatos",
+   "estado_sugerido": "ruptura",
+   "lectura": "Lectura propia: cuatro paros generales, diálogo congelado desde mayo de 2026 y plan de protesta en curso.",
+   "ultimo_hecho": {
+    "fecha": "2026-08-12",
+    "hecho": "La CGT convocó una marcha al Ministerio de Economía y debatió un quinto paro general.",
+    "fuente": "https://eleconomista.com.ar/politica/la-cgt-anuncio-una-marcha-millones-endeudados-cuando-sera-pasa-paro-general-n97341"
+   }
+  }
+ ],
+ "indicadores": {
+  "fracturas_abiertas": {
+   "valor": 9,
+   "nota": "Cálculo propio: entradas del timeline con estado 'abierta' (las cerradas en el gabinete con causa judicial abierta no se cuentan)."
+  },
+  "ministros_y_jefes_de_gabinete_que_dejaron_el_cargo": {
+   "valor": 11,
+   "nota": "Cálculo propio: personas que dejaron un ministerio o la Jefatura de Gabinete. No incluye a Francos y Santilli al pasar de Interior a la Jefatura; Francos cuenta una vez, por su salida de 2025.",
+   "lista": [
+    {
+     "nombre": "Guillermo Ferraro",
+     "cargo": "Infraestructura",
+     "fecha": "2024-01-25 (pedido de renuncia); oficializada 2024-03-05",
+     "reemplazo": "ministerio disuelto"
+    },
+    {
+     "nombre": "Nicolás Posse",
+     "cargo": "Jefe de Gabinete",
+     "fecha": "2024-05-27",
+     "reemplazo": "Guillermo Francos"
+    },
+    {
+     "nombre": "Mario Russo",
+     "cargo": "Salud",
+     "fecha": "2024-09-27",
+     "reemplazo": "Mario Lugones"
+    },
+    {
+     "nombre": "Diana Mondino",
+     "cargo": "Relaciones Exteriores",
+     "fecha": "2024-10-30",
+     "reemplazo": "Gerardo Werthein"
+    },
+    {
+     "nombre": "Gerardo Werthein",
+     "cargo": "Relaciones Exteriores",
+     "fecha": "2025-10-22",
+     "reemplazo": "Pablo Quirno"
+    },
+    {
+     "nombre": "Guillermo Francos",
+     "cargo": "Jefe de Gabinete",
+     "fecha": "2025-10-31",
+     "reemplazo": "Manuel Adorni"
+    },
+    {
+     "nombre": "Lisandro Catalán",
+     "cargo": "Interior",
+     "fecha": "2025-10-31",
+     "reemplazo": "Diego Santilli"
+    },
+    {
+     "nombre": "Patricia Bullrich",
+     "cargo": "Seguridad",
+     "fecha": "2025-12 (Monteoliva juró el martes 02/12/2025)",
+     "reemplazo": "Alejandra Monteoliva",
+     "motivo": "asumió como senadora de LLA"
+    },
+    {
+     "nombre": "Luis Petri",
+     "cargo": "Defensa",
+     "fecha": "2025-12-10",
+     "reemplazo": "Gral. Carlos Presti",
+     "motivo": "asumió como diputado"
+    },
+    {
+     "nombre": "Mariano Cúneo Libarona",
+     "cargo": "Justicia",
+     "fecha": "2026-03-04",
+     "reemplazo": "Juan Bautista Mahiques"
+    },
+    {
+     "nombre": "Manuel Adorni",
+     "cargo": "Jefe de Gabinete",
+     "fecha": "2026-06-27",
+     "reemplazo": "Diego Santilli (juró el 30/06/2026)"
+    }
+   ],
+   "fuentes": [
+    "https://www.inforegion.com.ar/2026/03/04/renuncia-en-el-gabinete-uno-por-uno-los-ministros-que-dejaron-el-gobierno-de-javier-milei/",
+    "https://www.ambito.com/politica/gabinete-javier-milei-cuantas-bajas-tuvo-y-quienes-son-los-funcionarios-que-dejaron-el-gobierno-que-asumio-n6204923",
+    "https://www.baenegocios.com/politica/Monteoliva-jurara-el-martes-como-ministra-Presti-el-10-de-diciembre-20251128-0084.html",
+    "https://www.canal26.com/politica/2026/06/28/javier-milei-anuncio-que-diego-santilli-reemplazara-a-manuel-adorni-como-jefe-de-gabinete/"
+   ]
+  },
+  "cambios_de_gabinete_desde_2023_12": {
+   "valor": 12,
+   "nota": "Cálculo propio: las 11 salidas anteriores más el pase de Santilli de Interior a la Jefatura, con la supresión del Ministerio del Interior (Decreto 571/2026). No cuenta el pase de Francos de Interior a la Jefatura (2024), que coincide con la salida de Posse.",
+   "otras_mediciones": [
+    {
+     "fecha": "2026-06-01",
+     "valor": "8 cambios de ministros; 258 altos funcionarios salientes en 904 días",
+     "fuente": "https://www.infobae.com/economia/2026/06/02/cuantos-funcionarios-dejaron-el-gobierno-desde-su-inicio-en-2023-y-cual-es-el-ministerio-que-mas-bajas-tuvo/",
+     "nota": "Informe privado del politólogo Pablo Salinas; no explica cómo cuenta los ministros."
+    }
+   ]
+  },
+  "jefes_de_gabinete": {
+   "valor": 4,
+   "lista": [
+    "Nicolás Posse",
+    "Guillermo Francos",
+    "Manuel Adorni",
+    "Diego Santilli (actual)"
+   ],
+   "fuente": "https://www.teletica.com/amp/deutsche-welle/milei-mueve-fichas-de-su-gabinete-tras-renuncia-de-adorni_412529"
+  },
+  "bloques_aliados_congreso": {
+   "nota": "Lectura propia de 'aliado': bloques que acompañan en general al gobierno. La composición de Diputados es la del 03/12/2025 (vigente desde el 10/12/2025) y no se encontró una actualización de 2026. La del Senado sale del acta oficial 2623 (11/02/2026), ya cargada en datos/afinidades/senadores.json.",
+   "diputados": {
+    "fecha": "2025-12-03",
+    "oficialismo": {
+     "La Libertad Avanza": 95
+    },
+    "aliados_habituales": {
+     "PRO": 12,
+     "Innovación Federal": 7,
+     "bloque de Catamarca (alineado con Jalil)": 3,
+     "interbloque PRO + UCR (6) + MID + otros": "sin total publicado"
+    },
+    "dialoguistas_variables": {
+     "Provincias Unidas": 18
+    },
+    "fuente": "https://www.lagaceta.com.ar/nota/1115372/politica/nuevo-mapa-diputados-como-quedaron-bloques-tras-jura-nuevos-legisladores.html"
+   },
+   "senado": {
+    "fecha": "2026-02-11",
+    "oficialismo": {
+     "La Libertad Avanza": 21
+    },
+    "aliados_habituales": {
+     "UCR": 10,
+     "Frente PRO": 3
+    },
+    "provinciales_variables": {
+     "Frente Cívico por Santiago": 2,
+     "Movere Santa Cruz": 2,
+     "Movimiento por Misiones": 2,
+     "Provincias Unidas": 2,
+     "Despierta Chubut": 1,
+     "Independencia": 1,
+     "La Neuquinidad": 1,
+     "Primero los Salteños": 1
+    },
+    "fuente": "https://www.senado.gob.ar/votaciones/detalleActa/2623",
+    "fuente_local": "datos/afinidades/senadores.json"
+   },
+   "bloques_aliados_valor_sugerido": {
+    "valor": 3,
+    "detalle": "PRO, UCR e Innovación Federal (lectura propia; los bloques provinciales votan según la negociación)."
+   }
+  }
+ }
+}

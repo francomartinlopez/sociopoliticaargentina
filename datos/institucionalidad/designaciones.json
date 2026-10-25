@@ -1,0 +1,145 @@
+{
+ "meta": {
+  "titulo": "Designaciones: Corte Suprema, pliegos judiciales y organismos de control",
+  "actualizado": "2026-10-25",
+  "relacion": "Los conteos de vacantes, pliegos y Corte salen de datos/justicia/estado.json (corte 25/10/2026). Este archivo agrega la cronología de las designaciones por decreto y los organismos de control."
+ },
+ "kpis": {
+  "integrantes_corte": {"valor": 3, "de": 5, "fuente_local": "datos/justicia/estado.json"},
+  "cargos_judiciales_vacantes": {"valor": 298, "pct": 29.7, "fecha": "2026-10-18", "fuente_local": "datos/justicia/estado.json"},
+  "pliegos_enviados_2026": {"valor": 218, "fecha": "2026-09-03", "fuente_local": "datos/justicia/estado.json"},
+  "pliegos_aprobados_senado_2026": {"valor": 129, "fecha": "2026-08-27", "fuente_local": "datos/justicia/estado.json", "nota": "La suma de sesiones da 141; ver nota_inconsistencia en estado.json."},
+  "pliegos_rechazados_desde_2023_12": {"valor": 2, "detalle": "Lijo y García-Mansilla, 03/04/2025"},
+  "designaciones_corte_por_decreto": {"valor": 2, "detalle": "Decreto 137/2025 (Lijo y García-Mansilla, 'en comisión')"},
+  "procurador_general": {"valor": "interino", "nombre": "Eduardo Casal", "fuente_local": "datos/justicia/estado.json"}
+ },
+ "corte_suprema_decreto_137_2025": [
+  {
+   "fecha": "2025-02-25",
+   "hecho": "El Decreto 137/2025 designó 'en comisión' (art. 99 inc. 19 CN, durante el receso del Senado) a Ariel Lijo y Manuel García-Mansilla como jueces de la Corte Suprema.",
+   "posicion_gobierno": "El gobierno sostuvo que el decreto era una facultad constitucional y no retiró los pliegos, a la espera de que el Senado se pronunciara.",
+   "fuentes": [
+    "https://www.diariojudicial.com/news-100411-40-dias-y-40-noches",
+    "https://www.lacapital.com.ar/politica/el-gobierno-no-retirara-los-pliegos-lijo-y-garcia-mansilla-y-espera-una-definicion-del-senado-n10186415.html/amp"
+   ]
+  },
+  {
+   "fecha": "2025-02-27",
+   "hecho": "García-Mansilla juró ante la Corte. Lijo no juró: pidió una licencia extraordinaria en su juzgado federal para conservarlo y la Corte se la rechazó.",
+   "fuentes": [
+    "https://www.diariodecuyo.com.ar/argentina/sin-familiares-ni-periodistas-juro-uno-de-los-dos-nuevos-jueces-de-la-corte-1708014.html",
+    "https://www.c5n.com/politica/el-gobierno-acepto-la-renuncia-manuel-garcia-mansilla-la-corte-suprema-n197909/amp"
+   ]
+  },
+  {
+   "fecha": "2025-04-03",
+   "hecho": "El Senado rechazó ambos pliegos: Lijo 27 a favor, 43 en contra y 1 abstención; García-Mansilla 20 a favor y 51 en contra.",
+   "fuentes": [
+    "https://www.diariodecuyo.com.ar/argentina/el-senado-rechazo-los-pliegos-de-lijo-y-garcia-mansilla-como-jueces-de-la-corte-suprema-1718500.html",
+    "https://www.c5n.com/politica/el-gobierno-acepto-la-renuncia-manuel-garcia-mansilla-la-corte-suprema-n197909/amp"
+   ]
+  },
+  {
+   "fecha": "2025-04-07",
+   "hecho": "Renunció García-Mansilla, tras unos 40 días en la Corte. El Decreto 276/2025, publicado el 16-17/04/2025, aceptó la renuncia con efecto desde el 07/04.",
+   "fuentes": [
+    "https://www.c5n.com/politica/el-gobierno-acepto-la-renuncia-manuel-garcia-mansilla-la-corte-suprema-n197909/amp",
+    "https://www.diariojudicial.com/news-100411-40-dias-y-40-noches"
+   ],
+   "discrepancias": "Diario Judicial dice que la carta de renuncia se presentó el 14/04; el decreto fija la vigencia desde el 07/04."
+  },
+  {
+   "fecha": "2025-04-17",
+   "hecho": "El juez federal Alejo Ramos Padilla (La Plata) declaró inconstitucional el Decreto 137/2025 en un amparo presentado por organizaciones.",
+   "fuentes": [
+    "https://www.cadena3.com/noticia/politica-y-economia/ramos-padilla-declaro-inconstitucional-la-designacion-de-garcia-mansilla-y-lijo_416010",
+    "https://www.elmarplatense.com/ramos-padilla-declaro-inconstitucional-el-decreto-que-nombro-a-garcia-mansilla-y-lijo"
+   ]
+  },
+  {
+   "fecha": "2026-09-03",
+   "hecho": "La Corte sigue con tres ministros (Rosatti, Rosenkrantz, Lorenzetti). El gobierno no envió nuevos candidatos; el ministro Mahiques dijo que Milei 'estudia candidatos'.",
+   "fuentes": [
+    "https://www.infobae.com/politica/2026/09/03/sin-definiciones-sobre-la-corte-el-gobierno-avanza-con-una-nueva-reforma-de-juzgados-y-un-record-de-designaciones/",
+    "https://www.lapoliticaonline.com/politica/mahiques-confirmo-que-avanza-la-designacion-de-jueces-en-la-corte-pero-nego-que-analicen-ampliarla-4643/"
+   ]
+  }
+ ],
+ "pliegos_judiciales": {
+  "resumen": "En 2026 el gobierno retomó los envíos: 218 pliegos elevados al 03/09/2026 (100 designados, 111 en el Senado, 7 en Presidencia). El 08/09/2026 se firmaron 63 decretos de designación y Mahiques habló de 166 designaciones en el último año. Para 2024-2025, una fuente sostiene que casi no se elevaron pliegos.",
+  "fuente_local": "datos/justicia/estado.json",
+  "otros_hechos": [
+   {
+    "fecha": "2026-05-14",
+    "hecho": "El Senado aprobó por 58-11 el nuevo acuerdo de Carlos Mahiques (mayor de 75 años) para seguir en la Cámara de Casación; es el padre del ministro de Justicia.",
+    "fuentes": ["https://www.senado.gob.ar/votaciones/detalleActa/2691", "https://chequeado.com/nota/juzgados-vacantes-la-mayoria-de-los-candidatos-que-envio-el-gobierno-de-milei-al-senado-son-parte-de-la-familia-judicial"],
+    "fuente_local": "datos/afinidades/FUENTES.md (acta 2691)"
+   },
+   {
+    "fecha": "2026-05-22",
+    "hecho": "Chequeado informó que la mayoría de los candidatos enviados al Senado pertenecen a la 'familia judicial'.",
+    "fuentes": ["https://chequeado.com/nota/juzgados-vacantes-la-mayoria-de-los-candidatos-que-envio-el-gobierno-de-milei-al-senado-son-parte-de-la-familia-judicial"]
+   }
+  ]
+ },
+ "organismos_de_control": [
+  {
+   "organismo": "Auditoría General de la Nación (AGN)",
+   "fecha": "2025-12-18",
+   "hecho": "Diputados designó a tres auditores por 186 votos y 3 abstenciones: Rita Mónica Almada (LLA), Juan Ignacio Forlón (peronismo) y Pamela Calletti (Innovación Federal). PRO, UCR y Provincias Unidas se retiraron y el PRO presentó un amparo el 21/12/2025, porque el tema no figuraba en el temario de las sesiones extraordinarias. No es una designación por decreto: la hizo la Cámara.",
+   "como_se_designa": "Siete miembros: tres por Diputados, tres por el Senado y el presidente, a propuesta del principal partido de oposición (art. 85 CN; art. 121 Ley 24.156).",
+   "estado": "en litigio (no se encontró resolución del amparo)",
+   "posicion_gobierno": "Santilli: 'Es potestad del Congreso'.",
+   "fuentes": [
+    "https://eleconomista.com.ar/politica/escandalo-diputados-pro-denuncia-pacto-lla-k-controlar-auditoria-general-nacion-n91386",
+    "https://www.palabrasdelderecho.com.ar/articulo/6470/El-PRO-inicio-un-amparo-para-frenar-las-designaciones-de-diputados-en-la-Auditoria-General-de-la-Nacion",
+    "https://www.baenegocios.com/amp/Santilli-defendio-las-asignaciones-en-la-AGN-Es-potestad-del-Congreso-20251222-0015/"
+   ]
+  },
+  {
+   "organismo": "Defensoría del Pueblo de la Nación",
+   "fecha": "2025-08-26",
+   "hecho": "El cargo está vacante desde abril de 2009, cuando terminó el mandato de Eduardo Mondino. En un fallo de agosto de 2025, Rosatti y Rosenkrantz exhortaron al Congreso a cumplir el art. 86 CN y designarlo.",
+   "responsable": "Congreso (lo designa con dos tercios de cada cámara; no es una omisión del Ejecutivo)",
+   "estado": "vacante",
+   "fuentes": [
+    "https://www.diariojudicial.com/news-101438-para-el-pueblo-lo-que-es-del-pueblo",
+    "https://www.diariojudicial.com/news-88067-el-defensor-no-puede-esperar-mas"
+   ],
+   "nota": "No se encontró ningún avance en 2026."
+  },
+  {
+   "organismo": "Procuración General de la Nación",
+   "hecho": "Eduardo Casal sigue como procurador interino. No se encontró ningún pliego enviado en 2026 para un titular.",
+   "estado": "interino",
+   "fuentes": ["https://www.diariojudicial.com/news-104569-eduardo-casal-fue-reelecto-como-presidente-de-la-asociacion-iberoamericana-de-ministerios-publicos"],
+   "fuente_local": "datos/justicia/estado.json"
+  },
+  {
+   "organismo": "Ente Nacional Regulador del Gas y la Electricidad (ENRGE)",
+   "fecha": "2026-05-05",
+   "hecho": "El Decreto 318/2026 designó el primer directorio del ente que unifica ENRE y ENARGAS (creado por la Ley Bases 27.742): Néstor Lamboglia como presidente, más Vicente Serra, Marcelo Nachon, Griselda Lambertini y Héctor Falzone. Hubo concurso público (Res. 388/25) y las ternas fueron al Congreso, que no se expidió en plazo. Lamboglia renunció con efecto desde el 01/06/2026 (Decreto 437/2026) y en julio se abrió un nuevo concurso (Res. SE 185/2026).",
+   "estado": "presidencia vacante, a cargo del vicepresidente",
+   "fuentes": [
+    "https://www.ambito.com/energia/designan-al-directorio-del-nuevo-ente-que-unifica-el-control-del-gas-y-la-electricidad-n6273941",
+    "https://eleconomista.com.ar/energia/la-silla-caliente-energia-economia-abrio-convocatoria-nuevo-presidente-enrge-n97047",
+    "https://www.infobae.com/economia/2026/06/02/cuantos-funcionarios-dejaron-el-gobierno-desde-su-inicio-en-2023-y-cual-es-el-ministerio-que-mas-bajas-tuvo/"
+   ]
+  },
+  {
+   "organismo": "INDEC",
+   "fecha": "2026-02-02",
+   "hecho": "Renunció el director del INDEC, Marco Lavagna; asumió Pedro Lines. El gobierno postergó la nueva metodología del IPC.",
+   "posicion_gobierno": "Caputo dijo que Lavagna quería aplicar el cambio de inmediato y que el gobierno prefería esperar a consolidar la desinflación para evitar sospechas de manipulación.",
+   "fuentes": [
+    "https://www.batimes.com.ar/news/economy/argentina-shelves-inflation-revamp-after-statistics-chief-quits.phtml",
+    "https://batimes.com.ar/news/economy/government-denies-interference-after-indec-chiefs-departure.phtml"
+   ]
+  }
+ ],
+ "faltantes": [
+  "Resolución del amparo del PRO contra la designación de auditores de la AGN.",
+  "Quién conduce hoy la Agencia de Acceso a la Información Pública: no se verificó si sigue Beatriz de Anchorena (designada en 2022 hasta 2027) ni si hubo reemplazo.",
+  "No se encontró un listado de designaciones por decreto en reguladores (ENACOM, CNRT, etc.) con o sin concurso."
+ ]
+}

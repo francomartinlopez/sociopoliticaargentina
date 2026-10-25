@@ -1,0 +1,1000 @@
+{
+ "meta": {
+  "actualizado": "2026-10-25",
+  "descripcion": "Elecciones 2027: calendario nacional y qué elige cada distrito. Ver FUENTES.md."
+ },
+ "nacional": {
+  "paso": {
+   "estado": "vigentes por ley; eliminación o suspensión en debate (a confirmar)",
+   "fecha_legal": "2027-08-08",
+   "regla": "Ley 26.571: segundo domingo de agosto del año de la elección nacional.",
+   "det": "Al 22/10/2026 no hay ley que elimine ni suspenda las PASO 2027. El proyecto del Ejecutivo (reforma electoral) está en la Comisión de Asuntos Constitucionales del Senado, sin dictamen ni consenso (15/09/2026). Bullrich pide aprobarlo antes de fin de año; Milei dijo el 22/10/2026 que 'no va a haber PASO'. Si no se sanciona una ley, se hacen el 8/8/2027.",
+   "fuentes": [
+    "https://aldiaargentina.microjuris.com/2019/05/10/elecciones-nacionales-se-determina-la-fecha-de-las-paso-y-las-elecciones-generales-primera-y-segunda-vuelta/",
+    "https://www.tiempoar.com.ar/ta_article/el-senado-retomo-en-comision-el-debate-sobre-reforma-politica-sin-consenso-todavia-para-eliminar-las-paso/amp/",
+    "https://www.infozona.com.ar/suspension-de-las-paso-y-ficha-limpia-el-senado-debate-la-reforma-electoral-para-2027/",
+    "https://eldestapeweb.com/politica/javier-milei-medidas-gobierno-vivo-ultimas-noticias-22-octubre-minuto-minuto-2026102265413",
+    "https://www.perfil.com/noticias/politica/suspension-de-las-paso-2027-los-gobernadores-aliados-de-milei-abren-la-puerta-al-cambio-y-la-definicion-queda-en-manos-del-senado.phtml"
+   ]
+  },
+  "generales": {
+   "fecha": "2027-10-24",
+   "regla": "Código Electoral: cuarto domingo de octubre anterior al fin de los mandatos.",
+   "det": "Presidente y vice, 130 diputados nacionales y 24 senadores (8 provincias).",
+   "fuentes": [
+    "https://aldiaargentina.microjuris.com/2019/05/10/elecciones-nacionales-se-determina-la-fecha-de-las-paso-y-las-elecciones-generales-primera-y-segunda-vuelta/",
+    "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+   ]
+  },
+  "balotaje": {
+   "fecha": "2027-11-21",
+   "estado": "a confirmar (la fija el decreto de convocatoria)",
+   "regla": "Constitución Nacional, art. 96: segunda vuelta dentro de los 30 días posteriores a la primera. Solo si nadie supera el 45 %, o el 40 % con 10 puntos de diferencia.",
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+   ]
+  },
+  "diputados_total": 130,
+  "senado_provincias": [
+   "CATAMARCA",
+   "CHUBUT",
+   "CORDOBA",
+   "CORRIENTES",
+   "LA PAMPA",
+   "MENDOZA",
+   "SANTA FE",
+   "TUCUMAN"
+  ]
+ },
+ "provincias": {
+  "BUENOS AIRES": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": null,
+    "det": "A confirmar: Kicillof no definió; las primarias provinciales están atadas por ley al régimen nacional de PASO.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario",
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "bicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de Diputados y la mitad del Senado (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 35,
+    "det": "Renueva 35 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "CATAMARCA": {
+   "gob": {
+    "vota": true,
+    "fecha": "2027-10-24",
+    "estado_fecha": "a confirmar",
+    "desdobla": false,
+    "det": "El gobernador Jalil anunció que votará junto con la elección nacional (fecha nacional: 24/10/2027).",
+    "fuentes": [
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html",
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "bicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de Diputados y la mitad del Senado (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Elige 3 senadores nacionales (2 por la mayoría, 1 por la minoría).",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 2,
+    "det": "Renueva 2 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "CHACO": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "La ley obliga a votar en fecha distinta de la nacional, según la prensa. Fecha sin fijar.",
+    "fuentes": [
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de la Cámara de Diputados (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Renueva 3 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "CHUBUT": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "A confirmar: desdoblará; fecha en análisis entre julio y agosto de 2027.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario",
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "total",
+    "det": "Renovación total de la Legislatura.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Elige 3 senadores nacionales (2 por la mayoría, 1 por la minoría).",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Renueva 3 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "CIUDAD AUTONOMA DE BUENOS AIRES": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": null,
+    "det": "Elige Jefe de Gobierno. A confirmar: la fecha depende de la reforma política y de un posible acuerdo PRO-LLA.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario",
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de la Legislatura (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 12,
+    "det": "Renueva 12 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "CORDOBA": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": null,
+    "det": "A confirmar: muestra señales de desdoblar; sin fecha.",
+    "fuentes": [
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "total",
+    "det": "Renovación total de la Legislatura.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Elige 3 senadores nacionales (2 por la mayoría, 1 por la minoría).",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 9,
+    "det": "Renueva 9 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "CORRIENTES": {
+   "gob": {
+    "vota": false,
+    "fecha": null,
+    "estado_fecha": "no aplica",
+    "desdobla": null,
+    "det": "No elige gobernador en 2027 (lo eligió en 2025). Igual puede desdoblar su elección legislativa.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario",
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "bicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de Diputados y un tercio del Senado (senadores con mandato de 6 años, renovación por tercios cada 2 años).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/",
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ],
+    "nota": "A confirmar: Corrientes podría desdoblar la fecha de su elección legislativa (gobernador Valdés: 'seguramente')."
+   },
+   "sen": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Elige 3 senadores nacionales (2 por la mayoría, 1 por la minoría).",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 4,
+    "det": "Renueva 4 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "ENTRE RIOS": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "A confirmar: optaría por desdoblar; sin fecha.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "bicameral",
+    "renovacion": "total",
+    "det": "Renovación total de ambas cámaras.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 4,
+    "det": "Renueva 4 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "FORMOSA": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": null,
+    "det": "A confirmar: sin anuncio oficial de fecha.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de la Cámara de Diputados (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Renueva 3 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "JUJUY": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "A confirmar: se espera que adelante su elección (desdoblada); sin fecha.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de la Legislatura (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Renueva 3 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "LA PAMPA": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": null,
+    "det": "A confirmar: sin anuncio oficial de fecha.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "total",
+    "det": "Renovación total de la Cámara de Diputados.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Elige 3 senadores nacionales (2 por la mayoría, 1 por la minoría).",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 2,
+    "det": "Renueva 2 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "LA RIOJA": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": null,
+    "det": "A confirmar: sin anuncio oficial de fecha.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario",
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de la Legislatura (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Renueva 3 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "MENDOZA": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "A confirmar: según la prensa, la ley provincial obliga a desdoblar; PASO provinciales previstas para julio de 2027. Sin fecha oficial.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario",
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "bicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de Diputados y la mitad del Senado (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Elige 3 senadores nacionales (2 por la mayoría, 1 por la minoría).",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 5,
+    "det": "Renueva 5 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "MISIONES": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "A confirmar: el desdoblamiento se da por decidido; sin fecha.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de la Cámara de Representantes (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 4,
+    "det": "Renueva 4 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "NEUQUEN": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "A confirmar: planea desdoblar; posible convocatoria en agosto, sin fecha firme.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "total",
+    "det": "Renovación total de la Legislatura.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 2,
+    "det": "Renueva 2 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "RIO NEGRO": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "La ley obliga a votar en fecha distinta de la nacional, según la prensa. Fecha sin fijar.",
+    "fuentes": [
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html",
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "total",
+    "det": "Renovación total de la Legislatura.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Renueva 3 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "SALTA": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "A confirmar: se evalúa el 16 o el 23 de mayo de 2027 (desdoblada).",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "bicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de Diputados y la mitad del Senado (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 4,
+    "det": "Renueva 4 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "SAN JUAN": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "A confirmar: optaría por desdoblar; sin fecha.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "total",
+    "det": "Renovación total de la Cámara de Diputados.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Renueva 3 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "SAN LUIS": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": null,
+    "det": "A confirmar: sin definición; por antecedentes podría desdoblar.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "bicameral",
+    "renovacion": "parcial",
+    "det": "Renueva la mitad de Diputados y la mitad del Senado (la otra mitad se eligió en 2025).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 2,
+    "det": "Renueva 2 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "SANTA CRUZ": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": null,
+    "det": "A confirmar: ninguna fuente consultada menciona la fecha de Santa Cruz.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "total",
+    "det": "Renovación total de la Cámara de Diputados.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 2,
+    "det": "Renueva 2 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "SANTA FE": {
+   "gob": {
+    "vota": true,
+    "fecha": "2027-06-13",
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "Cronograma previsto: PASO provinciales 18/04/2027 y generales 13/06/2027. A confirmar: al 9/10/2026 el decreto de convocatoria no estaba firmado.",
+    "fuentes": [
+     "https://www.letrap.com.ar/politica/asi-sera-el-cronograma-electoral-santa-fe-2027-paso-el-18-abril-y-generales-el-13-junio-n5427251"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "bicameral",
+    "renovacion": "total",
+    "det": "Renovación total de ambas cámaras (Diputados: 50 bancas).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/",
+     "https://www.letrap.com.ar/politica/asi-sera-el-cronograma-electoral-santa-fe-2027-paso-el-18-abril-y-generales-el-13-junio-n5427251"
+    ]
+   },
+   "sen": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Elige 3 senadores nacionales (2 por la mayoría, 1 por la minoría).",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 10,
+    "det": "Renueva 10 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "SANTIAGO DEL ESTERO": {
+   "gob": {
+    "vota": false,
+    "fecha": null,
+    "estado_fecha": "no aplica",
+    "desdobla": null,
+    "det": "No elige gobernador en 2027 (lo eligió en 2025).",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": false,
+    "estructura": "unicameral",
+    "renovacion": null,
+    "det": "No renueva en 2027: la Cámara de Diputados se renovó en su totalidad en 2025 (mandato de 4 años).",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 4,
+    "det": "Renueva 4 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "TIERRA DEL FUEGO": {
+   "gob": {
+    "vota": true,
+    "fecha": null,
+    "estado_fecha": "a confirmar",
+    "desdobla": true,
+    "det": "Debe votar en fecha distinta de la nacional por disposición constitucional/legal. Fecha sin fijar.",
+    "fuentes": [
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario",
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "total",
+    "det": "Renovación total de la Legislatura.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": false,
+    "bancas": 0,
+    "det": "No elige senadores nacionales en 2027.",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Renueva 3 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  },
+  "TUCUMAN": {
+   "gob": {
+    "vota": true,
+    "fecha": "2027-05-09",
+    "estado_fecha": "fijada",
+    "desdobla": true,
+    "det": "Elección provincial el 9 de mayo de 2027, separada de la nacional.",
+    "fuentes": [
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html",
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+    ]
+   },
+   "leg": {
+    "vota": true,
+    "estructura": "unicameral",
+    "renovacion": "total",
+    "det": "Renovación total de la Legislatura.",
+    "fuentes": [
+     "https://es.wikipedia.org/wiki/Legislaturas_provinciales_de_Argentina",
+     "https://www.infobae.com/politica/2025/04/13/elecciones-2025-cuantas-bancas-hay-en-juego-en-los-13-distritos-que-eligen-legisladores-provinciales-este-ano/"
+    ]
+   },
+   "sen": {
+    "vota": true,
+    "bancas": 3,
+    "det": "Elige 3 senadores nacionales (2 por la mayoría, 1 por la minoría).",
+    "fuentes": [
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   },
+   "dip": {
+    "vota": true,
+    "bancas": 5,
+    "det": "Renueva 5 bancas de diputados nacionales.",
+    "fuentes": [
+     "https://www.todojujuy.com/congreso-cuantas-bancas-se-renovaran-n241293",
+     "https://en.wikipedia.org/wiki/2027_Argentine_general_election"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "meta": {
+  "titulo": "Causas judiciales que involucran a funcionarios del gobierno actual",
+  "actualizado": "2026-10-25",
+  "etapas": [
+   "denuncia",
+   "imputación",
+   "procesamiento",
+   "juicio",
+   "condena"
+  ],
+  "estados": [
+   "en trámite",
+   "desestimada y archivada",
+   "sobreseimiento",
+   "absolución"
+  ],
+  "aviso": "Una denuncia o un procesamiento no son condenas. 'etapa_maxima' es la etapa más avanzada que alcanzó la causa para alguno de los funcionarios o exfuncionarios mencionados, no para todos."
+ },
+ "casos": [
+  {
+   "caso": "$LIBRA (criptomoneda promocionada por el Presidente el 14/02/2025)",
+   "funcionarios": [
+    {
+     "nombre": "Javier Milei",
+     "rol": "Presidente"
+    },
+    {
+     "nombre": "Karina Milei",
+     "rol": "Secretaria General de la Presidencia"
+    }
+   ],
+   "otros_investigados": [
+    "Mauricio Novelli",
+    "Hayden Davis",
+    "Julian Peh",
+    "Manuel Terrones Godoy",
+    "Sergio Morales",
+    "María Pía Novelli",
+    "Orlando Mellino",
+    "otros"
+   ],
+   "delitos_investigados": "Estafa, cohecho, tráfico de influencias y abuso de autoridad.",
+   "etapa_maxima": "imputación",
+   "etapa_nota": "El fiscal Taiano impulsó la investigación y nombró al Presidente entre las personas cuya participación debía determinarse. Nadie fue llamado a indagatoria.",
+   "estado": "sobreseimiento",
+   "juzgado_fiscalia": "Juzgado Criminal y Correccional Federal a cargo de Marcelo Martínez de Giorgi (antes María Servini) · Fiscalía de Eduardo Taiano",
+   "ultima_novedad": {
+    "fecha": "2026-10-23",
+    "hecho": "A pedido del fiscal Taiano, Martínez de Giorgi sobreseyó a Javier y Karina Milei y a los otros nueve investigados, sin indagatorias. Antes, el 03/07/2026, había apartado a las querellas, y la Cámara Federal (Sala I) lo confirmó el 04/09/2026. Las quejas de los damnificados siguen pendientes en Casación."
+   },
+   "otros_hitos": [
+    {
+     "fecha": "2025 (fecha exacta no verificada)",
+     "hecho": "La comisión investigadora de Diputados presentó su informe final; según The Block, atribuye al Presidente una 'colaboración esencial' con el proyecto. No es una resolución judicial."
+    },
+    {
+     "fecha": "2026-03-16",
+     "hecho": "Un peritaje del teléfono de Novelli registró 8 contactos con el Presidente el 14/02/2025 y una nota sobre un acuerdo por US$ 5 millones con 'H'."
+    }
+   ],
+   "respuesta_oficial": "Milei dijo que no estaba al tanto de los detalles del proyecto y borró la publicación (paráfrasis).",
+   "fuentes": [
+    "https://www.ambito.com/politica/el-celular-mauricio-novelli-un-supuesto-acuerdo-y-los-millones-cripto-las-pruebas-que-no-alcanzaron-la-causa-libra-n6337466",
+    "https://www.elheraldo.com.ar/noticias/judiciales/la-justicia-sobreseyo-al-presidente-javier-milei-y-a-su-hermana-karina-en-la-causa-libra",
+    "https://www.infobae.com/judiciales/2026/09/04/confirmaron-la-decision-de-apartar-a-las-querellas-en-la-causa-libra/",
+    "https://www.diariodecuyo.com.ar/policiales/causa-libra-el-peritaje-que-revelo-un-extenso-entramado-llamadas-y-mensajes-n6568292",
+    "https://www.theblock.co/post/379796/argentinas-milei-provided-essential-collaboration-libra-project-congressional-report-finds"
+   ],
+   "firme": false,
+   "estado_nota": "Sobreseimiento de primera instancia del 23/10/2026, no firme: las apelaciones ante Casación siguen pendientes."
+  },
+  {
+   "caso": "ANDIS: presuntas coimas en la Agencia Nacional de Discapacidad (audios de Diego Spagnuolo)",
+   "funcionarios": [
+    {
+     "nombre": "Diego Spagnuolo",
+     "rol": "ex titular de ANDIS (desplazado el 21/08/2025)"
+    },
+    {
+     "nombre": "Daniel Garbellini",
+     "rol": "ex funcionario de ANDIS (designación dejada sin efecto por el Decreto 599/2025)"
+    }
+   ],
+   "mencionados_no_imputados": "En los audios difundidos se nombra a Karina Milei y a Eduardo 'Lule' Menem. Las notas consultadas no los registran como procesados en esta causa.",
+   "delitos_investigados": "Asociación ilícita, negociaciones incompatibles, administración fraudulenta agravada y cohecho. El perjuicio al Estado se estima en más de $30.337 millones.",
+   "etapa_maxima": "procesamiento",
+   "estado": "en trámite",
+   "juzgado_fiscalia": "Juzgado Criminal y Correccional Federal N° 11 según las fuentes: resolvió Sebastián Casanello y en 2026 quedó a cargo Ariel Lijo como subrogante · Fiscales Franco Picardi y José Luis Agüero Iturbe · Cámara Federal, Sala II (Boico, Farah)",
+   "ultima_novedad": {
+    "fecha": "2026-09-22",
+    "hecho": "La Cámara Federal confirmó los procesamientos de Spagnuolo y otras 18 personas, dictados por Casanello el 09/02/2026, y rechazó la nulidad planteada sobre los audios."
+   },
+   "respuesta_oficial": "Desplazamiento 'preventivo'; el decreto invocó 'reforzar los valores éticos en la función pública'.",
+   "fuentes": [
+    "https://perfil.com/noticias/politica/la-camara-confirmo-los-procesamientos-de-spagnuolo-y-otras-18-personas-en-la-causa-andis.phtml",
+    "https://www.lavozdesanjusto.com.ar/causa-andis-procesaron-a-diego-spagnuolo-por-asociacion-ilicita",
+    "https://batimes.com.ar/news/argentina/court-confirms-trial-of-former-andis-chief-diego-spagnuolo-on-graft-charges.phtml",
+    "https://www.diariodecuyo.com.ar/politica/spagnuolo-y-los-acusados-la-causa-andis-buscan-revertir-sus-procesamientos-y-que-se-periten-los-audios-n6568853",
+    "https://eleconomista.com.ar/politica/audios-coimas-una-renuncia-forzada-escandalo-sacude-agencia-discapacidad-n87755"
+   ],
+   "discrepancias": "Buenos Aires Times (23/09/2026) dice que la Cámara 'ordenó' el juicio; Perfil y otras fuentes hablan de confirmación de procesamientos. Se toma 'procesamiento'."
+  },
+  {
+   "caso": "Manuel Adorni: presunto enriquecimiento ilícito",
+   "funcionarios": [
+    {
+     "nombre": "Manuel Adorni",
+     "rol": "ex jefe de Gabinete (nov. 2025 – jun. 2026) y ex vocero presidencial"
+    }
+   ],
+   "otros_investigados": [
+    "Bettina Angeletti (esposa)",
+    "Francisco Adorni (hermano; causa conexa)"
+   ],
+   "delitos_investigados": "Enriquecimiento ilícito; falsedad ideológica en las declaraciones juradas (denuncias acumuladas).",
+   "etapa_maxima": "denuncia",
+   "etapa_nota": "Hay investigación fiscal activa con requerimiento de justificación patrimonial (20 puntos, 10/08/2026). No hubo indagatoria ni imputación formal según las notas consultadas. El fiscal puede pedir la indagatoria si las explicaciones no alcanzan.",
+   "estado": "en trámite",
+   "juzgado_fiscalia": "Juzgado Criminal y Correccional Federal N° 4 (Ariel Lijo) · Fiscalía de Gerardo Pollicita",
+   "ultima_novedad": {
+    "fecha": "2026-09-28",
+    "hecho": "Tras el descargo de Adorni (21/09/2026), Pollicita pidió levantar el secreto fiscal, datos de ARCA y ANSES y verificar las billeteras de bitcoin que invocó."
+   },
+   "respuesta_oficial": "Adorni: no hay 'enriquecimiento apreciable alguno que no admita explicación'; atribuye su patrimonio a bitcoin y ahorros.",
+   "fuentes": [
+    "https://www.infobae.com/judiciales/2026/09/21/manuel-adorni-presento-la-justificacion-de-sus-bienes/",
+    "https://www.filo.news/noticia/2026/09/28/el-fiscal-pollicita-pidio-nuevas-medidas-de-prueba-en-la-causa-por-supuesto-enriquecimiento-ilicito-contra-manuel-adorni",
+    "https://www.infobae.com/judiciales/2026/08/03/se-reanudo-en-comodoro-py-la-investigacion-del-caso-adorni-denuncias-acumuladas-y-avances-sobre-la-justificacion-patrimonial/",
+    "https://www.perfil.com/noticias/judiciales/caso-adorni-vence-la-prorroga-y-la-justicia-espera-sus-explicaciones-sobre-el-patrimonio.phtml",
+    "https://www.conclusion.com.ar/politica/no-va-mas-acorralado-por-escandalos-de-corrupcion-manuel-adorni-renuncio-como-jefe-de-gabinete/06/2026/"
+   ]
+  },
+  {
+   "caso": "José Luis Espert: presunto lavado de dinero vinculado a Fred Machado",
+   "funcionarios": [
+    {
+     "nombre": "José Luis Espert",
+     "rol": "ex diputado nacional de LLA y ex presidente de la Comisión de Presupuesto; bajó su candidatura el 05/10/2025"
+    }
+   ],
+   "delitos_investigados": "Lavado de dinero, por un pago de US$ 200.000 recibido a comienzos de 2020 de una empresa ligada a Machado.",
+   "etapa_maxima": "imputación",
+   "etapa_nota": "Citado a indagatoria el 23/06/2026. Hay versiones de prensa que indican que se negó a declarar; fecha a confirmar. Embargo confirmado por la Cámara Federal de San Martín el 01/06/2026.",
+   "estado": "en trámite",
+   "juzgado_fiscalia": "Juzgado Federal N° 2 de San Isidro (Lino Mirabelli) · Fiscal Fernando Domínguez. Hay una causa conexa en Comodoro Py (Martínez de Giorgi) por el uso del avión de Machado en 2019.",
+   "ultima_novedad": {
+    "fecha": "2026-06-23",
+    "hecho": "Mirabelli citó a Espert a indagatoria."
+   },
+   "respuesta_oficial": "Espert reconoció el pago y lo atribuyó a su actividad privada (paráfrasis).",
+   "fuentes": [
+    "https://chequeado.com/el-explicador/jose-luis-espert-citado-a-indagatoria-como-avanzo-la-causa-por-su-vinculo-con-fred-machado/",
+    "https://www.noticiasnqn.com.ar/amp/noticias/2026/07/07/342823-espert-sera-indagado-por-una-causa-de-presunto-lavado-de-dinero-vinculada-a-fred-machado",
+    "https://www.lavozdesanjusto.com.ar/jose-luis-espert-se-nego-a-declarar-en-la-causa-por-presunto-lavado-de-dinero-vinculada-a-fred-machado"
+   ],
+   "nota": "Espert ya no es funcionario; se incluye porque los hechos se investigan mientras era diputado y candidato oficialista."
+  }
+ ],
+ "denuncias_sin_avance_relevado": [
+  {
+   "caso": "Ley de Emergencia Pediátrica: denuncia penal de la APyT del Garrahan contra Milei, Lugones, Francos y Caputo por incumplimiento de deberes (24/10/2025)",
+   "estado": "denuncia; no se encontró actividad judicial posterior",
+   "fuente": "https://www.minutouno.com/politica/trabajadores-del-hospital-garrahan-denunciaron-penalmente-javier-milei-no-aplicar-la-ley-emergencia-pediatrica-n6205754"
+  }
+ ],
+ "faltantes": [
+  "Fecha de la indagatoria de Espert y si declaró o se negó.",
+  "Si el sobreseimiento de $LIBRA quedó firme (depende de Casación).",
+  "Situación de Francisco Adorni (imputado en una causa conexa, según El Economista; no verificado en detalle)."
+ ]
+}

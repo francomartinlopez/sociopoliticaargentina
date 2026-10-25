@@ -1,0 +1,1857 @@
+{
+ "meta": {
+  "titulo": "Votaciones clave en el Congreso desde el 10/12/2023",
+  "actualizado": "2026-10-25",
+  "convenciones": {
+   "afirmativos/negativos/abstenciones/ausentes": "Tal como los publican las fuentes; null = no publicado o no encontrado.",
+   "DNU": "En los ítems con dnu=true los números siguen el sentido de la validez del decreto: afirmativos = a favor del decreto, negativos = por el rechazo. Muchas fuentes los informan al revés, como votos por el rechazo; cada caso lo aclara en 'nota'.",
+   "fecha": "Día de la votación. Si la sesión cruzó la medianoche, se toma el día que indican las fuentes y se aclara en 'nota' o 'discrepancias'.",
+   "impulsor": "gobierno | oposicion | otros | pliego",
+   "ausentes": "Solo cuando una fuente los publica explícitamente."
+  },
+  "advertencia": "Los datos salen de prensa y de algunas páginas oficiales (senado.gob.ar, votaciones.diputados.gob.ar). El sitio de votaciones de HCDN no pudo consultarse en forma sistemática porque la herramienta lo bloqueó."
+ },
+ "items": [
+  {
+   "id": "ley-bases-2024",
+   "nombre": "Ley Bases (Ley 27.742)",
+   "impulsor": "gobierno",
+   "estado": "Sancionada (28/06/2024)",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-04-30",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 142,
+     "negativos": 106,
+     "abstenciones": 5,
+     "ausentes": null,
+     "resultado": "Aprobada en general",
+     "fuentes": [
+      {
+       "medio": "La Capital",
+       "url": "https://www.lacapital.com.ar/politica/la-camara-diputados-aprobo-general-la-ley-bases-javier-milei-n10131166.html"
+      },
+      {
+       "medio": "Tiempo de San Juan",
+       "url": "https://www.tiempodesanjuan.com/politica/luego-30-horas-sesion-la-camara-diputados-dio-media-sancion-la-ley-bases-y-el-paquete-fiscal-n374027/amp"
+      }
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-06-12",
+     "etapa": "Revisión (con cambios)",
+     "tipo": "en general",
+     "afirmativos": 36,
+     "negativos": 36,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "Aprobada en general con el voto de desempate de la vicepresidenta Villarruel",
+     "fuentes": [
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/el-senado-aprobo-general-ley-bases-victoria-villarruel-tuvo-voto-definitivo-n74616"
+      },
+      {
+       "medio": "Ámbito",
+       "url": "https://www.ambito.com/politica/con-cambios-y-el-desempate-victoria-villarruel-el-senado-aprobo-general-la-ley-bases-n6014563"
+      }
+     ],
+     "nota": "Empate 36-36; desempató Villarruel (efectivo 37-36). Ninguna fuente informa abstenciones; Ámbito lista 36 y 36 en el uno por uno. La sesión empezó el 12/06 y terminó tarde esa noche."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2024-06-28",
+     "etapa": "Sanción definitiva (aceptación de cambios del Senado)",
+     "tipo": "aceptación de modificaciones",
+     "afirmativos": 147,
+     "negativos": 107,
+     "abstenciones": 2,
+     "ausentes": null,
+     "resultado": "Aprobada: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "Chequeado",
+       "url": "https://chequeado.com/el-explicador/diputados-sanciono-la-ley-bases-y-el-paquete-fiscal-como-voto-cada-bloque/"
+      },
+      {
+       "medio": "Diario Panorama",
+       "url": "https://www.diariopanorama.com/noticia/487847/despues-seis-meses-gobierno-consiguio-aprobar-ley-bases-paquete-fiscal"
+      }
+     ],
+     "nota": "Fue en la sesión que terminó en la madrugada del viernes 28/06/2024."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-04-30",
+     "etapa": "Media sanción",
+     "v": [
+      142,
+      106,
+      5
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-06-12",
+     "etapa": "Revisión (con cambios)",
+     "v": [
+      36,
+      36,
+      null
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2024-06-28",
+     "etapa": "Sanción definitiva (aceptación de cambios del Senado)",
+     "v": [
+      147,
+      107,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "paquete-fiscal-2024",
+   "nombre": "Paquete fiscal (Ley de Medidas Fiscales Paliativas y Relevantes, Ley 27.743)",
+   "impulsor": "gobierno",
+   "estado": "Sancionada (28/06/2024)",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-04-30",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 140,
+     "negativos": 103,
+     "abstenciones": 6,
+     "ausentes": null,
+     "resultado": "Aprobado en general",
+     "fuentes": [
+      {
+       "medio": "A24",
+       "url": "https://www.a24.com/politica/la-camara-diputados-aprobo-el-paquete-fiscal-propuesto-el-gobierno-n1315168"
+      },
+      {
+       "medio": "Tiempo de San Juan",
+       "url": "https://www.tiempodesanjuan.com/politica/luego-30-horas-sesion-la-camara-diputados-dio-media-sancion-la-ley-bases-y-el-paquete-fiscal-n374027/amp"
+      }
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-06-13",
+     "etapa": "Revisión (con cambios)",
+     "tipo": "en general",
+     "afirmativos": 37,
+     "negativos": 35,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "Aprobado en general; en particular se rechazaron los capítulos de Ganancias (31 a favor, 41 en contra) y Bienes Personales (35 a favor, 37 en contra)",
+     "fuentes": [
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/paquete-fiscal-senado-gobierno-perdio-ganancias-bienes-personales-votacion-particular-n74618"
+      },
+      {
+       "medio": "Cadena 3",
+       "url": "https://www.cadena3.com/noticia/sociedad/paquete-fiscal-en-el-senado-rechazaron-cambios-en-ganancias-y-bienes-personales_389992"
+      }
+     ],
+     "nota": "La votación fue en la madrugada del 13/06/2024, en la misma sesión que empezó el 12/06. Ninguna de las dos fuentes informa abstenciones. El Economista no aclara del todo el sentido del 37-35 en Bienes Personales."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2024-06-28",
+     "etapa": "Sanción definitiva",
+     "tipo": "en general",
+     "afirmativos": 144,
+     "negativos": 108,
+     "abstenciones": 3,
+     "ausentes": null,
+     "resultado": "Aprobado en general; se reincorporaron Ganancias (136-116-3) y Bienes Personales (134-118-3)",
+     "fuentes": [
+      {
+       "medio": "Chequeado",
+       "url": "https://chequeado.com/el-explicador/diputados-sanciono-la-ley-bases-y-el-paquete-fiscal-como-voto-cada-bloque/"
+      }
+     ],
+     "discrepancias": "Diario Panorama (https://www.diariopanorama.com/noticia/487847/despues-seis-meses-gobierno-consiguio-aprobar-ley-bases-paquete-fiscal) da 136-116-3 para «el paquete fiscal». Chequeado atribuye ese 136-116-3 a la reincorporación de Ganancias y pone 144-108-3 para la votación en general."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-04-30",
+     "etapa": "Media sanción",
+     "v": [
+      140,
+      103,
+      6
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-06-13",
+     "etapa": "Revisión (con cambios)",
+     "v": [
+      37,
+      35,
+      null
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2024-06-28",
+     "etapa": "Sanción definitiva",
+     "v": [
+      144,
+      108,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "suspension-paso-2025",
+   "nombre": "Suspensión de las PASO 2025 (Ley 27.783)",
+   "impulsor": "gobierno",
+   "estado": "Sancionada (20/02/2025)",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-02-06",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 162,
+     "negativos": 55,
+     "abstenciones": 28,
+     "ausentes": null,
+     "resultado": "Aprobada",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/diputados-aprobo-amplia-mayoria-la-suspension-las-paso-n5937949"
+      },
+      {
+       "medio": "Diario de Cuyo",
+       "url": "https://www.diariodecuyo.com.ar/argentina/con-holgura-el-oficialismo-logro-en-diputados-suspender-las-paso-1702227.html"
+      }
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-02-20",
+     "etapa": "Sanción",
+     "tipo": "en general",
+     "afirmativos": 43,
+     "negativos": 20,
+     "abstenciones": 6,
+     "ausentes": null,
+     "resultado": "Aprobada: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "BAE Negocios",
+       "url": "https://www.baenegocios.com/politica/gano-milei-el-senado-sanciono-la-suspension-de-las-paso-para-este-2025-20250220-0090.html"
+      },
+      {
+       "medio": "Palabras del Derecho",
+       "url": "https://www.palabrasdelderecho.com.ar/articulo/5755/El-Senado-convirtio-en-ley-la-suspension-de-las-PASO-en-2025"
+      }
+     ]
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-02-06",
+     "etapa": "Media sanción",
+     "v": [
+      162,
+      55,
+      28
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-02-20",
+     "etapa": "Sanción",
+     "v": [
+      43,
+      20,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "presupuesto-2026",
+   "nombre": "Presupuesto 2026 (Ley 27.798)",
+   "impulsor": "gobierno",
+   "estado": "Sancionado (26/12/2025)",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-12-18",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 132,
+     "negativos": 97,
+     "abstenciones": 19,
+     "ausentes": null,
+     "resultado": "Aprobado en general; el Capítulo XI (derogación de las leyes de discapacidad y financiamiento universitario) se rechazó 117 a 123 y quedó afuera",
+     "fuentes": [
+      {
+       "medio": "La Gaceta",
+       "url": "https://www.lagaceta.com.ar/nota/1117271/politica/entre-cruces-disturbios-diputados-aprobo-presupuesto-2026.html"
+      },
+      {
+       "medio": "ANBariloche",
+       "url": "https://www.anbariloche.com.ar/noticias/2025/12/18/101439-el-gobierno-logro-media-sancion-del-presupuesto-2026-en-diputados"
+      }
+     ],
+     "nota": "Votado en la madrugada del 18/12/2025."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-12-26",
+     "etapa": "Sanción",
+     "tipo": "en general",
+     "afirmativos": 46,
+     "negativos": 25,
+     "abstenciones": 1,
+     "ausentes": null,
+     "resultado": "Aprobado: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "Chequeado",
+       "url": "https://chequeado.com/el-explicador/el-senado-aprobo-el-presupuesto-2026-el-primero-de-la-presidencia-de-javier-milei/"
+      },
+      {
+       "medio": "Aire de Santa Fe",
+       "url": "https://www.airedesantafe.com.ar/politica/el-senado-aprobo-el-presupuesto-2026-del-gobierno-javier-milei-n641220"
+      },
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2025/12/26/325691-milei-logro-la-sancion-del-presupuesto-2026-y-consiguio-su-primera-ley-de-leyes"
+      }
+     ],
+     "nota": "La nota de Chequeado está fechada el 27/12; Aire de Santa Fe y Noticias NQN ubican la sesión el 26/12/2025."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-12-18",
+     "etapa": "Media sanción",
+     "v": [
+      132,
+      97,
+      19
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-12-26",
+     "etapa": "Sanción",
+     "v": [
+      46,
+      25,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reforma-laboral-2026",
+   "nombre": "Reforma laboral (2026)",
+   "impulsor": "gobierno",
+   "estado": "Sancionada (27/02/2026)",
+   "votaciones": [
+    {
+     "camara": "Senado",
+     "fecha": "2026-02-12",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 42,
+     "negativos": 30,
+     "abstenciones": 0,
+     "ausentes": null,
+     "resultado": "Aprobada en general",
+     "fuentes": [
+      {
+       "medio": "Diario de Cuyo",
+       "url": "https://www.diariodecuyo.com.ar/argentina/uno-por-uno-como-votaron-los-senadores-al-proyecto-de-reforma-laboral-1831820.html"
+      },
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/reforma-laboral-victoria-clave-milei-golpe-politico-pj-puede-pasar-diputados-n92602"
+      }
+     ],
+     "nota": "Fue en la madrugada del jueves 12/02/2026. Diario de Cuyo informa 0 abstenciones; El Economista no las menciona."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2026-02-20",
+     "etapa": "Revisión (con cambios)",
+     "tipo": "en general",
+     "afirmativos": 135,
+     "negativos": 115,
+     "abstenciones": 0,
+     "ausentes": 6,
+     "resultado": "Aprobada en general; se eliminó el art. 44 (licencias por enfermedad), así que volvió al Senado",
+     "fuentes": [
+      {
+       "medio": "Diario de Cuyo",
+       "url": "https://www.diariodecuyo.com.ar/politica/diputados-aprobo-la-reforma-laboral-y-ahora-el-senado-tendra-la-ultima-palabra-1834942.html"
+      },
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2026/02/20/328341-diputados-aprobo-en-general-la-reforma-laboral-tras-una-sesion-marcada-por-fuertes-cruces"
+      },
+      {
+       "medio": "Canal 26",
+       "url": "https://www.canal26.com/politica/2026/02/20/media-sancion-a-la-reforma-laboral-como-voto-cada-diputado/"
+      }
+     ],
+     "nota": "Abstenciones: Noticias NQN dice explícitamente que no hubo; Canal 26 no lista ninguna y cuenta 6 ausentes (135+115+6 = 256). Votada a las 00:30 del 20/02/2026."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2026-02-27",
+     "etapa": "Sanción definitiva",
+     "tipo": "en general",
+     "afirmativos": 42,
+     "negativos": 28,
+     "abstenciones": 2,
+     "ausentes": null,
+     "resultado": "Aprobada: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2026/02/27/328723-el-senado-aprobo-la-reforma-laboral"
+      },
+      {
+       "medio": "Hoy Día",
+       "url": "https://hoydia.com.ar/politica/nacional/el-senado-aprobo-la-reforma-laboral-con-42-votos/"
+      }
+     ],
+     "nota": "Se abstuvieron Natalia Gadano y José Carambia (Hoy Día)."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Senado",
+     "fecha": "2026-02-12",
+     "etapa": "Media sanción",
+     "v": [
+      42,
+      30,
+      0
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2026-02-20",
+     "etapa": "Revisión (con cambios)",
+     "v": [
+      135,
+      115,
+      0
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2026-02-27",
+     "etapa": "Sanción definitiva",
+     "v": [
+      42,
+      28,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "penal-juvenil-2026",
+   "nombre": "Régimen Penal Juvenil (baja de la edad de imputabilidad a 14 años)",
+   "impulsor": "gobierno",
+   "estado": "Sancionado (27/02/2026)",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2026-02-12",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 149,
+     "negativos": 100,
+     "abstenciones": null,
+     "ausentes": 7,
+     "resultado": "Aprobado en general",
+     "fuentes": [
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2026/02/12/328072-diputados-aprobo-la-baja-de-imputabilidad-a-14-anos-y-el-proyecto-paso-al-senado"
+      },
+      {
+       "medio": "Canal 26",
+       "url": "https://www.canal26.com/politica/2026/02/13/baja-de-edad-de-imputabilidad-uno-por-uno-como-voto-cada-diputado/"
+      }
+     ],
+     "nota": "Ninguna fuente informa abstenciones. Canal 26 cuenta 7 ausentes (149+100+7 = 256), lo que deja 0 abstenciones implícitas."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2026-02-27",
+     "etapa": "Sanción",
+     "tipo": "en general",
+     "afirmativos": 44,
+     "negativos": 27,
+     "abstenciones": 1,
+     "ausentes": null,
+     "resultado": "Aprobado: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/el-congreso-sanciono-baja-edad-imputabilidad-14-anos-n92974"
+      },
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2026/02/27/328715-el-senado-aprobo-la-baja-de-la-edad-de-imputabilidad-a-14-anos-es-ley-el-nuevo-regimen-penal-juvenil"
+      }
+     ]
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2026-02-12",
+     "etapa": "Media sanción",
+     "v": [
+      149,
+      100,
+      null
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2026-02-27",
+     "etapa": "Sanción",
+     "v": [
+      44,
+      27,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mercosur-ue",
+   "nombre": "Acuerdo Mercosur – Unión Europea",
+   "impulsor": "gobierno",
+   "estado": "Aprobado (26/02/2026); promulgado por el Decreto 111/2026",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2026-02-12",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 203,
+     "negativos": 42,
+     "abstenciones": 4,
+     "ausentes": null,
+     "resultado": "Aprobado",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/diputados-dio-el-primer-paso-ratificar-el-acuerdo-mercosurunion-europea-n5980402"
+      },
+      {
+       "medio": "Canal 26",
+       "url": "https://www.canal26.com/politica/2026/02/13/baja-de-edad-de-imputabilidad-uno-por-uno-como-voto-cada-diputado/"
+      }
+     ],
+     "nota": "Fue en la misma sesión extraordinaria que el Régimen Penal Juvenil (12/02/2026). Las fuentes no dan la hora exacta."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2026-02-26",
+     "etapa": "Sanción",
+     "tipo": "en general",
+     "afirmativos": 69,
+     "negativos": 3,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "Aprobado: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "C5N",
+       "url": "https://www.c5n.com/acuerdo-mercosur-union-europea-aprobado-por-el-senado"
+      },
+      {
+       "medio": "Minuto Uno",
+       "url": "https://www.minutouno.com/sociedad/se-aprobo-el-acuerdo-mercosur-union-europea-el-senado-n6249958"
+      },
+      {
+       "medio": "Palabras del Derecho",
+       "url": "https://www.palabrasdelderecho.com.ar/articulo/6574/El-Congreso-aprobo-el-Acuerdo-MERCOSUR---Union-Europea"
+      }
+     ],
+     "nota": "Votaron en contra Di Tullio, De Pedro y Cristina López (C5N).",
+     "discrepancias": "Forbes Argentina (https://www.forbesargentina.com/money/el-senado-aprobo-acuerdo-mercosur-union-europea-tras-26-anos-negociaciones-n86867) informa además 3 abstenciones. No puede ser: 69+3+3 = 75, más que las 72 bancas. Por eso las abstenciones quedan en null."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2026-02-12",
+     "etapa": "Media sanción",
+     "v": [
+      203,
+      42,
+      4
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2026-02-26",
+     "etapa": "Sanción",
+     "v": [
+      69,
+      3,
+      null
+     ]
+    }
+   ]
+  },
+  {
+   "id": "propiedad-privada-2026",
+   "nombre": "Ley de Inviolabilidad de la Propiedad Privada",
+   "impulsor": "gobierno",
+   "estado": "Diputados la aprobó con cambios el 21/10/2026 y vuelve al Senado. No hay sanción definitiva.",
+   "votaciones": [
+    {
+     "camara": "Senado",
+     "fecha": "2026-08-06",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 37,
+     "negativos": 33,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "Aprobada en general. Antes de votar se retiraron los capítulos de Ley de Tierras (extranjerización de tierras rurales) y de Manejo del Fuego",
+     "fuentes": [
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2026/08/07/346969-el-oficialismo-consiguio-la-media-sancion-del-proyecto-sobre-inviolabilidad-de-la-propiedad-privada-tras-retirar-otro-capitulo"
+      },
+      {
+       "medio": "BAE Negocios",
+       "url": "https://www.baenegocios.com/politica/el-senado-aprobo-la-ley-de-propiedad-privada-pero-el-gobierno-resigno-los-capitulos-sobre-tierras-y-manejo-del-fuego-4971/"
+      },
+      {
+       "medio": "Ámbito",
+       "url": "https://www.ambito.com/c6307924"
+      }
+     ],
+     "discrepancias": "El pedido original fecha la votación el 7/8/2026. Las notas son del 7/8 (Ámbito, 01:21) y dicen que la sesión fue «este jueves», o sea el jueves 6/8/2026; la votación pudo terminar pasada la medianoche. Ninguna fuente informa abstenciones."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2026-10-21",
+     "etapa": "Revisión (con cambios)",
+     "tipo": "en general",
+     "afirmativos": 124,
+     "negativos": 119,
+     "abstenciones": 6,
+     "ausentes": null,
+     "resultado": "Aprobada con modificaciones: se agregaron dos artículos que dejan sin efecto el art. 154 del DNU 70/2023 y restablecen la Ley de Tierras Rurales 26.737. Vuelve al Senado",
+     "fuentes": [
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2026/10/21/357598-diputados-el-gobierno-aprobo-la-ley-de-propiedad-privada"
+      },
+      {
+       "medio": "ANBariloche",
+       "url": "https://www.anbariloche.com.ar/noticias/2026/10/21/120688-diputados-aprobo-restituir-los-limites-a-la-compra-de-tierras-por-extranjeros-y-el-proyecto-vuelve-al-senado"
+      },
+      {
+       "medio": "El Sol",
+       "url": "https://www.elsol.com.ar/el-pais/diputados-aprobo-propiedad-privada-y-restituyo-la-ley-de-tierras/"
+      }
+     ],
+     "nota": "index.html dice «Diputados todavía no la trató»: ese dato quedó viejo."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Senado",
+     "fecha": "2026-08-06",
+     "etapa": "Media sanción",
+     "v": [
+      37,
+      33,
+      null
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2026-10-21",
+     "etapa": "Revisión (con cambios)",
+     "v": [
+      124,
+      119,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eliminacion-paso-2027",
+   "nombre": "Eliminación/suspensión de las PASO 2027 (reforma electoral)",
+   "impulsor": "gobierno",
+   "estado": "Sin votación en ninguna cámara al 21/10/2026. Está en el Senado, sin dictamen de comisión. La próxima sesión del Senado estaba prevista para el 29/10 y el tema probablemente pase a noviembre. El gobierno evalúa suspenderlas solo para 2027.",
+   "votaciones": [],
+   "fuentes_estado": [
+    {
+     "medio": "iProfesional (21/10/2026)",
+     "url": "https://www.iprofesional.com/politica/467079-la-reforma-electoral-se-demora-por-una-interna-en-el-gobierno-sobre-los-acuerdos-para-2027"
+    },
+    {
+     "medio": "Parlamentario (20/10/2026)",
+     "url": "https://www.parlamentario.com/2026/10/20/con-la-mira-en-la-extensa-sesion-y-la-reforma-electoral-se-volvio-a-reunir-la-mesa-politica/"
+    },
+    {
+     "medio": "Cadena 3 (26/07/2026)",
+     "url": "https://www.cadena3.com/noticia/politica-y-economia/el-gobierno-no-consigue-los-votos-para-eliminar-las-paso-la-alternativa-que-manejan-en-el-senado_577039"
+    }
+   ],
+   "nota": "Hace falta mayoría absoluta: 37 senadores y 129 diputados. Según Parlamentario, LLA tiene 20 senadores hasta que asuma el reemplazo de Pagotto, que falleció.",
+   "resumen_index": []
+  },
+  {
+   "id": "dnu-70-2023",
+   "nombre": "DNU 70/2023 (megadecreto)",
+   "impulsor": "gobierno",
+   "dnu": true,
+   "estado": "Vigente. Lo rechazó solo el Senado; Diputados nunca lo votó.",
+   "votaciones": [
+    {
+     "camara": "Senado",
+     "fecha": "2024-03-14",
+     "etapa": "Validez del decreto",
+     "tipo": "validez DNU",
+     "afirmativos": 25,
+     "negativos": 42,
+     "abstenciones": 4,
+     "ausentes": 1,
+     "resultado": "Rechazado por el Senado (no cae: hace falta el rechazo de ambas cámaras)",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/crisis-en-el-gobierno-el-senado-rechazo-el-dnu-de-milei-y-ahora-define-diputados-o-la-corte/"
+      },
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/duro-golpe-javier-milei-senado-rechazo-dnu-702023-n71800"
+      }
+     ],
+     "nota": "Los números siguen el sentido de la validez: 25 votos a favor del decreto y 42 por el rechazo. El informe de la U. Austral (ODCL) fecha el rechazo el 15/03/2024; la prensa del día, el 14/03/2024."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2026-10-15",
+     "etapa": "Sesión especial para rechazarlo",
+     "tipo": "sin votación",
+     "afirmativos": null,
+     "negativos": null,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "Sin votación: la sesión se cayó por falta de quórum (hubo 121 presentes y se necesitaban 129)",
+     "fuentes": [
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
+      },
+      {
+       "medio": "El Ancasti",
+       "url": "https://www.elancasti.com.ar/se-cayo-la-sesion-contra-el-dnu-7023-n623978"
+      }
+     ]
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Senado",
+     "fecha": "2024-03-14",
+     "etapa": "Validez del decreto",
+     "v": [
+      25,
+      42,
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dnu-179-2025-fmi",
+   "nombre": "DNU 179/2025 (acuerdo con el FMI)",
+   "impulsor": "gobierno",
+   "dnu": true,
+   "estado": "Vigente: lo validó Diputados. No se encontró votación del Senado.",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-03-19",
+     "etapa": "Validez del decreto",
+     "tipo": "validez DNU",
+     "afirmativos": 129,
+     "negativos": 108,
+     "abstenciones": 6,
+     "ausentes": 13,
+     "resultado": "Validado",
+     "fuentes": [
+      {
+       "medio": "Bloomberg Línea",
+       "url": "https://www.bloomberglinea.com/latinoamerica/argentina/gobierno-de-milei-logro-validar-en-el-congreso-dnu-que-autoriza-acuerdo-con-el-fmi/"
+      },
+      {
+       "medio": "Palabras del Derecho",
+       "url": "https://www.palabrasdelderecho.com.ar/articulo/5818/La-Camara-de-Diputados-aprobo-el-DNU-sobre-el-acuerdo-de-Facilidades-Extendidas-con-el-FMI"
+      }
+     ]
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-03-19",
+     "etapa": "Validez del decreto",
+     "v": [
+      129,
+      108,
+      6
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dnu-656-2024-side",
+   "nombre": "DNU 656/2024 (fondos reservados de la SIDE, $100.000 millones)",
+   "impulsor": "gobierno",
+   "dnu": true,
+   "estado": "Derogado: lo rechazaron las dos cámaras. Fue el primer DNU anulado por la Ley 26.122.",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-08-21",
+     "etapa": "Validez del decreto",
+     "tipo": "validez DNU",
+     "afirmativos": 52,
+     "negativos": 156,
+     "abstenciones": 6,
+     "ausentes": null,
+     "resultado": "Rechazado",
+     "fuentes": [
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2024/08/21/302226-diputados-rechazo-el-dnu-que-aumento-los-fondos-reservados-de-la-side"
+      },
+      {
+       "medio": "Tiempo de San Juan",
+       "url": "https://www.tiempodesanjuan.com/el-pais/diputados-rechazaron-el-dnu-javier-milei-que-aumentaba-los-fondos-la-side-apoyo-del-pro-y-la-ucr-n382462/amp"
+      },
+      {
+       "medio": "Palabras del Derecho",
+       "url": "https://www.palabrasdelderecho.com.ar/articulo/5396/Por-primera-vez-en-la-historia,-el-Congreso-derogo-un-decreto-de-necesidad-y-urgencia"
+      }
+     ],
+     "nota": "En sentido de validez: 52 votos a favor del decreto y 156 por el rechazo.",
+     "discrepancias": "Noticias NQN lo llama «Decreto 256/2024» y Tiempo de San Juan menciona «565/2024»: son errores de tipeo. El número correcto es 656/2024 (Los Andes, Palabras del Derecho, informe ODCL de la U. Austral)."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-09-13",
+     "etapa": "Validez del decreto",
+     "tipo": "validez DNU",
+     "afirmativos": 11,
+     "negativos": 49,
+     "abstenciones": 2,
+     "ausentes": null,
+     "resultado": "Rechazado; con el doble rechazo el decreto quedó derogado",
+     "fuentes": [
+      {
+       "medio": "La Capital",
+       "url": "https://www.lacapital.com.ar/politica/otro-reves-el-senado-rechazo-el-dnu-que-le-otorga-100000-millones-la-side-n10153419.html"
+      },
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/golpe-a-milei-por-primera-vez-el-congreso-rechazo-un-dnu-los-detalles-del-decreto-de-la-side/"
+      },
+      {
+       "medio": "Crónica",
+       "url": "https://www.cronica.com.ar/politica/El-Senado-rechazo-el-DNU-de-los-fondos-reservados-para-la-SIDE-20240913-0054.html"
+      }
+     ],
+     "nota": "En sentido de validez: 11 a favor del decreto y 49 por el rechazo. Se votó después de las 2 de la madrugada del 13/09/2024.",
+     "discrepancias": "Palabras del Derecho invierte las etiquetas («11 por el rechazo, 49 en contra»). Tres medios coinciden en 49 por el rechazo."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-08-21",
+     "etapa": "Validez del decreto",
+     "v": [
+      52,
+      156,
+      6
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-09-13",
+     "etapa": "Validez del decreto",
+     "v": [
+      11,
+      49,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dnu-340-2025-marina-mercante",
+   "nombre": "DNU 340/2025 (marina mercante y derecho de huelga)",
+   "impulsor": "gobierno",
+   "dnu": true,
+   "estado": "Derogado: lo rechazaron las dos cámaras (Diputados el 6/8/2025, Senado el 21/8/2025). Es el segundo DNU anulado en esta gestión. La derogación se publicó en el Boletín Oficial el 25/8/2025.",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-08-06",
+     "etapa": "Validez del decreto",
+     "tipo": "validez DNU",
+     "afirmativos": null,
+     "negativos": null,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "Rechazado",
+     "fuentes": [
+      {
+       "medio": "Primera Edición",
+       "url": "https://www.primeraedicion.com.ar/nota/101034960/duro-reves-para-el-gobierno-el-congreso-oficializo-la-anulacion-de-un-dnu-y-cuatro-decretos-delegados/"
+      },
+      {
+       "medio": "Palabras del Derecho",
+       "url": "https://www.palabrasdelderecho.com.ar/articulo/6142/Cuales-son-los-decretos-del-Gobierno-rechazados-por-la-Camara-de-Diputados"
+      }
+     ],
+     "nota": "Número de votos no encontrado. En la misma sesión Diputados rechazó cuatro decretos delegados: 345/25, 351/25, 461/25 y 462/25."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-08-21",
+     "etapa": "Validez del decreto",
+     "tipo": "validez DNU",
+     "afirmativos": null,
+     "negativos": null,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "Rechazado (55 votos por el rechazo)",
+     "fuentes": [
+      {
+       "medio": "La Capital",
+       "url": "https://www.lacapital.com.ar/politica/el-oficialismo-no-pudo-defender-cinco-decretos-y-el-senado-los-dejo-efecto-n10214278.html"
+      },
+      {
+       "medio": "Primera Edición",
+       "url": "https://www.primeraedicion.com.ar/nota/101034960/duro-reves-para-el-gobierno-el-congreso-oficializo-la-anulacion-de-un-dnu-y-cuatro-decretos-delegados/"
+      }
+     ],
+     "nota": "La Capital informa 55 votos por el rechazo y no da los votos en contra ni las abstenciones. Para los delegados del mismo día: 462/25, 60-9-2; 345/25, 57-13-1; 351/25, 58 por el rechazo; 461/25, 60 por el rechazo."
+    }
+   ],
+   "nota": "index.html dice que el DNU 656/2024 fue el «único DNU rechazado por ambas cámaras en esta gestión». Ya no es así: el 340/2025 también cayó.",
+   "resumen_index": []
+  },
+  {
+   "id": "movilidad-jubilatoria-2024",
+   "nombre": "Movilidad jubilatoria (Ley 27.756)",
+   "impulsor": "oposicion",
+   "estado": "Vetada (Decreto 782/2024, 02/09/2024); el veto quedó firme",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-06-05",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 160,
+     "negativos": 72,
+     "abstenciones": 8,
+     "ausentes": null,
+     "resultado": "Aprobada",
+     "fuentes": [
+      {
+       "medio": "La Capital",
+       "url": "https://www.lacapital.com.ar/politica/movilidad-jubilatoria-media-sancion-diputados-la-formula-la-oposicion-n10137131.html"
+      },
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/golpe-gobierno-oposicion-dialoguista-kirchnerismo-lograron-media-sancion-nueva-formula-jubilatoria-n74335"
+      }
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-08-22",
+     "etapa": "Sanción",
+     "tipo": "en general",
+     "afirmativos": 61,
+     "negativos": 8,
+     "abstenciones": 0,
+     "ausentes": null,
+     "resultado": "Aprobada: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "La Nación",
+       "url": "https://www.lanacion.com.ar/politica/la-nueva-movilidad-jubilatoria-que-impulso-la-oposicion-genero-fuertes-cruces-nid22082024/"
+      },
+      {
+       "medio": "Al Día Argentina (Microjuris)",
+       "url": "https://aldiaargentina.microjuris.com/2024/08/23/actualidad-el-senado-sanciono-la-nueva-formula-de-movilidad-jubilatoria/amp/"
+      }
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2024-09-11",
+     "etapa": "Insistencia tras el veto",
+     "tipo": "insistencia",
+     "afirmativos": 153,
+     "negativos": 87,
+     "abstenciones": 8,
+     "ausentes": null,
+     "resultado": "No alcanzó los 2/3: el veto quedó firme",
+     "fuentes": [
+      {
+       "medio": "La Capital",
+       "url": "https://www.lacapital.com.ar/c10153011"
+      },
+      {
+       "medio": "MDZ",
+       "url": "https://www.mdzol.com/politica/2024/9/11/triunfo-de-javier-milei-en-diputados-la-oposicion-no-pudo-rechazar-el-veto-la-reforma-jubilatoria-1151286.html"
+      },
+      {
+       "medio": "El Cronista («87 héroes»)",
+       "url": "https://www.cronista.com/economia-politica/con-12-heridos-y-tres-detenidos-en-el-congreso-milei-celebro-la-votacion-87-heroes/"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes",
+     "nota": "153 votaron por insistir y 87 por sostener el veto; esos 87 son los «héroes» que celebró Milei. Las 8 abstenciones salen de La Capital; MDZ no da el total."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-06-05",
+     "etapa": "Media sanción",
+     "v": [
+      160,
+      72,
+      8
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-08-22",
+     "etapa": "Sanción",
+     "v": [
+      61,
+      8,
+      0
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2024-09-11",
+     "etapa": "Insistencia tras el veto",
+     "v": [
+      153,
+      87,
+      8
+     ]
+    }
+   ]
+  },
+  {
+   "id": "financiamiento-universitario",
+   "nombre": "Financiamiento universitario (2024: Ley 27.757; 2025: Ley 27.795)",
+   "impulsor": "oposicion",
+   "estado": "2024: vetada (Decreto 879/2024, 03/10/2024) y el veto quedó firme. 2025: vetada (Decreto 647/2025, 10/09/2025) y el Congreso insistió, así que es ley.",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-08-15",
+     "etapa": "2024 · Media sanción",
+     "tipo": "en general",
+     "afirmativos": 143,
+     "negativos": 77,
+     "abstenciones": 1,
+     "ausentes": null,
+     "resultado": "Aprobada",
+     "fuentes": [
+      {
+       "medio": "Tiempo de San Juan",
+       "url": "https://www.tiempodesanjuan.com/el-pais/diputados-nacionales-aprobaron-la-ley-financiamiento-universitario-n382005/amp"
+      },
+      {
+       "medio": "A24",
+       "url": "https://www.a24.com/politica/diputados-dio-media-sancion-la-ley-financiamiento-universidades-que-propone-n1343798/amp"
+      }
+     ],
+     "nota": "A24 confirma 143-77 y no informa abstenciones."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-09-12",
+     "etapa": "2024 · Sanción",
+     "tipo": "en general",
+     "afirmativos": 57,
+     "negativos": 10,
+     "abstenciones": 1,
+     "ausentes": null,
+     "resultado": "Aprobada: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "La Capital",
+       "url": "https://www.lacapital.com.ar/el-senado-aprobo-la-ley-financiamiento-universitario-se-anticipa-un-nuevo-veto-n10153318.html"
+      },
+      {
+       "medio": "Al Día Argentina (Microjuris)",
+       "url": "https://aldiaargentina.microjuris.com/2024/09/13/actualidad-se-sanciono-la-ley-de-financiamiento-universitario/"
+      }
+     ],
+     "nota": "Las notas son del 13/09/2024 y dicen «este jueves», o sea el 12/09/2024."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2024-10-09",
+     "etapa": "2024 · Insistencia tras el veto",
+     "tipo": "insistencia",
+     "afirmativos": 160,
+     "negativos": 84,
+     "abstenciones": 5,
+     "ausentes": null,
+     "resultado": "No alcanzó los 2/3: el veto quedó firme",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/milei-logro-ratificar-en-la-camara-de-diputados-el-veto-a-la-ley-de-financiamiento-universitario/"
+      },
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2024/10/09/304477-video-diputados-ratifico-el-veto-de-javier-milei-a-la-ley-de-financiamiento-universitario"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes",
+     "discrepancias": "El pedido original decía 160-85. Las dos fuentes consultadas dan 160-84-5."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2025-08-06",
+     "etapa": "2025 · Media sanción",
+     "tipo": "en general",
+     "afirmativos": 158,
+     "negativos": 75,
+     "abstenciones": 5,
+     "ausentes": 19,
+     "resultado": "Aprobada",
+     "fuentes": [
+      {
+       "medio": "Diario de Cuyo",
+       "url": "https://www.diariodecuyo.com.ar/argentina/la-oposicion-logro-la-media-sancion-para-el-aumento-del-financiamiento-universitario-1756147.html"
+      },
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2025/08/07/318235-diputados-aprobo-la-ley-de-financiamiento-universitario"
+      }
+     ],
+     "discrepancias": "Noticias NQN fecha la votación el «jueves 7 de agosto». Diario de Cuyo la publicó el 06/08/2025 a las 18:25 y Los Andes también fecha el 6/8 la emergencia pediátrica de la misma sesión."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-08-21",
+     "etapa": "2025 · Sanción",
+     "tipo": "en general",
+     "afirmativos": 58,
+     "negativos": 10,
+     "abstenciones": 3,
+     "ausentes": null,
+     "resultado": "Aprobada: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "Ámbito",
+       "url": "https://www.ambito.com/c6181239"
+      },
+      {
+       "medio": "C5N",
+       "url": "https://www.c5n.com/politica/tras-la-maratonica-sesion-diputados-el-senado-debate-la-emergencia-el-garrahan-y-ley-financiamiento-universitario-n211886"
+      }
+     ],
+     "nota": "Sesión del 20 al 21/08/2025."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2025-09-17",
+     "etapa": "2025 · Insistencia tras el veto",
+     "tipo": "insistencia",
+     "afirmativos": 174,
+     "negativos": 67,
+     "abstenciones": 2,
+     "ausentes": null,
+     "resultado": "Insistió con 2/3",
+     "fuentes": [
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/la-camara-diputados-rechazo-vetos-emergencia-pediatrica-financiamiento-universitario-n88631"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes",
+     "discrepancias": "El cuerpo de la nota de Los Andes (https://www.losandes.com.ar/politica/diputados-rechazo-los-vetos-milei-contra-la-financiacion-universidades-y-el-hospital-garrahan-n5963301) dice 175-67-2; el epígrafe de una foto de esa misma nota dice 174."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-10-02",
+     "etapa": "2025 · Insistencia tras el veto",
+     "tipo": "insistencia",
+     "afirmativos": 58,
+     "negativos": 7,
+     "abstenciones": 4,
+     "ausentes": null,
+     "resultado": "Insistió con 2/3: es ley",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/otro-reves-milei-el-senado-rechazo-los-vetos-al-financiamiento-del-garrahan-y-las-universidades-n5965108"
+      },
+      {
+       "medio": "Al Día Argentina (Microjuris)",
+       "url": "https://aldiaargentina.microjuris.com/2025/10/03/actualidad-el-senado-rechazo-los-vetos-a-las-leyes-de-financiamiento-universitario-y-de-declaracion-de-emergencia-pediatrica/"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes"
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2024-08-15",
+     "etapa": "2024 · Media sanción",
+     "v": [
+      143,
+      77,
+      1
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2024-09-12",
+     "etapa": "2024 · Sanción",
+     "v": [
+      57,
+      10,
+      1
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2024-10-09",
+     "etapa": "2024 · Insistencia tras el veto",
+     "v": [
+      160,
+      84,
+      5
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2025-08-06",
+     "etapa": "2025 · Media sanción",
+     "v": [
+      158,
+      75,
+      5
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-08-21",
+     "etapa": "2025 · Sanción",
+     "v": [
+      58,
+      10,
+      3
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2025-09-17",
+     "etapa": "2025 · Insistencia tras el veto",
+     "v": [
+      174,
+      67,
+      2
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-10-02",
+     "etapa": "2025 · Insistencia tras el veto",
+     "v": [
+      58,
+      7,
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "emergencia-discapacidad-2025",
+   "nombre": "Emergencia en discapacidad (Ley 27.793)",
+   "impulsor": "oposicion",
+   "estado": "Vetada (Decreto 534/2025) y el Congreso insistió: es ley desde el 04/09/2025",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-06-05",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 148,
+     "negativos": 71,
+     "abstenciones": 3,
+     "ausentes": null,
+     "resultado": "Aprobada en general",
+     "fuentes": [
+      {
+       "medio": "El Ancasti",
+       "url": "https://www.elancasti.com.ar/politica-y-economia/la-oposicion-logro-aprobar-la-ley-emergencia-discapacidad-diputados-n585438/amp"
+      },
+      {
+       "medio": "Memo",
+       "url": "https://www.memo.com.ar/poder/emergencia-discapacidad/"
+      }
+     ],
+     "discrepancias": "ANBariloche (https://www.anbariloche.com.ar/noticias/2025/06/05/98555-la-camara-de-diputados-aprobo-la-ley-de-emergencia-en-discapacidad) da 143-71-3 y Los Andes (https://www.losandes.com.ar/sociedad/ley-emergencia-discapacidad-el-jueves-se-trata-el-congreso-y-el-colectivo-sale-la-calle-n5954670) da 149-71-3. El acta oficial de HCDN que se encontró (https://votaciones.diputados.gob.ar/pdf/acta/5672, 123-82-6, 45 ausentes) es de una votación en particular (O.D. 786, nuevo artículo 2), no de la votación en general."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-07-10",
+     "etapa": "Sanción",
+     "tipo": "en general",
+     "afirmativos": 56,
+     "negativos": 0,
+     "abstenciones": 0,
+     "ausentes": null,
+     "resultado": "Aprobada por unanimidad",
+     "fuentes": [
+      {
+       "medio": "BAE Negocios",
+       "url": "https://www.baenegocios.com/politica/el-senado-aprobo-por-unanimidad-la-emergencia-en-discapacidad-20250710-0088.html"
+      },
+      {
+       "medio": "Al Día Argentina (Microjuris)",
+       "url": "https://aldiaargentina.microjuris.com/2025/07/11/actualidad-el-senado-aprobo-aumento-de-jubilaciones-moratoria-previsional-y-la-emergencia-en-discapacidad/"
+      }
+     ],
+     "discrepancias": "Noticias NQN (https://www.noticiasnqn.com.ar/noticias/2025/07/10/316778-emergencia-por-discapacidad-el-senado-la-aprobo-por-unanimidad-y-sera-ley-hasta-2027) informa 55 afirmativos."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2025-08-20",
+     "etapa": "Insistencia tras el veto",
+     "tipo": "insistencia",
+     "afirmativos": 172,
+     "negativos": 73,
+     "abstenciones": 2,
+     "ausentes": null,
+     "resultado": "Insistió con 2/3",
+     "fuentes": [
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2025/08/20/318956-milei-perdio-en-el-congreso-diputados-rechazaron-el-veto-a-la-ley-de-emergencia-en-discapacidad"
+      },
+      {
+       "medio": "Chequeado",
+       "url": "https://chequeado.com/el-explicador/sesion-clave-en-diputados-debatiran-los-vetos-de-de-milei-a-las-leyes-de-aumento-a-jubilados-moratoria-previsional-y-emergencia-en-discapacidad/"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes"
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-09-04",
+     "etapa": "Insistencia tras el veto",
+     "tipo": "insistencia",
+     "afirmativos": 63,
+     "negativos": 7,
+     "abstenciones": 0,
+     "ausentes": null,
+     "resultado": "Insistió con 2/3: es ley. Fue la primera insistencia completa desde 2003",
+     "fuentes": [
+      {
+       "medio": "Tiempo Argentino",
+       "url": "https://www.tiempoar.com.ar/ta_article/dura-derrota-para-milei-por-amplia-mayoria-el-senado-rechazo-el-veto-y-reactivo-la-ley-de-emergencia-en-discapacidad/"
+      },
+      {
+       "medio": "Chequeado",
+       "url": "https://chequeado.com/el-explicador/ley-de-emergencia-en-discapacidad-el-senado-debate-el-rechazo-al-veto-de-javier-milei/"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes"
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-06-05",
+     "etapa": "Media sanción",
+     "v": [
+      148,
+      71,
+      3
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-07-10",
+     "etapa": "Sanción",
+     "v": [
+      56,
+      0,
+      0
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2025-08-20",
+     "etapa": "Insistencia tras el veto",
+     "v": [
+      172,
+      73,
+      2
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-09-04",
+     "etapa": "Insistencia tras el veto",
+     "v": [
+      63,
+      7,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "emergencia-pediatrica-2025",
+   "nombre": "Emergencia pediátrica / Hospital Garrahan (Ley 27.796)",
+   "impulsor": "oposicion",
+   "estado": "Vetada (Decreto 651/2025, 11/09/2025) y el Congreso insistió: es ley desde el 02/10/2025",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-08-06",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 159,
+     "negativos": 67,
+     "abstenciones": 4,
+     "ausentes": null,
+     "resultado": "Aprobada",
+     "fuentes": [
+      {
+       "medio": "BAE Negocios",
+       "url": "https://www.baenegocios.com/amp/Diputados-declaro-la-emergencia-del-Garrahan-con-amplia-mayoria-20250806-0125/"
+      },
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/la-oposicion-logro-aprobar-diputados-la-declaracion-emergencia-el-hospital-garrahan-n5958174"
+      },
+      {
+       "medio": "Noticias NQN",
+       "url": "https://www.noticiasnqn.com.ar/noticias/2025/08/07/318235-diputados-aprobo-la-ley-de-financiamiento-universitario"
+      }
+     ],
+     "nota": "Los Andes da 159-67 sin abstenciones; BAE Negocios y Noticias NQN informan 4."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-08-21",
+     "etapa": "Sanción",
+     "tipo": "en general",
+     "afirmativos": 62,
+     "negativos": 8,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "Aprobada: sanción definitiva",
+     "fuentes": [
+      {
+       "medio": "C5N",
+       "url": "https://www.c5n.com/politica/tras-la-maratonica-sesion-diputados-el-senado-debate-la-emergencia-el-garrahan-y-ley-financiamiento-universitario-n211886"
+      },
+      {
+       "medio": "Blog del Contador",
+       "url": "https://blogdelcontador.com.ar/news-46122-el-senado-aprobo-la-ley-de-emergencia-en-pediatria-y-derogo-cinco-decretos-del-poder-ejecutivo"
+      },
+      {
+       "medio": "Primera Edición",
+       "url": "https://www.primeraedicion.com.ar/nota/101034271/el-senado-sanciono-la-emergencia-en-pediatria-con-foco-en-el-garrahan/"
+      }
+     ],
+     "discrepancias": "Ámbito (https://www.ambito.com/c6181239) informa 60-8. Se votó cerca de la 1 de la madrugada del 21/08/2025."
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2025-09-17",
+     "etapa": "Insistencia tras el veto",
+     "tipo": "insistencia",
+     "afirmativos": 181,
+     "negativos": 60,
+     "abstenciones": 1,
+     "ausentes": null,
+     "resultado": "Insistió con 2/3",
+     "fuentes": [
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/la-camara-diputados-rechazo-vetos-emergencia-pediatrica-financiamiento-universitario-n88631"
+      },
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/diputados-rechazo-los-vetos-milei-contra-la-financiacion-universidades-y-el-hospital-garrahan-n5963301"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes"
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-10-02",
+     "etapa": "Insistencia tras el veto",
+     "tipo": "insistencia",
+     "afirmativos": 59,
+     "negativos": 7,
+     "abstenciones": 3,
+     "ausentes": null,
+     "resultado": "Insistió con 2/3: es ley",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/otro-reves-milei-el-senado-rechazo-los-vetos-al-financiamiento-del-garrahan-y-las-universidades-n5965108"
+      },
+      {
+       "medio": "Al Día Argentina (Microjuris)",
+       "url": "https://aldiaargentina.microjuris.com/2025/10/03/actualidad-el-senado-rechazo-los-vetos-a-las-leyes-de-financiamiento-universitario-y-de-declaracion-de-emergencia-pediatrica/"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes"
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-08-06",
+     "etapa": "Media sanción",
+     "v": [
+      159,
+      67,
+      4
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-08-21",
+     "etapa": "Sanción",
+     "v": [
+      62,
+      8,
+      null
+     ]
+    },
+    {
+     "camara": "Diputados",
+     "fecha": "2025-09-17",
+     "etapa": "Insistencia tras el veto",
+     "v": [
+      181,
+      60,
+      1
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-10-02",
+     "etapa": "Insistencia tras el veto",
+     "v": [
+      59,
+      7,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ficha-limpia-2025",
+   "nombre": "Ficha Limpia (2025)",
+   "impulsor": "otros",
+   "impulsor_detalle": "PRO; el gobierno la acompañó",
+   "estado": "Rechazada en el Senado (07/05/2025)",
+   "votaciones": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-02-12",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 144,
+     "negativos": 98,
+     "abstenciones": 2,
+     "ausentes": null,
+     "resultado": "Aprobada",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/diputados-aprobo-ficha-limpia-y-avanza-el-proyecto-que-impediria-cristina-kirchner-ser-candidata-n5938508"
+      },
+      {
+       "medio": "El Economista",
+       "url": "https://eleconomista.com.ar/politica/diputados-aprobo-ficha-limpia-quienes-votaron-favor-como-sigue-tratamiento-n82055"
+      }
+     ],
+     "nota": "Se abstuvieron Pichetto y Massot."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-05-07",
+     "etapa": "Revisión",
+     "tipo": "en general",
+     "afirmativos": 36,
+     "negativos": 35,
+     "abstenciones": 0,
+     "ausentes": null,
+     "resultado": "Rechazada: necesitaba 37 votos afirmativos",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/final-inesperado-el-senado-rechazo-ficha-limpia-y-cristina-kirchner-podra-ser-candidata-n5947516"
+      },
+      {
+       "medio": "BAE Negocios",
+       "url": "https://www.baenegocios.com/politica/En-vivo-el-Senado-vota-la-ley-de-Ficha-Limpia-que-bloquea-candidaturas-por-delitos-contra-la-administracion-publica-20250507-0087.html"
+      }
+     ],
+     "mayoria_requerida": "37 afirmativos (mayoría absoluta del total)"
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Diputados",
+     "fecha": "2025-02-12",
+     "etapa": "Media sanción",
+     "v": [
+      144,
+      98,
+      2
+     ]
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2025-05-07",
+     "etapa": "Revisión",
+     "v": [
+      36,
+      35,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pliego-lijo",
+   "nombre": "Corte Suprema: pliego de Ariel Lijo",
+   "impulsor": "pliego",
+   "solo_senado": true,
+   "estado": "Rechazado",
+   "votaciones": [
+    {
+     "camara": "Senado",
+     "fecha": "2025-04-03",
+     "etapa": "Acuerdo del Senado",
+     "tipo": "pliego",
+     "afirmativos": 27,
+     "negativos": 43,
+     "abstenciones": 1,
+     "ausentes": null,
+     "resultado": "Pliego rechazado",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/el-senado-rechazo-amplia-mayoria-los-pliegos-ariel-lijo-y-manuel-garcia-mansilla-la-corte-n5943699"
+      },
+      {
+       "medio": "La Capital",
+       "url": "https://www.lacapital.com.ar/politica/el-senado-rechazo-los-pliegos-lijo-y-garcia-mansilla-la-corte-suprema-n10188217.html"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes"
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Senado",
+     "fecha": "2025-04-03",
+     "etapa": "Acuerdo del Senado",
+     "v": [
+      27,
+      43,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pliego-garcia-mansilla",
+   "nombre": "Corte Suprema: pliego de Manuel García-Mansilla",
+   "impulsor": "pliego",
+   "solo_senado": true,
+   "estado": "Rechazado",
+   "votaciones": [
+    {
+     "camara": "Senado",
+     "fecha": "2025-04-03",
+     "etapa": "Acuerdo del Senado",
+     "tipo": "pliego",
+     "afirmativos": 20,
+     "negativos": 51,
+     "abstenciones": 0,
+     "ausentes": null,
+     "resultado": "Pliego rechazado",
+     "fuentes": [
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/el-senado-rechazo-amplia-mayoria-los-pliegos-ariel-lijo-y-manuel-garcia-mansilla-la-corte-n5943699"
+      },
+      {
+       "medio": "La Capital",
+       "url": "https://www.lacapital.com.ar/politica/el-senado-rechazo-los-pliegos-lijo-y-garcia-mansilla-la-corte-suprema-n10188217.html"
+      }
+     ],
+     "mayoria_requerida": "2/3 de los presentes",
+     "nota": "La Capital no informa abstenciones; Los Andes indica 0."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Senado",
+     "fecha": "2025-04-03",
+     "etapa": "Acuerdo del Senado",
+     "v": [
+      20,
+      51,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pliegos-jueces-2026",
+   "nombre": "Pliegos de jueces, fiscales y defensores (2026)",
+   "impulsor": "pliego",
+   "solo_senado": true,
+   "estado": "Hubo tres sesiones de acuerdos con 74, 29 y 67 pliegos. Según La Gaceta, al 27/08/2026 el Senado llevaba aprobados 177 pliegos judiciales en esta gestión. No se encontraron sesiones de pliegos en septiembre ni octubre de 2026.",
+   "votaciones": [
+    {
+     "camara": "Senado",
+     "fecha": "2026-06-04",
+     "etapa": "74 pliegos aprobados",
+     "tipo": "pliego",
+     "afirmativos": null,
+     "negativos": null,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "74 aprobados. Michelli: 44-18-2",
+     "fuentes": [
+      {
+       "medio": "Senado (prensa oficial)",
+       "url": "https://www.senado.gob.ar/prensa/23921/noticias"
+      },
+      {
+       "medio": "La Capital",
+       "url": "https://www.lacapital.com.ar/politica/el-senado-aprobo-el-pliego-michelli-la-candidata-jueza-que-milei-quiso-vetar-n10262884.html"
+      },
+      {
+       "medio": "Los Andes",
+       "url": "https://www.losandes.com.ar/politica/como-votaron-los-senadores-mendocinos-el-pliego-la-jueza-veronica-michelli-n5993718"
+      }
+     ],
+     "nota": "Pliegos aprobados: 74. Votación separada de María Verónica Michelli: 44 afirmativos, 18 negativos (de LLA), 2 abstenciones (Bullrich y Schneider). 24 de los pliegos se incorporaron al temario con 2/3."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2026-07-16",
+     "etapa": "29 pliegos aprobados",
+     "tipo": "pliego",
+     "afirmativos": null,
+     "negativos": null,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "29 aprobados. Pesino (continuidad pasados los 75 años): 35-32",
+     "fuentes": [
+      {
+       "medio": "Senado (prensa oficial)",
+       "url": "https://www.senado.gob.ar/prensa/24088/noticias"
+      },
+      {
+       "medio": "Diario Panorama",
+       "url": "https://diariopanorama.com/noticia/559800/senado-aprobo-29-pliegos-judiciales-avanzo-cobertura-vacantes-justicia"
+      }
+     ],
+     "nota": "Otros 29 pliegos tomaron estado parlamentario. En la misma sesión se aprobaron 26 pliegos diplomáticos por unanimidad, con 67 votos."
+    },
+    {
+     "camara": "Senado",
+     "fecha": "2026-08-27",
+     "etapa": "67 pliegos aprobados",
+     "tipo": "pliego",
+     "afirmativos": null,
+     "negativos": null,
+     "abstenciones": null,
+     "ausentes": null,
+     "resultado": "67 aprobados: 66 en bloque y Bertuzzi aparte con 44-23",
+     "fuentes": [
+      {
+       "medio": "Infobae",
+       "url": "https://www.infobae.com/politica/2026/08/27/senado-en-vivo-las-ultimas-noticias-del-debate-sobre-los-pliegos-judiciales-y-convenios-internacionales/"
+      },
+      {
+       "medio": "La Gaceta",
+       "url": "https://www.lagaceta.com.ar/nota/1151551/politica/senado-avanzo-pliegos-judiciales-clave-reapertura-discusion-paso.html"
+      },
+      {
+       "medio": "Palabras del Derecho",
+       "url": "https://www.palabrasdelderecho.com.ar/articulo/6943/El-Senado-aprobo-67-nuevos-pliegos-para-jueces,-defensores-y-fiscales"
+      }
+     ],
+     "nota": "Desglose: 45 jueces, 9 fiscales, 12 defensores y 1 nuevo acuerdo para una magistrada que cumple 75 años. Pablo Bertuzzi (Cámara Federal, Sala I): 44 a favor y 23 en contra. Pablo Yadarola: 66 a favor, por unanimidad.",
+     "discrepancias": "Palabras del Derecho dice que el bloque se aprobó con 67 votos afirmativos; Infobae y La Gaceta dicen 66."
+    }
+   ],
+   "resumen_index": []
+  }
+ ]
+}

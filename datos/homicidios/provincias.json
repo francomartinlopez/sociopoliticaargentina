@@ -1,0 +1,484 @@
+{
+ "meta": {
+  "actualizado": "2026-10-25",
+  "indicador": "Víctimas de homicidios dolosos y tasa cada 100.000 habitantes",
+  "fuente_primaria": "Sistema Nacional de Información Criminal (SNIC), Ministerio de Seguridad Nacional. Informe 'Estadísticas Criminales 2025', presentado el 01/06/2026.",
+  "informe_pdf_no_accesible": "https://cloud-snic.minseg.gob.ar/Informes/SNIC/Informe_SNIC_Nacional_2025.pdf",
+  "advertencia": "Cifras tomadas de prensa que cita al SNIC y de datos.gob.ar; no se pudo abrir el PDF oficial ni la base CSV. Hay que completar y validar con el informe oficial."
+ },
+ "nacional": {
+  "2025": {
+   "victimas": 1676,
+   "tasa": 3.6
+  },
+  "2024": {
+   "victimas": 1805,
+   "tasa": 3.9
+  },
+  "2023": {
+   "tasa": 4.4
+  },
+  "fuentes": [
+   "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063",
+   "https://www.airedesantafe.com.ar/c661300",
+   "https://www.argentina.gob.ar/node/503473"
+  ]
+ },
+ "provincias": {
+  "BUENOS AIRES": {
+   "2025": {
+    "victimas": null,
+    "tasa": 4.44,
+    "fuentes": [
+     "https://apis.datos.gob.ar/series/api/series/?ids=t_snic_1_victimas_06&format=csv",
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 4.7,
+    "fuentes": [
+     "https://apis.datos.gob.ar/series/api/series/?ids=t_snic_1_victimas_06&format=csv"
+    ],
+    "nota": "Serie SNIC revisada en datos.gob.ar (4,704); el informe 2024 original publicó 4,5."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": null
+  },
+  "CIUDAD AUTONOMA DE BUENOS AIRES": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 2.5,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": "2025: dato no encontrado en fuentes accesibles."
+  },
+  "CATAMARCA": {
+   "2025": {
+    "victimas": null,
+    "tasa": 1.4,
+    "fuentes": [
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 1.9,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": null
+  },
+  "CHACO": {
+   "2025": {
+    "victimas": null,
+    "tasa": 4.3,
+    "fuentes": [
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 4.6,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": null
+  },
+  "CHUBUT": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 4.2,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": "2025: dato no encontrado en fuentes accesibles."
+  },
+  "CORDOBA": {
+   "2025": {
+    "victimas": 96,
+    "tasa": 2.4,
+    "fuentes": [
+     "https://www.perfil.com/noticias/amp/cordoba/segun-la-provincia-cordoba-esta-debajo-de-la-media-de-robos-y-homicidios-a-nivel-nacional.phtml"
+    ]
+   },
+   "2024": {
+    "victimas": 117,
+    "tasa": 3.0,
+    "fuentes": [
+     "https://www.perfil.com/noticias/amp/cordoba/segun-la-provincia-cordoba-esta-debajo-de-la-media-de-robos-y-homicidios-a-nivel-nacional.phtml",
+     "https://www.lavozdesanjusto.com.ar/cordoba-cerro-2025-con-la-tasa-de-homicidios-mas-baja-de-los-ultimos-25-anos"
+    ],
+    "nota": "117 víctimas según Perfil (SNIC). Tasa 3,0 según La Voz de San Justo (05/01/2026), que con datos preliminares daba para 2025 90 víctimas y 2,28."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": null
+  },
+  "CORRIENTES": {
+   "2025": {
+    "victimas": null,
+    "tasa": 0.9,
+    "fuentes": [
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "var_pct_victimas_o_tasa": -66.8,
+   "nota": "Variación interanual informada por Aire de Santa Fe con datos SNIC (no especifica si es de víctimas o de tasa). 2024: tasa no encontrada.",
+   "var_fuente": "https://www.airedesantafe.com.ar/c661300"
+  },
+  "ENTRE RIOS": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 3.4,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": -30.8,
+   "nota": "2025: tasa no encontrada; solo la variación (-30,8 %) informada por Aire de Santa Fe con datos SNIC.",
+   "var_fuente": "https://www.airedesantafe.com.ar/c661300"
+  },
+  "FORMOSA": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": "Sin datos en las fuentes accesibles para 2025 ni 2024."
+  },
+  "JUJUY": {
+   "2025": {
+    "victimas": 30,
+    "tasa": 3.7,
+    "fuentes": [
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "2024": {
+    "victimas": 16,
+    "tasa": 2.0,
+    "fuentes": [
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "var_pct_victimas_o_tasa": 87.0,
+   "nota": null,
+   "var_fuente": "https://www.airedesantafe.com.ar/c661300"
+  },
+  "LA PAMPA": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 1.4,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": "2025: dato no encontrado en fuentes accesibles."
+  },
+  "LA RIOJA": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 1.0,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": 173.8,
+   "nota": "2025: tasa no encontrada; solo la variación (+173,8 %) informada por Aire de Santa Fe con datos SNIC.",
+   "var_fuente": "https://www.airedesantafe.com.ar/c661300"
+  },
+  "MENDOZA": {
+   "2025": {
+    "victimas": 65,
+    "tasa": 3.2,
+    "fuentes": [
+     "https://www.tiempodesanjuan.com/mendoza/mendoza-bajo-los-homicidios-y-robos-en-2025-pero-alarmo-el-aumento-de-los-delitos-sexuales_1782772854",
+     "https://www.elsol.com.ar/?p=2222842"
+    ],
+    "nota": "Tiempo de San Juan da 3,2; El Sol da 3,1 para las mismas 65 víctimas."
+   },
+   "2024": {
+    "victimas": 71,
+    "tasa": 3.5,
+    "fuentes": [
+     "https://www.tiempodesanjuan.com/mendoza/mendoza-bajo-los-homicidios-y-robos-en-2025-pero-alarmo-el-aumento-de-los-delitos-sexuales_1782772854"
+    ],
+    "nota": "El informe 2024 original publicó 3,4."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": null
+  },
+  "MISIONES": {
+   "2025": {
+    "victimas": 45,
+    "tasa": 3.3,
+    "fuentes": [
+     "https://economis.com.ar/?p=477612"
+    ]
+   },
+   "2024": {
+    "victimas": 46,
+    "tasa": 3.4,
+    "fuentes": [
+     "https://economis.com.ar/?p=477612"
+    ]
+   },
+   "var_pct_victimas_o_tasa": -3.0,
+   "nota": null
+  },
+  "NEUQUEN": {
+   "2025": {
+    "victimas": null,
+    "tasa": 5.7,
+    "fuentes": [
+     "https://www.airedesantafe.com.ar/c661300",
+     "https://www.elsol.com.ar/?p=2222842"
+    ],
+    "nota": "Tasa más alta del país en 2025."
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 4.3,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": null
+  },
+  "RIO NEGRO": {
+   "2025": {
+    "victimas": 24,
+    "tasa": 3.3,
+    "fuentes": [
+     "https://rionegro.gov.ar/articulo/58478/fuerte-caida-del-delito-en-rio-negro-por-debajo-de-la-media-nacional"
+    ],
+    "nota": "Dato preliminar SNIC citado por el gobierno provincial (28/03/2026), no el informe final de junio 2026. Verificar."
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 4.5,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": -31.8,
+   "nota": "Variación del dato preliminar, según el gobierno provincial."
+  },
+  "SALTA": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 4.6,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": -31.2,
+   "nota": "2025: tasa no encontrada; solo la variación (-31,2 %) informada por Aire de Santa Fe con datos SNIC.",
+   "var_fuente": "https://www.airedesantafe.com.ar/c661300"
+  },
+  "SAN JUAN": {
+   "2025": {
+    "victimas": null,
+    "tasa": 1.4,
+    "fuentes": [
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 1.2,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": null
+  },
+  "SAN LUIS": {
+   "2025": {
+    "victimas": null,
+    "tasa": 1.3,
+    "fuentes": [
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "var_pct_victimas_o_tasa": -56.5,
+   "nota": "2024: tasa no encontrada.",
+   "var_fuente": "https://www.airedesantafe.com.ar/c661300"
+  },
+  "SANTA CRUZ": {
+   "2025": {
+    "victimas": null,
+    "tasa": 4.5,
+    "fuentes": [
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 1.5,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": 149.8,
+   "nota": "Ojo: +149,8 % (Aire de Santa Fe) no cuadra con 1,5 -> 4,5; probablemente el 2024 revisado sea distinto del publicado en 2025.",
+   "var_fuente": "https://www.airedesantafe.com.ar/c661300"
+  },
+  "SANTA FE": {
+   "2025": {
+    "victimas": 208,
+    "tasa": 5.6,
+    "fuentes": [
+     "https://www.airedesantafe.com.ar/c661300",
+     "https://www.todojujuy.com/policiales/el-ano-pasado-casi-se-duplicaron-los-homicidios-jujuy-n291063"
+    ]
+   },
+   "2024": {
+    "victimas": 179,
+    "tasa": 4.9,
+    "fuentes": [
+     "https://www.airedesantafe.com.ar/c661300"
+    ]
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": null
+  },
+  "SANTIAGO DEL ESTERO": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 3.4,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": -40.2,
+   "nota": "2025: tasa no encontrada; solo la variación (-40,2 %) informada por Aire de Santa Fe con datos SNIC.",
+   "var_fuente": "https://www.airedesantafe.com.ar/c661300"
+  },
+  "TIERRA DEL FUEGO": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 1.6,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": "2025: dato no encontrado en fuentes accesibles."
+  },
+  "TUCUMAN": {
+   "2025": {
+    "victimas": null,
+    "tasa": null,
+    "fuentes": []
+   },
+   "2024": {
+    "victimas": null,
+    "tasa": 3.8,
+    "fuentes": [
+     "https://www.conclusion.com.ar/?p=1300229",
+     "https://www.elonce.com/politica/estadisticas-criminales-que-lugar-ocupa-entre-rios-a-nivel-nacional.htm"
+    ],
+    "nota": "Tasa del informe SNIC 2024 (publicado en mayo de 2025). Puede diferir de la cifra 2024 revisada que usa como comparación el informe 2025."
+   },
+   "var_pct_victimas_o_tasa": null,
+   "nota": "2025: dato no encontrado en fuentes accesibles."
+  }
+ }
+}

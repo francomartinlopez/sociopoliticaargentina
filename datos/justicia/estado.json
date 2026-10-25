@@ -1,0 +1,74 @@
+{
+ "meta": {"actualizado": "2026-10-25"},
+ "vacantes": {
+  "ultimo": {
+   "cantidad": 298,
+   "total_cargos": 1002,
+   "pct": 29.7,
+   "pct_nota": "Cálculo propio: 298 sobre 1.002 cargos (total de El Litoral, jul-2026, e iProfesional, nov-2025). Infobae no publica un porcentaje. Biglieri (16/10/2026) dijo 'más del 30 %'.",
+   "desglose": {"en_consejo_magistratura": 191, "en_poder_ejecutivo_con_terna": 77, "en_senado": 30},
+   "fecha": "2026-10-18",
+   "fuente_original": "Consejo de la Magistratura, Mapa Dinámico de Concursos",
+   "fuentes": ["https://www.infobae.com/judiciales/2026/10/18/la-justicia-aun-tiene-298-cargos-vacantes-en-todo-el-pais-como-avanzan-los-concursos-en-el-consejo-de-la-magistratura/"]
+  },
+  "otras_mediciones": [
+   {"fecha": "2026-10-10", "cantidad": 266, "desglose": {"consejo": 159, "ejecutivo": 77, "senado": 30}, "nota": "Mismo Mapa Dinámico citado por Ámbito/Examedia; no coincide con las 298 de Infobae (la diferencia está en la etapa Consejo).", "fuente": "https://examedia.com.ar/portada/post/88029218"},
+   {"fecha": "2026-07-23", "cantidad": 235, "pct": 23.5, "nota": "El Litoral. Creo que mide otra cosa (solo magistrados, o sin contar cargos creados aún no habilitados), porque no encaja con la serie de octubre.", "fuente": "https://www.ellitoral.com/politica/javier-milei-juan-bautista-mahiques-vacantes-justicia-federal-consejo-magistratura-pliegos-judiciales-senado-nacion_0_brMwrjzhhq.html"},
+   {"fecha": "2026-03 (comienzos de 2026)", "cantidad": 364, "total_cargos": 1002, "pct": 36.3, "fuente": "https://www.ellitoral.com/politica/javier-milei-juan-bautista-mahiques-vacantes-justicia-federal-consejo-magistratura-pliegos-judiciales-senado-nacion_0_brMwrjzhhq.html"},
+   {"fecha": "2026-05-22", "cantidad": "más de 360", "fuente": "https://chequeado.com/nota/juzgados-vacantes-la-mayoria-de-los-candidatos-que-envio-el-gobierno-de-milei-al-senado-son-parte-de-la-familia-judicial"},
+   {"fecha": "2025-11-10", "cantidad": 353, "cubiertos": 668, "total_cargos": 1002, "nota": "La nota dice 32 %, pero 353 sobre 1.002 da 35 %.", "fuente": "https://www.iprofesional.com/legales/441860-por-que-advierten-que-hay-inminente-colapso-en-poder-judicial-argentina"}
+  ]
+ },
+ "corte_suprema": {
+  "integrantes": 3,
+  "de": 5,
+  "nombres": ["Horacio Rosatti", "Carlos Rosenkrantz", "Ricardo Lorenzetti"],
+  "vacantes": 2,
+  "vacantes_origen": "Retiros de Elena Highton de Nolasco (2021) y Juan Carlos Maqueda (2024).",
+  "nota": "El 03/09/2026 Infobae informó que la Corte funciona con tres ministros y que el Gobierno no prevé cubrir las vacantes por ahora. El 02/09/2026 Mahiques dijo que Milei 'estudia candidatos', sin fecha. Un fallo del 20/08/2026 lleva las firmas de Rosatti, Lorenzetti y Rosenkrantz. Antecedente: el 03/04/2025 el Senado rechazó los pliegos de Ariel Lijo (43 en contra, 27 a favor, 1 abstención) y Manuel García-Mansilla (51 en contra, 20 a favor).",
+  "fuentes": [
+   "https://www.infobae.com/politica/2026/09/03/sin-definiciones-sobre-la-corte-el-gobierno-avanza-con-una-nueva-reforma-de-juzgados-y-un-record-de-designaciones/",
+   "https://www.lapoliticaonline.com/politica/mahiques-confirmo-que-avanza-la-designacion-de-jueces-en-la-corte-pero-nego-que-analicen-ampliarla-4643/",
+   "https://www.diariojudicial.com/news-104205-sin-saltearse-la-escala-portena",
+   "https://www.diariodecuyo.com.ar/argentina/el-senado-rechazo-los-pliegos-de-lijo-y-garcia-mansilla-como-jueces-de-la-corte-suprema-1718500.html"
+  ]
+ },
+ "procurador_general": {
+  "estado": "interino",
+  "nombre": "Eduardo Casal",
+  "nota": "Así se lo describe el 02/10/2026 ('procurador general de la Nación interino'). No se encontró en 2026 ningún pliego enviado para un titular.",
+  "fuentes": ["https://www.diariojudicial.com/news-104569-eduardo-casal-fue-reelecto-como-presidente-de-la-asociacion-iberoamericana-de-ministerios-publicos"]
+ },
+ "pliegos": {
+  "resumen": {
+   "enviados_2026_al_03_09": 218,
+   "enviados_2026_desglose": {"jueces": 151, "fiscales": 29, "defensores": 29, "listas_conjueces": 5},
+   "estado_al_03_09": {"designados": 100, "en_tramite_senado": 111, "en_tramite_presidencia": 7},
+   "aprobados_senado_2026_al_27_08": 129,
+   "rechazados_senado_desde_2023_12": 2,
+   "rechazados_detalle": "Lijo y García-Mansilla (Corte Suprema), 03/04/2025. No se encontraron otros rechazos.",
+   "enviados_dic2023_dic2025": null,
+   "enviados_dic2023_dic2025_nota": "No se encontró un conteo. Según un dirigente del Colegio Público de Abogados (iProfesional, 17/11/2025), el Gobierno 'no elevó pliegos al Senado en dos años', salvo dos renovaciones y los pliegos de Lijo y García-Mansilla; antes había retirado los pliegos anteriores.",
+   "fuentes": [
+    "https://www.infobae.com/politica/2026/09/03/sin-definiciones-sobre-la-corte-el-gobierno-avanza-con-una-nueva-reforma-de-juzgados-y-un-record-de-designaciones/",
+    "https://www.palabrasdelderecho.com.ar/articulo/6943/El-Senado-aprobo-67-nuevos-pliegos-para-jueces,-defensores-y-fiscales",
+    "https://www.iprofesional.com/legales/441860-por-que-advierten-que-hay-inminente-colapso-en-poder-judicial-argentina"
+   ]
+  },
+  "envios": [
+   {"fecha": "2026-03-30/31", "cantidad": "unos 60-62 (anuncio de Mahiques)", "nota": "Primera tanda de 2026; hay notas de NoticiasNQN (60) y Misiones Online (62 vacantes).", "fuente": "https://misionesonline.net/2026/03/31/pliegos-para-cubrir-62-vacantes/"},
+   {"fecha": "2026-04-25", "cantidad": 26, "acumulado": 103, "nota": "Mensajes 111/26 a 136/26; 77 pliegos previos + 26.", "fuente": "https://www.palabrasdelderecho.com.ar/articulo/6710/El-Presidente-envio-nuevos-pliegos-judiciales-al-Senado"},
+   {"fecha": "2026-05-22", "cantidad": null, "acumulado": "más de 150", "fuente": "https://chequeado.com/nota/juzgados-vacantes-la-mayoria-de-los-candidatos-que-envio-el-gobierno-de-milei-al-senado-son-parte-de-la-familia-judicial"},
+   {"fecha": "2026-08-04", "cantidad": 203, "nota": "La nota anuncia 203 pliegos (144 jueces, 26 fiscales, 25 defensores, 4 listas de conjueces; la suma no cierra). Se presenta como envío nuevo, pero no cuadra con el total de 218 del 03/09: puede ser un acumulado. A confirmar.", "fuente": "https://www.noticiasnqn.com.ar/noticias/2026/08/04/346408-el-gobierno-envio-203-pliegos-al-senado-para-cubrir-vacantes-en-la-justicia"},
+   {"fecha": "2026-09 (antes del 08/09)", "cantidad": 21, "nota": "Nuevos pliegos que pasan a la Comisión de Acuerdos.", "fuente": "https://www.iprofesional.com/legales/464042-designaciones-judiciales-milei-cambiaron-mapa-tribunales-impacto-septiembre-2026"}
+  ],
+  "sesiones_senado": [
+   {"fecha": "2025-04-03", "aprobados": 0, "rechazados": 2, "detalle": "Corte Suprema: Lijo 27-43-1, García-Mansilla 20-51.", "fuente": "https://www.diariodecuyo.com.ar/argentina/el-senado-rechazo-los-pliegos-de-lijo-y-garcia-mansilla-como-jueces-de-la-corte-suprema-1718500.html"},
+   {"fecha": "2026 (antes del 22/05)", "aprobados": 1, "rechazados": 0, "detalle": "Nuevo acuerdo para Carlos Mahiques (mayor de 75 años), 58 votos a favor. Fecha exacta de la sesión: a confirmar.", "fuente": "https://chequeado.com/nota/juzgados-vacantes-la-mayoria-de-los-candidatos-que-envio-el-gobierno-de-milei-al-senado-son-parte-de-la-familia-judicial"},
+   {"fecha": "2026-06-04", "aprobados": 74, "rechazados": 0, "detalle": "Votación 44-18-2. Incluye conjueces y el pliego de Verónica Michelli (TOF 3 La Plata).", "fuente": "https://www.todojujuy.com/minuto-minuto-la-sesion-del-senado-vivo-n291133"},
+   {"fecha": "2026-08-27", "aprobados": 67, "rechazados": 0, "detalle": "45 jueces, 9 fiscales, 12 defensores y 1 nuevo acuerdo. Bertuzzi aprobado 44-23 y Yadarola 66-0. El Senado lleva 129 pliegos aprobados en 2026.", "fuente": "https://www.diariojudicial.com/news-104263-mas-y-mas-pliegos"}
+  ],
+  "nota_inconsistencia": "74 + 67 = 141, pero la prensa habla de 129 aprobados en 2026 al 27/08. La diferencia puede venir de cómo se cuentan conjueces y nuevos acuerdos. No se encontraron sesiones con pliegos entre el 28/08 y el 25/10/2026: a confirmar en senado.gob.ar.",
+  "designaciones": {"decretos_08_09_2026": 63, "acumulado_ultimo_anio_segun_mahiques": 166, "fuente": "https://www.iprofesional.com/legales/464042-designaciones-judiciales-milei-cambiaron-mapa-tribunales-impacto-septiembre-2026"}
+ }
+}

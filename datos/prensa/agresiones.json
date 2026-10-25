@@ -1,0 +1,94 @@
+{
+ "meta": {
+  "actualizado": "2026-10-25",
+  "fuente": "FOPEA, Monitoreo de Libertad de Expresión (informes anuales). ADEPA no publica conteos en las notas consultadas.",
+  "granularidad": "anual",
+  "mensual_disponible": false,
+  "nota_mensual": "No se encontraron conteos mensuales públicos de FOPEA ni de ADEPA para los últimos 12 meses (nov 2025-oct 2026). El sitio monitoreo.fopea.org no se pudo abrir. Tampoco hay todavía un informe de FOPEA con cifras de 2026: en septiembre de 2026 FOPEA dijo que el récord de 2025 'ya fue superado' en 2026, sin dar números. El gráfico mensual queda en null.",
+  "mapeo_categorias": "Correspondencia aproximada con las categorías del sitio: Física = 'ataques a la integridad'; Amenaza/intimidación = sin conteo propio en FOPEA (va dentro de integridad / otras); Judicial = 'acciones judiciales civiles o penales'; Discursiva = 'discurso estigmatizante'; Otras = acceso a la información + censura + resto."
+ },
+ "mensual": null,
+ "anual": {
+  "2025": {
+   "total": 278,
+   "victimas": 374,
+   "por_tipo": {
+    "fisica": 58,
+    "amenaza_intimidacion": null,
+    "judicial": 30,
+    "discursiva": 139,
+    "otras": 51,
+    "detalle_otras": {"restriccion_acceso_informacion": 28, "censura": 10, "resto_sin_desglose": 13}
+   },
+   "por_autor": {
+    "funcionarios_publicos": null,
+    "fuerzas_seguridad": null,
+    "particulares": null,
+    "sin_identificar": 15,
+    "detalle_fopea": {
+     "presidente_milei": 119,
+     "violencia_estatal": "más de la mitad de los casos (sin número exacto)",
+     "paraestatal": 78,
+     "no_estatal": 40,
+     "origen_no_identificado": 15,
+     "grupos_fuera_de_la_ley": 1,
+     "estatal_mas_paraestatal_pct": 84.4
+    },
+    "nota": "FOPEA agrupa por origen (estatal / paraestatal / no estatal) y no publica en prensa los conteos de funcionarios, fuerzas de seguridad y particulares por separado. 'No estatal' (40) es lo más parecido a 'particulares', pero no es lo mismo."
+   },
+   "fuentes": [
+    "https://www.mdzol.com/politica/record-ataques-la-prensa-y-javier-milei-como-principal-senalado-n1509789",
+    "https://www.baenegocios.com/politica/fopea-registro-278-ataques-a-la-prensa-en-2025-el-mayor-nivel-en-18-anos/"
+   ],
+   "fecha_publicacion": "2026-04-29/30",
+   "nota": "Informe 'El periodismo en riesgo de silencio'. 'Otras' = 278 - (139+58+30); el resto sin desglose (13) se calcula igual. 'Física' = 'ataques a la integridad' (58); BAE Negocios dice que las agresiones físicas y psicológicas 'superaron el 20 %'."
+  },
+  "2024": {
+   "total": 179,
+   "por_tipo_pct": {"discursiva": 45.0, "fisica_integridad": 25.1, "restriccion_acceso_informacion": 11.7},
+   "por_tipo": {"fisica": null, "amenaza_intimidacion": null, "judicial": null, "discursiva": 76, "otras": null, "nota": "El informe da 76 casos de discurso estigmatizante, aunque el 45 % de 179 serían unos 81 (inconsistencia del propio informe). Acceso a la información: 21 eventos."},
+   "por_autor": {
+    "funcionarios_publicos": null,
+    "fuerzas_seguridad": null,
+    "particulares": null,
+    "sin_identificar": null,
+    "detalle_fopea": {
+     "presidente_milei": 56,
+     "funcionarios_del_presidente": 11,
+     "poderes_politicos_ejecutivo_funcionariado_legislativo": {"n": 94, "pct": 52.5},
+     "poderes_judiciales_y_fuerzas_seguridad": {"n": 26, "pct": 14.5},
+     "violencia_estatal": {"n": 121, "pct": 67.6},
+     "violencia_paraestatal": 23,
+     "allegados_al_poder": 25
+    }
+   },
+   "fuentes": [
+    "https://monitoreo.fopea.org/wp-content/uploads/2025/04/FOPEA-Monitoreo-Anual-2024.pdf",
+    "https://noticias.perfil.com/noticias/informacion-general/fopea-el-poder-politico-causo-el-52-de-los-ataques-a-la-prensa.phtml"
+   ],
+   "fecha_publicacion": "2025-05-06"
+  }
+ },
+ "primeros_12_meses_milei": {
+  "periodo": "primeros 12 meses de gobierno (aprox. dic 2023-dic 2024; FOPEA no da fechas exactas)",
+  "total": 173,
+  "por_tipo": {
+   "fisica": 44,
+   "amenaza_intimidacion": null,
+   "judicial": 11,
+   "discursiva": 77,
+   "otras": 41,
+   "detalle_otras": {"restriccion_acceso_informacion": 23, "censura": 6, "otros_abusos_poder_estatal": 5, "ataques_bienes": 3, "uso_abusivo_publicidad_oficial": 2, "censura_interna": 2}
+  },
+  "por_autor": {
+   "funcionarios_publicos": 94,
+   "fuerzas_seguridad": 19,
+   "particulares": null,
+   "sin_identificar": null,
+   "detalle_fopea": {"presidente": 56, "policia": 17, "funcionarios_municipales": 12, "funcionarios_nacionales": 10, "intendentes": 6, "funcionarios_provinciales": 5, "judiciales_provinciales": 4, "judiciales_federales": 3, "legisladores_nacionales": 3, "personal_migraciones": 2, "gobernador": 1, "legislador_provincial": 1, "total_estatal": 120, "allegados_al_poder": 22},
+   "nota": "Agrupación propia sobre los conteos de FOPEA. funcionarios_publicos = presidente 56 + funcionarios municipales 12 + nacionales 10 + intendentes 6 + provinciales 5 + legisladores nacionales 3 + gobernador 1 + legislador provincial 1 = 94 (no incluye judiciales: 7). fuerzas_seguridad = policía 17 + migraciones 2 = 19. FOPEA no publica en esta nota conteos de particulares ni de autores sin identificar."
+  },
+  "fuentes": ["https://www.letrap.com.ar/politica/fopea-contabilizo-173-ataques-al-periodismo-el-gobierno-libertario-n5412990/amp"],
+  "fecha_publicacion": "2024-12-10"
+ }
+}

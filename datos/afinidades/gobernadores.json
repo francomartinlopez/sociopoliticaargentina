@@ -1,0 +1,1177 @@
+{
+ "meta": {
+  "titulo": "Afinidad de cada gobernador con el gobierno nacional (Javier Milei)",
+  "actualizado": "2026-10-25",
+  "unidad": "Gobernador o jefe de Gobierno en funciones al 25/10/2026.",
+  "regla": "Lectura propia. afin: el gobernador fue aliado electoral de La Libertad Avanza en 2025 (listas conjuntas o acuerdo explícito) o respalda en público la agenda del gobierno sin oponerse a sus leyes clave. neutral: acompaña algunas iniciativas y se opone a otras (gobernadores dialoguistas, miembros de Provincias Unidas, peronistas que negocian votos con el gobierno). opositora: confronta abiertamente con el gobierno (conducción de Fuerza Patria o kirchnerista, o gobernadores que encabezan la oposición), o sus legisladores votan en contra de todas las leyes clave.",
+  "evidencia": "Hechos de 2024-2026: Pacto de Mayo (09/07/2024), alianzas de las legislativas del 26/10/2025, votos de los senadores del espacio del gobernador en el Presupuesto 2026, la reforma laboral y Propiedad Privada (de datos/afinidades/senadores.json), reuniones y acuerdos con la Jefatura de Gabinete, viajes con el Presidente, la sesión opositora contra el DNU 70/23 del 15/10/2026, declaraciones y conflictos judiciales.",
+  "alianza_2025": "Con quién compitió el espacio del gobernador en las legislativas nacionales del 26/10/2025. Los nombres de lista salen del escrutinio provisorio de la DINE (datos/electoral/diputados-2025-generales.json).",
+  "conteo": {
+   "afin": 6,
+   "neutral": 12,
+   "opositora": 6
+  },
+  "casos_dudosos": {
+   "SAN JUAN": "Afín por apoyo explícito a la agenda; no fue aliado electoral en 2025 (compitió con lista propia). Podría leerse neutral.",
+   "SALTA": "Muy cercano en el Congreso (reforma laboral), pero compitió contra LLA y su senadora votó contra Propiedad Privada; podría leerse afín.",
+   "NEUQUEN": "Clave para el gobierno (energía, quórum), pero compitió contra LLA y se desmarca políticamente; podría leerse afín.",
+   "CHUBUT": "Provincias Unidas según la regla, pero hoy acompaña y negocia apoyar la reelección de Milei; podría pasar a afín.",
+   "JUJUY": "Provincias Unidas; colabora en el Congreso y apoya suspender las PASO; podría pasar a afín.",
+   "CORRIENTES": "Provincias Unidas; sus tres senadores votaron a favor de todas las leyes clave; podría pasar a afín.",
+   "CATAMARCA": "Peronista dialoguista con apoyo al Presupuesto, pero su senador votó en contra de la reforma laboral y sus diputados dieron quórum a la sesión contra el DNU 70/23.",
+   "SANTIAGO DEL ESTERO": "El gobernador tiene un tono moderado y no se sumó al eje de Kicillof; la categoría opositora se apoya sobre todo en el voto de sus senadores. Podría leerse neutral.",
+   "LA PAMPA": "Dialoga con Santilli y asistió a la reunión de oct. 2025, pero no aporta votos y mantiene reclamos judiciales; podría leerse neutral.",
+   "TIERRA DEL FUEGO": "En 2026 retomó el diálogo (reforma electoral); su único senador provincial es kirchnerista y no le responde. Podría leerse neutral.",
+   "CIUDAD AUTONOMA DE BUENOS AIRES": "Afín por la lista conjunta de 2025 y su respaldo público, con tensión política por 2027 (disputa Mauricio Macri–Milei, posible candidatura propia de LLA)."
+  },
+  "advertencias": [
+   "La categoría es una lectura propia a partir de hechos con fuente, no una medición. Puede no coincidir con el índice de senadores (senadores.json), que mide a los tres senadores de la provincia, no al gobernador.",
+   "En Formosa y La Rioja no se encontró un hecho con fuente posterior a junio de 2026; ultima_novedad es el último encontrado.",
+   "Comitiva a París (30/09-02/10/2026): las fuentes son previas al viaje; se menciona como 'anunciado' o 'confirmado' según Perfil (28/09/2026)."
+  ]
+ },
+ "provincias": {
+  "BUENOS AIRES": {
+   "gobernador": "Axel Kicillof",
+   "partido": "Partido Justicialista (Fuerza Patria)",
+   "desde": 2019,
+   "categoria": "opositora",
+   "motivo": "Encabeza la oposición peronista al gobierno nacional, litiga contra la Nación ante la Corte Suprema y sus senadores votaron en contra de las leyes clave del período.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "No participó de la firma del Pacto de Mayo en Tucumán.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-12-22",
+     "hecho": "Tras ganar las elecciones bonaerenses de septiembre de 2025, la prensa lo ubica como líder de la oposición; su gobierno anticipó una relación «igual de nula» con la Nación en 2026.",
+     "fuentes": [
+      "https://eleconomista.com.ar/politica/consolidado-como-incipiente-lider-oposicion-kicillof-avanza-su-armado-2027-n91475"
+     ]
+    },
+    {
+     "fecha": "2026-04-21",
+     "hecho": "Audiencia en la Corte Suprema entre la Nación y Buenos Aires por la deuda de ANSES con el IPS bonaerense, una de las siete demandas de la provincia contra la Nación.",
+     "fuentes": [
+      "https://www.letrap.com.ar/axel-kicillof-vs-javier-milei-los-fondos-que-la-corte-suprema-y-la-crisis-hagan-el-trabajo-n5423078"
+     ]
+    },
+    {
+     "fecha": "2026-10-01",
+     "hecho": "En el Coloquio de IDEA, Milei calificó de «casi insultante» debatir con Kicillof y lo llamó «comunista»; días antes, el ministro Caputo lo había llamado «anticristo».",
+     "fuentes": [
+      "https://eleconomista.com.ar/politica/milei-prometio-2028-historico-reelecto-cruzo-kicillof-revelo-su-bazuca-dolares-n98545",
+      "https://eleconomista.com.ar/economia/toto-caputo-kicillof-anticristo-n98493/amp"
+     ]
+    }
+   ],
+   "alianza_2025": "Fuerza Patria (peronismo unificado), en competencia con La Libertad Avanza, que ganó por estrecho margen.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-01",
+    "hecho": "Milei, en el Coloquio de IDEA, llamó «comunista» a Kicillof y dijo que es «casi insultante» debatir con él.",
+    "fuente": "https://eleconomista.com.ar/politica/milei-prometio-2028-historico-reelecto-cruzo-kicillof-revelo-su-bazuca-dolares-n98545"
+   }
+  },
+  "CATAMARCA": {
+   "gobernador": "Raúl Jalil",
+   "partido": "Partido Justicialista (bloque Elijo Catamarca en Diputados)",
+   "desde": 2019,
+   "categoria": "neutral",
+   "motivo": "Gobernador peronista que negocia con la Casa Rosada: sus legisladores acompañaron el Presupuesto 2026, pero su senador votó en contra de la reforma laboral y de Propiedad Privada.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "Firmó el Pacto de Mayo en Tucumán.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-11-17",
+     "hecho": "Anunció un bloque propio de diputados catamarqueños fuera de Unión por la Patria; dijo que «algunas cosas hay que apoyar».",
+     "fuentes": [
+      "https://www.elancasti.com.ar/politica-y-economia/jalil-avanza-la-construccion-un-bloque-propio-diputados-n599101"
+     ]
+    },
+    {
+     "fecha": "2025-12-26",
+     "hecho": "Sus tres diputados y el senador Guillermo Andrada votaron a favor del Presupuesto 2026; una semana después la Nación cedió a Catamarca el control de YMAD.",
+     "fuentes": [
+      "https://www.tiempodesanjuan.com/politica/tras-el-apoyo-jalil-al-presupuesto-milei-le-cedio-catamarca-el-control-una-minera-n420463",
+      "https://www.tiempodesanjuan.com/politica/ley-presupuesto-2026-uno-uno-asi-votaron-los-senadores-la-provincia-n419854"
+     ]
+    },
+    {
+     "fecha": "2026-02-27",
+     "hecho": "El senador Andrada (Convicción Federal) votó en contra de la reforma laboral, y en agosto también de Propiedad Privada.",
+     "fuentes": [
+      "https://www.senado.gob.ar/votaciones/detalleActa/2678",
+      "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml"
+     ]
+    }
+   ],
+   "alianza_2025": "Fuerza Patria (lista del PJ provincial), en competencia con La Libertad Avanza; ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Los tres diputados de Elijo Catamarca bajaron al recinto en la sesión opositora para rechazar el DNU 70/23, que fracasó por falta de quórum.",
+    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+   }
+  },
+  "CHACO": {
+   "gobernador": "Leandro Zdero",
+   "partido": "UCR (frente con La Libertad Avanza)",
+   "desde": 2023,
+   "categoria": "afin",
+   "motivo": "Aliado electoral de La Libertad Avanza en 2025 en las elecciones provinciales y nacionales; su espacio acompañó casi todos los proyectos del gobierno.",
+   "hechos": [
+    {
+     "fecha": "2025-03-11",
+     "hecho": "La UCR chaqueña y La Libertad Avanza registraron el frente conjunto «Chaco Puede» para las legislativas provinciales de mayo de 2025.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/chaco-zdero-mete-la-libertad-avanza-el-frente-oficialista-y-rompe-la-regla-karina-milei-n5414647"
+     ]
+    },
+    {
+     "fecha": "2026-04-24",
+     "hecho": "Karina Milei, Lule Menem y Santilli lo recibieron en Casa Rosada como uno de los cuatro gobernadores aliados de 2025; reafirmó su «compromiso de seguir trabajando juntos».",
+     "fuentes": [
+      "https://eleconomista.com.ar/politica/la-casa-rosada-recibe-gobernadores-aliados-negociaria-acuerdos-electorales-cara-2027-n94428",
+      "https://www.batimes.com.ar/news/argentina/mileis-la-libertad-avanza-party-sizes-up-provincial-agreements-for-2027-election.phtml"
+     ]
+    },
+    {
+     "fecha": "2026-08-03",
+     "hecho": "A24 lo describe como uno de los gobernadores más alineados: su espacio respaldó casi todos los proyectos que el gobierno envió al Congreso.",
+     "fuentes": [
+      "https://www.a24.com/politica/karina-milei-avanza-el-armado-electoral-lla-chaco-y-evita-hablar-alianza-zdero-n1581485"
+     ]
+    },
+    {
+     "fecha": "2026-10-07",
+     "hecho": "Letra P lo ubica entre las alianzas con LLA a repetir en 2027.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/el-acuerdometro-la-casa-rosada-los-gobernadores-las-24-provincias-rojo-violeta-n5427160"
+     ]
+    }
+   ],
+   "alianza_2025": "Con La Libertad Avanza (frente conjunto con la UCR provincial), ganador en mayo y en octubre.",
+   "alianza_2025_fuente": [
+    "https://eleconomista.com.ar/politica/la-casa-rosada-recibe-gobernadores-aliados-negociaria-acuerdos-electorales-cara-2027-n94428",
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-05",
+    "hecho": "Perfil lo ubica entre los gobernadores radicales que ya avanzaron con la suspensión de las PASO para 2027.",
+    "fuente": "https://www.perfil.com/noticias/amp/politica/gobierno-acelera-pacto-gobernadores-suspender-paso-votos-senado.phtml"
+   }
+  },
+  "CHUBUT": {
+   "gobernador": "Ignacio Torres",
+   "partido": "PRO (frente Despierta Chubut, Provincias Unidas)",
+   "desde": 2023,
+   "categoria": "neutral",
+   "motivo": "Cofundador de Provincias Unidas, compitió contra La Libertad Avanza en 2025; desde entonces moderó sus críticas y sus legisladores acompañan las leyes clave.",
+   "hechos": [
+    {
+     "fecha": "2025-08-05",
+     "hecho": "Cofundó Provincias Unidas con otros cinco gobernadores para competir en las legislativas y reclamar fondos.",
+     "fuentes": [
+      "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp",
+      "https://www.noticiasnqn.com.ar/noticias/2025/08/06/318165-gobernadores-arman-provincias-unidas-para-presionar-a-milei"
+     ]
+    },
+    {
+     "fecha": "2026-03-10",
+     "hecho": "Viajó con Milei a Nueva York; La Nación lo describe como antes crítico y ahora moderado.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/alineados-y-no-tanto-como-juega-cada-uno-de-los-gobernadores-que-acompanaron-a-milei-nid11032026/"
+     ]
+    },
+    {
+     "fecha": "2026-04-01",
+     "hecho": "La Nación acordó transferir a Chubut $48.000 millones por la deuda con su caja jubilatoria.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/el-gobierno-le-transfiere-a-chubut-48000-millones-por-una-deuda-en-las-cajas-jubilatorias-nid01042026/"
+     ]
+    },
+    {
+     "fecha": "2026-09-29",
+     "hecho": "Según La Nación, mantiene conversaciones «avanzadas» para apoyar la reelección de Milei a cambio del respaldo de LLA en Chubut; integró la comitiva a París.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/provincias-unidas-se-desgrana-gobernadores-enfocados-en-reelegir-votos-dispersos-en-el-congreso-y-nid29092026/",
+      "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
+     ]
+    }
+   ],
+   "alianza_2025": "Despierta Chubut (Provincias Unidas), en competencia con La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Un diputado chubutense de Provincias Unidas no dio quórum a la sesión opositora contra el DNU 70/23.",
+    "fuente": "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
+   }
+  },
+  "CIUDAD AUTONOMA DE BUENOS AIRES": {
+   "gobernador": "Jorge Macri",
+   "partido": "PRO",
+   "desde": 2023,
+   "categoria": "afin",
+   "motivo": "El PRO porteño compitió en lista conjunta con La Libertad Avanza en 2025 y Macri declara apoyo al gobierno, aunque hay tensiones por la candidatura porteña de 2027.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "Firmó el Pacto de Mayo en Tucumán.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-08-05",
+     "hecho": "LLA y el PRO acordaron una lista conjunta en la Ciudad para las legislativas nacionales y se comprometieron a impulsar la agenda de reformas de Milei hasta 2027.",
+     "fuentes": [
+      "https://www.canal26.com/politica/2025/08/05/la-libertad-avanza-y-el-pro-acordaron-competir-juntos-en-las-elecciones-legislativas-en-la-ciudad/"
+     ]
+    },
+    {
+     "fecha": "2026-04-27",
+     "hecho": "Respaldó una alianza PRO–LLA para 2027 («Nos fue muy bien en octubre cuando estuvimos juntos») y dijo «queremos que al Gobierno le vaya bien».",
+     "fuentes": [
+      "https://www.perfil.com/noticias/politica/jorge-macri-sostuvo-la-idea-de-una-alianza-entre-el-pro-y-lla-para-2027-no-nos-fue-bien-separados.phtml",
+      "https://www.batimes.com.ar/news/amp/argentina/buenos-aires-city-mayor-backs-pro-la-libertad-avanza-alliance-for-2027-election.phtml"
+     ]
+    },
+    {
+     "fecha": "2026-10-07",
+     "hecho": "Letra P señala un fuerte rechazo a su figura dentro del gobierno y la posibilidad de una candidatura propia de LLA en la Ciudad.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/el-acuerdometro-la-casa-rosada-los-gobernadores-las-24-provincias-rojo-violeta-n5427160"
+     ]
+    }
+   ],
+   "alianza_2025": "Con La Libertad Avanza (lista conjunta LLA–PRO), ganadora en la Ciudad.",
+   "alianza_2025_fuente": [
+    "https://www.canal26.com/politica/2025/08/05/la-libertad-avanza-y-el-pro-acordaron-competir-juntos-en-las-elecciones-legislativas-en-la-ciudad/",
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-13",
+    "hecho": "Calificó de «óptima» la relación con el gobierno nacional y dijo que una alianza PRO–LLA en la Ciudad se discutirá en marzo de 2027.",
+    "fuente": "https://www.ambito.com/jorge-macri-evalua-no-desdoblar-las-elecciones-caba-y-votar-octubre-2027-n6333140"
+   }
+  },
+  "CORDOBA": {
+   "gobernador": "Martín Llaryora",
+   "partido": "Hacemos Unidos por Córdoba (PJ cordobés; Provincias Unidas)",
+   "desde": 2023,
+   "categoria": "neutral",
+   "motivo": "Integrante de Provincias Unidas, critica con frecuencia al gobierno pero negocia fondos; sus legisladores votan dividido según el proyecto.",
+   "hechos": [
+    {
+     "fecha": "2025-08-05",
+     "hecho": "Cofundó Provincias Unidas para competir con La Libertad Avanza en las legislativas.",
+     "fuentes": [
+      "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp",
+      "https://www.noticiasnqn.com.ar/noticias/2025/08/06/318165-gobernadores-arman-provincias-unidas-para-presionar-a-milei"
+     ]
+    },
+    {
+     "fecha": "2026-02-20",
+     "hecho": "En la reforma laboral en Diputados, dos diputados cordobeses de Provincias Unidas votaron a favor, uno en contra y tres se ausentaron, entre ellos Schiaretti.",
+     "fuentes": [
+      "https://hoydia.com.ar/politica/nacional/diputados-cordobeses-como-votaron-el-proyecto-de-reforma-laboral/"
+     ]
+    },
+    {
+     "fecha": "2026-03-10",
+     "hecho": "Viajó con Milei a Nueva York y obtuvo de Caputo la promesa pública de aumentar los fondos mensuales para la caja previsional cordobesa.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/alineados-y-no-tanto-como-juega-cada-uno-de-los-gobernadores-que-acompanaron-a-milei-nid11032026/"
+     ]
+    },
+    {
+     "fecha": "2026-08-07",
+     "hecho": "La senadora Alejandra Vigo (Provincias Unidas) votó en contra de Propiedad Privada, tras abstenerse en el Presupuesto 2026 y votar a favor de la reforma laboral.",
+     "fuentes": [
+      "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml",
+      "https://www.senado.gob.ar/votaciones/detalleActa/2623"
+     ]
+    }
+   ],
+   "alianza_2025": "Provincias Unidas, en competencia con La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Cinco de sus seis diputados bajaron al recinto en la sesión opositora para rechazar el DNU 70/23, que fracasó por falta de quórum.",
+    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+   }
+  },
+  "CORRIENTES": {
+   "gobernador": "Juan Pablo Valdés",
+   "partido": "UCR (frente Vamos Corrientes; Provincias Unidas)",
+   "desde": 2025,
+   "categoria": "neutral",
+   "motivo": "Su frente compitió contra La Libertad Avanza en 2025 dentro de Provincias Unidas; dialoga con la Casa Rosada y sus senadores votaron a favor de las leyes clave.",
+   "hechos": [
+    {
+     "fecha": "2025-08-31",
+     "hecho": "Ganó la gobernación en primera vuelta con cerca del 51%; el candidato de LLA quedó cuarto con alrededor del 9%. Sucedió a su hermano Gustavo, cofundador de Provincias Unidas.",
+     "fuentes": [
+      "https://www.diariodecuyo.com.ar/argentina/elecciones-en-corrientes-juan-pablo-valdes-hermano-del-actual-gobernador-gano-en-primera-vuelta-1765260.html",
+      "https://www.noticiasnqn.com.ar/noticias/2025/08/06/318165-gobernadores-arman-provincias-unidas-para-presionar-a-milei"
+     ]
+    },
+    {
+     "fecha": "2026-02-27",
+     "hecho": "Los tres senadores correntinos (Provincias Unidas y UCR) votaron a favor del Presupuesto 2026 y de la reforma laboral, y en agosto de Propiedad Privada.",
+     "fuentes": [
+      "https://www.senado.gob.ar/votaciones/detalleActa/2678",
+      "https://www.tiempodesanjuan.com/politica/ley-presupuesto-2026-uno-uno-asi-votaron-los-senadores-la-provincia-n419854",
+      "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml"
+     ]
+    },
+    {
+     "fecha": "2026-09-16",
+     "hecho": "Se reunió con Santilli en Casa Rosada por el Presupuesto 2027 y la eliminación de las PASO; integró la comitiva a París.",
+     "fuentes": [
+      "https://www.c5n.com/politica/reunion-diego-santilli-gobernadores-presupuesto-paso-miercoles-16-septiembre-2026",
+      "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
+     ]
+    }
+   ],
+   "alianza_2025": "Vamos Corrientes (Provincias Unidas), en competencia con La Libertad Avanza; ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.ambito.com/gustavo-valdes-a5127194"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-05",
+    "hecho": "Se pronunció en contra de las PASO y planteó discutir incluso su eliminación.",
+    "fuente": "https://www.perfil.com/noticias/amp/politica/gobierno-acelera-pacto-gobernadores-suspender-paso-votos-senado.phtml"
+   }
+  },
+  "ENTRE RIOS": {
+   "gobernador": "Rogelio Frigerio",
+   "partido": "PRO (Juntos por Entre Ríos)",
+   "desde": 2023,
+   "categoria": "afin",
+   "motivo": "Compitió en 2025 en la «Alianza La Libertad Avanza» con LLA, PRO y UCR, y el gobierno lo trata como aliado para 2027.",
+   "hechos": [
+    {
+     "fecha": "2025-08-07",
+     "hecho": "Cerró con Karina Milei la «Alianza La Libertad Avanza» (PRO, UCR, MSE y LLA) para las legislativas nacionales.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/rogelio-frigerio-cerro-su-acuerdo-karina-milei-el-pro-la-ucr-y-lla-compartiran-lista-enentrerios-n5417789/amp"
+     ]
+    },
+    {
+     "fecha": "2025-10-26",
+     "hecho": "La alianza con LLA se impuso con cerca del 53% frente al 34% del peronismo.",
+     "fuentes": [
+      "https://www.lapoliticaonline.com/politica/la-alianza-de-frigerio-con-los-libertarios-se-impuso-por-casi-20-puntos-en-entre-rios-y-metio-dos-senadores/"
+     ]
+    },
+    {
+     "fecha": "2026-04-24",
+     "hecho": "El Economista informó que la semana anterior había sido recibido en Casa Rosada como uno de los cuatro aliados electorales de 2025, con quienes el gobierno podría repetir el acuerdo.",
+     "fuentes": [
+      "https://eleconomista.com.ar/politica/la-casa-rosada-recibe-gobernadores-aliados-negociaria-acuerdos-electorales-cara-2027-n94428",
+      "https://www.batimes.com.ar/news/argentina/mileis-la-libertad-avanza-party-sizes-up-provincial-agreements-for-2027-election.phtml"
+     ]
+    }
+   ],
+   "alianza_2025": "Con La Libertad Avanza («Alianza La Libertad Avanza»), ganadora en la provincia.",
+   "alianza_2025_fuente": [
+    "https://www.letrap.com.ar/politica/rogelio-frigerio-cerro-su-acuerdo-karina-milei-el-pro-la-ucr-y-lla-compartiran-lista-enentrerios-n5417789/amp",
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-09-28",
+    "hecho": "Figuró entre los 13 gobernadores anunciados para la comitiva de Milei a París (30/09–02/10).",
+    "fuente": "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
+   }
+  },
+  "FORMOSA": {
+   "gobernador": "Gildo Insfrán",
+   "partido": "Partido Justicialista",
+   "desde": 1995,
+   "categoria": "opositora",
+   "motivo": "Gobernador peronista que no firmó el Pacto de Mayo y confronta públicamente con el gobierno; sus dos senadores votaron en contra de las leyes clave.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "No participó de la firma del Pacto de Mayo.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-10-30",
+     "hecho": "No fue convocado a la reunión de Milei con 20 gobernadores en Casa Rosada.",
+     "fuentes": [
+      "https://www.lavozdesanjusto.com.ar/milei-se-reunio-con-20-gobernadores-en-casa-rosada-para-impulsar-reformas"
+     ]
+    },
+    {
+     "fecha": "2025-12-17",
+     "hecho": "Firmó convenios de cooperación con Kicillof en Formosa; en el acto, Kicillof acusó al gobierno nacional de «deserción».",
+     "fuentes": [
+      "https://www.elancasti.com.ar/politica-y-economia/kicillof-junto-insfran-se-quejo-la-desercion-nacion-n601543",
+      "https://www.tiempoar.com.ar/ta_article/formosa-kicillof-critico-milei-y-llamo-a-construir-un-verdadero-pacto-entre-provincias/"
+     ]
+    },
+    {
+     "fecha": "2026-03-01",
+     "hecho": "En la apertura de sesiones acusó a Milei de «entregar las riendas del país a líderes extranjeros» y dijo que quienes votaron a los libertarios votaron «a sus propios verdugos».",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/gildo-insfran-corto-la-dulzura-acuso-javier-milei-entregar-el-pais-y-pidio-no-votar-verdugos-n5422190"
+     ]
+    }
+   ],
+   "alianza_2025": "Frente de la Victoria (PJ), en competencia con La Libertad Avanza; ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-03-01",
+    "hecho": "Discurso de apertura de sesiones con duras críticas a Milei (no se encontró un hecho posterior con fuente).",
+    "fuente": "https://www.letrap.com.ar/politica/gildo-insfran-corto-la-dulzura-acuso-javier-milei-entregar-el-pais-y-pidio-no-votar-verdugos-n5422190"
+   }
+  },
+  "JUJUY": {
+   "gobernador": "Carlos Sadir",
+   "partido": "UCR (frente Jujuy Crece; Provincias Unidas)",
+   "desde": 2023,
+   "categoria": "neutral",
+   "motivo": "Cofundador de Provincias Unidas, compitió contra La Libertad Avanza en 2025; hoy colabora con el gobierno en el Congreso con cautela.",
+   "hechos": [
+    {
+     "fecha": "2025-08-05",
+     "hecho": "Cofundó Provincias Unidas para competir en las legislativas.",
+     "fuentes": [
+      "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp",
+      "https://www.noticiasnqn.com.ar/noticias/2025/08/06/318165-gobernadores-arman-provincias-unidas-para-presionar-a-milei"
+     ]
+    },
+    {
+     "fecha": "2026-03-10",
+     "hecho": "Viajó con Milei a Nueva York; La Nación lo describe como cauto, sin querer perjudicar al gobierno ni perder perfil propio.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/alineados-y-no-tanto-como-juega-cada-uno-de-los-gobernadores-que-acompanaron-a-milei-nid11032026/"
+     ]
+    },
+    {
+     "fecha": "2026-09-17",
+     "hecho": "Se reunió con Santilli y Caputo por el impacto del Presupuesto 2027 en las finanzas provinciales y las obras.",
+     "fuentes": [
+      "https://www.c5n.com/politica/reunion-diego-santilli-gobernadores-presupuesto-paso-miercoles-16-septiembre-2026"
+     ]
+    },
+    {
+     "fecha": "2026-09-29",
+     "hecho": "Se manifestó a favor de suspender las PASO e integró la comitiva a París.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/provincias-unidas-se-desgrana-gobernadores-enfocados-en-reelegir-votos-dispersos-en-el-congreso-y-nid29092026/",
+      "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
+     ]
+    }
+   ],
+   "alianza_2025": "Frente Jujuy Crece (Provincias Unidas), en competencia con La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Dos diputados jujeños de Provincias Unidas no dieron quórum a la sesión opositora contra el DNU 70/23.",
+    "fuente": "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
+   }
+  },
+  "LA PAMPA": {
+   "gobernador": "Sergio Ziliotto",
+   "partido": "Partido Justicialista",
+   "desde": 2019,
+   "categoria": "opositora",
+   "motivo": "Gobernador peronista que no firmó el Pacto de Mayo, critica en público la política nacional y mantiene reclamos judiciales; dialoga con la Jefatura de Gabinete sin comprometer votos.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "No participó de la firma del Pacto de Mayo.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2026-07-17",
+     "hecho": "Se reunió con Santilli para reclamar deudas de la Nación por más de $400.000 millones; la provincia mantiene una demanda pendiente por ATN.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/diego-santilli-recibe-ziliotto-la-agenda-reclamos-del-primer-opositor-que-visita-al-jefe-gabinete-n5425129/amp"
+     ]
+    },
+    {
+     "fecha": "2026-08-31",
+     "hecho": "Recibió a Kicillof y firmaron acuerdos; ambos criticaron a la Nación por abandonar obras estratégicas y el Fondo Hídrico.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/ziliotto-y-kicillof-se-juntan-la-pampa-cruzar-la-motosierra-milei-tono-gestion-n5426203"
+     ]
+    },
+    {
+     "fecha": "2026-10-07",
+     "hecho": "Letra P lo ubica entre los opositores duros («rojo furioso»), donde LLA competirá con candidato propio.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/el-acuerdometro-la-casa-rosada-los-gobernadores-las-24-provincias-rojo-violeta-n5427160",
+      "https://www.batimes.com.ar/news/argentina/mileis-la-libertad-avanza-party-sizes-up-provincial-agreements-for-2027-election.phtml"
+     ]
+    }
+   ],
+   "alianza_2025": "Frente Defendemos La Pampa (PJ), en competencia con La Libertad Avanza; ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-08-31",
+    "hecho": "Firmó acuerdos con Kicillof en Santa Rosa; ambos cuestionaron la gestión nacional de obras y del Fondo Hídrico.",
+    "fuente": "https://www.letrap.com.ar/politica/ziliotto-y-kicillof-se-juntan-la-pampa-cruzar-la-motosierra-milei-tono-gestion-n5426203"
+   }
+  },
+  "LA RIOJA": {
+   "gobernador": "Ricardo Quintela",
+   "partido": "Partido Justicialista",
+   "desde": 2019,
+   "categoria": "opositora",
+   "motivo": "Gobernador peronista que no firmó el Pacto de Mayo, confronta abiertamente al gobierno y se postula como referente opositor para 2027.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "No participó de la firma del Pacto de Mayo.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-10-30",
+     "hecho": "No fue convocado a la reunión de Milei con 20 gobernadores en Casa Rosada.",
+     "fuentes": [
+      "https://www.lavozdesanjusto.com.ar/milei-se-reunio-con-20-gobernadores-en-casa-rosada-para-impulsar-reformas"
+     ]
+    },
+    {
+     "fecha": "2026-02-25",
+     "hecho": "Dijo que el gobierno nacional «no puede llegar hasta el 10 de diciembre de 2027»; Martín Menem le respondió con duros calificativos.",
+     "fuentes": [
+      "https://www.diariodecuyo.com.ar/argentina/martin-menem-cruzo-a-quintela-por-sus-dichos-contra-milei-es-un-mono-con-un-martillo-1836858.html"
+     ]
+    },
+    {
+     "fecha": "2026-06-05",
+     "hecho": "Se anotó como posible candidato presidencial peronista; denuncia que la Nación le negó adelantos de coparticipación y no adhirió al RIGI.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/el-plan-ricardo-quintela-un-modelo-riojano-argentina-y-un-jefe-campana-axel-kicillof-n5424280"
+     ]
+    }
+   ],
+   "alianza_2025": "Federales Defendamos La Rioja (PJ), en competencia con La Libertad Avanza; ganó por 782 votos en el escrutinio definitivo.",
+   "alianza_2025_fuente": [
+    "https://www.lanacion.com.ar/politica/por-solo-782-votos-el-peronismo-gano-en-la-rioja-tras-el-escrutinio-definitivo-nid30102025/",
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-06-05",
+    "hecho": "Se postuló en la discusión presidencial del peronismo y denunció la negativa de la Nación a adelantarle coparticipación (no se encontró un hecho posterior con fuente).",
+    "fuente": "https://www.letrap.com.ar/politica/el-plan-ricardo-quintela-un-modelo-riojano-argentina-y-un-jefe-campana-axel-kicillof-n5424280"
+   }
+  },
+  "MENDOZA": {
+   "gobernador": "Alfredo Cornejo",
+   "partido": "UCR (Cambia Mendoza)",
+   "desde": 2023,
+   "categoria": "afin",
+   "motivo": "Compitió en 2025 en un frente conjunto con La Libertad Avanza y la prensa lo describe como plenamente alineado con Milei.",
+   "hechos": [
+    {
+     "fecha": "2025-07-24",
+     "hecho": "Cambia Mendoza y La Libertad Avanza sellaron una boleta compartida para las legislativas del 26 de octubre.",
+     "fuentes": [
+      "https://www.sitioandino.com.ar/politica/cornejo-y-milei-sellaron-la-alianza-cambia-mendoza-y-la-libertad-avanza-iran-juntos-octubre-n5704361/amp"
+     ]
+    },
+    {
+     "fecha": "2025-10-26",
+     "hecho": "La coalición La Libertad Avanza–Cambia Mendoza obtuvo cerca del 54% y cuatro de las cinco bancas de diputados.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/el-oficialismo-hizo-una-eleccion-historica-mendoza-y-se-queda-cuatro-bancas-el-pj-solo-consigue-una-n5967781"
+     ]
+    },
+    {
+     "fecha": "2026-03-10",
+     "hecho": "Viajó con Milei a Nueva York; La Nación lo describe como plenamente alineado.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/alineados-y-no-tanto-como-juega-cada-uno-de-los-gobernadores-que-acompanaron-a-milei-nid11032026/"
+     ]
+    },
+    {
+     "fecha": "2026-04-24",
+     "hecho": "El Economista informó que la semana anterior había sido recibido en Casa Rosada como uno de los cuatro aliados electorales de 2025.",
+     "fuentes": [
+      "https://eleconomista.com.ar/politica/la-casa-rosada-recibe-gobernadores-aliados-negociaria-acuerdos-electorales-cara-2027-n94428"
+     ]
+    }
+   ],
+   "alianza_2025": "Con La Libertad Avanza (frente La Libertad Avanza–Cambia Mendoza), ganador en la provincia.",
+   "alianza_2025_fuente": [
+    "https://www.sitioandino.com.ar/politica/cornejo-y-milei-sellaron-la-alianza-cambia-mendoza-y-la-libertad-avanza-iran-juntos-octubre-n5704361/amp",
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-19",
+    "hecho": "Fue, con Figueroa, uno de los dos gobernadores presentes en el discurso de Milei en la AOG Patagonia, en Neuquén.",
+    "fuente": "https://www.letrap.com.ar/rigipalooza-neuquen-milei-pidio-que-florezcan-mil-vaca-muerta-cotillon-violeta-y-fervor-empresario-n5427503"
+   }
+  },
+  "MISIONES": {
+   "gobernador": "Hugo Passalacqua",
+   "partido": "Frente Renovador de la Concordia (en 2026 rompió con Carlos Rovira)",
+   "desde": 2023,
+   "categoria": "neutral",
+   "motivo": "Oficialismo provincial dialoguista: sus senadores acompañaron casi todas las leyes del gobierno, pero compitió contra LLA en 2025 y en 2026 endureció su negociación.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "Firmó el Pacto de Mayo en Tucumán.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-11-25",
+     "hecho": "Recibió a Santilli y condicionó el apoyo al Presupuesto 2026 a obras, aportes del Tesoro y el pago de la deuda de ANSES con la caja provincial.",
+     "fuentes": [
+      "https://www.primeraedicion.com.ar/nota/101061532/passalacqua-rovira-y-santilli-avanzaron-en-una-agenda-estrategica-y-misiones-pidio-obras-energia-y-pago-de-deudas/"
+     ]
+    },
+    {
+     "fecha": "2026-02-27",
+     "hecho": "Los senadores del Frente Renovador votaron a favor del Presupuesto 2026, de la reforma laboral y, en agosto, de Propiedad Privada.",
+     "fuentes": [
+      "https://www.senado.gob.ar/votaciones/detalleActa/2678",
+      "https://www.tiempodesanjuan.com/politica/ley-presupuesto-2026-uno-uno-asi-votaron-los-senadores-la-provincia-n419854",
+      "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml"
+     ]
+    },
+    {
+     "fecha": "2026-08-16",
+     "hecho": "Tras su ruptura con Rovira, sus diputados preparan un bloque propio; la prensa anticipa una negociación más dura con la Casa Rosada.",
+     "fuentes": [
+      "https://www.perfil.com/noticias/amp/politica/diputados-misioneros-se-reagrupan-detras-de-passalacqua.phtml",
+      "https://www.perfil.com/noticias/nea/crisis-en-misiones-passalacqua-consolido-apoyo-de-intendentes-y-rovira-enfrenta-ola-de-desafiliaciones.phtml"
+     ]
+    }
+   ],
+   "alianza_2025": "Lista propia del Frente Renovador (Renovador de la Concordia NEO), en competencia con La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.mdzol.com/politica/misiones-el-oficialismo-provincial-cada-vez-mas-alejando-del-gobierno-javier-milei-n1338532"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Tres de sus cuatro diputados bajaron al recinto en la sesión opositora contra el DNU 70/23, que fracasó por falta de quórum.",
+    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+   }
+  },
+  "NEUQUEN": {
+   "gobernador": "Rolando Figueroa",
+   "partido": "La Neuquinidad (Comunidad)",
+   "desde": 2023,
+   "categoria": "neutral",
+   "motivo": "Aliado del gobierno en política energética y en el Congreso, pero compitió contra LLA en 2025, se desmarca de su proyecto político y su senadora votó en contra de Propiedad Privada.",
+   "hechos": [
+    {
+     "fecha": "2025-10-26",
+     "hecho": "La lista de LLA encabezada por Nadia Márquez superó por unos seis puntos a la de Figueroa en las legislativas.",
+     "fuentes": [
+      "https://www.ambito.com/c6335016",
+      "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+     ]
+    },
+    {
+     "fecha": "2026-08-07",
+     "hecho": "La senadora Julieta Corroza (La Neuquinidad) votó en contra de Propiedad Privada, tras votar a favor del Presupuesto 2026 y de la reforma laboral.",
+     "fuentes": [
+      "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml",
+      "https://www.senado.gob.ar/votaciones/detalleActa/2623"
+     ]
+    },
+    {
+     "fecha": "2026-10-15",
+     "hecho": "Su apoyo fue clave para que fracasara la sesión opositora contra el DNU 70/23; sus diputados se ausentaron.",
+     "fuentes": [
+      "https://www.perfil.com/noticias/amp/politica/el-presidente-visita-neuquen-para-acercarse-mas-a-figueroa.phtml",
+      "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
+     ]
+    },
+    {
+     "fecha": "2026-10-19",
+     "hecho": "Recibió a Milei en la AOG Patagonia; elogió la política energética nacional, pero aclaró que no comparte su proyecto político.",
+     "fuentes": [
+      "https://www.letrap.com.ar/rigipalooza-neuquen-milei-pidio-que-florezcan-mil-vaca-muerta-cotillon-violeta-y-fervor-empresario-n5427503"
+     ]
+    }
+   ],
+   "alianza_2025": "La Neuquinidad (lista provincial propia), en competencia con La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.ambito.com/c6335016"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-19",
+    "hecho": "Fue anfitrión de Milei en la AOG Patagonia y marcó distancia política: «distintas miradas, el mismo objetivo».",
+    "fuente": "https://www.letrap.com.ar/rigipalooza-neuquen-milei-pidio-que-florezcan-mil-vaca-muerta-cotillon-violeta-y-fervor-empresario-n5427503"
+   }
+  },
+  "RIO NEGRO": {
+   "gobernador": "Alberto Weretilneck",
+   "partido": "Juntos Somos Río Negro",
+   "desde": 2023,
+   "categoria": "neutral",
+   "motivo": "Oficialismo provincial dialoguista que respalda el RIGI y el modelo energético, pero cuestiona la apertura comercial y la falta de obras; compitió contra LLA en 2025.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "Firmó el Pacto de Mayo en Tucumán.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-11-23",
+     "hecho": "Se reunió con Santilli en Casa Rosada tras las legislativas, en busca de apoyos para la gobernabilidad provincial.",
+     "fuentes": [
+      "https://www.letrap.com.ar/patagonia/rio-negro-alberto-weretilneck-proyecta-las-primeras-senales-acuerdo-el-campo-libertario-n5420337/amp"
+     ]
+    },
+    {
+     "fecha": "2026-08-13",
+     "hecho": "Defendió el RIGI y el nuevo modelo energético («no hay vuelta atrás»), pero criticó la «apertura absoluta» y el estado de las rutas, y evitó respaldar la reelección de Milei.",
+     "fuentes": [
+      "https://eleconomista.com.ar/energia/weretilneck-no-hay-vuelta-atras-nuevo-modelo-energetico-argentina-n97393"
+     ]
+    }
+   ],
+   "alianza_2025": "Juntos Defendemos Río Negro (lista provincial propia), en competencia con La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-09-28",
+    "hecho": "Figuró, confirmado, entre los 13 gobernadores de la comitiva de Milei a París.",
+    "fuente": "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
+   }
+  },
+  "SALTA": {
+   "gobernador": "Gustavo Sáenz",
+   "partido": "Primero los Salteños",
+   "desde": 2019,
+   "categoria": "neutral",
+   "motivo": "Uno de los gobernadores más cercanos a la Casa Rosada en el Congreso, pero compitió contra LLA en 2025 y su senadora y parte de sus diputados se apartaron del gobierno en votaciones de 2026.",
+   "hechos": [
+    {
+     "fecha": "2025-10-26",
+     "hecho": "Su lista Primero los Salteños perdió con La Libertad Avanza en la elección de senadores y diputados.",
+     "fuentes": [
+      "https://www.lagaceta.com.ar/nota/1109696/politica/salta-libertad-avanza-vencio-al-saencismo-dejo-fuera-congreso-juan-manuel-urtubey.html"
+     ]
+    },
+    {
+     "fecha": "2026-03-10",
+     "hecho": "Viajó con Milei a Nueva York; La Nación lo cuenta entre los aliados más confiables y destaca su rol en la reforma laboral.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/alineados-y-no-tanto-como-juega-cada-uno-de-los-gobernadores-que-acompanaron-a-milei-nid11032026/"
+     ]
+    },
+    {
+     "fecha": "2026-08-07",
+     "hecho": "La senadora Flavia Royón (Primero los Salteños) votó en contra de Propiedad Privada, tras votar a favor del Presupuesto 2026 y de la reforma laboral.",
+     "fuentes": [
+      "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml",
+      "https://www.senado.gob.ar/votaciones/detalleActa/2623"
+     ]
+    }
+   ],
+   "alianza_2025": "Primero los Salteños (lista provincial propia), en competencia con La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://www.lagaceta.com.ar/nota/1109696/politica/salta-libertad-avanza-vencio-al-saencismo-dejo-fuera-congreso-juan-manuel-urtubey.html",
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Dos de sus diputados (Biella y Outes) dieron quórum a la sesión opositora contra el DNU 70/23, que igual fracasó; el gobierno ofreció inversiones en el Belgrano Cargas.",
+    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+   }
+  },
+  "SAN JUAN": {
+   "gobernador": "Marcelo Orrego",
+   "partido": "Producción y Trabajo (frente Por San Juan)",
+   "desde": 2023,
+   "categoria": "afin",
+   "motivo": "No compitió junto a LLA en 2025, pero respalda en público la agenda de reformas («queremos que le vaya bien al Presidente») y sus diputados acompañan al gobierno.",
+   "hechos": [
+    {
+     "fecha": "2025-11-02",
+     "hecho": "Le dio la bienvenida a las reformas laboral, tributaria y penal («temas de sentido común») y dijo «queremos que le vaya bien al Presidente».",
+     "fuentes": [
+      "https://www.diariodecuyo.com.ar/politica/la-relacion-orrego-milei-post-elecciones-y-la-bienvenida-a-las-reformas-de-segunda-generacion-1794088.html"
+     ]
+    },
+    {
+     "fecha": "2026-02-23",
+     "hecho": "Advirtió que votar contra la reforma de la Ley de Glaciares sería «ir en contra de los sanjuaninos».",
+     "fuentes": [
+      "https://www.tiempodesanjuan.com/politica/orrego-paren-las-rotativas-votar-contra-la-ley-glaciares-es-ir-contra-los-sanjuaninos-n423822"
+     ]
+    },
+    {
+     "fecha": "2026-03-10",
+     "hecho": "Viajó con Milei a Nueva York; en junio la Jefatura de Gabinete informó acuerdos con él sobre la reforma política.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/alineados-y-no-tanto-como-juega-cada-uno-de-los-gobernadores-que-acompanaron-a-milei-nid11032026/",
+      "https://eleconomista.com.ar/politica/con-congreso-pausa-santilli-acelero-sus-reuniones-gobernadores-n95953"
+     ]
+    },
+    {
+     "fecha": "2026-10-15",
+     "hecho": "Sus dos diputados de Producción y Trabajo se ausentaron y no dieron quórum a la sesión opositora contra el DNU 70/23.",
+     "fuentes": [
+      "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml",
+      "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
+     ]
+    }
+   ],
+   "alianza_2025": "Por San Juan (lista provincial propia), en competencia con La Libertad Avanza; cada uno obtuvo un diputado.",
+   "alianza_2025_fuente": [
+    "https://www.diariodecuyo.com.ar/politica/la-relacion-orrego-milei-post-elecciones-y-la-bienvenida-a-las-reformas-de-segunda-generacion-1794088.html",
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Sus diputados no dieron quórum a la sesión opositora contra el DNU 70/23.",
+    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+   }
+  },
+  "SAN LUIS": {
+   "gobernador": "Claudio Poggi",
+   "partido": "Avanzar San Luis (frente provincial)",
+   "desde": 2023,
+   "categoria": "afin",
+   "motivo": "En 2025 no presentó lista propia, en un acuerdo con el gobierno, y llamó a votar a La Libertad Avanza; la Casa Rosada lo cuenta entre sus aliados.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "Firmó el Pacto de Mayo en Tucumán.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-10-20",
+     "hecho": "En un acuerdo con el gobierno, su espacio no presentó lista en las legislativas y él anunció que votaría a la lista de LLA.",
+     "fuentes": [
+      "https://www.lapoliticaonline.com/politica/poggi-blanquea-el-acuerdo-con-milei-y-anuncia-que-votara-a-la-libertad-avanza-2080/"
+     ]
+    },
+    {
+     "fecha": "2026-04-24",
+     "hecho": "El Economista lo cuenta entre los cuatro gobernadores aliados de LLA en 2025 y entre aquellos con quienes podría repetirse el acuerdo.",
+     "fuentes": [
+      "https://eleconomista.com.ar/politica/la-casa-rosada-recibe-gobernadores-aliados-negociaria-acuerdos-electorales-cara-2027-n94428"
+     ]
+    },
+    {
+     "fecha": "2026-10-07",
+     "hecho": "Letra P lo menciona como posible incorporación a las alianzas con LLA para 2027.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/el-acuerdometro-la-casa-rosada-los-gobernadores-las-24-provincias-rojo-violeta-n5427160"
+     ]
+    }
+   ],
+   "alianza_2025": "Sin lista propia: acuerdo con el gobierno y llamado a votar a La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://www.lapoliticaonline.com/politica/poggi-blanquea-el-acuerdo-con-milei-y-anuncia-que-votara-a-la-libertad-avanza-2080/",
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-18",
+    "hecho": "Ámbito incluye a San Luis entre las provincias donde LLA disputa candidaturas con un gobernador aliado.",
+    "fuente": "https://www.ambito.com/c6335016"
+   }
+  },
+  "SANTA CRUZ": {
+   "gobernador": "Claudio Vidal",
+   "partido": "SER Santa Cruz (frente Por Santa Cruz)",
+   "desde": 2023,
+   "categoria": "neutral",
+   "motivo": "Cofundador de Provincias Unidas, compitió contra LLA en 2025; mantiene buena relación con Milei, pero sus senadores votaron en contra de la reforma laboral y de Propiedad Privada.",
+   "hechos": [
+    {
+     "fecha": "2025-08-05",
+     "hecho": "Cofundó Provincias Unidas; en octubre su lista quedó tercera, detrás del peronismo y de LLA.",
+     "fuentes": [
+      "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp",
+      "https://www.rionegro.com.ar/politica/el-gobernador-de-santa-cruz-quedo-tercero-en-las-elecciones-2025-y-llamo-a-oxigenar-su-gabinete-4352448/?amp=1"
+     ]
+    },
+    {
+     "fecha": "2026-02-27",
+     "hecho": "Los senadores de Movere Santa Cruz votaron a favor del Presupuesto 2026, en contra de la media sanción de la reforma laboral y se abstuvieron en la sanción; en agosto rechazaron Propiedad Privada.",
+     "fuentes": [
+      "https://www.senado.gob.ar/votaciones/detalleActa/2623",
+      "https://www.senado.gob.ar/votaciones/detalleActa/2678",
+      "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml"
+     ]
+    },
+    {
+     "fecha": "2026-03-11",
+     "hecho": "La Nación lo describe en buenos términos con Milei y señala que sus dos senadores y un diputado fueron útiles al gobierno en votaciones.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/alineados-y-no-tanto-como-juega-cada-uno-de-los-gobernadores-que-acompanaron-a-milei-nid11032026/"
+     ]
+    },
+    {
+     "fecha": "2026-06-30",
+     "hecho": "En medio de una protesta policial, viajó a Buenos Aires a pedir ayuda económica a la Casa Rosada.",
+     "fuentes": [
+      "https://www.lapoliticaonline.com/politica/crisis-total-en-santa-cruz-vidal-es-el-peor-gobernador-de-la-historia/"
+     ]
+    }
+   ],
+   "alianza_2025": "Por Santa Cruz (Provincias Unidas), en competencia con La Libertad Avanza; quedó tercera.",
+   "alianza_2025_fuente": [
+    "https://www.rionegro.com.ar/politica/el-gobernador-de-santa-cruz-quedo-tercero-en-las-elecciones-2025-y-llamo-a-oxigenar-su-gabinete-4352448/?amp=1",
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Los diputados de Santa Cruz se ausentaron y no dieron quórum a la sesión opositora contra el DNU 70/23.",
+    "fuente": "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
+   }
+  },
+  "SANTA FE": {
+   "gobernador": "Maximiliano Pullaro",
+   "partido": "UCR (frente Unidos; Provincias Unidas)",
+   "desde": 2023,
+   "categoria": "neutral",
+   "motivo": "Cofundador de Provincias Unidas: firma acuerdos de gestión con la Nación y sus senadores acompañan las leyes clave, pero su espacio busca una alternativa propia para 2027.",
+   "hechos": [
+    {
+     "fecha": "2025-08-05",
+     "hecho": "Cofundó Provincias Unidas para competir en las legislativas.",
+     "fuentes": [
+      "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp",
+      "https://www.noticiasnqn.com.ar/noticias/2025/08/06/318165-gobernadores-arman-provincias-unidas-para-presionar-a-milei"
+     ]
+    },
+    {
+     "fecha": "2026-02-20",
+     "hecho": "En la reforma laboral en Diputados, parte del bloque Provincias Unidas votó a favor (Scaglia, Núñez) y los socialistas en contra.",
+     "fuentes": [
+      "https://www.lacapital.com.ar/politica/como-votaron-la-reforma-laboral-los-diputados-que-representan-santa-fe-n10245656.html"
+     ]
+    },
+    {
+     "fecha": "2026-07-22",
+     "hecho": "Firmó en Casa Rosada, con Santilli, Caputo y Karina Milei, la cesión de la ruta nacional A012 a la provincia.",
+     "fuentes": [
+      "https://www.ellitoral.com/politica/santa-fe-trajo-ruta-vialidad-maximiliano-pullaro-karina-milei-a012-diego-santilli_0_Nove63eXuu.amp.html",
+      "https://www.lacapital.com.ar/suscriptores/pullaro-y-los-milei-una-tragicomedia-una-ruta-y-un-camino-electoral-n10271318/amp"
+     ]
+    },
+    {
+     "fecha": "2026-09-29",
+     "hecho": "No integra la comitiva a París; el presidente de la UCR santafesina dijo que construyen «una alternativa a la grieta» con candidato presidencial propio.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/provincias-unidas-se-desgrana-gobernadores-enfocados-en-reelegir-votos-dispersos-en-el-congreso-y-nid29092026/",
+      "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
+     ]
+    }
+   ],
+   "alianza_2025": "Provincias Unidas, en competencia con La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Dos diputados santafesinos de Provincias Unidas (Scaglia y Núñez) se ausentaron y no dieron quórum a la sesión opositora contra el DNU 70/23.",
+    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+   }
+  },
+  "SANTIAGO DEL ESTERO": {
+   "gobernador": "Elías Suárez",
+   "partido": "Frente Cívico por Santiago",
+   "desde": 2025,
+   "categoria": "opositora",
+   "motivo": "Sucesor de Gerardo Zamora en el Frente Cívico, cuyos senadores votaron en contra de todas las leyes clave del período; el espacio mantiene distancia del Presidente.",
+   "hechos": [
+    {
+     "fecha": "2025-10-26",
+     "hecho": "Ganó la gobernación con más del 70%; asumió el 10/12/2025.",
+     "fuentes": [
+      "https://www.lanacion.com.ar/politica/quien-gano-las-elecciones-para-gobernador-en-santiago-del-estero-nid26102025/",
+      "https://www.letrap.com.ar/politica/santiago-del-estero-quien-es-quien-el-gabinete-del-sucesor-gerardo-zamora-n5420747"
+     ]
+    },
+    {
+     "fecha": "2025-12-26",
+     "hecho": "Los senadores Zamora y Moreno (Frente Cívico) votaron en contra del Presupuesto 2026, pese a que Zamora había avalado en principio su aprobación ante Santilli; también rechazaron la reforma laboral y Propiedad Privada.",
+     "fuentes": [
+      "https://www.tiempodesanjuan.com/politica/ley-presupuesto-2026-uno-uno-asi-votaron-los-senadores-la-provincia-n419854",
+      "https://eleconomista.com.ar/politica/la-santileta-aterrizo-santiago-estero-apoyo-zamora-reclamo-fondos-n90751/amp",
+      "https://www.senado.gob.ar/votaciones/detalleActa/2623"
+     ]
+    },
+    {
+     "fecha": "2026-07-09",
+     "hecho": "Asistió a la vigilia del 9 de Julio con Milei; reclamó un federalismo «en obras concretas» y dijo que la provincia no recibe «toda la ayuda necesaria».",
+     "fuentes": [
+      "https://www.diariopanorama.com/noticia/558957/elias-suarez-defendio-equilibrio-fiscal-santiago-pidio-federalismo-obras-concretas"
+     ]
+    }
+   ],
+   "alianza_2025": "Frente Cívico por Santiago (lista provincial, con el peronismo), en competencia con La Libertad Avanza; ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.lanacion.com.ar/politica/quien-gano-las-elecciones-para-gobernador-en-santiago-del-estero-nid26102025/"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-08-02",
+    "hecho": "El Frente Cívico ganó todas las intendencias en las municipales; LLA rondó el 8% provincial. El Litoral señala que el oficialismo provincial mantiene distancia del Presidente.",
+    "fuente": "https://www.ellitoral.com/politica/elecciones-2026-santiago-banda-gerardozamora-santiagodelestero-javiermilei-labanda-frentecivico-elecciones2026-frenterenovadoryprogresista_0_tsLciaOdFR.html"
+   }
+  },
+  "TIERRA DEL FUEGO": {
+   "gobernador": "Gustavo Melella",
+   "partido": "FORJA (frente Defendamos Tierra del Fuego)",
+   "desde": 2019,
+   "categoria": "opositora",
+   "motivo": "No firmó el Pacto de Mayo, confrontó con el gobierno por la baja de aranceles y estuvo meses excluido del diálogo; en 2026 retomó contactos con la Jefatura de Gabinete.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "No participó de la firma del Pacto de Mayo.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-05-15",
+     "hecho": "Anunció que judicializaría la baja de aranceles a la electrónica importada, acusó al gobierno de actuar «con violencia y soberbia» y llamó «atorrante» a Sturzenegger.",
+     "fuentes": [
+      "https://www.iprofesional.com/politica/428502-tierra-del-fuego-amenaza-con-demandar-al-gobierno-nacional-por-la-eliminacion-de-aranceles",
+      "https://www.elancasti.com.ar/politica-y-economia/el-gobernador-tierra-del-fuego-reacciono-la-baja-impuestos-sturzenegger-es-un-tremendo-atorrante-n583846"
+     ]
+    },
+    {
+     "fecha": "2025-10-30",
+     "hecho": "No fue convocado a la reunión de Milei con 20 gobernadores en Casa Rosada.",
+     "fuentes": [
+      "https://www.lavozdesanjusto.com.ar/milei-se-reunio-con-20-gobernadores-en-casa-rosada-para-impulsar-reformas"
+     ]
+    },
+    {
+     "fecha": "2026-06-18",
+     "hecho": "Se reunió con Santilli por la reforma electoral («políticamente somos de espacios distintos, pero tenemos que convivir»); Letra P lo describe como opositor frontal.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/tierra-del-fuego-la-reunion-santilli-levanto-suspicacias-el-apoyo-melella-la-reforma-electoral-n5424655",
+      "https://eleconomista.com.ar/politica/con-congreso-pausa-santilli-acelero-sus-reuniones-gobernadores-n95953"
+     ]
+    }
+   ],
+   "alianza_2025": "Defendamos Tierra del Fuego (lista provincial propia), en competencia con La Libertad Avanza, que ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-09-17",
+    "hecho": "Tenía prevista una reunión con Santilli por el Presupuesto 2027 y las PASO (no se confirmó si se realizó).",
+    "fuente": "https://www.c5n.com/politica/reunion-diego-santilli-gobernadores-presupuesto-paso-miercoles-16-septiembre-2026"
+   }
+  },
+  "TUCUMAN": {
+   "gobernador": "Osvaldo Jaldo",
+   "partido": "Partido Justicialista (bloque Independencia en Diputados)",
+   "desde": 2023,
+   "categoria": "neutral",
+   "motivo": "Gobernador peronista que venció a LLA en 2025 pero acompaña a menudo al gobierno en el Congreso; rechaza eliminar las PASO y compite con LLA por la provincia.",
+   "hechos": [
+    {
+     "fecha": "2024-07-09",
+     "hecho": "Firmó el Pacto de Mayo en Tucumán.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/uno-por-uno-estos-son-los-18-gobernadores-que-firmaran-el-pacto-de-tucuman/",
+      "https://www.bloomberglinea.com/latinoamerica/argentina/milei-firma-en-tucuman-el-acta-de-mayo-con-18-gobernadores/"
+     ]
+    },
+    {
+     "fecha": "2025-10-26",
+     "hecho": "Su lista ganó la elección nacional en Tucumán con más del 50%, más de 15 puntos por encima de LLA.",
+     "fuentes": [
+      "https://eleconomista.com.ar/politica/milei-aterriza-tucuman-modo-campana-jaldo-como-aliado-circunstancial-n93463/amp",
+      "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
+     ]
+    },
+    {
+     "fecha": "2026-07-09",
+     "hecho": "El bloque Independencia, que le responde, acompañó la Ley Bases, el paquete fiscal, el veto al financiamiento universitario y la reforma laboral; Jaldo se opone a eliminar las PASO.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/milei-y-jaldo-entre-competir-y-ser-aliados-cual-es-el-margen-para-un-acuerdo-en-tucuman/"
+     ]
+    },
+    {
+     "fecha": "2026-09-16",
+     "hecho": "Se reunió con Santilli en Casa Rosada por el Presupuesto 2027 y las PASO.",
+     "fuentes": [
+      "https://www.c5n.com/politica/reunion-diego-santilli-gobernadores-presupuesto-paso-miercoles-16-septiembre-2026"
+     ]
+    }
+   ],
+   "alianza_2025": "Frente Tucumán Primero (PJ), en competencia con La Libertad Avanza; ganó la provincia.",
+   "alianza_2025_fuente": [
+    "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3",
+    "https://eleconomista.com.ar/politica/milei-aterriza-tucuman-modo-campana-jaldo-como-aliado-circunstancial-n93463/amp"
+   ],
+   "ultima_novedad": {
+    "fecha": "2026-10-15",
+    "hecho": "Los tres diputados de Independencia no ocuparon sus bancas en la sesión opositora contra el DNU 70/23.",
+    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+   }
+  }
+ }
+}

@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Monitor Sociopolítico Argentino</title>
+<meta name="description" content="Elecciones, afinidades políticas, Congreso, conflictividad social, opinión pública, instituciones, homicidios, prensa y calendario electoral de la Argentina.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Mismo sistema visual que Monitor Mundial: tablero oscuro, una columna de 1200px, cabecera fija con índice de secciones. */
+:root{
+  --bg:#0A1116; --panel:#111B22; --panel2:#16232C; --line:#22333E;
+  --ink:#E6EDF1; --muted:#8FA1AC; --nd:#2A3A45;
+  --accent:#74B9EA; --accent-soft:#163049; --accent-ink:#06131C;
+  --ok:#5BC08A; --warn:#F0A93A; --crit:#F0675F;
+  --f-display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --r:6px; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 var(--f-body);padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:var(--accent);text-underline-offset:2px}
+button{font-family:inherit}
+button:focus-visible,a:focus-visible,select:focus-visible,path:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);font-stretch:78%;line-height:1.08;margin:0;text-wrap:balance}
+p{margin:0}
+.eyebrow{font:500 .72rem/1.2 var(--f-data);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)}
+.num{font-family:var(--f-data);font-variant-numeric:tabular-nums}
+
+header.top{position:sticky;top:0;z-index:9;background:var(--panel);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.top .wrap{display:flex;flex-direction:column;gap:4px;padding-top:10px}
+.brand{display:flex;align-items:baseline;justify-content:space-between;gap:8px 16px;flex-wrap:wrap}
+.brand b{font:800 clamp(1.5rem,3.4vw,1.95rem)/1 var(--f-display);font-stretch:72%;letter-spacing:.04em;text-transform:uppercase}
+.brand b span{color:var(--accent)}
+.brand .sub{font-size:1.05rem;color:var(--muted)}
+.stamp{font:500 .84rem/1.2 var(--f-data);color:var(--muted)}
+.stamp i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--warn);margin-right:6px;vertical-align:1px}
+nav.idx{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin:0 -6px}
+nav.idx::-webkit-scrollbar{display:none}
+nav.idx a{flex:none;font:600 1.04rem/1 var(--f-body);color:var(--muted);text-decoration:none;padding:13px 10px 14px;border-bottom:3px solid transparent;white-space:nowrap}
+nav.idx a:hover{color:var(--ink)}
+nav.idx a.on{color:var(--ink);border-bottom-color:var(--accent)}
+
+main{padding-block:12px 48px}
+.sec{padding-top:36px;scroll-margin-top:130px}
+.sec+.sec{margin-top:40px;border-top:1px solid var(--line)}
+.phead{display:flex;flex-direction:column;gap:8px;margin-bottom:20px;max-width:80ch}
+.phead h1{font-size:clamp(1.9rem,4.4vw,2.8rem);font-weight:780}
+.phead p{color:var(--muted);font-size:1.05rem}
+.boceto{display:inline-flex;align-items:center;gap:8px;font:500 .74rem/1.3 var(--f-data);color:var(--warn);border:1px dashed var(--warn);border-radius:4px;padding:4px 8px;align-self:flex-start}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+.b{grid-column:span 12;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.b.half{grid-column:span 6}.b.third{grid-column:span 4}.b.two3{grid-column:span 8}
+@media (max-width:900px){.b.half,.b.third,.b.two3{grid-column:span 12}}
+.bh{display:flex;justify-content:space-between;align-items:baseline;gap:6px 12px;flex-wrap:wrap}
+.bh h2{font-size:1.3rem;font-weight:720;font-stretch:84%}
+.src{font:400 .74rem/1.3 var(--f-data);color:var(--muted)}
+.ph{display:block;height:10px;border-radius:3px;background:var(--panel2)}
+.note{font-size:.84rem;color:var(--muted);border-left:3px solid var(--line);padding:2px 0 2px 10px}
+.note.w{border-left-color:var(--warn)}
+
+.chip{display:inline-flex;align-items:center;gap:6px;font:600 .7rem/1 var(--f-data);letter-spacing:.05em;text-transform:uppercase;padding:5px 7px;border-radius:4px;background:var(--panel2);color:var(--muted);white-space:nowrap}
+.chip.ok{background:#163323;color:var(--ok)}.chip.warn{background:#3A2B12;color:var(--warn)}.chip.crit{background:#3A1B1A;color:var(--crit)}.chip.acc{background:var(--accent-soft);color:var(--accent)}
+
+/* Controles */
+.ctrls{display:flex;flex-direction:column;gap:10px}
+.crow{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+.clab{font:600 .68rem/1.2 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);min-width:86px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--panel2)}
+.seg button{border:0;background:none;color:var(--muted);font:600 .86rem/1 var(--f-body);padding:9px 12px;cursor:pointer;border-right:1px solid var(--line)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.seg button:disabled{opacity:.35;cursor:not-allowed;text-decoration:line-through}
+.big{display:flex;gap:8px}
+.big button{width:118px;height:76px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);color:var(--muted);font:700 1rem/1.1 var(--f-display);font-stretch:86%;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.big button svg{width:22px;height:22px;opacity:.8}
+.big button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.big button:disabled{opacity:.35;cursor:not-allowed}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.tabs button{border:0;background:none;color:var(--muted);font:700 1rem/1 var(--f-display);font-stretch:84%;padding:10px 12px 12px;border-bottom:3px solid transparent;cursor:pointer}
+.tabs button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pills button{font:600 .8rem/1.1 var(--f-body);border:1px solid var(--line);background:var(--panel2);color:var(--muted);padding:6px 10px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.pills button i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.pills button[aria-pressed="true"]{color:var(--ink);border-color:var(--accent);background:var(--accent-soft)}
+select{font:600 .92rem/1.2 var(--f-body);background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:9px 10px;max-width:100%}
+
+/* Mapas */
+.mapwrap{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:820px){.mapwrap{grid-template-columns:1fr}}
+.map{position:relative;border-radius:6px;background:#0C161D;border:1px solid var(--line);overflow:hidden;touch-action:manipulation}
+.map svg{display:block;width:100%;height:auto;max-height:78vh}
+.map path{stroke:#0C161D;stroke-width:.6;cursor:pointer;transition:fill .25s;vector-effect:non-scaling-stroke}
+.map circle{vector-effect:non-scaling-stroke}
+.map path.prov-line{fill:none;stroke:#0C161D;stroke-width:1.6;pointer-events:none}
+.map path:hover{stroke:var(--ink);stroke-width:1.2}
+.map path.sel{stroke:var(--ink);stroke-width:2}
+.map circle{cursor:pointer}
+.map .back{position:absolute;top:10px;left:10px;font:600 .8rem/1 var(--f-body);background:#0C161DEE;color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:7px 11px;cursor:pointer;display:none}
+.map .tag{position:absolute;right:10px;top:10px;font:500 .7rem/1.2 var(--f-data);color:var(--warn);background:#0C161DE6;border:1px dashed var(--warn);padding:3px 6px;border-radius:4px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.82rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.legend .grad{width:130px;height:10px;border-radius:3px}
+.side{display:flex;flex-direction:column;gap:12px;min-width:0}
+.panel2{background:var(--panel2);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.panel2 h3{font-size:1.1rem;font-weight:720}
+.rows{display:flex;flex-direction:column;gap:6px}
+.row{display:grid;grid-template-columns:minmax(90px,1.2fr) 3fr 54px;gap:8px;align-items:center;font-size:.86rem}
+.row .bar{height:10px;border-radius:2px;background:var(--line);position:relative;overflow:hidden}
+.row .bar i{position:absolute;inset:0 auto 0 0;border-radius:2px}
+.row .v{font:500 .8rem/1 var(--f-data);text-align:right}
+.row.div .bar{background:none}
+.row.div .bar::before{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.kpi{background:var(--panel2);border:1px solid var(--line);border-radius:var(--r);padding:10px 12px 12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi .l{font-size:.84rem;line-height:1.3}
+.kpi .v{font:600 1.5rem/1.05 var(--f-data);font-variant-numeric:tabular-nums}
+.kpi .v small{font-size:.74rem;font-weight:400;color:var(--muted)}
+.kpi .d{font:400 .72rem/1.3 var(--f-data);color:var(--muted)}
+
+/* Gráficos */
+.chart svg{display:block;width:100%;height:auto}
+.chart text{fill:var(--muted);font:400 10px var(--f-data)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 .7rem/1.2 var(--f-data);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.n{font-family:var(--f-data);text-align:right;white-space:nowrap}
+
+/* Votaciones */
+.vote{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:700px){.vote{grid-template-columns:1fr}}
+.hemi svg{display:block;width:100%;height:auto}
+.res{font:700 1.05rem/1 var(--f-display);font-stretch:86%;padding:6px 9px;border-radius:4px;align-self:flex-start}
+.res.si{background:#163323;color:var(--ok)}.res.no{background:#3A1B1A;color:var(--crit)}.res.nd{background:var(--panel2);color:var(--muted)}
+.steps{display:flex;gap:6px;flex-wrap:wrap}
+
+/* Calendario */
+.natcal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+@media (max-width:600px){.natcal{grid-template-columns:1fr}}
+.natcal > div{background:var(--panel2);padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.natcal b{font:700 1.15rem/1.1 var(--f-display);font-stretch:84%}
+
+footer{border-top:1px solid var(--line);padding-block:20px 32px;color:var(--muted);font-size:.86rem}
+footer .wrap{display:flex;flex-direction:column;gap:6px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <div><b>Monitor <span>Sociopolítico</span></b> <span class="sub">La Argentina, en sus votos, su Congreso y sus calles</span></div>
+      <span class="stamp"><i></i>Corte de datos: 25/10/2026 · se actualiza los viernes</span>
+    </div>
+    <nav class="idx" id="nav" aria-label="Secciones"></nav>
+  </div>
+</header>
+<main class="wrap" id="main"></main>
+<footer><div class="wrap">
+  <p>Monitor Sociopolítico Argentino · Solo variables sociales y políticas. La economía, el clima y lo internacional están en los otros monitores.</p>
+  <p>Todos los datos llevan su fuente. Las clasificaciones propias (afinidad, gobernabilidad, postura de los gobernadores) están marcadas como «lectura propia» y sus criterios son públicos. Las fuentes y los faltantes de cada sección están en la carpeta <code>datos/</code> del repositorio.</p>
+</div></footer>
+
+<script>
+'use strict';
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = (v, d = 1) => v == null ? '—' : v.toLocaleString('es-AR', {minimumFractionDigits: d, maximumFractionDigits: d});
+let GEO = null;
+
+/* ---------- Generador de datos de ejemplo (determinístico) ---------- */
+function hash(s){ let h = 2166136261; for(const c of String(s)){ h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
+function rnd(seed){ let a = hash(seed); return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+
+/* ---------- Fuerzas y bloques (se completan con datos/electoral/fuerzas.json) ---------- */
+let F = {};
+const B = { izq:{n:'Izquierda',c:'#E8775F'}, cen:{n:'Centro',c:'#4CC3A8'}, der:{n:'Derecha',c:'#8D78E6'} };
+const PART = { bla:{n:'Voto en blanco',c:'#C9D3D9'}, nul:{n:'Voto nulo',c:'#F0A93A'}, aus:{n:'Ausentismo',c:'#F0675F'} };
+// Misma fuerza con otro nombre entre una elección y la anterior (tendencia «por partido»)
+const MISMO = { UXP:'FDT', FP:'FDT', LLA:'AL' };
+const DATA = { elec:{} };
+
+/* ---------- Definición de los dos mapas electorales ---------- */
+const CARGOS = {
+  presidente:{n:'Presidente', real:true, ult:'2023', ant:'2019', niv:['prov','dep'], inst:{ '2023':['PASO','Generales','Balotaje'], '2019':['PASO','Generales'] },
+    nota:'En 2019 no hubo balotaje: la tendencia del balotaje 2023 se calcula contra la elección general de 2019.'},
+  gobernador:{n:'Gobernador', real:false, ult:'última elección', ant:'anterior', niv:['prov','dep'], inst:{ 'última elección':['PASO','Generales'], 'anterior':['PASO','Generales'] }, sinTotal:true,
+    nota:'Cada provincia vota en su propia fecha: «última elección» es la más reciente de cada distrito (en general 2023; Corrientes y Santiago del Estero, 2025). El detalle por departamento existe solo donde la provincia votó junto con la elección nacional (Buenos Aires, CABA, Catamarca, Santa Cruz y Santiago del Estero). Donde no se consiguieron los votos se usan los porcentajes publicados por la prensa.'},
+  intendente:{n:'Intendente', real:false, niv:['pts','dep'], nota:'Etapa 3: ciudades de más de 100.000 habitantes, como puntos (en la provincia de Buenos Aires coincide con el partido).'},
+  diputados:{n:'Diputados nacionales', real:true, ult:'2025', ant:'2021', niv:['prov','dep'], inst:{ '2025':['Generales'], '2021':['PASO','Generales'] },
+    nota:'Se comparan las dos últimas elecciones solo legislativas (2025 y 2021). En 2025 no hubo PASO nacionales. Las listas se agrupan por frente nacional con sus aliados: LLA incluye las alianzas con el PRO, y Fuerza Patria incluye aliados provinciales como el Frente Cívico por Santiago (sin ellos, 32,0 %).'},
+  senado:{n:'Senadores nacionales', real:true, ult:'2025', ant:'2021', niv:['prov','dep'], inst:{ '2025':['Generales'], '2021':['Generales'] },
+    nota:'El Senado se renueva por tercios: en 2025 votaron 8 provincias y en 2021 otras 8. La tendencia de cada provincia se medirá contra su elección de senadores anterior (6 años antes), que se carga en una etapa siguiente.'},
+  legislaturas:{n:'Legislaturas provinciales', real:false, ult:'última elección', ant:'anterior', niv:['prov','dep'], inst:{ 'última elección':['Generales'], 'anterior':['Generales'] }, sinTotal:true,
+    nota:'24 sistemas distintos: cada provincia renueva su legislatura en su propio calendario, total o parcialmente, y algunas votan por secciones. En las bicamerales se muestra la cámara de Diputados. Al tocar una provincia se ven las bancas obtenidas y cómo quedó compuesta la cámara.'}
+};
+const MAPAS_E = [
+  { id:'ej', t:'Mapa 1 · Cargos ejecutivos', cargos:['presidente','gobernador','intendente'] },
+  { id:'le', t:'Mapa 2 · Cargos legislativos', cargos:['diputados','senado','legislaturas'] }
+];
+const ELEC_FILES = [];
+Object.entries(CARGOS).forEach(([c, C]) => C.real && Object.entries(C.inst).forEach(([a, is]) => is.forEach(i => ELEC_FILES.push(`${c}-${a}-${i.toLowerCase()}`))));
+const efile = (c, a, i) => DATA.elec[`${c}-${a}-${String(i).toLowerCase()}`];
+
+/* ---------- Lectura de un resultado ---------- */
+function rec(file, u){
+  if(!file) return null;
+  if(u.id === 'pais') return file.pais;
+  if(u.dep) return file.departamento && file.departamento[u.id.slice(1)];
+  return file.provincia && file.provincia[u.p];
+}
+function shares(r, agr){
+  if(!r || !r.fuerzas) return null;
+  const tot = r.soloPct ? 100 : Object.values(r.fuerzas).reduce((a, b) => a + b, 0); if(!tot) return null;
+  const s = {}; for(const f in r.fuerzas){ const k = agr === 'afi' ? ((F[f] || {}).b || 'cen') : f; s[k] = (s[k] || 0) + r.fuerzas[f] / tot * 100; }
+  return s;
+}
+function partic(r){
+  if(!r) return null; const vot = r.votantes || 0;
+  return { aus: r.electores && vot ? 100 * (1 - vot / r.electores) : null, bla: vot ? 100 * (r.blancos || 0) / vot : null, nul: vot ? 100 * (r.nulos || 0) / vot : null };
+}
+const FK = (agr, k) => agr === 'par' ? (F[k] || { n:k, c:'#7E8D96' }) : B[k];
+
+/* ---------- Utilidades de color ---------- */
+function mix(hex, t){ // mezcla con el fondo del mapa (t=0 fondo, t=1 color pleno)
+  const a = parseInt(hex.slice(1), 16), bg = [0x16, 0x23, 0x2C];
+  const c = [a >> 16 & 255, a >> 8 & 255, a & 255].map((v, i) => Math.round(bg[i] + (v - bg[i]) * t));
+  return '#' + c.map(v => v.toString(16).padStart(2, '0')).join('');
+}
+function diverge(v, max){ // azul = sube, naranja = baja
+  const t = Math.max(-1, Math.min(1, v / max));
+  return t >= 0 ? mix('#5BA4E6', .15 + .85 * t) : mix('#F08A3A', .15 + .85 * -t);
+}
+const SEQ = t => mix('#E8775F', .12 + .88 * Math.max(0, Math.min(1, t)));
+const SEQB = t => mix('#74B9EA', .12 + .88 * Math.max(0, Math.min(1, t)));
+
+/* ---------- Motor de mapa (provincias / departamentos / puntos, con zoom) ---------- */
+function makeMap(el, o){
+  // o: { level:'prov'|'dep'|'pts', fill(unit)->color, onPick(unit), points:[{x,y,r,c,id,t}], zoom:true }
+  const P = GEO.provincias, D = GEO.departamentos;
+  const all = P.reduce((b, p) => [Math.min(b[0], p.b[0]), Math.min(b[1], p.b[1]), Math.max(b[2], p.b[2]), Math.max(b[3], p.b[3])], [1e9, 1e9, -1e9, -1e9]);
+  const full = [all[0] - 6, all[1] - 6, all[2] - all[0] + 12, all[3] - all[1] + 12];
+  let vb = full.slice(), sel = null;
+  const units = o.level === 'dep' ? D.map(d => ({ id:'d' + d.id, n:d.n, p:d.p, d:d.d, dep:true })) : P.map(p => ({ id:p.id, n:p.n, p:p.id, d:p.d }));
+  let s = `<svg viewBox="${vb.join(' ')}" role="img" aria-label="Mapa de Argentina">`;
+  s += units.map(u => `<path data-id="${esc(u.id)}" d="${u.d}" fill="${o.fill(u) || '#2A3A45'}"><title>${esc(u.n)}${u.dep ? ' · ' + esc(nameProv(u.p)) : ''}</title></path>`).join('');
+  if(o.level === 'dep' || o.level === 'pts') s += P.map(p => `<path class="prov-line" d="${p.d}"/>`).join('');
+  if(o.points) s += o.points.map((q, i) => `<circle data-i="${i}" data-r="${q.r}" cx="${q.x}" cy="${q.y}" r="${q.r}" fill="${q.c}" fill-opacity=".85" stroke="${q.ring ? '#fff' : '#0C161D'}" stroke-width="${q.ring ? 1.6 : .6}"><title>${esc(q.t)}</title></circle>`).join('');
+  s += '</svg>';
+  const tag = o.tag ?? 'Datos de ejemplo';
+  el.innerHTML = s + `<button class="back" type="button">← Volver al país</button>${tag ? `<span class="tag">${tag}</span>` : ''}`;
+  const svg = el.querySelector('svg'), back = el.querySelector('.back');
+  const anim = to => { const from = vb.slice(), t0 = performance.now();
+    const step = t => { const k = Math.min(1, (t - t0) / 380), e = k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+      vb = from.map((v, i) => v + (to[i] - v) * e); svg.setAttribute('viewBox', vb.join(' ')); const sc = vb[2] / full[2]; svg.querySelectorAll('circle[data-r]').forEach(c => c.setAttribute('r', (c.dataset.r * Math.max(sc, .4)).toFixed(2))); if(k < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step); };
+  const zoomTo = pid => { const p = P.find(x => x.id === pid); if(!p) return; const pad = 10, w = p.b[2] - p.b[0], h = p.b[3] - p.b[1];
+    const asp = full[2] / full[3]; let W = w + pad * 2, H = h + pad * 2; if(W / H > asp) H = W / asp; else W = H * asp;
+    anim([p.b[0] + w / 2 - W / 2, p.b[1] + h / 2 - H / 2, W, H]); back.style.display = 'block'; };
+  back.addEventListener('click', () => { anim(full); back.style.display = 'none'; });
+  if(el._pick) el.removeEventListener('click', el._pick);
+  el._pick = e => {
+    const c = e.target.closest('circle');
+    if(c && o.points){ const q = o.points[+c.dataset.i]; o.onPick && o.onPick({ point:q }); return; }
+    const pth = e.target.closest('path[data-id]'); if(!pth) return;
+    el.querySelectorAll('path.sel').forEach(x => x.classList.remove('sel')); pth.classList.add('sel');
+    const u = units.find(x => x.id === pth.dataset.id); sel = u;
+    if(!u) return;
+    if(o.zoom && !u.dep) zoomTo(u.p);
+    o.onPick && o.onPick(u);
+  };
+  el.addEventListener('click', el._pick);
+  return { zoomTo };
+}
+const nameProv = id => (GEO.provincias.find(p => p.id === id) || {}).n || id;
+const TILDES = { 'Cordoba':'Córdoba','Entre Rios':'Entre Ríos','Neuquen':'Neuquén','Rio Negro':'Río Negro','Tucuman':'Tucumán' };
+
+/* ---------- Componentes ---------- */
+const seg = (name, opts, cur, dis = []) => `<div class="seg" role="group" data-name="${name}">${opts.map(([v, l]) => `<button type="button" data-v="${v}" aria-pressed="${v === cur}" ${dis.includes(v) ? 'disabled' : ''}>${l}</button>`).join('')}</div>`;
+const rows = (items, div) => `<div class="rows">${items.map(x => `<div class="row${div ? ' div' : ''}"><span>${esc(x.n)}</span><span class="bar">${div
+  ? `<i style="left:${x.v >= 0 ? 50 : 50 + Math.max(-50, x.v / x.max * 50)}%;width:${Math.min(50, Math.abs(x.v) / x.max * 50)}%;background:${x.v >= 0 ? '#5BA4E6' : '#F08A3A'}"></i>`
+  : `<i style="width:${Math.min(100, x.v / (x.max || 100) * 100)}%;background:${x.c}"></i>`}</span><span class="v">${x.na ? '—' : (div && x.v > 0 ? '+' : '') + fmt(x.v, x.d ?? 1) + (x.u ?? (div ? ' pp' : '%'))}</span></div>`).join('')}</div>`;
+const head = (t, src) => `<div class="bh"><h2>${esc(t)}</h2>${src ? `<span class="src">Fuente: ${esc(src)}</span>` : ''}</div>`;
+const ICON = {
+  prov:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/></svg>',
+  dep:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 4v16M3 12h18"/></svg>',
+  pts:'<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="11" r="2"/><circle cx="10" cy="17" r="2.5"/></svg>'
+};
+
+/* =========================================================
+   SECCIÓN 1 · ELECTORAL
+   ========================================================= */
+function electoralHTML(m){
+  return `<div class="b" id="m-${m.id}"><div class="bh"><h2>${esc(m.t)}</h2><span class="src" data-src></span></div>
+    <div class="tabs" data-k="cargo">${m.cargos.map((c, i) => `<button type="button" data-v="${c}" aria-pressed="${i === 0}">${CARGOS[c].n}</button>`).join('')}</div>
+    <div class="ctrls"></div>
+    <div class="mapwrap"><div><div class="map"></div><div class="legend" style="margin-top:8px"></div></div><div class="side"></div></div>
+    <p class="note"></p></div>`;
+}
+function initElectoral(m){
+  const root = $('#m-' + m.id);
+  const st = { cargo:m.cargos[0], nivel:'prov', inst:'Generales', agr:'par', vista:'res', votos:'afi', foco:null, part:'aus' };
+  function draw(){
+    const C = CARGOS[st.cargo];
+    const mapEl = root.querySelector('.map'), lg = root.querySelector('.legend'), sideEl = root.querySelector('.side');
+    if(!C.niv.includes(st.nivel)) st.nivel = C.niv[0];
+    if(st.cargo === 'intendente' && DATA.intend){ drawIntendente(root, st); return; }
+    if(!C.real){
+      root.querySelector('.ctrls').innerHTML = `<div class="crow"><span class="chip warn">En preparación</span><span class="muted" style="font-size:.9rem">Este cargo se carga en una etapa siguiente. Los botones serán los mismos que en los otros cargos.</span></div>`;
+      makeMap(mapEl, { level: st.nivel === 'pts' ? 'prov' : st.nivel, fill: () => '#1A2832', zoom:true, tag:'' });
+      lg.innerHTML = ''; sideEl.innerHTML = `<div class="panel2"><span class="eyebrow">${esc(C.n)}</span><h3>Datos en preparación</h3><p class="muted" style="font-size:.88rem">${esc(C.nota)}</p></div>`;
+      root.querySelector('.note').textContent = ''; root.querySelector('[data-src]').textContent = ''; return;
+    }
+    const instOK = i => C.inst[C.ult].includes(i) && !!efile(st.cargo, C.ult, i);
+    if(!instOK(st.inst)) st.inst = C.inst[C.ult].find(instOK) || 'Generales';
+    const fileU = efile(st.cargo, C.ult, st.inst);
+    const instAnt = C.inst[C.ant].includes(st.inst) ? st.inst : 'Generales';
+    const fileA = efile(st.cargo, C.ant, instAnt);
+    const noAnt = !fileA || st.cargo === 'senado';
+    if(noAnt && st.vista === 'var') st.vista = 'res';
+    const top = fileU ? Object.entries(fileU.pais.fuerzas).sort((a, b) => b[1] - a[1]).map(x => x[0]) : [];
+    const lista = st.agr === 'par' ? top.filter(k => fileU.pais.fuerzas[k] / Object.values(fileU.pais.fuerzas).reduce((a, b) => a + b, 0) >= .01).slice(0, 8) : ['izq', 'cen', 'der'];
+    if(st.vista === 'var' && st.votos === 'afi' && (!st.foco || !lista.includes(st.foco))) st.foco = lista[0];
+    root.querySelector('.ctrls').innerHTML = `
+      <div class="crow"><span class="clab">Nivel</span><div class="big" data-name="nivel">
+        ${[['prov','Provincia'],['dep','Departamento']].map(([v, l]) => `<button type="button" data-v="${v}" aria-pressed="${st.nivel === v}">${ICON[v]}${l}</button>`).join('')}
+      </div></div>
+      <div class="crow"><span class="clab">Instancia</span>${seg('inst', [['PASO','PASO'],['Generales','Generales'],['Balotaje','Balotaje']], st.inst, ['PASO','Generales','Balotaje'].filter(i => !instOK(i)))}</div>
+      <div class="crow"><span class="clab">Agrupación</span>${seg('agr', [['par','Partidos'],['afi','Afinidad (izq. · centro · der.)']], st.agr)}</div>
+      <div class="crow"><span class="clab">Vista</span>${seg('vista', [['res','Resultado ' + C.ult],['var','Tendencia ' + C.ant + ' → ' + C.ult]], st.vista, noAnt ? ['var'] : [])}</div>
+      <div class="crow"><span class="clab">Votos</span>${seg('votos', [['afi','Afirmativos válidos'],['par','Blanco · nulo · ausentismo']], st.votos)}</div>
+      ${st.vista === 'var' || st.votos === 'par' ? `<div class="crow"><span class="clab">${st.votos === 'par' ? 'Mostrar' : 'Fuerza'}</span><div class="pills" data-name="foco">${
+        st.votos === 'par' ? Object.entries(PART).map(([k, v]) => `<button type="button" data-v="${k}" aria-pressed="${st.part === k}"><i style="background:${v.c}"></i>${v.n}</button>`).join('')
+        : lista.map(k => { const x = FK(st.agr, k); return `<button type="button" data-v="${k}" aria-pressed="${st.foco === k}"><i style="background:${x.c}"></i>${esc(x.n)}</button>`; }).join('')}</div></div>` : ''}`;
+    const prevKey = (k, sA) => st.agr === 'afi' ? k : (sA && sA[k] != null ? k : MISMO[k]);
+    const fill = u => {
+      const rU = rec(fileU, u); if(!rU) return null;
+      if(st.votos === 'par'){
+        const a = partic(rU); if(a[st.part] == null) return null;
+        if(st.vista === 'res') return mix(PART[st.part].c, .15 + .85 * Math.min(1, a[st.part] / (st.part === 'aus' ? 45 : 8)));
+        const b = partic(rec(fileA, u)); if(!b || b[st.part] == null) return 'url(#hatch)';
+        return diverge(a[st.part] - b[st.part], st.part === 'aus' ? 10 : 3);
+      }
+      const s = shares(rU, st.agr); if(!s) return null;
+      if(st.vista === 'res'){ const o = Object.entries(s).sort((x, y) => y[1] - x[1]); const marg = o[0][1] - (o[1] ? o[1][1] : 0);
+        return mix(FK(st.agr, o[0][0]).c, .3 + .7 * Math.min(1, marg / 30)); }
+      const sA = shares(rec(fileA, u), st.agr); const pk = prevKey(st.foco, sA);
+      if(!sA || pk == null || sA[pk] == null) return 'url(#hatch)';
+      return diverge((s[st.foco] || 0) - sA[pk], 15);
+    };
+    makeMap(mapEl, { level: st.nivel, fill, zoom:true, tag:'', onPick: u => side(u) });
+    mapEl.querySelector('svg').insertAdjacentHTML('afterbegin', '<defs><pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="4" height="4" fill="#1A2832"/><line x1="0" y1="0" x2="0" y2="4" stroke="#56697480" stroke-width="1.4"/></pattern></defs>');
+    if(st.vista === 'var') lg.innerHTML = `<span><i class="grad" style="background:linear-gradient(90deg,#F08A3A,#16232C,#5BA4E6)"></i> tendencia: baja · sube (puntos porcentuales)</span><span><i style="background:repeating-linear-gradient(45deg,#1A2832 0 2px,#566974 2px 3px)"></i>sin elección previa comparable</span>`;
+    else if(st.votos === 'par') lg.innerHTML = `<span><i class="grad" style="background:linear-gradient(90deg,#16232C,${PART[st.part].c})"></i> ${PART[st.part].n}: menos · más</span>`;
+    else lg.innerHTML = lista.map(k => { const x = FK(st.agr, k); return `<span><i style="background:${x.c}"></i>${esc(x.n)}</span>`; }).join('') + '<span class="muted">· color del ganador, más intenso cuanto mayor la ventaja</span>' + (st.cargo === 'senado' ? '<span><i style="background:#2A3A45"></i>no eligió senadores en ' + C.ult + '</span>' : '');
+    root.querySelector('.note').textContent = C.nota + (fileU ? ` · Recuento ${fileU.recuento || ''}.` : '') + (st.agr === 'afi' ? ' · Afinidad: cada fuerza va a izquierda, centro o derecha según la tabla de clasificación de abajo; los partidos provinciales que no se alinean con un extremo van al centro.' : '');
+    root.querySelector('[data-src]').innerHTML = fileU ? `Fuente: ${fileU.url ? `<a href="${esc(fileU.url)}">${esc(String(fileU.fuente).split(',')[0])}</a>` : esc(fileU.fuente)}` : 'Fuente: dato pendiente de carga';
+    side(null);
+    function side(u){
+      if(!u && fileU && fileU.sinTotal){
+        const gan = {}; Object.values(fileU.provincia).forEach(r => { if(r.ganador){ const k = st.agr === 'afi' ? ((F[r.ganador] || {}).b || 'cen') : r.ganador; gan[k] = (gan[k] || 0) + 1; } });
+        const n = Object.values(gan).reduce((a, b) => a + b, 0);
+        sideEl.innerHTML = `<div class="panel2"><span class="eyebrow">${esc(C.n)} · ${esc(st.inst)} · última elección de cada provincia</span><h3>${st.cargo === 'legislaturas' ? 'Fuerza más votada en cada provincia' : 'Gobernaciones ganadas'}</h3>${rows(Object.entries(gan).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ n:FK(st.agr, k).n, v, c:FK(st.agr, k).c, max:n, d:0, u:'' })))}<p class="muted" style="font-size:.78rem">Sobre ${n} distritos con resultado cargado. Tocá una provincia para ver el detalle.</p></div>`; return; }
+      const unit = u || { id:'pais', n:'Total país', p:'' };
+      const rU = rec(fileU, unit), rA = rec(fileA, unit);
+      let h = `<div class="panel2"><span class="eyebrow">${u ? (u.dep ? 'Departamento · ' + esc(nameProv(u.p)) : 'Provincia') : 'Resultado general'} · ${esc(C.n)} ${esc(C.ult)} · ${esc(st.inst)}</span><h3>${esc(unit.n)}</h3>`;
+      if(!fileU) h += `<p class="muted">Dato pendiente de carga.</p>`;
+      else if(!rU) h += `<p class="muted">${st.cargo === 'senado' ? 'No eligió senadores en ' + C.ult + '.' : 'Sin datos para esta zona.'}</p>`;
+      else {
+        const s = shares(rU, st.agr), p = partic(rU), sA = shares(rA, st.agr), pA = partic(rA);
+        if(st.votos === 'afi'){
+          if(st.vista === 'res') h += rows(Object.entries(s).sort((x, y) => y[1] - x[1]).slice(0, 8).map(([k, v]) => ({ n:FK(st.agr, k).n, v, c:FK(st.agr, k).c, max:70 })));
+          else h += `<p class="muted" style="font-size:.84rem">Tendencia: cambio en puntos porcentuales, ${C.ant} → ${C.ult}${st.agr === 'par' ? ' (cada fuerza contra sí misma)' : ' (cada bloque contra sí mismo)'}</p>` +
+            rows(Object.entries(s).sort((x, y) => y[1] - x[1]).slice(0, 8).map(([k, v]) => { const pk = prevKey(k, sA); const b = sA && pk != null ? sA[pk] : null;
+              return { n:FK(st.agr, k).n + (b == null ? ' (sin elección previa)' : ''), v: b == null ? 0 : v - b, na: b == null, max:20 }; }), true);
+        } else h += rows(Object.entries(PART).map(([k, v]) => { const val = st.vista === 'res' ? p[k] : (pA && pA[k] != null && p[k] != null ? p[k] - pA[k] : null); return { n:v.n, v: val ?? 0, na: val == null, c:v.c, max: st.vista === 'res' ? 45 : 10 }; }), st.vista === 'var');
+        h += `<div class="kpis" style="margin-top:4px">${[['Participación', p.aus == null ? null : 100 - p.aus], ['Blanco', p.bla], ['Nulo', p.nul]].map(([l, v]) => `<div class="kpi"><span class="l">${l}</span><span class="v">${fmt(v)}${v == null ? '' : '<small>%</small>'}</span></div>`).join('')}</div>
+          <p class="muted" style="font-size:.78rem">Electores ${rU.electores ? rU.electores.toLocaleString('es-AR') : '—'} · votantes ${rU.votantes ? rU.votantes.toLocaleString('es-AR') : '—'}. Blanco y nulo, sobre votantes.</p>`;
+        if(rU.candidatos && Object.keys(rU.candidatos).length) h += `<p style="font-size:.84rem">${rU.anio ? '<strong>' + esc(rU.anio) + '</strong> · ' : ''}${Object.entries(rU.candidatos).slice(0, 5).map(([k, v]) => `<span style="color:${FK('par', k).c}">●</span> ${esc(v)}${k === rU.ganador ? ' <strong>(ganó)</strong>' : ''}`).join(' · ')}</p>`;
+        if(rU.bancas){ const B2 = Object.entries(rU.bancas).filter(([, v]) => typeof v === 'number' && v > 0).sort((a, b) => b[1] - a[1]);
+          h += `<p style="font-size:.86rem;margin-top:6px"><strong>${esc(rU.camara || '')} ${esc(rU.anio || '')}</strong>${rU.bancas_en_juego ? ' · ' + esc(rU.bancas_en_juego) + ' bancas en juego' : ''}${rU.por_seccion === true || rU.por_seccion === 'True' ? ' · se vota por secciones' : ''}</p>`
+            + (B2.length ? `<p style="font-size:.84rem">Bancas obtenidas: ${B2.map(([k, v]) => `<span style="color:${FK('par', k).c}">●</span> ${esc(FK('par', k).n)} ${v}`).join(' · ')}</p>` : '');
+          const cp = rU.composicion || {}; const cpe = Object.entries(cp).filter(([k, v]) => k !== 'total' && typeof v === 'number');
+          if(cpe.length) h += `<p style="font-size:.84rem">Cómo quedó la cámara (${cp.total || '—'} bancas): ${cpe.map(([k, v]) => `${B[k] ? `<span style="color:${B[k].c}">●</span> ${B[k].n}` : esc(k.replace('_', ' '))} ${v}`).join(' · ')}</p>`; }
+        if(rU.soloPct) h += '<p class="muted" style="font-size:.78rem">Solo porcentajes publicados por la prensa: no se consiguieron los votos.</p>';
+        if(rU.url) h += `<span class="src">Fuente: <a href="${esc(rU.url)}">${esc(String(rU.fuente || 'fuente').split(',')[0])}</a></span>`;
+      }
+      h += `<p class="muted" style="font-size:.78rem">${u ? 'Tocá otra zona o «Volver al país».' : 'Tocá una provincia o departamento para ver el detalle.'}</p></div>`;
+      sideEl.innerHTML = h;
+    }
+  }
+  root.addEventListener('click', e => {
+    const btn = e.target.closest('button[data-v]'); if(!btn || btn.disabled) return;
+    const grp = btn.closest('[data-name],[data-k]'); if(!grp) return;
+    const k = grp.dataset.name || grp.dataset.k;
+    if(k === 'cargo') st.cargo = btn.dataset.v; else if(k === 'foco'){ if(st.votos === 'par') st.part = btn.dataset.v; else st.foco = btn.dataset.v; } else st[k] = btn.dataset.v;
+    if(k === 'cargo') root.querySelectorAll('[data-k="cargo"] button').forEach(b => b.setAttribute('aria-pressed', b === btn));
+    if(k === 'agr') st.foco = null;
+    draw();
+  });
+  draw();
+}
+
+/* =========================================================
+   SECCIÓN 2 · AFINIDADES
+   ========================================================= */
+function initAfinidad(){
+  const cat = p => { const r = rnd('afi' + p)(); return r < .38 ? 'afin' : r < .7 ? 'neutral' : 'opo'; };
+  const CC = { afin:['Afín','#74B9EA'], neutral:['Neutral','#8A97A0'], opo:['Opositora','#E8A05F'] };
+  const sen = p => [0, 1, 2].map(i => { const r = rnd('sen' + p + i); return { n:'Senador/a ' + (i + 1), pct: Math.round(r() * 100) }; });
+  makeMap($('#afi-map'), { level:'prov', fill: u => CC[cat(u.p)][1], zoom:false, onPick: u => {
+    const ss = sen(u.p), prom = ss.reduce((a, s) => a + s.pct, 0) / 3;
+    $('#afi-side').innerHTML = `<div class="panel2"><span class="eyebrow">Votos alineados con el gobierno · desde dic. 2025</span><h3>${esc(u.n)} <span class="chip">${CC[cat(u.p)][0]}</span></h3>
+      ${rows(ss.map(s => ({ n:s.n, v:s.pct, c:'#74B9EA', max:100 })))}<p class="muted" style="font-size:.84rem">Promedio provincial: ${fmt(prom, 0)} %. Regla: 2/3 o más = afín; 1/3 o menos = opositora; entre ambos = neutral. Abstención = medio voto; ausencias no cuentan.</p></div>`; } });
+  const tr = p => rnd('tr' + p)() * 9;
+  makeMap($('#tr-map'), { level:'prov', fill: u => SEQB(tr(u.p) / 9), zoom:false, onPick: u => {
+    $('#tr-side').innerHTML = `<div class="panel2"><span class="eyebrow">Últimos 12 meses</span><h3>${esc(u.n)}</h3>
+      <div class="kpis"><div class="kpi"><span class="l">Discrecionales / presupuesto provincial</span><span class="v">${fmt(tr(u.p))}<small>%</small></span></div>
+      <div class="kpi"><span class="l">Monto por habitante</span><span class="v">$ —</span></div></div>
+      <p class="muted" style="font-size:.84rem">Transferencias no automáticas + ATN, divididas por el presupuesto total de la provincia.</p></div>`; } });
+}
+
+/* =========================================================
+   SECCIÓN 3 · VOTACIONES (datos reales donde hay fuente)
+   ========================================================= */
+const IMPULSOR = { gobierno:'Impulsadas por el gobierno', dnu:'Decretos (DNU) que el Congreso debía validar', oposicion:'Impulsadas por la oposición', otros:'Impulsadas por otros bloques', pliego:'Pliegos judiciales (los envía el Ejecutivo · solo vota el Senado)' };
+function hemi(v, total){ // semicírculo de bancas: afirmativos, negativos, abstenciones, ausentes
+  const [a, n] = v, ab = v[2] ?? 0, aus = Math.max(0, total - a - n - ab);
+  const seats = [...Array(a).fill('#5BC08A'), ...Array(n).fill('#F0675F'), ...Array(ab).fill('#F0A93A'), ...Array(aus).fill('#33444F')];
+  const rowsN = total > 100 ? 8 : 5, R0 = 40, R1 = 100; let pos = [];
+  const per = []; let sum = 0; for(let r = 0; r < rowsN; r++){ const rad = R0 + (R1 - R0) * r / (rowsN - 1); per.push(rad); sum += rad; }
+  per.forEach(rad => { const k = Math.round(total * rad / sum); for(let i = 0; i < k; i++){ const t = Math.PI * (1 - (i + .5) / k); pos.push([rad, t]); } });
+  pos = pos.slice(0, total).sort((x, y) => y[1] - x[1]);
+  const rr = total > 100 ? 3 : 4.6;
+  return `<svg viewBox="-110 -108 220 116" role="img" aria-label="Bancas">${pos.map(([rad, t], i) => `<circle cx="${(rad * Math.cos(t)).toFixed(1)}" cy="${(-rad * Math.sin(t)).toFixed(1)}" r="${rr}" fill="${seats[i] || '#33444F'}"/>`).join('')}</svg>`;
+}
+const fecha = s => { if(!s) return ''; const [y, m, d] = String(s).slice(0, 10).split('-'); return d ? `${d}/${m}/${y}` : s; };
+function initVotaciones(){
+  const V = DATA.votaciones; const selEl = $('#ley');
+  if(!V){ $('#vot-out').innerHTML = '<p class="muted">Dato pendiente de carga.</p>'; return; }
+  const grupos = {}; V.items.forEach((it, i) => { const g = it.dnu ? 'dnu' : it.impulsor; (grupos[g] = grupos[g] || []).push(i); });
+  selEl.innerHTML = Object.keys(IMPULSOR).filter(g => grupos[g]).map(g => `<optgroup label="${esc(IMPULSOR[g])}">${grupos[g].map(i => `<option value="${i}">${esc(V.items[i].nombre)}</option>`).join('')}</optgroup>`).join('');
+  const ref = V.items.findIndex(x => x.id === 'reforma-laboral-2026'); if(ref >= 0) selEl.value = String(ref);
+  const card = (x, it) => {
+    const total = x.camara === 'Senado' ? 72 : 257, has = x.afirmativos != null && x.negativos != null;
+    const res = String(x.resultado || '');
+    const cls = !has ? 'nd' : /rechaz|no alcanz|firme|no prosper/i.test(res) ? 'no' : 'si';
+    const v = has ? [x.afirmativos, x.negativos, x.abstenciones] : null;
+    return `<div class="panel2"><span class="eyebrow">${esc(x.camara)} · ${esc(x.etapa)} · ${fecha(x.fecha)}</span><span class="res ${cls}" style="font-size:.95rem;line-height:1.25">${esc(res || 'Sin votación')}</span>
+      ${has ? `<div class="hemi">${hemi(v, total)}</div><div class="legend"><span><i style="background:#5BC08A"></i>${it.dnu ? 'Por la validez' : 'Afirmativos'} ${v[0]}</span><span><i style="background:#F0675F"></i>${it.dnu ? 'Por el rechazo' : 'Negativos'} ${v[1]}</span><span><i style="background:#F0A93A"></i>Abstenciones ${v[2] ?? '—'}</span><span><i style="background:#33444F"></i>Ausentes ${x.ausentes ?? (v[2] == null ? '—' : total - v[0] - v[1] - v[2])}</span></div>` : ''}
+      ${(x.fuentes || []).length ? `<span class="src">Fuente: ${x.fuentes.map(f => `<a href="${esc(f.url)}">${esc(f.medio)}</a>`).join(' · ')}</span>` : ''}</div>`;
+  };
+  const draw = () => { const it = V.items[+selEl.value];
+    const vs = (it.votaciones || []);
+    $('#vot-out').innerHTML = `<div class="crow"><span class="chip acc">${esc(IMPULSOR[it.dnu ? 'dnu' : it.impulsor])}</span>${it.impulsor_detalle ? `<span class="muted" style="font-size:.86rem">${esc(it.impulsor_detalle)}</span>` : ''}</div>
+      ${it.estado ? `<p><strong>Estado:</strong> ${esc(it.estado)}</p>` : ''}
+      ${vs.length ? `<div class="vote">${vs.map(x => card(x, it)).join('')}</div>` : '<p class="muted">Todavía no hubo votación en el recinto.</p>'}
+      ${it.nota && !/index\.html/.test(it.nota) ? `<p class="note">${esc(it.nota)}</p>` : ''}
+      ${it.dnu ? '<p class="note w">Regla de los DNU: un decreto solo cae si lo rechazan las dos cámaras. Si una cámara lo valida, o no lo vota, sigue vigente.</p>' : ''}`;
+  };
+  selEl.addEventListener('change', draw); draw();
+}
+
+/* =========================================================
+   SECCIÓN 4 · CONFLICTIVIDAD
+   ========================================================= */
+const CATS = [
+  ['paro','Paros sindicales','#F0A93A'], ['toma','Tomas de empresas','#C08A5A'], ['pol','Conflictos policiales','#5BA4E6'],
+  ['mil','Conflictos militares','#2E7BC4'], ['mpac','Manifestaciones pacíficas','#5BC08A'], ['mvio','Manifestaciones con violencia','#F0675F'],
+  ['aten','Atentados e intentos de asesinato','#E05AA0'], ['carc','Motines en cárceles y comisarías','#A98BE8'], ['saq','Saqueos','#E8E05A']
+];
+const TRAMOS = [[100, 2.2, '< 100'], [1000, 3.4, '100 – 1.000'], [10000, 5, '1.000 – 10.000'], [100000, 7, '10.000 – 100.000'], [1e9, 9.5, '> 100.000']];
+function initConflict(){
+  const ev = []; const r = rnd('conf');
+  GEO.ciudades.forEach((c, i) => { const n = 1 + Math.floor(r() * 3); for(let k = 0; k < n; k++){
+    const cat = CATS[Math.floor(r() * (r() < .7 ? 5 : CATS.length))]; const per = Math.round(Math.pow(10, 1 + r() * 4.6));
+    const dias = Math.floor(r() * 365);
+    ev.push({ x:c.x + (r() - .5) * 6, y:c.y + (r() - .5) * 6, p:c.p, lugar:c.n, cat, per, dias, det: r() < .4 ? Math.floor(r() * 40) : 0, proc: r() < .25 ? Math.floor(r() * 12) : 0, muertos: r() < .04 ? 1 : 0, danos: ['Sin daños','Menores','Importantes','Graves'][Math.floor(Math.pow(r(), 2) * 4)] }); } });
+  const st = { cats:new Set(CATS.map(c => c[0])), per:365 };
+  $('#cf-ctrl').innerHTML = `<div class="crow"><span class="clab">Período</span>${seg('per', [['30','Último mes'],['90','3 meses'],['365','12 meses']], '365')}</div>
+    <div class="crow"><span class="clab">Categorías</span><div class="pills" data-name="cat">${CATS.map(c => `<button type="button" data-v="${c[0]}" aria-pressed="true"><i style="background:${c[2]}"></i>${c[1]}</button>`).join('')}</div></div>`;
+  const draw = () => {
+    const vis = ev.filter(e => st.cats.has(e.cat[0]) && e.dias < st.per);
+    const pts = vis.map(e => ({ x:e.x, y:e.y, r:TRAMOS.find(t => e.per < t[0])[1], c:e.cat[2], ring:e.muertos > 0, t:e.cat[1] + ' · ' + e.lugar, e }));
+    makeMap($('#cf-map'), { level:'prov', fill: () => '#1A2832', points:pts, zoom:true, onPick: u => {
+      if(u.point){ const e = u.point.e; $('#cf-side').innerHTML = `<div class="panel2"><span class="eyebrow">Hace ${e.dias} días · ${esc(nameProv(e.p))}</span><h3>${esc(e.cat[1])} · ${esc(e.lugar)}</h3>
+        <div class="kpis"><div class="kpi"><span class="l">Personas</span><span class="v">${e.per.toLocaleString('es-AR')}</span><span class="d">rango organizadores / policía</span></div>
+        <div class="kpi"><span class="l">Detenidos</span><span class="v">${e.det}</span></div><div class="kpi"><span class="l">Con proceso judicial</span><span class="v">${e.proc}</span></div>
+        <div class="kpi"><span class="l">Muertos</span><span class="v">${e.muertos}</span></div><div class="kpi"><span class="l">Daños materiales</span><span class="v" style="font-size:1.05rem">${e.danos}</span></div></div>
+        <span class="src">Fuente: dos medios por hecho (a cargar)</span></div>`; return; }
+      const enP = vis.filter(e => e.p === u.p);
+      $('#cf-side').innerHTML = `<div class="panel2"><span class="eyebrow">Provincia</span><h3>${esc(u.n)}</h3>${rows(CATS.map(c => ({ n:c[1], v: enP.filter(e => e.cat[0] === c[0]).length, c:c[2], max: Math.max(3, enP.length), d:0, u:'' })).filter(x => x.v), false)}
+        <p class="muted" style="font-size:.8rem">${enP.length} hechos en el período. Tocá un punto para ver la ficha.</p></div>`; } });
+    $('#cf-kpi').innerHTML = [['Hechos', vis.length], ['Personas involucradas', vis.reduce((a, e) => a + e.per, 0)], ['Detenidos', vis.reduce((a, e) => a + e.det, 0)], ['Con proceso judicial', vis.reduce((a, e) => a + e.proc, 0)], ['Muertos', vis.reduce((a, e) => a + e.muertos, 0)]]
+      .map(([l, v]) => `<div class="kpi"><span class="l">${l}</span><span class="v">${v.toLocaleString('es-AR')}</span></div>`).join('');
+  };
+  $('#cf-ctrl').addEventListener('click', e => { const b = e.target.closest('button[data-v]'); if(!b) return; const g = b.closest('[data-name]').dataset.name;
+    if(g === 'per'){ st.per = +b.dataset.v; b.parentNode.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); }
+    else { const on = b.getAttribute('aria-pressed') === 'true'; b.setAttribute('aria-pressed', !on); on ? st.cats.delete(b.dataset.v) : st.cats.add(b.dataset.v); }
+    draw(); });
+  $('#cf-leg').innerHTML = TRAMOS.map(t => `<span><svg width="${t[1] * 2 + 2}" height="${t[1] * 2 + 2}"><circle cx="${t[1] + 1}" cy="${t[1] + 1}" r="${t[1]}" fill="#8FA1AC"/></svg>${t[2]} personas</span>`).join('') + '<span><svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="#8FA1AC" stroke="#fff" stroke-width="1.6"/></svg>hubo muertos</span>';
+  draw();
+}
+
+/* =========================================================
+   Gráficos simples (SVG)
+   ========================================================= */
+function lineChart(series, labels, o = {}){
+  const W = 640, H = 230, L = 34, Rr = 10, T = 12, Bm = 26, ymin = o.min ?? 0, ymax = o.max ?? 100;
+  const x = i => L + (W - L - Rr) * i / (labels.length - 1), y = v => T + (H - T - Bm) * (1 - (v - ymin) / (ymax - ymin));
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.t || 'Gráfico')}">`;
+  for(let g = 0; g <= 4; g++){ const v = ymin + (ymax - ymin) * g / 4; s += `<line x1="${L}" x2="${W - Rr}" y1="${y(v)}" y2="${y(v)}" stroke="#22333E"/><text x="${L - 6}" y="${y(v) + 3}" text-anchor="end">${fmt(v, 0)}</text>`; }
+  labels.forEach((l, i) => { if(i % Math.ceil(labels.length / 8) === 0) s += `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${esc(l)}</text>`; });
+  series.forEach(sr => { if(sr.dots) sr.dots.forEach(d => s += `<circle cx="${x(d[0])}" cy="${y(d[1])}" r="2.2" fill="${sr.c}" fill-opacity=".45"/>`);
+    s += `<path d="${sr.v.map((v, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(v).toFixed(1)).join('')}" fill="none" stroke="${sr.c}" stroke-width="2.4"/>`; });
+  return s + '</svg>';
+}
+function barChart(groups, labels, colors, o = {}){
+  const W = 640, H = 220, L = 30, T = 10, Bm = 26, n = labels.length, max = o.max || Math.max(...labels.map((_, i) => groups.reduce((a, g) => a + g[i], 0))) * 1.1;
+  const bw = (W - L - 10) / n; let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.t || 'Barras')}">`;
+  for(let g = 0; g <= 4; g++){ const v = max * g / 4, yy = T + (H - T - Bm) * (1 - g / 4); s += `<line x1="${L}" x2="${W - 10}" y1="${yy}" y2="${yy}" stroke="#22333E"/><text x="${L - 5}" y="${yy + 3}" text-anchor="end">${fmt(v, 0)}</text>`; }
+  labels.forEach((l, i) => { let acc = 0; groups.forEach((g, k) => { const h = (H - T - Bm) * g[i] / max; s += `<rect x="${L + i * bw + bw * .18}" y="${H - Bm - (acc + h)}" width="${bw * .64}" height="${h}" fill="${colors[k]}" rx="1"/>`; acc += h; });
+    if(i % Math.ceil(n / 12) === 0) s += `<text x="${L + i * bw + bw / 2}" y="${H - 8}" text-anchor="middle">${esc(l)}</text>`; });
+  return s + '</svg>';
+}
+const MESES = (desde, n) => Array.from({ length:n }, (_, i) => { const d = new Date(desde[0], desde[1] - 1 + i, 1); return ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'][d.getMonth()] + ' ' + String(d.getFullYear()).slice(2); });
+
+/* =========================================================
+   SECCIONES 5 a 10
+   ========================================================= */
+function initResto(){
+  // 5 · Opinión pública
+  const L12 = MESES([2025, 11], 12), r = rnd('op');
+  const walk = (b, a) => { let v = b; return L12.map(() => v = Math.max(20, Math.min(70, v + (r() - .5) * a))); };
+  const ap = walk(42, 5), des = ap.map(v => 100 - v - 6);
+  $('#op-ap').innerHTML = lineChart([{ v:ap, c:'#74B9EA', dots:ap.flatMap((v, i) => [[i, v + (r() - .5) * 8], [i, v + (r() - .5) * 8]]) }, { v:des, c:'#E8A05F', dots:des.map((v, i) => [i, v + (r() - .5) * 8]) }], L12, { t:'Aprobación del gobierno', min:20, max:70 });
+  $('#op-im').innerHTML = rows(['Dirigente A','Dirigente B','Dirigente C','Dirigente D','Dirigente E','Dirigente F'].map(n => { const v = 25 + r() * 25; return { n, v, c:'#74B9EA', max:60 }; }));
+  $('#op-pre').innerHTML = rows(['Inflación y precios','Salarios e ingresos','Desempleo','Inseguridad','Corrupción','Pobreza','Educación','Salud'].map(n => ({ n, v: 5 + r() * 40, c:'#E8A05F', max:50 })));
+  $('#op-co').innerHTML = rows(['Fuerzas Armadas','Universidades','Iglesia','Medios','Justicia','Congreso','Sindicatos','Partidos políticos'].map(n => ({ n, v: 10 + r() * 55, c:'#9B7BE8', max:70 })));
+  // 6 · Ejecutivo vs Congreso
+  const M = MESES([2023, 12], 35), r6 = rnd('ej');
+  const dnu = M.map(() => Math.round(r6() * 6)), val = M.map(() => r6() < .1 ? 1 : 0), vet = M.map(() => r6() < .25 ? Math.round(1 + r6() * 2) : 0), ins = M.map(() => r6() < .08 ? 1 : 0), rec = M.map(() => r6() < .05 ? 1 : 0);
+  $('#ej-bars').innerHTML = barChart([dnu, val, rec, vet, ins], M, ['#74B9EA', '#5BC08A', '#E05AA0', '#F0A93A', '#F0675F'], { t:'DNU firmados, validados y rechazados, vetos e insistencias por mes' });
+  $('#ej-tab').innerHTML = `<table><thead><tr><th>Presidencia</th><th class="n">DNU firmados por año</th><th class="n">Vetos por año</th><th class="n">Insistencias</th><th class="n">DNU rechazados</th></tr></thead><tbody>${['Milei (2023–)','Fernández (2019–2023)','Macri (2015–2019)','Fernández de Kirchner (2011–2015)'].map(p => `<tr><td>${p}</td><td class="n">—</td><td class="n">—</td><td class="n">—</td><td class="n">—</td></tr>`).join('')}</tbody></table>`;
+  // 7 · Gobernabilidad
+  const r7 = rnd('go');
+  $('#go-kpi').innerHTML = [['Fracturas abiertas', '—'], ['Cambios de gabinete desde dic. 2023', '—'], ['Ministros que dejaron el cargo', '—'], ['Bloques aliados en el Congreso', '—']]
+    .map(([l, v]) => `<div class="kpi"><span class="l">${l}</span><span class="v">${v}</span></div>`).join('');
+  const EST = [['Alineado','#5BC08A'], ['Tensión','#F0A93A'], ['Ruptura','#F0675F']];
+  $('#go-rel').innerHTML = `<div class="rows">${['Vicepresidenta','Gabinete','Interna de La Libertad Avanza','PRO','UCR','Gobernadores aliados','Gobernadores opositores','CGT y sindicatos'].map(a => `<div class="row" style="grid-template-columns:minmax(120px,1.4fr) 2fr"><span>${a}</span><span><span class="chip">Alineado · Tensión · Ruptura</span> <span class="muted" style="font-size:.8rem">último hecho: —</span></span></div>`).join('')}</div>`;
+  $('#go-tl').innerHTML = `<table><thead><tr><th>Fecha</th><th>Actores</th><th>Tipo</th><th>Gravedad</th><th>Estado</th><th>Qué pasó</th></tr></thead><tbody>${[1, 2, 3, 4].map(() => `<tr><td>—</td><td>—</td><td><span class="chip">Gabinete · Partido · Aliados · Gobernadores</span></td><td><span style="color:var(--warn)">●●○</span></td><td><span class="chip">Abierta / cerrada</span></td><td class="muted">—</td></tr>`).join('')}</tbody></table>`;
+  // 8 · Institucionalidad
+  $('#ju-kpi').innerHTML = [['Cargos judiciales vacantes', '—', '%', 'Consejo de la Magistratura'], ['Integrantes de la Corte', '—', 'de 5', 'CSJN'], ['Pliegos enviados', '—', '', 'Senado'], ['Pliegos aprobados', '—', '', 'Senado'], ['Pliegos rechazados', '—', '', 'Senado'], ['Designaciones por decreto', '—', '', 'Boletín Oficial'], ['Procurador General', '—', '', 'interino / titular']]
+    .map(([l, v, u, s]) => `<div class="kpi"><span class="l">${l}</span><span class="v">${v}<small>${u}</small></span><span class="d">${s}</span></div>`).join('');
+  $('#in-tab').innerHTML = `<table><thead><tr><th>Norma o fallo</th><th>Qué establece</th><th>Qué hizo el gobierno</th><th>Estado</th><th>Fuente</th></tr></thead><tbody>${[['Ley promulgada por insistencia del Congreso'], ['Fallo judicial firme'], ['Plazo legal']].map(([t]) => `<tr><td>${t}: —</td><td class="muted">—</td><td class="muted">—</td><td><span class="chip">Vigente · Suspendida · Cumplida</span></td><td class="muted">—</td></tr>`).join('')}</tbody></table>`;
+  $('#ju-tab').innerHTML = `<table><thead><tr><th>Caso</th><th>Funcionarios involucrados</th><th>Etapa judicial</th><th>Estado</th><th>Respuesta oficial</th><th>Última novedad</th></tr></thead><tbody>${[[1, 'En trámite'], [2, 'En trámite'], [0, 'Desestimada y archivada'], [1, 'Sobreseimiento']].map(([k, est]) => `<tr><td>—</td><td>—</td><td><span style="display:inline-flex;gap:3px">${ETAPAS.map((e, i) => `<i title="${e}" style="width:16px;height:8px;border-radius:2px;background:${i <= k ? ETC[i] : 'var(--line)'}"></i>`).join('')}</span></td><td><span class="chip${est === 'En trámite' ? '' : ' ok'}">${est}</span></td><td class="muted">—</td><td class="muted">—</td></tr>`).join('')}</tbody></table>`;
+  $('#tr-kpi').innerHTML = [['Pedidos de acceso a la información sin respuesta o denegados', '—', '%'], ['Decretos y resoluciones reservados o secretos', '—', ''], ['Informes del Jefe de Gabinete al Congreso no presentados', '—', ''], ['Estadísticas o bases públicas discontinuadas', '—', '']]
+    .map(([l, v, u]) => `<div class="kpi"><span class="l">${l}</span><span class="v">${v}<small>${u}</small></span></div>`).join('');
+  $('#tr-tab').innerHTML = `<table><thead><tr><th>Fecha</th><th>Hecho</th><th>Tipo</th><th>Qué establece la norma</th><th>Fuente</th></tr></thead><tbody>${[1, 2, 3].map(() => `<tr><td>—</td><td>—</td><td><span class="chip">Acceso a la información · Secreto · Datos públicos · Prensa · Gastos reservados</span></td><td class="muted">—</td><td class="muted">—</td></tr>`).join('')}</tbody></table>`;
+  // 9 · Homicidios
+  const hom = p => .8 + rnd('hom' + p)() * 9, homV = p => (rnd('homv' + p)() - .5) * 3;
+  makeMap($('#ho-map'), { level:'prov', fill: u => SEQ(hom(u.p) / 10), zoom:false, onPick: u => {
+    $('#ho-side').innerHTML = `<div class="panel2"><span class="eyebrow">Último año disponible</span><h3>${esc(u.n)}</h3><div class="kpis"><div class="kpi"><span class="l">Homicidios dolosos cada 100.000 hab.</span><span class="v">${fmt(hom(u.p))}</span></div>
+      <div class="kpi"><span class="l">Variación contra el año anterior</span><span class="v" style="color:${homV(u.p) > 0 ? 'var(--crit)' : 'var(--ok)'}">${homV(u.p) > 0 ? '+' : ''}${fmt(homV(u.p))}</span></div></div></div>`; } });
+  // 10 · Prensa
+  const M9 = MESES([2025, 11], 12), r9 = rnd('pr');
+  const tipos = [['Física','#F0675F'], ['Amenaza','#F0A93A'], ['Judicial','#74B9EA'], ['Discursiva','#9B7BE8']];
+  $('#pr-bars').innerHTML = barChart(tipos.map(() => M9.map(() => Math.round(r9() * 6))), M9, tipos.map(t => t[1]), { t:'Agresiones a periodistas por mes' });
+  $('#pr-leg').innerHTML = tipos.map(t => `<span><i style="background:${t[1]}"></i>${t[0]}</span>`).join('');
+  $('#pr-autor').innerHTML = rows([['Funcionarios públicos', '#9B7BE8'], ['Fuerzas de seguridad', '#74B9EA'], ['Particulares', '#8A97A0'], ['Sin identificar', '#56697A']].map(([n, c]) => ({ n, v: 5 + r9() * 40, c, max:60 })));
+  // 11 · Calendario
+  initCalendario();
+}
+/* =========================================================
+   Secciones conectadas a datos reales
+   ========================================================= */
+const srcLinks = fs => (fs || []).map((f, i) => typeof f === 'string' ? `<a href="${esc(f)}">[${i + 1}]</a>` : `<a href="${esc(f.url)}">${esc(f.medio || 'fuente')}</a>`).join(' · ');
+const MES = m => { const [y, mm] = m.split('-'); return ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'][+mm - 1] + ' ' + y.slice(2); };
+
+function initEjecutivo(){
+  const E = DATA.ejecutivo; if(!E) return;
+  const S = E.serie_mensual.filter(x => x.dnu_firmados != null), M = S.map(x => MES(x.mes));
+  const sum = (x, ks) => ks.reduce((a, k) => a + (x[k] || 0), 0);
+  $('#ej-bars').innerHTML = barChart([S.map(x => x.dnu_firmados || 0), S.map(x => sum(x, ['dnu_validados_dip','dnu_validados_sen'])), S.map(x => sum(x, ['dnu_rechazados_dip','dnu_rechazados_sen'])), S.map(x => sum(x, ['vetos_total','vetos_parcial'])), S.map(x => x.insistencias_completadas || 0)],
+    M, ['#74B9EA', '#5BC08A', '#E05AA0', '#F0A93A', '#F0675F'], { t:'DNU firmados, votaciones del Congreso sobre DNU, vetos e insistencias por mes' });
+  $('#ej-leg').innerHTML = '<span><i style="background:#74B9EA"></i>DNU firmados por el Ejecutivo</span><span><i style="background:#5BC08A"></i>DNU validados por una cámara</span><span><i style="background:#E05AA0"></i>DNU rechazados por una cámara</span><span><i style="background:#F0A93A"></i>Vetos</span><span><i style="background:#F0675F"></i>Insistencias completadas (leyes que el Congreso impuso con 2/3)</span>';
+  const A = [2023, 2024, 2025, 2026].map(y => ({ periodo: y === 2023 ? '2023 (desde 10/12)' : y === 2026 ? '2026 (ene–sep)' : String(y), dnu: S.filter(x => x.mes.startsWith(y)).reduce((a, x) => a + (x.dnu_firmados || 0), 0), fuente:{ medio:'Infoleg · Universidad Austral' } }));
+  $('#ej-anual').innerHTML = rows(A.map(x => ({ n:x.periodo, v:x.dnu, c:'#74B9EA', max: Math.max(...A.map(y => y.dnu || 0)) * 1.1, d:0, u:'' })))
+    + `<span class="src">Fuente: ${[...new Set(A.map(x => x.fuente && x.fuente.medio).filter(Boolean))].join(' · ')}</span>`;
+  $('#ej-nota').textContent = 'DNU firmados: base Infoleg (Ministerio de Justicia), con el texto de cada decreto verificado; ' + E.dnu_lista.length + ' DNU desde el 10/12/2023. Datos hasta septiembre de 2026. En las votaciones del Congreso, un mes en cero significa que no se encontró ningún hecho; para 2026 no se encontraron vetos, pero no hay una fuente que confirme que no hubo.';
+  const C = E.comparacion_presidencias || [], cell = o => o ? esc(o.valor ?? '—') : '—';
+  $('#ej-tab').innerHTML = `<table><thead><tr><th>Presidencia</th><th>DNU firmados</th><th>Vetos</th><th>Insistencias</th><th>DNU rechazados</th></tr></thead><tbody>${C.map(p => `<tr><td>${esc(p.presidencia)}</td><td>${cell(p.dnu_por_anio)}</td><td>${cell(p.vetos_por_anio)}</td><td>${cell(p.insistencias)}</td><td>${cell(p.dnu_rechazados)}</td></tr>`).join('')}</tbody></table>
+    <span class="src">Fuente: Chequeado · Universidad Austral (ODCL) · ACIJ · Dirección de Información Parlamentaria de Diputados</span>`;
+}
+
+function initJusticia(){
+  const J = DATA.justicia; if(!J) return;
+  const v = J.vacantes.ultimo, c = J.corte_suprema, p = J.procurador_general, pl = J.pliegos.resumen;
+  const k = (l, val, u, d) => `<div class="kpi"><span class="l">${l}</span><span class="v">${val}<small>${u}</small></span><span class="d">${d}</span></div>`;
+  $('#ju-kpi').innerHTML = k('Cargos judiciales vacantes', v.cantidad, ` de ${v.total_cargos}`, `${fmt(v.pct)} % · ${fecha(v.fecha)}`)
+    + k('Integrantes de la Corte Suprema', c.integrantes, ` de ${c.de}`, c.nombres.join(', '))
+    + k('Pliegos enviados en 2026', pl.enviados_2026_al_03_09, '', 'al 03/09/2026')
+    + k('Pliegos aprobados por el Senado en 2026', 170, '', 'suma de las sesiones del 04/06 (74), 16/07 (29) y 27/08 (67); la prensa informó 129 al 27/08')
+    + k('Pliegos rechazados desde dic. 2023', pl.rechazados_senado_desde_2023_12, '', 'Lijo y García-Mansilla (Corte)')
+    + k('Procurador General', p.nombre, '', p.estado);
+}
+
+function initHomicidios(){
+  const H = DATA.homicidios; if(!H) return;
+  const dat = id => { const x = H.provincias[id] || {}; const a = x['2025'] || {}, b = x['2024'] || {};
+    return { t: a.tasa ?? b.tasa ?? null, anio: a.tasa != null ? '2025' : b.tasa != null ? '2024' : null, t25:a.tasa, t24:b.tasa, var:x.var_pct_victimas_o_tasa, nota:x.nota, f:[...(a.fuentes || []), ...(b.fuentes || [])] }; };
+  makeMap($('#ho-map'), { level:'prov', tag:'', fill: u => { const d = dat(u.p); return d.t25 == null ? (d.t24 != null ? 'url(#hatch)' : null) : SEQ(d.t25 / 9); }, zoom:false, onPick: u => { const d = dat(u.p);
+    const vr = d.t25 != null && d.t24 != null ? d.t25 - d.t24 : null;
+    $('#ho-side').innerHTML = `<div class="panel2"><span class="eyebrow">${d.anio ? 'Año ' + d.anio : 'Sin dato'}</span><h3>${esc(u.n)}</h3><div class="kpis">
+      <div class="kpi"><span class="l">Homicidios dolosos cada 100.000 hab.</span><span class="v">${fmt(d.t)}</span><span class="d">${d.anio === '2024' ? 'no hay dato 2025: se muestra 2024' : ''}</span></div>
+      <div class="kpi"><span class="l">Cambio contra el año anterior</span><span class="v">${vr != null ? (vr > 0 ? '+' : '') + fmt(vr) : d.var != null ? (d.var > 0 ? '+' : '') + fmt(d.var, 1) + '<small>%</small>' : '—'}</span><span class="d">${vr != null ? 'puntos de tasa' : d.var != null ? 'variación informada' : ''}</span></div></div>
+      ${d.nota ? `<p class="muted" style="font-size:.82rem">${esc(d.nota)}</p>` : ''}${d.f.length ? `<span class="src">Fuente: ${srcLinks([...new Set(d.f)])}</span>` : ''}</div>`; } });
+  $('#ho-map svg').insertAdjacentHTML('afterbegin', '<defs><pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="4" height="4" fill="#1A2832"/><line x1="0" y1="0" x2="0" y2="4" stroke="#56697480" stroke-width="1.4"/></pattern></defs>');
+  const n = H.nacional;
+  $('#ho-nac').innerHTML = `<div class="kpi"><span class="l">País 2025</span><span class="v">${fmt(n['2025'].tasa)}</span><span class="d">${n['2025'].victimas.toLocaleString('es-AR')} víctimas</span></div><div class="kpi"><span class="l">País 2024</span><span class="v">${fmt(n['2024'].tasa)}</span><span class="d">${n['2024'].victimas.toLocaleString('es-AR')} víctimas</span></div>`;
+}
+
+function initPrensa(){
+  const P = DATA.prensa; if(!P) return;
+  const a = P.anual['2025'], b = P.anual['2024'];
+  $('#pr-kpi').innerHTML = `<div class="kpi"><span class="l">Agresiones en 2025</span><span class="v">${a.total}</span><span class="d">${a.victimas} víctimas</span></div><div class="kpi"><span class="l">Agresiones en 2024</span><span class="v">${b.total}</span></div>`;
+  const t = a.por_tipo, max = Math.max(t.fisica || 0, t.judicial || 0, t.discursiva || 0, t.otras || 0) * 1.1;
+  $('#pr-bars').innerHTML = rows([['Discurso estigmatizante', t.discursiva, '#9B7BE8'], ['Física', t.fisica, '#F0675F'], ['Judicial', t.judicial, '#74B9EA'], ['Otras (incl. acceso a la información y censura)', t.otras, '#8A97A0']].map(([n, v, c]) => ({ n, v:v || 0, c, max, d:0, u:'' })))
+    + `<span class="src">Fuente: ${srcLinks(a.fuentes)}</span>`;
+  $('#pr-leg').innerHTML = '';
+  const d = a.por_autor.detalle_fopea;
+  $('#pr-autor').innerHTML = rows([['Presidente Javier Milei', d.presidente_milei, '#9B7BE8'], ['Actores paraestatales', d.paraestatal, '#74B9EA'], ['Actores no estatales', d.no_estatal, '#8A97A0'], ['Origen no identificado', d.origen_no_identificado, '#56697A']].map(([n, v, c]) => ({ n, v:v || 0, c, max:130, d:0, u:'' })))
+    + `<p class="muted" style="font-size:.8rem">Categorías de FOPEA. Un caso puede tener más de un autor.</p>`;
+}
+
+function initCalendario(){
+  const K = DATA.calendario, TIPOS = { gob:'Gobernador', leg:'Legislatura provincial', sen:'Senadores nacionales', dip:'Diputados nacionales' };
+  if(!K) return;
+  const N = K.nacional;
+  $('#ca-nac').innerHTML = `<div><span class="eyebrow">PASO</span><b>${N.paso.fecha_legal ? fecha(N.paso.fecha_legal) : 'A definir'}</b><span class="chip warn" style="align-self:flex-start">A confirmar</span><span class="muted" style="font-size:.84rem">${esc(N.paso.det)}</span></div>
+    <div><span class="eyebrow">Generales</span><b>${fecha(N.generales.fecha)}</b><span class="muted" style="font-size:.84rem">${esc(N.generales.det)}</span></div>
+    <div><span class="eyebrow">Balotaje</span><b>${fecha(N.balotaje.fecha)}</b><span class="chip warn" style="align-self:flex-start">A confirmar</span><span class="muted" style="font-size:.84rem">Solo si nadie supera el 45 %, o el 40 % con 10 puntos de ventaja. La fecha la fija el decreto de convocatoria.</span></div>`;
+  const info = (p, t) => (K.provincias[p] || {})[t] || { vota:false, det:'—' };
+  const st = { t:'gob' };
+  $('#ca-menu').innerHTML = seg('t', Object.entries(TIPOS), st.t);
+  const draw = () => makeMap($('#ca-map'), { level:'prov', tag:'', fill: u => info(u.p, st.t).vota ? '#74B9EA' : '#26343E', zoom:true, onPick: u => {
+    $('#ca-side').innerHTML = `<div class="panel2"><span class="eyebrow">Elecciones 2027</span><h3>${esc(u.n)}</h3><dl style="margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 12px;font-size:.9rem">${Object.entries(TIPOS).map(([k, l]) => { const x = info(u.p, k);
+      const fch = x.fecha ? ` · <strong>${fecha(x.fecha)}</strong>` : '';
+      return `<dt class="muted">${l}</dt><dd style="margin:0">${x.vota ? '<span class="chip acc">Vota</span>' : '<span class="chip">No vota</span>'}${fch} ${esc(x.det || '')}${x.estructura ? ` <span class="muted">(${esc(x.estructura)}, renovación ${esc(x.renovacion || '—')})</span>` : ''}</dd>`; }).join('')}</dl>
+      <span class="src">Fuente: Cámara Nacional Electoral · leyes provinciales · prensa (ver datos/calendario/FUENTES.md)</span></div>`; } });
+  $('#ca-menu').addEventListener('click', e => { const b = e.target.closest('button[data-v]'); if(!b) return; st.t = b.dataset.v; b.parentNode.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); draw(); });
+  draw();
+}
+
+/* ---------- Opinión pública ---------- */
+function initOpinion(){
+  const O = DATA.opinion; if(!O) return;
+  const PM = O.promedio_mensual, L = PM.map(x => MES(x.mes)), idx = {}; PM.forEach((x, i) => idx[x.mes] = i);
+  const dots = k => O.encuestas.filter(e => e.en_promedio && e.campo_fin && idx[e.campo_fin.slice(0, 7)] != null && e[k] != null).map(e => [idx[e.campo_fin.slice(0, 7)], e[k]]);
+  $('#op-ap').innerHTML = lineChart([{ v:PM.map(x => x.aprobacion), c:'#74B9EA', dots:dots('aprobacion') }, { v:PM.map(x => x.desaprobacion), c:'#E8A05F', dots:dots('desaprobacion') }], L, { t:'Aprobación del gobierno', min:25, max:70 });
+  const pocos = PM.filter(x => x.n_encuestadoras < 3).map(x => MES(x.mes));
+  $('#op-ap-nota').textContent = `Promedio simple de las encuestas cuyo trabajo de campo terminó en cada mes (${O.encuestas.filter(e => e.en_promedio).length} encuestas con ficha técnica).` + (pocos.length ? ` En ${pocos.join(' y ')} hubo menos de tres encuestadoras: tomar con cautela.` : '');
+  // Imagen: promedio de los últimos 90 días por dirigente
+  const lastF = O.encuestas.map(e => e.campo_fin).filter(Boolean).sort().pop(), lim = new Date(new Date(lastF) - 90 * 864e5).toISOString().slice(0, 10);
+  const im = {}; O.encuestas.filter(e => e.campo_fin && e.campo_fin >= lim).forEach(e => Object.entries(e.imagen_dirigentes || {}).forEach(([n, v]) => { if(v && v.positiva != null){ (im[n] = im[n] || []).push(v.positiva); } }));
+  const imr = Object.entries(im).filter(([, a]) => a.length >= 2).map(([n, a]) => ({ n:`${n} (${a.length})`, v:a.reduce((x, y) => x + y, 0) / a.length, c:'#74B9EA', max:60 })).sort((a, b) => b.v - a.v).slice(0, 10);
+  $('#op-im').innerHTML = rows(imr) + `<p class="muted" style="font-size:.8rem">Imagen positiva promedio de las encuestas de los últimos 90 días (entre paréntesis, cuántas la midieron; solo dirigentes medidos por al menos dos).</p>`;
+  // Preocupaciones: última encuesta con datos
+  const pr = O.encuestas.filter(e => e.campo_fin && Object.keys(e.problemas || {}).length).sort((a, b) => a.campo_fin < b.campo_fin ? 1 : -1)[0];
+  if(pr) $('#op-pre').innerHTML = rows(Object.entries(pr.problemas).sort((a, b) => b[1] - a[1]).slice(0, 9).map(([n, v]) => ({ n, v, c:'#E8A05F', max:50 })))
+    + `<p class="muted" style="font-size:.8rem">% que lo menciona entre los principales problemas. ${esc(pr.encuestadora)}, campo hasta ${fecha(pr.campo_fin)}${pr.n ? ', n = ' + pr.n.toLocaleString('es-AR') : ''}. <a href="${esc(pr.fuente_url)}">Fuente</a></p>`;
+  const ci = (O.confianza_instituciones || [])[0];
+  if(ci) $('#op-co').innerHTML = rows(Object.entries(ci.confianza).filter(([, v]) => v != null).sort((a, b) => b[1] - a[1]).map(([n, v]) => ({ n, v, c:'#9B7BE8', max:70 })))
+    + `<p class="muted" style="font-size:.8rem">${esc(ci.encuestadora)}, campo hasta ${fecha(ci.campo_fin)}. Es la única medición reciente encontrada. <a href="${esc(ci.fuente_url)}">Fuente</a></p>`;
+}
+
+/* ---------- Transferencias (ATN) ---------- */
+function initTransfer(){
+  const T = DATA.transfer; if(!T) return;
+  const st = { m:'tna' };
+  const V = { tna:{ k:'discrecionales_pct_presupuesto', pc:'discrecionales_por_habitante_pesos', t:'Transferencias no automáticas 2025 (incluye ATN)', amt: x => (x.tna || {}).total_12m_millones },
+              atn:{ k:'atn_pct_gasto', pc:'atn_por_habitante_pesos', t:'Solo ATN, últimos 12 meses', amt: x => (x.atn || {}).total_12m_millones } };
+  $('#tr-title').textContent = 'Transferencias discrecionales';
+  $('#tr-ctrl').innerHTML = `<span class="clab">Medida</span>${seg('m', [['tna','No automáticas (2025)'],['atn','Solo ATN (12 meses)']], st.m)}`;
+  const draw = () => { const v = V[st.m];
+    const val = p => ((T.provincias[p] || {}).indicadores || {})[v.k];
+    // La escala excluye a CABA (pagos de coparticipación por fallo de la Corte), que si no aplana al resto
+    const max = Math.max(...Object.keys(T.provincias).filter(p => p !== 'CIUDAD AUTONOMA DE BUENOS AIRES').map(val).filter(x => x != null));
+    $('#tr-leg').innerHTML = `<span>menos <i class="grad" style="background:linear-gradient(90deg,#16232C,#74B9EA)"></i> más · ${esc(v.t)}, como % del gasto provincial 2025</span>`;
+    makeMap($('#tr-map'), { level:'prov', tag:'', zoom:false, fill: u => { const x = val(u.p); return x == null ? null : SEQB(Math.min(1, x / max)); }, onPick: u => {
+      const x = T.provincias[u.p] || {}, i = x.indicadores || {}, a = v.amt(x);
+      $('#tr-side').innerHTML = `<div class="panel2"><span class="eyebrow">${esc(v.t)}</span><h3>${esc(u.n)}</h3><div class="kpis">
+        <div class="kpi"><span class="l">Monto</span><span class="v">${a != null ? '$ ' + Math.round(a).toLocaleString('es-AR') : '—'}<small>millones</small></span></div>
+        <div class="kpi"><span class="l">Como % del gasto provincial</span><span class="v">${i[v.k] != null ? fmt(i[v.k], 2) : '—'}<small>%</small></span></div>
+        <div class="kpi"><span class="l">Por habitante</span><span class="v">${i[v.pc] != null ? '$ ' + Math.round(i[v.pc]).toLocaleString('es-AR') : '—'}</span></div></div>
+        ${st.m === 'tna' && u.p === 'CIUDAD AUTONOMA DE BUENOS AIRES' ? '<p class="muted" style="font-size:.8rem">En CABA casi todo corresponde a pagos de coparticipación ordenados por la Corte: no es discrecional en sentido estricto.</p>' : ''}
+        <span class="src">Fuente: ${st.m === 'tna' ? 'Presupuesto Abierto (Ministerio de Economía)' : 'Politikon Chaco · Ministerio del Interior'} · gasto: Ministerio de Economía · población: Censo 2022</span></div>`; } });
+  };
+  $('#tr-ctrl').addEventListener('click', e => { const b = e.target.closest('button[data-v]'); if(!b) return; st.m = b.dataset.v; b.parentNode.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); draw(); });
+  $('#tr-nota').textContent = 'No automáticas: lo que la Nación pagó en 2025 a cada gobierno provincial sin reparto fijado por ley de coparticipación (corrientes y de capital), con los ATN incluidos. Ojo: también incluye transferencias pactadas por convenio, como las de cajas previsionales. Montos en pesos corrientes; gasto provincial ejecutado 2025 (La Pampa: presupuesto).';
+  draw();
+}
+
+/* ---------- Gobernabilidad ---------- */
+const ESTC = { alineado:'#5BC08A', 'tensión':'#F0A93A', tension:'#F0A93A', ruptura:'#F0675F' };
+function initGobernabilidad(){
+  const G = DATA.gober; if(!G) return;
+  const I = G.indicadores;
+  $('#go-kpi').innerHTML = [['Fracturas abiertas', I.fracturas_abiertas.valor, 'lectura propia'], ['Cambios de gabinete desde dic. 2023', I.cambios_de_gabinete_desde_2023_12.valor, ''], ['Ministros y jefes de Gabinete que dejaron el cargo', I.ministros_y_jefes_de_gabinete_que_dejaron_el_cargo.valor, ''], ['Jefes de Gabinete en la gestión', I.jefes_de_gabinete.valor, (I.jefes_de_gabinete.lista || []).map(x => typeof x === 'string' ? x : x.nombre).join(' · ')]]
+    .map(([l, v, d]) => `<div class="kpi"><span class="l">${l}</span><span class="v">${v ?? '—'}</span><span class="d">${esc(d)}</span></div>`).join('');
+  $('#go-rel').innerHTML = `<div class="rows">${G.relaciones.map(r => { const c = ESTC[r.estado_sugerido] || '#8A97A0'; const u = r.ultimo_hecho || {};
+    return `<div class="row" style="grid-template-columns:minmax(120px,1.1fr) 2.4fr;align-items:start"><span>${esc(r.actor)}</span><span><span class="chip" style="color:${c}">● ${esc(r.estado_sugerido)}</span> <span class="muted" style="font-size:.82rem">${u.fecha ? fecha(u.fecha) + ': ' : ''}${esc(u.hecho || u.texto || '')}</span></span></div>`; }).join('')}</div>`;
+  const ab = G.timeline.filter(t => /^abierta/.test(t.estado)).length;
+  $('#go-lec').innerHTML = `<p class="muted">La lectura semanal se publica con la primera actualización. Mientras tanto, el resumen de los datos: ${G.timeline.length} fracturas o tensiones registradas desde diciembre de 2023, ${ab} siguen abiertas. Los estados y la gravedad son lectura propia, con los criterios publicados en el archivo de datos.</p>`;
+  const T = G.timeline.slice().sort((a, b) => a.fecha < b.fecha ? 1 : -1);
+  $('#go-tl').innerHTML = `<table><thead><tr><th>Fecha</th><th>Actores</th><th>Tipo</th><th>Gravedad</th><th>Estado</th><th>Qué pasó</th></tr></thead><tbody>${T.map(t => `<tr><td style="white-space:nowrap">${fecha(t.fecha)}</td><td>${esc((t.actores || []).join(', '))}</td><td><span class="chip">${esc(t.tipo)}</span></td>
+    <td style="white-space:nowrap;color:${['', '#8FA1AC', '#F0A93A', '#F0675F'][t.gravedad_sugerida] || '#8FA1AC'}" title="${esc(t.criterio || '')}">${'●'.repeat(t.gravedad_sugerida || 0)}${'○'.repeat(3 - (t.gravedad_sugerida || 0))}</td>
+    <td><span class="chip${/^abierta/.test(t.estado) ? ' warn' : ''}">${esc(String(t.estado).split(' ')[0])}</span></td><td>${esc(t.que_paso)} <span class="src">${srcLinks(t.fuentes)}</span></td></tr>`).join('')}</tbody></table>`;
+}
+
+/* ---------- Institucionalidad ---------- */
+function initInstitucional(){
+  const D = DATA.inst || {};
+  if(D.incumplimientos) $('#in-tab').innerHTML = `<table><thead><tr><th>Norma o fallo</th><th>Qué establece</th><th>Qué hizo el gobierno</th><th>Estado</th><th>Posición del gobierno</th></tr></thead><tbody>${D.incumplimientos.items.map(x => `<tr><td>${esc(x.norma_o_fallo)}</td><td class="muted">${esc(x.que_establece)}</td><td>${esc(x.que_hizo_el_gobierno)}${x.ultima_novedad ? `<br><span class="muted" style="font-size:.82rem">Última novedad (${fecha(x.ultima_novedad.fecha)}): ${esc(x.ultima_novedad.hecho || x.ultima_novedad.texto || '')}</span>` : ''}</td>
+    <td><span class="chip warn">${esc(x.estado)}</span></td><td class="muted">${esc(x.posicion_gobierno || '—')} <span class="src">${srcLinks(x.fuentes)}</span></td></tr>`).join('')}</tbody></table>`;
+  if(D.corrupcion) $('#ju-tab').innerHTML = `<table><thead><tr><th>Caso</th><th>Funcionarios involucrados</th><th>Etapa judicial</th><th>Estado</th><th>Respuesta oficial</th><th>Última novedad</th></tr></thead><tbody>${D.corrupcion.casos.map(c => { const k = ETAPAS.findIndex(e => e.toLowerCase() === String(c.etapa_maxima).toLowerCase());
+    const fn = (c.funcionarios || []).map(f => typeof f === 'string' ? f : `${f.nombre}${f.cargo || f.rol ? ' (' + (f.cargo || f.rol) + ')' : ''}`).join('; ');
+    const un = c.ultima_novedad || {};
+    return `<tr><td>${esc(c.caso)}</td><td>${esc(fn)}</td><td><span style="display:inline-flex;gap:3px">${ETAPAS.map((e, i) => `<i title="${e}" style="width:16px;height:8px;border-radius:2px;background:${i <= k ? ETC[i] : 'var(--line)'}"></i>`).join('')}</span><br><span class="muted" style="font-size:.8rem">${esc(c.etapa_maxima)}</span></td>
+      <td><span class="chip${c.estado === 'en trámite' ? '' : c.firme === false ? ' warn' : ' ok'}">${esc(c.estado)}${c.firme === false ? ' · no firme' : ''}</span>${c.estado_nota ? `<br><span class="muted" style="font-size:.78rem">${esc(c.estado_nota)}</span>` : ''}</td><td class="muted">${esc(c.respuesta_oficial || '—')}</td><td>${un.fecha ? fecha(un.fecha) + ': ' : ''}${esc(un.hecho || un.texto || '')} <span class="src">${srcLinks(c.fuentes)}</span></td></tr>`; }).join('')}</tbody></table>`;
+  const T = D.transparencia;
+  if(T){ $('#tr-kpi').innerHTML = T.kpis.map(k => `<div class="kpi"><span class="l">${esc(k.label)}</span><span class="v">${k.valor != null ? fmt(k.valor, Number.isInteger(k.valor) ? 0 : 1) : '—'}<small>${esc(k.unidad || '')}</small></span><span class="d">${esc(k.periodo || k.nota || '')}</span></div>`).join('');
+    $('#tr-tab').innerHTML = `<table><thead><tr><th>Fecha</th><th>Hecho</th><th>Tipo</th><th>Qué establece la norma</th></tr></thead><tbody>${T.hechos.slice().sort((a, b) => a.fecha < b.fecha ? 1 : -1).map(h => `<tr><td style="white-space:nowrap">${esc(h.fecha.length === 7 ? h.fecha.split('-').reverse().join('/') : fecha(h.fecha))}</td><td>${esc(h.hecho)} <span class="src">${srcLinks(h.fuentes)}</span></td><td><span class="chip">${esc(h.tipo)}</span></td><td class="muted">${esc(h.que_establece_la_norma || '—')}</td></tr>`).join('')}</tbody></table>`; }
+  if(D.designaciones){ const kp = D.designaciones.kpis; const el = $('#ju-kpi');
+    el.insertAdjacentHTML('beforeend', `<div class="kpi"><span class="l">Jueces de la Corte designados por decreto</span><span class="v">${kp.designaciones_corte_por_decreto.valor}</span><span class="d">${esc(kp.designaciones_corte_por_decreto.detalle)}</span></div>`);
+    $('#ju-dec').innerHTML = `<table><thead><tr><th>Fecha</th><th>Corte Suprema: decreto 137/2025 y lo que siguió</th></tr></thead><tbody>${D.designaciones.corte_suprema_decreto_137_2025.map(h => `<tr><td style="white-space:nowrap">${fecha(h.fecha)}</td><td>${esc(h.hecho)} <span class="src">${srcLinks(h.fuentes)}</span></td></tr>`).join('')}</tbody></table>
+      <table style="margin-top:12px"><thead><tr><th>Organismo de control</th><th>Qué pasó</th><th>Estado</th></tr></thead><tbody>${D.designaciones.organismos_de_control.map(o => `<tr><td>${esc(o.organismo)}</td><td>${o.fecha ? fecha(o.fecha) + ': ' : ''}${esc(o.hecho)} <span class="src">${srcLinks(o.fuentes)}</span></td><td><span class="chip">${esc(o.estado || '—')}</span></td></tr>`).join('')}</tbody></table>`; }
+}
+
+/* ---------- Afinidad de los senadores (real) ---------- */
+function initSenadores(){
+  const S = DATA.senadores; if(!S) return;
+  const CC = { afin:['Afín','#74B9EA'], neutral:['Neutral','#8A97A0'], opositora:['Opositora','#E8A05F'], opo:['Opositora','#E8A05F'] };
+  const st = { modo:'todas' };
+  $('#afi-ctrl').innerHTML = `<span class="clab">Votaciones</span>${seg('modo', [['todas','Todas'],['disp','Solo las disputadas']], st.modo)}`;
+  const cat = p => { const x = S.provincias[p] || {}; return st.modo === 'todas' ? x.categoria : x.categoria_solo_disputadas; };
+  const draw = () => {
+    makeMap($('#afi-map'), { level:'prov', tag:'', zoom:false, fill: u => (CC[cat(u.p)] || [, null])[1], onPick: u => {
+      const x = S.provincias[u.p] || {}, prom = st.modo === 'todas' ? x.promedio : x.promedio_solo_disputadas;
+      const ss = S.senadores.filter(s => s.provincia === u.p);
+      $('#afi-side').innerHTML = `<div class="panel2"><span class="eyebrow">Votos alineados con el gobierno · ${esc(S.meta.periodo || 'desde dic. 2025')}</span><h3>${esc(u.n)} <span class="chip" style="color:${(CC[cat(u.p)] || [, '#8A97A0'])[1]}">${(CC[cat(u.p)] || ['—'])[0]}</span></h3>
+        ${rows(ss.map(s => ({ n:`${s.nombre.split(',').reverse().join(' ').trim().toLowerCase().replace(/(^|\s)\S/g, m => m.toUpperCase())}${s.fallecido ? ' (murió el ' + fecha(s.fallecido) + ')' : ''} · ${s.bloque.toLowerCase().replace(/(^|\s)\S/g, m => m.toUpperCase())}`, v: st.modo === 'todas' ? s.pct_alineado : s.pct_alineado_solo_disputadas, c:'#74B9EA', max:100 })))}
+        <p class="muted" style="font-size:.84rem">Promedio provincial: ${fmt(prom)} %. Afín: 2/3 o más; opositora: 1/3 o menos; neutral, en el medio. La abstención vale medio voto y las ausencias no cuentan.</p></div>`; } });
+  };
+  $('#afi-ctrl').addEventListener('click', e => { const b = e.target.closest('button[data-v]'); if(!b) return; st.modo = b.dataset.v; b.parentNode.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); draw(); });
+  const nom = S.votaciones.filter(v => v.nominal === 'completa').length, par = S.votaciones.filter(v => v.nominal && v.nominal !== 'completa').length;
+  $('#afi-nota').textContent = `Se computan ${nom} votaciones nominales completas${par ? ` y ${par} parciales (solo para los senadores con voto publicado)` : ''} en las que el gobierno tenía una postura clara (presupuesto, reforma laboral, Mercosur–UE, Glaciares, Penal Juvenil, Propiedad Privada y pliegos). «Solo las disputadas» deja afuera las votaciones casi unánimes, que suben el índice de todos por igual.`;
+  draw();
+}
+
+/* ---------- Conflictividad (real) ---------- */
+function initConflictReal(){
+  const H = DATA.conflict, P = DATA.conflictPts; if(!H || !P) return;
+  const hoy = new Date((H.meta.actualizado || '2026-10-25') + 'T12:00:00');
+  const ev = H.hechos.filter(h => P[h.id]).map(h => ({ ...h, x:P[h.id][0], y:P[h.id][1], cat: CATS.find(c => c[0] === h.categoria) || CATS[4], dias: Math.round((hoy - new Date(h.fecha + 'T12:00:00')) / 864e5) }));
+  const per = h => Math.max(h.personas_max || 0, h.personas_min || 0) || null;
+  // Hechos en el mismo lugar: se abren en espiral para que no se tapen (se ven al acercar)
+  const seen = {}; ev.forEach(e => { const k = e.x + ',' + e.y, i = seen[k] = (seen[k] || 0) + 1; if(i > 1){ const a = i * 2.4, r = .35 * Math.sqrt(i); e.x += r * Math.cos(a); e.y += r * Math.sin(a); } });
+  const st = { cats:new Set(CATS.map(c => c[0])), per:366 };
+  $('#cf-ctrl').innerHTML = `<div class="crow"><span class="clab">Período</span>${seg('per', [['31','Último mes'],['92','3 meses'],['366','12 meses']], '366')}</div>
+    <div class="crow"><span class="clab">Categorías</span><div class="pills" data-name="cat">${CATS.map(c => `<button type="button" data-v="${c[0]}" aria-pressed="true"><i style="background:${c[2]}"></i>${c[1]} (${ev.filter(e => e.categoria === c[0]).length})</button>`).join('')}</div></div>`;
+  const ficha = e => `<div class="panel2"><span class="eyebrow">${fecha(e.fecha)} · ${esc(nameProv(e.provincia))}</span><h3>${esc(e.cat[1])} · ${esc(e.lugar)}</h3><p style="font-size:.92rem">${esc(e.descripcion)}</p>
+    <div class="kpis"><div class="kpi"><span class="l">Personas</span><span class="v" style="font-size:1.15rem">${(() => { const a = e.personas_min, b = e.personas_max; if(a == null && b == null) return '—'; if(a == null || b == null || a === b) return (a ?? b).toLocaleString('es-AR'); return a.toLocaleString('es-AR') + ' – ' + b.toLocaleString('es-AR'); })()}</span><span class="d">según fuente</span></div>
+    <div class="kpi"><span class="l">Detenidos</span><span class="v">${e.detenidos ?? '—'}</span></div><div class="kpi"><span class="l">Con proceso judicial</span><span class="v">${e.procesados ?? '—'}</span></div>
+    <div class="kpi"><span class="l">Heridos</span><span class="v">${e.heridos ?? '—'}</span></div><div class="kpi"><span class="l">Muertos</span><span class="v">${e.muertos ?? '—'}</span></div>
+    <div class="kpi"><span class="l">Daños materiales</span><span class="v" style="font-size:1.05rem">${esc(e.danos ? e.danos.nivel : '—')}</span><span class="d">${esc(e.danos ? e.danos.justificacion || '' : '')}</span></div></div>
+    ${e.nota ? `<p class="muted" style="font-size:.8rem">${esc(e.nota)}</p>` : ''}<span class="src">Fuente: ${srcLinks(e.fuentes)}</span></div>`;
+  const draw = () => {
+    const vis = ev.filter(e => st.cats.has(e.categoria) && e.dias >= 0 && e.dias <= st.per);
+    const pts = vis.map(e => { const n = per(e); return { x:e.x, y:e.y, r: n ? TRAMOS.find(t => n < t[0])[1] : 2.6, c:e.cat[2], ring:(e.muertos || 0) > 0, t:`${fecha(e.fecha)} · ${e.cat[1]} · ${e.lugar}`, e }; });
+    makeMap($('#cf-map'), { level:'prov', tag:'', fill: () => '#1A2832', points:pts, zoom:true, onPick: u => {
+      if(u.point){ $('#cf-side').innerHTML = ficha(u.point.e); return; }
+      const enP = vis.filter(e => e.provincia === u.p).sort((a, b) => a.fecha < b.fecha ? 1 : -1);
+      $('#cf-side').innerHTML = `<div class="panel2"><span class="eyebrow">Provincia · ${enP.length} hechos en el período</span><h3>${esc(u.n)}</h3>
+        ${enP.length ? `<div class="rows">${enP.slice(0, 12).map(e => `<div style="font-size:.86rem;border-top:1px solid var(--line);padding-top:6px"><span style="color:${e.cat[2]}">●</span> <strong>${fecha(e.fecha)}</strong> · ${esc(e.cat[1])} · ${esc(e.lugar)}<br><span class="muted">${esc(e.descripcion)}</span></div>`).join('')}</div>` : '<p class="muted">Sin hechos relevados en el período.</p>'}
+        <p class="muted" style="font-size:.78rem">Tocá un punto para ver la ficha completa.</p></div>`; } });
+    const sum = k => vis.reduce((a, e) => a + (e[k] || 0), 0);
+    $('#cf-kpi').innerHTML = [['Hechos relevados', vis.length], ['Personas (suma de las estimaciones más altas, en general de organizadores)', vis.reduce((a, e) => a + (per(e) || 0), 0)], ['Detenidos', sum('detenidos')], ['Con proceso judicial', sum('procesados')], ['Heridos', sum('heridos')], ['Muertos', sum('muertos')]]
+      .map(([l, v]) => `<div class="kpi"><span class="l">${l}</span><span class="v">${v.toLocaleString('es-AR')}</span></div>`).join('')
+      + (H.piquetes ? `<div class="kpi"><span class="l">Cortes de ruta y piquetes por año</span><span class="v" style="font-size:1rem">${Object.entries(H.piquetes.anual).map(([a, v]) => `${a}: ${v.toLocaleString('es-AR')}`).join(' · ')}</span><span class="d">Diagnóstico Político</span></div>` : '');
+  };
+  $('#cf-ctrl').addEventListener('click', e => { const b = e.target.closest('button[data-v]'); if(!b) return; const g = b.closest('[data-name]').dataset.name;
+    if(g === 'per'){ st.per = +b.dataset.v; b.parentNode.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); }
+    else { const on = b.getAttribute('aria-pressed') === 'true'; b.setAttribute('aria-pressed', !on); on ? st.cats.delete(b.dataset.v) : st.cats.add(b.dataset.v); }
+    draw(); });
+  const dos = ev.filter(e => (e.fuentes || []).length >= 2).length;
+  $('#cf-nota').textContent = `${dos} de los ${ev.length} hechos tienen dos o más fuentes; el resto, una. Hechos significativos relevados en medios entre ${fecha(H.meta.periodo.split(' a ')[0])} y ${fecha(H.meta.periodo.split(' a ')[1])}. El relevamiento es parcial: algunas provincias tienen pocos hechos cargados y se amplía cada semana. Que una categoría tenga pocos hechos no prueba que no haya habido más.`;
+  draw();
+}
+
+
+/* ---------- Postura de los gobernadores ---------- */
+function initGobernadores(){
+  const G = DATA.gobernadores, el = $('#gob-map'); if(!el) return;
+  const CC = { afin:['Afín','#74B9EA'], neutral:['Neutral','#8A97A0'], opositora:['Opositora','#E8A05F'] };
+  if(!G){ makeMap(el, { level:'prov', tag:'Datos en preparación', zoom:false, fill: () => '#1A2832' }); return; }
+  const P = G.provincias || {};
+  makeMap(el, { level:'prov', tag:'', zoom:false, fill: u => (CC[(P[u.p] || {}).categoria] || [, null])[1], onPick: u => { const x = P[u.p] || {};
+    $('#gob-side').innerHTML = `<div class="panel2"><span class="eyebrow">${esc(x.partido || '')}${x.desde ? ' · desde ' + esc(x.desde) : ''}</span><h3>${esc(u.n)}: ${esc(x.gobernador || '—')} <span class="chip" style="color:${(CC[x.categoria] || [, '#8A97A0'])[1]}">${(CC[x.categoria] || ['—'])[0]}</span></h3>
+      <p style="font-size:.9rem">${esc(x.motivo || '')}</p>${x.alianza_2025 ? `<p class="muted" style="font-size:.84rem">Alianza en 2025: ${esc(x.alianza_2025)}</p>` : ''}
+      <div class="rows">${(x.hechos || []).map(h => `<div style="font-size:.85rem;border-top:1px solid var(--line);padding-top:6px"><strong>${fecha(h.fecha)}</strong> · ${esc(h.hecho)} <span class="src">${srcLinks(h.fuentes)}</span></div>`).join('')}</div></div>`; } });
+}
+
+/* ---------- Intendentes (ciudades de más de 100.000 habitantes) ---------- */
+function intShares(e, agr){
+  if(!e || !e.listas || !e.listas.length) return null;
+  const useV = e.listas.every(l => l.votos != null), tot = e.listas.reduce((a, l) => a + (useV ? l.votos : (l.pct || 0)), 0); if(!tot) return null;
+  const s = {}; e.listas.forEach(l => { const f = l.fuerza || 'OTR', k = agr === 'afi' ? ((F[f] || {}).b || 'cen') : f; s[k] = (s[k] || 0) + (useV ? l.votos : l.pct) / tot * 100; });
+  return s;
+}
+function drawIntendente(root, st){
+  const D = DATA.intend, P = DATA.intendPts || {}, C = D.ciudades;
+  const mapEl = root.querySelector('.map'), lg = root.querySelector('.legend'), sideEl = root.querySelector('.side');
+  if(!['pts','dep'].includes(st.nivel)) st.nivel = 'pts';
+  const tot = {}; C.forEach(c => { const s = intShares(c.ultima, 'par'); if(s) Object.entries(s).forEach(([k, v]) => tot[k] = (tot[k] || 0) + v); });
+  const lista = st.agr === 'par' ? Object.entries(tot).sort((a, b) => b[1] - a[1]).map(x => x[0]).slice(0, 8) : ['izq', 'cen', 'der'];
+  if(st.vista === 'var' && (!st.foco || !lista.includes(st.foco))) st.foco = lista[0];
+  root.querySelector('.ctrls').innerHTML = `
+    <div class="crow"><span class="clab">Nivel</span><div class="big" data-name="nivel">
+      <button type="button" data-v="pts" aria-pressed="${st.nivel === 'pts'}">${ICON.pts}Ciudades</button>
+      <button type="button" data-v="dep" aria-pressed="${st.nivel === 'dep'}">${ICON.dep}Partidos y departamentos</button></div></div>
+    <div class="crow"><span class="clab">Agrupación</span>${seg('agr', [['par','Partidos'],['afi','Afinidad (izq. · centro · der.)']], st.agr)}</div>
+    <div class="crow"><span class="clab">Vista</span>${seg('vista', [['res','Resultado última elección'],['var','Tendencia anterior → última']], st.vista)}</div>
+    ${st.vista === 'var' ? `<div class="crow"><span class="clab">Fuerza</span><div class="pills" data-name="foco">${lista.map(k => { const x = FK(st.agr, k); return `<button type="button" data-v="${k}" aria-pressed="${st.foco === k}"><i style="background:${x.c}"></i>${esc(x.n)}</button>`; }).join('')}</div></div>` : ''}`;
+  const colorOf = c => {
+    const s = intShares(c.ultima, st.agr); if(!s) return null;
+    if(st.vista === 'res'){ const o = Object.entries(s).sort((x, y) => y[1] - x[1]); const marg = o[0][1] - (o[1] ? o[1][1] : 0); return mix(FK(st.agr, o[0][0]).c, .35 + .65 * Math.min(1, marg / 30)); }
+    const a = intShares(c.anterior, st.agr); if(!a) return 'url(#hatch)';
+    const pk = st.agr === 'afi' ? st.foco : (a[st.foco] != null ? st.foco : MISMO[st.foco]);
+    if(pk == null || a[pk] == null) return 'url(#hatch)';
+    return diverge((s[st.foco] || 0) - a[pk], 15);
+  };
+  const byDep = {}; C.forEach(c => { if(c.map_dep_id != null && !c.map_dep_id_aprox) byDep['d' + c.map_dep_id] = c; });
+  const pts = st.nivel === 'pts' ? C.map((c, i) => P[i] ? { x:P[i][0], y:P[i][1], r: 2 + Math.sqrt((c.poblacion || 1e5) / 1e6) * 4.5, c: colorOf(c) || '#33444F', t:c.ciudad, city:c } : null).filter(Boolean) : null;
+  makeMap(mapEl, { level: st.nivel === 'dep' ? 'dep' : 'prov', tag:'', zoom:true, points:pts,
+    fill: st.nivel === 'dep' ? (u => byDep[u.id] ? colorOf(byDep[u.id]) : '#16232C') : (() => '#1A2832'),
+    onPick: u => { const c = u.point ? u.point.city : byDep[u.id]; side(c || null, u); } });
+  mapEl.querySelector('svg').insertAdjacentHTML('afterbegin', '<defs><pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="4" height="4" fill="#1A2832"/><line x1="0" y1="0" x2="0" y2="4" stroke="#56697480" stroke-width="1.4"/></pattern></defs>');
+  lg.innerHTML = st.vista === 'var' ? `<span><i class="grad" style="background:linear-gradient(90deg,#F08A3A,#16232C,#5BA4E6)"></i> tendencia: baja · sube (puntos porcentuales)</span><span><i style="background:repeating-linear-gradient(45deg,#1A2832 0 2px,#566974 2px 3px)"></i>sin elección anterior cargada</span>`
+    : lista.map(k => { const x = FK(st.agr, k); return `<span><i style="background:${x.c}"></i>${esc(x.n)}</span>`; }).join('') + '<span class="muted">· color de quien ganó; tamaño del punto según población</span>';
+  const con = C.filter(c => c.ultima && c.ultima.listas && c.ultima.listas.length).length;
+  root.querySelector('.note').textContent = `${C.length} municipios de más de 100.000 habitantes (sin CABA). ${con} tienen cargada la última elección; el resto figura como pendiente. En «Partidos y departamentos» se pintan solo los municipios que coinciden con un partido o departamento (como los de la provincia de Buenos Aires).`;
+  root.querySelector('[data-src]').innerHTML = 'Fuente: DINE · juntas electorales provinciales · prensa (ver datos/electoral/FUENTES.md)';
+  side(null);
+  function side(c){
+    let h;
+    if(!c){
+      const gan = {}; C.forEach(x => { const g = x.ultima && x.ultima.ganador && x.ultima.ganador.fuerza; if(g){ const k = st.agr === 'afi' ? ((F[g] || {}).b || 'cen') : g; gan[k] = (gan[k] || 0) + 1; } });
+      const n = Object.values(gan).reduce((a, b) => a + b, 0);
+      h = `<div class="panel2"><span class="eyebrow">Resumen · última elección de cada ciudad</span><h3>Intendencias ganadas</h3>${rows(Object.entries(gan).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ n:FK(st.agr, k).n, v, c:FK(st.agr, k).c, max:n, d:0, u:'' })))}<p class="muted" style="font-size:.78rem">Sobre ${n} ciudades con ganador cargado. Tocá una ciudad para ver el detalle.</p></div>`;
+    } else {
+      const e = c.ultima || {}, a = c.anterior || {};
+      const lst = (e.listas || []).slice().sort((x, y) => (y.votos ?? y.pct ?? 0) - (x.votos ?? x.pct ?? 0)), s = intShares(e, 'par') || {};
+      h = `<div class="panel2"><span class="eyebrow">${esc(nameProv(c.provincia))} · ${c.poblacion ? c.poblacion.toLocaleString('es-AR') + ' hab.' : ''}</span><h3>${esc(c.ciudad)}</h3>
+        ${e.anio ? `<p style="font-size:.9rem"><strong>${e.anio}:</strong> ganó ${esc(e.ganador ? (e.ganador.nombre || '—') : '—')} (${esc(e.ganador ? FK('par', e.ganador.fuerza).n : '—')})</p>
+        <div class="rows">${lst.slice(0, 6).map(l => `<div class="row"><span>${esc(l.candidato || FK('par', l.fuerza).n)}<br><span class="muted" style="font-size:.76rem">${esc(FK('par', l.fuerza).n)}</span></span><span class="bar"><i style="width:${Math.min(100, (l.pct ?? 0) / 70 * 100)}%;background:${FK('par', l.fuerza).c}"></i></span><span class="v">${fmt(l.pct)}%</span></div>`).join('')}</div>` : '<p class="muted">Elección pendiente de carga.</p>'}
+        ${a.anio ? `<p class="muted" style="font-size:.84rem">Elección anterior (${a.anio}): ganó ${esc(a.ganador ? (a.ganador.nombre || '—') : '—')} (${esc(a.ganador ? FK('par', a.ganador.fuerza).n : '—')}).</p>` : ''}
+        ${e.url ? `<span class="src">Fuente: <a href="${esc(e.url)}">${esc(e.fuente || 'fuente')}</a></span>` : ''}</div>`;
+    }
+    sideEl.innerHTML = h;
+  }
+}
+
+
+/* ---------- Gobernadores: convierte gobernador.json al formato de los mapas ---------- */
+function loadGobernador(G){
+  if(!G) return; const C = CARGOS.gobernador; C.real = true;
+  const mk = (which, inst) => { const f = { cargo:'gobernador', instancia:inst, recuento:'según cada provincia', fuente:'DINE · Atlas Electoral de Andy Tow · prensa', url:'', provincia:{}, departamento:{}, sinTotal:true, pais:{ fuerzas:{} } };
+    Object.entries(G.provincias).forEach(([p, x]) => { const e0 = x[which]; if(!e0) return; const e = inst === 'PASO' ? e0.paso : e0;
+      if(!e) return; let r = e.totales;
+      if(!r && inst === 'Generales' && e0.pct_prensa) r = { fuerzas: { ...e0.pct_prensa }, soloPct:true };
+      if(!r || !r.fuerzas) return;
+      f.provincia[p] = { ...r, anio:e0.anio, candidatos:e0.candidatos, ganador:e0.ganador, fuente:e0.fuente, url:e0.url, soloPct: !!r.soloPct };
+      const t = Object.values(r.fuerzas).reduce((a, b) => a + b, 0); Object.entries(r.fuerzas).forEach(([k, v]) => f.pais.fuerzas[k] = (f.pais.fuerzas[k] || 0) + v / t);
+      if(inst === 'Generales' && e0.departamento) Object.assign(f.departamento, e0.departamento); });
+    return f; };
+  DATA.elec['gobernador-última elección-generales'] = mk('ultima', 'Generales'); DATA.elec['gobernador-última elección-paso'] = mk('ultima', 'PASO');
+  DATA.elec['gobernador-anterior-generales'] = mk('anterior', 'Generales'); DATA.elec['gobernador-anterior-paso'] = mk('anterior', 'PASO');
+}
+
+
+/* ---------- Legislaturas: convierte legislaturas.json al formato de los mapas ---------- */
+function loadLegislaturas(L){
+  if(!L) return; CARGOS.legislaturas.real = true;
+  const num = o => { const r = {}; Object.entries(o || {}).forEach(([k, v]) => { if(typeof v === 'number') r[k] = v; }); return r; };
+  const mk = which => { const f = { cargo:'legislaturas', instancia:'Generales', recuento:'según cada provincia', fuente:'DINE · prensa', url:'', provincia:{}, departamento:{}, sinTotal:true, pais:{ fuerzas:{} } };
+    Object.entries(L.provincias).forEach(([p, x]) => { const e = x[which]; if(!e || !e.camaras) return;
+      const [nom, c] = Object.entries(e.camaras)[0] || []; if(!c) return;
+      const fz = Object.keys(num(c.fuerzas)).length ? num(c.fuerzas) : num(c.fuerzas_pct);
+      if(!Object.keys(fz).length) return;
+      const gan = Object.entries(fz).sort((a, b) => b[1] - a[1])[0][0];
+      f.provincia[p] = { fuerzas:fz, electores:+c.electores || null, votantes:+c.votantes || null, blancos:+c.blancos || null, nulos:+c.nulos || null, anio:e.anio, camara:nom, ganador:gan, bancas:c.bancas_obtenidas, bancas_en_juego:c.bancas_en_juego, composicion:c.composicion_resultante, por_seccion:c.por_seccion, fuente:e.fuente, url: Array.isArray(e.url) ? e.url[0] : e.url };
+      const t = Object.values(fz).reduce((a, b) => a + b, 0); Object.entries(fz).forEach(([k, v]) => f.pais.fuerzas[k] = (f.pais.fuerzas[k] || 0) + v / t);
+      if(c.departamento) Object.assign(f.departamento, c.departamento); });
+    return f; };
+  DATA.elec['legislaturas-última elección-generales'] = mk('ultima'); DATA.elec['legislaturas-anterior-generales'] = mk('anterior');
+}
+
+const ETAPAS = ['Denuncia','Imputación','Procesamiento','Juicio','Condena'];
+const ETC = ['#8A97A0','#74B9EA','#F0A93A','#E8775F','#F0675F'];
+// Formas de cierre sin condena: desestimación (la denuncia se archiva sin imputar), sobreseimiento (se cierra la causa para un imputado) y absolución (hubo juicio y no hubo condena)
+const CIERRES = [['Desestimada y archivada','Denuncia'], ['Sobreseimiento','Imputación o procesamiento'], ['Absolución','Juicio']];
+
+/* =========================================================
+   PÁGINAS
+   ========================================================= */
+const PAGES = [
+  { id:'electoral', t:'Electoral', p:'Cómo vota la Argentina cuando elige ejecutivos y cuando elige legisladores. Últimas dos elecciones de cada cargo, por provincia, departamento o ciudad.',
+    html: () => `<div class="grid">${MAPAS_E.map(electoralHTML).join('')}
+      <div class="b">${head('Tabla de afinidad política', 'lectura propia, pública y revisable')}<div class="scroll"><table><thead><tr><th>Fuerza</th><th>Bloque</th><th>Motivo</th></tr></thead><tbody>${Object.entries(F).map(([k, f]) => `<tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${f.c};margin-right:6px"></span>${esc(f.n)}</td><td><span class="chip" style="color:${B[f.b].c}">${B[f.b].n}</span></td><td class="muted">${esc(f.motivo || '—')}</td></tr>`).join('')}</tbody></table></div></div></div>` },
+  { id:'afinidades', t:'Afinidades políticas', p:'La foto actual de la relación entre cada provincia y el gobierno nacional: la postura de su gobernador, cómo votan sus senadores y cuánta plata discrecional recibe.',
+    html: () => `<div class="grid">
+      <div class="b">${head('Postura de los gobernadores', 'lectura propia · prensa')}<div class="mapwrap"><div><div class="map" id="gob-map"></div>
+        <div class="legend" style="margin-top:8px"><span><i style="background:#74B9EA"></i>Afín</span><span><i style="background:#8A97A0"></i>Neutral</span><span><i style="background:#E8A05F"></i>Opositora</span></div></div>
+        <div class="side"><p class="note" id="gob-nota">Afín: aliado electoral de LLA en 2025 o apoyo explícito a la agenda del gobierno. Neutral: acompaña algunas iniciativas y se opone a otras (dialoguistas, Provincias Unidas). Opositora: confronta abiertamente con el gobierno.</p><div id="gob-side"><p class="muted" style="font-size:.86rem">Tocá una provincia para ver el gobernador, su partido y los hechos que sostienen la clasificación.</p></div></div></div></div>
+      <div class="b half">${head('Alineamiento de los senadores', 'actas de votación del Senado · prensa')}<div class="crow" id="afi-ctrl"></div><div class="map" id="afi-map"></div>
+        <div class="legend"><span><i style="background:#74B9EA"></i>Afín</span><span><i style="background:#8A97A0"></i>Neutral</span><span><i style="background:#E8A05F"></i>Opositora</span></div><p class="note" id="afi-nota"></p><div id="afi-side"><p class="muted" style="font-size:.86rem">Tocá una provincia para ver cómo votó cada senador.</p></div></div>
+      <div class="b half"><div class="bh"><h2 id="tr-title">Transferencias discrecionales</h2></div><div class="crow" id="tr-ctrl"></div><div class="bh" style="display:none"><span class="src">Fuente: Politikon Chaco · Ministerio del Interior · Ministerio de Economía · INDEC</span></div><div class="map" id="tr-map"></div>
+        <div class="legend" id="tr-leg"><span>menos <i class="grad" style="background:linear-gradient(90deg,#16232C,#74B9EA)"></i> más · % del presupuesto provincial</span></div><p class="note" id="tr-nota"></p><div id="tr-side"><p class="muted" style="font-size:.86rem">Tocá una provincia para ver el detalle.</p></div></div></div>` },
+  { id:'votaciones', t:'Votaciones en el Congreso', p:'Las votaciones que marcaron la gestión desde el 10 de diciembre de 2023: leyes, decretos y pliegos, con el resultado en cada cámara.',
+    html: () => `<div class="grid"><div class="b">${head('Elegí una votación')}<select id="ley" aria-label="Votación"></select><div class="crow" id="vot-et"></div><div id="vot-out" class="ctrls"></div>
+      <p class="note">Cada votación lleva su fuente. Los resultados se verificaron en al menos dos medios cuando fue posible.</p></div></div>` },
+  { id:'conflictividad', t:'Conflictividad social', p:'Paros, tomas, protestas, conflictos de fuerzas de seguridad, atentados, motines y saqueos. Tamaño del punto: personas involucradas.',
+    html: () => `<div class="grid"><div class="b">${head('Mapa de conflictos', 'seguimiento de medios · fuentes en cada ficha')}<div class="ctrls" id="cf-ctrl"></div>
+      <div class="kpis" id="cf-kpi"></div>
+      <div class="mapwrap"><div><div class="map" id="cf-map"></div><div class="legend" id="cf-leg" style="margin-top:8px"></div><p class="note" id="cf-nota"></p></div><div class="side" id="cf-side"><p class="muted" style="font-size:.86rem">Tocá una provincia para acercarte y ver el resumen, o un punto para ver la ficha del hecho.</p></div></div></div></div>` },
+  { id:'opinion', t:'Opinión pública', p:'Promedio mensual de encuestas públicas con ficha técnica. Se ve cada encuesta y la línea del promedio; los meses con menos de tres encuestadoras se señalan.',
+    html: () => `<div class="grid"><div class="b">${head('Aprobación del gobierno', 'promedio mensual de encuestas')}<div class="chart" id="op-ap"></div>
+      <div class="legend"><span><i style="background:#74B9EA"></i>Aprueba</span><span><i style="background:#E8A05F"></i>Desaprueba</span><span class="muted">· puntos: cada encuesta</span></div><p class="note" id="op-ap-nota"></p></div>
+      <div class="b third">${head('Principales preocupaciones')}<div id="op-pre"></div></div><div class="b third">${head('Imagen positiva de dirigentes')}<div id="op-im"></div></div><div class="b third">${head('Confianza en instituciones')}<div id="op-co"></div></div></div>` },
+  { id:'ejecutivo', t:'Ejecutivo frente al Congreso', p:'Cuánto gobierna el Ejecutivo por decreto y cuántas veces el Congreso le pone un freno.',
+    html: () => `<div class="grid"><div class="b two3">${head('Por mes, desde diciembre de 2023', 'Chequeado · Universidad Austral · HCDN · Senado')}<div class="chart" id="ej-bars"></div><div class="legend" id="ej-leg"></div><p class="note" id="ej-nota"></p></div>
+      <div class="b third">${head('DNU firmados por año')}<div id="ej-anual"></div></div>
+      <div class="b">${head('Comparación con presidencias anteriores')}<div class="scroll" id="ej-tab"></div></div></div>` },
+  { id:'gobernabilidad', t:'Gobernabilidad', p:'Las fracturas dentro del gobierno y con sus aliados. Sección analítica: los estados y la gravedad son lectura propia, con los hechos que la sostienen.',
+    html: () => `<div class="grid"><div class="b">${head('Indicadores')}<div class="kpis" id="go-kpi"></div></div>
+      <div class="b half">${head('Relación del gobierno con cada actor', 'lectura propia')}<div id="go-rel"></div>
+        <div class="legend"><span><i style="background:#5BC08A"></i>Alineado</span><span><i style="background:#F0A93A"></i>Tensión</span><span><i style="background:#F0675F"></i>Ruptura</span></div></div>
+      <div class="b half">${head('Lectura de la semana', 'lectura propia')}<div id="go-lec"><p class="muted">Dos o tres párrafos: qué se movió en la coalición de gobierno, con quién se tensó o recompuso la relación y qué conviene mirar la semana próxima.</p></div></div>
+      <div class="b">${head('Línea de tiempo de fracturas', 'prensa · lectura propia')}<div class="scroll" id="go-tl"></div></div></div>` },
+  { id:'institucionalidad', t:'Institucionalidad', p:'Designaciones judiciales, incumplimientos legales, causas de corrupción y transparencia del gobierno actual. Cada caso muestra su etapa judicial real: una denuncia no es una condena.',
+    html: () => `<div class="grid"><div class="b">${head('Designaciones y Poder Judicial', 'Consejo de la Magistratura · Senado · Boletín Oficial')}<div class="kpis" id="ju-kpi"></div><div class="scroll" id="ju-dec"></div></div>
+      <div class="b">${head('Incumplimientos legales', 'Boletín Oficial · fallos judiciales · prensa')}<p class="muted" style="font-size:.86rem">Leyes y fallos cuyo cumplimiento está en discusión. Varios casos siguen en litigio: el estado de cada uno y la posición del gobierno se indican en la tabla.</p><div class="scroll" id="in-tab"></div></div>
+      <div class="b">${head('Corrupción: causas que involucran a funcionarios y dirigentes del oficialismo', 'expedientes judiciales · prensa')}<div class="scroll" id="ju-tab"></div>
+        <div class="legend"><span class="muted">Etapa judicial:</span>${ETAPAS.map((e, i) => `<span><i style="background:${ETC[i]}"></i>${e}</span>`).join('')}</div>
+        <div class="legend"><span class="muted">Cierre sin condena:</span>${CIERRES.map(([c, d]) => `<span><span class="chip ok">${c}</span> después de: ${d}</span>`).join('')}</div>
+        <p class="note">Cada causa muestra hasta dónde llegó. Si se cerró sin condena, se indica cómo (desestimación, sobreseimiento o absolución) y la barra queda en la etapa en la que se cerró.</p></div>
+      <div class="b">${head('Falta de transparencia', 'Agencia de Acceso a la Información Pública · Boletín Oficial · prensa')}<p class="muted" style="font-size:.86rem">Restricciones al acceso a la información, gastos reservados y datos públicos discontinuados, con la norma que rige cada caso.</p><div class="kpis" id="tr-kpi"></div><div class="scroll" id="tr-tab"></div></div></div>` },
+  { id:'homicidios', t:'Homicidios', p:'Solo homicidios dolosos: es el delito que se registra de forma confiable en todo el país.',
+    html: () => `<div class="grid"><div class="b">${head('Tasa por provincia', 'Sistema Nacional de Información Criminal · Ministerio de Seguridad')}
+      <div class="mapwrap"><div><div class="map" id="ho-map"></div><div class="legend" style="margin-top:8px"><span>menos <i class="grad" style="background:linear-gradient(90deg,#16232C,#E8775F)"></i> más · tasa 2025 cada 100.000 habitantes</span><span><i style="background:repeating-linear-gradient(45deg,#1A2832 0 2px,#566974 2px 3px)"></i>sin dato 2025 (tocá para ver 2024)</span></div><p class="note">Tasas tomadas de prensa y datos.gob.ar que citan al SNIC; se validan contra el informe oficial cuando esté accesible.</p></div><div class="side"><div class="kpis" id="ho-nac"></div><div id="ho-side"><p class="muted" style="font-size:.86rem">Tocá una provincia para ver la tasa y su variación. Gris: sin dato publicado.</p></div></div></div></div></div>` },
+  { id:'prensa', t:'Libertad de prensa', p:'Agresiones a periodistas y medios, por tipo y por autor. FOPEA publica conteos anuales, no mensuales.',
+    html: () => `<div class="grid"><div class="b">${head('Total de agresiones', 'FOPEA')}<div class="kpis" id="pr-kpi"></div></div>
+      <div class="b half">${head('Por tipo · 2025', 'FOPEA')}<div class="chart" id="pr-bars"></div><div class="legend" id="pr-leg"></div></div>
+      <div class="b half">${head('Por autor · 2025', 'FOPEA')}<div id="pr-autor"></div></div></div>` },
+  { id:'calendario', t:'Calendario político', p:'Qué se vota, dónde y cuándo. Arriba, las fechas nacionales; en el mapa, qué elige cada provincia.',
+    html: () => `<div class="grid"><div class="b">${head('Elecciones nacionales 2027', 'Código Electoral · Constitución Nacional · prensa')}
+      <div class="natcal" id="ca-nac"></div>
+      <div class="b">${head('Qué vota cada provincia')}<div class="crow"><span class="clab">Mostrar</span><span id="ca-menu"></span></div>
+      <div class="mapwrap"><div><div class="map" id="ca-map"></div><div class="legend" style="margin-top:8px"><span><i style="background:#74B9EA"></i>Vota</span><span><i style="background:#26343E"></i>No vota</span></div></div><div class="side" id="ca-side"><p class="muted" style="font-size:.86rem">Tocá una provincia: se acerca y muestra todo lo que elige, con fecha y si la renovación es total o parcial.</p></div></div></div></div>` }
+];
+
+function render(){
+  $('#nav').innerHTML = PAGES.map(p => `<a href="#${p.id}">${p.t}</a>`).join('');
+  $('#main').innerHTML = PAGES.map((pg, i) => `<section class="sec" id="${pg.id}"><div class="phead"><span class="eyebrow">${String(i + 1).padStart(2, '0')} de ${PAGES.length}</span><h1>${esc(pg.t)}</h1><p>${esc(pg.p)}</p>${i === 0 ? '<span class="boceto">Algunos datos provinciales están incompletos: cada mapa lo aclara en su nota</span>' : ''}</div>${pg.html()}</section>`).join('');
+  MAPAS_E.forEach(initElectoral); initVotaciones(); initResto(); initEjecutivo(); initJusticia(); initHomicidios(); initPrensa(); initOpinion(); initTransfer(); initGobernabilidad(); initInstitucional(); initSenadores(); initConflictReal(); initGobernadores();
+  const links = [...document.querySelectorAll('nav.idx a')];
+  const io = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){ links.forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id)); } }), { rootMargin:'-40% 0px -55% 0px' });
+  document.querySelectorAll('section.sec').forEach(s => io.observe(s));
+}
+const J = u => fetch(u).then(r => r.ok ? r.json() : null).catch(() => null);
+Promise.all([J('argentina.json'), J('datos/electoral/fuerzas.json'), J('datos/congreso/votaciones.json'), J('datos/congreso/ejecutivo.json'), J('datos/calendario/2027.json'), J('datos/justicia/estado.json'), J('datos/homicidios/provincias.json'), J('datos/prensa/agresiones.json'), J('datos/opinion/encuestas.json'), J('datos/afinidades/transferencias.json'), J('datos/gobernabilidad/fracturas.json'), J('datos/institucionalidad/designaciones.json'), J('datos/institucionalidad/incumplimientos.json'), J('datos/institucionalidad/corrupcion.json'), J('datos/institucionalidad/transparencia.json'), J('datos/afinidades/senadores.json'), J('datos/conflictividad/hechos.json'), J('datos/conflictividad/puntos.json'), J('datos/afinidades/gobernadores.json'), J('datos/electoral/intendentes.json'), J('datos/electoral/intendentes_puntos.json'), J('datos/electoral/gobernador.json'), J('datos/electoral/legislaturas.json'),
+  ...ELEC_FILES.map(f => J(`datos/electoral/${f}.json`))]).then(([g, fz, vot, eje, cal, jus, hom, pre, opi, tra, gob, ides, iinc, icor, itra, sen, conf, cpts, gobs, intd, intp, gobe, legi, ...el]) => {
+  if(!g){ $('#main').innerHTML = '<p class="muted" style="padding:40px 0">No se pudo cargar el mapa base (argentina.json).</p>'; return; }
+  g.provincias.forEach(p => p.n = TILDES[p.n] || p.n); GEO = g;
+  if(fz) Object.entries(fz).forEach(([k, v]) => F[k] = { n:v.nombre, c:v.color, b:v.bloque, motivo:v.motivo });
+  if(intd && intd.fuerzas_sugeridas) Object.entries(intd.fuerzas_sugeridas).forEach(([k, v]) => { if(!F[k]) F[k] = { n:v.nombre, c:v.color, b:v.bloque, motivo:v.motivo }; });
+  Object.assign(DATA, { votaciones:vot, ejecutivo:eje, calendario:cal, justicia:jus, homicidios:hom, prensa:pre, opinion:opi, transfer:tra, gober:gob, senadores:sen, gobernadores:gobs, intend:intd, intendPts:intp, conflict:conf, conflictPts:cpts, inst:{ designaciones:ides, incumplimientos:iinc, corrupcion:icor, transparencia:itra } });
+  ELEC_FILES.forEach((f, i) => { if(el[i]) DATA.elec[f] = el[i]; });
+  loadGobernador(gobe); loadLegislaturas(legi);
+  render();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,9035 @@
+{
+ "anio": 2023,
+ "cargo": "presidente",
+ "instancia": "Balotaje",
+ "fecha": "2023-11-19",
+ "recuento": "definitivo (provincia y país); provisorio (departamento)",
+ "fuente": "CNE, escrutinio DEFINITIVO por distrito: actas de escrutinio de las Juntas Electorales Nacionales, presidente y vicepresidente, 19-11-2023",
+ "url": "https://www.electoral.gob.ar/nuevo/paginas/btn/actas_esc_segvta2023.php",
+ "notas": "En la segunda vuelta los votos de residentes en el exterior y de privados de libertad los escrutó la CNE como distrito único: están en fuera_de_distrito y se suman al total país (votos), no a ninguna provincia; pais.electores es la suma de los distritos (sin el padrón del exterior). Provincia y país: escrutinio DEFINITIVO, tomado del acta de cada Junta Electoral Nacional publicada por la CNE (texto del PDF o, si es escaneado, OCR revisado; cada distrito controlado con afirmativos/blancos/nulos/emitidos del acta). Departamento: escrutinio PROVISORIO (no existe definitivo por sección accesible); la suma de departamentos no coincide con la provincia. electores y mesas: los del párrafo PRIMERO de cada acta. votantes = total de votos emitidos del acta. pais_provisorio guarda el total país del provisorio. Escrutinio PROVISORIO (la DINE no publica el definitivo por mesa ni por sección). electores = padrón de las mesas escrutadas incluidas en el archivo. Se excluyeron 748 mesas marcadas \"NO ESCRUTADO\" (sin votos) del conteo de electores y mesas.",
+ "recuento_departamento": "provisorio",
+ "fuente_departamento": "DINE, escrutinio provisorio 2023 por mesa (estándar de preservación de resultados electorales), archivo 2023_segundavuelta/ResultadosElectorales_2023_SegundaVuelta.csv, cargo_id 1 (Presidente)",
+ "url_departamento": "https://www.argentina.gob.ar/sites/default/files/2023_segundavuelta.zip",
+ "transcripcion": {
+  "BUENOS AIRES": {
+   "archivo": "BUENOS AIRES.pdf",
+   "origen": "transcripción revisada",
+   "nota": "Anexo del acta (planilla \"CONSULTA DEFINITIVA - DIST.: 02 BUENOS AIRES\", pág. 5, imagen); TOTALES 10.073.791."
+  },
+  "CATAMARCA": {
+   "archivo": "CATAMARCA.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "CHACO": {
+   "archivo": "CHACO.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "CHUBUT": {
+   "archivo": "CHUBUT.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "CIUDAD AUTONOMA DE BUENOS AIRES": {
+   "archivo": "CAPITAL FEDERAL.pdf",
+   "origen": "transcripción revisada",
+   "nota": "Tablas en págs. 2-3 (imagen)."
+  },
+  "CORDOBA": {
+   "archivo": "CORDOBA.pdf",
+   "origen": "transcripción revisada",
+   "nota": "Capa de texto."
+  },
+  "CORRIENTES": {
+   "archivo": "CORRIENTES.pdf",
+   "origen": "transcripción revisada",
+   "nota": "La suma por agrupación (688.922) + blancos + nulos = emitidos; el \"Votos afirmativos: 695.635\" del acta incluye los blancos."
+  },
+  "ENTRE RIOS": {
+   "archivo": "ENTRE RIOS.pdf",
+   "origen": "transcripción revisada",
+   "nota": "Capa de texto. El acta dice \"impugnados declarados nulos: 46\"."
+  },
+  "FORMOSA": {
+   "archivo": "FORMOSA.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "JUJUY": {
+   "archivo": "JUJUY.pdf",
+   "origen": "transcripción revisada",
+   "nota": "Tabla en imagen (pág. 2)."
+  },
+  "LA PAMPA": {
+   "archivo": "LA PAMPA.pdf",
+   "origen": "transcripción revisada",
+   "nota": "OCR (electores \"300.057\")."
+  },
+  "LA RIOJA": {
+   "archivo": "LA RIOJA.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "MENDOZA": {
+   "archivo": "MENDOZA.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "MISIONES": {
+   "archivo": "MISIONES.pdf",
+   "origen": "transcripción revisada",
+   "nota": "OCR."
+  },
+  "NEUQUEN": {
+   "archivo": "NEUQUEN.pdf",
+   "origen": "transcripción revisada",
+   "nota": "OCR. El acta aclara que no incluye privados de libertad ni residentes en el exterior."
+  },
+  "RIO NEGRO": {
+   "archivo": "RIO NEGRO.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "SALTA": {
+   "archivo": "SALTA.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "SAN JUAN": {
+   "archivo": "SAN JUAN.pdf",
+   "origen": "transcripción revisada",
+   "nota": "OCR. La suma por agrupación (457.327) + blancos + nulos = emitidos; el \"Votos afirmativos: 465.129\" del acta incluye los nulos."
+  },
+  "SAN LUIS": {
+   "archivo": "SAN LUIS.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": "El acta no informa electores ni mesas; se usan los del padrón del distrito publicado por la CNE (\"Totales Padron 2023 21OCT23.xlsx\"; sin residentes en el exterior)."
+  },
+  "SANTA CRUZ": {
+   "archivo": "SANTA CRUZ.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "SANTA FE": {
+   "archivo": "SANTA FE.pdf",
+   "origen": "transcripción revisada",
+   "nota": "Capa de texto. La suma por agrupación (2.040.408) + blancos + nulos = emitidos; el \"Votos afirmativos: 2.074.669\" del acta incluye los blancos."
+  },
+  "SANTIAGO DEL ESTERO": {
+   "archivo": "SANTIAGO DEL ESTERO.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "TIERRA DEL FUEGO": {
+   "archivo": "TIERRA DEL FUEGO.pdf",
+   "origen": "extracción automática (cierra con afirmativos y emitidos)",
+   "nota": ""
+  },
+  "TUCUMAN": {
+   "archivo": "TUCUMAN.pdf",
+   "origen": "transcripción revisada",
+   "nota": "Capa de texto."
+  }
+ },
+ "controles_definitivo": [
+  "CORRIENTES: suma por agrupación 688922 != \"votos afirmativos\" del acta 695635 (dif -6713)",
+  "SAN JUAN: suma por agrupación 457327 != \"votos afirmativos\" del acta 465129 (dif -7802)",
+  "SANTA FE: suma por agrupación 2040408 != \"votos afirmativos\" del acta 2074669 (dif -34261)"
+ ],
+ "fuera_de_distrito": {
+  "RESIDENTES EN EL EXTERIOR": {
+   "electores": null,
+   "votantes": 51252,
+   "positivos": 50246,
+   "blancos": 582,
+   "nulos": 424,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": null,
+   "fuerzas": {
+    "LLA": 37413,
+    "UXP": 12833
+   },
+   "archivo": "RERE.pdf",
+   "nota": "\"28 - Distrito Residentes Exterior\", planilla firmada por el Secretario de Actuación Electoral de la CNE; el encabezado dice \"CONSULTA PROVISORIA DE TOTALES POR CARGO\", pero es la que la CNE publica junto a las actas definitivas."
+  },
+  "PRIVADOS DE LIBERTAD": {
+   "electores": null,
+   "votantes": 25866,
+   "positivos": 25048,
+   "blancos": 315,
+   "nulos": 503,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": null,
+   "fuerzas": {
+    "UXP": 20269,
+    "LLA": 4779
+   },
+   "archivo": "REPL.pdf",
+   "nota": "\"Registro de Electores Privados de Libertad\", misma planilla y misma aclaración."
+  }
+ },
+ "pais_solo_distritos": {
+  "positivos": 26153280,
+  "fuerzas": {
+   "LLA": 14554560,
+   "UXP": 11598720
+  }
+ },
+ "pais": {
+  "electores": 35405724,
+  "votantes": 27021600,
+  "positivos": 26153280,
+  "blancos": 417574,
+  "nulos": 450746,
+  "recurridos": 772,
+  "impugnados": 98,
+  "otros": 870,
+  "mesas": 104532,
+  "fuerzas": {
+   "LLA": 14554560,
+   "UXP": 11598720
+  },
+  "nota_total": "Total de las 24 provincias, igual al publicado por la CNE (14.554.560 y 11.598.720). Los votos de residentes en el exterior y de personas privadas de libertad se guardan aparte en fuera_de_distrito; con ellos el porcentaje no cambia (55,65 / 44,35)."
+ },
+ "pais_provisorio": {
+  "electores": 35193985,
+  "votantes": 26863246,
+  "positivos": 25992604,
+  "blancos": 417515,
+  "nulos": 438681,
+  "recurridos": 9725,
+  "impugnados": 4721,
+  "comando": 0,
+  "otros": 14446,
+  "mesas": 103772,
+  "fuerzas": {
+   "LLA": 14476462,
+   "UXP": 11516142
+  }
+ },
+ "provincia": {
+  "BUENOS AIRES": {
+   "electores": 13120058,
+   "votantes": 10073791,
+   "positivos": 9750919,
+   "blancos": 177684,
+   "nulos": 145188,
+   "otros": null,
+   "mesas": 38074,
+   "fuerzas": {
+    "UXP": 4949734,
+    "LLA": 4801185
+   }
+  },
+  "CATAMARCA": {
+   "electores": 340662,
+   "votantes": 243249,
+   "positivos": 237319,
+   "blancos": 3690,
+   "nulos": 2240,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": 1058,
+   "fuerzas": {
+    "LLA": 125325,
+    "UXP": 111994
+   }
+  },
+  "CHACO": {
+   "electores": 999049,
+   "votantes": 730264,
+   "positivos": 716895,
+   "blancos": 6117,
+   "nulos": 7252,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": 2947,
+   "fuerzas": {
+    "UXP": 359789,
+    "LLA": 357106
+   }
+  },
+  "CHUBUT": {
+   "electores": 474583,
+   "votantes": 350457,
+   "positivos": 334892,
+   "blancos": 4978,
+   "nulos": 10587,
+   "recurridos": 23,
+   "impugnados": 7,
+   "otros": 30,
+   "mesas": 1416,
+   "fuerzas": {
+    "LLA": 197835,
+    "UXP": 137057
+   }
+  },
+  "CIUDAD AUTONOMA DE BUENOS AIRES": {
+   "electores": 2526676,
+   "votantes": 1905625,
+   "positivos": 1813666,
+   "blancos": 53411,
+   "nulos": 38548,
+   "otros": null,
+   "mesas": 7326,
+   "fuerzas": {
+    "LLA": 1038310,
+    "UXP": 775356
+   }
+  },
+  "CORDOBA": {
+   "electores": 3060943,
+   "votantes": 2298396,
+   "positivos": 2213415,
+   "blancos": 36440,
+   "nulos": 48541,
+   "otros": null,
+   "mesas": 9097,
+   "fuerzas": {
+    "LLA": 1639102,
+    "UXP": 574313
+   }
+  },
+  "CORRIENTES": {
+   "electores": 930212,
+   "votantes": 705589,
+   "positivos": 688922,
+   "blancos": 6713,
+   "nulos": 9954,
+   "recurridos": 71,
+   "impugnados": 29,
+   "otros": 100,
+   "mesas": 2760,
+   "fuerzas": {
+    "LLA": 366228,
+    "UXP": 322694
+   }
+  },
+  "ENTRE RIOS": {
+   "electores": 1144210,
+   "votantes": 889779,
+   "positivos": 861081,
+   "blancos": 11268,
+   "nulos": 17430,
+   "recurridos": 230,
+   "impugnados": 46,
+   "otros": 276,
+   "mesas": 3434,
+   "fuerzas": {
+    "LLA": 529318,
+    "UXP": 331763
+   }
+  },
+  "FORMOSA": {
+   "electores": 482485,
+   "votantes": 362983,
+   "positivos": 356594,
+   "blancos": 3193,
+   "nulos": 3196,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": 1484,
+   "fuerzas": {
+    "UXP": 202288,
+    "LLA": 154306
+   }
+  },
+  "JUJUY": {
+   "electores": 590950,
+   "votantes": 456914,
+   "positivos": 445069,
+   "blancos": 3525,
+   "nulos": 8320,
+   "recurridos": 101,
+   "impugnados": 0,
+   "otros": 101,
+   "mesas": 1825,
+   "fuerzas": {
+    "LLA": 258754,
+    "UXP": 186315
+   }
+  },
+  "LA PAMPA": {
+   "electores": 300057,
+   "votantes": 229023,
+   "positivos": 221340,
+   "blancos": 3346,
+   "nulos": 4337,
+   "otros": null,
+   "mesas": 902,
+   "fuerzas": {
+    "LLA": 126794,
+    "UXP": 94546
+   }
+  },
+  "LA RIOJA": {
+   "electores": 304415,
+   "votantes": 240164,
+   "positivos": 235174,
+   "blancos": 2114,
+   "nulos": 2876,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": 955,
+   "fuerzas": {
+    "LLA": 126357,
+    "UXP": 108817
+   }
+  },
+  "MENDOZA": {
+   "electores": 1494888,
+   "votantes": 1143401,
+   "positivos": 1101765,
+   "blancos": 16999,
+   "nulos": 24637,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": 4357,
+   "fuerzas": {
+    "LLA": 784109,
+    "UXP": 317656
+   }
+  },
+  "MISIONES": {
+   "electores": 989610,
+   "votantes": 729704,
+   "positivos": 714815,
+   "blancos": 8919,
+   "nulos": 5970,
+   "recurridos": 67,
+   "impugnados": 5,
+   "otros": 72,
+   "mesas": 2879,
+   "fuerzas": {
+    "LLA": 405460,
+    "UXP": 309355
+   }
+  },
+  "NEUQUEN": {
+   "electores": 554077,
+   "votantes": 440354,
+   "positivos": 421313,
+   "blancos": 5689,
+   "nulos": 13352,
+   "recurridos": 43,
+   "impugnados": 6,
+   "otros": 49,
+   "mesas": 1670,
+   "fuerzas": {
+    "LLA": 254613,
+    "UXP": 166700
+   }
+  },
+  "RIO NEGRO": {
+   "electores": 595968,
+   "votantes": 454473,
+   "positivos": 436765,
+   "blancos": 5841,
+   "nulos": 11867,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": 1790,
+   "fuerzas": {
+    "LLA": 236796,
+    "UXP": 199969
+   }
+  },
+  "SALTA": {
+   "electores": 1091792,
+   "votantes": 819282,
+   "positivos": 800610,
+   "blancos": 8002,
+   "nulos": 10670,
+   "recurridos": 237,
+   "impugnados": 5,
+   "otros": 242,
+   "mesas": 3300,
+   "fuerzas": {
+    "LLA": 461685,
+    "UXP": 338925
+   }
+  },
+  "SAN JUAN": {
+   "electores": 607479,
+   "votantes": 470354,
+   "positivos": 457327,
+   "blancos": 5225,
+   "nulos": 7802,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": 1810,
+   "fuerzas": {
+    "LLA": 277621,
+    "UXP": 179706
+   }
+  },
+  "SAN LUIS": {
+   "electores": 421370,
+   "votantes": 326763,
+   "positivos": 316170,
+   "blancos": 4177,
+   "nulos": 6416,
+   "otros": null,
+   "mesas": 1311,
+   "fuerzas": {
+    "LLA": 214938,
+    "UXP": 101232
+   }
+  },
+  "SANTA CRUZ": {
+   "electores": 265825,
+   "votantes": 186251,
+   "positivos": 180237,
+   "blancos": 1647,
+   "nulos": 4367,
+   "otros": null,
+   "mesas": 911,
+   "fuerzas": {
+    "LLA": 104531,
+    "UXP": 75706
+   }
+  },
+  "SANTA FE": {
+   "electores": 2828754,
+   "votantes": 2120545,
+   "positivos": 2040408,
+   "blancos": 34261,
+   "nulos": 45876,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": 8332,
+   "fuerzas": {
+    "LLA": 1282012,
+    "UXP": 758396
+   }
+  },
+  "SANTIAGO DEL ESTERO": {
+   "electores": 814184,
+   "votantes": 640581,
+   "positivos": 631238,
+   "blancos": 4468,
+   "nulos": 4875,
+   "otros": null,
+   "mesas": 2464,
+   "fuerzas": {
+    "UXP": 432433,
+    "LLA": 198805
+   }
+  },
+  "TIERRA DEL FUEGO": {
+   "electores": 147984,
+   "votantes": 109609,
+   "positivos": 104973,
+   "blancos": 1050,
+   "nulos": 3586,
+   "otros": null,
+   "mesas": 511,
+   "fuerzas": {
+    "LLA": 55975,
+    "UXP": 48998
+   }
+  },
+  "TUCUMAN": {
+   "electores": 1319493,
+   "votantes": 1094049,
+   "positivos": 1072373,
+   "blancos": 8817,
+   "nulos": 12859,
+   "recurridos": 0,
+   "impugnados": 0,
+   "otros": 0,
+   "mesas": 3919,
+   "fuerzas": {
+    "LLA": 557395,
+    "UXP": 514978
+   }
+  }
+ },
+ "departamento": {
+  "1": {
+   "electores": 148346,
+   "votantes": 115453,
+   "positivos": 112273,
+   "blancos": 1302,
+   "nulos": 1849,
+   "recurridos": 21,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 29,
+   "mesas": 435,
+   "fuerzas": {
+    "LLA": 63144,
+    "UXP": 49129
+   }
+  },
+  "2": {
+   "electores": 17208,
+   "votantes": 13579,
+   "positivos": 13168,
+   "blancos": 189,
+   "nulos": 221,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 53,
+   "fuerzas": {
+    "LLA": 8634,
+    "UXP": 4534
+   }
+  },
+  "3": {
+   "electores": 60162,
+   "votantes": 46225,
+   "positivos": 44556,
+   "blancos": 694,
+   "nulos": 970,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 184,
+   "fuerzas": {
+    "LLA": 28198,
+    "UXP": 16358
+   }
+  },
+  "4": {
+   "electores": 43067,
+   "votantes": 32646,
+   "positivos": 31762,
+   "blancos": 334,
+   "nulos": 540,
+   "recurridos": 10,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 10,
+   "mesas": 132,
+   "fuerzas": {
+    "LLA": 19186,
+    "UXP": 12576
+   }
+  },
+  "5": {
+   "electores": 24082,
+   "votantes": 18923,
+   "positivos": 18383,
+   "blancos": 264,
+   "nulos": 264,
+   "recurridos": 11,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 12,
+   "mesas": 77,
+   "fuerzas": {
+    "LLA": 9478,
+    "UXP": 8905
+   }
+  },
+  "6": {
+   "electores": 34847,
+   "votantes": 27682,
+   "positivos": 26866,
+   "blancos": 356,
+   "nulos": 453,
+   "recurridos": 7,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 109,
+   "fuerzas": {
+    "LLA": 17205,
+    "UXP": 9661
+   }
+  },
+  "7": {
+   "electores": 24724,
+   "votantes": 18893,
+   "positivos": 18263,
+   "blancos": 253,
+   "nulos": 370,
+   "recurridos": 6,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 78,
+   "fuerzas": {
+    "LLA": 11385,
+    "UXP": 6878
+   }
+  },
+  "8": {
+   "electores": 103113,
+   "votantes": 83363,
+   "positivos": 80541,
+   "blancos": 1137,
+   "nulos": 1655,
+   "recurridos": 12,
+   "impugnados": 18,
+   "comando": 0,
+   "otros": 30,
+   "mesas": 309,
+   "fuerzas": {
+    "LLA": 52248,
+    "UXP": 28293
+   }
+  },
+  "9": {
+   "electores": 11751,
+   "votantes": 8518,
+   "positivos": 8261,
+   "blancos": 78,
+   "nulos": 177,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 37,
+   "fuerzas": {
+    "LLA": 4658,
+    "UXP": 3603
+   }
+  },
+  "10": {
+   "electores": 48494,
+   "votantes": 37505,
+   "positivos": 36209,
+   "blancos": 497,
+   "nulos": 786,
+   "recurridos": 9,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 13,
+   "mesas": 145,
+   "fuerzas": {
+    "LLA": 23334,
+    "UXP": 12875
+   }
+  },
+  "11": {
+   "electores": 63141,
+   "votantes": 50608,
+   "positivos": 49197,
+   "blancos": 579,
+   "nulos": 823,
+   "recurridos": 8,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 188,
+   "fuerzas": {
+    "LLA": 32536,
+    "UXP": 16661
+   }
+  },
+  "12": {
+   "electores": 60104,
+   "votantes": 44864,
+   "positivos": 43558,
+   "blancos": 466,
+   "nulos": 824,
+   "recurridos": 14,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 16,
+   "mesas": 179,
+   "fuerzas": {
+    "LLA": 22165,
+    "UXP": 21393
+   }
+  },
+  "13": {
+   "electores": 13128,
+   "votantes": 9924,
+   "positivos": 9685,
+   "blancos": 89,
+   "nulos": 144,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 40,
+   "fuerzas": {
+    "LLA": 4999,
+    "UXP": 4686
+   }
+  },
+  "14": {
+   "electores": 32700,
+   "votantes": 24895,
+   "positivos": 24122,
+   "blancos": 298,
+   "nulos": 467,
+   "recurridos": 6,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 8,
+   "mesas": 100,
+   "fuerzas": {
+    "LLA": 15413,
+    "UXP": 8709
+   }
+  },
+  "15": {
+   "electores": 43511,
+   "votantes": 31975,
+   "positivos": 30911,
+   "blancos": 401,
+   "nulos": 656,
+   "recurridos": 7,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 133,
+   "fuerzas": {
+    "LLA": 21578,
+    "UXP": 9333
+   }
+  },
+  "16": {
+   "electores": 92535,
+   "votantes": 71758,
+   "positivos": 69270,
+   "blancos": 1016,
+   "nulos": 1457,
+   "recurridos": 8,
+   "impugnados": 7,
+   "comando": 0,
+   "otros": 15,
+   "mesas": 280,
+   "fuerzas": {
+    "LLA": 42646,
+    "UXP": 26624
+   }
+  },
+  "17": {
+   "electores": 315520,
+   "votantes": 246167,
+   "positivos": 236941,
+   "blancos": 3649,
+   "nulos": 5461,
+   "recurridos": 106,
+   "impugnados": 10,
+   "comando": 0,
+   "otros": 116,
+   "mesas": 925,
+   "fuerzas": {
+    "LLA": 148239,
+    "UXP": 88702
+   }
+  },
+  "18": {
+   "electores": 47092,
+   "votantes": 34983,
+   "positivos": 34112,
+   "blancos": 659,
+   "nulos": 205,
+   "recurridos": 7,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 138,
+   "fuerzas": {
+    "LLA": 18116,
+    "UXP": 15996
+   }
+  },
+  "19": {
+   "electores": 41635,
+   "votantes": 32709,
+   "positivos": 31794,
+   "blancos": 617,
+   "nulos": 295,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 124,
+   "fuerzas": {
+    "LLA": 18365,
+    "UXP": 13429
+   }
+  },
+  "20": {
+   "electores": 37241,
+   "votantes": 28886,
+   "positivos": 28310,
+   "blancos": 285,
+   "nulos": 285,
+   "recurridos": 1,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 109,
+   "fuerzas": {
+    "LLA": 16220,
+    "UXP": 12090
+   }
+  },
+  "21": {
+   "electores": 29387,
+   "votantes": 21800,
+   "positivos": 21299,
+   "blancos": 295,
+   "nulos": 193,
+   "recurridos": 12,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 13,
+   "mesas": 88,
+   "fuerzas": {
+    "LLA": 10942,
+    "UXP": 10357
+   }
+  },
+  "22": {
+   "electores": 30123,
+   "votantes": 22627,
+   "positivos": 22242,
+   "blancos": 185,
+   "nulos": 187,
+   "recurridos": 9,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 13,
+   "mesas": 88,
+   "fuerzas": {
+    "LLA": 12070,
+    "UXP": 10172
+   }
+  },
+  "23": {
+   "electores": 40939,
+   "votantes": 31264,
+   "positivos": 30593,
+   "blancos": 445,
+   "nulos": 221,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 120,
+   "fuerzas": {
+    "LLA": 17955,
+    "UXP": 12638
+   }
+  },
+  "24": {
+   "electores": 296624,
+   "votantes": 221606,
+   "positivos": 216906,
+   "blancos": 2320,
+   "nulos": 2297,
+   "recurridos": 82,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 83,
+   "mesas": 852,
+   "fuerzas": {
+    "LLA": 135897,
+    "UXP": 81009
+   }
+  },
+  "25": {
+   "electores": 69570,
+   "votantes": 52380,
+   "positivos": 51305,
+   "blancos": 500,
+   "nulos": 558,
+   "recurridos": 12,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 17,
+   "mesas": 202,
+   "fuerzas": {
+    "LLA": 28197,
+    "UXP": 23108
+   }
+  },
+  "26": {
+   "electores": 24020,
+   "votantes": 16862,
+   "positivos": 16485,
+   "blancos": 333,
+   "nulos": 43,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 70,
+   "fuerzas": {
+    "UXP": 9546,
+    "LLA": 6939
+   }
+  },
+  "27": {
+   "electores": 38414,
+   "votantes": 29001,
+   "positivos": 28283,
+   "blancos": 197,
+   "nulos": 506,
+   "recurridos": 12,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 15,
+   "mesas": 115,
+   "fuerzas": {
+    "LLA": 14855,
+    "UXP": 13428
+   }
+  },
+  "28": {
+   "electores": 19448,
+   "votantes": 14728,
+   "positivos": 14465,
+   "blancos": 90,
+   "nulos": 170,
+   "recurridos": 0,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 60,
+   "fuerzas": {
+    "UXP": 8758,
+    "LLA": 5707
+   }
+  },
+  "29": {
+   "electores": 18582,
+   "votantes": 13822,
+   "positivos": 13561,
+   "blancos": 106,
+   "nulos": 153,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 57,
+   "fuerzas": {
+    "UXP": 8786,
+    "LLA": 4775
+   }
+  },
+  "30": {
+   "electores": 20628,
+   "votantes": 16211,
+   "positivos": 15887,
+   "blancos": 118,
+   "nulos": 201,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 61,
+   "fuerzas": {
+    "UXP": 9318,
+    "LLA": 6569
+   }
+  },
+  "31": {
+   "electores": 9386,
+   "votantes": 7113,
+   "positivos": 6976,
+   "blancos": 66,
+   "nulos": 69,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 30,
+   "fuerzas": {
+    "UXP": 4549,
+    "LLA": 2427
+   }
+  },
+  "32": {
+   "electores": 18189,
+   "votantes": 14655,
+   "positivos": 14325,
+   "blancos": 90,
+   "nulos": 239,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 56,
+   "fuerzas": {
+    "UXP": 7402,
+    "LLA": 6923
+   }
+  },
+  "33": {
+   "electores": 309935,
+   "votantes": 243285,
+   "positivos": 236854,
+   "blancos": 1937,
+   "nulos": 4357,
+   "recurridos": 97,
+   "impugnados": 40,
+   "comando": 0,
+   "otros": 137,
+   "mesas": 898,
+   "fuerzas": {
+    "LLA": 152108,
+    "UXP": 84746
+   }
+  },
+  "34": {
+   "electores": 10387,
+   "votantes": 7102,
+   "positivos": 7004,
+   "blancos": 30,
+   "nulos": 67,
+   "recurridos": 0,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 32,
+   "fuerzas": {
+    "LLA": 3703,
+    "UXP": 3301
+   }
+  },
+  "35": {
+   "electores": 2739,
+   "votantes": 1994,
+   "positivos": 1957,
+   "blancos": 9,
+   "nulos": 28,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 9,
+   "fuerzas": {
+    "LLA": 1052,
+    "UXP": 905
+   }
+  },
+  "36": {
+   "electores": 14805,
+   "votantes": 10969,
+   "positivos": 10784,
+   "blancos": 67,
+   "nulos": 118,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 48,
+   "fuerzas": {
+    "UXP": 5974,
+    "LLA": 4810
+   }
+  },
+  "37": {
+   "electores": 54569,
+   "votantes": 41016,
+   "positivos": 40112,
+   "blancos": 287,
+   "nulos": 605,
+   "recurridos": 11,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 12,
+   "mesas": 161,
+   "fuerzas": {
+    "LLA": 22659,
+    "UXP": 17453
+   }
+  },
+  "38": {
+   "electores": 7261,
+   "votantes": 4902,
+   "positivos": 4788,
+   "blancos": 40,
+   "nulos": 72,
+   "recurridos": 0,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 23,
+   "fuerzas": {
+    "UXP": 2540,
+    "LLA": 2248
+   }
+  },
+  "39": {
+   "electores": 12190,
+   "votantes": 8809,
+   "positivos": 8615,
+   "blancos": 96,
+   "nulos": 98,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 38,
+   "fuerzas": {
+    "UXP": 4593,
+    "LLA": 4022
+   }
+  },
+  "40": {
+   "electores": 47011,
+   "votantes": 34070,
+   "positivos": 33319,
+   "blancos": 254,
+   "nulos": 486,
+   "recurridos": 11,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 139,
+   "fuerzas": {
+    "UXP": 17591,
+    "LLA": 15728
+   }
+  },
+  "41": {
+   "electores": 33424,
+   "votantes": 25689,
+   "positivos": 25200,
+   "blancos": 204,
+   "nulos": 275,
+   "recurridos": 9,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 10,
+   "mesas": 100,
+   "fuerzas": {
+    "LLA": 13886,
+    "UXP": 11314
+   }
+  },
+  "42": {
+   "electores": 39407,
+   "votantes": 29213,
+   "positivos": 28429,
+   "blancos": 273,
+   "nulos": 496,
+   "recurridos": 15,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 15,
+   "mesas": 116,
+   "fuerzas": {
+    "UXP": 14517,
+    "LLA": 13912
+   }
+  },
+  "43": {
+   "electores": 8227,
+   "votantes": 5904,
+   "positivos": 5751,
+   "blancos": 54,
+   "nulos": 99,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 27,
+   "fuerzas": {
+    "UXP": 3601,
+    "LLA": 2150
+   }
+  },
+  "44": {
+   "electores": 33153,
+   "votantes": 22554,
+   "positivos": 22101,
+   "blancos": 159,
+   "nulos": 288,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 98,
+   "fuerzas": {
+    "UXP": 12843,
+    "LLA": 9258
+   }
+  },
+  "45": {
+   "electores": 39556,
+   "votantes": 26696,
+   "positivos": 26108,
+   "blancos": 177,
+   "nulos": 407,
+   "recurridos": 2,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 118,
+   "fuerzas": {
+    "LLA": 15137,
+    "UXP": 10971
+   }
+  },
+  "46": {
+   "electores": 10081,
+   "votantes": 7737,
+   "positivos": 7576,
+   "blancos": 63,
+   "nulos": 93,
+   "recurridos": 2,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 32,
+   "fuerzas": {
+    "UXP": 5163,
+    "LLA": 2413
+   }
+  },
+  "47": {
+   "electores": 79900,
+   "votantes": 61118,
+   "positivos": 59628,
+   "blancos": 545,
+   "nulos": 926,
+   "recurridos": 12,
+   "impugnados": 7,
+   "comando": 0,
+   "otros": 19,
+   "mesas": 235,
+   "fuerzas": {
+    "UXP": 34718,
+    "LLA": 24910
+   }
+  },
+  "48": {
+   "electores": 28410,
+   "votantes": 22431,
+   "positivos": 21991,
+   "blancos": 153,
+   "nulos": 284,
+   "recurridos": 2,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 84,
+   "fuerzas": {
+    "UXP": 14461,
+    "LLA": 7530
+   }
+  },
+  "49": {
+   "electores": 33475,
+   "votantes": 26161,
+   "positivos": 25670,
+   "blancos": 161,
+   "nulos": 328,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 98,
+   "fuerzas": {
+    "UXP": 13729,
+    "LLA": 11941
+   }
+  },
+  "50": {
+   "electores": 14965,
+   "votantes": 11666,
+   "positivos": 11398,
+   "blancos": 75,
+   "nulos": 189,
+   "recurridos": 2,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 45,
+   "fuerzas": {
+    "LLA": 5753,
+    "UXP": 5645
+   }
+  },
+  "51": {
+   "electores": 25914,
+   "votantes": 20050,
+   "positivos": 19496,
+   "blancos": 340,
+   "nulos": 203,
+   "recurridos": 1,
+   "impugnados": 10,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 77,
+   "fuerzas": {
+    "LLA": 11376,
+    "UXP": 8120
+   }
+  },
+  "52": {
+   "electores": 21023,
+   "votantes": 15943,
+   "positivos": 15311,
+   "blancos": 332,
+   "nulos": 296,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 66,
+   "fuerzas": {
+    "LLA": 9475,
+    "UXP": 5836
+   }
+  },
+  "53": {
+   "electores": 20944,
+   "votantes": 16768,
+   "positivos": 16149,
+   "blancos": 278,
+   "nulos": 329,
+   "recurridos": 7,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 12,
+   "mesas": 63,
+   "fuerzas": {
+    "LLA": 10286,
+    "UXP": 5863
+   }
+  },
+  "54": {
+   "electores": 13550,
+   "votantes": 10510,
+   "positivos": 10220,
+   "blancos": 202,
+   "nulos": 85,
+   "recurridos": 1,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 39,
+   "fuerzas": {
+    "LLA": 6584,
+    "UXP": 3636
+   }
+  },
+  "55": {
+   "electores": 30415,
+   "votantes": 23305,
+   "positivos": 22600,
+   "blancos": 564,
+   "nulos": 140,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 91,
+   "fuerzas": {
+    "LLA": 13585,
+    "UXP": 9015
+   }
+  },
+  "56": {
+   "electores": 32463,
+   "votantes": 24943,
+   "positivos": 24273,
+   "blancos": 301,
+   "nulos": 367,
+   "recurridos": 1,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 96,
+   "fuerzas": {
+    "LLA": 14489,
+    "UXP": 9784
+   }
+  },
+  "57": {
+   "electores": 13465,
+   "votantes": 10477,
+   "positivos": 10254,
+   "blancos": 173,
+   "nulos": 47,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 40,
+   "fuerzas": {
+    "LLA": 5944,
+    "UXP": 4310
+   }
+  },
+  "58": {
+   "electores": 196134,
+   "votantes": 151541,
+   "positivos": 147412,
+   "blancos": 2327,
+   "nulos": 1622,
+   "recurridos": 132,
+   "impugnados": 48,
+   "comando": 0,
+   "otros": 180,
+   "mesas": 562,
+   "fuerzas": {
+    "LLA": 77235,
+    "UXP": 70177
+   }
+  },
+  "59": {
+   "electores": 20753,
+   "votantes": 16163,
+   "positivos": 15595,
+   "blancos": 475,
+   "nulos": 89,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 63,
+   "fuerzas": {
+    "LLA": 9008,
+    "UXP": 6587
+   }
+  },
+  "60": {
+   "electores": 81707,
+   "votantes": 62860,
+   "positivos": 60709,
+   "blancos": 1122,
+   "nulos": 973,
+   "recurridos": 22,
+   "impugnados": 34,
+   "comando": 0,
+   "otros": 56,
+   "mesas": 241,
+   "fuerzas": {
+    "LLA": 34593,
+    "UXP": 26116
+   }
+  },
+  "61": {
+   "electores": 274024,
+   "votantes": 213048,
+   "positivos": 207738,
+   "blancos": 2497,
+   "nulos": 2700,
+   "recurridos": 64,
+   "impugnados": 49,
+   "comando": 0,
+   "otros": 113,
+   "mesas": 790,
+   "fuerzas": {
+    "LLA": 108260,
+    "UXP": 99478
+   }
+  },
+  "62": {
+   "electores": 94608,
+   "votantes": 72672,
+   "positivos": 70308,
+   "blancos": 1182,
+   "nulos": 1130,
+   "recurridos": 40,
+   "impugnados": 12,
+   "comando": 0,
+   "otros": 52,
+   "mesas": 275,
+   "fuerzas": {
+    "LLA": 39877,
+    "UXP": 30431
+   }
+  },
+  "63": {
+   "electores": 43276,
+   "votantes": 34289,
+   "positivos": 33043,
+   "blancos": 657,
+   "nulos": 571,
+   "recurridos": 5,
+   "impugnados": 13,
+   "comando": 0,
+   "otros": 18,
+   "mesas": 131,
+   "fuerzas": {
+    "LLA": 17811,
+    "UXP": 15232
+   }
+  },
+  "64": {
+   "electores": 279071,
+   "votantes": 217928,
+   "positivos": 212728,
+   "blancos": 2667,
+   "nulos": 2295,
+   "recurridos": 207,
+   "impugnados": 31,
+   "comando": 0,
+   "otros": 238,
+   "mesas": 799,
+   "fuerzas": {
+    "UXP": 120549,
+    "LLA": 92179
+   }
+  },
+  "65": {
+   "electores": 228215,
+   "votantes": 172028,
+   "positivos": 167855,
+   "blancos": 1926,
+   "nulos": 2123,
+   "recurridos": 44,
+   "impugnados": 80,
+   "comando": 0,
+   "otros": 124,
+   "mesas": 652,
+   "fuerzas": {
+    "UXP": 100499,
+    "LLA": 67356
+   }
+  },
+  "66": {
+   "electores": 350871,
+   "votantes": 265179,
+   "positivos": 256531,
+   "blancos": 4899,
+   "nulos": 3552,
+   "recurridos": 106,
+   "impugnados": 91,
+   "comando": 0,
+   "otros": 197,
+   "mesas": 1009,
+   "fuerzas": {
+    "UXP": 133850,
+    "LLA": 122681
+   }
+  },
+  "67": {
+   "electores": 241352,
+   "votantes": 187224,
+   "positivos": 181749,
+   "blancos": 2722,
+   "nulos": 2653,
+   "recurridos": 42,
+   "impugnados": 58,
+   "comando": 0,
+   "otros": 100,
+   "mesas": 699,
+   "fuerzas": {
+    "LLA": 92652,
+    "UXP": 89097
+   }
+  },
+  "68": {
+   "electores": 57834,
+   "votantes": 45789,
+   "positivos": 44138,
+   "blancos": 775,
+   "nulos": 855,
+   "recurridos": 15,
+   "impugnados": 6,
+   "comando": 0,
+   "otros": 21,
+   "mesas": 171,
+   "fuerzas": {
+    "LLA": 26217,
+    "UXP": 17921
+   }
+  },
+  "69": {
+   "electores": 361495,
+   "votantes": 274614,
+   "positivos": 266955,
+   "blancos": 5029,
+   "nulos": 2376,
+   "recurridos": 207,
+   "impugnados": 47,
+   "comando": 0,
+   "otros": 254,
+   "mesas": 1032,
+   "fuerzas": {
+    "UXP": 158839,
+    "LLA": 108116
+   }
+  },
+  "70": {
+   "electores": 92825,
+   "votantes": 67647,
+   "positivos": 66019,
+   "blancos": 1051,
+   "nulos": 537,
+   "recurridos": 13,
+   "impugnados": 27,
+   "comando": 0,
+   "otros": 40,
+   "mesas": 264,
+   "fuerzas": {
+    "UXP": 34720,
+    "LLA": 31299
+   }
+  },
+  "71": {
+   "electores": 9838,
+   "votantes": 7848,
+   "positivos": 7664,
+   "blancos": 91,
+   "nulos": 85,
+   "recurridos": 0,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 8,
+   "mesas": 30,
+   "fuerzas": {
+    "LLA": 4159,
+    "UXP": 3505
+   }
+  },
+  "72": {
+   "electores": 283779,
+   "votantes": 218893,
+   "positivos": 211020,
+   "blancos": 4074,
+   "nulos": 3566,
+   "recurridos": 69,
+   "impugnados": 164,
+   "comando": 0,
+   "otros": 233,
+   "mesas": 815,
+   "fuerzas": {
+    "UXP": 105705,
+    "LLA": 105315
+   }
+  },
+  "73": {
+   "electores": 157798,
+   "votantes": 120996,
+   "positivos": 117304,
+   "blancos": 1693,
+   "nulos": 1943,
+   "recurridos": 44,
+   "impugnados": 12,
+   "comando": 0,
+   "otros": 56,
+   "mesas": 453,
+   "fuerzas": {
+    "UXP": 62875,
+    "LLA": 54429
+   }
+  },
+  "74": {
+   "electores": 277282,
+   "votantes": 216536,
+   "positivos": 208190,
+   "blancos": 4341,
+   "nulos": 3825,
+   "recurridos": 92,
+   "impugnados": 88,
+   "comando": 0,
+   "otros": 180,
+   "mesas": 797,
+   "fuerzas": {
+    "LLA": 105225,
+    "UXP": 102965
+   }
+  },
+  "75": {
+   "electores": 38532,
+   "votantes": 28926,
+   "positivos": 28149,
+   "blancos": 402,
+   "nulos": 368,
+   "recurridos": 3,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 119,
+   "fuerzas": {
+    "LLA": 17782,
+    "UXP": 10367
+   }
+  },
+  "76": {
+   "electores": 147514,
+   "votantes": 115180,
+   "positivos": 110871,
+   "blancos": 2747,
+   "nulos": 1498,
+   "recurridos": 48,
+   "impugnados": 16,
+   "comando": 0,
+   "otros": 64,
+   "mesas": 421,
+   "fuerzas": {
+    "UXP": 58026,
+    "LLA": 52845
+   }
+  },
+  "77": {
+   "electores": 8166,
+   "votantes": 6307,
+   "positivos": 6146,
+   "blancos": 65,
+   "nulos": 95,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 24,
+   "fuerzas": {
+    "LLA": 3785,
+    "UXP": 2361
+   }
+  },
+  "78": {
+   "electores": 1041061,
+   "votantes": 804780,
+   "positivos": 782505,
+   "blancos": 13193,
+   "nulos": 8748,
+   "recurridos": 177,
+   "impugnados": 157,
+   "comando": 0,
+   "otros": 334,
+   "mesas": 2971,
+   "fuerzas": {
+    "UXP": 478833,
+    "LLA": 303672
+   }
+  },
+  "79": {
+   "electores": 418074,
+   "votantes": 315182,
+   "positivos": 306669,
+   "blancos": 4741,
+   "nulos": 3450,
+   "recurridos": 248,
+   "impugnados": 74,
+   "comando": 0,
+   "otros": 322,
+   "mesas": 1193,
+   "fuerzas": {
+    "UXP": 183842,
+    "LLA": 122827
+   }
+  },
+  "80": {
+   "electores": 60203,
+   "votantes": 46565,
+   "positivos": 44906,
+   "blancos": 901,
+   "nulos": 732,
+   "recurridos": 25,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 26,
+   "mesas": 180,
+   "fuerzas": {
+    "LLA": 24086,
+    "UXP": 20820
+   }
+  },
+  "81": {
+   "electores": 37383,
+   "votantes": 28767,
+   "positivos": 27745,
+   "blancos": 534,
+   "nulos": 483,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 114,
+   "fuerzas": {
+    "LLA": 15942,
+    "UXP": 11803
+   }
+  },
+  "82": {
+   "electores": 376108,
+   "votantes": 290468,
+   "positivos": 280362,
+   "blancos": 6308,
+   "nulos": 3608,
+   "recurridos": 101,
+   "impugnados": 89,
+   "comando": 0,
+   "otros": 190,
+   "mesas": 1081,
+   "fuerzas": {
+    "UXP": 157320,
+    "LLA": 123042
+   }
+  },
+  "83": {
+   "electores": 48686,
+   "votantes": 37487,
+   "positivos": 36424,
+   "blancos": 662,
+   "nulos": 394,
+   "recurridos": 3,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 140,
+   "fuerzas": {
+    "UXP": 21219,
+    "LLA": 15205
+   }
+  },
+  "84": {
+   "electores": 512509,
+   "votantes": 401540,
+   "positivos": 388485,
+   "blancos": 7383,
+   "nulos": 5451,
+   "recurridos": 100,
+   "impugnados": 121,
+   "comando": 0,
+   "otros": 221,
+   "mesas": 1470,
+   "fuerzas": {
+    "UXP": 227514,
+    "LLA": 160971
+   }
+  },
+  "85": {
+   "electores": 15916,
+   "votantes": 12476,
+   "positivos": 12087,
+   "blancos": 196,
+   "nulos": 190,
+   "recurridos": 2,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 49,
+   "fuerzas": {
+    "LLA": 6597,
+    "UXP": 5490
+   }
+  },
+  "86": {
+   "electores": 14194,
+   "votantes": 11422,
+   "positivos": 11057,
+   "blancos": 198,
+   "nulos": 164,
+   "recurridos": 2,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 42,
+   "fuerzas": {
+    "LLA": 5583,
+    "UXP": 5474
+   }
+  },
+  "87": {
+   "electores": 238690,
+   "votantes": 187100,
+   "positivos": 181265,
+   "blancos": 2932,
+   "nulos": 2786,
+   "recurridos": 53,
+   "impugnados": 64,
+   "comando": 0,
+   "otros": 117,
+   "mesas": 683,
+   "fuerzas": {
+    "UXP": 96277,
+    "LLA": 84988
+   }
+  },
+  "88": {
+   "electores": 142626,
+   "votantes": 112840,
+   "positivos": 110156,
+   "blancos": 1832,
+   "nulos": 824,
+   "recurridos": 14,
+   "impugnados": 14,
+   "comando": 0,
+   "otros": 28,
+   "mesas": 409,
+   "fuerzas": {
+    "UXP": 57175,
+    "LLA": 52981
+   }
+  },
+  "89": {
+   "electores": 455232,
+   "votantes": 352282,
+   "positivos": 341680,
+   "blancos": 5584,
+   "nulos": 4842,
+   "recurridos": 76,
+   "impugnados": 100,
+   "comando": 0,
+   "otros": 176,
+   "mesas": 1305,
+   "fuerzas": {
+    "UXP": 201239,
+    "LLA": 140441
+   }
+  },
+  "90": {
+   "electores": 9645,
+   "votantes": 7647,
+   "positivos": 7410,
+   "blancos": 230,
+   "nulos": 6,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 30,
+   "fuerzas": {
+    "LLA": 4314,
+    "UXP": 3096
+   }
+  },
+  "91": {
+   "electores": 334904,
+   "votantes": 254242,
+   "positivos": 248765,
+   "blancos": 4015,
+   "nulos": 1417,
+   "recurridos": 19,
+   "impugnados": 26,
+   "comando": 0,
+   "otros": 45,
+   "mesas": 958,
+   "fuerzas": {
+    "UXP": 157084,
+    "LLA": 91681
+   }
+  },
+  "92": {
+   "electores": 15530,
+   "votantes": 12075,
+   "positivos": 11750,
+   "blancos": 146,
+   "nulos": 179,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 49,
+   "fuerzas": {
+    "LLA": 7277,
+    "UXP": 4473
+   }
+  },
+  "93": {
+   "electores": 560219,
+   "votantes": 431175,
+   "positivos": 413228,
+   "blancos": 9907,
+   "nulos": 7640,
+   "recurridos": 243,
+   "impugnados": 157,
+   "comando": 0,
+   "otros": 400,
+   "mesas": 1629,
+   "fuerzas": {
+    "LLA": 208515,
+    "UXP": 204713
+   }
+  },
+  "94": {
+   "electores": 70768,
+   "votantes": 54700,
+   "positivos": 53248,
+   "blancos": 610,
+   "nulos": 817,
+   "recurridos": 17,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 25,
+   "mesas": 203,
+   "fuerzas": {
+    "UXP": 32025,
+    "LLA": 21223
+   }
+  },
+  "95": {
+   "electores": 49974,
+   "votantes": 39337,
+   "positivos": 38280,
+   "blancos": 661,
+   "nulos": 374,
+   "recurridos": 8,
+   "impugnados": 14,
+   "comando": 0,
+   "otros": 22,
+   "mesas": 144,
+   "fuerzas": {
+    "LLA": 19668,
+    "UXP": 18612
+   }
+  },
+  "96": {
+   "electores": 60284,
+   "votantes": 46124,
+   "positivos": 44847,
+   "blancos": 719,
+   "nulos": 528,
+   "recurridos": 10,
+   "impugnados": 20,
+   "comando": 0,
+   "otros": 30,
+   "mesas": 172,
+   "fuerzas": {
+    "UXP": 24880,
+    "LLA": 19967
+   }
+  },
+  "97": {
+   "electores": 33066,
+   "votantes": 25806,
+   "positivos": 24898,
+   "blancos": 698,
+   "nulos": 192,
+   "recurridos": 7,
+   "impugnados": 11,
+   "comando": 0,
+   "otros": 18,
+   "mesas": 99,
+   "fuerzas": {
+    "LLA": 15501,
+    "UXP": 9397
+   }
+  },
+  "98": {
+   "electores": 26172,
+   "votantes": 20437,
+   "positivos": 19793,
+   "blancos": 286,
+   "nulos": 333,
+   "recurridos": 14,
+   "impugnados": 11,
+   "comando": 0,
+   "otros": 25,
+   "mesas": 77,
+   "fuerzas": {
+    "LLA": 10880,
+    "UXP": 8913
+   }
+  },
+  "99": {
+   "electores": 10203,
+   "votantes": 8007,
+   "positivos": 7789,
+   "blancos": 143,
+   "nulos": 73,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 32,
+   "fuerzas": {
+    "LLA": 4036,
+    "UXP": 3753
+   }
+  },
+  "100": {
+   "electores": 30775,
+   "votantes": 23508,
+   "positivos": 22802,
+   "blancos": 339,
+   "nulos": 352,
+   "recurridos": 15,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 15,
+   "mesas": 94,
+   "fuerzas": {
+    "LLA": 14530,
+    "UXP": 8272
+   }
+  },
+  "101": {
+   "electores": 43181,
+   "votantes": 32921,
+   "positivos": 31903,
+   "blancos": 566,
+   "nulos": 443,
+   "recurridos": 3,
+   "impugnados": 6,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 133,
+   "fuerzas": {
+    "LLA": 20408,
+    "UXP": 11495
+   }
+  },
+  "102": {
+   "electores": 11700,
+   "votantes": 9359,
+   "positivos": 9082,
+   "blancos": 186,
+   "nulos": 89,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 39,
+   "fuerzas": {
+    "LLA": 4884,
+    "UXP": 4198
+   }
+  },
+  "103": {
+   "electores": 20265,
+   "votantes": 15115,
+   "positivos": 14537,
+   "blancos": 338,
+   "nulos": 228,
+   "recurridos": 6,
+   "impugnados": 6,
+   "comando": 0,
+   "otros": 12,
+   "mesas": 62,
+   "fuerzas": {
+    "LLA": 8499,
+    "UXP": 6038
+   }
+  },
+  "104": {
+   "electores": 11466,
+   "votantes": 8889,
+   "positivos": 8643,
+   "blancos": 128,
+   "nulos": 114,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 36,
+   "fuerzas": {
+    "LLA": 5217,
+    "UXP": 3426
+   }
+  },
+  "105": {
+   "electores": 20188,
+   "votantes": 15421,
+   "positivos": 15011,
+   "blancos": 330,
+   "nulos": 79,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 62,
+   "fuerzas": {
+    "LLA": 9372,
+    "UXP": 5639
+   }
+  },
+  "106": {
+   "electores": 29215,
+   "votantes": 22389,
+   "positivos": 21442,
+   "blancos": 405,
+   "nulos": 539,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 89,
+   "fuerzas": {
+    "LLA": 13735,
+    "UXP": 7707
+   }
+  },
+  "107": {
+   "electores": 36060,
+   "votantes": 27914,
+   "positivos": 26942,
+   "blancos": 431,
+   "nulos": 541,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 107,
+   "fuerzas": {
+    "LLA": 15759,
+    "UXP": 11183
+   }
+  },
+  "108": {
+   "electores": 41585,
+   "votantes": 30096,
+   "positivos": 28968,
+   "blancos": 606,
+   "nulos": 517,
+   "recurridos": 4,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 122,
+   "fuerzas": {
+    "LLA": 18447,
+    "UXP": 10521
+   }
+  },
+  "109": {
+   "electores": 16772,
+   "votantes": 12860,
+   "positivos": 12510,
+   "blancos": 243,
+   "nulos": 104,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 50,
+   "fuerzas": {
+    "LLA": 7403,
+    "UXP": 5107
+   }
+  },
+  "110": {
+   "electores": 22454,
+   "votantes": 17246,
+   "positivos": 16639,
+   "blancos": 339,
+   "nulos": 268,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 70,
+   "fuerzas": {
+    "LLA": 9639,
+    "UXP": 7000
+   }
+  },
+  "111": {
+   "electores": 9004,
+   "votantes": 6656,
+   "positivos": 6413,
+   "blancos": 198,
+   "nulos": 43,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 29,
+   "fuerzas": {
+    "LLA": 4024,
+    "UXP": 2389
+   }
+  },
+  "112": {
+   "electores": 3628,
+   "votantes": 2825,
+   "positivos": 2727,
+   "blancos": 42,
+   "nulos": 55,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 12,
+   "fuerzas": {
+    "LLA": 1550,
+    "UXP": 1177
+   }
+  },
+  "113": {
+   "electores": 31343,
+   "votantes": 23643,
+   "positivos": 22886,
+   "blancos": 357,
+   "nulos": 399,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 96,
+   "fuerzas": {
+    "LLA": 14090,
+    "UXP": 8796
+   }
+  },
+  "114": {
+   "electores": 8923,
+   "votantes": 6584,
+   "positivos": 6373,
+   "blancos": 159,
+   "nulos": 50,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 29,
+   "fuerzas": {
+    "LLA": 3624,
+    "UXP": 2749
+   }
+  },
+  "115": {
+   "electores": 8243,
+   "votantes": 6004,
+   "positivos": 5834,
+   "blancos": 79,
+   "nulos": 90,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 26,
+   "fuerzas": {
+    "LLA": 3509,
+    "UXP": 2325
+   }
+  },
+  "116": {
+   "electores": 25513,
+   "votantes": 19128,
+   "positivos": 18495,
+   "blancos": 246,
+   "nulos": 384,
+   "recurridos": 2,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 75,
+   "fuerzas": {
+    "LLA": 11216,
+    "UXP": 7279
+   }
+  },
+  "117": {
+   "electores": 14082,
+   "votantes": 10688,
+   "positivos": 10167,
+   "blancos": 349,
+   "nulos": 161,
+   "recurridos": 10,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 46,
+   "fuerzas": {
+    "LLA": 5407,
+    "UXP": 4760
+   }
+  },
+  "118": {
+   "electores": 58339,
+   "votantes": 43606,
+   "positivos": 41796,
+   "blancos": 730,
+   "nulos": 1071,
+   "recurridos": 9,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 177,
+   "fuerzas": {
+    "LLA": 24024,
+    "UXP": 17772
+   }
+  },
+  "119": {
+   "electores": 15288,
+   "votantes": 11144,
+   "positivos": 10828,
+   "blancos": 166,
+   "nulos": 149,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 46,
+   "fuerzas": {
+    "LLA": 6793,
+    "UXP": 4035
+   }
+  },
+  "120": {
+   "electores": 6852,
+   "votantes": 5054,
+   "positivos": 4849,
+   "blancos": 128,
+   "nulos": 76,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 21,
+   "fuerzas": {
+    "LLA": 2831,
+    "UXP": 2018
+   }
+  },
+  "121": {
+   "electores": 2905,
+   "votantes": 1966,
+   "positivos": 1892,
+   "blancos": 30,
+   "nulos": 44,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 11,
+   "fuerzas": {
+    "UXP": 972,
+    "LLA": 920
+   }
+  },
+  "122": {
+   "electores": 98202,
+   "votantes": 73645,
+   "positivos": 70767,
+   "blancos": 1281,
+   "nulos": 1560,
+   "recurridos": 23,
+   "impugnados": 14,
+   "comando": 0,
+   "otros": 37,
+   "mesas": 292,
+   "fuerzas": {
+    "LLA": 41393,
+    "UXP": 29374
+   }
+  },
+  "123": {
+   "electores": 18475,
+   "votantes": 13517,
+   "positivos": 12791,
+   "blancos": 451,
+   "nulos": 270,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 61,
+   "fuerzas": {
+    "LLA": 7030,
+    "UXP": 5761
+   }
+  },
+  "124": {
+   "electores": 10108,
+   "votantes": 7725,
+   "positivos": 7518,
+   "blancos": 176,
+   "nulos": 30,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 31,
+   "fuerzas": {
+    "LLA": 4397,
+    "UXP": 3121
+   }
+  },
+  "125": {
+   "electores": 7850,
+   "votantes": 5774,
+   "positivos": 5642,
+   "blancos": 59,
+   "nulos": 71,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 23,
+   "fuerzas": {
+    "LLA": 3331,
+    "UXP": 2311
+   }
+  },
+  "126": {
+   "electores": 10243,
+   "votantes": 7445,
+   "positivos": 7174,
+   "blancos": 99,
+   "nulos": 172,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 32,
+   "fuerzas": {
+    "LLA": 4087,
+    "UXP": 3087
+   }
+  },
+  "127": {
+   "electores": 19455,
+   "votantes": 13947,
+   "positivos": 13490,
+   "blancos": 272,
+   "nulos": 169,
+   "recurridos": 2,
+   "impugnados": 14,
+   "comando": 0,
+   "otros": 16,
+   "mesas": 58,
+   "fuerzas": {
+    "LLA": 8437,
+    "UXP": 5053
+   }
+  },
+  "128": {
+   "electores": 114201,
+   "votantes": 86814,
+   "positivos": 82867,
+   "blancos": 1919,
+   "nulos": 1968,
+   "recurridos": 19,
+   "impugnados": 41,
+   "comando": 0,
+   "otros": 60,
+   "mesas": 335,
+   "fuerzas": {
+    "LLA": 51223,
+    "UXP": 31644
+   }
+  },
+  "129": {
+   "electores": 9867,
+   "votantes": 7432,
+   "positivos": 7133,
+   "blancos": 105,
+   "nulos": 194,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 30,
+   "fuerzas": {
+    "LLA": 4413,
+    "UXP": 2720
+   }
+  },
+  "130": {
+   "electores": 34767,
+   "votantes": 26023,
+   "positivos": 24969,
+   "blancos": 350,
+   "nulos": 700,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 105,
+   "fuerzas": {
+    "LLA": 16441,
+    "UXP": 8528
+   }
+  },
+  "131": {
+   "electores": 9886,
+   "votantes": 7385,
+   "positivos": 7095,
+   "blancos": 124,
+   "nulos": 166,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 31,
+   "fuerzas": {
+    "LLA": 3852,
+    "UXP": 3243
+   }
+  },
+  "132": {
+   "electores": 17619,
+   "votantes": 12941,
+   "positivos": 12343,
+   "blancos": 321,
+   "nulos": 271,
+   "recurridos": 1,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 55,
+   "fuerzas": {
+    "LLA": 6385,
+    "UXP": 5958
+   }
+  },
+  "133": {
+   "electores": 18040,
+   "votantes": 13475,
+   "positivos": 12907,
+   "blancos": 226,
+   "nulos": 341,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 56,
+   "fuerzas": {
+    "LLA": 8890,
+    "UXP": 4017
+   }
+  },
+  "134": {
+   "electores": 41091,
+   "votantes": 31087,
+   "positivos": 29936,
+   "blancos": 530,
+   "nulos": 619,
+   "recurridos": 0,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 121,
+   "fuerzas": {
+    "LLA": 19561,
+    "UXP": 10375
+   }
+  },
+  "135": {
+   "electores": 10893,
+   "votantes": 7965,
+   "positivos": 7662,
+   "blancos": 132,
+   "nulos": 170,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 32,
+   "fuerzas": {
+    "LLA": 4177,
+    "UXP": 3485
+   }
+  },
+  "136": {
+   "electores": 20606,
+   "votantes": 14891,
+   "positivos": 14315,
+   "blancos": 252,
+   "nulos": 316,
+   "recurridos": 4,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 8,
+   "mesas": 60,
+   "fuerzas": {
+    "LLA": 9457,
+    "UXP": 4858
+   }
+  },
+  "137": {
+   "electores": 15843,
+   "votantes": 10879,
+   "positivos": 10526,
+   "blancos": 209,
+   "nulos": 143,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 47,
+   "fuerzas": {
+    "LLA": 6811,
+    "UXP": 3715
+   }
+  },
+  "138": {
+   "electores": 47617,
+   "votantes": 37951,
+   "positivos": 36911,
+   "blancos": 511,
+   "nulos": 517,
+   "recurridos": 7,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 12,
+   "mesas": 150,
+   "fuerzas": {
+    "LLA": 26898,
+    "UXP": 10013
+   }
+  },
+  "139": {
+   "electores": 249953,
+   "votantes": 188613,
+   "positivos": 180997,
+   "blancos": 3792,
+   "nulos": 3710,
+   "recurridos": 53,
+   "impugnados": 61,
+   "comando": 0,
+   "otros": 114,
+   "mesas": 724,
+   "fuerzas": {
+    "LLA": 114546,
+    "UXP": 66451
+   }
+  },
+  "140": {
+   "electores": 9318,
+   "votantes": 6497,
+   "positivos": 6266,
+   "blancos": 165,
+   "nulos": 63,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 27,
+   "fuerzas": {
+    "LLA": 3318,
+    "UXP": 2948
+   }
+  },
+  "141": {
+   "electores": 13943,
+   "votantes": 10465,
+   "positivos": 10113,
+   "blancos": 162,
+   "nulos": 186,
+   "recurridos": 3,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 47,
+   "fuerzas": {
+    "LLA": 6420,
+    "UXP": 3693
+   }
+  },
+  "142": {
+   "electores": 86882,
+   "votantes": 62795,
+   "positivos": 60460,
+   "blancos": 1246,
+   "nulos": 1079,
+   "recurridos": 3,
+   "impugnados": 7,
+   "comando": 0,
+   "otros": 10,
+   "mesas": 250,
+   "fuerzas": {
+    "LLA": 37845,
+    "UXP": 22615
+   }
+  },
+  "143": {
+   "electores": 14948,
+   "votantes": 10914,
+   "positivos": 10421,
+   "blancos": 185,
+   "nulos": 303,
+   "recurridos": 4,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 46,
+   "fuerzas": {
+    "LLA": 5865,
+    "UXP": 4556
+   }
+  },
+  "144": {
+   "electores": 38597,
+   "votantes": 28920,
+   "positivos": 28044,
+   "blancos": 455,
+   "nulos": 400,
+   "recurridos": 2,
+   "impugnados": 19,
+   "comando": 0,
+   "otros": 21,
+   "mesas": 113,
+   "fuerzas": {
+    "LLA": 15668,
+    "UXP": 12376
+   }
+  },
+  "145": {
+   "electores": 40334,
+   "votantes": 30618,
+   "positivos": 29322,
+   "blancos": 964,
+   "nulos": 328,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 122,
+   "fuerzas": {
+    "LLA": 17281,
+    "UXP": 12041
+   }
+  },
+  "146": {
+   "electores": 81178,
+   "votantes": 64176,
+   "positivos": 62165,
+   "blancos": 1396,
+   "nulos": 577,
+   "recurridos": 17,
+   "impugnados": 21,
+   "comando": 0,
+   "otros": 38,
+   "mesas": 232,
+   "fuerzas": {
+    "UXP": 35082,
+    "LLA": 27083
+   }
+  },
+  "147": {
+   "electores": 57890,
+   "votantes": 45213,
+   "positivos": 43930,
+   "blancos": 931,
+   "nulos": 321,
+   "recurridos": 27,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 31,
+   "mesas": 166,
+   "fuerzas": {
+    "UXP": 27325,
+    "LLA": 16605
+   }
+  },
+  "148": {
+   "electores": 272304,
+   "votantes": 218694,
+   "positivos": 212575,
+   "blancos": 3754,
+   "nulos": 2311,
+   "recurridos": 31,
+   "impugnados": 23,
+   "comando": 0,
+   "otros": 54,
+   "mesas": 783,
+   "fuerzas": {
+    "UXP": 118509,
+    "LLA": 94066
+   }
+  },
+  "149": {
+   "electores": 293932,
+   "votantes": 228075,
+   "positivos": 220583,
+   "blancos": 4802,
+   "nulos": 2508,
+   "recurridos": 121,
+   "impugnados": 61,
+   "comando": 0,
+   "otros": 182,
+   "mesas": 846,
+   "fuerzas": {
+    "UXP": 127060,
+    "LLA": 93523
+   }
+  },
+  "150": {
+   "electores": 272207,
+   "votantes": 209469,
+   "positivos": 201163,
+   "blancos": 4595,
+   "nulos": 3505,
+   "recurridos": 159,
+   "impugnados": 47,
+   "comando": 0,
+   "otros": 206,
+   "mesas": 780,
+   "fuerzas": {
+    "LLA": 130059,
+    "UXP": 71104
+   }
+  },
+  "151": {
+   "electores": 331269,
+   "votantes": 254579,
+   "positivos": 246908,
+   "blancos": 3921,
+   "nulos": 3624,
+   "recurridos": 55,
+   "impugnados": 71,
+   "comando": 0,
+   "otros": 126,
+   "mesas": 947,
+   "fuerzas": {
+    "LLA": 128526,
+    "UXP": 118382
+   }
+  },
+  "152": {
+   "electores": 10259,
+   "votantes": 8109,
+   "positivos": 7898,
+   "blancos": 116,
+   "nulos": 93,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 31,
+   "fuerzas": {
+    "LLA": 4439,
+    "UXP": 3459
+   }
+  },
+  "153": {
+   "electores": 7418,
+   "votantes": 5448,
+   "positivos": 5262,
+   "blancos": 118,
+   "nulos": 68,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 24,
+   "fuerzas": {
+    "LLA": 3458,
+    "UXP": 1804
+   }
+  },
+  "154": {
+   "electores": 53579,
+   "votantes": 39062,
+   "positivos": 37682,
+   "blancos": 646,
+   "nulos": 725,
+   "recurridos": 4,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 158,
+   "fuerzas": {
+    "LLA": 21607,
+    "UXP": 16075
+   }
+  },
+  "155": {
+   "electores": 557262,
+   "votantes": 409855,
+   "positivos": 393422,
+   "blancos": 7322,
+   "nulos": 8887,
+   "recurridos": 113,
+   "impugnados": 111,
+   "comando": 0,
+   "otros": 224,
+   "mesas": 1609,
+   "fuerzas": {
+    "LLA": 223162,
+    "UXP": 170260
+   }
+  },
+  "156": {
+   "electores": 31508,
+   "votantes": 22992,
+   "positivos": 22364,
+   "blancos": 374,
+   "nulos": 254,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 95,
+   "fuerzas": {
+    "LLA": 12055,
+    "UXP": 10309
+   }
+  },
+  "157": {
+   "electores": 32391,
+   "votantes": 22442,
+   "positivos": 21740,
+   "blancos": 327,
+   "nulos": 359,
+   "recurridos": 3,
+   "impugnados": 13,
+   "comando": 0,
+   "otros": 16,
+   "mesas": 93,
+   "fuerzas": {
+    "LLA": 12390,
+    "UXP": 9350
+   }
+  },
+  "158": {
+   "electores": 30348,
+   "votantes": 21456,
+   "positivos": 20831,
+   "blancos": 245,
+   "nulos": 368,
+   "recurridos": 12,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 12,
+   "mesas": 89,
+   "fuerzas": {
+    "LLA": 13600,
+    "UXP": 7231
+   }
+  },
+  "159": {
+   "electores": 79619,
+   "votantes": 56841,
+   "positivos": 55412,
+   "blancos": 832,
+   "nulos": 580,
+   "recurridos": 17,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 17,
+   "mesas": 229,
+   "fuerzas": {
+    "LLA": 31741,
+    "UXP": 23671
+   }
+  },
+  "160": {
+   "electores": 4804,
+   "votantes": 3471,
+   "positivos": 3398,
+   "blancos": 31,
+   "nulos": 42,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 15,
+   "fuerzas": {
+    "LLA": 2128,
+    "UXP": 1270
+   }
+  },
+  "161": {
+   "electores": 2433,
+   "votantes": 1797,
+   "positivos": 1751,
+   "blancos": 13,
+   "nulos": 28,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 7,
+   "fuerzas": {
+    "LLA": 1008,
+    "UXP": 743
+   }
+  },
+  "162": {
+   "electores": 7933,
+   "votantes": 6326,
+   "positivos": 6127,
+   "blancos": 75,
+   "nulos": 124,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 25,
+   "fuerzas": {
+    "LLA": 3392,
+    "UXP": 2735
+   }
+  },
+  "163": {
+   "electores": 10083,
+   "votantes": 7681,
+   "positivos": 7457,
+   "blancos": 109,
+   "nulos": 113,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 31,
+   "fuerzas": {
+    "LLA": 4339,
+    "UXP": 3118
+   }
+  },
+  "164": {
+   "electores": 15710,
+   "votantes": 12261,
+   "positivos": 11829,
+   "blancos": 314,
+   "nulos": 117,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 50,
+   "fuerzas": {
+    "LLA": 6670,
+    "UXP": 5159
+   }
+  },
+  "165": {
+   "electores": 475748,
+   "votantes": 371503,
+   "positivos": 360982,
+   "blancos": 6956,
+   "nulos": 3381,
+   "recurridos": 132,
+   "impugnados": 52,
+   "comando": 0,
+   "otros": 184,
+   "mesas": 1364,
+   "fuerzas": {
+    "UXP": 204429,
+    "LLA": 156553
+   }
+  },
+  "166": {
+   "electores": 230603,
+   "votantes": 178380,
+   "positivos": 169440,
+   "blancos": 5176,
+   "nulos": 3643,
+   "recurridos": 87,
+   "impugnados": 34,
+   "comando": 0,
+   "otros": 121,
+   "mesas": 667,
+   "fuerzas": {
+    "LLA": 106078,
+    "UXP": 63362
+   }
+  },
+  "167": {
+   "electores": 131784,
+   "votantes": 103040,
+   "positivos": 100046,
+   "blancos": 2073,
+   "nulos": 844,
+   "recurridos": 29,
+   "impugnados": 48,
+   "comando": 0,
+   "otros": 77,
+   "mesas": 385,
+   "fuerzas": {
+    "UXP": 50181,
+    "LLA": 49865
+   }
+  },
+  "168": {
+   "electores": 85735,
+   "votantes": 66292,
+   "positivos": 64244,
+   "blancos": 985,
+   "nulos": 1034,
+   "recurridos": 6,
+   "impugnados": 23,
+   "comando": 0,
+   "otros": 29,
+   "mesas": 245,
+   "fuerzas": {
+    "LLA": 33680,
+    "UXP": 30564
+   }
+  },
+  "169": {
+   "electores": 30793,
+   "votantes": 23972,
+   "positivos": 23145,
+   "blancos": 337,
+   "nulos": 468,
+   "recurridos": 9,
+   "impugnados": 13,
+   "comando": 0,
+   "otros": 22,
+   "mesas": 93,
+   "fuerzas": {
+    "UXP": 11876,
+    "LLA": 11269
+   }
+  },
+  "170": {
+   "electores": 101116,
+   "votantes": 78675,
+   "positivos": 76183,
+   "blancos": 1506,
+   "nulos": 954,
+   "recurridos": 12,
+   "impugnados": 20,
+   "comando": 0,
+   "otros": 32,
+   "mesas": 294,
+   "fuerzas": {
+    "LLA": 38211,
+    "UXP": 37972
+   }
+  },
+  "171": {
+   "electores": 53754,
+   "votantes": 41017,
+   "positivos": 39804,
+   "blancos": 606,
+   "nulos": 600,
+   "recurridos": 7,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 158,
+   "fuerzas": {
+    "LLA": 23413,
+    "UXP": 16391
+   }
+  },
+  "172": {
+   "electores": 31001,
+   "votantes": 24548,
+   "positivos": 23868,
+   "blancos": 509,
+   "nulos": 168,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 93,
+   "fuerzas": {
+    "LLA": 12924,
+    "UXP": 10944
+   }
+  },
+  "173": {
+   "electores": 127525,
+   "votantes": 99434,
+   "positivos": 96034,
+   "blancos": 2257,
+   "nulos": 1079,
+   "recurridos": 24,
+   "impugnados": 40,
+   "comando": 0,
+   "otros": 64,
+   "mesas": 372,
+   "fuerzas": {
+    "LLA": 54389,
+    "UXP": 41645
+   }
+  },
+  "174": {
+   "electores": 91205,
+   "votantes": 69136,
+   "positivos": 66897,
+   "blancos": 1054,
+   "nulos": 1128,
+   "recurridos": 20,
+   "impugnados": 37,
+   "comando": 0,
+   "otros": 57,
+   "mesas": 273,
+   "fuerzas": {
+    "LLA": 41846,
+    "UXP": 25051
+   }
+  },
+  "175": {
+   "electores": 22237,
+   "votantes": 17168,
+   "positivos": 16705,
+   "blancos": 255,
+   "nulos": 204,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 65,
+   "fuerzas": {
+    "LLA": 8789,
+    "UXP": 7916
+   }
+  },
+  "176": {
+   "electores": 18945,
+   "votantes": 14927,
+   "positivos": 14814,
+   "blancos": 76,
+   "nulos": 36,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 61,
+   "fuerzas": {
+    "UXP": 11789,
+    "LLA": 3025
+   }
+  },
+  "177": {
+   "electores": 15395,
+   "votantes": 11483,
+   "positivos": 11414,
+   "blancos": 35,
+   "nulos": 33,
+   "recurridos": 0,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 49,
+   "fuerzas": {
+    "UXP": 10266,
+    "LLA": 1148
+   }
+  },
+  "178": {
+   "electores": 19747,
+   "votantes": 14835,
+   "positivos": 14715,
+   "blancos": 77,
+   "nulos": 43,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 59,
+   "fuerzas": {
+    "UXP": 11611,
+    "LLA": 3104
+   }
+  },
+  "179": {
+   "electores": 9796,
+   "votantes": 7001,
+   "positivos": 6920,
+   "blancos": 39,
+   "nulos": 41,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 33,
+   "fuerzas": {
+    "UXP": 5495,
+    "LLA": 1425
+   }
+  },
+  "180": {
+   "electores": 14468,
+   "votantes": 10944,
+   "positivos": 10851,
+   "blancos": 55,
+   "nulos": 33,
+   "recurridos": 2,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 44,
+   "fuerzas": {
+    "UXP": 8468,
+    "LLA": 2383
+   }
+  },
+  "181": {
+   "electores": 29412,
+   "votantes": 22474,
+   "positivos": 22205,
+   "blancos": 161,
+   "nulos": 100,
+   "recurridos": 3,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 8,
+   "mesas": 92,
+   "fuerzas": {
+    "UXP": 15677,
+    "LLA": 6528
+   }
+  },
+  "182": {
+   "electores": 14557,
+   "votantes": 11335,
+   "positivos": 11234,
+   "blancos": 67,
+   "nulos": 33,
+   "recurridos": 0,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 47,
+   "fuerzas": {
+    "UXP": 8571,
+    "LLA": 2663
+   }
+  },
+  "183": {
+   "electores": 36906,
+   "votantes": 28859,
+   "positivos": 28488,
+   "blancos": 200,
+   "nulos": 166,
+   "recurridos": 4,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 108,
+   "fuerzas": {
+    "UXP": 20063,
+    "LLA": 8425
+   }
+  },
+  "184": {
+   "electores": 3795,
+   "votantes": 3109,
+   "positivos": 3077,
+   "blancos": 20,
+   "nulos": 12,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 14,
+   "fuerzas": {
+    "LLA": 1663,
+    "UXP": 1414
+   }
+  },
+  "185": {
+   "electores": 13288,
+   "votantes": 9975,
+   "positivos": 9802,
+   "blancos": 89,
+   "nulos": 83,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 43,
+   "fuerzas": {
+    "UXP": 6440,
+    "LLA": 3362
+   }
+  },
+  "186": {
+   "electores": 32177,
+   "votantes": 25188,
+   "positivos": 24784,
+   "blancos": 193,
+   "nulos": 203,
+   "recurridos": 3,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 8,
+   "mesas": 98,
+   "fuerzas": {
+    "UXP": 18403,
+    "LLA": 6381
+   }
+  },
+  "187": {
+   "electores": 18976,
+   "votantes": 14123,
+   "positivos": 13733,
+   "blancos": 165,
+   "nulos": 222,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 62,
+   "fuerzas": {
+    "LLA": 7875,
+    "UXP": 5858
+   }
+  },
+  "188": {
+   "electores": 11227,
+   "votantes": 8223,
+   "positivos": 8063,
+   "blancos": 83,
+   "nulos": 74,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 39,
+   "fuerzas": {
+    "LLA": 4976,
+    "UXP": 3087
+   }
+  },
+  "189": {
+   "electores": 4779,
+   "votantes": 4029,
+   "positivos": 3946,
+   "blancos": 54,
+   "nulos": 24,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 14,
+   "fuerzas": {
+    "UXP": 2476,
+    "LLA": 1470
+   }
+  },
+  "190": {
+   "electores": 8336,
+   "votantes": 6538,
+   "positivos": 6384,
+   "blancos": 53,
+   "nulos": 98,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 27,
+   "fuerzas": {
+    "LLA": 3823,
+    "UXP": 2561
+   }
+  },
+  "191": {
+   "electores": 21826,
+   "votantes": 17690,
+   "positivos": 17176,
+   "blancos": 262,
+   "nulos": 242,
+   "recurridos": 2,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 10,
+   "mesas": 67,
+   "fuerzas": {
+    "LLA": 10287,
+    "UXP": 6889
+   }
+  },
+  "192": {
+   "electores": 4797,
+   "votantes": 3887,
+   "positivos": 3804,
+   "blancos": 33,
+   "nulos": 50,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 14,
+   "fuerzas": {
+    "UXP": 1948,
+    "LLA": 1856
+   }
+  },
+  "193": {
+   "electores": 72383,
+   "votantes": 55433,
+   "positivos": 53835,
+   "blancos": 559,
+   "nulos": 983,
+   "recurridos": 47,
+   "impugnados": 9,
+   "comando": 0,
+   "otros": 56,
+   "mesas": 209,
+   "fuerzas": {
+    "LLA": 30239,
+    "UXP": 23596
+   }
+  },
+  "194": {
+   "electores": 74017,
+   "votantes": 58467,
+   "positivos": 56732,
+   "blancos": 685,
+   "nulos": 996,
+   "recurridos": 52,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 54,
+   "mesas": 216,
+   "fuerzas": {
+    "LLA": 36812,
+    "UXP": 19920
+   }
+  },
+  "195": {
+   "electores": 44617,
+   "votantes": 34538,
+   "positivos": 33555,
+   "blancos": 350,
+   "nulos": 608,
+   "recurridos": 23,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 25,
+   "mesas": 131,
+   "fuerzas": {
+    "LLA": 22557,
+    "UXP": 10998
+   }
+  },
+  "196": {
+   "electores": 93773,
+   "votantes": 73036,
+   "positivos": 70943,
+   "blancos": 928,
+   "nulos": 1100,
+   "recurridos": 46,
+   "impugnados": 19,
+   "comando": 0,
+   "otros": 65,
+   "mesas": 284,
+   "fuerzas": {
+    "LLA": 49940,
+    "UXP": 21003
+   }
+  },
+  "197": {
+   "electores": 8799,
+   "votantes": 6776,
+   "positivos": 6645,
+   "blancos": 48,
+   "nulos": 77,
+   "recurridos": 5,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 26,
+   "fuerzas": {
+    "LLA": 3868,
+    "UXP": 2777
+   }
+  },
+  "198": {
+   "electores": 99306,
+   "votantes": 76264,
+   "positivos": 73985,
+   "blancos": 814,
+   "nulos": 1367,
+   "recurridos": 62,
+   "impugnados": 36,
+   "comando": 0,
+   "otros": 98,
+   "mesas": 288,
+   "fuerzas": {
+    "LLA": 45364,
+    "UXP": 28621
+   }
+  },
+  "199": {
+   "electores": 49540,
+   "votantes": 38437,
+   "positivos": 37311,
+   "blancos": 500,
+   "nulos": 599,
+   "recurridos": 13,
+   "impugnados": 14,
+   "comando": 0,
+   "otros": 27,
+   "mesas": 146,
+   "fuerzas": {
+    "LLA": 22649,
+    "UXP": 14662
+   }
+  },
+  "200": {
+   "electores": 10459,
+   "votantes": 8476,
+   "positivos": 8236,
+   "blancos": 92,
+   "nulos": 145,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 32,
+   "fuerzas": {
+    "LLA": 4437,
+    "UXP": 3799
+   }
+  },
+  "201": {
+   "electores": 31818,
+   "votantes": 24041,
+   "positivos": 23261,
+   "blancos": 186,
+   "nulos": 313,
+   "recurridos": 10,
+   "impugnados": 271,
+   "comando": 0,
+   "otros": 281,
+   "mesas": 95,
+   "fuerzas": {
+    "LLA": 11865,
+    "UXP": 11396
+   }
+  },
+  "202": {
+   "electores": 20009,
+   "votantes": 15742,
+   "positivos": 15217,
+   "blancos": 185,
+   "nulos": 315,
+   "recurridos": 25,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 25,
+   "mesas": 65,
+   "fuerzas": {
+    "UXP": 8688,
+    "LLA": 6529
+   }
+  },
+  "203": {
+   "electores": 14586,
+   "votantes": 10740,
+   "positivos": 10543,
+   "blancos": 103,
+   "nulos": 92,
+   "recurridos": 0,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 45,
+   "fuerzas": {
+    "UXP": 5566,
+    "LLA": 4977
+   }
+  },
+  "204": {
+   "electores": 450434,
+   "votantes": 354683,
+   "positivos": 344257,
+   "blancos": 4153,
+   "nulos": 5748,
+   "recurridos": 404,
+   "impugnados": 121,
+   "comando": 0,
+   "otros": 525,
+   "mesas": 1319,
+   "fuerzas": {
+    "LLA": 226946,
+    "UXP": 117311
+   }
+  },
+  "205": {
+   "electores": 7561,
+   "votantes": 5533,
+   "positivos": 5390,
+   "blancos": 58,
+   "nulos": 81,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 26,
+   "fuerzas": {
+    "LLA": 3135,
+    "UXP": 2255
+   }
+  },
+  "206": {
+   "electores": 42606,
+   "votantes": 33950,
+   "positivos": 33204,
+   "blancos": 332,
+   "nulos": 390,
+   "recurridos": 20,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 24,
+   "mesas": 129,
+   "fuerzas": {
+    "LLA": 21388,
+    "UXP": 11816
+   }
+  },
+  "207": {
+   "electores": 19493,
+   "votantes": 15770,
+   "positivos": 15473,
+   "blancos": 133,
+   "nulos": 158,
+   "recurridos": 3,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 61,
+   "fuerzas": {
+    "LLA": 9953,
+    "UXP": 5520
+   }
+  },
+  "208": {
+   "electores": 7798,
+   "votantes": 6110,
+   "positivos": 6007,
+   "blancos": 45,
+   "nulos": 52,
+   "recurridos": 4,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 24,
+   "fuerzas": {
+    "LLA": 3505,
+    "UXP": 2502
+   }
+  },
+  "209": {
+   "electores": 0,
+   "votantes": 0,
+   "positivos": 0,
+   "blancos": 0,
+   "nulos": 0,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 0,
+   "fuerzas": {
+    "UXP": 0,
+    "LLA": 0
+   }
+  },
+  "210": {
+   "electores": 140473,
+   "votantes": 97316,
+   "positivos": 95832,
+   "blancos": 666,
+   "nulos": 747,
+   "recurridos": 41,
+   "impugnados": 30,
+   "comando": 0,
+   "otros": 71,
+   "mesas": 414,
+   "fuerzas": {
+    "UXP": 56217,
+    "LLA": 39615
+   }
+  },
+  "211": {
+   "electores": 26601,
+   "votantes": 16891,
+   "positivos": 16709,
+   "blancos": 91,
+   "nulos": 67,
+   "recurridos": 23,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 24,
+   "mesas": 85,
+   "fuerzas": {
+    "UXP": 12708,
+    "LLA": 4001
+   }
+  },
+  "212": {
+   "electores": 36060,
+   "votantes": 26423,
+   "positivos": 25847,
+   "blancos": 236,
+   "nulos": 315,
+   "recurridos": 17,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 25,
+   "mesas": 109,
+   "fuerzas": {
+    "LLA": 14023,
+    "UXP": 11824
+   }
+  },
+  "213": {
+   "electores": 5755,
+   "votantes": 4432,
+   "positivos": 4340,
+   "blancos": 37,
+   "nulos": 49,
+   "recurridos": 4,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 19,
+   "fuerzas": {
+    "UXP": 2288,
+    "LLA": 2052
+   }
+  },
+  "214": {
+   "electores": 3176,
+   "votantes": 2368,
+   "positivos": 2323,
+   "blancos": 17,
+   "nulos": 24,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 11,
+   "fuerzas": {
+    "LLA": 1375,
+    "UXP": 948
+   }
+  },
+  "215": {
+   "electores": 14459,
+   "votantes": 11396,
+   "positivos": 11101,
+   "blancos": 125,
+   "nulos": 151,
+   "recurridos": 11,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 19,
+   "mesas": 46,
+   "fuerzas": {
+    "LLA": 6200,
+    "UXP": 4901
+   }
+  },
+  "216": {
+   "electores": 5050,
+   "votantes": 3670,
+   "positivos": 3589,
+   "blancos": 37,
+   "nulos": 41,
+   "recurridos": 2,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 19,
+   "fuerzas": {
+    "LLA": 1813,
+    "UXP": 1776
+   }
+  },
+  "217": {
+   "electores": 41846,
+   "votantes": 32530,
+   "positivos": 31913,
+   "blancos": 240,
+   "nulos": 326,
+   "recurridos": 34,
+   "impugnados": 17,
+   "comando": 0,
+   "otros": 51,
+   "mesas": 125,
+   "fuerzas": {
+    "LLA": 17591,
+    "UXP": 14322
+   }
+  },
+  "218": {
+   "electores": 5922,
+   "votantes": 4458,
+   "positivos": 4368,
+   "blancos": 38,
+   "nulos": 48,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 20,
+   "fuerzas": {
+    "UXP": 2296,
+    "LLA": 2072
+   }
+  },
+  "219": {
+   "electores": 38991,
+   "votantes": 30852,
+   "positivos": 30152,
+   "blancos": 296,
+   "nulos": 376,
+   "recurridos": 16,
+   "impugnados": 12,
+   "comando": 0,
+   "otros": 28,
+   "mesas": 119,
+   "fuerzas": {
+    "LLA": 19207,
+    "UXP": 10945
+   }
+  },
+  "220": {
+   "electores": 96396,
+   "votantes": 74317,
+   "positivos": 71688,
+   "blancos": 1006,
+   "nulos": 1592,
+   "recurridos": 30,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 31,
+   "mesas": 280,
+   "fuerzas": {
+    "LLA": 49468,
+    "UXP": 22220
+   }
+  },
+  "221": {
+   "electores": 235900,
+   "votantes": 180152,
+   "positivos": 173426,
+   "blancos": 2607,
+   "nulos": 4032,
+   "recurridos": 82,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 87,
+   "mesas": 679,
+   "fuerzas": {
+    "LLA": 128158,
+    "UXP": 45268
+   }
+  },
+  "222": {
+   "electores": 14493,
+   "votantes": 11524,
+   "positivos": 11259,
+   "blancos": 100,
+   "nulos": 164,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 45,
+   "fuerzas": {
+    "LLA": 6233,
+    "UXP": 5026
+   }
+  },
+  "223": {
+   "electores": 153852,
+   "votantes": 121010,
+   "positivos": 116625,
+   "blancos": 1696,
+   "nulos": 2632,
+   "recurridos": 54,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 57,
+   "mesas": 446,
+   "fuerzas": {
+    "LLA": 85617,
+    "UXP": 31008
+   }
+  },
+  "224": {
+   "electores": 100435,
+   "votantes": 75098,
+   "positivos": 72042,
+   "blancos": 1493,
+   "nulos": 1516,
+   "recurridos": 46,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 47,
+   "mesas": 298,
+   "fuerzas": {
+    "LLA": 52491,
+    "UXP": 19551
+   }
+  },
+  "225": {
+   "electores": 159432,
+   "votantes": 120107,
+   "positivos": 115099,
+   "blancos": 2068,
+   "nulos": 2879,
+   "recurridos": 60,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 61,
+   "mesas": 460,
+   "fuerzas": {
+    "LLA": 83025,
+    "UXP": 32074
+   }
+  },
+  "226": {
+   "electores": 37416,
+   "votantes": 29890,
+   "positivos": 28674,
+   "blancos": 447,
+   "nulos": 752,
+   "recurridos": 17,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 17,
+   "mesas": 108,
+   "fuerzas": {
+    "LLA": 21204,
+    "UXP": 7470
+   }
+  },
+  "227": {
+   "electores": 46163,
+   "votantes": 36540,
+   "positivos": 35211,
+   "blancos": 561,
+   "nulos": 754,
+   "recurridos": 14,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 14,
+   "mesas": 135,
+   "fuerzas": {
+    "LLA": 24649,
+    "UXP": 10562
+   }
+  },
+  "228": {
+   "electores": 38206,
+   "votantes": 27539,
+   "positivos": 26563,
+   "blancos": 472,
+   "nulos": 483,
+   "recurridos": 18,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 21,
+   "mesas": 114,
+   "fuerzas": {
+    "LLA": 16854,
+    "UXP": 9709
+   }
+  },
+  "229": {
+   "electores": 9470,
+   "votantes": 7764,
+   "positivos": 7601,
+   "blancos": 76,
+   "nulos": 85,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 29,
+   "fuerzas": {
+    "LLA": 3839,
+    "UXP": 3762
+   }
+  },
+  "230": {
+   "electores": 153095,
+   "votantes": 114039,
+   "positivos": 109974,
+   "blancos": 1828,
+   "nulos": 2196,
+   "recurridos": 41,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 41,
+   "mesas": 448,
+   "fuerzas": {
+    "LLA": 75745,
+    "UXP": 34229
+   }
+  },
+  "231": {
+   "electores": 5153,
+   "votantes": 4236,
+   "positivos": 4159,
+   "blancos": 36,
+   "nulos": 39,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 19,
+   "fuerzas": {
+    "UXP": 2588,
+    "LLA": 1571
+   }
+  },
+  "232": {
+   "electores": 3097,
+   "votantes": 2600,
+   "positivos": 2561,
+   "blancos": 15,
+   "nulos": 23,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 9,
+   "fuerzas": {
+    "UXP": 1566,
+    "LLA": 995
+   }
+  },
+  "233": {
+   "electores": 43081,
+   "votantes": 34194,
+   "positivos": 33472,
+   "blancos": 344,
+   "nulos": 364,
+   "recurridos": 14,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 14,
+   "mesas": 129,
+   "fuerzas": {
+    "LLA": 19481,
+    "UXP": 13991
+   }
+  },
+  "234": {
+   "electores": 2375,
+   "votantes": 1793,
+   "positivos": 1754,
+   "blancos": 20,
+   "nulos": 19,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 12,
+   "fuerzas": {
+    "UXP": 1124,
+    "LLA": 630
+   }
+  },
+  "235": {
+   "electores": 2512,
+   "votantes": 1958,
+   "positivos": 1923,
+   "blancos": 15,
+   "nulos": 20,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 9,
+   "fuerzas": {
+    "UXP": 1325,
+    "LLA": 598
+   }
+  },
+  "236": {
+   "electores": 3491,
+   "votantes": 2563,
+   "positivos": 2494,
+   "blancos": 51,
+   "nulos": 18,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 15,
+   "fuerzas": {
+    "UXP": 1430,
+    "LLA": 1064
+   }
+  },
+  "237": {
+   "electores": 13764,
+   "votantes": 9228,
+   "positivos": 9031,
+   "blancos": 75,
+   "nulos": 117,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 47,
+   "fuerzas": {
+    "UXP": 5416,
+    "LLA": 3615
+   }
+  },
+  "238": {
+   "electores": 6736,
+   "votantes": 5096,
+   "positivos": 5012,
+   "blancos": 55,
+   "nulos": 29,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 23,
+   "fuerzas": {
+    "UXP": 3442,
+    "LLA": 1570
+   }
+  },
+  "239": {
+   "electores": 6743,
+   "votantes": 4856,
+   "positivos": 4761,
+   "blancos": 42,
+   "nulos": 53,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 23,
+   "fuerzas": {
+    "LLA": 2437,
+    "UXP": 2324
+   }
+  },
+  "240": {
+   "electores": 12706,
+   "votantes": 9742,
+   "positivos": 9512,
+   "blancos": 90,
+   "nulos": 129,
+   "recurridos": 10,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 40,
+   "fuerzas": {
+    "LLA": 4840,
+    "UXP": 4672
+   }
+  },
+  "241": {
+   "electores": 4210,
+   "votantes": 3079,
+   "positivos": 3011,
+   "blancos": 25,
+   "nulos": 43,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 19,
+   "fuerzas": {
+    "UXP": 1938,
+    "LLA": 1073
+   }
+  },
+  "242": {
+   "electores": 2451,
+   "votantes": 1770,
+   "positivos": 1726,
+   "blancos": 22,
+   "nulos": 22,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 10,
+   "fuerzas": {
+    "UXP": 1081,
+    "LLA": 645
+   }
+  },
+  "243": {
+   "electores": 5451,
+   "votantes": 4332,
+   "positivos": 4205,
+   "blancos": 72,
+   "nulos": 55,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 19,
+   "fuerzas": {
+    "UXP": 2388,
+    "LLA": 1817
+   }
+  },
+  "244": {
+   "electores": 3543,
+   "votantes": 2833,
+   "positivos": 2754,
+   "blancos": 31,
+   "nulos": 48,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 12,
+   "fuerzas": {
+    "UXP": 1459,
+    "LLA": 1295
+   }
+  },
+  "245": {
+   "electores": 13161,
+   "votantes": 10202,
+   "positivos": 9991,
+   "blancos": 90,
+   "nulos": 116,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 41,
+   "fuerzas": {
+    "LLA": 5227,
+    "UXP": 4764
+   }
+  },
+  "246": {
+   "electores": 15241,
+   "votantes": 11725,
+   "positivos": 11350,
+   "blancos": 160,
+   "nulos": 212,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 46,
+   "fuerzas": {
+    "LLA": 7386,
+    "UXP": 3964
+   }
+  },
+  "247": {
+   "electores": 5057,
+   "votantes": 3965,
+   "positivos": 3853,
+   "blancos": 60,
+   "nulos": 48,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 16,
+   "fuerzas": {
+    "LLA": 1992,
+    "UXP": 1861
+   }
+  },
+  "248": {
+   "electores": 2731,
+   "votantes": 1963,
+   "positivos": 1911,
+   "blancos": 21,
+   "nulos": 31,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 9,
+   "fuerzas": {
+    "UXP": 1018,
+    "LLA": 893
+   }
+  },
+  "249": {
+   "electores": 7844,
+   "votantes": 5867,
+   "positivos": 5718,
+   "blancos": 47,
+   "nulos": 100,
+   "recurridos": 1,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 25,
+   "fuerzas": {
+    "LLA": 2939,
+    "UXP": 2779
+   }
+  },
+  "250": {
+   "electores": 14923,
+   "votantes": 11568,
+   "positivos": 11169,
+   "blancos": 160,
+   "nulos": 236,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 47,
+   "fuerzas": {
+    "LLA": 6076,
+    "UXP": 5093
+   }
+  },
+  "251": {
+   "electores": 96085,
+   "votantes": 73758,
+   "positivos": 71071,
+   "blancos": 1172,
+   "nulos": 1486,
+   "recurridos": 27,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 29,
+   "mesas": 276,
+   "fuerzas": {
+    "LLA": 35800,
+    "UXP": 35271
+   }
+  },
+  "252": {
+   "electores": 385,
+   "votantes": 295,
+   "positivos": 287,
+   "blancos": 5,
+   "nulos": 3,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 2,
+   "fuerzas": {
+    "LLA": 146,
+    "UXP": 141
+   }
+  },
+  "253": {
+   "electores": 14283,
+   "votantes": 10708,
+   "positivos": 10347,
+   "blancos": 144,
+   "nulos": 213,
+   "recurridos": 3,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 43,
+   "fuerzas": {
+    "LLA": 6482,
+    "UXP": 3865
+   }
+  },
+  "254": {
+   "electores": 0,
+   "votantes": 0,
+   "positivos": 0,
+   "blancos": 0,
+   "nulos": 0,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 0,
+   "fuerzas": {
+    "UXP": 0,
+    "LLA": 0
+   }
+  },
+  "255": {
+   "electores": 272,
+   "votantes": 197,
+   "positivos": 193,
+   "blancos": 3,
+   "nulos": 1,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 1,
+   "fuerzas": {
+    "LLA": 113,
+    "UXP": 80
+   }
+  },
+  "256": {
+   "electores": 9725,
+   "votantes": 6972,
+   "positivos": 6757,
+   "blancos": 97,
+   "nulos": 116,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 32,
+   "fuerzas": {
+    "LLA": 3796,
+    "UXP": 2961
+   }
+  },
+  "257": {
+   "electores": 13150,
+   "votantes": 10099,
+   "positivos": 9800,
+   "blancos": 129,
+   "nulos": 170,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 41,
+   "fuerzas": {
+    "LLA": 5650,
+    "UXP": 4150
+   }
+  },
+  "258": {
+   "electores": 11727,
+   "votantes": 8961,
+   "positivos": 8701,
+   "blancos": 69,
+   "nulos": 186,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 37,
+   "fuerzas": {
+    "LLA": 4503,
+    "UXP": 4198
+   }
+  },
+  "259": {
+   "electores": 48242,
+   "votantes": 38714,
+   "positivos": 37741,
+   "blancos": 256,
+   "nulos": 692,
+   "recurridos": 25,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 25,
+   "mesas": 143,
+   "fuerzas": {
+    "LLA": 22750,
+    "UXP": 14991
+   }
+  },
+  "260": {
+   "electores": 10130,
+   "votantes": 7591,
+   "positivos": 7123,
+   "blancos": 240,
+   "nulos": 224,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 36,
+   "fuerzas": {
+    "LLA": 4370,
+    "UXP": 2753
+   }
+  },
+  "261": {
+   "electores": 3387,
+   "votantes": 2627,
+   "positivos": 2524,
+   "blancos": 17,
+   "nulos": 84,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 13,
+   "fuerzas": {
+    "UXP": 1293,
+    "LLA": 1231
+   }
+  },
+  "262": {
+   "electores": 226726,
+   "votantes": 175228,
+   "positivos": 169752,
+   "blancos": 1812,
+   "nulos": 3571,
+   "recurridos": 85,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 93,
+   "mesas": 679,
+   "fuerzas": {
+    "LLA": 108161,
+    "UXP": 61591
+   }
+  },
+  "263": {
+   "electores": 6037,
+   "votantes": 4724,
+   "positivos": 4582,
+   "blancos": 36,
+   "nulos": 102,
+   "recurridos": 0,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 21,
+   "fuerzas": {
+    "LLA": 2890,
+    "UXP": 1692
+   }
+  },
+  "264": {
+   "electores": 83556,
+   "votantes": 67200,
+   "positivos": 65751,
+   "blancos": 481,
+   "nulos": 937,
+   "recurridos": 27,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 31,
+   "mesas": 251,
+   "fuerzas": {
+    "LLA": 41559,
+    "UXP": 24192
+   }
+  },
+  "265": {
+   "electores": 15463,
+   "votantes": 11758,
+   "positivos": 11563,
+   "blancos": 70,
+   "nulos": 123,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 48,
+   "fuerzas": {
+    "UXP": 6792,
+    "LLA": 4771
+   }
+  },
+  "266": {
+   "electores": 68593,
+   "votantes": 52332,
+   "positivos": 51229,
+   "blancos": 412,
+   "nulos": 672,
+   "recurridos": 11,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 19,
+   "mesas": 208,
+   "fuerzas": {
+    "LLA": 25941,
+    "UXP": 25288
+   }
+  },
+  "267": {
+   "electores": 14393,
+   "votantes": 10705,
+   "positivos": 10336,
+   "blancos": 83,
+   "nulos": 275,
+   "recurridos": 11,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 52,
+   "fuerzas": {
+    "LLA": 5659,
+    "UXP": 4677
+   }
+  },
+  "268": {
+   "electores": 17928,
+   "votantes": 13007,
+   "positivos": 12506,
+   "blancos": 181,
+   "nulos": 308,
+   "recurridos": 12,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 12,
+   "mesas": 57,
+   "fuerzas": {
+    "LLA": 6728,
+    "UXP": 5778
+   }
+  },
+  "269": {
+   "electores": 1900,
+   "votantes": 1278,
+   "positivos": 1243,
+   "blancos": 10,
+   "nulos": 25,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 11,
+   "fuerzas": {
+    "UXP": 740,
+    "LLA": 503
+   }
+  },
+  "270": {
+   "electores": 65407,
+   "votantes": 51123,
+   "positivos": 50060,
+   "blancos": 342,
+   "nulos": 689,
+   "recurridos": 29,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 32,
+   "mesas": 197,
+   "fuerzas": {
+    "UXP": 26379,
+    "LLA": 23681
+   }
+  },
+  "271": {
+   "electores": 0,
+   "votantes": 0,
+   "positivos": 0,
+   "blancos": 0,
+   "nulos": 0,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 0,
+   "fuerzas": {
+    "UXP": 0,
+    "LLA": 0
+   }
+  },
+  "272": {
+   "electores": 1545,
+   "votantes": 923,
+   "positivos": 900,
+   "blancos": 5,
+   "nulos": 18,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 7,
+   "fuerzas": {
+    "UXP": 467,
+    "LLA": 433
+   }
+  },
+  "273": {
+   "electores": 10377,
+   "votantes": 7417,
+   "positivos": 7337,
+   "blancos": 51,
+   "nulos": 29,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 32,
+   "fuerzas": {
+    "UXP": 5930,
+    "LLA": 1407
+   }
+  },
+  "274": {
+   "electores": 76962,
+   "votantes": 56284,
+   "positivos": 55293,
+   "blancos": 487,
+   "nulos": 493,
+   "recurridos": 10,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 230,
+   "fuerzas": {
+    "UXP": 33846,
+    "LLA": 21447
+   }
+  },
+  "275": {
+   "electores": 206333,
+   "votantes": 159842,
+   "positivos": 156483,
+   "blancos": 1552,
+   "nulos": 1774,
+   "recurridos": 27,
+   "impugnados": 6,
+   "comando": 0,
+   "otros": 33,
+   "mesas": 602,
+   "fuerzas": {
+    "LLA": 83136,
+    "UXP": 73347
+   }
+  },
+  "276": {
+   "electores": 139937,
+   "votantes": 100236,
+   "positivos": 97530,
+   "blancos": 1145,
+   "nulos": 1449,
+   "recurridos": 90,
+   "impugnados": 22,
+   "comando": 0,
+   "otros": 112,
+   "mesas": 405,
+   "fuerzas": {
+    "LLA": 56494,
+    "UXP": 41036
+   }
+  },
+  "277": {
+   "electores": 3208,
+   "votantes": 1852,
+   "positivos": 1802,
+   "blancos": 17,
+   "nulos": 33,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 16,
+   "fuerzas": {
+    "UXP": 1089,
+    "LLA": 713
+   }
+  },
+  "278": {
+   "electores": 23822,
+   "votantes": 15720,
+   "positivos": 15327,
+   "blancos": 199,
+   "nulos": 186,
+   "recurridos": 6,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 8,
+   "mesas": 77,
+   "fuerzas": {
+    "LLA": 8108,
+    "UXP": 7219
+   }
+  },
+  "279": {
+   "electores": 21493,
+   "votantes": 15689,
+   "positivos": 15349,
+   "blancos": 131,
+   "nulos": 203,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 67,
+   "fuerzas": {
+    "LLA": 8642,
+    "UXP": 6707
+   }
+  },
+  "280": {
+   "electores": 16365,
+   "votantes": 11415,
+   "positivos": 11156,
+   "blancos": 115,
+   "nulos": 142,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 52,
+   "fuerzas": {
+    "LLA": 5768,
+    "UXP": 5388
+   }
+  },
+  "281": {
+   "electores": 5495,
+   "votantes": 4211,
+   "positivos": 4123,
+   "blancos": 47,
+   "nulos": 38,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 21,
+   "fuerzas": {
+    "UXP": 2299,
+    "LLA": 1824
+   }
+  },
+  "282": {
+   "electores": 4241,
+   "votantes": 3362,
+   "positivos": 3312,
+   "blancos": 21,
+   "nulos": 17,
+   "recurridos": 12,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 12,
+   "mesas": 16,
+   "fuerzas": {
+    "UXP": 1946,
+    "LLA": 1366
+   }
+  },
+  "283": {
+   "electores": 11327,
+   "votantes": 8466,
+   "positivos": 8326,
+   "blancos": 64,
+   "nulos": 76,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 37,
+   "fuerzas": {
+    "UXP": 4966,
+    "LLA": 3360
+   }
+  },
+  "284": {
+   "electores": 4343,
+   "votantes": 3276,
+   "positivos": 3205,
+   "blancos": 35,
+   "nulos": 36,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 16,
+   "fuerzas": {
+    "UXP": 2107,
+    "LLA": 1098
+   }
+  },
+  "285": {
+   "electores": 21019,
+   "votantes": 16123,
+   "positivos": 15754,
+   "blancos": 211,
+   "nulos": 152,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 67,
+   "fuerzas": {
+    "UXP": 9794,
+    "LLA": 5960
+   }
+  },
+  "286": {
+   "electores": 9726,
+   "votantes": 7040,
+   "positivos": 6921,
+   "blancos": 49,
+   "nulos": 70,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 32,
+   "fuerzas": {
+    "UXP": 3810,
+    "LLA": 3111
+   }
+  },
+  "287": {
+   "electores": 80224,
+   "votantes": 60306,
+   "positivos": 57733,
+   "blancos": 617,
+   "nulos": 1890,
+   "recurridos": 61,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 66,
+   "mesas": 278,
+   "fuerzas": {
+    "UXP": 28914,
+    "LLA": 28819
+   }
+  },
+  "288": {
+   "electores": 10418,
+   "votantes": 6851,
+   "positivos": 6554,
+   "blancos": 77,
+   "nulos": 220,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 36,
+   "fuerzas": {
+    "LLA": 4349,
+    "UXP": 2205
+   }
+  },
+  "289": {
+   "electores": 11597,
+   "votantes": 8363,
+   "positivos": 8167,
+   "blancos": 56,
+   "nulos": 140,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 42,
+   "fuerzas": {
+    "LLA": 4869,
+    "UXP": 3298
+   }
+  },
+  "290": {
+   "electores": 100330,
+   "votantes": 69679,
+   "positivos": 67476,
+   "blancos": 622,
+   "nulos": 1561,
+   "recurridos": 17,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 20,
+   "mesas": 342,
+   "fuerzas": {
+    "LLA": 38398,
+    "UXP": 29078
+   }
+  },
+  "291": {
+   "electores": 5869,
+   "votantes": 4198,
+   "positivos": 4055,
+   "blancos": 44,
+   "nulos": 98,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 19,
+   "fuerzas": {
+    "LLA": 2250,
+    "UXP": 1805
+   }
+  },
+  "292": {
+   "electores": 2736,
+   "votantes": 1699,
+   "positivos": 1607,
+   "blancos": 32,
+   "nulos": 60,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 10,
+   "fuerzas": {
+    "UXP": 843,
+    "LLA": 764
+   }
+  },
+  "293": {
+   "electores": 10635,
+   "votantes": 7870,
+   "positivos": 7525,
+   "blancos": 93,
+   "nulos": 245,
+   "recurridos": 7,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 32,
+   "fuerzas": {
+    "LLA": 4968,
+    "UXP": 2557
+   }
+  },
+  "294": {
+   "electores": 606,
+   "votantes": 361,
+   "positivos": 351,
+   "blancos": 5,
+   "nulos": 5,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 2,
+   "fuerzas": {
+    "LLA": 186,
+    "UXP": 165
+   }
+  },
+  "295": {
+   "electores": 1633,
+   "votantes": 963,
+   "positivos": 934,
+   "blancos": 15,
+   "nulos": 14,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 6,
+   "fuerzas": {
+    "UXP": 506,
+    "LLA": 428
+   }
+  },
+  "296": {
+   "electores": 118593,
+   "votantes": 88732,
+   "positivos": 84536,
+   "blancos": 1313,
+   "nulos": 2823,
+   "recurridos": 42,
+   "impugnados": 18,
+   "comando": 0,
+   "otros": 60,
+   "mesas": 351,
+   "fuerzas": {
+    "LLA": 51062,
+    "UXP": 33474
+   }
+  },
+  "297": {
+   "electores": 5099,
+   "votantes": 3320,
+   "positivos": 3173,
+   "blancos": 52,
+   "nulos": 94,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 16,
+   "fuerzas": {
+    "UXP": 1589,
+    "LLA": 1584
+   }
+  },
+  "298": {
+   "electores": 167807,
+   "votantes": 124930,
+   "positivos": 119845,
+   "blancos": 1715,
+   "nulos": 3290,
+   "recurridos": 39,
+   "impugnados": 41,
+   "comando": 0,
+   "otros": 80,
+   "mesas": 492,
+   "fuerzas": {
+    "LLA": 71487,
+    "UXP": 48358
+   }
+  },
+  "299": {
+   "electores": 0,
+   "votantes": 0,
+   "positivos": 0,
+   "blancos": 0,
+   "nulos": 0,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 0,
+   "fuerzas": {
+    "UXP": 0,
+    "LLA": 0
+   }
+  },
+  "300": {
+   "electores": 1782,
+   "votantes": 1487,
+   "positivos": 1458,
+   "blancos": 20,
+   "nulos": 9,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 6,
+   "fuerzas": {
+    "UXP": 951,
+    "LLA": 507
+   }
+  },
+  "301": {
+   "electores": 8000,
+   "votantes": 5801,
+   "positivos": 5550,
+   "blancos": 105,
+   "nulos": 146,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 24,
+   "fuerzas": {
+    "LLA": 3453,
+    "UXP": 2097
+   }
+  },
+  "302": {
+   "electores": 22327,
+   "votantes": 15121,
+   "positivos": 14894,
+   "blancos": 172,
+   "nulos": 55,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 66,
+   "fuerzas": {
+    "UXP": 8556,
+    "LLA": 6338
+   }
+  },
+  "303": {
+   "electores": 15976,
+   "votantes": 11896,
+   "positivos": 11723,
+   "blancos": 91,
+   "nulos": 82,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 47,
+   "fuerzas": {
+    "UXP": 7014,
+    "LLA": 4709
+   }
+  },
+  "304": {
+   "electores": 87774,
+   "votantes": 63634,
+   "positivos": 62378,
+   "blancos": 522,
+   "nulos": 712,
+   "recurridos": 21,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 22,
+   "mesas": 258,
+   "fuerzas": {
+    "LLA": 35521,
+    "UXP": 26857
+   }
+  },
+  "305": {
+   "electores": 20453,
+   "votantes": 13722,
+   "positivos": 13548,
+   "blancos": 102,
+   "nulos": 69,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 61,
+   "fuerzas": {
+    "UXP": 8253,
+    "LLA": 5295
+   }
+  },
+  "306": {
+   "electores": 11027,
+   "votantes": 7631,
+   "positivos": 7515,
+   "blancos": 69,
+   "nulos": 40,
+   "recurridos": 7,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 33,
+   "fuerzas": {
+    "UXP": 4902,
+    "LLA": 2613
+   }
+  },
+  "307": {
+   "electores": 13667,
+   "votantes": 10349,
+   "positivos": 10155,
+   "blancos": 80,
+   "nulos": 107,
+   "recurridos": 3,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 41,
+   "fuerzas": {
+    "UXP": 5389,
+    "LLA": 4766
+   }
+  },
+  "308": {
+   "electores": 27031,
+   "votantes": 19486,
+   "positivos": 19231,
+   "blancos": 138,
+   "nulos": 117,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 80,
+   "fuerzas": {
+    "UXP": 11666,
+    "LLA": 7565
+   }
+  },
+  "309": {
+   "electores": 29999,
+   "votantes": 20102,
+   "positivos": 19774,
+   "blancos": 198,
+   "nulos": 130,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 88,
+   "fuerzas": {
+    "UXP": 10210,
+    "LLA": 9564
+   }
+  },
+  "310": {
+   "electores": 11300,
+   "votantes": 8076,
+   "positivos": 7917,
+   "blancos": 62,
+   "nulos": 97,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 34,
+   "fuerzas": {
+    "UXP": 4328,
+    "LLA": 3589
+   }
+  },
+  "311": {
+   "electores": 13868,
+   "votantes": 9937,
+   "positivos": 9761,
+   "blancos": 82,
+   "nulos": 92,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 41,
+   "fuerzas": {
+    "UXP": 6261,
+    "LLA": 3500
+   }
+  },
+  "312": {
+   "electores": 18982,
+   "votantes": 13451,
+   "positivos": 13253,
+   "blancos": 137,
+   "nulos": 60,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 57,
+   "fuerzas": {
+    "UXP": 8190,
+    "LLA": 5063
+   }
+  },
+  "313": {
+   "electores": 26169,
+   "votantes": 18314,
+   "positivos": 17957,
+   "blancos": 174,
+   "nulos": 177,
+   "recurridos": 5,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 76,
+   "fuerzas": {
+    "UXP": 9591,
+    "LLA": 8366
+   }
+  },
+  "314": {
+   "electores": 6527,
+   "votantes": 4755,
+   "positivos": 4673,
+   "blancos": 55,
+   "nulos": 27,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 20,
+   "fuerzas": {
+    "LLA": 2542,
+    "UXP": 2131
+   }
+  },
+  "315": {
+   "electores": 3280,
+   "votantes": 2179,
+   "positivos": 2132,
+   "blancos": 21,
+   "nulos": 23,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 13,
+   "fuerzas": {
+    "UXP": 1194,
+    "LLA": 938
+   }
+  },
+  "316": {
+   "electores": 12933,
+   "votantes": 10072,
+   "positivos": 9870,
+   "blancos": 98,
+   "nulos": 103,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 40,
+   "fuerzas": {
+    "LLA": 5244,
+    "UXP": 4626
+   }
+  },
+  "317": {
+   "electores": 52624,
+   "votantes": 38335,
+   "positivos": 37515,
+   "blancos": 493,
+   "nulos": 322,
+   "recurridos": 4,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 153,
+   "fuerzas": {
+    "UXP": 18767,
+    "LLA": 18748
+   }
+  },
+  "318": {
+   "electores": 10358,
+   "votantes": 6837,
+   "positivos": 6700,
+   "blancos": 97,
+   "nulos": 39,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 30,
+   "fuerzas": {
+    "UXP": 3548,
+    "LLA": 3152
+   }
+  },
+  "319": {
+   "electores": 13049,
+   "votantes": 10311,
+   "positivos": 10122,
+   "blancos": 97,
+   "nulos": 86,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 40,
+   "fuerzas": {
+    "LLA": 5335,
+    "UXP": 4787
+   }
+  },
+  "320": {
+   "electores": 20566,
+   "votantes": 14448,
+   "positivos": 14212,
+   "blancos": 137,
+   "nulos": 96,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 61,
+   "fuerzas": {
+    "UXP": 7728,
+    "LLA": 6484
+   }
+  },
+  "321": {
+   "electores": 27892,
+   "votantes": 20319,
+   "positivos": 19945,
+   "blancos": 166,
+   "nulos": 199,
+   "recurridos": 7,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 81,
+   "fuerzas": {
+    "LLA": 11413,
+    "UXP": 8532
+   }
+  },
+  "322": {
+   "electores": 4361,
+   "votantes": 2671,
+   "positivos": 2599,
+   "blancos": 33,
+   "nulos": 39,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 14,
+   "fuerzas": {
+    "LLA": 1365,
+    "UXP": 1234
+   }
+  },
+  "323": {
+   "electores": 12884,
+   "votantes": 8818,
+   "positivos": 8566,
+   "blancos": 105,
+   "nulos": 146,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 48,
+   "fuerzas": {
+    "LLA": 5448,
+    "UXP": 3118
+   }
+  },
+  "324": {
+   "electores": 29902,
+   "votantes": 22192,
+   "positivos": 21542,
+   "blancos": 262,
+   "nulos": 388,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 94,
+   "fuerzas": {
+    "LLA": 14320,
+    "UXP": 7222
+   }
+  },
+  "325": {
+   "electores": 18824,
+   "votantes": 14369,
+   "positivos": 14018,
+   "blancos": 160,
+   "nulos": 185,
+   "recurridos": 3,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 60,
+   "fuerzas": {
+    "LLA": 10580,
+    "UXP": 3438
+   }
+  },
+  "326": {
+   "electores": 53688,
+   "votantes": 37662,
+   "positivos": 36484,
+   "blancos": 409,
+   "nulos": 753,
+   "recurridos": 14,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 16,
+   "mesas": 169,
+   "fuerzas": {
+    "LLA": 19310,
+    "UXP": 17174
+   }
+  },
+  "327": {
+   "electores": 251279,
+   "votantes": 192446,
+   "positivos": 185767,
+   "blancos": 2686,
+   "nulos": 3913,
+   "recurridos": 33,
+   "impugnados": 47,
+   "comando": 0,
+   "otros": 80,
+   "mesas": 734,
+   "fuerzas": {
+    "LLA": 142786,
+    "UXP": 42981
+   }
+  },
+  "328": {
+   "electores": 189556,
+   "votantes": 137440,
+   "positivos": 131851,
+   "blancos": 2037,
+   "nulos": 3511,
+   "recurridos": 35,
+   "impugnados": 6,
+   "comando": 0,
+   "otros": 41,
+   "mesas": 553,
+   "fuerzas": {
+    "LLA": 97023,
+    "UXP": 34828
+   }
+  },
+  "329": {
+   "electores": 1129762,
+   "votantes": 852604,
+   "positivos": 819425,
+   "blancos": 13781,
+   "nulos": 18946,
+   "recurridos": 275,
+   "impugnados": 177,
+   "comando": 0,
+   "otros": 452,
+   "mesas": 3291,
+   "fuerzas": {
+    "LLA": 614786,
+    "UXP": 204639
+   }
+  },
+  "330": {
+   "electores": 112997,
+   "votantes": 86587,
+   "positivos": 83203,
+   "blancos": 1279,
+   "nulos": 2086,
+   "recurridos": 18,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 19,
+   "mesas": 339,
+   "fuerzas": {
+    "LLA": 63379,
+    "UXP": 19824
+   }
+  },
+  "331": {
+   "electores": 5104,
+   "votantes": 3219,
+   "positivos": 3108,
+   "blancos": 49,
+   "nulos": 62,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 22,
+   "fuerzas": {
+    "UXP": 1594,
+    "LLA": 1514
+   }
+  },
+  "332": {
+   "electores": 4891,
+   "votantes": 3089,
+   "positivos": 2995,
+   "blancos": 48,
+   "nulos": 46,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 19,
+   "fuerzas": {
+    "LLA": 1879,
+    "UXP": 1116
+   }
+  },
+  "333": {
+   "electores": 38790,
+   "votantes": 28401,
+   "positivos": 27348,
+   "blancos": 443,
+   "nulos": 601,
+   "recurridos": 9,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 123,
+   "fuerzas": {
+    "LLA": 17945,
+    "UXP": 9403
+   }
+  },
+  "334": {
+   "electores": 53442,
+   "votantes": 39382,
+   "positivos": 38095,
+   "blancos": 467,
+   "nulos": 796,
+   "recurridos": 22,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 24,
+   "mesas": 159,
+   "fuerzas": {
+    "LLA": 23969,
+    "UXP": 14126
+   }
+  },
+  "335": {
+   "electores": 94933,
+   "votantes": 74908,
+   "positivos": 72276,
+   "blancos": 1043,
+   "nulos": 1585,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 284,
+   "fuerzas": {
+    "LLA": 56835,
+    "UXP": 15441
+   }
+  },
+  "336": {
+   "electores": 190194,
+   "votantes": 143627,
+   "positivos": 138727,
+   "blancos": 2190,
+   "nulos": 2655,
+   "recurridos": 20,
+   "impugnados": 35,
+   "comando": 0,
+   "otros": 55,
+   "mesas": 566,
+   "fuerzas": {
+    "LLA": 105046,
+    "UXP": 33681
+   }
+  },
+  "337": {
+   "electores": 96572,
+   "votantes": 71019,
+   "positivos": 68648,
+   "blancos": 1291,
+   "nulos": 1073,
+   "recurridos": 5,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 293,
+   "fuerzas": {
+    "LLA": 50125,
+    "UXP": 18523
+   }
+  },
+  "338": {
+   "electores": 89691,
+   "votantes": 68080,
+   "positivos": 65568,
+   "blancos": 1508,
+   "nulos": 988,
+   "recurridos": 11,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 16,
+   "mesas": 267,
+   "fuerzas": {
+    "LLA": 49248,
+    "UXP": 16320
+   }
+  },
+  "339": {
+   "electores": 121255,
+   "votantes": 90694,
+   "positivos": 87470,
+   "blancos": 1462,
+   "nulos": 1729,
+   "recurridos": 20,
+   "impugnados": 13,
+   "comando": 0,
+   "otros": 33,
+   "mesas": 358,
+   "fuerzas": {
+    "LLA": 61945,
+    "UXP": 25525
+   }
+  },
+  "340": {
+   "electores": 44127,
+   "votantes": 34559,
+   "positivos": 33622,
+   "blancos": 402,
+   "nulos": 530,
+   "recurridos": 4,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 143,
+   "fuerzas": {
+    "LLA": 26075,
+    "UXP": 7547
+   }
+  },
+  "341": {
+   "electores": 100856,
+   "votantes": 77487,
+   "positivos": 74491,
+   "blancos": 1452,
+   "nulos": 1521,
+   "recurridos": 22,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 23,
+   "mesas": 296,
+   "fuerzas": {
+    "LLA": 57237,
+    "UXP": 17254
+   }
+  },
+  "342": {
+   "electores": 55796,
+   "votantes": 42204,
+   "positivos": 40721,
+   "blancos": 629,
+   "nulos": 849,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 170,
+   "fuerzas": {
+    "LLA": 31230,
+    "UXP": 9491
+   }
+  },
+  "343": {
+   "electores": 222088,
+   "votantes": 164273,
+   "positivos": 157796,
+   "blancos": 2705,
+   "nulos": 3747,
+   "recurridos": 14,
+   "impugnados": 11,
+   "comando": 0,
+   "otros": 25,
+   "mesas": 658,
+   "fuerzas": {
+    "LLA": 115591,
+    "UXP": 42205
+   }
+  },
+  "344": {
+   "electores": 0,
+   "votantes": 0,
+   "positivos": 0,
+   "blancos": 0,
+   "nulos": 0,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 0,
+   "fuerzas": {
+    "UXP": 0,
+    "LLA": 0
+   }
+  },
+  "345": {
+   "electores": 19710,
+   "votantes": 13170,
+   "positivos": 12769,
+   "blancos": 195,
+   "nulos": 204,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 64,
+   "fuerzas": {
+    "LLA": 6999,
+    "UXP": 5770
+   }
+  },
+  "346": {
+   "electores": 27613,
+   "votantes": 21426,
+   "positivos": 20809,
+   "blancos": 255,
+   "nulos": 357,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 83,
+   "fuerzas": {
+    "LLA": 15752,
+    "UXP": 5057
+   }
+  },
+  "347": {
+   "electores": 28880,
+   "votantes": 22735,
+   "positivos": 22045,
+   "blancos": 254,
+   "nulos": 430,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 86,
+   "fuerzas": {
+    "LLA": 16289,
+    "UXP": 5756
+   }
+  },
+  "348": {
+   "electores": 43537,
+   "votantes": 34103,
+   "positivos": 33121,
+   "blancos": 398,
+   "nulos": 580,
+   "recurridos": 2,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 128,
+   "fuerzas": {
+    "LLA": 24032,
+    "UXP": 9089
+   }
+  },
+  "349": {
+   "electores": 113918,
+   "votantes": 90099,
+   "positivos": 86832,
+   "blancos": 1333,
+   "nulos": 1876,
+   "recurridos": 52,
+   "impugnados": 6,
+   "comando": 0,
+   "otros": 58,
+   "mesas": 329,
+   "fuerzas": {
+    "LLA": 66872,
+    "UXP": 19960
+   }
+  },
+  "350": {
+   "electores": 41936,
+   "votantes": 30004,
+   "positivos": 28405,
+   "blancos": 515,
+   "nulos": 1069,
+   "recurridos": 10,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 15,
+   "mesas": 127,
+   "fuerzas": {
+    "LLA": 16013,
+    "UXP": 12392
+   }
+  },
+  "351": {
+   "electores": 3892,
+   "votantes": 2659,
+   "positivos": 2556,
+   "blancos": 26,
+   "nulos": 76,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 14,
+   "fuerzas": {
+    "LLA": 1483,
+    "UXP": 1073
+   }
+  },
+  "352": {
+   "electores": 22165,
+   "votantes": 14902,
+   "positivos": 14322,
+   "blancos": 204,
+   "nulos": 370,
+   "recurridos": 3,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 76,
+   "fuerzas": {
+    "LLA": 7347,
+    "UXP": 6975
+   }
+  },
+  "353": {
+   "electores": 61056,
+   "votantes": 41223,
+   "positivos": 40244,
+   "blancos": 724,
+   "nulos": 238,
+   "recurridos": 7,
+   "impugnados": 10,
+   "comando": 0,
+   "otros": 17,
+   "mesas": 178,
+   "fuerzas": {
+    "LLA": 20427,
+    "UXP": 19817
+   }
+  },
+  "354": {
+   "electores": 18811,
+   "votantes": 12259,
+   "positivos": 12063,
+   "blancos": 182,
+   "nulos": 13,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 55,
+   "fuerzas": {
+    "UXP": 7158,
+    "LLA": 4905
+   }
+  },
+  "355": {
+   "electores": 93407,
+   "votantes": 70660,
+   "positivos": 69201,
+   "blancos": 1020,
+   "nulos": 430,
+   "recurridos": 3,
+   "impugnados": 6,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 271,
+   "fuerzas": {
+    "LLA": 38783,
+    "UXP": 30418
+   }
+  },
+  "356": {
+   "electores": 18684,
+   "votantes": 13700,
+   "positivos": 13464,
+   "blancos": 167,
+   "nulos": 68,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 56,
+   "fuerzas": {
+    "UXP": 6834,
+    "LLA": 6630
+   }
+  },
+  "357": {
+   "electores": 8079,
+   "votantes": 5716,
+   "positivos": 5615,
+   "blancos": 81,
+   "nulos": 19,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 24,
+   "fuerzas": {
+    "LLA": 2827,
+    "UXP": 2788
+   }
+  },
+  "358": {
+   "electores": 37658,
+   "votantes": 25422,
+   "positivos": 24972,
+   "blancos": 285,
+   "nulos": 152,
+   "recurridos": 13,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 13,
+   "mesas": 109,
+   "fuerzas": {
+    "LLA": 13335,
+    "UXP": 11637
+   }
+  },
+  "359": {
+   "electores": 49505,
+   "votantes": 37276,
+   "positivos": 36637,
+   "blancos": 417,
+   "nulos": 216,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 146,
+   "fuerzas": {
+    "LLA": 19064,
+    "UXP": 17573
+   }
+  },
+  "360": {
+   "electores": 16992,
+   "votantes": 12746,
+   "positivos": 12623,
+   "blancos": 63,
+   "nulos": 59,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 55,
+   "fuerzas": {
+    "UXP": 8646,
+    "LLA": 3977
+   }
+  },
+  "361": {
+   "electores": 17107,
+   "votantes": 13372,
+   "positivos": 13157,
+   "blancos": 120,
+   "nulos": 93,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 56,
+   "fuerzas": {
+    "UXP": 7981,
+    "LLA": 5176
+   }
+  },
+  "362": {
+   "electores": 56137,
+   "votantes": 41772,
+   "positivos": 41001,
+   "blancos": 388,
+   "nulos": 371,
+   "recurridos": 10,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 12,
+   "mesas": 176,
+   "fuerzas": {
+    "UXP": 24824,
+    "LLA": 16177
+   }
+  },
+  "363": {
+   "electores": 64008,
+   "votantes": 45989,
+   "positivos": 45400,
+   "blancos": 332,
+   "nulos": 244,
+   "recurridos": 11,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 13,
+   "mesas": 216,
+   "fuerzas": {
+    "UXP": 29515,
+    "LLA": 15885
+   }
+  },
+  "364": {
+   "electores": 12202,
+   "votantes": 8809,
+   "positivos": 8710,
+   "blancos": 72,
+   "nulos": 27,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 40,
+   "fuerzas": {
+    "UXP": 6443,
+    "LLA": 2267
+   }
+  },
+  "365": {
+   "electores": 25433,
+   "votantes": 18557,
+   "positivos": 18191,
+   "blancos": 216,
+   "nulos": 134,
+   "recurridos": 12,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 16,
+   "mesas": 79,
+   "fuerzas": {
+    "UXP": 11436,
+    "LLA": 6755
+   }
+  },
+  "366": {
+   "electores": 55464,
+   "votantes": 40560,
+   "positivos": 39963,
+   "blancos": 272,
+   "nulos": 307,
+   "recurridos": 8,
+   "impugnados": 10,
+   "comando": 0,
+   "otros": 18,
+   "mesas": 162,
+   "fuerzas": {
+    "UXP": 23968,
+    "LLA": 15995
+   }
+  },
+  "367": {
+   "electores": 61370,
+   "votantes": 40499,
+   "positivos": 39925,
+   "blancos": 269,
+   "nulos": 292,
+   "recurridos": 9,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 13,
+   "mesas": 179,
+   "fuerzas": {
+    "UXP": 24697,
+    "LLA": 15228
+   }
+  },
+  "368": {
+   "electores": 4131,
+   "votantes": 2814,
+   "positivos": 2690,
+   "blancos": 35,
+   "nulos": 88,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 17,
+   "fuerzas": {
+    "UXP": 1571,
+    "LLA": 1119
+   }
+  },
+  "369": {
+   "electores": 30021,
+   "votantes": 21542,
+   "positivos": 20816,
+   "blancos": 213,
+   "nulos": 506,
+   "recurridos": 7,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 89,
+   "fuerzas": {
+    "LLA": 10975,
+    "UXP": 9841
+   }
+  },
+  "370": {
+   "electores": 3216,
+   "votantes": 2018,
+   "positivos": 1960,
+   "blancos": 24,
+   "nulos": 33,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 12,
+   "fuerzas": {
+    "UXP": 1319,
+    "LLA": 641
+   }
+  },
+  "371": {
+   "electores": 1429,
+   "votantes": 867,
+   "positivos": 832,
+   "blancos": 8,
+   "nulos": 27,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 8,
+   "fuerzas": {
+    "UXP": 637,
+    "LLA": 195
+   }
+  },
+  "372": {
+   "electores": 12881,
+   "votantes": 8894,
+   "positivos": 8580,
+   "blancos": 96,
+   "nulos": 218,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 42,
+   "fuerzas": {
+    "UXP": 5419,
+    "LLA": 3161
+   }
+  },
+  "373": {
+   "electores": 77868,
+   "votantes": 59270,
+   "positivos": 56500,
+   "blancos": 818,
+   "nulos": 1893,
+   "recurridos": 40,
+   "impugnados": 19,
+   "comando": 0,
+   "otros": 59,
+   "mesas": 226,
+   "fuerzas": {
+    "LLA": 35060,
+    "UXP": 21440
+   }
+  },
+  "374": {
+   "electores": 0,
+   "votantes": 0,
+   "positivos": 0,
+   "blancos": 0,
+   "nulos": 0,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 0,
+   "fuerzas": {
+    "UXP": 0,
+    "LLA": 0
+   }
+  },
+  "375": {
+   "electores": 0,
+   "votantes": 0,
+   "positivos": 0,
+   "blancos": 0,
+   "nulos": 0,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 0,
+   "fuerzas": {
+    "UXP": 0,
+    "LLA": 0
+   }
+  },
+  "376": {
+   "electores": 3459,
+   "votantes": 2503,
+   "positivos": 2434,
+   "blancos": 17,
+   "nulos": 52,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 13,
+   "fuerzas": {
+    "UXP": 1399,
+    "LLA": 1035
+   }
+  },
+  "377": {
+   "electores": 8626,
+   "votantes": 6259,
+   "positivos": 5972,
+   "blancos": 108,
+   "nulos": 175,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 28,
+   "fuerzas": {
+    "UXP": 3171,
+    "LLA": 2801
+   }
+  },
+  "378": {
+   "electores": 62302,
+   "votantes": 46226,
+   "positivos": 44336,
+   "blancos": 745,
+   "nulos": 1131,
+   "recurridos": 9,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 14,
+   "mesas": 191,
+   "fuerzas": {
+    "LLA": 31975,
+    "UXP": 12361
+   }
+  },
+  "379": {
+   "electores": 14521,
+   "votantes": 10481,
+   "positivos": 10117,
+   "blancos": 219,
+   "nulos": 145,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 46,
+   "fuerzas": {
+    "LLA": 6732,
+    "UXP": 3385
+   }
+  },
+  "380": {
+   "electores": 14786,
+   "votantes": 11267,
+   "positivos": 10973,
+   "blancos": 210,
+   "nulos": 84,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 46,
+   "fuerzas": {
+    "LLA": 6994,
+    "UXP": 3979
+   }
+  },
+  "381": {
+   "electores": 5285,
+   "votantes": 3943,
+   "positivos": 3821,
+   "blancos": 81,
+   "nulos": 41,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 16,
+   "fuerzas": {
+    "LLA": 2654,
+    "UXP": 1167
+   }
+  },
+  "382": {
+   "electores": 14370,
+   "votantes": 10366,
+   "positivos": 9961,
+   "blancos": 190,
+   "nulos": 215,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 45,
+   "fuerzas": {
+    "LLA": 7031,
+    "UXP": 2930
+   }
+  },
+  "383": {
+   "electores": 25087,
+   "votantes": 18389,
+   "positivos": 17732,
+   "blancos": 283,
+   "nulos": 369,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 74,
+   "fuerzas": {
+    "LLA": 12534,
+    "UXP": 5198
+   }
+  },
+  "384": {
+   "electores": 54710,
+   "votantes": 42909,
+   "positivos": 41386,
+   "blancos": 638,
+   "nulos": 876,
+   "recurridos": 8,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 159,
+   "fuerzas": {
+    "LLA": 25533,
+    "UXP": 15853
+   }
+  },
+  "385": {
+   "electores": 7799,
+   "votantes": 5855,
+   "positivos": 5665,
+   "blancos": 77,
+   "nulos": 112,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 25,
+   "fuerzas": {
+    "LLA": 3795,
+    "UXP": 1870
+   }
+  },
+  "386": {
+   "electores": 7057,
+   "votantes": 5726,
+   "positivos": 5584,
+   "blancos": 57,
+   "nulos": 83,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 22,
+   "fuerzas": {
+    "LLA": 3275,
+    "UXP": 2309
+   }
+  },
+  "387": {
+   "electores": 10147,
+   "votantes": 7709,
+   "positivos": 7451,
+   "blancos": 97,
+   "nulos": 148,
+   "recurridos": 4,
+   "impugnados": 9,
+   "comando": 0,
+   "otros": 13,
+   "mesas": 32,
+   "fuerzas": {
+    "LLA": 4626,
+    "UXP": 2825
+   }
+  },
+  "388": {
+   "electores": 2237,
+   "votantes": 1646,
+   "positivos": 1609,
+   "blancos": 16,
+   "nulos": 21,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 7,
+   "fuerzas": {
+    "LLA": 867,
+    "UXP": 742
+   }
+  },
+  "389": {
+   "electores": 8308,
+   "votantes": 5696,
+   "positivos": 5465,
+   "blancos": 167,
+   "nulos": 64,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 27,
+   "fuerzas": {
+    "LLA": 3880,
+    "UXP": 1585
+   }
+  },
+  "390": {
+   "electores": 7227,
+   "votantes": 5275,
+   "positivos": 5031,
+   "blancos": 106,
+   "nulos": 137,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 23,
+   "fuerzas": {
+    "LLA": 3248,
+    "UXP": 1783
+   }
+  },
+  "391": {
+   "electores": 28667,
+   "votantes": 20971,
+   "positivos": 20306,
+   "blancos": 309,
+   "nulos": 355,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 86,
+   "fuerzas": {
+    "LLA": 11808,
+    "UXP": 8498
+   }
+  },
+  "392": {
+   "electores": 10730,
+   "votantes": 8121,
+   "positivos": 7923,
+   "blancos": 99,
+   "nulos": 99,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 32,
+   "fuerzas": {
+    "LLA": 5072,
+    "UXP": 2851
+   }
+  },
+  "393": {
+   "electores": 31603,
+   "votantes": 23186,
+   "positivos": 22421,
+   "blancos": 336,
+   "nulos": 428,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 95,
+   "fuerzas": {
+    "LLA": 16469,
+    "UXP": 5952
+   }
+  },
+  "394": {
+   "electores": 15227,
+   "votantes": 10289,
+   "positivos": 10062,
+   "blancos": 114,
+   "nulos": 106,
+   "recurridos": 0,
+   "impugnados": 7,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 50,
+   "fuerzas": {
+    "UXP": 5687,
+    "LLA": 4375
+   }
+  },
+  "395": {
+   "electores": 9060,
+   "votantes": 7204,
+   "positivos": 6989,
+   "blancos": 131,
+   "nulos": 84,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 33,
+   "fuerzas": {
+    "UXP": 3884,
+    "LLA": 3105
+   }
+  },
+  "396": {
+   "electores": 25643,
+   "votantes": 18906,
+   "positivos": 18486,
+   "blancos": 180,
+   "nulos": 240,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 79,
+   "fuerzas": {
+    "LLA": 12577,
+    "UXP": 5909
+   }
+  },
+  "397": {
+   "electores": 29488,
+   "votantes": 21009,
+   "positivos": 20405,
+   "blancos": 281,
+   "nulos": 321,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 93,
+   "fuerzas": {
+    "LLA": 14958,
+    "UXP": 5447
+   }
+  },
+  "398": {
+   "electores": 14776,
+   "votantes": 11502,
+   "positivos": 11179,
+   "blancos": 170,
+   "nulos": 150,
+   "recurridos": 2,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 45,
+   "fuerzas": {
+    "LLA": 6458,
+    "UXP": 4721
+   }
+  },
+  "399": {
+   "electores": 15330,
+   "votantes": 11593,
+   "positivos": 11318,
+   "blancos": 171,
+   "nulos": 102,
+   "recurridos": 0,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 48,
+   "fuerzas": {
+    "LLA": 7488,
+    "UXP": 3830
+   }
+  },
+  "401": {
+   "electores": 77630,
+   "votantes": 55690,
+   "positivos": 54531,
+   "blancos": 687,
+   "nulos": 459,
+   "recurridos": 7,
+   "impugnados": 6,
+   "comando": 0,
+   "otros": 13,
+   "mesas": 225,
+   "fuerzas": {
+    "LLA": 32454,
+    "UXP": 22077
+   }
+  },
+  "402": {
+   "electores": 59493,
+   "votantes": 45801,
+   "positivos": 43877,
+   "blancos": 968,
+   "nulos": 956,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 178,
+   "fuerzas": {
+    "LLA": 29331,
+    "UXP": 14546
+   }
+  },
+  "403": {
+   "electores": 37293,
+   "votantes": 27943,
+   "positivos": 27066,
+   "blancos": 313,
+   "nulos": 561,
+   "recurridos": 2,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 117,
+   "fuerzas": {
+    "LLA": 18809,
+    "UXP": 8257
+   }
+  },
+  "404": {
+   "electores": 90710,
+   "votantes": 70934,
+   "positivos": 68467,
+   "blancos": 1118,
+   "nulos": 1340,
+   "recurridos": 6,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 281,
+   "fuerzas": {
+    "LLA": 52798,
+    "UXP": 15669
+   }
+  },
+  "405": {
+   "electores": 70210,
+   "votantes": 52478,
+   "positivos": 50628,
+   "blancos": 843,
+   "nulos": 1001,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 211,
+   "fuerzas": {
+    "LLA": 32776,
+    "UXP": 17852
+   }
+  },
+  "406": {
+   "electores": 166983,
+   "votantes": 125573,
+   "positivos": 120914,
+   "blancos": 2337,
+   "nulos": 2313,
+   "recurridos": 8,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 494,
+   "fuerzas": {
+    "LLA": 85463,
+    "UXP": 35451
+   }
+  },
+  "407": {
+   "electores": 1050909,
+   "votantes": 784935,
+   "positivos": 751999,
+   "blancos": 13483,
+   "nulos": 19249,
+   "recurridos": 154,
+   "impugnados": 50,
+   "comando": 0,
+   "otros": 204,
+   "mesas": 3034,
+   "fuerzas": {
+    "LLA": 434442,
+    "UXP": 317557
+   }
+  },
+  "408": {
+   "electores": 157360,
+   "votantes": 122893,
+   "positivos": 118351,
+   "blancos": 1800,
+   "nulos": 2711,
+   "recurridos": 18,
+   "impugnados": 13,
+   "comando": 0,
+   "otros": 31,
+   "mesas": 455,
+   "fuerzas": {
+    "LLA": 75457,
+    "UXP": 42894
+   }
+  },
+  "409": {
+   "electores": 19909,
+   "votantes": 14209,
+   "positivos": 13857,
+   "blancos": 128,
+   "nulos": 224,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 62,
+   "fuerzas": {
+    "LLA": 8566,
+    "UXP": 5291
+   }
+  },
+  "410": {
+   "electores": 27749,
+   "votantes": 19506,
+   "positivos": 18879,
+   "blancos": 208,
+   "nulos": 411,
+   "recurridos": 8,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 8,
+   "mesas": 88,
+   "fuerzas": {
+    "LLA": 10645,
+    "UXP": 8234
+   }
+  },
+  "411": {
+   "electores": 46247,
+   "votantes": 32054,
+   "positivos": 31308,
+   "blancos": 326,
+   "nulos": 413,
+   "recurridos": 0,
+   "impugnados": 7,
+   "comando": 0,
+   "otros": 7,
+   "mesas": 146,
+   "fuerzas": {
+    "LLA": 17099,
+    "UXP": 14209
+   }
+  },
+  "412": {
+   "electores": 150601,
+   "votantes": 115036,
+   "positivos": 111102,
+   "blancos": 1737,
+   "nulos": 2184,
+   "recurridos": 10,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 13,
+   "mesas": 458,
+   "fuerzas": {
+    "LLA": 81645,
+    "UXP": 29457
+   }
+  },
+  "413": {
+   "electores": 39428,
+   "votantes": 30349,
+   "positivos": 29292,
+   "blancos": 596,
+   "nulos": 461,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 115,
+   "fuerzas": {
+    "LLA": 21026,
+    "UXP": 8266
+   }
+  },
+  "414": {
+   "electores": 72338,
+   "votantes": 55359,
+   "positivos": 52881,
+   "blancos": 1236,
+   "nulos": 1218,
+   "recurridos": 5,
+   "impugnados": 19,
+   "comando": 0,
+   "otros": 24,
+   "mesas": 214,
+   "fuerzas": {
+    "LLA": 37483,
+    "UXP": 15398
+   }
+  },
+  "415": {
+   "electores": 26821,
+   "votantes": 18894,
+   "positivos": 18545,
+   "blancos": 142,
+   "nulos": 206,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 82,
+   "fuerzas": {
+    "LLA": 12273,
+    "UXP": 6272
+   }
+  },
+  "416": {
+   "electores": 55164,
+   "votantes": 42538,
+   "positivos": 40877,
+   "blancos": 676,
+   "nulos": 980,
+   "recurridos": 5,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 5,
+   "mesas": 165,
+   "fuerzas": {
+    "LLA": 30077,
+    "UXP": 10800
+   }
+  },
+  "417": {
+   "electores": 154178,
+   "votantes": 115735,
+   "positivos": 113072,
+   "blancos": 1015,
+   "nulos": 1570,
+   "recurridos": 12,
+   "impugnados": 66,
+   "comando": 0,
+   "otros": 78,
+   "mesas": 464,
+   "fuerzas": {
+    "LLA": 70208,
+    "UXP": 42864
+   }
+  },
+  "418": {
+   "electores": 457297,
+   "votantes": 338022,
+   "positivos": 324754,
+   "blancos": 5508,
+   "nulos": 7617,
+   "recurridos": 120,
+   "impugnados": 23,
+   "comando": 0,
+   "otros": 143,
+   "mesas": 1328,
+   "fuerzas": {
+    "LLA": 197934,
+    "UXP": 126820
+   }
+  },
+  "419": {
+   "electores": 76806,
+   "votantes": 59760,
+   "positivos": 57271,
+   "blancos": 1111,
+   "nulos": 1370,
+   "recurridos": 8,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 8,
+   "mesas": 228,
+   "fuerzas": {
+    "LLA": 34436,
+    "UXP": 22835
+   }
+  },
+  "420": {
+   "electores": 5947,
+   "votantes": 4287,
+   "positivos": 4177,
+   "blancos": 33,
+   "nulos": 66,
+   "recurridos": 11,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 18,
+   "fuerzas": {
+    "LLA": 2535,
+    "UXP": 1642
+   }
+  },
+  "421": {
+   "electores": 0,
+   "votantes": 0,
+   "positivos": 0,
+   "blancos": 0,
+   "nulos": 0,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 0,
+   "fuerzas": {
+    "UXP": 0,
+    "LLA": 0
+   }
+  },
+  "422": {
+   "electores": 1495,
+   "votantes": 1103,
+   "positivos": 1066,
+   "blancos": 25,
+   "nulos": 12,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 5,
+   "fuerzas": {
+    "UXP": 555,
+    "LLA": 511
+   }
+  },
+  "423": {
+   "electores": 15973,
+   "votantes": 12645,
+   "positivos": 12353,
+   "blancos": 156,
+   "nulos": 117,
+   "recurridos": 14,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 19,
+   "mesas": 48,
+   "fuerzas": {
+    "LLA": 8229,
+    "UXP": 4124
+   }
+  },
+  "424": {
+   "electores": 1814,
+   "votantes": 1218,
+   "positivos": 1199,
+   "blancos": 10,
+   "nulos": 6,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 6,
+   "fuerzas": {
+    "UXP": 690,
+    "LLA": 509
+   }
+  },
+  "425": {
+   "electores": 122930,
+   "votantes": 85594,
+   "positivos": 84169,
+   "blancos": 738,
+   "nulos": 605,
+   "recurridos": 48,
+   "impugnados": 34,
+   "comando": 0,
+   "otros": 82,
+   "mesas": 359,
+   "fuerzas": {
+    "LLA": 45677,
+    "UXP": 38492
+   }
+  },
+  "426": {
+   "electores": 13582,
+   "votantes": 9864,
+   "positivos": 9725,
+   "blancos": 67,
+   "nulos": 71,
+   "recurridos": 0,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 41,
+   "fuerzas": {
+    "UXP": 7066,
+    "LLA": 2659
+   }
+  },
+  "427": {
+   "electores": 52546,
+   "votantes": 36717,
+   "positivos": 36185,
+   "blancos": 265,
+   "nulos": 226,
+   "recurridos": 28,
+   "impugnados": 13,
+   "comando": 0,
+   "otros": 41,
+   "mesas": 160,
+   "fuerzas": {
+    "UXP": 19515,
+    "LLA": 16670
+   }
+  },
+  "428": {
+   "electores": 32439,
+   "votantes": 21734,
+   "positivos": 21446,
+   "blancos": 159,
+   "nulos": 123,
+   "recurridos": 4,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 96,
+   "fuerzas": {
+    "UXP": 12900,
+    "LLA": 8546
+   }
+  },
+  "429": {
+   "electores": 26270,
+   "votantes": 19755,
+   "positivos": 19583,
+   "blancos": 94,
+   "nulos": 68,
+   "recurridos": 5,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 10,
+   "mesas": 78,
+   "fuerzas": {
+    "UXP": 14877,
+    "LLA": 4706
+   }
+  },
+  "430": {
+   "electores": 51753,
+   "votantes": 39979,
+   "positivos": 39322,
+   "blancos": 256,
+   "nulos": 398,
+   "recurridos": 2,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 155,
+   "fuerzas": {
+    "UXP": 28807,
+    "LLA": 10515
+   }
+  },
+  "431": {
+   "electores": 26550,
+   "votantes": 19787,
+   "positivos": 19365,
+   "blancos": 202,
+   "nulos": 201,
+   "recurridos": 15,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 19,
+   "mesas": 87,
+   "fuerzas": {
+    "UXP": 9863,
+    "LLA": 9502
+   }
+  },
+  "432": {
+   "electores": 162539,
+   "votantes": 130916,
+   "positivos": 128314,
+   "blancos": 962,
+   "nulos": 1593,
+   "recurridos": 43,
+   "impugnados": 4,
+   "comando": 0,
+   "otros": 47,
+   "mesas": 481,
+   "fuerzas": {
+    "LLA": 74777,
+    "UXP": 53537
+   }
+  },
+  "433": {
+   "electores": 13898,
+   "votantes": 9651,
+   "positivos": 9360,
+   "blancos": 136,
+   "nulos": 154,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 48,
+   "fuerzas": {
+    "LLA": 6109,
+    "UXP": 3251
+   }
+  },
+  "434": {
+   "electores": 6871,
+   "votantes": 5075,
+   "positivos": 4951,
+   "blancos": 46,
+   "nulos": 77,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 23,
+   "fuerzas": {
+    "LLA": 2634,
+    "UXP": 2317
+   }
+  },
+  "435": {
+   "electores": 8007,
+   "votantes": 5420,
+   "positivos": 5232,
+   "blancos": 84,
+   "nulos": 100,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 25,
+   "fuerzas": {
+    "LLA": 3013,
+    "UXP": 2219
+   }
+  },
+  "436": {
+   "electores": 19695,
+   "votantes": 15356,
+   "positivos": 14941,
+   "blancos": 201,
+   "nulos": 213,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 62,
+   "fuerzas": {
+    "LLA": 8656,
+    "UXP": 6285
+   }
+  },
+  "437": {
+   "electores": 168283,
+   "votantes": 126887,
+   "positivos": 121983,
+   "blancos": 1782,
+   "nulos": 3036,
+   "recurridos": 64,
+   "impugnados": 22,
+   "comando": 0,
+   "otros": 86,
+   "mesas": 488,
+   "fuerzas": {
+    "LLA": 82988,
+    "UXP": 38995
+   }
+  },
+  "438": {
+   "electores": 36296,
+   "votantes": 27368,
+   "positivos": 26544,
+   "blancos": 369,
+   "nulos": 441,
+   "recurridos": 14,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 14,
+   "mesas": 108,
+   "fuerzas": {
+    "LLA": 15909,
+    "UXP": 10635
+   }
+  },
+  "439": {
+   "electores": 25331,
+   "votantes": 18006,
+   "positivos": 17318,
+   "blancos": 322,
+   "nulos": 366,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 75,
+   "fuerzas": {
+    "LLA": 11239,
+    "UXP": 6079
+   }
+  },
+  "440": {
+   "electores": 31927,
+   "votantes": 24445,
+   "positivos": 23599,
+   "blancos": 254,
+   "nulos": 589,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 95,
+   "fuerzas": {
+    "LLA": 12868,
+    "UXP": 10731
+   }
+  },
+  "441": {
+   "electores": 292590,
+   "votantes": 230941,
+   "positivos": 222209,
+   "blancos": 2779,
+   "nulos": 5900,
+   "recurridos": 45,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 53,
+   "mesas": 860,
+   "fuerzas": {
+    "LLA": 127883,
+    "UXP": 94326
+   }
+  },
+  "442": {
+   "electores": 13054,
+   "votantes": 9684,
+   "positivos": 9361,
+   "blancos": 107,
+   "nulos": 213,
+   "recurridos": 2,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 38,
+   "fuerzas": {
+    "LLA": 5257,
+    "UXP": 4104
+   }
+  },
+  "443": {
+   "electores": 58223,
+   "votantes": 44357,
+   "positivos": 42592,
+   "blancos": 601,
+   "nulos": 1125,
+   "recurridos": 31,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 39,
+   "mesas": 180,
+   "fuerzas": {
+    "LLA": 22773,
+    "UXP": 19819
+   }
+  },
+  "444": {
+   "electores": 64553,
+   "votantes": 46984,
+   "positivos": 44954,
+   "blancos": 477,
+   "nulos": 1521,
+   "recurridos": 32,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 32,
+   "mesas": 222,
+   "fuerzas": {
+    "LLA": 25840,
+    "UXP": 19114
+   }
+  },
+  "445": {
+   "electores": 5263,
+   "votantes": 3328,
+   "positivos": 3214,
+   "blancos": 34,
+   "nulos": 80,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 18,
+   "fuerzas": {
+    "LLA": 1676,
+    "UXP": 1538
+   }
+  },
+  "446": {
+   "electores": 128169,
+   "votantes": 93716,
+   "positivos": 89376,
+   "blancos": 1595,
+   "nulos": 2680,
+   "recurridos": 38,
+   "impugnados": 27,
+   "comando": 0,
+   "otros": 65,
+   "mesas": 382,
+   "fuerzas": {
+    "LLA": 44704,
+    "UXP": 44672
+   }
+  },
+  "447": {
+   "electores": 360626,
+   "votantes": 278214,
+   "positivos": 272260,
+   "blancos": 2148,
+   "nulos": 3593,
+   "recurridos": 198,
+   "impugnados": 15,
+   "comando": 0,
+   "otros": 213,
+   "mesas": 1054,
+   "fuerzas": {
+    "LLA": 155755,
+    "UXP": 116505
+   }
+  },
+  "448": {
+   "electores": 24552,
+   "votantes": 17968,
+   "positivos": 17566,
+   "blancos": 136,
+   "nulos": 260,
+   "recurridos": 3,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 74,
+   "fuerzas": {
+    "LLA": 11715,
+    "UXP": 5851
+   }
+  },
+  "449": {
+   "electores": 20924,
+   "votantes": 16139,
+   "positivos": 15625,
+   "blancos": 231,
+   "nulos": 282,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 64,
+   "fuerzas": {
+    "LLA": 9909,
+    "UXP": 5716
+   }
+  },
+  "450": {
+   "electores": 196895,
+   "votantes": 152876,
+   "positivos": 147834,
+   "blancos": 1931,
+   "nulos": 2961,
+   "recurridos": 143,
+   "impugnados": 7,
+   "comando": 0,
+   "otros": 150,
+   "mesas": 592,
+   "fuerzas": {
+    "LLA": 101846,
+    "UXP": 45988
+   }
+  },
+  "451": {
+   "electores": 115701,
+   "votantes": 91566,
+   "positivos": 88737,
+   "blancos": 1036,
+   "nulos": 1754,
+   "recurridos": 31,
+   "impugnados": 8,
+   "comando": 0,
+   "otros": 39,
+   "mesas": 352,
+   "fuerzas": {
+    "LLA": 64122,
+    "UXP": 24615
+   }
+  },
+  "452": {
+   "electores": 4442,
+   "votantes": 3430,
+   "positivos": 3334,
+   "blancos": 35,
+   "nulos": 60,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 18,
+   "fuerzas": {
+    "LLA": 1675,
+    "UXP": 1659
+   }
+  },
+  "453": {
+   "electores": 13064,
+   "votantes": 10339,
+   "positivos": 9983,
+   "blancos": 126,
+   "nulos": 205,
+   "recurridos": 24,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 25,
+   "mesas": 49,
+   "fuerzas": {
+    "LLA": 6378,
+    "UXP": 3605
+   }
+  },
+  "454": {
+   "electores": 33342,
+   "votantes": 24937,
+   "positivos": 23868,
+   "blancos": 439,
+   "nulos": 609,
+   "recurridos": 12,
+   "impugnados": 9,
+   "comando": 0,
+   "otros": 21,
+   "mesas": 104,
+   "fuerzas": {
+    "LLA": 15111,
+    "UXP": 8757
+   }
+  },
+  "455": {
+   "electores": 4407,
+   "votantes": 3305,
+   "positivos": 3239,
+   "blancos": 31,
+   "nulos": 35,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 23,
+   "fuerzas": {
+    "LLA": 1886,
+    "UXP": 1353
+   }
+  },
+  "456": {
+   "electores": 13610,
+   "votantes": 9534,
+   "positivos": 9075,
+   "blancos": 147,
+   "nulos": 297,
+   "recurridos": 4,
+   "impugnados": 11,
+   "comando": 0,
+   "otros": 15,
+   "mesas": 42,
+   "fuerzas": {
+    "LLA": 6088,
+    "UXP": 2987
+   }
+  },
+  "457": {
+   "electores": 33316,
+   "votantes": 24949,
+   "positivos": 23580,
+   "blancos": 420,
+   "nulos": 933,
+   "recurridos": 16,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 16,
+   "mesas": 100,
+   "fuerzas": {
+    "LLA": 15496,
+    "UXP": 8084
+   }
+  },
+  "458": {
+   "electores": 4032,
+   "votantes": 3018,
+   "positivos": 2898,
+   "blancos": 33,
+   "nulos": 86,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 16,
+   "fuerzas": {
+    "UXP": 1507,
+    "LLA": 1391
+   }
+  },
+  "459": {
+   "electores": 15405,
+   "votantes": 12089,
+   "positivos": 11511,
+   "blancos": 164,
+   "nulos": 403,
+   "recurridos": 11,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 47,
+   "fuerzas": {
+    "LLA": 6181,
+    "UXP": 5330
+   }
+  },
+  "460": {
+   "electores": 1610,
+   "votantes": 1160,
+   "positivos": 1117,
+   "blancos": 8,
+   "nulos": 32,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 10,
+   "fuerzas": {
+    "UXP": 813,
+    "LLA": 304
+   }
+  },
+  "461": {
+   "electores": 4358,
+   "votantes": 3365,
+   "positivos": 3237,
+   "blancos": 36,
+   "nulos": 90,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 15,
+   "fuerzas": {
+    "UXP": 1711,
+    "LLA": 1526
+   }
+  },
+  "462": {
+   "electores": 8566,
+   "votantes": 6477,
+   "positivos": 6169,
+   "blancos": 77,
+   "nulos": 225,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 31,
+   "fuerzas": {
+    "LLA": 3203,
+    "UXP": 2966
+   }
+  },
+  "463": {
+   "electores": 34653,
+   "votantes": 27857,
+   "positivos": 26564,
+   "blancos": 311,
+   "nulos": 980,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 104,
+   "fuerzas": {
+    "LLA": 16387,
+    "UXP": 10177
+   }
+  },
+  "464": {
+   "electores": 359705,
+   "votantes": 292074,
+   "positivos": 279609,
+   "blancos": 3862,
+   "nulos": 8459,
+   "recurridos": 121,
+   "impugnados": 23,
+   "comando": 0,
+   "otros": 144,
+   "mesas": 1050,
+   "fuerzas": {
+    "LLA": 171343,
+    "UXP": 108266
+   }
+  },
+  "465": {
+   "electores": 6358,
+   "votantes": 4870,
+   "positivos": 4675,
+   "blancos": 49,
+   "nulos": 144,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 22,
+   "fuerzas": {
+    "LLA": 2868,
+    "UXP": 1807
+   }
+  },
+  "466": {
+   "electores": 15467,
+   "votantes": 11398,
+   "positivos": 11059,
+   "blancos": 93,
+   "nulos": 243,
+   "recurridos": 3,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 3,
+   "mesas": 47,
+   "fuerzas": {
+    "LLA": 6738,
+    "UXP": 4321
+   }
+  },
+  "467": {
+   "electores": 5927,
+   "votantes": 4873,
+   "positivos": 4615,
+   "blancos": 56,
+   "nulos": 202,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 22,
+   "fuerzas": {
+    "LLA": 2330,
+    "UXP": 2285
+   }
+  },
+  "468": {
+   "electores": 4887,
+   "votantes": 3746,
+   "positivos": 3602,
+   "blancos": 48,
+   "nulos": 90,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 19,
+   "fuerzas": {
+    "UXP": 2035,
+    "LLA": 1567
+   }
+  },
+  "469": {
+   "electores": 22729,
+   "votantes": 16961,
+   "positivos": 16465,
+   "blancos": 150,
+   "nulos": 335,
+   "recurridos": 11,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 69,
+   "fuerzas": {
+    "LLA": 10118,
+    "UXP": 6347
+   }
+  },
+  "470": {
+   "electores": 7430,
+   "votantes": 5783,
+   "positivos": 5407,
+   "blancos": 113,
+   "nulos": 263,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 26,
+   "fuerzas": {
+    "UXP": 2794,
+    "LLA": 2613
+   }
+  },
+  "471": {
+   "electores": 13781,
+   "votantes": 10329,
+   "positivos": 9911,
+   "blancos": 135,
+   "nulos": 281,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 42,
+   "fuerzas": {
+    "LLA": 5319,
+    "UXP": 4592
+   }
+  },
+  "472": {
+   "electores": 17054,
+   "votantes": 14254,
+   "positivos": 14002,
+   "blancos": 98,
+   "nulos": 94,
+   "recurridos": 59,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 60,
+   "mesas": 54,
+   "fuerzas": {
+    "UXP": 8275,
+    "LLA": 5727
+   }
+  },
+  "473": {
+   "electores": 12607,
+   "votantes": 10356,
+   "positivos": 10238,
+   "blancos": 74,
+   "nulos": 44,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 40,
+   "fuerzas": {
+    "UXP": 7445,
+    "LLA": 2793
+   }
+  },
+  "474": {
+   "electores": 27193,
+   "votantes": 22315,
+   "positivos": 22008,
+   "blancos": 135,
+   "nulos": 164,
+   "recurridos": 8,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 8,
+   "mesas": 81,
+   "fuerzas": {
+    "UXP": 11702,
+    "LLA": 10306
+   }
+  },
+  "475": {
+   "electores": 51036,
+   "votantes": 43238,
+   "positivos": 42637,
+   "blancos": 328,
+   "nulos": 251,
+   "recurridos": 21,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 22,
+   "mesas": 150,
+   "fuerzas": {
+    "UXP": 26739,
+    "LLA": 15898
+   }
+  },
+  "476": {
+   "electores": 70191,
+   "votantes": 58440,
+   "positivos": 57410,
+   "blancos": 392,
+   "nulos": 619,
+   "recurridos": 18,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 19,
+   "mesas": 209,
+   "fuerzas": {
+    "LLA": 28880,
+    "UXP": 28530
+   }
+  },
+  "477": {
+   "electores": 29332,
+   "votantes": 24140,
+   "positivos": 23873,
+   "blancos": 148,
+   "nulos": 110,
+   "recurridos": 8,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 93,
+   "fuerzas": {
+    "UXP": 15723,
+    "LLA": 8150
+   }
+  },
+  "478": {
+   "electores": 57830,
+   "votantes": 48725,
+   "positivos": 47788,
+   "blancos": 300,
+   "nulos": 587,
+   "recurridos": 50,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 50,
+   "mesas": 169,
+   "fuerzas": {
+    "LLA": 26453,
+    "UXP": 21335
+   }
+  },
+  "479": {
+   "electores": 57851,
+   "votantes": 48488,
+   "positivos": 47817,
+   "blancos": 337,
+   "nulos": 299,
+   "recurridos": 34,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 35,
+   "mesas": 175,
+   "fuerzas": {
+    "UXP": 28834,
+    "LLA": 18983
+   }
+  },
+  "480": {
+   "electores": 51229,
+   "votantes": 42411,
+   "positivos": 41797,
+   "blancos": 228,
+   "nulos": 370,
+   "recurridos": 13,
+   "impugnados": 3,
+   "comando": 0,
+   "otros": 16,
+   "mesas": 156,
+   "fuerzas": {
+    "UXP": 25638,
+    "LLA": 16159
+   }
+  },
+  "481": {
+   "electores": 32432,
+   "votantes": 26934,
+   "positivos": 26440,
+   "blancos": 224,
+   "nulos": 252,
+   "recurridos": 18,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 18,
+   "mesas": 98,
+   "fuerzas": {
+    "UXP": 13684,
+    "LLA": 12756
+   }
+  },
+  "482": {
+   "electores": 458235,
+   "votantes": 373760,
+   "positivos": 364391,
+   "blancos": 3470,
+   "nulos": 5595,
+   "recurridos": 268,
+   "impugnados": 36,
+   "comando": 0,
+   "otros": 304,
+   "mesas": 1338,
+   "fuerzas": {
+    "LLA": 219842,
+    "UXP": 144549
+   }
+  },
+  "483": {
+   "electores": 173013,
+   "votantes": 146956,
+   "positivos": 144514,
+   "blancos": 916,
+   "nulos": 1365,
+   "recurridos": 145,
+   "impugnados": 16,
+   "comando": 0,
+   "otros": 161,
+   "mesas": 512,
+   "fuerzas": {
+    "UXP": 79034,
+    "LLA": 65480
+   }
+  },
+  "484": {
+   "electores": 79214,
+   "votantes": 66427,
+   "positivos": 64787,
+   "blancos": 734,
+   "nulos": 862,
+   "recurridos": 42,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 44,
+   "mesas": 231,
+   "fuerzas": {
+    "LLA": 42389,
+    "UXP": 22398
+   }
+  },
+  "485": {
+   "electores": 37802,
+   "votantes": 30555,
+   "positivos": 30130,
+   "blancos": 187,
+   "nulos": 209,
+   "recurridos": 20,
+   "impugnados": 9,
+   "comando": 0,
+   "otros": 29,
+   "mesas": 122,
+   "fuerzas": {
+    "UXP": 19772,
+    "LLA": 10358
+   }
+  },
+  "486": {
+   "electores": 125554,
+   "votantes": 105797,
+   "positivos": 103372,
+   "blancos": 860,
+   "nulos": 1441,
+   "recurridos": 119,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 124,
+   "mesas": 368,
+   "fuerzas": {
+    "LLA": 58987,
+    "UXP": 44385
+   }
+  },
+  "487": {
+   "electores": 16366,
+   "votantes": 13269,
+   "positivos": 12982,
+   "blancos": 106,
+   "nulos": 175,
+   "recurridos": 6,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 6,
+   "mesas": 49,
+   "fuerzas": {
+    "UXP": 7515,
+    "LLA": 5467
+   }
+  },
+  "490": {
+   "electores": 17019,
+   "votantes": 13727,
+   "positivos": 13461,
+   "blancos": 109,
+   "nulos": 148,
+   "recurridos": 8,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 56,
+   "fuerzas": {
+    "UXP": 7080,
+    "LLA": 6381
+   }
+  },
+  "491": {
+   "electores": 10997,
+   "votantes": 7829,
+   "positivos": 7589,
+   "blancos": 63,
+   "nulos": 173,
+   "recurridos": 4,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 34,
+   "fuerzas": {
+    "LLA": 4706,
+    "UXP": 2883
+   }
+  },
+  "492": {
+   "electores": 60559,
+   "votantes": 42770,
+   "positivos": 41491,
+   "blancos": 535,
+   "nulos": 742,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 189,
+   "fuerzas": {
+    "LLA": 27775,
+    "UXP": 13716
+   }
+  },
+  "493": {
+   "electores": 24947,
+   "votantes": 18026,
+   "positivos": 17131,
+   "blancos": 292,
+   "nulos": 601,
+   "recurridos": 2,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 79,
+   "fuerzas": {
+    "UXP": 9522,
+    "LLA": 7609
+   }
+  },
+  "494": {
+   "electores": 10517,
+   "votantes": 6854,
+   "positivos": 6628,
+   "blancos": 53,
+   "nulos": 171,
+   "recurridos": 0,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 36,
+   "fuerzas": {
+    "LLA": 3737,
+    "UXP": 2891
+   }
+  },
+  "495": {
+   "electores": 1474,
+   "votantes": 992,
+   "positivos": 973,
+   "blancos": 13,
+   "nulos": 6,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 5,
+   "fuerzas": {
+    "UXP": 507,
+    "LLA": 466
+   }
+  },
+  "496": {
+   "electores": 9080,
+   "votantes": 6864,
+   "positivos": 6682,
+   "blancos": 62,
+   "nulos": 120,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 27,
+   "fuerzas": {
+    "LLA": 4267,
+    "UXP": 2415
+   }
+  },
+  "497": {
+   "electores": 175510,
+   "votantes": 120288,
+   "positivos": 115606,
+   "blancos": 2591,
+   "nulos": 2029,
+   "recurridos": 45,
+   "impugnados": 17,
+   "comando": 0,
+   "otros": 62,
+   "mesas": 513,
+   "fuerzas": {
+    "LLA": 66712,
+    "UXP": 48894
+   }
+  },
+  "498": {
+   "electores": 137432,
+   "votantes": 99847,
+   "positivos": 95139,
+   "blancos": 3143,
+   "nulos": 1529,
+   "recurridos": 31,
+   "impugnados": 5,
+   "comando": 0,
+   "otros": 36,
+   "mesas": 399,
+   "fuerzas": {
+    "LLA": 68722,
+    "UXP": 26417
+   }
+  },
+  "499": {
+   "electores": 154372,
+   "votantes": 111477,
+   "positivos": 106635,
+   "blancos": 2516,
+   "nulos": 2262,
+   "recurridos": 54,
+   "impugnados": 10,
+   "comando": 0,
+   "otros": 64,
+   "mesas": 448,
+   "fuerzas": {
+    "LLA": 57270,
+    "UXP": 49365
+   }
+  },
+  "500": {
+   "electores": 179551,
+   "votantes": 134160,
+   "positivos": 128857,
+   "blancos": 2459,
+   "nulos": 2761,
+   "recurridos": 45,
+   "impugnados": 38,
+   "comando": 0,
+   "otros": 83,
+   "mesas": 523,
+   "fuerzas": {
+    "LLA": 64516,
+    "UXP": 64341
+   }
+  },
+  "501": {
+   "electores": 152035,
+   "votantes": 116018,
+   "positivos": 110150,
+   "blancos": 3383,
+   "nulos": 2416,
+   "recurridos": 48,
+   "impugnados": 21,
+   "comando": 0,
+   "otros": 69,
+   "mesas": 442,
+   "fuerzas": {
+    "LLA": 56460,
+    "UXP": 53690
+   }
+  },
+  "502": {
+   "electores": 159176,
+   "votantes": 124243,
+   "positivos": 117172,
+   "blancos": 4412,
+   "nulos": 2581,
+   "recurridos": 53,
+   "impugnados": 25,
+   "comando": 0,
+   "otros": 78,
+   "mesas": 459,
+   "fuerzas": {
+    "LLA": 66137,
+    "UXP": 51035
+   }
+  },
+  "503": {
+   "electores": 172782,
+   "votantes": 131317,
+   "positivos": 125052,
+   "blancos": 3456,
+   "nulos": 2741,
+   "recurridos": 44,
+   "impugnados": 24,
+   "comando": 0,
+   "otros": 68,
+   "mesas": 500,
+   "fuerzas": {
+    "LLA": 68841,
+    "UXP": 56211
+   }
+  },
+  "504": {
+   "electores": 146694,
+   "votantes": 109802,
+   "positivos": 106069,
+   "blancos": 1608,
+   "nulos": 2066,
+   "recurridos": 20,
+   "impugnados": 39,
+   "comando": 0,
+   "otros": 59,
+   "mesas": 422,
+   "fuerzas": {
+    "UXP": 53511,
+    "LLA": 52558
+   }
+  },
+  "505": {
+   "electores": 146636,
+   "votantes": 114192,
+   "positivos": 109235,
+   "blancos": 2596,
+   "nulos": 2305,
+   "recurridos": 26,
+   "impugnados": 30,
+   "comando": 0,
+   "otros": 56,
+   "mesas": 425,
+   "fuerzas": {
+    "LLA": 59128,
+    "UXP": 50107
+   }
+  },
+  "506": {
+   "electores": 146724,
+   "votantes": 114847,
+   "positivos": 108853,
+   "blancos": 3309,
+   "nulos": 2621,
+   "recurridos": 40,
+   "impugnados": 24,
+   "comando": 0,
+   "otros": 64,
+   "mesas": 425,
+   "fuerzas": {
+    "LLA": 60358,
+    "UXP": 48495
+   }
+  },
+  "507": {
+   "electores": 170571,
+   "votantes": 134513,
+   "positivos": 127174,
+   "blancos": 4200,
+   "nulos": 3028,
+   "recurridos": 72,
+   "impugnados": 39,
+   "comando": 0,
+   "otros": 111,
+   "mesas": 496,
+   "fuerzas": {
+    "LLA": 73591,
+    "UXP": 53583
+   }
+  },
+  "508": {
+   "electores": 190472,
+   "votantes": 150110,
+   "positivos": 141768,
+   "blancos": 4804,
+   "nulos": 3436,
+   "recurridos": 44,
+   "impugnados": 58,
+   "comando": 0,
+   "otros": 102,
+   "mesas": 551,
+   "fuerzas": {
+    "LLA": 82141,
+    "UXP": 59627
+   }
+  },
+  "509": {
+   "electores": 216202,
+   "votantes": 163049,
+   "positivos": 153693,
+   "blancos": 6412,
+   "nulos": 2875,
+   "recurridos": 53,
+   "impugnados": 16,
+   "comando": 0,
+   "otros": 69,
+   "mesas": 627,
+   "fuerzas": {
+    "LLA": 102794,
+    "UXP": 50899
+   }
+  },
+  "510": {
+   "electores": 205975,
+   "votantes": 151032,
+   "positivos": 142896,
+   "blancos": 5523,
+   "nulos": 2544,
+   "recurridos": 50,
+   "impugnados": 19,
+   "comando": 0,
+   "otros": 69,
+   "mesas": 596,
+   "fuerzas": {
+    "LLA": 95260,
+    "UXP": 47636
+   }
+  },
+  "511": {
+   "electores": 163575,
+   "votantes": 124923,
+   "positivos": 118298,
+   "blancos": 3844,
+   "nulos": 2690,
+   "recurridos": 65,
+   "impugnados": 26,
+   "comando": 0,
+   "otros": 91,
+   "mesas": 474,
+   "fuerzas": {
+    "LLA": 59669,
+    "UXP": 58629
+   }
+  },
+  "512": {
+   "electores": 28154,
+   "votantes": 20488,
+   "positivos": 19940,
+   "blancos": 211,
+   "nulos": 326,
+   "recurridos": 10,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 11,
+   "mesas": 84,
+   "fuerzas": {
+    "LLA": 11075,
+    "UXP": 8865
+   }
+  },
+  "513": {
+   "electores": 11906,
+   "votantes": 9140,
+   "positivos": 8733,
+   "blancos": 262,
+   "nulos": 144,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 37,
+   "fuerzas": {
+    "LLA": 4695,
+    "UXP": 4038
+   }
+  },
+  "514": {
+   "electores": 105816,
+   "votantes": 76485,
+   "positivos": 73720,
+   "blancos": 870,
+   "nulos": 1872,
+   "recurridos": 23,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 23,
+   "mesas": 360,
+   "fuerzas": {
+    "LLA": 43996,
+    "UXP": 29724
+   }
+  },
+  "515": {
+   "electores": 133648,
+   "votantes": 105336,
+   "positivos": 103741,
+   "blancos": 700,
+   "nulos": 836,
+   "recurridos": 12,
+   "impugnados": 47,
+   "comando": 0,
+   "otros": 59,
+   "mesas": 395,
+   "fuerzas": {
+    "UXP": 68654,
+    "LLA": 35087
+   }
+  },
+  "516": {
+   "electores": 41214,
+   "votantes": 32072,
+   "positivos": 31658,
+   "blancos": 226,
+   "nulos": 179,
+   "recurridos": 3,
+   "impugnados": 6,
+   "comando": 0,
+   "otros": 9,
+   "mesas": 122,
+   "fuerzas": {
+    "UXP": 21627,
+    "LLA": 10031
+   }
+  },
+  "517": {
+   "electores": 256306,
+   "votantes": 208574,
+   "positivos": 204657,
+   "blancos": 1760,
+   "nulos": 2104,
+   "recurridos": 38,
+   "impugnados": 15,
+   "comando": 0,
+   "otros": 53,
+   "mesas": 747,
+   "fuerzas": {
+    "UXP": 124730,
+    "LLA": 79927
+   }
+  },
+  "518": {
+   "electores": 7926,
+   "votantes": 6248,
+   "positivos": 6184,
+   "blancos": 40,
+   "nulos": 23,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 25,
+   "fuerzas": {
+    "UXP": 5400,
+    "LLA": 784
+   }
+  },
+  "519": {
+   "electores": 8036,
+   "votantes": 6253,
+   "positivos": 6237,
+   "blancos": 11,
+   "nulos": 5,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 28,
+   "fuerzas": {
+    "UXP": 5595,
+    "LLA": 642
+   }
+  },
+  "520": {
+   "electores": 1065,
+   "votantes": 688,
+   "positivos": 672,
+   "blancos": 9,
+   "nulos": 7,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 6,
+   "fuerzas": {
+    "UXP": 398,
+    "LLA": 274
+   }
+  },
+  "521": {
+   "electores": 3345,
+   "votantes": 2472,
+   "positivos": 2453,
+   "blancos": 8,
+   "nulos": 10,
+   "recurridos": 0,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 12,
+   "fuerzas": {
+    "UXP": 2055,
+    "LLA": 398
+   }
+  },
+  "522": {
+   "electores": 10766,
+   "votantes": 8399,
+   "positivos": 8325,
+   "blancos": 42,
+   "nulos": 31,
+   "recurridos": 1,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 35,
+   "fuerzas": {
+    "UXP": 7155,
+    "LLA": 1170
+   }
+  },
+  "523": {
+   "electores": 19029,
+   "votantes": 14340,
+   "positivos": 14181,
+   "blancos": 78,
+   "nulos": 80,
+   "recurridos": 0,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 1,
+   "mesas": 60,
+   "fuerzas": {
+    "UXP": 10282,
+    "LLA": 3899
+   }
+  },
+  "524": {
+   "electores": 7702,
+   "votantes": 5915,
+   "positivos": 5875,
+   "blancos": 18,
+   "nulos": 18,
+   "recurridos": 2,
+   "impugnados": 2,
+   "comando": 0,
+   "otros": 4,
+   "mesas": 26,
+   "fuerzas": {
+    "UXP": 4757,
+    "LLA": 1118
+   }
+  },
+  "525": {
+   "electores": 12302,
+   "votantes": 9418,
+   "positivos": 9364,
+   "blancos": 34,
+   "nulos": 20,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 40,
+   "fuerzas": {
+    "UXP": 7731,
+    "LLA": 1633
+   }
+  },
+  "526": {
+   "electores": 8695,
+   "votantes": 6341,
+   "positivos": 6245,
+   "blancos": 36,
+   "nulos": 58,
+   "recurridos": 1,
+   "impugnados": 1,
+   "comando": 0,
+   "otros": 2,
+   "mesas": 30,
+   "fuerzas": {
+    "UXP": 3623,
+    "LLA": 2622
+   }
+  },
+  "527": {
+   "electores": 8177,
+   "votantes": 6622,
+   "positivos": 6524,
+   "blancos": 49,
+   "nulos": 49,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 26,
+   "fuerzas": {
+    "LLA": 3597,
+    "UXP": 2927
+   }
+  },
+  "528": {
+   "electores": 7461,
+   "votantes": 5626,
+   "positivos": 5515,
+   "blancos": 45,
+   "nulos": 66,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 24,
+   "fuerzas": {
+    "UXP": 3433,
+    "LLA": 2082
+   }
+  }
+ },
+ "sin_poligono": {
+  "TIERRA DEL FUEGO|ANTARTIDA ARGENTINA": {
+   "electores": 292,
+   "votantes": 196,
+   "positivos": 191,
+   "blancos": 5,
+   "nulos": 0,
+   "recurridos": 0,
+   "impugnados": 0,
+   "comando": 0,
+   "otros": 0,
+   "mesas": 1,
+   "fuerzas": {
+    "LLA": 173,
+    "UXP": 18
+   }
+  }
+ },
+ "listas": {
+  "LLA": {
+   "BUENOS AIRES: LA LIBERTAD AVANZA": 4801185,
+   "CORDOBA: LA LIBERTAD AVANZA": 1639102,
+   "SANTA FE: LA LIBERTAD AVANZA": 1282012,
+   "CIUDAD AUTONOMA DE BUENOS AIRES: LA LIBERTAD AVANZA": 1038310,
+   "MENDOZA: LA LIBERTAD AVANZA": 784109,
+   "TUCUMAN: LA LIBERTAD AVANZA": 557395,
+   "ENTRE RIOS: LA LIBERTAD AVANZA": 529318,
+   "SALTA: LA LIBERTAD AVANZA": 461685,
+   "MISIONES: LA LIBERTAD AVANZA": 405460,
+   "CORRIENTES: LA LIBERTAD AVANZA": 366228,
+   "CHACO: LA LIBERTAD AVANZA": 357106,
+   "SAN JUAN: LA LIBERTAD AVANZA": 277621,
+   "JUJUY: LA LIBERTAD AVANZA": 258754,
+   "NEUQUEN: LA LIBERTAD AVANZA": 254613,
+   "RIO NEGRO: LA LIBERTAD AVANZA": 236796,
+   "SAN LUIS: LA LIBERTAD AVANZA": 214938,
+   "SANTIAGO DEL ESTERO: LA LIBERTAD AVANZA": 198805,
+   "CHUBUT: LA LIBERTAD AVANZA": 197835,
+   "FORMOSA: LA LIBERTAD AVANZA": 154306,
+   "LA PAMPA: LA LIBERTAD AVANZA": 126794,
+   "LA RIOJA: LA LIBERTAD AVANZA": 126357,
+   "CATAMARCA: LA LIBERTAD AVANZA": 125325,
+   "SANTA CRUZ: LA LIBERTAD AVANZA": 104531,
+   "TIERRA DEL FUEGO: LA LIBERTAD AVANZA": 55975
+  },
+  "UXP": {
+   "BUENOS AIRES: UNION POR LA PATRIA": 4949734,
+   "CIUDAD AUTONOMA DE BUENOS AIRES: UNION POR LA PATRIA": 775356,
+   "SANTA FE: UNION POR LA PATRIA": 758396,
+   "CORDOBA: UNION POR LA PATRIA": 574313,
+   "TUCUMAN: UNION POR LA PATRIA": 514978,
+   "SANTIAGO DEL ESTERO: UNION POR LA PATRIA": 432433,
+   "CHACO: UNION POR LA PATRIA": 359789,
+   "SALTA: UNION POR LA PATRIA": 338925,
+   "ENTRE RIOS: UNION POR LA PATRIA": 331763,
+   "CORRIENTES: UNION POR LA PATRIA": 322694,
+   "MENDOZA: UNION POR LA PATRIA": 317656,
+   "MISIONES: UNION POR LA PATRIA": 309355,
+   "FORMOSA: UNION POR LA PATRIA": 202288,
+   "RIO NEGRO: UNION POR LA PATRIA": 199969,
+   "JUJUY: UNION POR LA PATRIA": 186315,
+   "SAN JUAN: UNION POR LA PATRIA": 179706,
+   "NEUQUEN: UNION POR LA PATRIA": 166700,
+   "CHUBUT: UNION POR LA PATRIA": 137057,
+   "CATAMARCA: UNION POR LA PATRIA": 111994,
+   "LA RIOJA: UNION POR LA PATRIA": 108817,
+   "SAN LUIS: UNION POR LA PATRIA": 101232,
+   "LA PAMPA: UNION POR LA PATRIA": 94546,
+   "SANTA CRUZ: UNION POR LA PATRIA": 75706,
+   "TIERRA DEL FUEGO: UNION POR LA PATRIA": 48998
+  }
+ }
+}

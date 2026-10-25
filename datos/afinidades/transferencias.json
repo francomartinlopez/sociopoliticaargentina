@@ -1,0 +1,3568 @@
+{
+ "meta": {
+  "generado": "2026-10-25",
+  "unidad": "millones de pesos corrientes (sin deflactar)",
+  "periodo_transferencias": "2025-10..2026-09 (últimos 12 meses con dato; según BAE Negocios no hubo giros de ATN entre el 1 y el 12 de octubre de 2026)",
+  "definiciones": {
+   "TNA": "Transferencias no automáticas (corrientes + capital) de la Administración Nacional a provincias y CABA. Politikon Chaco las mide en etapa 'pagado' con base en Presupuesto Abierto e INCLUYE los ATN: para el indicador del sitio (no automáticas + ATN) no hay que sumar los ATN dos veces.",
+   "ATN": "Aportes del Tesoro Nacional (Ley 23.548, art. 3 inc. d), giros discrecionales del fondo ATN."
+  },
+  "metodo_atn": "Suma de giros mensuales por provincia. Oct-2025 (La Nación), nov-2025 = 0 (La Unión), dic-2025 (Chequeado + Primera Edición), ene-may-2026 en bloque (Infobae: giros en marzo y abril, ninguno en mayo), jun-2026 = 0 (derivado: el acumulado ene-ago de Politikon menos ene-may y julio da 0 en cada provincia), jul-2026 (El Esquiú), ago-2026 = 0 (Noticias Chaco: 'no hubo distribución de ATN'), sep-2026 (BAE Negocios, 16/10/2026). Chequeo: el acumulado ene-sep 2026 por provincia coincide con Politikon (ene-ago: 151.000 + sep: 33.000 = 184.000) y con los parciales de CEPA y OPC.",
+  "metodo_presupuesto": "Gasto total (Gastos corrientes + de capital) de la Administración Pública No Financiera ejecutado en 2025, provisorio, publicado por la Subsecretaría de Coordinación Fiscal Provincial (DNAP). Santiago del Estero informa en etapa compromiso. La Pampa: no tiene ejecución en la DNAP; se usa el presupuesto 2025 (Ley 3603).",
+  "metodo_poblacion": "Censo 2022, resultados definitivos del INDEC (población censada por provincia; suma 45.892.285). El cuadro del INDEC no se pudo abrir: se tomó de Argentina en Datos y se cruzaron 9 jurisdicciones con Infobae (21/11/2023).",
+  "advertencias": [
+   "Montos nominales: Oct-2025 y Sep-2026 tienen poder adquisitivo distinto.",
+   "El denominador (gasto 2025) no cubre el mismo período que las transferencias (oct-2025 a sep-2026).",
+   "TNA: el período de los indicadores discrecionales_* (año 2025) no es el de los ATN (oct-2025 a sep-2026). Son indicadores distintos y no se deben sumar entre sí.",
+   "TNA 2025 de CABA: 1,17 billones, el 47 % del total. Corresponden casi todos a los pagos por la cautelar de coparticipación de la Corte Suprema (Obligaciones a Cargo del Tesoro), no a un giro discrecional en sentido estricto.",
+   "Las TNA incluyen giros con destino fijado por ley o convenio, como el financiamiento de cajas previsionales no transferidas (ANSES, subparcial 3003), programas educativos y obras. «No automática» no quiere decir «arbitraria».",
+   "La ubicación geográfica es la que imputa el SIDIF. Las partidas sin provincia (Interprovincial, Nacional, No clasificado) dieron 0 en estas partidas."
+  ],
+  "metodo_tna": "Presupuesto Abierto, visualización «¿Dónde se gasta?» (endpoint REST público rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter), crédito PAGADO por ubicación geográfica, filtrado por inciso 5, principal 7 (corrientes) y 8 (capital) y parcial 1 a 5 (Administración Pública Provincial; 2 y 5 sin movimientos; 3 empresas públicas provinciales; 4 instituciones de enseñanza provinciales). Los ATN se identifican con el mismo endpoint filtrando servicio 325 (Ministerio del Interior), programa 19 (Relaciones con las Provincias y Desarrollo Regional), actividad 21 (ATN). Por qué año 2025 y no oct-2025 a sep-2026: la fuente accesible solo da acumulados por ejercicio. Las bases mensuales (credito-mensual en dgsiaf-repo.mecon.gob.ar) siguen bloqueadas y la API /api/v1/credito pide un token personal. 2025 es el último período de 12 meses completo por provincia y coincide con el año del denominador. 2026 va como acumulado al 23/10/2026."
+ },
+ "totales_nacionales": {
+  "atn_12m_millones": 273000,
+  "atn_2025_millones": {
+   "valor": 207500,
+   "f": "BAE Negocios (Politikon Chaco)",
+   "url": "https://www.baenegocios.com/economia/ajuste-a-la-provincias-2025-se-fue-con-740-000-millones-del-fondo-de-atn-sin-distribuir/",
+   "fecha": "2026-01-05",
+   "nota": "Fondo ATN 2025: 948.036; sin distribuir: 740.536. El informe de JGM citado por Infobae da 209.000."
+  },
+  "atn_2026_ene_sep_millones": {
+   "valor": 184000,
+   "fuentes": [
+    {
+     "f": "Noticias Chaco (Politikon Chaco)",
+     "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+     "fecha": "2026-09-02"
+    },
+    {
+     "f": "BAE Negocios (Politikon Chaco)",
+     "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+     "fecha": "2026-10-16"
+    }
+   ]
+  },
+  "tna_mensual_2026_millones": {
+   "2026-06": 48300,
+   "2026-07": 98611,
+   "2026-08": 68288,
+   "2026-09": 159975
+  },
+  "tna_acumulado_2026_millones": {
+   "2026-01..2026-06": 639589,
+   "2026-01..2026-07": 738201,
+   "2026-01..2026-08": 806489,
+   "2026-01..2026-09": 966463
+  },
+  "tna_fuentes": [
+   {
+    "f": "Perfil (Politikon Chaco)",
+    "url": "https://www.perfil.com/noticias/politica/el-gobierno-profundizo-el-recorte-de-fondos-a-las-provincias-las-transferencias-cayeron-mas-del-60-en-el-primer-semestre.phtml",
+    "fecha": "2026-07-10"
+   },
+   {
+    "f": "El Esquiú (Politikon Chaco)",
+    "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+    "fecha": "2026-08-05"
+   },
+   {
+    "f": "Noticias Chaco (Politikon Chaco)",
+    "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+    "fecha": "2026-09-02"
+   },
+   {
+    "f": "Cholila Online (Politikon Chaco)",
+    "url": "https://cholilaonline.ar/2026/10/transferencias-a-provincias-caida-historica-fondos.html",
+    "fecha": "2026-10-02"
+   },
+   {
+    "f": "Política Argentina (Politikon Chaco)",
+    "url": "https://www.politicargentina.com/notas/202610/76626-las-provincias-recibieron-60-menos-de-transferencias-discrecionales-en-lo-que-va-de-2026.html",
+    "fecha": "2026-10-02"
+   }
+  ],
+  "tna_nota": "Serie de Politikon Chaco (etapa pagado). Chequeo: 639.589 + 98.611 + 68.288 + 159.975 = 966.463. La OPC informa -49% real ene-sep 2026 vs. 2025 con otra metodología (incluye municipios).",
+  "tna_2025_millones": {
+   "valor": 2492543,
+   "f": "BAE Negocios (Politikon Chaco)",
+   "url": "https://www.baenegocios.com/economia/ajuste-a-la-provincias-2025-se-fue-con-740-000-millones-del-fondo-de-atn-sin-distribuir/",
+   "fecha": "2026-01-05",
+   "nota": "'Discrecionales' 2025 según Politikon Chaco; CABA recibió el 47% (cautelar de coparticipación)."
+  },
+  "tna_presupuesto_abierto": {
+   "tna_2025_millones": 2490134.4,
+   "atn_2025_millones": 207500.0,
+   "tna_2026_al_23_10_millones": 1010882.5,
+   "atn_2026_al_23_10_millones": 184000.0,
+   "municipios_excluidos_2025_millones": 17244.2,
+   "municipios_excluidos_2026_millones": 11249.3,
+   "fuente": {
+    "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+    "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+    "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+    "fecha": "2026-10-25",
+    "datos_al": {
+     "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+     "2026": "23/10/2026"
+    }
+   },
+   "cruce": [
+    "2025: Presupuesto Abierto 2.490.134,4 vs. Politikon Chaco 2.492.543 (BAE Negocios, 05/01/2026): diferencia -2.408,6 (-0,10 %).",
+    "ATN 2025: 207.500,0, igual al dato de Politikon/BAE (207.500).",
+    "CABA 2025: 47,1 % del total, en línea con el 47 % que informa Politikon (cautelar de coparticipación).",
+    "2026: 1.010.882,5 al 23/10/2026 vs. Politikon 966.463 a septiembre. La diferencia (44.419,5) correspondería a los pagos del 1 al 23 de octubre, pero no se puede verificar porque la fuente no tiene apertura mensual.",
+    "ATN 2026 al 23/10: 184.000,0 = 184.000 de Politikon ene–sep. Coincide provincia por provincia con atn.acumulado_2026_ene_sep_millones; no hubo giros de ATN entre el 1 y el 23 de octubre."
+   ]
+  }
+ },
+ "provincias": {
+  "BUENOS AIRES": {
+   "nombre": "Buenos Aires",
+   "atn": {
+    "total_12m_millones": 0,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 0,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 483170.7,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 10000.0,
+    "sin_atn_2025_millones": 473170.7,
+    "por_partida_2025_millones": {
+     "5.7.1": 478258.5,
+     "5.7.4": 2726.3,
+     "5.8.1": 8.1,
+     "5.8.4": 2177.8
+    },
+    "acumulado_2026_millones": 202862.1,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 0.0,
+    "sin_atn_2026_millones": 202862.1,
+    "por_partida_2026_millones": {
+     "5.7.1": 200320.6,
+     "5.7.4": 2541.5
+    },
+    "participacion_2025_pct": 19.4,
+    "participacion_2026_pct": 20.07,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-09",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 29092,
+      "unidad": "millones $",
+      "f": "Cholila Online (Politikon Chaco)",
+      "url": "https://cholilaonline.ar/2026/10/transferencias-a-provincias-caida-historica-fondos.html",
+      "fecha": "2026-10-02",
+      "nota": "Cruce: Política Argentina (02/10/2026) da las mismas cifras."
+     },
+     {
+      "periodo": "2026-08",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 16190,
+      "unidad": "millones $",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "periodo": "2026-07",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 19181,
+      "unidad": "millones $",
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "periodo": "2026-06",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 13159,
+      "unidad": "millones $",
+      "f": "Perfil (Politikon Chaco)",
+      "url": "https://www.perfil.com/noticias/politica/el-gobierno-profundizo-el-recorte-de-fondos-a-las-provincias-las-transferencias-cayeron-mas-del-60-en-el-primer-semestre.phtml",
+      "fecha": "2026-07-10"
+     },
+     {
+      "periodo": "2026-01..2026-08",
+      "concepto": "participación en el total de TNA (total: $806.489 millones)",
+      "valor": 20.4,
+      "unidad": "% del total",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: infraestructura hídrica",
+      "valor": 9910,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC)."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 36572407.4,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 21667604.4,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 17523996,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": {
+     "f": "Infobae (cifras definitivas del Censo 2022; cruce de 9 jurisdicciones)",
+     "url": "https://www.infobae.com/sociedad/2023/11/21/cifras-definitivas-del-censo-2022-caba-y-pba-son-los-distritos-con-mas-personas-en-situacion-de-calle-del-pais/",
+     "fecha": "2023-11-21"
+    }
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.0,
+    "atn_por_habitante_pesos": 0.0,
+    "discrecionales_pct_presupuesto": 1.321,
+    "discrecionales_por_habitante_pesos": 27572.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.555,
+    "discrecionales_2026_acum_por_habitante_pesos": 11576.0
+   },
+   "notas": []
+  },
+  "CATAMARCA": {
+   "nombre": "Catamarca",
+   "atn": {
+    "total_12m_millones": 29000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 10500,
+     "2026-01..2026-05": 6500,
+     "2026-06": 0,
+     "2026-07": 5000,
+     "2026-08": 0,
+     "2026-09": 7000
+    },
+    "acumulado_2026_ene_sep_millones": 18500,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 35011.5,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 17500.0,
+    "sin_atn_2025_millones": 17511.5,
+    "por_partida_2025_millones": {
+     "5.7.1": 23074.9,
+     "5.7.4": 118.5,
+     "5.8.1": 11804.1,
+     "5.8.4": 14.0
+    },
+    "acumulado_2026_millones": 36503.9,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 18500.0,
+    "sin_atn_2026_millones": 18003.9,
+    "por_partida_2026_millones": {
+     "5.7.1": 23314.2,
+     "5.7.4": 86.8,
+     "5.8.1": 13102.9
+    },
+    "participacion_2025_pct": 1.41,
+    "participacion_2026_pct": 3.61,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: infraestructura hídrica",
+      "valor": 13103,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC)."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 1970121.7,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1234265.7,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 429562,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 1.472,
+    "atn_por_habitante_pesos": 67511.0,
+    "discrecionales_pct_presupuesto": 1.777,
+    "discrecionales_por_habitante_pesos": 81505.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 1.853,
+    "discrecionales_2026_acum_por_habitante_pesos": 84979.0
+   },
+   "notas": []
+  },
+  "CHACO": {
+   "nombre": "Chaco",
+   "atn": {
+    "total_12m_millones": 23000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 2000,
+     "2025-11": 0,
+     "2025-12": 11000,
+     "2026-01..2026-05": 10000,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 10000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 109493.4,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 18000.0,
+    "sin_atn_2025_millones": 91493.4,
+    "por_partida_2025_millones": {
+     "5.7.1": 96344.2,
+     "5.7.4": 362.3,
+     "5.8.1": 12766.1,
+     "5.8.4": 20.7
+    },
+    "acumulado_2026_millones": 41033.8,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 10000.0,
+    "sin_atn_2026_millones": 31033.8,
+    "por_partida_2026_millones": {
+     "5.7.1": 40337.5,
+     "5.7.4": 308.1,
+     "5.8.1": 388.2
+    },
+    "participacion_2025_pct": 4.4,
+    "participacion_2026_pct": 4.06,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: infraestructura hídrica",
+      "valor": 388,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC)."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 4415868.2,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 2327161.9,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 1129606,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.521,
+    "atn_por_habitante_pesos": 20361.0,
+    "discrecionales_pct_presupuesto": 2.48,
+    "discrecionales_por_habitante_pesos": 96931.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.929,
+    "discrecionales_2026_acum_por_habitante_pesos": 36326.0
+   },
+   "notas": []
+  },
+  "CHUBUT": {
+   "nombre": "Chubut",
+   "atn": {
+    "total_12m_millones": 16000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 9500,
+     "2026-01..2026-05": 6500,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 6500,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 23345.3,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 16500.0,
+    "sin_atn_2025_millones": 6845.3,
+    "por_partida_2025_millones": {
+     "5.7.1": 22790.9,
+     "5.7.4": 146.2,
+     "5.8.1": 390.9,
+     "5.8.4": 17.2
+    },
+    "acumulado_2026_millones": 16557.2,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 6500.0,
+    "sin_atn_2026_millones": 10057.2,
+    "por_partida_2026_millones": {
+     "5.7.1": 16457.6,
+     "5.7.4": 99.6
+    },
+    "participacion_2025_pct": 0.94,
+    "participacion_2026_pct": 1.64,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: financiamiento de cajas previsionales",
+      "valor": 4000,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC), mismas cifras."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 2968221.9,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1786334.0,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 592621,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.539,
+    "atn_por_habitante_pesos": 26999.0,
+    "discrecionales_pct_presupuesto": 0.787,
+    "discrecionales_por_habitante_pesos": 39393.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.558,
+    "discrecionales_2026_acum_por_habitante_pesos": 27939.0
+   },
+   "notas": [
+    "Dic-2025: 9.500 según Primera Edición (Politikon); Chequeado (18/12) y La Unión (19/12) listan solo seis provincias por 66.500 porque el giro a Chubut fue posterior. Total de diciembre: 76.000 (El Destape / Primera Edición)."
+   ]
+  },
+  "CIUDAD AUTONOMA DE BUENOS AIRES": {
+   "nombre": "CABA",
+   "atn": {
+    "total_12m_millones": 0,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 0,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 1172231.3,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 0.0,
+    "sin_atn_2025_millones": 1172231.3,
+    "por_partida_2025_millones": {
+     "5.7.1": 1170363.2,
+     "5.7.4": 294.7,
+     "5.8.1": 1412.1,
+     "5.8.4": 161.3
+    },
+    "acumulado_2026_millones": 96794.3,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 0.0,
+    "sin_atn_2026_millones": 96794.3,
+    "por_partida_2026_millones": {
+     "5.7.1": 95837.9,
+     "5.7.4": 144.7,
+     "5.8.1": 811.7
+    },
+    "participacion_2025_pct": 47.08,
+    "participacion_2026_pct": 9.58,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-08",
+      "concepto": "participación en el total de TNA (total: $806.489 millones)",
+      "valor": 11.7,
+      "unidad": "% del total",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 13751709.3,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 7104105.9,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 3121707,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": {
+     "f": "Infobae (cifras definitivas del Censo 2022; cruce de 9 jurisdicciones)",
+     "url": "https://www.infobae.com/sociedad/2023/11/21/cifras-definitivas-del-censo-2022-caba-y-pba-son-los-distritos-con-mas-personas-en-situacion-de-calle-del-pais/",
+     "fecha": "2023-11-21"
+    }
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.0,
+    "atn_por_habitante_pesos": 0.0,
+    "discrecionales_pct_presupuesto": 8.524,
+    "discrecionales_por_habitante_pesos": 375510.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.704,
+    "discrecionales_2026_acum_por_habitante_pesos": 31007.0
+   },
+   "notas": [
+    "En los rastreadores de TNA, CABA recibe montos grandes por la cautelar de la Corte por coparticipación (47% de las discrecionales de 2025 según BAE/Politikon): no son ATN y conviene tratarlos aparte."
+   ]
+  },
+  "CORDOBA": {
+   "nombre": "Córdoba",
+   "atn": {
+    "total_12m_millones": 5000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 5000,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 5000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 69339.7,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 0.0,
+    "sin_atn_2025_millones": 69339.7,
+    "por_partida_2025_millones": {
+     "5.7.1": 63689.6,
+     "5.7.4": 509.2,
+     "5.8.1": 4818.3,
+     "5.8.4": 322.6
+    },
+    "acumulado_2026_millones": 62123.9,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 5000.0,
+    "sin_atn_2026_millones": 57123.9,
+    "por_partida_2026_millones": {
+     "5.7.1": 61594.4,
+     "5.7.4": 529.5
+    },
+    "participacion_2025_pct": 2.78,
+    "participacion_2026_pct": 6.15,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-08",
+      "concepto": "participación en el total de TNA (total: $806.489 millones)",
+      "valor": 6.8,
+      "unidad": "% del total",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: financiamiento de cajas previsionales",
+      "valor": 30000,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC), mismas cifras."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 11801930.3,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 7046861.7,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 3840905,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": {
+     "f": "Infobae (cifras definitivas del Censo 2022; cruce de 9 jurisdicciones)",
+     "url": "https://www.infobae.com/sociedad/2023/11/21/cifras-definitivas-del-censo-2022-caba-y-pba-son-los-distritos-con-mas-personas-en-situacion-de-calle-del-pais/",
+     "fecha": "2023-11-21"
+    }
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.042,
+    "atn_por_habitante_pesos": 1302.0,
+    "discrecionales_pct_presupuesto": 0.588,
+    "discrecionales_por_habitante_pesos": 18053.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.526,
+    "discrecionales_2026_acum_por_habitante_pesos": 16174.0
+   },
+   "notas": []
+  },
+  "CORRIENTES": {
+   "nombre": "Corrientes",
+   "atn": {
+    "total_12m_millones": 19000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 14000,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 5000
+    },
+    "acumulado_2026_ene_sep_millones": 19000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 26708.6,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 1500.0,
+    "sin_atn_2025_millones": 25208.6,
+    "por_partida_2025_millones": {
+     "5.7.1": 15400.0,
+     "5.7.4": 290.1,
+     "5.8.1": 11010.6,
+     "5.8.4": 7.8
+    },
+    "acumulado_2026_millones": 46835.5,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 19000.0,
+    "sin_atn_2026_millones": 27835.5,
+    "por_partida_2026_millones": {
+     "5.7.1": 42418.5,
+     "5.7.4": 256.0,
+     "5.8.1": 4161.0
+    },
+    "participacion_2025_pct": 1.07,
+    "participacion_2026_pct": 4.63,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-06",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 5104,
+      "unidad": "millones $",
+      "f": "Perfil (Politikon Chaco)",
+      "url": "https://www.perfil.com/noticias/politica/el-gobierno-profundizo-el-recorte-de-fondos-a-las-provincias-las-transferencias-cayeron-mas-del-60-en-el-primer-semestre.phtml",
+      "fecha": "2026-07-10"
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: financiamiento de cajas previsionales",
+      "valor": 12000,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC), mismas cifras."
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: infraestructura hídrica",
+      "valor": 4161,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC)."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 3260020.8,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1887453.4,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 1212696,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.583,
+    "atn_por_habitante_pesos": 15668.0,
+    "discrecionales_pct_presupuesto": 0.819,
+    "discrecionales_por_habitante_pesos": 22024.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 1.437,
+    "discrecionales_2026_acum_por_habitante_pesos": 38621.0
+   },
+   "notas": []
+  },
+  "ENTRE RIOS": {
+   "nombre": "Entre Ríos",
+   "atn": {
+    "total_12m_millones": 25000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 3000,
+     "2025-11": 0,
+     "2025-12": 7000,
+     "2026-01..2026-05": 10000,
+     "2026-06": 0,
+     "2026-07": 5000,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 15000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 61960.3,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 19000.0,
+    "sin_atn_2025_millones": 42960.3,
+    "por_partida_2025_millones": {
+     "5.7.1": 55016.8,
+     "5.7.4": 385.5,
+     "5.8.1": 5919.7,
+     "5.8.4": 638.3
+    },
+    "acumulado_2026_millones": 74385.6,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 15000.0,
+    "sin_atn_2026_millones": 59385.6,
+    "por_partida_2026_millones": {
+     "5.7.1": 74047.9,
+     "5.7.4": 337.8
+    },
+    "participacion_2025_pct": 2.49,
+    "participacion_2026_pct": 7.36,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-08",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 8778,
+      "unidad": "millones $",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "periodo": "2026-01..2026-08",
+      "concepto": "participación en el total de TNA (total: $806.489 millones)",
+      "valor": 8.4,
+      "unidad": "% del total",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: financiamiento de cajas previsionales",
+      "valor": 36000,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC), mismas cifras."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 4988125.3,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 2818845.0,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 1425578,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.501,
+    "atn_por_habitante_pesos": 17537.0,
+    "discrecionales_pct_presupuesto": 1.242,
+    "discrecionales_por_habitante_pesos": 43463.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 1.491,
+    "discrecionales_2026_acum_por_habitante_pesos": 52179.0
+   },
+   "notas": []
+  },
+  "FORMOSA": {
+   "nombre": "Formosa",
+   "atn": {
+    "total_12m_millones": 0,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 0,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 16116.1,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 0.0,
+    "sin_atn_2025_millones": 16116.1,
+    "por_partida_2025_millones": {
+     "5.7.1": 8772.8,
+     "5.7.4": 180.5,
+     "5.8.1": 7141.1,
+     "5.8.4": 21.7
+    },
+    "acumulado_2026_millones": 7370.1,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 0.0,
+    "sin_atn_2026_millones": 7370.1,
+    "por_partida_2026_millones": {
+     "5.7.1": 6505.4,
+     "5.7.4": 142.1,
+     "5.8.1": 722.6
+    },
+    "participacion_2025_pct": 0.65,
+    "participacion_2026_pct": 0.73,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 2746686.2,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1541123.0,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 607419,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.0,
+    "atn_por_habitante_pesos": 0.0,
+    "discrecionales_pct_presupuesto": 0.587,
+    "discrecionales_por_habitante_pesos": 26532.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.268,
+    "discrecionales_2026_acum_por_habitante_pesos": 12133.0
+   },
+   "notas": []
+  },
+  "JUJUY": {
+   "nombre": "Jujuy",
+   "atn": {
+    "total_12m_millones": 13500,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 5000,
+     "2026-06": 0,
+     "2026-07": 5000,
+     "2026-08": 0,
+     "2026-09": 3500
+    },
+    "acumulado_2026_ene_sep_millones": 13500,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 27876.1,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 0.0,
+    "sin_atn_2025_millones": 27876.1,
+    "por_partida_2025_millones": {
+     "5.7.1": 21310.3,
+     "5.7.4": 104.3,
+     "5.8.1": 6449.2,
+     "5.8.4": 12.3
+    },
+    "acumulado_2026_millones": 26737.8,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 13500.0,
+    "sin_atn_2026_millones": 13237.8,
+    "por_partida_2026_millones": {
+     "5.7.1": 20830.2,
+     "5.7.4": 103.4,
+     "5.8.1": 5804.2
+    },
+    "participacion_2025_pct": 1.12,
+    "participacion_2026_pct": 2.64,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: infraestructura hídrica",
+      "valor": 5800,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC)."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 2320293.2,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1209221.8,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 811611,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.582,
+    "atn_por_habitante_pesos": 16634.0,
+    "discrecionales_pct_presupuesto": 1.201,
+    "discrecionales_por_habitante_pesos": 34347.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 1.152,
+    "discrecionales_2026_acum_por_habitante_pesos": 32944.0
+   },
+   "notas": []
+  },
+  "LA PAMPA": {
+   "nombre": "La Pampa",
+   "atn": {
+    "total_12m_millones": 3500,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 3500
+    },
+    "acumulado_2026_ene_sep_millones": 3500,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 6632.9,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 0.0,
+    "sin_atn_2025_millones": 6632.9,
+    "por_partida_2025_millones": {
+     "5.7.1": 6499.9,
+     "5.7.4": 57.1,
+     "5.8.1": 63.7,
+     "5.8.4": 12.2
+    },
+    "acumulado_2026_millones": 57434.3,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 3500.0,
+    "sin_atn_2026_millones": 53934.3,
+    "por_partida_2026_millones": {
+     "5.7.1": 57400.6,
+     "5.7.4": 33.7
+    },
+    "participacion_2025_pct": 0.27,
+    "participacion_2026_pct": 5.68,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-06",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 303,
+      "unidad": "millones $",
+      "f": "Perfil (Politikon Chaco)",
+      "url": "https://www.perfil.com/noticias/politica/el-gobierno-profundizo-el-recorte-de-fondos-a-las-provincias-las-transferencias-cayeron-mas-del-60-en-el-primer-semestre.phtml",
+      "fecha": "2026-07-10"
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: financiamiento de cajas previsionales",
+      "valor": 45000,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC), mismas cifras."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": null,
+    "base": null,
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": null,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    },
+    "nota": "La DNAP excluye a La Pampa de la ejecución 2025 y 2026 por información incompleta.",
+    "gasto_total_presupuestado_2025_millones": 1990961.740968,
+    "fuente_presupuesto": {
+     "f": "Ley 3603, Presupuesto General La Pampa 2025, art. 1 (Tribunal de Cuentas de La Pampa)",
+     "url": "https://digesto.tcuentaslp.gob.ar/digesto%20tribunal/PRESUPUESTO/Ley%203603-%20Anexos.pdf",
+     "fecha": "2024-12"
+    },
+    "nota_presupuesto": "Total de erogaciones de la Ley 3603 (Adm. Central y Org. Descentralizados): no es comparable 1:1 con la APNF ejecutada del resto (puede excluir el instituto de seguridad social)."
+   },
+   "poblacion": {
+    "habitantes": 361859,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": {
+     "f": "Infobae (cifras definitivas del Censo 2022; cruce de 9 jurisdicciones)",
+     "url": "https://www.infobae.com/sociedad/2023/11/21/cifras-definitivas-del-censo-2022-caba-y-pba-son-los-distritos-con-mas-personas-en-situacion-de-calle-del-pais/",
+     "fecha": "2023-11-21"
+    }
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.176,
+    "atn_por_habitante_pesos": 9672.0,
+    "discrecionales_pct_presupuesto": 0.333,
+    "discrecionales_por_habitante_pesos": 18330.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %. La Pampa: denominador = gasto presupuestado 2025 (Ley 3603).",
+    "discrecionales_2026_acum_pct_gasto_2025": 2.885,
+    "discrecionales_2026_acum_por_habitante_pesos": 158720.0
+   },
+   "notas": []
+  },
+  "LA RIOJA": {
+   "nombre": "La Rioja",
+   "atn": {
+    "total_12m_millones": 0,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 0,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 15025.2,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 0.0,
+    "sin_atn_2025_millones": 15025.2,
+    "por_partida_2025_millones": {
+     "5.7.1": 5191.4,
+     "5.7.4": 80.6,
+     "5.8.1": 9721.6,
+     "5.8.4": 31.6
+    },
+    "acumulado_2026_millones": 2618.8,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 0.0,
+    "sin_atn_2026_millones": 2618.8,
+    "por_partida_2026_millones": {
+     "5.7.1": 2518.6,
+     "5.7.4": 88.3,
+     "5.8.1": 11.9
+    },
+    "participacion_2025_pct": 0.6,
+    "participacion_2026_pct": 0.26,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-06",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 161,
+      "unidad": "millones $",
+      "f": "Perfil (Politikon Chaco)",
+      "url": "https://www.perfil.com/noticias/politica/el-gobierno-profundizo-el-recorte-de-fondos-a-las-provincias-las-transferencias-cayeron-mas-del-60-en-el-primer-semestre.phtml",
+      "fecha": "2026-07-10"
+     },
+     {
+      "periodo": "2026-01..2026-08",
+      "concepto": "participación en el total de TNA (total: $806.489 millones)",
+      "valor": 0.3,
+      "unidad": "% del total",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 1403298.5,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 793272.4,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 383865,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": {
+     "f": "Infobae (cifras definitivas del Censo 2022; cruce de 9 jurisdicciones)",
+     "url": "https://www.infobae.com/sociedad/2023/11/21/cifras-definitivas-del-censo-2022-caba-y-pba-son-los-distritos-con-mas-personas-en-situacion-de-calle-del-pais/",
+     "fecha": "2023-11-21"
+    }
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.0,
+    "atn_por_habitante_pesos": 0.0,
+    "discrecionales_pct_presupuesto": 1.071,
+    "discrecionales_por_habitante_pesos": 39142.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.187,
+    "discrecionales_2026_acum_por_habitante_pesos": 6822.0
+   },
+   "notas": []
+  },
+  "MENDOZA": {
+   "nombre": "Mendoza",
+   "atn": {
+    "total_12m_millones": 14000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 14000,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 14000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 22758.0,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 3000.0,
+    "sin_atn_2025_millones": 19758.0,
+    "por_partida_2025_millones": {
+     "5.7.1": 18074.9,
+     "5.7.4": 339.2,
+     "5.8.1": 4129.1,
+     "5.8.4": 214.9
+    },
+    "acumulado_2026_millones": 33794.3,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 14000.0,
+    "sin_atn_2026_millones": 19794.3,
+    "por_partida_2026_millones": {
+     "5.7.1": 31906.7,
+     "5.7.4": 352.1,
+     "5.8.1": 1535.4
+    },
+    "participacion_2025_pct": 0.91,
+    "participacion_2026_pct": 3.34,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 4759554.1,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 2553123.4,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 2043540,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": {
+     "f": "Infobae (cifras definitivas del Censo 2022; cruce de 9 jurisdicciones)",
+     "url": "https://www.infobae.com/sociedad/2023/11/21/cifras-definitivas-del-censo-2022-caba-y-pba-son-los-distritos-con-mas-personas-en-situacion-de-calle-del-pais/",
+     "fecha": "2023-11-21"
+    }
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.294,
+    "atn_por_habitante_pesos": 6851.0,
+    "discrecionales_pct_presupuesto": 0.478,
+    "discrecionales_por_habitante_pesos": 11137.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.71,
+    "discrecionales_2026_acum_por_habitante_pesos": 16537.0
+   },
+   "notas": []
+  },
+  "MISIONES": {
+   "nombre": "Misiones",
+   "atn": {
+    "total_12m_millones": 37000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 12000,
+     "2026-01..2026-05": 15000,
+     "2026-06": 0,
+     "2026-07": 5000,
+     "2026-08": 0,
+     "2026-09": 5000
+    },
+    "acumulado_2026_ene_sep_millones": 25000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 32378.7,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 19000.0,
+    "sin_atn_2025_millones": 13378.7,
+    "por_partida_2025_millones": {
+     "5.7.1": 28197.7,
+     "5.7.4": 302.2,
+     "5.8.1": 3858.4,
+     "5.8.4": 20.4
+    },
+    "acumulado_2026_millones": 57277.3,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 25000.0,
+    "sin_atn_2026_millones": 32277.3,
+    "por_partida_2026_millones": {
+     "5.7.1": 57043.2,
+     "5.7.4": 234.1
+    },
+    "participacion_2025_pct": 1.3,
+    "participacion_2026_pct": 5.67,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: financiamiento de cajas previsionales",
+      "valor": 4167,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC), mismas cifras."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 3815053.5,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 2153587.8,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 1278873,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.97,
+    "atn_por_habitante_pesos": 28932.0,
+    "discrecionales_pct_presupuesto": 0.849,
+    "discrecionales_por_habitante_pesos": 25318.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 1.501,
+    "discrecionales_2026_acum_por_habitante_pesos": 44787.0
+   },
+   "notas": []
+  },
+  "NEUQUEN": {
+   "nombre": "Neuquén",
+   "atn": {
+    "total_12m_millones": 15000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 3000,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 12000,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 12000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 83103.4,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 18000.0,
+    "sin_atn_2025_millones": 65103.4,
+    "por_partida_2025_millones": {
+     "5.7.1": 59559.4,
+     "5.7.3": 12658.6,
+     "5.7.4": 94.9,
+     "5.8.1": 10601.6,
+     "5.8.4": 188.9
+    },
+    "acumulado_2026_millones": 50573.3,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 12000.0,
+    "sin_atn_2026_millones": 38573.3,
+    "por_partida_2026_millones": {
+     "5.7.1": 49401.1,
+     "5.7.3": 1078.4,
+     "5.7.4": 93.8
+    },
+    "participacion_2025_pct": 3.34,
+    "participacion_2026_pct": 5.0,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-09",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 14619,
+      "unidad": "millones $",
+      "f": "Cholila Online (Politikon Chaco)",
+      "url": "https://cholilaonline.ar/2026/10/transferencias-a-provincias-caida-historica-fondos.html",
+      "fecha": "2026-10-02",
+      "nota": "Cruce: Política Argentina (02/10/2026) da las mismas cifras."
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: financiamiento de cajas previsionales",
+      "valor": 20000,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC), mismas cifras."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 7334907.8,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 4782685.9,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 710814,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.205,
+    "atn_por_habitante_pesos": 21103.0,
+    "discrecionales_pct_presupuesto": 1.133,
+    "discrecionales_por_habitante_pesos": 116913.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.689,
+    "discrecionales_2026_acum_por_habitante_pesos": 71148.0
+   },
+   "notas": []
+  },
+  "RIO NEGRO": {
+   "nombre": "Río Negro",
+   "atn": {
+    "total_12m_millones": 0,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 0,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 12788.2,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 5000.0,
+    "sin_atn_2025_millones": 7788.2,
+    "por_partida_2025_millones": {
+     "5.7.1": 12004.0,
+     "5.7.4": 176.3,
+     "5.8.1": 576.1,
+     "5.8.4": 31.8
+    },
+    "acumulado_2026_millones": 5990.0,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 0.0,
+    "sin_atn_2026_millones": 5990.0,
+    "por_partida_2026_millones": {
+     "5.7.1": 5855.9,
+     "5.7.4": 134.1
+    },
+    "participacion_2025_pct": 0.51,
+    "participacion_2026_pct": 0.59,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-06",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 349,
+      "unidad": "millones $",
+      "f": "Perfil (Politikon Chaco)",
+      "url": "https://www.perfil.com/noticias/politica/el-gobierno-profundizo-el-recorte-de-fondos-a-las-provincias-las-transferencias-cayeron-mas-del-60-en-el-primer-semestre.phtml",
+      "fecha": "2026-07-10"
+     },
+     {
+      "periodo": "2026-01..2026-08",
+      "concepto": "participación en el total de TNA (total: $806.489 millones)",
+      "valor": 0.4,
+      "unidad": "% del total",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 2553644.9,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1541419.1,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 750768,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.0,
+    "atn_por_habitante_pesos": 0.0,
+    "discrecionales_pct_presupuesto": 0.501,
+    "discrecionales_por_habitante_pesos": 17033.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.235,
+    "discrecionales_2026_acum_por_habitante_pesos": 7978.0
+   },
+   "notas": []
+  },
+  "SALTA": {
+   "nombre": "Salta",
+   "atn": {
+    "total_12m_millones": 24000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 6000,
+     "2026-01..2026-05": 11000,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 7000
+    },
+    "acumulado_2026_ene_sep_millones": 18000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 46570.8,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 19000.0,
+    "sin_atn_2025_millones": 27570.8,
+    "por_partida_2025_millones": {
+     "5.7.1": 35130.5,
+     "5.7.4": 339.1,
+     "5.8.1": 10557.5,
+     "5.8.4": 543.7
+    },
+    "acumulado_2026_millones": 31732.2,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 18000.0,
+    "sin_atn_2026_millones": 13732.2,
+    "por_partida_2026_millones": {
+     "5.7.1": 23617.8,
+     "5.7.4": 292.9,
+     "5.8.1": 7821.5
+    },
+    "participacion_2025_pct": 1.87,
+    "participacion_2026_pct": 3.14,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: infraestructura hídrica",
+      "valor": 7800,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC)."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 3228163.2,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1845741.1,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 1441351,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.743,
+    "atn_por_habitante_pesos": 16651.0,
+    "discrecionales_pct_presupuesto": 1.443,
+    "discrecionales_por_habitante_pesos": 32311.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.983,
+    "discrecionales_2026_acum_por_habitante_pesos": 22016.0
+   },
+   "notas": []
+  },
+  "SAN JUAN": {
+   "nombre": "San Juan",
+   "atn": {
+    "total_12m_millones": 12000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 2000,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 10000,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 10000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 17516.1,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 6000.0,
+    "sin_atn_2025_millones": 11516.1,
+    "por_partida_2025_millones": {
+     "5.7.1": 15286.8,
+     "5.7.4": 187.2,
+     "5.8.1": 1988.3,
+     "5.8.4": 53.8
+    },
+    "acumulado_2026_millones": 16831.5,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 10000.0,
+    "sin_atn_2026_millones": 6831.5,
+    "por_partida_2026_millones": {
+     "5.7.1": 16653.5,
+     "5.7.4": 178.0
+    },
+    "participacion_2025_pct": 0.7,
+    "participacion_2026_pct": 1.67,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 2521645.4,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1523222.1,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 822853,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.476,
+    "atn_por_habitante_pesos": 14583.0,
+    "discrecionales_pct_presupuesto": 0.695,
+    "discrecionales_por_habitante_pesos": 21287.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.667,
+    "discrecionales_2026_acum_por_habitante_pesos": 20455.0
+   },
+   "notas": []
+  },
+  "SAN LUIS": {
+   "nombre": "San Luis",
+   "atn": {
+    "total_12m_millones": 0,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 0,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 15605.2,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 0.0,
+    "sin_atn_2025_millones": 15605.2,
+    "por_partida_2025_millones": {
+     "5.7.1": 4456.9,
+     "5.7.4": 85.4,
+     "5.8.1": 11046.7,
+     "5.8.4": 16.2
+    },
+    "acumulado_2026_millones": 12145.3,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 0.0,
+    "sin_atn_2026_millones": 12145.3,
+    "por_partida_2026_millones": {
+     "5.7.1": 2746.8,
+     "5.7.4": 97.9,
+     "5.8.1": 9300.6
+    },
+    "participacion_2025_pct": 0.63,
+    "participacion_2026_pct": 1.2,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 1711982.2,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 924560.0,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 542069,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.0,
+    "atn_por_habitante_pesos": 0.0,
+    "discrecionales_pct_presupuesto": 0.912,
+    "discrecionales_por_habitante_pesos": 28788.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.709,
+    "discrecionales_2026_acum_por_habitante_pesos": 22405.0
+   },
+   "notas": []
+  },
+  "SANTA CRUZ": {
+   "nombre": "Santa Cruz",
+   "atn": {
+    "total_12m_millones": 6000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 4000,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 2000
+    },
+    "acumulado_2026_ene_sep_millones": 6000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 45306.1,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 8000.0,
+    "sin_atn_2025_millones": 37306.1,
+    "por_partida_2025_millones": {
+     "5.7.1": 45080.4,
+     "5.7.4": 34.1,
+     "5.8.1": 179.8,
+     "5.8.4": 11.8
+    },
+    "acumulado_2026_millones": 10800.5,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 6000.0,
+    "sin_atn_2026_millones": 4800.5,
+    "por_partida_2026_millones": {
+     "5.7.1": 10747.3,
+     "5.7.4": 53.2
+    },
+    "participacion_2025_pct": 1.82,
+    "participacion_2026_pct": 1.07,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 2479259.3,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1513519.5,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 337226,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": {
+     "f": "Infobae (cifras definitivas del Censo 2022; cruce de 9 jurisdicciones)",
+     "url": "https://www.infobae.com/sociedad/2023/11/21/cifras-definitivas-del-censo-2022-caba-y-pba-son-los-distritos-con-mas-personas-en-situacion-de-calle-del-pais/",
+     "fecha": "2023-11-21"
+    }
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.242,
+    "atn_por_habitante_pesos": 17792.0,
+    "discrecionales_pct_presupuesto": 1.827,
+    "discrecionales_por_habitante_pesos": 134349.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.436,
+    "discrecionales_2026_acum_por_habitante_pesos": 32027.0
+   },
+   "notas": []
+  },
+  "SANTA FE": {
+   "nombre": "Santa Fe",
+   "atn": {
+    "total_12m_millones": 8000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 3000,
+     "2026-06": 0,
+     "2026-07": 5000,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 8000,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 55112.7,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 12000.0,
+    "sin_atn_2025_millones": 43112.7,
+    "por_partida_2025_millones": {
+     "5.7.1": 48545.0,
+     "5.7.4": 481.6,
+     "5.8.1": 6019.5,
+     "5.8.4": 66.7
+    },
+    "acumulado_2026_millones": 65434.9,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 8000.0,
+    "sin_atn_2026_millones": 57434.9,
+    "por_partida_2026_millones": {
+     "5.7.1": 60429.6,
+     "5.7.4": 514.1,
+     "5.8.1": 4491.2
+    },
+    "participacion_2025_pct": 2.21,
+    "participacion_2026_pct": 6.47,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-08",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 7124,
+      "unidad": "millones $",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "periodo": "2026-06",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 4583,
+      "unidad": "millones $",
+      "f": "Perfil (Politikon Chaco)",
+      "url": "https://www.perfil.com/noticias/politica/el-gobierno-profundizo-el-recorte-de-fondos-a-las-provincias-las-transferencias-cayeron-mas-del-60-en-el-primer-semestre.phtml",
+      "fecha": "2026-07-10"
+     },
+     {
+      "periodo": "2026-01..2026-08",
+      "concepto": "participación en el total de TNA (total: $806.489 millones)",
+      "valor": 6.6,
+      "unidad": "% del total",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: financiamiento de cajas previsionales",
+      "valor": 10000,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC), mismas cifras."
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: infraestructura hídrica",
+      "valor": 4222,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC)."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 10748968.5,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 7083451.4,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 3544908,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": {
+     "f": "Infobae (cifras definitivas del Censo 2022; cruce de 9 jurisdicciones)",
+     "url": "https://www.infobae.com/sociedad/2023/11/21/cifras-definitivas-del-censo-2022-caba-y-pba-son-los-distritos-con-mas-personas-en-situacion-de-calle-del-pais/",
+     "fecha": "2023-11-21"
+    }
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.074,
+    "atn_por_habitante_pesos": 2257.0,
+    "discrecionales_pct_presupuesto": 0.513,
+    "discrecionales_por_habitante_pesos": 15547.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.609,
+    "discrecionales_2026_acum_por_habitante_pesos": 18459.0
+   },
+   "notas": []
+  },
+  "SANTIAGO DEL ESTERO": {
+   "nombre": "Santiago del Estero",
+   "atn": {
+    "total_12m_millones": 0,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 0,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 26378.0,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 0.0,
+    "sin_atn_2025_millones": 26378.0,
+    "por_partida_2025_millones": {
+     "5.7.1": 21144.6,
+     "5.7.4": 227.9,
+     "5.8.1": 4918.7,
+     "5.8.4": 87.0
+    },
+    "acumulado_2026_millones": 11472.8,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 0.0,
+    "sin_atn_2026_millones": 11472.8,
+    "por_partida_2026_millones": {
+     "5.7.1": 8348.2,
+     "5.7.4": 204.4,
+     "5.8.1": 2920.2
+    },
+    "participacion_2025_pct": 1.06,
+    "participacion_2026_pct": 1.13,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: infraestructura hídrica",
+      "valor": 2920,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Cruce: El Ancasti (OPC)."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 2841396.6,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 1546365.7,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 1060906,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.0,
+    "atn_por_habitante_pesos": 0.0,
+    "discrecionales_pct_presupuesto": 0.928,
+    "discrecionales_por_habitante_pesos": 24864.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.404,
+    "discrecionales_2026_acum_por_habitante_pesos": 10814.0
+   },
+   "notas": []
+  },
+  "TIERRA DEL FUEGO": {
+   "nombre": "Tierra del Fuego",
+   "atn": {
+    "total_12m_millones": 0,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 0,
+     "2025-11": 0,
+     "2025-12": 0,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 0,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 11264.8,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 0.0,
+    "sin_atn_2025_millones": 11264.8,
+    "por_partida_2025_millones": {
+     "5.7.1": 9476.9,
+     "5.7.4": 25.3,
+     "5.8.1": 1724.4,
+     "5.8.4": 38.1
+    },
+    "acumulado_2026_millones": 5554.2,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 0.0,
+    "sin_atn_2026_millones": 5554.2,
+    "por_partida_2026_millones": {
+     "5.7.1": 5538.6,
+     "5.7.4": 15.6
+    },
+    "participacion_2025_pct": 0.45,
+    "participacion_2026_pct": 0.55,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-01..2026-08",
+      "concepto": "participación en el total de TNA (total: $806.489 millones)",
+      "valor": 0.4,
+      "unidad": "% del total",
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 1643327.9,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 927586.2,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 185732,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": {
+     "f": "Infobae (cifras definitivas del Censo 2022; cruce de 9 jurisdicciones)",
+     "url": "https://www.infobae.com/sociedad/2023/11/21/cifras-definitivas-del-censo-2022-caba-y-pba-son-los-distritos-con-mas-personas-en-situacion-de-calle-del-pais/",
+     "fecha": "2023-11-21"
+    }
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.0,
+    "atn_por_habitante_pesos": 0.0,
+    "discrecionales_pct_presupuesto": 0.685,
+    "discrecionales_por_habitante_pesos": 60651.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.338,
+    "discrecionales_2026_acum_por_habitante_pesos": 29904.0
+   },
+   "notas": []
+  },
+  "TUCUMAN": {
+   "nombre": "Tucumán",
+   "atn": {
+    "total_12m_millones": 23000,
+    "periodo": "2025-10..2026-09",
+    "por_mes_millones": {
+     "2025-10": 3000,
+     "2025-11": 0,
+     "2025-12": 20000,
+     "2026-01..2026-05": 0,
+     "2026-06": 0,
+     "2026-07": 0,
+     "2026-08": 0,
+     "2026-09": 0
+    },
+    "acumulado_2026_ene_sep_millones": 0,
+    "fuentes": [
+     {
+      "f": "La Nación (datos Politikon Chaco)",
+      "url": "https://www.lanacion.com.ar/politica/la-negociacion-con-las-provincias-los-gobernadores-reclaman-645275-millones-de-atn-sin-repartir-nid03112025/",
+      "fecha": "2025-11-03"
+     },
+     {
+      "f": "Primera Edición (Politikon Chaco)",
+      "url": "https://www.primeraedicion.com.ar/nota/101072025/gobierno-retuvo-fondos-atn-2025-provincias/",
+      "fecha": "2026-01-06"
+     },
+     {
+      "f": "Infobae (Ministerio del Interior / Informe JGM 29-04-2026)",
+      "url": "https://www.infobae.com/politica/2026/06/07/que-provincias-fueron-las-mas-beneficiadas-con-atn-en-la-gestion-de-milei/",
+      "fecha": "2026-06-07"
+     },
+     {
+      "f": "El Esquiú (Politikon Chaco)",
+      "url": "https://www.elesquiu.com/politica/2026/8/5/sigue-la-motosierra-sobre-las-provincias-caida-de-las-transferencias-no-automaticas-591593.html",
+      "fecha": "2026-08-05"
+     },
+     {
+      "f": "Noticias Chaco (Politikon Chaco)",
+      "url": "https://www.noticiaschaco.com/2026/09/02/transferencias-no-automaticas-a-provincias-con-caida-del-664-y-el-peor-agosto-desde-2005/",
+      "fecha": "2026-09-02"
+     },
+     {
+      "f": "Eduardo German (Politikon Chaco, corte 13/09/2026)",
+      "url": "https://eduardogerman.com/2026/09/14/atn-septiembre-provincias-ranking-raiz-federal-2026/",
+      "fecha": "2026-09-14"
+     },
+     {
+      "f": "BAE Negocios (Politikon Chaco)",
+      "url": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/",
+      "fecha": "2026-10-16"
+     }
+    ]
+   },
+   "tna": {
+    "total_12m_millones": 74441.1,
+    "periodo": "2025-01..2025-12",
+    "periodo_nota": "Año calendario 2025: últimos 12 meses completos con dato por provincia. No es el mismo período que los ATN de este archivo (oct-2025 a sep-2026), porque la fuente accesible no da la apertura mensual (ver meta.metodo_tna).",
+    "incluye_atn": true,
+    "atn_incluido_2025_millones": 35000.0,
+    "sin_atn_2025_millones": 39441.1,
+    "por_partida_2025_millones": {
+     "5.7.1": 50348.8,
+     "5.7.4": 236.3,
+     "5.8.1": 23707.5,
+     "5.8.4": 148.5
+    },
+    "acumulado_2026_millones": 38019.2,
+    "periodo_2026": "2026-01-01..2026-10-23",
+    "atn_incluido_2026_millones": 0.0,
+    "sin_atn_2026_millones": 38019.2,
+    "por_partida_2026_millones": {
+     "5.7.1": 17444.6,
+     "5.7.4": 276.7,
+     "5.8.1": 20297.9
+    },
+    "participacion_2025_pct": 2.99,
+    "participacion_2026_pct": 3.76,
+    "fuentes": [
+     {
+      "f": "Presupuesto Abierto (Ministerio de Economía, Oficina Nacional de Presupuesto), visualización «¿Dónde se gasta?» filtrada por objeto del gasto, etapa pagado",
+      "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+      "api": "POST https://www.presupuestoabierto.gob.ar/sici/rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter",
+      "fecha": "2026-10-25",
+      "datos_al": {
+       "2025": "ejercicio cerrado (actualizado 05/07/2026)",
+       "2026": "23/10/2026"
+      }
+     }
+    ],
+    "datos_parciales": [
+     {
+      "periodo": "2026-09",
+      "concepto": "TNA del mes (incluye ATN)",
+      "valor": 16122,
+      "unidad": "millones $",
+      "f": "Cholila Online (Politikon Chaco)",
+      "url": "https://cholilaonline.ar/2026/10/transferencias-a-provincias-caida-historica-fondos.html",
+      "fecha": "2026-10-02",
+      "nota": "Cruce: Política Argentina (02/10/2026) da las mismas cifras."
+     },
+     {
+      "periodo": "2026-01..2026-09",
+      "concepto": "componente TNA: subsidios eléctricos",
+      "valor": 15432,
+      "unidad": "millones $",
+      "f": "Conclusión (OPC)",
+      "url": "https://www.conclusion.com.ar/politica/economia/latigo-y-billetera-las-transferencias-no-automaticas-a-las-provincias-cayeron-49-en-lo-que-va-del-ano/10/2026/",
+      "fecha": "2026-10-23",
+      "nota": "Única jurisdicción con esta partida según la OPC."
+     }
+    ],
+    "nota": "Crédito pagado del inciso 5 (Transferencias), partidas 5.7.1–5.7.5 y 5.8.1–5.8.5 (Administración Pública Provincial, empresas públicas provinciales e instituciones de enseñanza provinciales; corrientes + capital), según la ubicación geográfica del gasto. Excluye municipios (5.7.6–5.7.9 y 5.8.6–5.8.9). Incluye los ATN (Interior, programa 19, actividad 21): no hay que sumarlos aparte."
+   },
+   "presupuesto": {
+    "gasto_total_ejecutado_2025_millones": 4073636.4,
+    "base": "APNF, ejecución provisoria IV trim. 2025 (DNAP)",
+    "f": "Ministerio de Economía, Subsecretaría de Coordinación Fiscal Provincial: Ejecución presupuestaria provisoria APNF, IV trimestre 2025 (datos al 12/06/2026)",
+    "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2025_-_trim_iv.xls",
+    "fecha": "2026-06-12",
+    "gasto_ejecutado_2026_s1_millones": 2587512.0,
+    "fuente_2026_s1": {
+     "f": "Ministerio de Economía, Ejecución presupuestaria provisoria APNF, II trimestre 2026 (datos al 10/10/2026)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/ejecuciones_presupuestarias_apnf_2026_-_trim_ii_0.xls",
+     "fecha": "2026-10-10"
+    }
+   },
+   "poblacion": {
+    "habitantes": 1731820,
+    "anio": 2022,
+    "tipo": "Censo 2022, resultados definitivos",
+    "f": "INDEC, Censo 2022 resultados definitivos (vía Argentina en Datos; suma 45.892.285 = total definitivo INDEC)",
+    "url": "https://argentinaendatos.org/provincias/",
+    "fecha": "2026-10-25",
+    "cruce": null
+   },
+   "indicadores": {
+    "atn_pct_gasto": 0.565,
+    "atn_por_habitante_pesos": 13281.0,
+    "discrecionales_pct_presupuesto": 1.827,
+    "discrecionales_por_habitante_pesos": 42984.0,
+    "nota": "atn_pct_gasto y atn_por_habitante_pesos: ATN de 12 meses (oct-2025 a sep-2026). discrecionales_*: TNA a la provincia (incluyen los ATN, sin doble conteo) del año 2025, sobre el gasto total ejecutado 2025 (mismo año) y por habitante del Censo 2022. discrecionales_2026_acum_*: TNA del 1/1 al 23/10/2026 sobre el mismo gasto 2025 (referencia; no anualizado). Valores en %.",
+    "discrecionales_2026_acum_pct_gasto_2025": 0.933,
+    "discrecionales_2026_acum_por_habitante_pesos": 21953.0
+   },
+   "notas": [
+    "La OPC (vía El Ancasti y Conclusión) informa para Tucumán una caída de 91% real en ATN ene-sep 2026; Politikon Chaco no registra ATN para Tucumán en 2026 y su suma por provincia cierra con el total de $184.000 millones. Se usa Politikon; revisar con el PDF de la OPC."
+   ]
+  }
+ }
+}

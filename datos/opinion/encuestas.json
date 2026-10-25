@@ -1,0 +1,2683 @@
+{
+ "meta": {
+  "generado": "2026-10-25",
+  "periodo": [
+   "2025-11-01",
+   "2026-10-25"
+  ],
+  "criterio_inclusion": "Encuestas nacionales con al menos fechas de campo o n informados, de encuestadoras que publican ficha técnica. Cada número tiene URL y fecha de la fuente.",
+  "metodo_promedio": "Promedio aritmético simple (sin ponderar por n ni por encuestadora) de aprobación y desaprobación de las encuestas con tipo_medicion='gestion' cuya fecha de fin de campo cae en el mes. Se excluyen: mediciones de imagen del presidente (Opina Argentina, Giacobbe), encuestas sin fecha de campo conocida, y olas sin cifras. Las olas de AtlasIntel y D'Alessio se asignan por fin de campo, no por el rótulo del informe (ver mes_etiqueta_informe). Redondeo a 1 decimal.",
+  "advertencias": [
+   "Diciembre 2025 y enero 2026 tienen una sola encuesta de gestión con ficha y fecha de campo (D'Alessio). Zentrix dic-2025 tiene ficha pero solo mide imagen; AtlasIntel dic-2025 tiene ficha pero las cifras están en un PDF no legible.",
+   "Las preguntas no son homogéneas: ESPOP mide aprobación del gobierno; AtlasIntel, desempeño del presidente; D'Alessio, evaluación buena/mala de la gestión.",
+   "Problemas: cada encuestadora usa listas y formatos distintos (respuesta única vs. múltiple); no son comparables entre sí.",
+   "ESPOP (UdeSA) no mide confianza sino satisfacción con los poderes del Estado (campo satisfaccion_poderes).",
+   "Confianza en instituciones: la única medición nacional por institución con varias instituciones es QSocial (mayo 2026, sin Justicia ni Medios). Zentrix dic-2025 solo mide el INDEC. Latinobarómetro 2026 se publicó en octubre, pero no se encontraron las cifras de la Argentina por institución.",
+   "Sin fecha de campo (fuera del promedio): Pulso Research mar-2026, Zuban Córdoba mar/jul/ago-2026, Zentrix ago-2026, D'Alessio jul-2026. Los informes de zubancordoba.com (PDF) no se pudieron abrir."
+  ],
+  "verificacion_2026_10_25": "Revisado contra las fuentes primarias: dalessio-2025-12 (PDF de D'Alessio: 23-28/12, n=1.000, 46/53) y atlas-2025-11 (Bloomberg Línea: 22-27/11, n=3.111, ±2, 42,6/52). Se agregaron zentrix-2025-12, zentrix-2026-08, zentrix-2026-09, pulso-2026-03 y zuban-2026-03; se completaron las fichas de mf-2026-07, zentrix-2026-07, espop-2026-10, zuban-2026-07 y zuban-2026-09."
+ },
+ "promedio_mensual": [
+  {
+   "mes": "2025-11",
+   "aprobacion": 44.5,
+   "desaprobacion": 52.0,
+   "n_encuestas": 3,
+   "n_encuestadoras": 3,
+   "encuestas": [
+    "espop-2025-11",
+    "atlas-2025-11",
+    "dalessio-2025-11"
+   ],
+   "alerta": null
+  },
+  {
+   "mes": "2025-12",
+   "aprobacion": 46,
+   "desaprobacion": 53,
+   "n_encuestas": 1,
+   "n_encuestadoras": 1,
+   "encuestas": [
+    "dalessio-2025-12"
+   ],
+   "alerta": "menos de 3 encuestadoras con ficha en el mes"
+  },
+  {
+   "mes": "2026-01",
+   "aprobacion": 45,
+   "desaprobacion": 54,
+   "n_encuestas": 1,
+   "n_encuestadoras": 1,
+   "encuestas": [
+    "dalessio-2026-01"
+   ],
+   "alerta": "menos de 3 encuestadoras con ficha en el mes"
+  },
+  {
+   "mes": "2026-02",
+   "aprobacion": 40.6,
+   "desaprobacion": 53.3,
+   "n_encuestas": 3,
+   "n_encuestadoras": 3,
+   "encuestas": [
+    "analogias-2026-02",
+    "atlas-2026-02",
+    "dalessio-2026-02"
+   ],
+   "alerta": null
+  },
+  {
+   "mes": "2026-03",
+   "aprobacion": 38.7,
+   "desaprobacion": 57.6,
+   "n_encuestas": 4,
+   "n_encuestadoras": 4,
+   "encuestas": [
+    "espop-2026-03",
+    "zentrix-2026-03",
+    "atlas-2026-03",
+    "dalessio-2026-03"
+   ],
+   "alerta": null
+  },
+  {
+   "mes": "2026-04",
+   "aprobacion": 36.4,
+   "desaprobacion": 59.8,
+   "n_encuestas": 4,
+   "n_encuestadoras": 4,
+   "encuestas": [
+    "espop-2026-04",
+    "mf-2026-04",
+    "atlas-2026-04",
+    "dalessio-2026-04"
+   ],
+   "alerta": null
+  },
+  {
+   "mes": "2026-05",
+   "aprobacion": 37.6,
+   "desaprobacion": 60.2,
+   "n_encuestas": 5,
+   "n_encuestadoras": 5,
+   "encuestas": [
+    "zuban-2026-05",
+    "espop-2026-05",
+    "mf-2026-05",
+    "atlas-2026-05",
+    "dalessio-2026-05"
+   ],
+   "alerta": null
+  },
+  {
+   "mes": "2026-06",
+   "aprobacion": 37.0,
+   "desaprobacion": 58.4,
+   "n_encuestas": 5,
+   "n_encuestadoras": 5,
+   "encuestas": [
+    "espop-2026-06",
+    "zentrix-2026-06",
+    "mf-2026-06",
+    "atlas-2026-06",
+    "dalessio-2026-06"
+   ],
+   "alerta": null
+  },
+  {
+   "mes": "2026-07",
+   "aprobacion": 34.2,
+   "desaprobacion": 59.8,
+   "n_encuestas": 3,
+   "n_encuestadoras": 3,
+   "encuestas": [
+    "espop-2026-07",
+    "zentrix-2026-07",
+    "mf-2026-07"
+   ],
+   "alerta": null
+  },
+  {
+   "mes": "2026-08",
+   "aprobacion": 37.4,
+   "desaprobacion": 60.5,
+   "n_encuestas": 3,
+   "n_encuestadoras": 3,
+   "encuestas": [
+    "atlas-2026-07w",
+    "espop-2026-08",
+    "dalessio-2026-08"
+   ],
+   "alerta": null
+  },
+  {
+   "mes": "2026-09",
+   "aprobacion": 36.4,
+   "desaprobacion": 59.4,
+   "n_encuestas": 6,
+   "n_encuestadoras": 6,
+   "encuestas": [
+    "atlas-2026-08w",
+    "espop-2026-09",
+    "zuban-2026-09",
+    "mide-2026-09",
+    "mf-2026-09",
+    "zentrix-2026-09"
+   ],
+   "alerta": null
+  },
+  {
+   "mes": "2026-10",
+   "aprobacion": 37.8,
+   "desaprobacion": 59.1,
+   "n_encuestas": 3,
+   "n_encuestadoras": 3,
+   "encuestas": [
+    "atlas-2026-09w",
+    "dalessio-2026-10",
+    "espop-2026-10"
+   ],
+   "alerta": null
+  }
+ ],
+ "encuestas": [
+  {
+   "id": "espop-2025-11",
+   "encuestadora": "Universidad de San Andrés (ESPOP-LOOP)",
+   "campo_inicio": "2025-11-12",
+   "campo_fin": "2025-11-20",
+   "n": 1005,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 45,
+   "desaprobacion": 52,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {},
+   "problemas": {
+    "Bajos salarios": 34,
+    "Corrupción": 31,
+    "Falta de trabajo": 30
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.iprofesional.com/politica/442756-nueva-encuesta-reveladora-para-javier-milei-asi-mejoro-aprobacion-su-gestion",
+   "fuente_fecha": "2025-11-27",
+   "fuentes_cruce": [
+    "https://www.iprofesional.com/politica/450877-encuesta-revela-3-datos-criticos-para-milei-entre-presion-economica-y-caso-adorni (marzo 2026: desaprobación +7 vs nov-2025 => 52)"
+   ],
+   "notas": null,
+   "en_promedio": true
+  },
+  {
+   "id": "atlas-2025-11",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2025-11-22",
+   "campo_fin": "2025-11-27",
+   "n": 3111,
+   "metodo": "online (reclutamiento digital aleatorio)",
+   "margen_error_pp": 2,
+   "aprobacion": 42.6,
+   "desaprobacion": 52.0,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {},
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.bloomberglinea.com/latinoamerica/argentina/la-aprobacion-de-milei-crece-tras-su-victoria-en-las-elecciones-legislativas/",
+   "fuente_fecha": "2025-12-02",
+   "fuentes_cruce": [],
+   "notas": "Aprobación/desaprobación del desempeño de Milei como presidente.",
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2025-11",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2025-11-28",
+   "campo_fin": "2025-11-30",
+   "n": 1000,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 46,
+   "desaprobacion": 52,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Diego Santilli": {
+     "positiva": 43,
+     "negativa": 49
+    },
+    "Patricia Bullrich": {
+     "positiva": 43,
+     "negativa": 52
+    },
+    "Javier Milei": {
+     "positiva": 41,
+     "negativa": 54
+    },
+    "Mauricio Macri": {
+     "positiva": 39,
+     "negativa": 53
+    },
+    "Luis Petri": {
+     "positiva": 39,
+     "negativa": 50
+    },
+    "Axel Kicillof": {
+     "positiva": 38,
+     "negativa": 59
+    },
+    "Federico Sturzenegger": {
+     "positiva": 38,
+     "negativa": 53
+    },
+    "Luis Caputo": {
+     "positiva": 38,
+     "negativa": 54
+    },
+    "Victoria Villarruel": {
+     "positiva": 37,
+     "negativa": 53
+    },
+    "Juan Grabois": {
+     "positiva": 34,
+     "negativa": 60
+    },
+    "Manuel Adorni": {
+     "positiva": 33,
+     "negativa": 58
+    },
+    "Jorge Macri": {
+     "positiva": 33,
+     "negativa": 54
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 28,
+     "negativa": 65
+    },
+    "Martín Menem": {
+     "positiva": 27,
+     "negativa": 62
+    },
+    "Martín Lousteau": {
+     "positiva": 19,
+     "negativa": 68
+    }
+   },
+   "problemas": {
+    "Inseguridad": 66,
+    "Incertidumbre económica": 63,
+    "Falta de propuestas para el crecimiento": 53,
+    "Corrupción en el gobierno de Milei": 49,
+    "Ajustes del Gobierno": 49,
+    "Inflación": 46,
+    "Dificultad para pagar créditos/tarjetas": 39,
+    "Corrupción durante el kirchnerismo": 39,
+    "Acceso fácil a las drogas": 38,
+    "Apuestas online entre jóvenes": 36
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/Expectativas-en-ascenso-Humor-Social-y-Politico-Nacional-Noviembre-2025-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2025-12-11",
+   "fuentes_cruce": [],
+   "notas": "Problemas: respuesta múltiple (los % suman más de 100).",
+   "en_promedio": true
+  },
+  {
+   "id": "opina-2025-12",
+   "encuestadora": "Opina Argentina",
+   "campo_inicio": "2025-12-01",
+   "campo_fin": "2025-12-03",
+   "n": 1772,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 49,
+   "desaprobacion": 50,
+   "tipo_medicion": "imagen_presidente",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 49,
+     "negativa": 50
+    },
+    "Axel Kicillof": {
+     "positiva": 44,
+     "negativa": 55
+    },
+    "Luis Caputo": {
+     "positiva": 43,
+     "negativa": 52
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 37,
+     "negativa": null
+    },
+    "Sergio Massa": {
+     "positiva": 35,
+     "negativa": null
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.baenegocios.com/amp/Encuesta-a-dos-anos-de-su-asuncion-Milei-cierra-el-2025-con-un-apoyo-del-49-20251208-0010/",
+   "fuente_fecha": "2025-12-08",
+   "fuentes_cruce": [
+    "https://www.tiempodesanjuan.com/politica/la-imagen-del-presidente-milei-picada-13-puntos-enero-y-quedo-detras-tres-opositores-n427997 (cita dic-2025: 48/52, difiere en 1 punto)"
+   ],
+   "notas": "Opina mide imagen positiva/negativa de Milei, no aprobación de gestión: se excluye del promedio mensual. Método no informado en la nota.",
+   "en_promedio": false
+  },
+  {
+   "id": "atlas-2025-12",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2025-12-10",
+   "campo_fin": "2025-12-15",
+   "n": 5139,
+   "metodo": "online (tecnología propia + post-estratificación)",
+   "margen_error_pp": 1,
+   "aprobacion": null,
+   "desaprobacion": null,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {},
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://atlasintel.org/poll/latam-pulse-argentina-december-2025-2025-12-18",
+   "fuente_fecha": "2025-12-18",
+   "fuentes_cruce": [],
+   "notas": "Ficha técnica verificada en la página de AtlasIntel, pero los resultados están en un PDF que no se pudo leer y no se encontró nota de prensa con las cifras. Aprobación = null.",
+   "en_promedio": false
+  },
+  {
+   "id": "zentrix-2025-12",
+   "encuestadora": "Zentrix (Monitor de Opinión Pública)",
+   "campo_inicio": "2025-12-10",
+   "campo_fin": "2025-12-23",
+   "n": 980,
+   "metodo": "online autoadministrado (Google Forms), muestra no probabilística cuotada por sexo, edad y región, calibrada por padrón del balotaje 2023",
+   "margen_error_pp": 3.13,
+   "aprobacion": null,
+   "desaprobacion": null,
+   "tipo_medicion": "imagen_presidente",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Axel Kicillof": {
+     "positiva": 37.3,
+     "negativa": 52.5
+    },
+    "Javier Milei": {
+     "positiva": 36.9,
+     "negativa": 55.0
+    },
+    "Claudio Tapia": {
+     "positiva": 15.8,
+     "negativa": 54.7
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {
+    "INDEC": 33.5
+   },
+   "fuente_url": "https://www.infoplatense.com.ar/wp-content/uploads/Que-reflejo-la-ultima-encuesta-del-2025-sobre-economia-consumo-y-humor-social-grupolaprovincia.com_.pdf",
+   "fuente_fecha": "2025-12",
+   "fuentes_cruce": [],
+   "notas": "Informe con ficha técnica completa, pero no mide aprobación de gestión (solo imagen de Milei): excluido del promedio. Confianza: solo mide INDEC (confía 33,5 / desconfía 59,7). Una sola fuente (PDF del informe).",
+   "en_promedio": false
+  },
+  {
+   "id": "dalessio-2025-12",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2025-12-23",
+   "campo_fin": "2025-12-28",
+   "n": 1000,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 46,
+   "desaprobacion": 53,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 44,
+     "negativa": 52
+    },
+    "Javier Milei": {
+     "positiva": 42,
+     "negativa": 54
+    },
+    "Diego Santilli": {
+     "positiva": 41,
+     "negativa": 51
+    },
+    "Mauricio Macri": {
+     "positiva": 41,
+     "negativa": 53
+    },
+    "Federico Sturzenegger": {
+     "positiva": 38,
+     "negativa": 51
+    },
+    "Victoria Villarruel": {
+     "positiva": 38,
+     "negativa": 53
+    },
+    "Luis Caputo": {
+     "positiva": 38,
+     "negativa": 55
+    },
+    "Axel Kicillof": {
+     "positiva": 35,
+     "negativa": 62
+    },
+    "Manuel Adorni": {
+     "positiva": 32,
+     "negativa": 58
+    },
+    "Cristian Ritondo": {
+     "positiva": 31,
+     "negativa": 54
+    },
+    "Juan Grabois": {
+     "positiva": 30,
+     "negativa": 62
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 29,
+     "negativa": 65
+    },
+    "Martín Menem": {
+     "positiva": 27,
+     "negativa": 64
+    },
+    "Martín Lousteau": {
+     "positiva": 20,
+     "negativa": 70
+    }
+   },
+   "problemas": {
+    "Inseguridad": 66,
+    "Incertidumbre económica": 60,
+    "Falta de propuestas para el crecimiento": 54,
+    "Ajustes del Gobierno": 52,
+    "Inflación": 48,
+    "Corrupción en el gobierno de Milei": 47,
+    "Acceso fácil a las drogas": 40,
+    "Impunidad de la corrupción kirchnerista": 39,
+    "Apuestas online entre jóvenes": 35,
+    "Dificultad para pagar créditos/tarjetas": 35
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/Mantenimiento-de-expectativas-Humor-Social-y-Politico-Nacional-Diciembre-2025-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2026-01-08",
+   "fuentes_cruce": [
+    "https://www.iprofesional.com/politica/445538-encuesta-revelo-cual-fue-el-principal-temor-entre-los-argentinos-en-2025-no-fue-inflacion"
+   ],
+   "notas": "Problemas: respuesta múltiple.",
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2026-01",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2026-01-16",
+   "campo_fin": "2026-01-26",
+   "n": 800,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 45,
+   "desaprobacion": 54,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 41,
+     "negativa": 54
+    },
+    "Javier Milei": {
+     "positiva": 40,
+     "negativa": 55
+    },
+    "Axel Kicillof": {
+     "positiva": 36,
+     "negativa": 61
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 29,
+     "negativa": 65
+    },
+    "Diego Santilli": {
+     "positiva": 40,
+     "negativa": null
+    },
+    "Mauricio Macri": {
+     "positiva": 36,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Inseguridad": 64,
+    "Incertidumbre económica": 61,
+    "Falta de propuestas para el crecimiento": 57,
+    "Ajustes del Gobierno": 51,
+    "Inflación": 49,
+    "Corrupción en el gobierno de Milei": 45,
+    "Acceso fácil a las drogas": 39,
+    "Impunidad de la corrupción kirchnerista": 39,
+    "Dificultad para pagar créditos/tarjetas": 37,
+    "Apuestas online entre jóvenes": 36
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/El-Gobierno-se-afianza-en-su-segmento-Humor-Social-y-Politico-Nacional-Enero-2026-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2026-02-10",
+   "fuentes_cruce": [],
+   "notas": "Villarruel 36/54 aparece en el PDF pero la asignación al nombre se infirió del orden del gráfico: se omite. Problemas: respuesta múltiple.",
+   "en_promedio": true
+  },
+  {
+   "id": "analogias-2026-02",
+   "encuestadora": "Analogías",
+   "campo_inicio": "2026-02-20",
+   "campo_fin": "2026-02-23",
+   "n": 2691,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 38.2,
+   "desaprobacion": 48.7,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Javier Milei": {
+     "positiva": 42.8,
+     "negativa": 51.9
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.iprofesional.com/politica/449798-nueva-encuesta-que-mira-el-kirchnerismo-mal-milei-pero-peor-la-oposicion",
+   "fuente_fecha": "2026-03-10",
+   "fuentes_cruce": [],
+   "notas": "Método no informado en la nota.",
+   "en_promedio": true
+  },
+  {
+   "id": "atlas-2026-02",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2026-02-19",
+   "campo_fin": "2026-02-24",
+   "n": 4761,
+   "metodo": "online (tecnología propia + post-estratificación)",
+   "margen_error_pp": 1,
+   "aprobacion": 41.5,
+   "desaprobacion": 55.3,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {},
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://mercado.com.ar/economia-y-politica/segun-latam-pulse-cae-la-aprobacion-de-milei-y-se-endurece-el-diagnostico-economico",
+   "fuente_fecha": "2026-02-28",
+   "fuentes_cruce": [
+    "https://atlasintel.org/poll/latam-pulse-argentina-february-2026-2026-02-26 (ficha)"
+   ],
+   "notas": null,
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2026-02",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2026-02-25",
+   "campo_fin": "2026-02-28",
+   "n": 800,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 42,
+   "desaprobacion": 56,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 41,
+     "negativa": 55
+    },
+    "Javier Milei": {
+     "positiva": 40,
+     "negativa": 57
+    },
+    "Diego Santilli": {
+     "positiva": 38,
+     "negativa": null
+    },
+    "Axel Kicillof": {
+     "positiva": 36,
+     "negativa": 60
+    },
+    "Mauricio Macri": {
+     "positiva": 35,
+     "negativa": null
+    },
+    "Luis Caputo": {
+     "positiva": 35,
+     "negativa": null
+    },
+    "Victoria Villarruel": {
+     "positiva": 33,
+     "negativa": 59
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 28,
+     "negativa": 65
+    }
+   },
+   "problemas": {
+    "Incertidumbre económica": 65,
+    "Inseguridad": 63,
+    "Falta de propuestas para el crecimiento": 55
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/Se-mantiene-la-imagen-de-Milei-Humor-Social-y-Politico-Nacional-Febrero-2026-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2026-03-09",
+   "fuentes_cruce": [],
+   "notas": "Solo se cargan los 3 primeros problemas del texto (el gráfico tiene valores levemente distintos).",
+   "en_promedio": true
+  },
+  {
+   "id": "pulso-2026-03",
+   "encuestadora": "Pulso Research (Brújula Social)",
+   "campo_inicio": null,
+   "campo_fin": null,
+   "n": 1800,
+   "metodo": "online, mayores de 16",
+   "margen_error_pp": 3.5,
+   "aprobacion": 37.2,
+   "desaprobacion": 54.8,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-03",
+   "imagen_dirigentes": {
+    "Cristina Fernández de Kirchner": {
+     "positiva": 42.9,
+     "negativa": 53.2
+    },
+    "Axel Kicillof": {
+     "positiva": 41.3,
+     "negativa": 46.5
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.perfil.com/noticias/politica/encuesta-un-54-evalua-mal-al-gobierno-de-javier-milei-y-469-cree-que-es-responsable-de-la-situacion-economica.phtml",
+   "fuente_fecha": "2026-03-12",
+   "fuentes_cruce": [
+    "https://www.ambito.com/politica/la-aprobacion-la-gestion-javier-milei-llego-su-nivel-mas-que-asumio-como-presidente-n6256872"
+   ],
+   "notas": "Evaluación positiva/negativa del gobierno (no 'aprueba/desaprueba'). Informe 'Brújula Social Marzo 2026' sin fechas de campo publicadas: excluido del promedio.",
+   "en_promedio": false
+  },
+  {
+   "id": "zuban-2026-03",
+   "encuestadora": "Zuban Córdoba y Asociados",
+   "campo_inicio": null,
+   "campo_fin": null,
+   "n": null,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 35.4,
+   "desaprobacion": 58.7,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-03",
+   "imagen_dirigentes": {},
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.ambito.com/politica/la-aprobacion-la-gestion-javier-milei-llego-su-nivel-mas-que-asumio-como-presidente-n6256872",
+   "fuente_fecha": "2026-03-17",
+   "fuentes_cruce": [
+    "https://x.com/Zuban_Cordoba/status/2033589220854440383"
+   ],
+   "notas": "Cifras confirmadas en la cuenta oficial de Zuban Córdoba en X; la nota no informa campo ni n: excluida del promedio.",
+   "en_promedio": false
+  },
+  {
+   "id": "espop-2026-03",
+   "encuestadora": "Universidad de San Andrés (ESPOP-LOOP)",
+   "campo_inicio": "2026-03-10",
+   "campo_fin": "2026-03-17",
+   "n": 1008,
+   "metodo": "online, estratificada por región con cuotas NSE/edad, ponderada por voto oct-2025",
+   "margen_error_pp": null,
+   "aprobacion": 39,
+   "desaprobacion": 59,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Javier Milei": {
+     "positiva": 38,
+     "negativa": null
+    },
+    "Patricia Bullrich": {
+     "positiva": 36,
+     "negativa": null
+    },
+    "Myriam Bregman": {
+     "positiva": 33,
+     "negativa": null
+    },
+    "Axel Kicillof": {
+     "positiva": 32,
+     "negativa": null
+    },
+    "Victoria Villarruel": {
+     "positiva": 30,
+     "negativa": null
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 30,
+     "negativa": null
+    },
+    "Diego Santilli": {
+     "positiva": 28,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Bajos salarios": 37,
+    "Falta de trabajo": 36,
+    "Corrupción": 33,
+    "Inflación": 20
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://mercado.com.ar/economia-y-politica/encuesta-espop-de-udesa-retrocede-la-satisfaccion-general-y-se-amplia-la-desaprobacion",
+   "fuente_fecha": "2026-03-24",
+   "fuentes_cruce": [
+    "https://www.iprofesional.com/politica/450877-encuesta-revela-3-datos-criticos-para-milei-entre-presion-economica-y-caso-adorni (informa aprobación 38%)"
+   ],
+   "notas": "Discrepancia de 1 punto en aprobación entre medios (Mercado 39, iProfesional 38). Kicillof/Villarruel/CFK tomados de iProfesional.",
+   "satisfaccion_poderes": {
+    "Poder Ejecutivo": 28,
+    "Poder Judicial": 22,
+    "Senado": 21,
+    "Cámara de Diputados": 18
+   },
+   "en_promedio": true
+  },
+  {
+   "id": "zentrix-2026-03",
+   "encuestadora": "Zentrix (Monitor de Opinión Pública)",
+   "campo_inicio": "2026-03-10",
+   "campo_fin": "2026-03-19",
+   "n": 1198,
+   "metodo": null,
+   "margen_error_pp": 2.83,
+   "aprobacion": 38.5,
+   "desaprobacion": 53,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 42.7,
+     "negativa": 50.3
+    },
+    "Javier Milei": {
+     "positiva": 40.3,
+     "negativa": 51
+    },
+    "Axel Kicillof": {
+     "positiva": 33.8,
+     "negativa": 57.3
+    },
+    "Juan Grabois": {
+     "positiva": 33.2,
+     "negativa": 57
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.diariodecuyo.com.ar/politica/la-imagen-milei-sigue-caida-libre-los-datos-una-consultora-que-ponen-alerta-al-gobierno-n6569970",
+   "fuente_fecha": "2026-04-06",
+   "fuentes_cruce": [
+    "https://www.tiempodesanjuan.com/politica/la-imagen-javier-milei-sigue-caida-y-fue-superado-otro-integrante-del-gobierno-n427154"
+   ],
+   "notas": "Método no informado en las notas. La misma nota da febrero 2026: 45 aprueba / 44 desaprueba (sin ficha propia).",
+   "en_promedio": true
+  },
+  {
+   "id": "atlas-2026-03",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2026-03-20",
+   "campo_fin": "2026-03-24",
+   "n": 5037,
+   "metodo": "online",
+   "margen_error_pp": 1,
+   "aprobacion": 36.4,
+   "desaprobacion": 61.6,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Axel Kicillof": {
+     "positiva": 38,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 37,
+     "negativa": null
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.bloomberglinea.com/latinoamerica/argentina/encuesta-aprobacion-de-milei-cae-al-nivel-mas-bajo-desde-que-asumio-segun-consultora-brasilena/",
+   "fuente_fecha": "2026-03-26",
+   "fuentes_cruce": [
+    "https://www.lapoliticaonline.com/politica/el-rechazo-a-milei-supera-el-60-por-ciento-el-valor-mas-alto-desde-que-llego-al-poder/ (36,4 / 61,6)"
+   ],
+   "notas": "Bloomberg Línea dice 'casi 62%'; el 61,6 exacto es de LPO.",
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2026-03",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2026-03-27",
+   "campo_fin": "2026-03-31",
+   "n": 800,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 41,
+   "desaprobacion": 57,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Guillermo Francos": {
+     "positiva": 44,
+     "negativa": null
+    },
+    "Patricia Bullrich": {
+     "positiva": 42,
+     "negativa": null
+    },
+    "Diego Santilli": {
+     "positiva": 39,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 38,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Incertidumbre económica": 65,
+    "Inseguridad": 62,
+    "Inflación": 60
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/Sorteando-momentos-dificiles-Humor-Social-y-Politico-Nacional-Marzo-2026-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2026-04-12",
+   "fuentes_cruce": [],
+   "notas": null,
+   "en_promedio": true
+  },
+  {
+   "id": "opina-2026-04",
+   "encuestadora": "Opina Argentina",
+   "campo_inicio": "2026-03-30",
+   "campo_fin": "2026-04-02",
+   "n": 1007,
+   "metodo": null,
+   "margen_error_pp": 3.03,
+   "aprobacion": 35,
+   "desaprobacion": 63,
+   "tipo_medicion": "imagen_presidente",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Axel Kicillof": {
+     "positiva": 44,
+     "negativa": null
+    },
+    "Myriam Bregman": {
+     "positiva": 44,
+     "negativa": null
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 39,
+     "negativa": null
+    },
+    "Patricia Bullrich": {
+     "positiva": 39,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 35,
+     "negativa": 63
+    },
+    "Mauricio Macri": {
+     "positiva": 34,
+     "negativa": null
+    },
+    "Sergio Massa": {
+     "positiva": 33,
+     "negativa": null
+    },
+    "Luis Caputo": {
+     "positiva": 29,
+     "negativa": null
+    },
+    "Victoria Villarruel": {
+     "positiva": 27,
+     "negativa": null
+    },
+    "Manuel Adorni": {
+     "positiva": 23,
+     "negativa": null
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.tiempodesanjuan.com/politica/la-imagen-del-presidente-milei-picada-13-puntos-enero-y-quedo-detras-tres-opositores-n427997",
+   "fuente_fecha": "2026-04-16",
+   "fuentes_cruce": [],
+   "notas": "Imagen de Milei (no aprobación de gestión): excluida del promedio. Milei negativa 63.",
+   "en_promedio": false
+  },
+  {
+   "id": "espop-2026-04",
+   "encuestadora": "Universidad de San Andrés (ESPOP-LOOP)",
+   "campo_inicio": "2026-04-02",
+   "campo_fin": "2026-04-10",
+   "n": 1007,
+   "metodo": "online, estratificada por región con cuotas NSE/edad, ponderada por voto oct-2025",
+   "margen_error_pp": null,
+   "aprobacion": 36,
+   "desaprobacion": 61,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Axel Kicillof": {
+     "positiva": 31,
+     "negativa": null
+    },
+    "Myriam Bregman": {
+     "positiva": 29,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Falta de trabajo": 40,
+    "Bajos salarios": 39,
+    "Corrupción": 38,
+    "Inflación": 20
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://mercado.com.ar/economia-y-politica/encuesta-de-udesa-cae-la-satisfaccion-y-el-empleo-lidera-las-preocupaciones",
+   "fuente_fecha": "2026-04-16",
+   "fuentes_cruce": [
+    "https://www.iprofesional.com/politica/452631-crece-el-malestar-con-milei-7-de-cada-10-lo-desaprueban-y-se-profundiza-el-rechazo-social"
+   ],
+   "notas": null,
+   "satisfaccion_poderes": {
+    "Poder Ejecutivo": 26,
+    "Poder Judicial": 22,
+    "Senado": 16,
+    "Cámara de Diputados": 15
+   },
+   "en_promedio": true
+  },
+  {
+   "id": "mf-2026-04",
+   "encuestadora": "Management & Fit",
+   "campo_inicio": "2026-04-13",
+   "campo_fin": "2026-04-27",
+   "n": 2200,
+   "metodo": null,
+   "margen_error_pp": 2.1,
+   "aprobacion": 37.2,
+   "desaprobacion": 54.3,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 30.5,
+     "negativa": 44.9
+    },
+    "Diego Santilli": {
+     "positiva": 18.8,
+     "negativa": 34.2
+    },
+    "Maximiliano Pullaro": {
+     "positiva": 10.2,
+     "negativa": 26
+    },
+    "Ignacio Torres": {
+     "positiva": 7.8,
+     "negativa": 24
+    },
+    "Juan Schiaretti": {
+     "positiva": 13.1,
+     "negativa": 29.4
+    },
+    "Myriam Bregman": {
+     "positiva": 19.2,
+     "negativa": 36.5
+    },
+    "Javier Milei": {
+     "positiva": 29.8,
+     "negativa": 47.6
+    },
+    "Martín Llaryora": {
+     "positiva": 7.9,
+     "negativa": 26.5
+    },
+    "Axel Kicillof": {
+     "positiva": 26.2,
+     "negativa": 51
+    },
+    "Luis Caputo": {
+     "positiva": 20.4,
+     "negativa": 46.4
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 26.1,
+     "negativa": 53.4
+    },
+    "Jorge Macri": {
+     "positiva": 12,
+     "negativa": 42.8
+    },
+    "Mauricio Macri": {
+     "positiva": 16.7,
+     "negativa": 49.4
+    },
+    "Sergio Massa": {
+     "positiva": 16.1,
+     "negativa": 55
+    },
+    "Karina Milei": {
+     "positiva": 13.4,
+     "negativa": 54
+    },
+    "Manuel Adorni": {
+     "positiva": 12.1,
+     "negativa": 54.2
+    }
+   },
+   "problemas": {
+    "Inflación": 28.3,
+    "Corrupción": 15.9,
+    "Desocupación": 15.4
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.tiempodesanjuan.com/politica/la-imagen-milei-sigue-caida-y-la-desaprobacion-del-gobierno-roza-el-55-n429987",
+   "fuente_fecha": "2026-05-11",
+   "fuentes_cruce": [
+    "https://www.baenegocios.com/politica/milei-llego-al-nivel-mas-bajo-de-aprobacion-desde-el-inicio-de-la-gestion-7198/",
+    "https://www.lapoliticaonline.com/politica/una-encuesta-de-management-fit-muestra-que-la-aprobacion-de-milei-cayo-10-puntos-por-el-caso-adorni-y-libra/"
+   ],
+   "notas": "Año del campo inferido de la fecha de publicación. La misma serie da feb-2026: 46,8% de aprobación (sin ficha publicada).",
+   "en_promedio": true
+  },
+  {
+   "id": "atlas-2026-04",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2026-04-24",
+   "campo_fin": "2026-04-28",
+   "n": 4844,
+   "metodo": "online",
+   "margen_error_pp": 1,
+   "aprobacion": 35.5,
+   "desaprobacion": 63,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Myriam Bregman": {
+     "positiva": 47,
+     "negativa": 46
+    },
+    "Axel Kicillof": {
+     "positiva": 46,
+     "negativa": 49
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 41,
+     "negativa": 53
+    },
+    "Patricia Bullrich": {
+     "positiva": 37,
+     "negativa": 60
+    },
+    "Javier Milei": {
+     "positiva": 36,
+     "negativa": 62
+    },
+    "Alberto Fernández": {
+     "positiva": 10,
+     "negativa": 81
+    }
+   },
+   "problemas": {
+    "Corrupción": 50.3,
+    "Desempleo": 38.5,
+    "Inflación": 35.9,
+    "Situación económica general": 32.6
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://eleconomista.com.ar/politica/sorpresa-atlas-intel-myriam-bregman-lidera-imagen-positiva-desplaza-kicillof-cristina-milei-n94539",
+   "fuente_fecha": "2026-04-30",
+   "fuentes_cruce": [
+    "https://www.intellinews.com/argentina-s-milei-sees-disapproval-rise-to-63-on-inflation-and-adorni-scandal-441678"
+   ],
+   "notas": "Problemas tomados de bne IntelliNews (2026-05-08).",
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2026-04",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2026-04-28",
+   "campo_fin": "2026-04-30",
+   "n": 800,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 37,
+   "desaprobacion": 61,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Guillermo Francos": {
+     "positiva": 46,
+     "negativa": null
+    },
+    "Patricia Bullrich": {
+     "positiva": 43,
+     "negativa": null
+    },
+    "Mauricio Macri": {
+     "positiva": 40,
+     "negativa": null
+    },
+    "Axel Kicillof": {
+     "positiva": 40,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 35,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Incertidumbre económica": 65,
+    "Inseguridad": 61,
+    "Inflación": 60
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/La-economia-afecta-el-humor-social-Humor-Social-y-Politico-Nacional-Abril-2026-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2026-05-14",
+   "fuentes_cruce": [],
+   "notas": null,
+   "en_promedio": true
+  },
+  {
+   "id": "zuban-2026-05",
+   "encuestadora": "Zuban Córdoba y Asociados",
+   "campo_inicio": "2026-04-25",
+   "campo_fin": "2026-05-01",
+   "n": 2000,
+   "metodo": null,
+   "margen_error_pp": 2,
+   "aprobacion": 34.3,
+   "desaprobacion": 64.5,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Javier Milei": {
+     "positiva": null,
+     "negativa": 60.6
+    },
+    "Patricia Bullrich": {
+     "positiva": null,
+     "negativa": 55.5
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.elancasti.com.ar/politica-y-economia/el-712-los-argentinos-quiere-un-cambio-gobierno-segun-una-encuesta-n611817",
+   "fuente_fecha": "2026-05-04",
+   "fuentes_cruce": [
+    "https://www.intellinews.com/argentina-s-milei-sees-disapproval-rise-to-63-on-inflation-and-adorni-scandal-441678 (desaprobación 65, redondeo)"
+   ],
+   "notas": "Universo: mayores de 16. Método no informado en la nota.",
+   "en_promedio": true
+  },
+  {
+   "id": "espop-2026-05",
+   "encuestadora": "Universidad de San Andrés (ESPOP-LOOP)",
+   "campo_inicio": "2026-05-06",
+   "campo_fin": "2026-05-08",
+   "n": 1006,
+   "metodo": "online, estratificada por región con cuotas NSE/edad, ponderada por voto oct-2025",
+   "margen_error_pp": 3.15,
+   "aprobacion": 37,
+   "desaprobacion": 60,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 37,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 35,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Bajos salarios": 37,
+    "Falta de trabajo": 37,
+    "Corrupción": 36,
+    "Pobreza": 30,
+    "Los políticos": 26,
+    "Inseguridad": 26,
+    "Inflación": 22
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://mercado.com.ar/economia-y-politica/encuesta-de-la-udesa-29-de-satisfaccion-y-60-de-desaprobacion-al-gobierno",
+   "fuente_fecha": "2026-05-12",
+   "fuentes_cruce": [
+    "https://www.perfil.com/noticias/politica/encuesta-las-emociones-que-despierta-javier-milei-se-dividen-entre-esperanza-confianza-verguenza-y-asco.phtml"
+   ],
+   "notas": null,
+   "satisfaccion_poderes": {
+    "Poder Ejecutivo": 23,
+    "Poder Judicial": 19,
+    "Senado": 16,
+    "Cámara de Diputados": 15
+   },
+   "en_promedio": true
+  },
+  {
+   "id": "giacobbe-2026-05",
+   "encuestadora": "Giacobbe & Asociados",
+   "campo_inicio": "2026-05-04",
+   "campo_fin": "2026-05-09",
+   "n": 2500,
+   "metodo": null,
+   "margen_error_pp": 2,
+   "aprobacion": 35.9,
+   "desaprobacion": 53.9,
+   "tipo_medicion": "imagen_presidente",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 39.7,
+     "negativa": 49.7
+    },
+    "Javier Milei": {
+     "positiva": 35.9,
+     "negativa": 53.9
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 35.9,
+     "negativa": 53.9
+    },
+    "Axel Kicillof": {
+     "positiva": 34.1,
+     "negativa": 53.2
+    },
+    "Victoria Villarruel": {
+     "positiva": 27.9,
+     "negativa": 59.3
+    },
+    "Mauricio Macri": {
+     "positiva": 16.5,
+     "negativa": 57.3
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://noticias.perfil.com/noticias/politica/nueva-encuesta-milei-tiene-359-por-ciento-de-aprobacion-contra-539-de-rechazo.phtml",
+   "fuente_fecha": "2026-05-18",
+   "fuentes_cruce": [],
+   "notas": "El cuerpo de la nota habla de imagen positiva/negativa de Milei, no de aprobación de gestión: excluida del promedio.",
+   "en_promedio": false
+  },
+  {
+   "id": "mf-2026-05",
+   "encuestadora": "Management & Fit",
+   "campo_inicio": "2026-05-11",
+   "campo_fin": "2026-05-22",
+   "n": 2200,
+   "metodo": "mixto: presencial, online y telefónico (CATI)",
+   "margen_error_pp": 2.1,
+   "aprobacion": 37.9,
+   "desaprobacion": 58.1,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 36.3,
+     "negativa": 47.4
+    },
+    "Javier Milei": {
+     "positiva": 31.7,
+     "negativa": 53.8
+    },
+    "Manuel Adorni": {
+     "positiva": 16,
+     "negativa": 63.2
+    },
+    "Karina Milei": {
+     "positiva": 14.3,
+     "negativa": 61.8
+    }
+   },
+   "problemas": {
+    "Inflación": 24.7,
+    "Corrupción": 18.6,
+    "Desempleo": 15.8,
+    "Pobreza": 14.0,
+    "Inseguridad": 11.3
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.conclusion.com.ar/?p=1421996",
+   "fuente_fecha": "2026-05-30",
+   "fuentes_cruce": [
+    "https://safras.com.br/es/desaprobacion-de-milei-alcanza-584-y-la-de-kicillof-54-management-fit/ (ficha; informa 37,8 / 58,4)",
+    "https://www.lapoliticaonline.com/politica/management-fit-dice-que-la-imagen-negativa-de-milei-subio-seis-puntos/ (37,9 / 58,1)",
+    "https://www.elancasti.com.ar/politica-y-economia/bullrich-supero-milei-imagen-positiva-n614020"
+   ],
+   "notas": "Aprobación 37,9/58,1 (LPO y Conclusión coinciden; la serie de junio dice -0,6 vs mayo). Safras informa 37,8/58,4. Milei negativa 53,7 en LPO/Conclusión vs 53,8 en El Ancasti.",
+   "en_promedio": true
+  },
+  {
+   "id": "atlas-2026-05",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2026-05-21",
+   "campo_fin": "2026-05-25",
+   "n": 4613,
+   "metodo": "online",
+   "margen_error_pp": 1,
+   "aprobacion": 39.9,
+   "desaprobacion": 58.3,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Myriam Bregman": {
+     "positiva": 46,
+     "negativa": 47
+    },
+    "Axel Kicillof": {
+     "positiva": 40,
+     "negativa": 55
+    },
+    "Patricia Bullrich": {
+     "positiva": 39,
+     "negativa": 58
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 39,
+     "negativa": 55
+    },
+    "Javier Milei": {
+     "positiva": 38,
+     "negativa": 61
+    },
+    "Martín Menem": {
+     "positiva": 27,
+     "negativa": 65
+    },
+    "Santiago Caputo": {
+     "positiva": 26,
+     "negativa": 64
+    },
+    "Sergio Massa": {
+     "positiva": 23,
+     "negativa": 64
+    },
+    "Mauricio Macri": {
+     "positiva": 22,
+     "negativa": 69
+    },
+    "Jorge Macri": {
+     "positiva": 20,
+     "negativa": 67
+    },
+    "Karina Milei": {
+     "positiva": 16,
+     "negativa": 74
+    },
+    "Victoria Villarruel": {
+     "positiva": 16,
+     "negativa": 71
+    },
+    "Juan Schiaretti": {
+     "positiva": 13,
+     "negativa": 62
+    },
+    "Horacio Rodríguez Larreta": {
+     "positiva": 10,
+     "negativa": 78
+    },
+    "Alberto Fernández": {
+     "positiva": 7,
+     "negativa": 84
+    }
+   },
+   "problemas": {
+    "Corrupción": 50.9,
+    "Desempleo": 42.4,
+    "Inflación": 31.2,
+    "Situación económica general": 29.0,
+    "Impunidad y sistema judicial": 28.7
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.perfil.com/noticias/politica/encuesta-la-desaprobacion-de-milei-llega-al-583-y-se-consolidan-las-figuras-de-myriam-bregman-y-axel-kicillof.phtml",
+   "fuente_fecha": "2026-05-28",
+   "fuentes_cruce": [
+    "https://atlasintel.org/poll/latam-pulse-argentina-may-2026-2026-05-28 (ficha)",
+    "https://www.lapoliticaonline.com/politica/mas-del-60-por-ciento-de-los-argentinos-cree-que-la-situacion-economica-es-mala/",
+    "https://eleconomista.com.ar/politica/el-gobierno-frena-derrumbe-encuestas-pero-corrupcion-sigue-como-principal-problema-n95374/amp"
+   ],
+   "notas": "Imagen negativa de dirigentes (salvo Milei) tomada de El Economista.",
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2026-05",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2026-05-29",
+   "campo_fin": "2026-05-30",
+   "n": 800,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 39,
+   "desaprobacion": 60,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Guillermo Francos": {
+     "positiva": 45,
+     "negativa": null
+    },
+    "Patricia Bullrich": {
+     "positiva": 43,
+     "negativa": null
+    },
+    "Mauricio Macri": {
+     "positiva": 39,
+     "negativa": null
+    },
+    "Myriam Bregman": {
+     "positiva": 38,
+     "negativa": null
+    },
+    "Axel Kicillof": {
+     "positiva": 37,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 36,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Inseguridad": 65,
+    "Incertidumbre económica": 64,
+    "Corrupción en el gobierno de Milei": 58
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/Punto-de-inflexion-Humor-Social-y-Politico-Nacional-Mayo-2026-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2026-06-09",
+   "fuentes_cruce": [],
+   "notas": null,
+   "en_promedio": true
+  },
+  {
+   "id": "espop-2026-06",
+   "encuestadora": "Universidad de San Andrés (ESPOP-LOOP)",
+   "campo_inicio": "2026-06-03",
+   "campo_fin": "2026-06-05",
+   "n": 1000,
+   "metodo": "online, estratificada por región con cuotas NSE/edad, ponderada por voto oct-2025",
+   "margen_error_pp": 3.15,
+   "aprobacion": 35,
+   "desaprobacion": 61,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 38,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 33,
+     "negativa": null
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 32,
+     "negativa": null
+    },
+    "Axel Kicillof": {
+     "positiva": 31,
+     "negativa": null
+    },
+    "Myriam Bregman": {
+     "positiva": 30,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Falta de trabajo": 40,
+    "Corrupción": 34,
+    "Bajos salarios": 33,
+    "Inflación": 19
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://mercado.com.ar/economia-y-politica/encuesta-udesa-satisfaccion-con-la-marcha-del-pais-sube-a-30-en-junio",
+   "fuente_fecha": "2026-06-12",
+   "fuentes_cruce": [],
+   "notas": null,
+   "satisfaccion_poderes": {
+    "Poder Ejecutivo": 25,
+    "Poder Judicial": 19,
+    "Senado": 18,
+    "Cámara de Diputados": 15
+   },
+   "en_promedio": true
+  },
+  {
+   "id": "zentrix-2026-06",
+   "encuestadora": "Zentrix (Monitor de Opinión Pública)",
+   "campo_inicio": "2026-06-15",
+   "campo_fin": "2026-06-22",
+   "n": 1297,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 33.2,
+   "desaprobacion": 56.6,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Myriam Bregman": {
+     "positiva": 44.1,
+     "negativa": 40.3
+    },
+    "Patricia Bullrich": {
+     "positiva": 38.6,
+     "negativa": 52
+    },
+    "Axel Kicillof": {
+     "positiva": 38.1,
+     "negativa": 44
+    },
+    "Javier Milei": {
+     "positiva": 33.8,
+     "negativa": 56.1
+    }
+   },
+   "problemas": {
+    "Corrupción": 51.3,
+    "Ingresos y salarios": 48.2,
+    "Incertidumbre económica": 37.1,
+    "Desempleo": 27.8,
+    "Tarifas de servicios": 25.4,
+    "Inseguridad": 24
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.cronista.com/economia-politica/mejoran-los-numeros-de-gestion-de-milei-pero-no-logra-meterse-en-el-podio-quienes-lo-superan/",
+   "fuente_fecha": "2026-07-10",
+   "fuentes_cruce": [
+    "https://eleconomista.com.ar/politica/milei-frena-caida-pero-dato-enciende-alarmas-casa-rosada-n96269/amp"
+   ],
+   "notas": "Kicillof: la nota informa diferencial -13,8, incompatible con 38,1/44; revisar. Serie Zentrix mayo 2026: 32,2 / 61,2 (sin ficha propia).",
+   "en_promedio": true
+  },
+  {
+   "id": "mf-2026-06",
+   "encuestadora": "Management & Fit",
+   "campo_inicio": "2026-06-12",
+   "campo_fin": "2026-06-26",
+   "n": 2200,
+   "metodo": "online y telefónico (CATI) + presencial",
+   "margen_error_pp": 2.1,
+   "aprobacion": 37.3,
+   "desaprobacion": 58.2,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Javier Milei": {
+     "positiva": 30.3,
+     "negativa": 52.1
+    }
+   },
+   "problemas": {
+    "Inflación": 22.4,
+    "Corrupción": 20.6,
+    "Desempleo": 14.4,
+    "Inseguridad": 14.1,
+    "Pobreza": 13
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.cronica.com.ar/politica/el-rechazo-al-gobierno-de-milei-se-acerco-al-60-segun-una-encuesta-donde-lideran-dos-preocupaciones-llegar-a-fin-de-mes-y-bajos-ingresos-8780/",
+   "fuente_fecha": "2026-07-02",
+   "fuentes_cruce": [
+    "https://noticias.perfil.com/noticias/politica/encuesta-el-582-por-ciento-desaprueba-la-gestion-de-milei.phtml",
+    "https://www.lapoliticaonline.com/politica/la-desaprobacion-de-milei-llego-a-su-nivel-mas-alto-segun-management-fit/"
+   ],
+   "notas": "n: Crónica informa 2.200 casos efectivos; Noticias informa 2.600 efectivos / 2.200 ponderados. Imagen de Milei 30,3/52,1 (Crónica y LPO); Noticias informa 30,7/47,8. Problemas tomados de Noticias.",
+   "en_promedio": true
+  },
+  {
+   "id": "atlas-2026-06",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2026-06-26",
+   "campo_fin": "2026-06-30",
+   "n": 2202,
+   "metodo": null,
+   "margen_error_pp": 2,
+   "aprobacion": 39.7,
+   "desaprobacion": 58.2,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 45,
+     "negativa": 52
+    },
+    "Myriam Bregman": {
+     "positiva": 42,
+     "negativa": 54
+    },
+    "Javier Milei": {
+     "positiva": 40,
+     "negativa": 57
+    },
+    "Axel Kicillof": {
+     "positiva": 38,
+     "negativa": 56
+    }
+   },
+   "problemas": {
+    "Corrupción": 47.9,
+    "Desempleo": 39.5
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.bloomberglinea.com/latinoamerica/argentina/encuesta-refleja-criticas-a-milei-por-su-manejo-de-la-crisis-del-jefe-de-gabinete/",
+   "fuente_fecha": "2026-07-03",
+   "fuentes_cruce": [
+    "https://www.lapoliticaonline.com/politica/atlas-milei/",
+    "https://www.cronista.com/economia-politica/el-rebote-de-milei-sube-por-segundo-mes-consecutivo-pero-dos-dirigentes-lo-superan-en-imagen-positiva/"
+   ],
+   "notas": null,
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2026-06",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2026-06-29",
+   "campo_fin": "2026-06-30",
+   "n": 800,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 40,
+   "desaprobacion": 58,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 43,
+     "negativa": 53
+    },
+    "Diego Santilli": {
+     "positiva": 41,
+     "negativa": null
+    },
+    "Myriam Bregman": {
+     "positiva": 39,
+     "negativa": null
+    },
+    "Axel Kicillof": {
+     "positiva": 38,
+     "negativa": 59
+    },
+    "Mauricio Macri": {
+     "positiva": 37,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 36,
+     "negativa": 60
+    },
+    "Victoria Villarruel": {
+     "positiva": 32,
+     "negativa": 59
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 30,
+     "negativa": 64
+    }
+   },
+   "problemas": {
+    "Ingresos que no alcanzan": 62,
+    "Costo de los servicios públicos": 59,
+    "Incertidumbre económica": 59,
+    "Inseguridad": 59,
+    "Costos en salud": 57,
+    "Corrupción en el gobierno de Milei": 53,
+    "Caída de industria y empleo por apertura": 51,
+    "Falta de propuestas para el crecimiento": 50,
+    "Imposibilidad de ahorrar": 48,
+    "Inflación": 47
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/Percepcion-de-estabilidad-Humor-Social-y-Politico-Nacional-Junio-2026-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2026-07-15",
+   "fuentes_cruce": [],
+   "notas": null,
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2026-07",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": null,
+   "campo_fin": null,
+   "n": null,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 39,
+   "desaprobacion": 60,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-07",
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 43,
+     "negativa": null
+    },
+    "Myriam Bregman": {
+     "positiva": 40,
+     "negativa": null
+    },
+    "Mauricio Macri": {
+     "positiva": 37,
+     "negativa": null
+    },
+    "Jorge Macri": {
+     "positiva": 37,
+     "negativa": null
+    },
+    "Axel Kicillof": {
+     "positiva": 37,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 35,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Ingresos que no alcanzan": 63,
+    "Incertidumbre económica": 61
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/situacion-estacionaria/",
+   "fuente_fecha": "2026-08-18",
+   "fuentes_cruce": [],
+   "notas": "Ficha técnica en un .pptx que no se pudo leer: campo y n = null. Excluida del promedio (sin fecha de campo).",
+   "en_promedio": false
+  },
+  {
+   "id": "zuban-2026-07",
+   "encuestadora": "Zuban Córdoba y Asociados",
+   "campo_inicio": null,
+   "campo_fin": null,
+   "n": 2000,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 33.4,
+   "desaprobacion": 65.3,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-07",
+   "imagen_dirigentes": {
+    "Javier Milei": {
+     "positiva": 33.4,
+     "negativa": 61.3
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.perfil.com/noticias/cordoba/desgaste-del-oficialismo-el-65-desaprueba-la-gestion-de-milei-y-seis-de-cada-diez-votarian-un-cambio-de-gobierno-en-2027.phtml",
+   "fuente_fecha": "2026-08-04",
+   "fuentes_cruce": [
+    "https://www.ambito.com/politica/imagen-del-gobierno-el-65-desaprueba-la-gestion-milei-y-el-62-votaria-un-cambio-2027-n6306280",
+    "https://www.losprimeros.tv/politica/encuesta-de-zuban-cordoba--el-65-3--desaprueba-la-gestion-de-javier-milei-y-seis-de-cada-diez-votarian-por-un-cambio-en-2027_a6a6f6ab79c173cec0bb76b5d",
+    "https://www.ambito.com/politica/imagen-del-gobierno-el-65-desaprueba-la-gestion-milei-y-el-62-votaria-un-cambio-2027-n6306280"
+   ],
+   "notas": "'Informe Nacional Julio 2026'. n=2.000 según Los Primeros (02/08/2026). Fechas de campo no informadas en ninguna nota (el PDF de zubancordoba.com no se pudo abrir): excluida del promedio. Aprobación 33,4 (Perfil, Ámbito) vs. 34 (Los Primeros).",
+   "en_promedio": false
+  },
+  {
+   "id": "espop-2026-07",
+   "encuestadora": "Universidad de San Andrés (ESPOP-LOOP)",
+   "campo_inicio": "2026-07-03",
+   "campo_fin": "2026-07-08",
+   "n": 1000,
+   "metodo": "online, estratificada por región con cuotas NSE/edad, ponderada por voto oct-2025",
+   "margen_error_pp": null,
+   "aprobacion": 34,
+   "desaprobacion": 62,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 36,
+     "negativa": null
+    },
+    "Axel Kicillof": {
+     "positiva": 34,
+     "negativa": null
+    },
+    "Javier Milei": {
+     "positiva": 33,
+     "negativa": null
+    },
+    "Myriam Bregman": {
+     "positiva": 33,
+     "negativa": null
+    },
+    "Diego Santilli": {
+     "positiva": 28,
+     "negativa": null
+    },
+    "Manuel Adorni": {
+     "positiva": null,
+     "negativa": 80
+    }
+   },
+   "problemas": {
+    "Falta de trabajo": 38,
+    "Corrupción": 38,
+    "Bajos salarios": 35,
+    "Pobreza": 27,
+    "Inflación": 17
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://mercado.com.ar/economia-y-politica/encuesta-udesa-30-de-satisfaccion-con-la-marcha-del-pais-en-julio",
+   "fuente_fecha": "2026-07-14",
+   "fuentes_cruce": [],
+   "notas": null,
+   "satisfaccion_poderes": {
+    "Poder Ejecutivo": 26,
+    "Poder Judicial": 19,
+    "Cámara de Diputados": 17,
+    "Senado": 17
+   },
+   "en_promedio": true
+  },
+  {
+   "id": "zentrix-2026-07",
+   "encuestadora": "Zentrix (Monitor de Opinión Pública)",
+   "campo_inicio": "2026-07-21",
+   "campo_fin": "2026-07-30",
+   "n": 1468,
+   "metodo": "online autoadministrado; ponderada por región, edad, sexo y voto (balotaje 2023 y legislativas 2025)",
+   "margen_error_pp": 2.1,
+   "aprobacion": 31.4,
+   "desaprobacion": 58.8,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Myriam Bregman": {
+     "positiva": 43.1,
+     "negativa": 40
+    },
+    "Patricia Bullrich": {
+     "positiva": 36.6,
+     "negativa": 50
+    },
+    "Axel Kicillof": {
+     "positiva": 35.4,
+     "negativa": 51.5
+    },
+    "Javier Milei": {
+     "positiva": 30.9,
+     "negativa": 58.5
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.iprofesional.com/politica/462392-imagen-positiva-de-javier-milei-cae-pero-ningun-opositor-crece-segun-encuesta-consultora-zentrix",
+   "fuente_fecha": "2026-08-16",
+   "fuentes_cruce": [
+    "https://lavozderosario.com/segun-la-encuesta-de-zentrix-solo-3-de-cada-10-argentinos-aprueba-la-gestion-de-milei/",
+    "https://www.puntocapitalnoticias.com/la-imagen-de-milei-se-desploma-casi-6-de-cada-10-desaprueban-su-gestion-segun-una-encuesta/",
+    "https://www.elsol.com.ar/el-pais/las-encuestas-confirman-la-caida-de-milei-pero-la-oposicion-no-logra-capitalizar-el-desgaste/"
+   ],
+   "notas": "Ficha (21-30/07/2026, 1.468 casos, ±2,1) coincide en iProfesional, La Voz de Rosario y Punto Capital. Muestra online no probabilística.",
+   "en_promedio": true
+  },
+  {
+   "id": "mf-2026-07",
+   "encuestadora": "Management & Fit",
+   "campo_inicio": "2026-07-20",
+   "campo_fin": "2026-07-31",
+   "n": 2600,
+   "metodo": "mixto: presencial, online y CATI (fijo y móvil); cuotas por sexo, edad y educación (Censo 2022); 16 a 75 años",
+   "margen_error_pp": 2.1,
+   "aprobacion": 37.1,
+   "desaprobacion": 58.6,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Javier Milei": {
+     "positiva": 30.6,
+     "negativa": 53.5
+    }
+   },
+   "problemas": {
+    "Aumentos de precios y tarifas": 22.4,
+    "Corrupción": 17.9,
+    "Desocupación": 17.6,
+    "Pobreza": 16.2
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.cronista.com/economia-politica/una-encuesta-enciende-una-alerta-para-milei-57-pide-un-cambio-pero-hay-un-dato-que-sostiene-al-gobierno/",
+   "fuente_fecha": "2026-08-10",
+   "fuentes_cruce": [
+    "https://www.letrap.com.ar/politica/javier-milei-cuesta-arriba-el-575-votaria-un-cambio-total-gobierno-n5427155 (julio: 37,1 / 58,6)",
+    "https://www.lapoliticaonline.com/politica/encuesta-el-57-por-ciento-dice-que-votaria-un-cambio-total-de-gobierno-5869/"
+   ],
+   "notas": "n: 2.600 casos efectivos / 2.200 ponderados. Ficha (campo 20-31/07/2026) tomada de El Cronista; aprobación 37,1/58,6 coincide con LPO y Letra P. Imagen de Milei 30,6/53,5 de LPO.",
+   "en_promedio": true
+  },
+  {
+   "id": "zuban-2026-08",
+   "encuestadora": "Zuban Córdoba y Asociados",
+   "campo_inicio": null,
+   "campo_fin": null,
+   "n": null,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 36.8,
+   "desaprobacion": 62.3,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-08",
+   "imagen_dirigentes": {},
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://eleconomista.com.ar/politica/milei-alcanza-636-desaprobacion-nuevos-datos-sobre-kicillof-elecciones-2027-n98457",
+   "fuente_fecha": "2026-09-28",
+   "fuentes_cruce": [],
+   "notas": "Dato de agosto citado como comparación en la nota de septiembre; sin ficha: excluido del promedio.",
+   "en_promedio": false
+  },
+  {
+   "id": "zentrix-2026-08",
+   "encuestadora": "Zentrix (Monitor de Opinión Pública)",
+   "campo_inicio": null,
+   "campo_fin": null,
+   "n": null,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 32.2,
+   "desaprobacion": 54.1,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-08",
+   "imagen_dirigentes": {},
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://grupolaprovincia.com/contenido/602774/encuesta-nacional-la-mayoria-asegura-que-nunca-votaria-a-milei-y-la-clase-baja-d",
+   "fuente_fecha": "2026-10-23",
+   "fuentes_cruce": [
+    "https://www.cronista.com/economia-politica/entre-el-ajuste-y-la-paciencia-que-dicen-cuatro-encuestas-sobre-el-futuro-del-gobierno-y-sus-chances-hacia-2027/"
+   ],
+   "notas": "Ola de agosto citada como comparación en la nota de septiembre (y en El Cronista, 19/09/2026); sin fechas de campo ni n: excluida del promedio.",
+   "en_promedio": false
+  },
+  {
+   "id": "atlas-2026-07w",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2026-07-30",
+   "campo_fin": "2026-08-03",
+   "n": 1120,
+   "metodo": "online",
+   "margen_error_pp": 3,
+   "aprobacion": 37.1,
+   "desaprobacion": 62.4,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-07",
+   "imagen_dirigentes": {},
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.lapoliticaonline.com/politica/el-70-por-ciento-de-los-argentinos-cree-que-la-situacion-economica-es-mala/",
+   "fuente_fecha": "2026-08-06",
+   "fuentes_cruce": [
+    "https://atlasintel.org/poll/latam-pulse-argentina-july-2026-2026-08-06 (ficha)",
+    "https://www.elsol.com.ar/el-pais/las-encuestas-confirman-la-caida-de-milei-pero-la-oposicion-no-logra-capitalizar-el-desgaste/"
+   ],
+   "notas": "AtlasIntel la rotula 'julio 2026', pero el campo termina en agosto: en el promedio cuenta para agosto.",
+   "en_promedio": true
+  },
+  {
+   "id": "espop-2026-08",
+   "encuestadora": "Universidad de San Andrés (ESPOP-LOOP)",
+   "campo_inicio": "2026-08-05",
+   "campo_fin": "2026-08-11",
+   "n": 1000,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 35,
+   "desaprobacion": 61,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 37,
+     "negativa": null
+    },
+    "Axel Kicillof": {
+     "positiva": 36,
+     "negativa": null
+    },
+    "Myriam Bregman": {
+     "positiva": 36,
+     "negativa": null
+    },
+    "Diego Santilli": {
+     "positiva": 29,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Falta de trabajo": 39,
+    "Bajos salarios": 36,
+    "Corrupción": 34,
+    "Pobreza": 30
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://mercado.com.ar/informes-especiales/encuesta-de-la-udesa-insatisfaccion-del-69-y-35-de-aprobacion-a-milei",
+   "fuente_fecha": "2026-08-18",
+   "fuentes_cruce": [
+    "https://www.elsol.com.ar/el-pais/las-encuestas-confirman-la-caida-de-milei-pero-la-oposicion-no-logra-capitalizar-el-desgaste/"
+   ],
+   "notas": null,
+   "satisfaccion_poderes": {
+    "Poder Ejecutivo": 27,
+    "Poder Judicial": 19,
+    "Senado": 16,
+    "Cámara de Diputados": 15
+   },
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2026-08",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2026-08-28",
+   "campo_fin": "2026-08-30",
+   "n": 800,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 40,
+   "desaprobacion": 58,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 43,
+     "negativa": 55
+    },
+    "Javier Milei": {
+     "positiva": 34,
+     "negativa": 62
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 29,
+     "negativa": 65
+    },
+    "Victoria Villarruel": {
+     "positiva": 24,
+     "negativa": 67
+    }
+   },
+   "problemas": {
+    "Costo de los servicios públicos": 60,
+    "Ingresos que no alcanzan": 59,
+    "Incertidumbre económica": 58
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/Los-1000-dias-de-Milei-Humor-Social-y-Politico-Nacional-Agosto-2026-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2026-09-08",
+   "fuentes_cruce": [],
+   "notas": "Kicillof omitido: el texto dice 30% y el gráfico 40%. Problemas: solo los 3 del texto (el ranking gráfico no coincide).",
+   "en_promedio": true
+  },
+  {
+   "id": "atlas-2026-08w",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2026-08-30",
+   "campo_fin": "2026-09-03",
+   "n": 2193,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 38.1,
+   "desaprobacion": 58,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-08",
+   "imagen_dirigentes": {
+    "Myriam Bregman": {
+     "positiva": 43,
+     "negativa": 51
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 39,
+     "negativa": 55
+    },
+    "Patricia Bullrich": {
+     "positiva": 38,
+     "negativa": 55
+    },
+    "Axel Kicillof": {
+     "positiva": 36,
+     "negativa": 55
+    },
+    "Javier Milei": {
+     "positiva": 35,
+     "negativa": 62
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.bloomberglinea.com/latinoamerica/argentina/atlasintel-aprobacion-de-javier-milei-anota-leve-mejora-en-encuesta-clave-de-agosto/",
+   "fuente_fecha": "2026-09-08",
+   "fuentes_cruce": [
+    "https://atlasintel.org/poll/latam-pulse-argentina-august-2026-2026-09-08"
+   ],
+   "notas": "Rotulada 'agosto 2026'; campo termina en septiembre. Kicillof: la nota da neto -27, incompatible con 36/55.",
+   "en_promedio": true
+  },
+  {
+   "id": "espop-2026-09",
+   "encuestadora": "Universidad de San Andrés (ESPOP-LOOP)",
+   "campo_inicio": "2026-09-03",
+   "campo_fin": "2026-09-09",
+   "n": 1004,
+   "metodo": "online, estratificada por región con cuotas NSE/edad, ponderada por voto oct-2025",
+   "margen_error_pp": 3.15,
+   "aprobacion": 35,
+   "desaprobacion": 61,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {},
+   "problemas": {
+    "Falta de trabajo": 39,
+    "Bajos salarios": 36,
+    "Corrupción": 29,
+    "Pobreza": 29,
+    "Inseguridad": 27
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://mercado.com.ar/economia-y-politica/encuesta-udesa-69-esta-insatisfecho-con-la-marcha-del-pais-en-septiembre",
+   "fuente_fecha": "2026-09-14",
+   "fuentes_cruce": [
+    "https://www.iprofesional.com/politica/464866-nueva-encuesta-revela-el-valor-clave-para-milei-del-voto-bullrich"
+   ],
+   "notas": null,
+   "satisfaccion_poderes": {
+    "Poder Ejecutivo": 23,
+    "Poder Judicial": 17,
+    "Senado": 15,
+    "Cámara de Diputados": 14
+   },
+   "en_promedio": true
+  },
+  {
+   "id": "zuban-2026-09",
+   "encuestadora": "Zuban Córdoba y Asociados",
+   "campo_inicio": "2026-09-16",
+   "campo_fin": "2026-09-19",
+   "n": 2000,
+   "metodo": "online, ponderada por género, edad, zona y voto 2023",
+   "margen_error_pp": 2.19,
+   "aprobacion": 35.3,
+   "desaprobacion": 63.6,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Axel Kicillof": {
+     "positiva": 45,
+     "negativa": 51.3
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 42,
+     "negativa": 56.1
+    },
+    "Myriam Bregman": {
+     "positiva": 40.1,
+     "negativa": 41
+    },
+    "Patricia Bullrich": {
+     "positiva": 37.6,
+     "negativa": 59.9
+    },
+    "Natalia de la Sota": {
+     "positiva": 36.6,
+     "negativa": 24.4
+    },
+    "Javier Milei": {
+     "positiva": 36.1,
+     "negativa": 61.8
+    },
+    "Victoria Villarruel": {
+     "positiva": 27.1,
+     "negativa": 65.5
+    },
+    "Mauricio Macri": {
+     "positiva": 34,
+     "negativa": 63.5
+    },
+    "Sergio Massa": {
+     "positiva": 33.9,
+     "negativa": 61.1
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://eleconomista.com.ar/politica/milei-alcanza-636-desaprobacion-nuevos-datos-sobre-kicillof-elecciones-2027-n98457",
+   "fuente_fecha": "2026-09-28",
+   "fuentes_cruce": [
+    "https://www.conclusion.com.ar/politica/nueva-encuesta-mas-de-6-de-cada-10-argentinos-desaprueban-la-gestion-de-milei-mientras-crecen-opositores/09/2026/",
+    "https://diariotortuga.com/una-encuesta-expone-un-alza-en-la-desaprobacion-de-la-gestion-de-milei-que-alcanza-al-636-de-la-poblacion/",
+    "https://altoqueradio.ar/nueva-encuesta-de-zuban-cordoba-como-quedo-la-imagen-del-gobierno-y-que-muestran-los-numeros-hacia-2027/"
+   ],
+   "notas": "Universo: mayores de 16. Negativas de CFK, Bregman, Bullrich, De la Sota, Massa y positivas de Villarruel/Macri tomadas de Portal Tortuga (28/09/2026); Bullrich 37,6/59,9 y Milei 36,1/61,8 coinciden con Alto Que Radio.",
+   "en_promedio": true
+  },
+  {
+   "id": "mide-2026-09",
+   "encuestadora": "Equipo Mide",
+   "campo_inicio": "2026-09-18",
+   "campo_fin": "2026-09-25",
+   "n": 2114,
+   "metodo": null,
+   "margen_error_pp": 2.1,
+   "aprobacion": 38,
+   "desaprobacion": 59,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 41,
+     "negativa": 52
+    },
+    "Javier Milei": {
+     "positiva": 39,
+     "negativa": 57
+    }
+   },
+   "problemas": {
+    "Salarios bajos frente a la inflación": 22,
+    "Desocupación": 16,
+    "Corrupción": 16,
+    "El Gobierno": 12,
+    "Inflación": 6,
+    "Inseguridad": 5,
+    "Pobreza": 4
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://noticias.perfil.com/noticias/politica/encuesta-el-58-por-ciento-dice-que-esta-peor-desde-que-gobierna-milei.phtml",
+   "fuente_fecha": "2026-09-30",
+   "fuentes_cruce": [],
+   "notas": "No está en la lista objetivo; se incluye porque publica ficha (n, campo, margen). Una sola fuente.",
+   "en_promedio": true
+  },
+  {
+   "id": "mf-2026-09",
+   "encuestadora": "Management & Fit",
+   "campo_inicio": "2026-09-14",
+   "campo_fin": "2026-09-28",
+   "n": 2600,
+   "metodo": null,
+   "margen_error_pp": null,
+   "aprobacion": 36.6,
+   "desaprobacion": 58.1,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Javier Milei": {
+     "positiva": 31.2,
+     "negativa": 52.7
+    },
+    "Patricia Bullrich": {
+     "positiva": 33,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Dificultad para llegar a fin de mes": 22,
+    "Desocupación": 19.8,
+    "Aumentos de precios y tarifas": 18.9,
+    "Problemas de deudas": 17.2,
+    "Bajos ingresos": 14
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.letrap.com.ar/politica/javier-milei-cuesta-arriba-el-575-votaria-un-cambio-total-gobierno-n5427155",
+   "fuente_fecha": "2026-10-06",
+   "fuentes_cruce": [],
+   "notas": "n: 2.600 casos efectivos / 2.200 ponderados. Una sola fuente con ficha.",
+   "en_promedio": true
+  },
+  {
+   "id": "zentrix-2026-09",
+   "encuestadora": "Zentrix (Monitor de Opinión Pública)",
+   "campo_inicio": "2026-09-22",
+   "campo_fin": "2026-09-30",
+   "n": 1438,
+   "metodo": "online autoadministrado; muestra no probabilística ponderada por sociodemografía y voto previo",
+   "margen_error_pp": 2.6,
+   "aprobacion": 35.2,
+   "desaprobacion": 56.8,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Myriam Bregman": {
+     "positiva": 44.2,
+     "negativa": 43
+    },
+    "Axel Kicillof": {
+     "positiva": 38.2,
+     "negativa": 53.6
+    },
+    "Patricia Bullrich": {
+     "positiva": 36.7,
+     "negativa": 52
+    },
+    "Javier Milei": {
+     "positiva": 34.9,
+     "negativa": 58.5
+    },
+    "Victoria Villarruel": {
+     "positiva": 18.6,
+     "negativa": null
+    }
+   },
+   "problemas": {
+    "Ingresos y salarios": 50.1,
+    "Incertidumbre económica": 49.8,
+    "Desempleo": 40.9,
+    "Corrupción": 39.6,
+    "Tarifas de servicios": 35.2,
+    "Inflación": 12.7
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://grupolaprovincia.com/contenido/602774/encuesta-nacional-la-mayoria-asegura-que-nunca-votaria-a-milei-y-la-clase-baja-d",
+   "fuente_fecha": "2026-10-23",
+   "fuentes_cruce": [
+    "https://www.apfdigital.com.ar/noticias/2026/10/05/473781-relevamiento-milei-y-kicillof-mejoran-en-las-encuestas-pero-ninguno-logra-romper-el-techo-del-30por_ciento",
+    "https://www.infocielo.com/politica-y-economia/milei-con-mas-del-56-de-desaprobacion-y-un-rechazo-electoral-que-roza-el-60",
+    "https://www.eldestapeweb.com/politica/encuesta-secreta-enfurecio-gobierno-milei-no-gana-balotaje-20261023050"
+   ],
+   "notas": "Respuesta múltiple en problemas. Discrepancia: El Destape da ingresos 54,3 / incertidumbre 48,4 / desempleo 39,6; se usan las cifras de Grupo La Provincia y APF Digital, que coinciden. Imagen de Kicillof, Bregman, Bullrich y Villarruel de APF Digital.",
+   "en_promedio": true
+  },
+  {
+   "id": "atlas-2026-09w",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2026-10-02",
+   "campo_fin": "2026-10-07",
+   "n": 2067,
+   "metodo": "online (reclutamiento digital aleatorio)",
+   "margen_error_pp": 2,
+   "aprobacion": 38.5,
+   "desaprobacion": 57.2,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-09",
+   "imagen_dirigentes": {
+    "Cristina Fernández de Kirchner": {
+     "positiva": 39,
+     "negativa": 56
+    },
+    "Myriam Bregman": {
+     "positiva": 38,
+     "negativa": 50
+    },
+    "Javier Milei": {
+     "positiva": 38,
+     "negativa": 59
+    },
+    "Axel Kicillof": {
+     "positiva": 38,
+     "negativa": 59
+    },
+    "Patricia Bullrich": {
+     "positiva": 37,
+     "negativa": 58
+    }
+   },
+   "problemas": {
+    "Corrupción": 50.3,
+    "Desempleo": 44,
+    "Impunidad y sistema judicial": 34.6,
+    "Situación económica": 32.2,
+    "Precios altos e inflación": 27.8,
+    "Debilitamiento de la democracia e instituciones": 20.2,
+    "Educación": 20.2
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.bloomberglinea.com/latinoamerica/argentina/miden-leve-repunte-en-la-aprobacion-e-imagen-de-milei-segun-una-encuesta-clave/",
+   "fuente_fecha": "2026-10-14",
+   "fuentes_cruce": [
+    "https://eleconomista.com.ar/politica/nueva-encuesta-atlasintel-7-cada-10-argentinos-creen-economia-esta-mal-pero-hay-dato-todavia-peor-n98885",
+    "https://atlasintel.org/poll/latam-pulse-argentina-september-2026-2026-10-14"
+   ],
+   "notas": "Rotulada 'septiembre 2026'; campo en octubre. Milei: El Economista da 35/59 en el texto y 38 en la lista; Bloomberg Línea 38/59. Problemas de El Economista; Martín Menem 30 y Macri 23 de imagen positiva según El Economista.",
+   "en_promedio": true
+  },
+  {
+   "id": "dalessio-2026-10",
+   "encuestadora": "D'Alessio IROL – Berensztein",
+   "campo_inicio": "2026-10-06",
+   "campo_fin": "2026-10-07",
+   "n": 800,
+   "metodo": "online",
+   "margen_error_pp": null,
+   "aprobacion": 39,
+   "desaprobacion": 60,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-09",
+   "imagen_dirigentes": {
+    "Guillermo Francos": {
+     "positiva": 46,
+     "negativa": 45
+    },
+    "Patricia Bullrich": {
+     "positiva": 45,
+     "negativa": 51
+    },
+    "Myriam Bregman": {
+     "positiva": 39,
+     "negativa": 57
+    },
+    "Jorge Macri": {
+     "positiva": 38,
+     "negativa": 54
+    },
+    "Diego Santilli": {
+     "positiva": 37,
+     "negativa": 59
+    },
+    "Mauricio Macri": {
+     "positiva": 37,
+     "negativa": 57
+    },
+    "Axel Kicillof": {
+     "positiva": 37,
+     "negativa": 59
+    },
+    "Javier Milei": {
+     "positiva": 35,
+     "negativa": 62
+    },
+    "Victoria Villarruel": {
+     "positiva": 30,
+     "negativa": 60
+    },
+    "Cristina Fernández de Kirchner": {
+     "positiva": 30,
+     "negativa": 64
+    }
+   },
+   "problemas": {
+    "Costo de los servicios públicos": 65,
+    "Incertidumbre económica": 59,
+    "Costos en salud": 57,
+    "Ingresos que no alcanzan": 57,
+    "Inseguridad": 55,
+    "Precio de los alimentos": 52,
+    "Falta de propuestas para el crecimiento": 51,
+    "Caída de industria y empleo por apertura": 50,
+    "Inflación": 48,
+    "Corrupción en el gobierno de Milei": 47
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.dalessio.com.ar/xpublico/Posiciones-mantenidas-Humor-Social-y-Politico-Nacional-septiembre-2026-DAlessio-Irol-Berensztein.pdf",
+   "fuente_fecha": "2026-10-19",
+   "fuentes_cruce": [],
+   "notas": "Informe rotulado 'septiembre 2026' con campo 6-7 oct: cuenta para octubre. Kicillof/Villarruel/CFK: los balances del gráfico no coinciden con los encabezados; se usan los encabezados.",
+   "en_promedio": true
+  },
+  {
+   "id": "espop-2026-10",
+   "encuestadora": "Universidad de San Andrés (ESPOP-LOOP)",
+   "campo_inicio": "2026-10-05",
+   "campo_fin": "2026-10-13",
+   "n": 1000,
+   "metodo": "muestra estratificada por región, edad y NSE, ponderada por voto oct-2025",
+   "margen_error_pp": 3.15,
+   "aprobacion": 36,
+   "desaprobacion": 60,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Patricia Bullrich": {
+     "positiva": 36,
+     "negativa": 54
+    }
+   },
+   "problemas": {
+    "Falta de trabajo": 39,
+    "Bajos salarios": 35,
+    "Pobreza": 31,
+    "Corrupción": 30,
+    "Inseguridad": 24,
+    "Los políticos": 22,
+    "Inflación": 19
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.conclusion.com.ar/?p=1464275",
+   "fuente_fecha": "2026-10-19",
+   "fuentes_cruce": [
+    "https://www.infobae.com/politica/2026/10/19/aciertos-y-deudas-del-gobierno-de-milei-la-desaprobacion-llega-al-60-mientras-crece-la-incertidumbre-electoral-segun-una-encuesta/"
+   ],
+   "notas": "Ficha, problemas, satisfacción con los poderes e imagen de Bullrich tomados de Infobae (19/10/2026); aprobación 36/60 coincide con Conclusión. El resto de los dirigentes solo aparece en ranking, sin %.",
+   "en_promedio": true,
+   "satisfaccion_poderes": {
+    "Poder Ejecutivo": 25,
+    "Senado": 18,
+    "Poder Judicial": 16,
+    "Cámara de Diputados": 16
+   }
+  }
+ ],
+ "indice_confianza_gobierno_utdt": {
+  "descripcion": "Índice de Confianza en el Gobierno (UTDT, escala 0-5), campo Poliarquía, ~1.000 casos telefónicos en ~39 localidades. No es aprobación.",
+  "serie": [
+   {
+    "mes": "2025-11",
+    "valor": 2.47,
+    "campo": "2025-11-03/2025-11-14",
+    "fuente": "https://www.iprofesional.com/politica/444957-que-revela-la-encuesta-clave-para-milei-sobre-la-confianza-en-el-gobierno-en-diciembre"
+   },
+   {
+    "mes": "2025-12",
+    "valor": 2.46,
+    "campo": "2025-12-01/2025-12-15",
+    "fuente": "https://www.iprofesional.com/politica/444957-que-revela-la-encuesta-clave-para-milei-sobre-la-confianza-en-el-gobierno-en-diciembre"
+   },
+   {
+    "mes": "2026-01",
+    "valor": 2.4,
+    "campo": "2026-01-05/2026-01-15",
+    "fuente": "https://www.lmneuquen.com/pais/la-confianza-el-gobierno-cayo-enero-pero-se-mantuvo-encima-del-promedio-2025-n1226072"
+   },
+   {
+    "mes": "2026-02",
+    "valor": 2.38,
+    "campo": null,
+    "fuente": "https://mercado.com.ar/economia-y-politica/el-indice-de-confianza-en-el-gobierno-bajo-a-238-puntos-en-febrero-de-2026"
+   },
+   {
+    "mes": "2026-03",
+    "valor": 2.3,
+    "campo": null,
+    "fuente": "https://www.memo.com.ar/poder/indice-confianza-gobierno-marzo-2026/"
+   },
+   {
+    "mes": "2026-04",
+    "valor": 2.02,
+    "campo": null,
+    "fuente": "https://mercado.com.ar/economia-y-politica/el-indice-de-confianza-en-el-gobierno-bajo-a-202-puntos-en-abril"
+   },
+   {
+    "mes": "2026-05",
+    "valor": 1.99,
+    "campo": null,
+    "fuente": "https://mercado.com.ar/economia-y-politica/el-indice-de-confianza-en-el-gobierno-bajo-a-199-puntos-en-mayo-de-2026"
+   },
+   {
+    "mes": "2026-06",
+    "valor": 2.07,
+    "campo": null,
+    "fuente": "https://mercado.com.ar/tendencias/cae-una-vez-mas-el-indice-de-confianza-en-el-gobierno-durante-julio-de-2026"
+   },
+   {
+    "mes": "2026-07",
+    "valor": 1.94,
+    "campo": "2026-07-01/2026-07-16",
+    "fuente": "https://www.lahoradesalta.com.ar/wp-content/uploads/2026/07/ICG_DiTella_Julio2026.pdf"
+   },
+   {
+    "mes": "2026-08",
+    "valor": 2.06,
+    "campo": "2026-08-04/2026-08-13",
+    "fuente": "https://www.forbesargentina.com/today/la-confianza-gobierno-subio-64-agosto-pero-sigue-debajo-cierre-2025-n96257"
+   },
+   {
+    "mes": "2026-09",
+    "valor": 1.94,
+    "campo": null,
+    "fuente": "https://www.lapoliticaonline.com/politica/vuelve-a-caer-la-confianza-en-el-gobierno-y-registra-la-peor-medicion-de-la-era-milei/"
+   },
+   {
+    "mes": "2026-10",
+    "valor": null,
+    "campo": null,
+    "fuente": null,
+    "nota": "No publicado / no encontrado al 2026-10-25"
+   }
+  ]
+ },
+ "confianza_instituciones": [
+  {
+   "encuestadora": "QSocial",
+   "campo_inicio": "2026-05-07",
+   "campo_fin": "2026-05-28",
+   "n": 1829,
+   "metodo": "no informado (la nota menciona 'big data predictiva, IA e investigación social')",
+   "confianza": {
+    "Universidades": 59,
+    "Fuerzas Armadas": 37,
+    "Iglesia": 27,
+    "Partidos políticos": 12,
+    "Sindicatos": 11,
+    "Congreso Nacional": 10,
+    "Justicia": null,
+    "Medios de comunicación": null
+   },
+   "fuente_url": "https://www.ambito.com/politica/crisis-la-confianza-institucional-las-universidades-lideran-y-el-congreso-quedo-ultimo-n6286975",
+   "fuente_fecha": "2026-06-09",
+   "fuentes_cruce": [
+    "https://www.lacapitalmdp.com/las-universidades-lideran-la-confianza-de-los-argentinos-y-el-congreso-aparece-entre-las-instituciones-con-peor-imagen/",
+    "https://www.ellitoral.com/educacion/universidades-congreso-sindicatos-desconfianza-encuesta-nacional_0_GQI0oKuWzk.amp.html"
+   ],
+   "notas": "Única medición nacional de confianza por institución encontrada en el período. QSocial no está en la lista objetivo y la ficha es incompleta (sin modo ni margen). Justicia y Medios: no informados."
+  }
+ ]
+}

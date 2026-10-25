@@ -1,0 +1,129 @@
+{
+ "meta": {
+  "titulo": "Falta de transparencia: acceso a la información, secreto, datos públicos y prensa",
+  "actualizado": "2026-10-25",
+  "tipos": ["Acceso a la información", "Secreto", "Datos públicos", "Prensa", "Gastos reservados", "Informes de gestión"]
+ },
+ "kpis": [
+  {
+   "id": "pedidos_vencidos",
+   "label": "Pedidos de acceso a la información sin respuesta en plazo",
+   "valor": 7.7,
+   "unidad": "%",
+   "periodo": "10/12/2023 – abril 2025",
+   "detalle": "917 de unas 11.866 solicitudes con plazo vencido. Fue el gobierno que más pedidos recibió (12.508; 781 por mes) y el de mayor proporción vencida: Macri 2,4 % y Fernández 3,1 %.",
+   "fuente": "https://chequeado.com/investigaciones/acceso-a-la-informacion-publica-el-gobierno-de-javier-milei-es-el-que-mas-pedidos-recibio-y-el-que-mas-incumplio/",
+   "nota": "No se publicó la tasa de denegaciones. En los primeros 9 meses la respuesta fue del 79,02 % con 10,01 % vencidos (Chequeado, sep. 2024, con datos de la AAIP en datos.gob.ar). El dataset de la AAIP (descarga.aaip.gob.ar/dataset/sip.csv) no se pudo descargar desde aquí para actualizarlo."
+  },
+  {
+   "id": "decretos_reservados",
+   "label": "Decretos y resoluciones reservados o secretos",
+   "valor": null,
+   "nota": "No se encontró un conteo publicado. Se registran los aumentos de gastos reservados de la SIDE (ver hechos)."
+  },
+  {
+   "id": "informes_jgm_no_presentados",
+   "label": "Informes del jefe de Gabinete al Congreso no presentados",
+   "valor": 19,
+   "nota": "Cálculo propio: 26 meses de sesiones ordinarias (mar. 2024 – oct. 2026) menos 7 informes presentados (Posse 1, Francos 5, Adorni 1, Santilli 0). Ver incumplimientos.json.",
+   "fuentes": [
+    "https://chequeado.com/el-explicador/manuel-adorni-ira-por-primera-vez-al-congreso-los-jefes-de-gabinete-que-mas-cumplieron-con-esta-obligacion-constitucional/",
+    "https://www.lanacion.com.ar/politica/crece-el-malestar-en-el-senado-por-la-demora-de-santilli-en-concurrir-a-brindar-su-informe-nid20102026/"
+   ]
+  },
+  {
+   "id": "estadisticas_discontinuadas",
+   "label": "Estadísticas o bases públicas discontinuadas",
+   "valor": null,
+   "nota": "No se encontró un relevamiento con fuente verificable. El único caso registrado es la postergación del nuevo IPC del INDEC (feb. 2026), que no es una discontinuación."
+  }
+ ],
+ "hechos": [
+  {
+   "fecha": "2024-07",
+   "hecho": "El DNU 656/2024 asignó $100.000 millones a la SIDE, todos para gastos reservados. Diputados lo rechazó en agosto de 2024 y el Senado en septiembre: fue el primer DNU rechazado por el Congreso desde 1994.",
+   "tipo": "Gastos reservados",
+   "que_establece_la_norma": "Los gastos reservados no se rinden públicamente; los controla la Comisión Bicameral de Fiscalización de Inteligencia.",
+   "fuentes": [
+    "https://chequeado.com/el-explicador/el-gobierno-aumento-en-casi-50-mil-millones-el-presupuesto-de-la-side-mas-de-7-mil-millones-son-gastos-reservados/",
+    "https://www.elancasti.com.ar/politica-y-economia/el-gobierno-asigno-100-mil-millones-fondos-que-no-deberan-rendir-cuentas-n559352"
+   ],
+   "fuente_local": "datos/congreso/ejecutivo.json"
+  },
+  {
+   "fecha": "2024-09-02",
+   "hecho": "El Decreto 780/2024 reglamentó 7 artículos de la Ley 27.275 de Acceso a la Información Pública. Excluye de la definición la información de personas privadas sin interés público comprometido y los documentos preparatorios o de trabajo, y amplía los motivos de denegación (rutinas o paradero de personas, investigaciones en curso).",
+   "tipo": "Acceso a la información",
+   "que_establece_la_norma": "La Ley 27.275 presume pública toda la información en poder del Estado, con excepciones taxativas. Poder Ciudadano, FOPEA y el CELE sostienen que un decreto reglamentario no puede restringir lo que la ley no restringe.",
+   "posicion_gobierno": "La información pública es la vinculada a la actividad estatal y a su control, no a la esfera privada de funcionarios o jueces.",
+   "fuentes": [
+    "https://chequeado.com/el-explicador/nuevos-limites-al-acceso-a-la-informacion-publica-que-dice-el-decreto-de-javier-milei-y-por-que-los-especialistas-lo-critican/",
+    "https://www.lanacion.com.ar/politica/acceso-a-la-informacion-publica-los-riesgos-de-un-decreto-intimidante-y-silenciador-nid13092024/",
+    "https://www.a24.com/politica/crecen-los-rechazos-al-decreto-milei-que-limita-el-acceso-la-informacion-publica-n1349462"
+   ]
+  },
+  {
+   "fecha": "2025-05-11",
+   "hecho": "Chequeado publicó que el gobierno de Milei es el que más pedidos de acceso recibió y el que más incumplió los plazos (7,7 % vencidos).",
+   "tipo": "Acceso a la información",
+   "que_establece_la_norma": "Plazo de respuesta de 15 días hábiles, prorrogable por otros 15 (Ley 27.275, art. 11).",
+   "fuentes": [
+    "https://chequeado.com/investigaciones/acceso-a-la-informacion-publica-el-gobierno-de-javier-milei-es-el-que-mas-pedidos-recibio-y-el-que-mas-incumplio/",
+    "https://chequeado.com/el-explicador/acceso-a-la-informacion-publica-como-evolucionaron-los-pedidos-en-los-gobiernos-de-mauricio-macri-alberto-fernandez-y-javier-milei/"
+   ],
+   "nota": "El plazo legal es un dato de contexto; las notas no lo citan."
+  },
+  {
+   "fecha": "2026-02-02",
+   "hecho": "Renunció el director del INDEC, Marco Lavagna, y el gobierno postergó sin fecha la nueva metodología del IPC.",
+   "tipo": "Datos públicos",
+   "que_establece_la_norma": "El INDEC es el organismo rector del sistema estadístico nacional (Ley 17.622).",
+   "posicion_gobierno": "Caputo: el cambio debía esperar a que se consolide la desinflación, para evitar sospechas de manipulación.",
+   "fuentes": [
+    "https://www.batimes.com.ar/news/economy/argentina-shelves-inflation-revamp-after-statistics-chief-quits.phtml",
+    "https://batimes.com.ar/news/economy/government-denies-interference-after-indec-chiefs-departure.phtml"
+   ]
+  },
+  {
+   "fecha": "2026-04-23",
+   "hecho": "El gobierno cerró sin aviso la sala de periodistas de Casa Rosada y dio de baja las huellas de unos 60 acreditados, después de que Casa Militar denunciara por 'espionaje ilegal' a dos periodistas de TN. FOPEA lo denunció ante la CIDH (28/04), Ámbito presentó un amparo y la sala reabrió el 04/05/2026 con controles más estrictos.",
+   "tipo": "Prensa",
+   "que_establece_la_norma": "Libertad de prensa y acceso a la información (arts. 14 y 32 CN; art. 13 de la Convención Americana).",
+   "posicion_gobierno": "Medida 'preventiva' para garantizar la 'seguridad nacional' (secretario de Comunicación, Javier Lanari).",
+   "fuentes": [
+    "https://www.ambito.com/politica/ante-la-inminencia-un-fallo-adverso-ahora-el-gobierno-reabre-la-sala-periodistas-la-rosada-n6272841/amp",
+    "https://www.lacapitalmdp.com/fopea-denuncio-ante-la-cidh-la-restriccion-al-acceso-de-periodistas-a-la-casa-rosada/",
+    "https://batimes.com.ar/news/argentina/milei-administration-extends-ban-on-media-entering-casa-rosada.phtml"
+   ],
+   "nota": "Fecha inferida: el cierre fue el jueves anterior a la nota de Ámbito del 30/04/2026."
+  },
+  {
+   "fecha": "2026-07-16",
+   "hecho": "El DNU 594/2026 aumentó el presupuesto 2026 de la SIDE en $49.261 millones (+50,7 %), de los cuales $7.466 millones son gastos reservados (cerca del 11 % del presupuesto vigente).",
+   "tipo": "Gastos reservados",
+   "que_establece_la_norma": "Modificación presupuestaria por DNU; los gastos reservados no se publican por razones de seguridad nacional.",
+   "fuentes": [
+    "https://chequeado.com/el-explicador/el-gobierno-aumento-en-casi-50-mil-millones-el-presupuesto-de-la-side-mas-de-7-mil-millones-son-gastos-reservados/",
+    "https://www.anbariloche.com.ar/amp/noticias/2026/07/16/111352-dnu-el-gobierno-amplio-partidas-para-la-side-y-gastos-reservados-en-inteligencia"
+   ],
+   "nota": "Chequeado dice que el decreto salió 'el último jueves' antes del 17/07/2026; la fecha exacta de publicación está por confirmar."
+  },
+  {
+   "fecha": "2026-10-20",
+   "hecho": "Ningún jefe de Gabinete se presentó en el Senado desde el 26/06/2025. Santilli, en funciones desde el 30/06/2026, no presentó su informe ante ninguna cámara.",
+   "tipo": "Informes de gestión",
+   "que_establece_la_norma": "Art. 101 CN: el jefe de Gabinete debe concurrir al Congreso al menos una vez por mes, alternando las cámaras.",
+   "posicion_gobierno": "Su entorno invoca su 'reciente desembarco' en el cargo.",
+   "fuentes": [
+    "https://www.lanacion.com.ar/politica/crece-el-malestar-en-el-senado-por-la-demora-de-santilli-en-concurrir-a-brindar-su-informe-nid20102026/",
+    "https://www.noticiasdelacalle.com.ar/noticias/2026/09/17/195202-el-pj-exige-que-santilli-vaya-al-senado-hace-15-meses-que-no-viene-un-jefe-de-gabinete"
+   ]
+  }
+ ],
+ "faltantes": [
+  "Tasa de pedidos de acceso denegados y serie posterior a abril de 2025: el dataset de la AAIP en descarga.aaip.gob.ar fue rechazado por el proxy.",
+  "Conteo de decretos o resoluciones secretos o reservados del período.",
+  "Relevamiento de estadísticas o bases discontinuadas (ACIJ, Poder Ciudadano o similares): no se encontró.",
+  "Situación de la conducción de la AAIP."
+ ]
+}

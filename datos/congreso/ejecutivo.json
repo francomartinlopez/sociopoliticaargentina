@@ -1,0 +1,2656 @@
+{
+ "meta": {
+  "titulo": "Ejecutivo frente al Congreso: DNU, vetos e insistencias",
+  "actualizado": "2026-10-25",
+  "granularidad": {
+   "dnu_firmados": "MENSUAL desde dic. 2023 hasta sep. 2026, por fecha de firma (fecha_sancion de Infoleg). Fuente: Base Infoleg de Normativa Nacional (datos.jus.gob.ar, act. 05/10/2026, último BO cargado 30/09/2026), decretos con clase_norma = DNU, validados con el texto completo de cada norma en argentina.gob.ar/normativa. Oct. 2026 queda null (fuera del corte). Lista completa en dnu_lista.",
+   "dnu_validados_rechazados": "Por evento, con fecha. Son los casos documentados en prensa y en el informe del ODCL; no es un conteo exhaustivo verificado contra los registros de la Bicameral. Los meses en 0 quieren decir «no se encontró ninguna votación», no «está confirmado que no hubo».",
+   "vetos": "Por evento, con fecha. La lista está completa hasta dic. 2025 según Chequeado (al 12/09/2025) y el ODCL (todas las leyes de 2025). Para 2026 va null porque no se encontró ningún veto y tampoco hay una fuente que confirme cero.",
+   "insistencias": "Por evento. 'insistencias_completadas' cuenta las leyes que lograron los 2/3 en ambas cámaras y se cuentan en el mes de la segunda votación."
+  },
+  "nota_index": "index.html dice que el 656/2024 fue el «único DNU rechazado por ambas cámaras». Ya no es así: el DNU 340/2025 también fue rechazado por las dos (06/08 y 21/08/2025).",
+  "dnu_firmados_fuente": {
+   "fuente": "Ministerio de Justicia, Base Infoleg de Normativa Nacional (datos abiertos)",
+   "dataset": "https://datos.jus.gob.ar/dataset/base-infoleg-de-normativa-nacional (id d9a963ea-8b1d-4ca3-9dd9-07a4773e8c23)",
+   "recurso": "https://datos.jus.gob.ar/dataset/d9a963ea-8b1d-4ca3-9dd9-07a4773e8c23/resource/bf0ec116-ad4e-4572-a476-e57167a84403/download/base-infoleg-normativa-nacional.zip",
+   "actualizacion_recurso": "2026-10-05 (CSV generado 2026-10-01)",
+   "corte_datos": "Última fecha_boletin cargada: 2026-09-30; última fecha_sancion: 2026-09-29.",
+   "criterio": "tipo_norma = Decreto y clase_norma = DNU, firmados desde el 10/12/2023. Se cuenta por mes de firma (fecha_sancion); la serie por mes de publicación en el Boletín Oficial está en dnu_publicados_mensual.",
+   "validacion": "Se leyó el texto completo de los 116 DNU de Infoleg y de los 3.229 decretos no marcados firmados entre el 10/12/2023 y el 30/09/2026 en argentina.gob.ar/normativa/nacional/norma-<id>/texto. Correcciones: se excluye el 44/2026 (decreto simple mal clasificado) y se agregan 493/2025, 521/2025 y 867/2026 (DNU sin marcar). El 302/2024 es DNU aunque el texto escribe «MNISTROS». El 254/2024 (promulgación parcial de la Ley 27.739, art. 80 CN) lleva acuerdo general de ministros pero no es DNU y no se cuenta. Casos conocidos: 70/2023 (20/12/2023), 656/2024 (19/07/2024), 179/2025 (10/03/2025), 340/2025 (20/05/2025) y 681/2026 (29/07/2026) son DNU; el 681/2025 es la promulgación de la Ley 27.793, no un DNU.",
+   "totales_por_anio_firma": {
+    "2023": 7,
+    "2024": 47,
+    "2025": 35,
+    "2026": 29
+   },
+   "totales_por_anio_publicacion": {
+    "2023": 7,
+    "2024": 47,
+    "2025": 33,
+    "2026": 31
+   },
+   "cruce_odcl": "Coincide con el ODCL (U. Austral) en 2023 (7), 2024 (47) y 2025 (35), y con su detalle mensual de dic. 2025 (2), ene. 2026 (8) y feb. 2026 hasta el 6/2 (1). Sin las correcciones, Infoleg solo daba 33 en 2025 (le faltaban el 493 y el 521) y 9 en enero de 2026 (incluía el 44). Por fecha de publicación, 2025 da 33, porque el 941 y el 942/2025 (firmados el 31/12/2025) salieron en el BO del 02/01/2026.",
+   "nota_2026": "2026 (ene–sep, por firma): 29 DNU. Es el primer conteo de 2026 en este archivo; no hay un total publicado para cruzarlo. El DNU 1157/2026 citado en FUENTES.md es posterior al corte.",
+   "cruce_acumulados": [
+    "2024-09-10: publicado 39 (ODCL – Universidad Austral (sep. 2024)) · lista Infoleg 39",
+    "2024-09-23: publicado 42 (ODCL – Universidad Austral (sep. 2024)) · lista Infoleg 42",
+    "2024-11-12: publicado 46 (Chequeado (tag DNU, nota del 12/11/2024)) · lista Infoleg 48",
+    "2025-07-08: publicado 76 (ODCL – Universidad Austral (oct. 2025)) · lista Infoleg 76",
+    "2025-09-30: publicado 82 (Chequeado – ranking DNU (act. 30/09/2025)) · lista Infoleg 83",
+    "Coinciden los tres cortes del ODCL (39, 42 y 76). Chequeado (base SAIJ) da 46 al 12/11/2024 y 82 al 30/09/2025; la lista suma 2 y 1 más en esas fechas. No se pudo identificar qué normas faltan en el conteo de Chequeado. El total 2024 del ODCL (47) coincide con la lista."
+   ]
+  }
+ },
+ "serie_mensual": [
+  {
+   "mes": "2023-12",
+   "dnu_firmados": 7,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "28/2023 (13/11)",
+    "8/2023 (10/12)",
+    "21/2023 (12/12)",
+    "22/2023 (12/12)",
+    "55/2023 (16/12)",
+    "56/2023 (16/12)",
+    "70/2023 (20/12)"
+   ],
+   "dnu_firmados_nota": "Desde el 10/12/2023 (asunción de Milei). El 28/2023 figura en Infoleg con fecha de sanción 13/11/2023, error evidente: se cuenta por su publicación (13/12/2023)."
+  },
+  {
+   "mes": "2024-01",
+   "dnu_firmados": 2,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "23/2024 (04/01)",
+    "50/2024 (12/01)"
+   ]
+  },
+  {
+   "mes": "2024-02",
+   "dnu_firmados": 5,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "110/2024 (01/02)",
+    "188/2024 (23/02)",
+    "194/2024 (23/02)",
+    "195/2024 (23/02)",
+    "196/2024 (26/02)"
+   ]
+  },
+  {
+   "mes": "2024-03",
+   "dnu_firmados": 4,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 1,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [
+    "Senado 2024-03-14: DNU 70/2023 – rechazo"
+   ],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "231/2024 (06/03)",
+    "274/2024 (22/03)",
+    "277/2024 (23/03)",
+    "280/2024 (26/03)"
+   ]
+  },
+  {
+   "mes": "2024-04",
+   "dnu_firmados": 4,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "301/2024 (08/04)",
+    "302/2024 (09/04)",
+    "337/2024 (18/04)",
+    "350/2024 (23/04)"
+   ]
+  },
+  {
+   "mes": "2024-05",
+   "dnu_firmados": 2,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "450/2024 (22/05)",
+    "459/2024 (24/05)"
+   ]
+  },
+  {
+   "mes": "2024-06",
+   "dnu_firmados": 5,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "484/2024 (03/06)",
+    "511/2024 (07/06)",
+    "525/2024 (12/06)",
+    "547/2024 (26/06)",
+    "553/2024 (28/06)"
+   ]
+  },
+  {
+   "mes": "2024-07",
+   "dnu_firmados": 6,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "585/2024 (04/07)",
+    "594/2024 (05/07)",
+    "600/2024 (08/07)",
+    "602/2024 (10/07)",
+    "614/2024 (15/07)",
+    "656/2024 (19/07)"
+   ]
+  },
+  {
+   "mes": "2024-08",
+   "dnu_firmados": 4,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 1,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [
+    "Diputados 2024-08-21: DNU 656/2024 – rechazo"
+   ],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "699/2024 (05/08)",
+    "731/2024 (13/08)",
+    "774/2024 (29/08)",
+    "775/2024 (29/08)"
+   ]
+  },
+  {
+   "mes": "2024-09",
+   "dnu_firmados": 3,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 1,
+   "dnu_rechazados_ambas": 1,
+   "dnu_eventos": [
+    "Senado 2024-09-13: DNU 656/2024 – rechazo (segundo rechazo: derogado)"
+   ],
+   "vetos_total": 1,
+   "vetos_parcial": 0,
+   "vetos_detalle": [
+    "782/2024 (Ley 27.756, Movilidad jubilatoria)"
+   ],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [
+    "Diputados 2024-09-11: Movilidad (27.756) [153, 87, 8] sin 2/3"
+   ],
+   "dnu_firmados_detalle": [
+    "834/2024 (17/09)",
+    "845/2024 (20/09)",
+    "846/2024 (20/09)"
+   ]
+  },
+  {
+   "mes": "2024-10",
+   "dnu_firmados": 4,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 1,
+   "vetos_parcial": 0,
+   "vetos_detalle": [
+    "879/2024 (Ley 27.757, Financiamiento universitario 2024)"
+   ],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [
+    "Diputados 2024-10-09: Financiamiento universitario (27.757) [160, 84, 5] sin 2/3"
+   ],
+   "dnu_firmados_detalle": [
+    "897/2024 (10/10)",
+    "941/2024 (21/10)",
+    "942/2024 (21/10)",
+    "978/2024 (31/10)"
+   ]
+  },
+  {
+   "mes": "2024-11",
+   "dnu_firmados": 3,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "989/2024 (05/11)",
+    "1017/2024 (12/11)",
+    "1023/2024 (19/11)"
+   ]
+  },
+  {
+   "mes": "2024-12",
+   "dnu_firmados": 5,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "1083/2024 (09/12)",
+    "1091/2024 (12/12)",
+    "1104/2024 (17/12)",
+    "1120/2024 (24/12)",
+    "1136/2024 (27/12)"
+   ]
+  },
+  {
+   "mes": "2025-01",
+   "dnu_firmados": 3,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "3/2025 (03/01)",
+    "4/2025 (03/01)",
+    "17/2025 (08/01)"
+   ]
+  },
+  {
+   "mes": "2025-02",
+   "dnu_firmados": 4,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "58/2025 (03/02)",
+    "62/2025 (06/02)",
+    "64/2025 (06/02)",
+    "103/2025 (14/02)"
+   ]
+  },
+  {
+   "mes": "2025-03",
+   "dnu_firmados": 3,
+   "dnu_validados_dip": 1,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [
+    "Diputados 2025-03-19: DNU 179/2025 – validación"
+   ],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "179/2025 (10/03)",
+    "186/2025 (12/03)",
+    "223/2025 (20/03)"
+   ]
+  },
+  {
+   "mes": "2025-04",
+   "dnu_firmados": 3,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "269/2025 (11/04)",
+    "271/2025 (15/04)",
+    "292/2025 (28/04)"
+   ]
+  },
+  {
+   "mes": "2025-05",
+   "dnu_firmados": 5,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "317/2025 (09/05)",
+    "338/2025 (19/05)",
+    "340/2025 (20/05)",
+    "366/2025 (28/05)",
+    "370/2025 (30/05)"
+   ]
+  },
+  {
+   "mes": "2025-06",
+   "dnu_firmados": 3,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 1,
+   "vetos_parcial": 0,
+   "vetos_detalle": [
+    "424/2025 (Ley 27.790, Emergencia en Bahía Blanca)"
+   ],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "379/2025 (03/06)",
+    "425/2025 (23/06)",
+    "430/2025 (25/06)"
+   ]
+  },
+  {
+   "mes": "2025-07",
+   "dnu_firmados": 3,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [
+    "Senado 2025-07-10: Bahía Blanca (27.790) [51, None, None] 2/3 logrado"
+   ],
+   "dnu_firmados_detalle": [
+    "453/2025 (04/07)",
+    "493/2025 (21/07)",
+    "521/2025 (30/07)"
+   ]
+  },
+  {
+   "mes": "2025-08",
+   "dnu_firmados": 1,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 1,
+   "dnu_rechazados_sen": 1,
+   "dnu_rechazados_ambas": 1,
+   "dnu_eventos": [
+    "Diputados 2025-08-06: DNU 340/2025 – rechazo",
+    "Senado 2025-08-21: DNU 340/2025 – rechazo (segundo rechazo: derogado)"
+   ],
+   "vetos_total": 3,
+   "vetos_parcial": 0,
+   "vetos_detalle": [
+    "534/2025 (Ley 27.791, Aumento jubilatorio 7,2% y bono)",
+    "534/2025 (Ley 27.792, Moratoria previsional)",
+    "534/2025 (Ley 27.793, Emergencia en discapacidad)"
+   ],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [
+    "Diputados 2025-08-20: Aumento jubilatorio (27.791) [160, 83, 6] sin 2/3",
+    "Diputados 2025-08-20: Discapacidad (27.793) [172, 73, 2] 2/3 logrado"
+   ],
+   "dnu_firmados_detalle": [
+    "575/2025 (12/08)"
+   ]
+  },
+  {
+   "mes": "2025-09",
+   "dnu_firmados": 4,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 3,
+   "vetos_parcial": 0,
+   "vetos_detalle": [
+    "647/2025 (Ley 27.795, Financiamiento universitario 2025)",
+    "651/2025 (Ley 27.796, Emergencia pediátrica (Garrahan))",
+    "652/2025 (Ley 27.794, Distribución automática de ATN)"
+   ],
+   "insistencias_completadas": 1,
+   "votos_insistencia_por_camara": [
+    "Senado 2025-09-04: Discapacidad (27.793) [63, 7, 0] 2/3 logrado",
+    "Diputados 2025-09-17: Financiamiento universitario (27.795) [174, 67, 2] 2/3 logrado",
+    "Diputados 2025-09-17: Emergencia pediátrica (27.796) [181, 60, 1] 2/3 logrado",
+    "Senado 2025-09-18: ATN (27.794) [59, 9, 3] 2/3 logrado"
+   ],
+   "dnu_firmados_detalle": [
+    "627/2025 (02/09)",
+    "628/2025 (02/09)",
+    "658/2025 (12/09)",
+    "697/2025 (29/09)"
+   ]
+  },
+  {
+   "mes": "2025-10",
+   "dnu_firmados": 0,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 2,
+   "votos_insistencia_por_camara": [
+    "Senado 2025-10-02: Financiamiento universitario (27.795) [58, 7, 4] 2/3 logrado",
+    "Senado 2025-10-02: Emergencia pediátrica (27.796) [59, 7, 3] 2/3 logrado"
+   ],
+   "dnu_firmados_detalle": []
+  },
+  {
+   "mes": "2025-11",
+   "dnu_firmados": 4,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "793/2025 (10/11)",
+    "805/2025 (12/11)",
+    "825/2025 (19/11)",
+    "849/2025 (28/11)"
+   ]
+  },
+  {
+   "mes": "2025-12",
+   "dnu_firmados": 2,
+   "dnu_firmados_detalle": [
+    "941/2025 (31/12)",
+    "942/2025 (31/12)"
+   ],
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": 0,
+   "vetos_parcial": 0,
+   "vetos_detalle": [],
+   "insistencias_completadas": 0,
+   "votos_insistencia_por_camara": []
+  },
+  {
+   "mes": "2026-01",
+   "dnu_firmados": 8,
+   "dnu_firmados_detalle": [
+    "2/2026 (02/01)",
+    "17/2026 (15/01)",
+    "26/2026 (23/01)",
+    "34/2026 (23/01)",
+    "41/2026 (23/01)",
+    "49/2026 (26/01)",
+    "73/2026 (29/01)",
+    "80/2026 (31/01)"
+   ],
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": []
+  },
+  {
+   "mes": "2026-02",
+   "dnu_firmados": 1,
+   "dnu_firmados_detalle": [
+    "88/2026 (05/02)"
+   ],
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": []
+  },
+  {
+   "mes": "2026-03",
+   "dnu_firmados": 2,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "149/2026 (11/03)",
+    "203/2026 (27/03)"
+   ]
+  },
+  {
+   "mes": "2026-04",
+   "dnu_firmados": 4,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "252/2026 (16/04)",
+    "264/2026 (16/04)",
+    "274/2026 (23/04)",
+    "314/2026 (30/04)"
+   ]
+  },
+  {
+   "mes": "2026-05",
+   "dnu_firmados": 0,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": []
+  },
+  {
+   "mes": "2026-06",
+   "dnu_firmados": 2,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "473/2026 (16/06)",
+    "490/2026 (24/06)"
+   ]
+  },
+  {
+   "mes": "2026-07",
+   "dnu_firmados": 7,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "571/2026 (02/07)",
+    "580/2026 (07/07)",
+    "585/2026 (08/07)",
+    "594/2026 (15/07)",
+    "650/2026 (23/07)",
+    "667/2026 (27/07)",
+    "681/2026 (29/07)"
+   ]
+  },
+  {
+   "mes": "2026-08",
+   "dnu_firmados": 3,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "717/2026 (05/08)",
+    "736/2026 (14/08)",
+    "771/2026 (20/08)"
+   ]
+  },
+  {
+   "mes": "2026-09",
+   "dnu_firmados": 2,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_detalle": [
+    "867/2026 (03/09)",
+    "1103/2026 (25/09)"
+   ]
+  },
+  {
+   "mes": "2026-10",
+   "dnu_firmados": null,
+   "dnu_validados_dip": 0,
+   "dnu_validados_sen": 0,
+   "dnu_rechazados_dip": 0,
+   "dnu_rechazados_sen": 0,
+   "dnu_rechazados_ambas": 0,
+   "dnu_eventos": [],
+   "vetos_total": null,
+   "vetos_parcial": null,
+   "vetos_detalle": [],
+   "insistencias_completadas": null,
+   "votos_insistencia_por_camara": [],
+   "dnu_firmados_nota": "Fuera del corte de la Base Infoleg (último Boletín Oficial cargado: 30/09/2026). Sin dato."
+  }
+ ],
+ "dnu_firmados_anual": [
+  {
+   "periodo": "2023 (10–31 dic)",
+   "dnu": 7,
+   "fuente": {
+    "medio": "ODCL – Universidad Austral (oct. 2025)",
+    "url": "https://www.austral.edu.ar/wp-content/uploads/2025/10/08_10_25_Informe-Impacto-de-la-Ley-Bases-en-la-delegacion-legislativa-a-la-luz-de-la-praxis-en-la-Argentina.-Actualizacion-y-comparacion-de-DNU-y-decretos-delegados_octubre-2025.pdf"
+   }
+  },
+  {
+   "periodo": "2024",
+   "dnu": 47,
+   "fuente": {
+    "medio": "ODCL – Universidad Austral (oct. 2025)",
+    "url": "https://www.austral.edu.ar/wp-content/uploads/2025/10/08_10_25_Informe-Impacto-de-la-Ley-Bases-en-la-delegacion-legislativa-a-la-luz-de-la-praxis-en-la-Argentina.-Actualizacion-y-comparacion-de-DNU-y-decretos-delegados_octubre-2025.pdf"
+   },
+   "nota": "El informe escribe «siete (47)»; los totales (7+47+22 = 76) confirman 47."
+  },
+  {
+   "periodo": "2025 (año completo)",
+   "dnu": 35,
+   "fuente": {
+    "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+    "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+   },
+   "nota": "Al 8/7/2025 el ODCL contaba 22 (informe de oct. 2025). En 2025 hubo además 74 decretos delegados."
+  },
+  {
+   "periodo": "2026 (ene–6 feb)",
+   "dnu": 9,
+   "fuente": {
+    "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+    "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+   },
+   "nota": "Conteo parcial. No se encontró un total publicado para 2026."
+  }
+ ],
+ "dnu_firmados_acumulados": [
+  {
+   "corte": "2024-09-10",
+   "dnu": 39,
+   "fuente": {
+    "medio": "ODCL – Universidad Austral (sep. 2024)",
+    "url": "https://www.austral.edu.ar/wp-content/uploads/2024/09/Los-DNU-en-la-practica-institucional-30-anos-actualizacion.pdf"
+   },
+   "nota": "Primeros 9 meses"
+  },
+  {
+   "corte": "2024-09-23",
+   "dnu": 42,
+   "fuente": {
+    "medio": "ODCL – Universidad Austral (sep. 2024)",
+    "url": "https://www.austral.edu.ar/wp-content/uploads/2024/09/Los-DNU-en-la-practica-institucional-30-anos-actualizacion.pdf"
+   }
+  },
+  {
+   "corte": "2024-11-12",
+   "dnu": 46,
+   "fuente": {
+    "medio": "Chequeado (tag DNU, nota del 12/11/2024)",
+    "url": "https://chequeado.com/tag/decretos-de-necesidad-y-urgencia/"
+   }
+  },
+  {
+   "corte": "2025-07-08",
+   "dnu": 76,
+   "fuente": {
+    "medio": "ODCL – Universidad Austral (oct. 2025)",
+    "url": "https://www.austral.edu.ar/wp-content/uploads/2025/10/08_10_25_Informe-Impacto-de-la-Ley-Bases-en-la-delegacion-legislativa-a-la-luz-de-la-praxis-en-la-Argentina.-Actualizacion-y-comparacion-de-DNU-y-decretos-delegados_octubre-2025.pdf"
+   },
+   "nota": "4,22 DNU por mes en promedio. La Nación (08/10/2025) también dice 76."
+  },
+  {
+   "corte": "2025-09-30 (aprox.)",
+   "dnu": 82,
+   "fuente": {
+    "medio": "Chequeado – ranking DNU (act. 30/09/2025)",
+    "url": "https://chequeado.com/el-explicador/el-dnu-de-javier-milei-cuales-son-los-presidentes-que-mas-usaron-esta-herramienta-entre-1989-y-2023/"
+   },
+   "nota": "Chequeado: 82 DNU en 660 días (base SAIJ)."
+  }
+ ],
+ "dnu_votaciones_congreso": [
+  {
+   "fecha": "2024-03-14",
+   "camara": "Senado",
+   "dnu": "70/2023",
+   "resultado": "rechazo",
+   "v_validez": [
+    25,
+    42,
+    4
+   ]
+  },
+  {
+   "fecha": "2024-08-21",
+   "camara": "Diputados",
+   "dnu": "656/2024",
+   "resultado": "rechazo",
+   "v_validez": [
+    52,
+    156,
+    6
+   ]
+  },
+  {
+   "fecha": "2024-09-13",
+   "camara": "Senado",
+   "dnu": "656/2024",
+   "resultado": "rechazo (segundo rechazo: derogado)",
+   "v_validez": [
+    11,
+    49,
+    2
+   ]
+  },
+  {
+   "fecha": "2025-03-19",
+   "camara": "Diputados",
+   "dnu": "179/2025",
+   "resultado": "validación",
+   "v_validez": [
+    129,
+    108,
+    6
+   ]
+  },
+  {
+   "fecha": "2025-08-06",
+   "camara": "Diputados",
+   "dnu": "340/2025",
+   "resultado": "rechazo",
+   "v_validez": [
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "fecha": "2025-08-21",
+   "camara": "Senado",
+   "dnu": "340/2025",
+   "resultado": "rechazo (segundo rechazo: derogado)",
+   "v_validez": [
+    null,
+    55,
+    null
+   ]
+  }
+ ],
+ "vetos": [
+  {
+   "fecha": "2024-09-02",
+   "decreto": "782/2024",
+   "ley": "27.756",
+   "tema": "Movilidad jubilatoria",
+   "tipo": "total",
+   "insistencia": "no (Diputados 11/09/2024: 153-87-8, no llegó a 2/3)",
+   "fuentes": [
+    {
+     "medio": "Palabras del Derecho",
+     "url": "https://www.palabrasdelderecho.com.ar/articulo/5368/El-Presidente-veto-la-movilidad-jubilatoria-aprobada-por-el-Congreso"
+    }
+   ]
+  },
+  {
+   "fecha": "2024-10-03",
+   "decreto": "879/2024",
+   "ley": "27.757",
+   "tema": "Financiamiento universitario 2024",
+   "tipo": "total",
+   "insistencia": "no (Diputados 09/10/2024: 160-84-5, no llegó a 2/3)",
+   "fuentes": [
+    {
+     "medio": "Palabras del Derecho",
+     "url": "https://www.palabrasdelderecho.com.ar/articulo/5451/El-Poder-Ejecutivo-veto-la-Ley-de-Financiamiento-Universitario-"
+    }
+   ]
+  },
+  {
+   "fecha": "2025-06-24",
+   "decreto": "424/2025",
+   "ley": "27.790",
+   "tema": "Emergencia en Bahía Blanca",
+   "tipo": "total",
+   "insistencia": "no completada (el Senado insistió el 10/07/2025 con 51 votos; según ODCL, 27.790 no fue insistida)",
+   "fuentes": [
+    {
+     "medio": "LM Neuquén",
+     "url": "https://www.lmneuquen.com/pais/el-gobierno-nacional-veto-la-ayuda-200-millones-pesos-las-inundaciones-bahia-blanca-n1196628"
+    },
+    {
+     "medio": "Noticias NQN (insistencia en el Senado)",
+     "url": "https://www.noticiasnqn.com.ar/noticias/2025/07/10/316778-emergencia-por-discapacidad-el-senado-la-aprobo-por-unanimidad-y-sera-ley-hasta-2027"
+    },
+    {
+     "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+     "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+    }
+   ]
+  },
+  {
+   "fecha": "2025-08-04",
+   "decreto": "534/2025",
+   "ley": "27.791",
+   "tema": "Aumento jubilatorio 7,2% y bono",
+   "tipo": "total",
+   "insistencia": "no (Diputados 20/08/2025: 160-83-6, no llegó a 2/3)",
+   "fuentes": [
+    {
+     "medio": "Chequeado",
+     "url": "https://chequeado.com/el-explicador/javier-milei-veto-las-leyes-de-aumento-a-jubilados-moratoria-y-discapacidad-que-puede-hacer-el-congreso/"
+    },
+    {
+     "medio": "Al Día Argentina",
+     "url": "https://aldiaargentina.microjuris.com/2025/08/06/doctrina-jubilaciones-no-habra-aumentos-extraordinarios-ni-prorroga-de-moratoria-previsional-veto-a-las-leyes-27-791-27-792-y-27-793/"
+    },
+    {
+     "medio": "Chequeado (sesión 20/08)",
+     "url": "https://chequeado.com/el-explicador/sesion-clave-en-diputados-debatiran-los-vetos-de-de-milei-a-las-leyes-de-aumento-a-jubilados-moratoria-previsional-y-emergencia-en-discapacidad/"
+    }
+   ],
+   "discrepancias": "Chequeado: publicado en el BO el lunes 04/08/2025. Al Día Argentina: texto fechado el 05/08 y publicado el 06/08/2025. Chequeado (nota del 20/08) fecha los vetos el 5/8."
+  },
+  {
+   "fecha": "2025-08-04",
+   "decreto": "534/2025",
+   "ley": "27.792",
+   "tema": "Moratoria previsional",
+   "tipo": "total",
+   "insistencia": "no se trató",
+   "fuentes": [
+    {
+     "medio": "Chequeado",
+     "url": "https://chequeado.com/el-explicador/javier-milei-veto-las-leyes-de-aumento-a-jubilados-moratoria-y-discapacidad-que-puede-hacer-el-congreso/"
+    },
+    {
+     "medio": "Al Día Argentina",
+     "url": "https://aldiaargentina.microjuris.com/2025/08/06/doctrina-jubilaciones-no-habra-aumentos-extraordinarios-ni-prorroga-de-moratoria-previsional-veto-a-las-leyes-27-791-27-792-y-27-793/"
+    }
+   ]
+  },
+  {
+   "fecha": "2025-08-04",
+   "decreto": "534/2025",
+   "ley": "27.793",
+   "tema": "Emergencia en discapacidad",
+   "tipo": "total",
+   "insistencia": "sí: Diputados 20/08/2025 (172-73-2) y Senado 04/09/2025 (63-7-0)",
+   "fuentes": [
+    {
+     "medio": "Chequeado",
+     "url": "https://chequeado.com/el-explicador/javier-milei-veto-las-leyes-de-aumento-a-jubilados-moratoria-y-discapacidad-que-puede-hacer-el-congreso/"
+    }
+   ]
+  },
+  {
+   "fecha": "2025-09-10",
+   "decreto": "647/2025",
+   "ley": "27.795",
+   "tema": "Financiamiento universitario 2025",
+   "tipo": "total",
+   "insistencia": "sí: Diputados 17/09/2025 (174-67-2) y Senado 02/10/2025 (58-7-4)",
+   "fuentes": [
+    {
+     "medio": "Palabras del Derecho",
+     "url": "https://www.palabrasdelderecho.com.ar/articulo/6224/Milei-veto-las-leyes-de-financiamiento-universitario-y-de-emergencia-pediatrica"
+    },
+    {
+     "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+     "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+    }
+   ]
+  },
+  {
+   "fecha": "2025-09-11",
+   "decreto": "651/2025",
+   "ley": "27.796",
+   "tema": "Emergencia pediátrica (Garrahan)",
+   "tipo": "total",
+   "insistencia": "sí: Diputados 17/09/2025 (181-60-1) y Senado 02/10/2025 (59-7-3)",
+   "fuentes": [
+    {
+     "medio": "Palabras del Derecho",
+     "url": "https://www.palabrasdelderecho.com.ar/articulo/6224/Milei-veto-las-leyes-de-financiamiento-universitario-y-de-emergencia-pediatrica"
+    },
+    {
+     "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+     "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+    }
+   ]
+  },
+  {
+   "fecha": "2025-09-11",
+   "decreto": "652/2025",
+   "ley": "27.794",
+   "tema": "Distribución automática de ATN",
+   "tipo": "total",
+   "insistencia": "no completada (el Senado insistió el 18/09/2025 con 59-9-3; no se encontró insistencia en Diputados y ODCL la cuenta como no insistida)",
+   "fuentes": [
+    {
+     "medio": "LM Neuquén",
+     "url": "https://www.lmneuquen.com/pais/milei-veto-la-ley-distribucion-los-atn-se-profundiza-la-distancia-los-gobernadores-n1208449"
+    },
+    {
+     "medio": "Palabras del Derecho",
+     "url": "https://www.palabrasdelderecho.com.ar/articulo/6245/Rechazaron-el-veto-a-la-Ley-sobre-Aportes-del-Tesoro-Nacional-(ATN)"
+    },
+    {
+     "medio": "Diario Panorama",
+     "url": "https://www.diariopanorama.com/noticia/529182/nuevo-reves-para-gobierno-congreso-senado-rechazo-veto-milei-ley-atn"
+    },
+    {
+     "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+     "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+    }
+   ],
+   "nota": "LM Neuquén ubica el veto el jueves 11/09/2025; Chequeado dice que los tres vetos (universitario, pediatría, ATN) se publicaron entre el 10 y el 12/09."
+  }
+ ],
+ "insistencias_votaciones": [
+  {
+   "fecha": "2024-09-11",
+   "camara": "Diputados",
+   "ley": "Movilidad (27.756)",
+   "v": [
+    153,
+    87,
+    8
+   ],
+   "logro_2_3": false
+  },
+  {
+   "fecha": "2024-10-09",
+   "camara": "Diputados",
+   "ley": "Financiamiento universitario (27.757)",
+   "v": [
+    160,
+    84,
+    5
+   ],
+   "logro_2_3": false
+  },
+  {
+   "fecha": "2025-07-10",
+   "camara": "Senado",
+   "ley": "Bahía Blanca (27.790)",
+   "v": [
+    51,
+    null,
+    null
+   ],
+   "logro_2_3": true,
+   "nota": "Noticias NQN: 51 afirmativos y 21 ausentes. No se encontró una segunda fuente."
+  },
+  {
+   "fecha": "2025-08-20",
+   "camara": "Diputados",
+   "ley": "Aumento jubilatorio (27.791)",
+   "v": [
+    160,
+    83,
+    6
+   ],
+   "logro_2_3": false
+  },
+  {
+   "fecha": "2025-08-20",
+   "camara": "Diputados",
+   "ley": "Discapacidad (27.793)",
+   "v": [
+    172,
+    73,
+    2
+   ],
+   "logro_2_3": true
+  },
+  {
+   "fecha": "2025-09-04",
+   "camara": "Senado",
+   "ley": "Discapacidad (27.793)",
+   "v": [
+    63,
+    7,
+    0
+   ],
+   "logro_2_3": true,
+   "completa": true
+  },
+  {
+   "fecha": "2025-09-17",
+   "camara": "Diputados",
+   "ley": "Financiamiento universitario (27.795)",
+   "v": [
+    174,
+    67,
+    2
+   ],
+   "logro_2_3": true
+  },
+  {
+   "fecha": "2025-09-17",
+   "camara": "Diputados",
+   "ley": "Emergencia pediátrica (27.796)",
+   "v": [
+    181,
+    60,
+    1
+   ],
+   "logro_2_3": true
+  },
+  {
+   "fecha": "2025-09-18",
+   "camara": "Senado",
+   "ley": "ATN (27.794)",
+   "v": [
+    59,
+    9,
+    3
+   ],
+   "logro_2_3": true
+  },
+  {
+   "fecha": "2025-10-02",
+   "camara": "Senado",
+   "ley": "Financiamiento universitario (27.795)",
+   "v": [
+    58,
+    7,
+    4
+   ],
+   "logro_2_3": true,
+   "completa": true
+  },
+  {
+   "fecha": "2025-10-02",
+   "camara": "Senado",
+   "ley": "Emergencia pediátrica (27.796)",
+   "v": [
+    59,
+    7,
+    3
+   ],
+   "logro_2_3": true,
+   "completa": true
+  }
+ ],
+ "comparacion_presidencias": [
+  {
+   "presidencia": "Milei (2023–)",
+   "dnu_por_anio": {
+    "valor": "47 (2024) · 35 (2025)",
+    "alternativas": [
+     "ACIJ: 50 en el primer año",
+     "ODCL: 4,22 por mes (unos 50,6 por año) al 8/7/2025",
+     "Chequeado: 82 en 660 días (unos 45 por año)"
+    ],
+    "fuentes": [
+     {
+      "medio": "ODCL – Universidad Austral (oct. 2025)",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2025/10/08_10_25_Informe-Impacto-de-la-Ley-Bases-en-la-delegacion-legislativa-a-la-luz-de-la-praxis-en-la-Argentina.-Actualizacion-y-comparacion-de-DNU-y-decretos-delegados_octubre-2025.pdf"
+     },
+     {
+      "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+     },
+     {
+      "medio": "Hoy Día (07/10/2025) sobre el informe de ACIJ «De la excepción a la regla»",
+      "url": "https://hoydia.com.ar/politica/nacional/un-informe-advierte-que-milei-es-el-presidente-que-mas-dnu-firmo-en-los-ultimos-cuatro-gobiernos/"
+     },
+     {
+      "medio": "Chequeado – ranking DNU (act. 30/09/2025)",
+      "url": "https://chequeado.com/el-explicador/el-dnu-de-javier-milei-cuales-son-los-presidentes-que-mas-usaron-esta-herramienta-entre-1989-y-2023/"
+     }
+    ]
+   },
+   "vetos_por_anio": {
+    "valor": "9 vetos en total (todos totales), 2 en 2024 y 7 en 2025; Chequeado lo calcula en 5,3 por año",
+    "fuentes": [
+     {
+      "medio": "Chequeado – uno por uno los vetos (act. 12/09/2025)",
+      "url": "https://chequeado.com/el-explicador/uno-por-uno-los-vetos-de-javier-milei-en-lo-que-va-de-su-presidencia/"
+     },
+     {
+      "medio": "Chequeado – ranking de vetos (act. 15/09/2025)",
+      "url": "https://chequeado.com/el-explicador/ranking-de-los-vetos-presidenciales-como-se-ubica-javier-milei-respecto-de-otros-presidentes/"
+     },
+     {
+      "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+     }
+    ],
+    "nota": "No se encontraron vetos en 2026, pero no se pudo confirmar que no haya ninguno."
+   },
+   "insistencias": {
+    "valor": 3,
+    "detalle": "Leyes 27.793, 27.795 y 27.796. Fueron las primeras insistencias completas desde el 12/03/2003.",
+    "fuentes": [
+     {
+      "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+     },
+     {
+      "medio": "Noticias Argentinas (24/08/2025)",
+      "url": "https://noticiasargentinas.com/politica/la-historia-del-veto-presidencial--el-congreso-se-prepara-para-anular-una-decision-inedita-en-22-anos_a68ab15483a66310dabe69767"
+     }
+    ]
+   },
+   "dnu_rechazados": {
+    "valor": "2 por ambas cámaras (656/2024 y 340/2025) y 1 solo por el Senado (70/2023)",
+    "fuentes": [
+     {
+      "medio": "ODCL – Universidad Austral (sep. 2024)",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2024/09/Los-DNU-en-la-practica-institucional-30-anos-actualizacion.pdf"
+     },
+     {
+      "medio": "Primera Edición",
+      "url": "https://www.primeraedicion.com.ar/nota/101034960/duro-reves-para-el-gobierno-el-congreso-oficializo-la-anulacion-de-un-dnu-y-cuatro-decretos-delegados/"
+     }
+    ]
+   }
+  },
+  {
+   "presidencia": "A. Fernández (2019–2023)",
+   "dnu_por_anio": {
+    "valor": "44,25",
+    "alternativas": [
+     "Total 177 (Chequeado) o 179 (ODCL)",
+     "ODCL: 3,72 a 3,73 por mes"
+    ],
+    "fuentes": [
+     {
+      "medio": "Hoy Día (07/10/2025) sobre el informe de ACIJ «De la excepción a la regla»",
+      "url": "https://hoydia.com.ar/politica/nacional/un-informe-advierte-que-milei-es-el-presidente-que-mas-dnu-firmo-en-los-ultimos-cuatro-gobiernos/"
+     },
+     {
+      "medio": "Chequeado – ranking DNU (act. 30/09/2025)",
+      "url": "https://chequeado.com/el-explicador/el-dnu-de-javier-milei-cuales-son-los-presidentes-que-mas-usaron-esta-herramienta-entre-1989-y-2023/"
+     },
+     {
+      "medio": "ODCL – Universidad Austral (oct. 2025)",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2025/10/08_10_25_Informe-Impacto-de-la-Ley-Bases-en-la-delegacion-legislativa-a-la-luz-de-la-praxis-en-la-Argentina.-Actualizacion-y-comparacion-de-DNU-y-decretos-delegados_octubre-2025.pdf"
+     }
+    ]
+   },
+   "vetos_por_anio": {
+    "valor": 3.3,
+    "detalle": "13 vetos, todos parciales (Chequeado). La Dir. de Información Parlamentaria de HCDN cuenta 12 (vía La Nación). Noticias Argentinas le asigna 0 vetos totales.",
+    "fuentes": [
+     {
+      "medio": "Chequeado – ranking de vetos (act. 15/09/2025)",
+      "url": "https://chequeado.com/el-explicador/ranking-de-los-vetos-presidenciales-como-se-ubica-javier-milei-respecto-de-otros-presidentes/"
+     },
+     {
+      "medio": "La Nación (30/08/2024, datos Dir. de Información Parlamentaria HCDN)",
+      "url": "https://www.lanacion.com.ar/politica/el-congreso-no-aplica-el-mecanismo-de-insistencia-a-un-veto-presidencial-desde-hace-mas-de-20-anos-nid30082024/"
+     },
+     {
+      "medio": "Noticias Argentinas (24/08/2025)",
+      "url": "https://noticiasargentinas.com/politica/la-historia-del-veto-presidencial--el-congreso-se-prepara-para-anular-una-decision-inedita-en-22-anos_a68ab15483a66310dabe69767"
+     }
+    ]
+   },
+   "insistencias": {
+    "valor": 0,
+    "detalle": "No hubo insistencias entre el 12/03/2003 y 2025.",
+    "fuentes": [
+     {
+      "medio": "La Nación (30/08/2024, datos Dir. de Información Parlamentaria HCDN)",
+      "url": "https://www.lanacion.com.ar/politica/el-congreso-no-aplica-el-mecanismo-de-insistencia-a-un-veto-presidencial-desde-hace-mas-de-20-anos-nid30082024/"
+     },
+     {
+      "medio": "Noticias Argentinas (24/08/2025)",
+      "url": "https://noticiasargentinas.com/politica/la-historia-del-veto-presidencial--el-congreso-se-prepara-para-anular-una-decision-inedita-en-22-anos_a68ab15483a66310dabe69767"
+     }
+    ]
+   },
+   "dnu_rechazados": {
+    "valor": 0,
+    "detalle": "El listado del ODCL de DNU rechazados por al menos una cámara (1994–sep. 2024) no incluye decretos de Fernández.",
+    "fuentes": [
+     {
+      "medio": "ODCL – Universidad Austral (sep. 2024)",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2024/09/Los-DNU-en-la-practica-institucional-30-anos-actualizacion.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "presidencia": "Macri (2015–2019)",
+   "dnu_por_anio": {
+    "valor": "17,5",
+    "alternativas": [
+     "Total 71 (Chequeado y ODCL); en un párrafo Chequeado dice 78",
+     "Chequeado: casi 18 por año",
+     "ODCL: 1,47 por mes"
+    ],
+    "fuentes": [
+     {
+      "medio": "Hoy Día (07/10/2025) sobre el informe de ACIJ «De la excepción a la regla»",
+      "url": "https://hoydia.com.ar/politica/nacional/un-informe-advierte-que-milei-es-el-presidente-que-mas-dnu-firmo-en-los-ultimos-cuatro-gobiernos/"
+     },
+     {
+      "medio": "Chequeado – ranking DNU (act. 30/09/2025)",
+      "url": "https://chequeado.com/el-explicador/el-dnu-de-javier-milei-cuales-son-los-presidentes-que-mas-usaron-esta-herramienta-entre-1989-y-2023/"
+     },
+     {
+      "medio": "ODCL – Universidad Austral (oct. 2025)",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2025/10/08_10_25_Informe-Impacto-de-la-Ley-Bases-en-la-delegacion-legislativa-a-la-luz-de-la-praxis-en-la-Argentina.-Actualizacion-y-comparacion-de-DNU-y-decretos-delegados_octubre-2025.pdf"
+     }
+    ]
+   },
+   "vetos_por_anio": {
+    "valor": 2,
+    "detalle": "8 vetos; Noticias Argentinas cuenta 5 totales",
+    "fuentes": [
+     {
+      "medio": "Chequeado – ranking de vetos (act. 15/09/2025)",
+      "url": "https://chequeado.com/el-explicador/ranking-de-los-vetos-presidenciales-como-se-ubica-javier-milei-respecto-de-otros-presidentes/"
+     },
+     {
+      "medio": "La Nación (30/08/2024, datos Dir. de Información Parlamentaria HCDN)",
+      "url": "https://www.lanacion.com.ar/politica/el-congreso-no-aplica-el-mecanismo-de-insistencia-a-un-veto-presidencial-desde-hace-mas-de-20-anos-nid30082024/"
+     },
+     {
+      "medio": "Noticias Argentinas (24/08/2025)",
+      "url": "https://noticiasargentinas.com/politica/la-historia-del-veto-presidencial--el-congreso-se-prepara-para-anular-una-decision-inedita-en-22-anos_a68ab15483a66310dabe69767"
+     }
+    ]
+   },
+   "insistencias": {
+    "valor": 0,
+    "fuentes": [
+     {
+      "medio": "La Nación (30/08/2024, datos Dir. de Información Parlamentaria HCDN)",
+      "url": "https://www.lanacion.com.ar/politica/el-congreso-no-aplica-el-mecanismo-de-insistencia-a-un-veto-presidencial-desde-hace-mas-de-20-anos-nid30082024/"
+     },
+     {
+      "medio": "Noticias Argentinas (24/08/2025)",
+      "url": "https://noticiasargentinas.com/politica/la-historia-del-veto-presidencial--el-congreso-se-prepara-para-anular-una-decision-inedita-en-22-anos_a68ab15483a66310dabe69767"
+     }
+    ]
+   },
+   "dnu_rechazados": {
+    "valor": "3 solo por el Senado (256/2015, 102/2017 y 1053/2018), rechazados en 2020, después de su mandato; ninguno por ambas cámaras",
+    "fuentes": [
+     {
+      "medio": "ODCL – Universidad Austral (sep. 2024)",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2024/09/Los-DNU-en-la-practica-institucional-30-anos-actualizacion.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "presidencia": "Fernández de Kirchner (2011–2015)",
+   "dnu_por_anio": {
+    "valor": "11,75",
+    "alternativas": [
+     "Total de los dos mandatos (2007–2015): 78 (Chequeado) u 81 (ODCL); 0,84 por mes (ODCL)",
+     "Primeros 9 meses del segundo mandato: 10 (ODCL)"
+    ],
+    "fuentes": [
+     {
+      "medio": "Hoy Día (07/10/2025) sobre el informe de ACIJ «De la excepción a la regla»",
+      "url": "https://hoydia.com.ar/politica/nacional/un-informe-advierte-que-milei-es-el-presidente-que-mas-dnu-firmo-en-los-ultimos-cuatro-gobiernos/"
+     },
+     {
+      "medio": "Chequeado – ranking DNU (act. 30/09/2025)",
+      "url": "https://chequeado.com/el-explicador/el-dnu-de-javier-milei-cuales-son-los-presidentes-que-mas-usaron-esta-herramienta-entre-1989-y-2023/"
+     },
+     {
+      "medio": "ODCL – Universidad Austral (sep. 2024)",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2024/09/Los-DNU-en-la-practica-institucional-30-anos-actualizacion.pdf"
+     }
+    ],
+    "nota": "Según el resumen de Hoy Día, el promedio de ACIJ (2011–2024) corresponde a su segundo mandato."
+   },
+   "vetos_por_anio": {
+    "valor": 0.25,
+    "detalle": "Chequeado: 0,25 vetos por año en 2011–2015 (5 por año en el primer mandato). En los dos mandatos sumó 21 vetos, 3 de ellos totales.",
+    "fuentes": [
+     {
+      "medio": "Chequeado – ranking de vetos (act. 15/09/2025)",
+      "url": "https://chequeado.com/el-explicador/ranking-de-los-vetos-presidenciales-como-se-ubica-javier-milei-respecto-de-otros-presidentes/"
+     }
+    ]
+   },
+   "insistencias": {
+    "valor": 0,
+    "fuentes": [
+     {
+      "medio": "La Nación (30/08/2024, datos Dir. de Información Parlamentaria HCDN)",
+      "url": "https://www.lanacion.com.ar/politica/el-congreso-no-aplica-el-mecanismo-de-insistencia-a-un-veto-presidencial-desde-hace-mas-de-20-anos-nid30082024/"
+     },
+     {
+      "medio": "Noticias Argentinas (24/08/2025)",
+      "url": "https://noticiasargentinas.com/politica/la-historia-del-veto-presidencial--el-congreso-se-prepara-para-anular-una-decision-inedita-en-22-anos_a68ab15483a66310dabe69767"
+     }
+    ]
+   },
+   "dnu_rechazados": {
+    "valor": 0,
+    "detalle": "En 2011–2015, ninguno. En el primer mandato Diputados rechazó dos (2010/2009 y 298/2010) en 2010, y el Senado no los trató.",
+    "fuentes": [
+     {
+      "medio": "ODCL – Universidad Austral (sep. 2024)",
+      "url": "https://www.austral.edu.ar/wp-content/uploads/2024/09/Los-DNU-en-la-practica-institucional-30-anos-actualizacion.pdf"
+     }
+    ]
+   }
+  }
+ ],
+ "fuentes": [
+  {
+   "medio": "ODCL – Universidad Austral (oct. 2025)",
+   "url": "https://www.austral.edu.ar/wp-content/uploads/2025/10/08_10_25_Informe-Impacto-de-la-Ley-Bases-en-la-delegacion-legislativa-a-la-luz-de-la-praxis-en-la-Argentina.-Actualizacion-y-comparacion-de-DNU-y-decretos-delegados_octubre-2025.pdf"
+  },
+  {
+   "medio": "ODCL – Universidad Austral, comunicado feb. 2026",
+   "url": "https://www.austral.edu.ar/wp-content/uploads/2026/03/Comunicado-ODCL-febrero-2026_09_02_26.pdf"
+  },
+  {
+   "medio": "ODCL – Universidad Austral (sep. 2024)",
+   "url": "https://www.austral.edu.ar/wp-content/uploads/2024/09/Los-DNU-en-la-practica-institucional-30-anos-actualizacion.pdf"
+  },
+  {
+   "medio": "La Nación (11/02/2026, datos ODCL)",
+   "url": "https://www.lanacion.com.ar/politica/durante-el-receso-legislativo-milei-dicto-casi-tantos-dnu-como-todas-las-leyes-promulgadas-a-lo-nid11022026/"
+  },
+  {
+   "medio": "Ámbito (11/02/2026, datos ODCL)",
+   "url": "https://www.ambito.com/politica/javier-milei-firmo-casi-tantos-dnu-como-leyes-sancionadas-2025-n6244811"
+  },
+  {
+   "medio": "La Nación (08/10/2025, datos ODCL)",
+   "url": "https://www.lanacion.com.ar/politica/javier-milei-se-juega-una-herramienta-clave-para-su-gobernabilidad-en-diputados-nid08102025/"
+  },
+  {
+   "medio": "Chequeado – ranking DNU (act. 30/09/2025)",
+   "url": "https://chequeado.com/el-explicador/el-dnu-de-javier-milei-cuales-son-los-presidentes-que-mas-usaron-esta-herramienta-entre-1989-y-2023/"
+  },
+  {
+   "medio": "Chequeado – uno por uno los vetos (act. 12/09/2025)",
+   "url": "https://chequeado.com/el-explicador/uno-por-uno-los-vetos-de-javier-milei-en-lo-que-va-de-su-presidencia/"
+  },
+  {
+   "medio": "Chequeado – ranking de vetos (act. 15/09/2025)",
+   "url": "https://chequeado.com/el-explicador/ranking-de-los-vetos-presidenciales-como-se-ubica-javier-milei-respecto-de-otros-presidentes/"
+  },
+  {
+   "medio": "Hoy Día (07/10/2025) sobre el informe de ACIJ «De la excepción a la regla»",
+   "url": "https://hoydia.com.ar/politica/nacional/un-informe-advierte-que-milei-es-el-presidente-que-mas-dnu-firmo-en-los-ultimos-cuatro-gobiernos/"
+  },
+  {
+   "medio": "La Nación (30/08/2024, datos Dir. de Información Parlamentaria HCDN)",
+   "url": "https://www.lanacion.com.ar/politica/el-congreso-no-aplica-el-mecanismo-de-insistencia-a-un-veto-presidencial-desde-hace-mas-de-20-anos-nid30082024/"
+  },
+  {
+   "medio": "Noticias Argentinas (24/08/2025)",
+   "url": "https://noticiasargentinas.com/politica/la-historia-del-veto-presidencial--el-congreso-se-prepara-para-anular-una-decision-inedita-en-22-anos_a68ab15483a66310dabe69767"
+  }
+ ],
+ "dnu_publicados_mensual": {
+  "nota": "Mismos DNU de dnu_lista contados por mes de publicación en el Boletín Oficial (fecha_boletin de Infoleg). Corte: 30/09/2026.",
+  "serie": [
+   {
+    "mes": "2023-12",
+    "dnu_publicados": 7
+   },
+   {
+    "mes": "2024-01",
+    "dnu_publicados": 2
+   },
+   {
+    "mes": "2024-02",
+    "dnu_publicados": 5
+   },
+   {
+    "mes": "2024-03",
+    "dnu_publicados": 4
+   },
+   {
+    "mes": "2024-04",
+    "dnu_publicados": 4
+   },
+   {
+    "mes": "2024-05",
+    "dnu_publicados": 2
+   },
+   {
+    "mes": "2024-06",
+    "dnu_publicados": 4
+   },
+   {
+    "mes": "2024-07",
+    "dnu_publicados": 7
+   },
+   {
+    "mes": "2024-08",
+    "dnu_publicados": 4
+   },
+   {
+    "mes": "2024-09",
+    "dnu_publicados": 3
+   },
+   {
+    "mes": "2024-10",
+    "dnu_publicados": 3
+   },
+   {
+    "mes": "2024-11",
+    "dnu_publicados": 4
+   },
+   {
+    "mes": "2024-12",
+    "dnu_publicados": 5
+   },
+   {
+    "mes": "2025-01",
+    "dnu_publicados": 3
+   },
+   {
+    "mes": "2025-02",
+    "dnu_publicados": 4
+   },
+   {
+    "mes": "2025-03",
+    "dnu_publicados": 3
+   },
+   {
+    "mes": "2025-04",
+    "dnu_publicados": 3
+   },
+   {
+    "mes": "2025-05",
+    "dnu_publicados": 4
+   },
+   {
+    "mes": "2025-06",
+    "dnu_publicados": 4
+   },
+   {
+    "mes": "2025-07",
+    "dnu_publicados": 3
+   },
+   {
+    "mes": "2025-08",
+    "dnu_publicados": 1
+   },
+   {
+    "mes": "2025-09",
+    "dnu_publicados": 4
+   },
+   {
+    "mes": "2025-10",
+    "dnu_publicados": 0
+   },
+   {
+    "mes": "2025-11",
+    "dnu_publicados": 3
+   },
+   {
+    "mes": "2025-12",
+    "dnu_publicados": 1
+   },
+   {
+    "mes": "2026-01",
+    "dnu_publicados": 9
+   },
+   {
+    "mes": "2026-02",
+    "dnu_publicados": 2
+   },
+   {
+    "mes": "2026-03",
+    "dnu_publicados": 2
+   },
+   {
+    "mes": "2026-04",
+    "dnu_publicados": 3
+   },
+   {
+    "mes": "2026-05",
+    "dnu_publicados": 1
+   },
+   {
+    "mes": "2026-06",
+    "dnu_publicados": 2
+   },
+   {
+    "mes": "2026-07",
+    "dnu_publicados": 7
+   },
+   {
+    "mes": "2026-08",
+    "dnu_publicados": 3
+   },
+   {
+    "mes": "2026-09",
+    "dnu_publicados": 2
+   },
+   {
+    "mes": "2026-10",
+    "dnu_publicados": null
+   }
+  ]
+ },
+ "dnu_lista": [
+  {
+   "numero": "28/2023",
+   "fecha": "2023-11-13",
+   "fecha_boletin": "2023-12-13",
+   "titulo": "DISPOSICIONES",
+   "tema": "PROGRAMA DE INCREMENTO EXPORTADOR",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-395255",
+   "nota": "Infoleg registra fecha_sancion 2023-11-13, incompatible con la numeración: la serie de decretos 2023 se reinició el 10/12/2023 (8/2023 es del 10/12; 21 y 22/2023 del 12/12). Se cuenta en dic. 2023 por fecha de publicación (2023-12-13)."
+  },
+  {
+   "numero": "8/2023",
+   "fecha": "2023-12-10",
+   "fecha_boletin": "2023-12-11",
+   "titulo": "MODIFICACION",
+   "tema": "LEY DE MINISTERIOS",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-394976"
+  },
+  {
+   "numero": "21/2023",
+   "fecha": "2023-12-12",
+   "fecha_boletin": "2023-12-13",
+   "titulo": "LEY N° 18.777 - MODIFICACION",
+   "tema": "PROCURACION DEL TESORO DE LA NACION",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-395248"
+  },
+  {
+   "numero": "22/2023",
+   "fecha": "2023-12-12",
+   "fecha_boletin": "2023-12-13",
+   "titulo": "INTERVENCION - DISPONESE",
+   "tema": "AGENCIA FEDERAL DE INTELIGENCIA",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-395249"
+  },
+  {
+   "numero": "55/2023",
+   "fecha": "2023-12-16",
+   "fecha_boletin": "2023-12-18",
+   "titulo": "DISPOSICIONES",
+   "tema": "EMERGENCIA DEL SECTOR ENERGETICO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-395394"
+  },
+  {
+   "numero": "56/2023",
+   "fecha": "2023-12-16",
+   "fecha_boletin": "2023-12-18",
+   "titulo": "DISPOSICIONES",
+   "tema": "DEUDA PUBLICA",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-395395"
+  },
+  {
+   "numero": "70/2023",
+   "fecha": "2023-12-20",
+   "fecha_boletin": "2023-12-21",
+   "titulo": "DISPOSICIONES",
+   "tema": "BASES PARA LA RECONSTRUCCION DE LA ECONOMIA ARGENTINA",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-395521"
+  },
+  {
+   "numero": "23/2024",
+   "fecha": "2024-01-04",
+   "fecha_boletin": "2024-01-05",
+   "titulo": "LEY N° 27.701 - DISPOSICIONES",
+   "tema": "PRESUPUESTO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-395823"
+  },
+  {
+   "numero": "50/2024",
+   "fecha": "2024-01-12",
+   "fecha_boletin": "2024-01-15",
+   "titulo": "ACUERDASE AUTORIZACION",
+   "tema": "VIAJES OFICIALES",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-396001"
+  },
+  {
+   "numero": "110/2024",
+   "fecha": "2024-02-01",
+   "fecha_boletin": "2024-02-02",
+   "titulo": "MODIFICACION",
+   "tema": "LEY DE MINISTERIOS",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-396374"
+  },
+  {
+   "numero": "188/2024",
+   "fecha": "2024-02-23",
+   "fecha_boletin": "2024-02-26",
+   "titulo": "LEY N° 27.150 - MODIFICACION",
+   "tema": "CODIGO PROCESAL PENAL DE LA NACION",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-396856"
+  },
+  {
+   "numero": "194/2024",
+   "fecha": "2024-02-23",
+   "fecha_boletin": "2024-02-26",
+   "titulo": "MOVILIDAD - MODIFICACION LEY 27160",
+   "tema": "ASIGNACIONES FAMILIARES",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-396857"
+  },
+  {
+   "numero": "195/2024",
+   "fecha": "2024-02-23",
+   "fecha_boletin": "2024-02-26",
+   "titulo": "MODIFICACION",
+   "tema": "LEY DE MINISTERIOS",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-396900"
+  },
+  {
+   "numero": "196/2024",
+   "fecha": "2024-02-26",
+   "fecha_boletin": "2024-02-26",
+   "titulo": "DECRETO 195/2024 - MODIFICACION",
+   "tema": "LEY DE MINISTERIOS",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-396901"
+  },
+  {
+   "numero": "231/2024",
+   "fecha": "2024-03-06",
+   "fecha_boletin": "2024-03-07",
+   "titulo": "EDUCACION - DISPOSICIONES",
+   "tema": "EJERCICIO FISCAL 2024",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-397123"
+  },
+  {
+   "numero": "274/2024",
+   "fecha": "2024-03-22",
+   "fecha_boletin": "2024-03-25",
+   "titulo": "LEY N° 24.241 - MODIFICACION",
+   "tema": "MOVILIDAD JUBILATORIA",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-397577"
+  },
+  {
+   "numero": "277/2024",
+   "fecha": "2024-03-23",
+   "fecha_boletin": "2024-03-25",
+   "titulo": "MODELO DE ACUERDO DE FIDEICOMISO - APROBACION",
+   "tema": "ACUERDOS",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-397578"
+  },
+  {
+   "numero": "280/2024",
+   "fecha": "2024-03-26",
+   "fecha_boletin": "2024-03-27",
+   "titulo": "MODIFICACIONES - DISPOSICIONES",
+   "tema": "PRESUPUESTO ADMINISTRACION NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-397667"
+  },
+  {
+   "numero": "301/2024",
+   "fecha": "2024-04-08",
+   "fecha_boletin": "2024-04-09",
+   "titulo": "MODIFICACION",
+   "tema": "LEY DE MINISTERIOS",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-397910"
+  },
+  {
+   "numero": "302/2024",
+   "fecha": "2024-04-09",
+   "fecha_boletin": "2024-04-10",
+   "titulo": "DISPOSICIONES - MODIFICACION LEY 27078",
+   "tema": "ARGENTINA DIGITAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-397955"
+  },
+  {
+   "numero": "337/2024",
+   "fecha": "2024-04-18",
+   "fecha_boletin": "2024-04-19",
+   "titulo": "MODIFICACION",
+   "tema": "LEY DE MINISTERIOS",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-398253"
+  },
+  {
+   "numero": "350/2024",
+   "fecha": "2024-04-23",
+   "fecha_boletin": "2024-04-24",
+   "titulo": "DECLARACION",
+   "tema": "ZONA MILITAR",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-398442"
+  },
+  {
+   "numero": "450/2024",
+   "fecha": "2024-05-22",
+   "fecha_boletin": "2024-05-24",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-399724"
+  },
+  {
+   "numero": "459/2024",
+   "fecha": "2024-05-24",
+   "fecha_boletin": "2024-05-27",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-399787"
+  },
+  {
+   "numero": "484/2024",
+   "fecha": "2024-06-03",
+   "fecha_boletin": "2024-06-04",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-400140"
+  },
+  {
+   "numero": "511/2024",
+   "fecha": "2024-06-07",
+   "fecha_boletin": "2024-06-10",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-400345"
+  },
+  {
+   "numero": "525/2024",
+   "fecha": "2024-06-12",
+   "fecha_boletin": "2024-06-13",
+   "titulo": "DISPOSICIONES",
+   "tema": "EMERGENCIA PUBLICA EN MATERIA FERROVIARIA",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-400502"
+  },
+  {
+   "numero": "547/2024",
+   "fecha": "2024-06-26",
+   "fecha_boletin": "2024-06-27",
+   "titulo": "CENTRO SUIZO DE ARBITRAJE - AUTORIZASE PRORROGA DE JURISDICCION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-400855"
+  },
+  {
+   "numero": "553/2024",
+   "fecha": "2024-06-28",
+   "fecha_boletin": "2024-07-01",
+   "titulo": "DECRETO N° 70/2023 - PRORROGA",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-400953"
+  },
+  {
+   "numero": "585/2024",
+   "fecha": "2024-07-04",
+   "fecha_boletin": "2024-07-05",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-401216"
+  },
+  {
+   "numero": "594/2024",
+   "fecha": "2024-07-05",
+   "fecha_boletin": "2024-07-08",
+   "titulo": "MODIFICACION",
+   "tema": "PRESUPUESTO ADMINISTRACION NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-401270"
+  },
+  {
+   "numero": "600/2024",
+   "fecha": "2024-07-08",
+   "fecha_boletin": "2024-07-10",
+   "titulo": "MODIFICACION LEYES 23660, 26682 Y DECRETO 576/1993 - UNIFICACION MONTOS DE APORTES",
+   "tema": "FONDO SOLIDARIO DE REDISTRIBUCION",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-401319"
+  },
+  {
+   "numero": "602/2024",
+   "fecha": "2024-07-10",
+   "fecha_boletin": "2024-07-10",
+   "titulo": "EMISION LETRA FISCAL DE LIQUIDEZ - DISPOSICIONES",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-401369"
+  },
+  {
+   "numero": "614/2024",
+   "fecha": "2024-07-15",
+   "fecha_boletin": "2024-07-16",
+   "titulo": "DISPOSICIONES",
+   "tema": "SISTEMA DE INTELIGENCIA NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-401512"
+  },
+  {
+   "numero": "656/2024",
+   "fecha": "2024-07-19",
+   "fecha_boletin": "2024-07-23",
+   "titulo": "ASIGNACION DE FONDOS",
+   "tema": "SISTEMA DE INTELIGENCIA NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-401912"
+  },
+  {
+   "numero": "699/2024",
+   "fecha": "2024-08-05",
+   "fecha_boletin": "2024-08-06",
+   "titulo": "VIAS NAVEGABLES DE JURISDICCION NACIONAL - DISPOSICIONES",
+   "tema": "SERVICIO PUBLICO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-402468"
+  },
+  {
+   "numero": "731/2024",
+   "fecha": "2024-08-13",
+   "fecha_boletin": "2024-08-14",
+   "titulo": "MODIFICACION LEY N° 20.744  - PROPINAS",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-402820"
+  },
+  {
+   "numero": "774/2024",
+   "fecha": "2024-08-29",
+   "fecha_boletin": "2024-08-30",
+   "titulo": "SALIDA DEL TERRITORIO NACIONAL DE MEDIOS Y PERSONAL DE FUERZAS NACIONALES",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-403529"
+  },
+  {
+   "numero": "775/2024",
+   "fecha": "2024-08-29",
+   "fecha_boletin": "2024-08-30",
+   "titulo": "LEY N° 11.672 - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-403528"
+  },
+  {
+   "numero": "834/2024",
+   "fecha": "2024-09-17",
+   "fecha_boletin": "2024-09-18",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-404185"
+  },
+  {
+   "numero": "845/2024",
+   "fecha": "2024-09-20",
+   "fecha_boletin": "2024-09-23",
+   "titulo": "DISPOSICIONES LEY N° 27.179 - CUMPLIMIENTO",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-404359"
+  },
+  {
+   "numero": "846/2024",
+   "fecha": "2024-09-20",
+   "fecha_boletin": "2024-09-23",
+   "titulo": "DISPOSICIONES - MODIFICACION LEY 24241, DECRETOS 331/2022Y 280/2024",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-404360"
+  },
+  {
+   "numero": "897/2024",
+   "fecha": "2024-10-10",
+   "fecha_boletin": "2024-10-10",
+   "titulo": "LEY Nº 26.794 - MODIFICACION",
+   "tema": "PALACIO LIBERTAD, CENTRO CULTURAL DOMINGO FAUSTINO SARMIENTO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-405185"
+  },
+  {
+   "numero": "941/2024",
+   "fecha": "2024-10-21",
+   "fecha_boletin": "2024-10-22",
+   "titulo": "LEY 17285 - MODIFICACION",
+   "tema": "CODIGO AERONAUTICO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-405519"
+  },
+  {
+   "numero": "942/2024",
+   "fecha": "2024-10-21",
+   "fecha_boletin": "2024-10-22",
+   "titulo": "RECONOCIMIENTO Y PROTECCION AL REFUGIADO - MODIFICACION LEY 26165",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-405520"
+  },
+  {
+   "numero": "978/2024",
+   "fecha": "2024-10-31",
+   "fecha_boletin": "2024-11-01",
+   "titulo": "EJERCICIOS 'CRUZEX' Y 'VIEKAREN' - AUTORIZACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-405901"
+  },
+  {
+   "numero": "989/2024",
+   "fecha": "2024-11-05",
+   "fecha_boletin": "2024-11-06",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-406081"
+  },
+  {
+   "numero": "1017/2024",
+   "fecha": "2024-11-12",
+   "fecha_boletin": "2024-11-13",
+   "titulo": "HIPOTECAS - DISPOSICIONES",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-406267"
+  },
+  {
+   "numero": "1023/2024",
+   "fecha": "2024-11-19",
+   "fecha_boletin": "2024-11-20",
+   "titulo": "EMERGENCIA DEL SECTOR ENERGETICO NACIONAL- PRORROGA",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-406373"
+  },
+  {
+   "numero": "1083/2024",
+   "fecha": "2024-12-09",
+   "fecha_boletin": "2024-12-10",
+   "titulo": "EMERGENCIA EN MATERIA DE POSESION Y PROPIEDAD DE TIERRAS - DEROGASE DECRETO N° 805/2021",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-406980"
+  },
+  {
+   "numero": "1091/2024",
+   "fecha": "2024-12-12",
+   "fecha_boletin": "2024-12-13",
+   "titulo": "DECRETO N° 1023/2001 - MODIFICACION",
+   "tema": "REGIMEN DE CONTRATACIONES DE LA ADMINISTRACION NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-407141"
+  },
+  {
+   "numero": "1104/2024",
+   "fecha": "2024-12-17",
+   "fecha_boletin": "2024-12-18",
+   "titulo": "MODIFICACION",
+   "tema": "PRESUPUESTO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-407339"
+  },
+  {
+   "numero": "1120/2024",
+   "fecha": "2024-12-24",
+   "fecha_boletin": "2024-12-24",
+   "titulo": "DISPOSICIONES - PRORROGA DECRETO N° 70/2023",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-407613"
+  },
+  {
+   "numero": "1136/2024",
+   "fecha": "2024-12-27",
+   "fecha_boletin": "2024-12-30",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-407805"
+  },
+  {
+   "numero": "3/2025",
+   "fecha": "2025-01-03",
+   "fecha_boletin": "2025-01-06",
+   "titulo": "CREACION",
+   "tema": "AGENCIA NACIONAL DE PUERTOS Y NAVEGACION",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-408164"
+  },
+  {
+   "numero": "4/2025",
+   "fecha": "2025-01-03",
+   "fecha_boletin": "2025-01-06",
+   "titulo": "PRORROGA",
+   "tema": "FONDO NACIONAL DE TURISMO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-408163"
+  },
+  {
+   "numero": "17/2025",
+   "fecha": "2025-01-08",
+   "fecha_boletin": "2025-01-09",
+   "titulo": "AUTORIZACION",
+   "tema": "VIAJES OFICIALES",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-408229"
+  },
+  {
+   "numero": "58/2025",
+   "fecha": "2025-02-03",
+   "fecha_boletin": "2025-02-04",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-409086"
+  },
+  {
+   "numero": "62/2025",
+   "fecha": "2025-02-06",
+   "fecha_boletin": "2025-02-06",
+   "titulo": "LEY N° 26.743 - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-409265"
+  },
+  {
+   "numero": "64/2025",
+   "fecha": "2025-02-06",
+   "fecha_boletin": "2025-02-07",
+   "titulo": "CONDECORACION 'AL VALOR DEL CIUDADANO' - CREASE",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-409266"
+  },
+  {
+   "numero": "103/2025",
+   "fecha": "2025-02-14",
+   "fecha_boletin": "2025-02-17",
+   "titulo": "LEY 25938 - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-409635"
+  },
+  {
+   "numero": "179/2025",
+   "fecha": "2025-03-10",
+   "fecha_boletin": "2025-03-11",
+   "titulo": "OPERACIONES DE CREDITO PUBLICO - DISPOSICIONES",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-410472"
+  },
+  {
+   "numero": "186/2025",
+   "fecha": "2025-03-12",
+   "fecha_boletin": "2025-03-13",
+   "titulo": "MODIFICACION - DISPOSICIONES",
+   "tema": "PRESUPUESTO ADMINISTRACION NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-410534"
+  },
+  {
+   "numero": "223/2025",
+   "fecha": "2025-03-20",
+   "fecha_boletin": "2025-03-21",
+   "titulo": "LEY DE MINISTERIOS Nº 22520 - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-410806"
+  },
+  {
+   "numero": "269/2025",
+   "fecha": "2025-04-11",
+   "fecha_boletin": "2025-04-14",
+   "titulo": "EXPORTACION DE SERVICIOS  - DEROGASE DECRETO 28/2023",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-411653"
+  },
+  {
+   "numero": "271/2025",
+   "fecha": "2025-04-15",
+   "fecha_boletin": "2025-04-16",
+   "titulo": "LEY DE MINISTERIOS Nº 22520 - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-411790"
+  },
+  {
+   "numero": "292/2025",
+   "fecha": "2025-04-28",
+   "fecha_boletin": "2025-04-29",
+   "titulo": "EJERCICIOS 'TRADEWINDS' Y 'ESTRELLA AUSTRAL' - AUTORIZACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-412178"
+  },
+  {
+   "numero": "317/2025",
+   "fecha": "2025-05-09",
+   "fecha_boletin": "2025-05-12",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-412619"
+  },
+  {
+   "numero": "338/2025",
+   "fecha": "2025-05-19",
+   "fecha_boletin": "2025-05-20",
+   "titulo": "LEY N° 17.285 Y CODIGO CIVIL Y COMERCIAL DE LA NACION -  MODIFICACION",
+   "tema": "CODIGO AERONAUTICO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-412944"
+  },
+  {
+   "numero": "340/2025",
+   "fecha": "2025-05-20",
+   "fecha_boletin": "2025-05-21",
+   "titulo": "REGIMEN DE EXCEPCION DE LA MARINA MERCANTE NACIONAL - MODIFICANSE LEYES",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-412995"
+  },
+  {
+   "numero": "366/2025",
+   "fecha": "2025-05-28",
+   "fecha_boletin": "2025-05-29",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-413297"
+  },
+  {
+   "numero": "370/2025",
+   "fecha": "2025-05-30",
+   "fecha_boletin": "2025-06-02",
+   "titulo": "EMERGENCIA DEL SECTOR ENERGETICO NACIONAL - PRORROGA",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-413422"
+  },
+  {
+   "numero": "379/2025",
+   "fecha": "2025-06-03",
+   "fecha_boletin": "2025-06-04",
+   "titulo": "PROCEDIMIENTO DE MEDIACION PREJUDICIAL EN MATERIA DE SALUD - MODIFICACION LEY Nº 26.589",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-413574"
+  },
+  {
+   "numero": "425/2025",
+   "fecha": "2025-06-23",
+   "fecha_boletin": "2025-06-24",
+   "titulo": "MODIFICACION",
+   "tema": "PRESUPUESTO ADMINISTRACION NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-414325"
+  },
+  {
+   "numero": "430/2025",
+   "fecha": "2025-06-25",
+   "fecha_boletin": "2025-06-26",
+   "titulo": "LEY 26876 - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-414451"
+  },
+  {
+   "numero": "453/2025",
+   "fecha": "2025-07-04",
+   "fecha_boletin": "2025-07-07",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-414801"
+  },
+  {
+   "numero": "493/2025",
+   "fecha": "2025-07-21",
+   "fecha_boletin": "2025-07-22",
+   "titulo": "MARCO REGULATORIO PARA LA PRESTACION DEL SERVICIO PUBLICO DE AGUA POTABLE Y DESAGÜES CLOACALES",
+   "tema": "AGUA POTABLE Y DESAGÜES CLOACALES (AySA)",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-415379",
+   "nota": "Infoleg no lo marca como DNU (clase_norma vacía), pero el texto se dicta «en acuerdo general de ministros» con invocación del art. 99 inc. 3 CN y cita la Ley 26.122: es DNU. Agregado tras leer el texto."
+  },
+  {
+   "numero": "521/2025",
+   "fecha": "2025-07-30",
+   "fecha_boletin": "2025-07-31",
+   "titulo": "EJERCICIOS 'FRATERNO XXXVIII', 'VIEKAREN', 'PASSEX', 'SOUTHERN VANGUARD 25' Y 'UNITAS LXVI'",
+   "tema": "SALIDA DE MEDIOS Y PERSONAL DE FUERZAS NACIONALES",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-415709",
+   "nota": "Infoleg no lo marca como DNU (clase_norma vacía), pero el texto se dicta «en acuerdo general de ministros» con invocación del art. 99 inc. 3 CN y cita la Ley 26.122: es DNU. Agregado tras leer el texto."
+  },
+  {
+   "numero": "575/2025",
+   "fecha": "2025-08-12",
+   "fecha_boletin": "2025-08-13",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-416314"
+  },
+  {
+   "numero": "627/2025",
+   "fecha": "2025-09-02",
+   "fecha_boletin": "2025-09-03",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-417102"
+  },
+  {
+   "numero": "628/2025",
+   "fecha": "2025-09-02",
+   "fecha_boletin": "2025-09-03",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-417101"
+  },
+  {
+   "numero": "658/2025",
+   "fecha": "2025-09-12",
+   "fecha_boletin": "2025-09-15",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-417484"
+  },
+  {
+   "numero": "697/2025",
+   "fecha": "2025-09-29",
+   "fecha_boletin": "2025-09-30",
+   "titulo": "EJERCICIOS COMBINADOS 'SOLIDARIDAD' Y 'TRIDENTE' - AUTORIZACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-418048"
+  },
+  {
+   "numero": "793/2025",
+   "fecha": "2025-11-10",
+   "fecha_boletin": "2025-11-11",
+   "titulo": "MODIFICACION LEY DE MINISTERIOS",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-420022"
+  },
+  {
+   "numero": "805/2025",
+   "fecha": "2025-11-12",
+   "fecha_boletin": "2025-11-13",
+   "titulo": "LEY N° 26.221 - TEXTO ORDENADO",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-420123"
+  },
+  {
+   "numero": "825/2025",
+   "fecha": "2025-11-19",
+   "fecha_boletin": "2025-11-20",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-420406"
+  },
+  {
+   "numero": "849/2025",
+   "fecha": "2025-11-28",
+   "fecha_boletin": "2025-12-01",
+   "titulo": "MODIFICACION",
+   "tema": "PRESUPUESTO ADMINISTRACION NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-420736"
+  },
+  {
+   "numero": "941/2025",
+   "fecha": "2025-12-31",
+   "fecha_boletin": "2026-01-02",
+   "titulo": "MODIFICACION DE LA LEY DE INTELIGENCIA NACIONAL N° 25.520",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422011"
+  },
+  {
+   "numero": "942/2025",
+   "fecha": "2025-12-31",
+   "fecha_boletin": "2026-01-02",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422010"
+  },
+  {
+   "numero": "2/2026",
+   "fecha": "2026-01-02",
+   "fecha_boletin": "2026-01-05",
+   "titulo": "ACUERDO MODIFICATORIO DEL ACTA DEL FARALLON NEGRO - MODIFICACION LEY Nº 14.771",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422104"
+  },
+  {
+   "numero": "17/2026",
+   "fecha": "2026-01-15",
+   "fecha_boletin": "2026-01-16",
+   "titulo": "AUTORIZACION",
+   "tema": "VIAJES OFICIALES",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422412"
+  },
+  {
+   "numero": "26/2026",
+   "fecha": "2026-01-23",
+   "fecha_boletin": "2026-01-26",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422546"
+  },
+  {
+   "numero": "34/2026",
+   "fecha": "2026-01-23",
+   "fecha_boletin": "2026-01-26",
+   "titulo": "LEY PARA EL PERSONAL MILITAR N° 19.101 - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422547"
+  },
+  {
+   "numero": "41/2026",
+   "fecha": "2026-01-23",
+   "fecha_boletin": "2026-01-26",
+   "titulo": "LEY Nº 22.415 - MODIFICACION",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422548"
+  },
+  {
+   "numero": "49/2026",
+   "fecha": "2026-01-26",
+   "fecha_boletin": "2026-01-27",
+   "titulo": "EMERGENCIA DEL SECTOR ENERGETICO NACIONAL - PRORROGASE",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422614"
+  },
+  {
+   "numero": "73/2026",
+   "fecha": "2026-01-29",
+   "fecha_boletin": "2026-01-30",
+   "titulo": "DECLARASE LA EMERGENCIA IGNEA",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422761"
+  },
+  {
+   "numero": "80/2026",
+   "fecha": "2026-01-31",
+   "fecha_boletin": "2026-02-02",
+   "titulo": "DECLARASE LA EMERGENCIA IGNEA",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422851"
+  },
+  {
+   "numero": "88/2026",
+   "fecha": "2026-02-05",
+   "fecha_boletin": "2026-02-06",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-422981"
+  },
+  {
+   "numero": "149/2026",
+   "fecha": "2026-03-11",
+   "fecha_boletin": "2026-03-12",
+   "titulo": "EJERCICIO 'COOPERACION XI' - AUTORIZACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-423820"
+  },
+  {
+   "numero": "203/2026",
+   "fecha": "2026-03-27",
+   "fecha_boletin": "2026-03-30",
+   "titulo": "EJERCICIO COMBINADO 'ACRUX XII' - AUTORIZACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-424329"
+  },
+  {
+   "numero": "252/2026",
+   "fecha": "2026-04-16",
+   "fecha_boletin": "2026-04-17",
+   "titulo": "DECRETO 688/2002 - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-424950"
+  },
+  {
+   "numero": "264/2026",
+   "fecha": "2026-04-16",
+   "fecha_boletin": "2026-04-17",
+   "titulo": "EJERCICIO 'DAGA ATLANTICA' - AUTORIZASE INGRESO DE MEDIOS Y PERSONAL EEUU",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-424951"
+  },
+  {
+   "numero": "274/2026",
+   "fecha": "2026-04-23",
+   "fecha_boletin": "2026-04-24",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-425123"
+  },
+  {
+   "numero": "314/2026",
+   "fecha": "2026-04-30",
+   "fecha_boletin": "2026-05-04",
+   "titulo": "PLAN DE ADECUACION Y REEQUIPAMIENTO MILITAR ARGENTINO",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-425373"
+  },
+  {
+   "numero": "473/2026",
+   "fecha": "2026-06-16",
+   "fecha_boletin": "2026-06-17",
+   "titulo": "DISPOSICIONES",
+   "tema": "PERSONAL MILITAR",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-426728"
+  },
+  {
+   "numero": "490/2026",
+   "fecha": "2026-06-24",
+   "fecha_boletin": "2026-06-25",
+   "titulo": "EJERCICIO COMBINADO 'SALITRE 2026' - AUTORIZACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-426960"
+  },
+  {
+   "numero": "571/2026",
+   "fecha": "2026-07-02",
+   "fecha_boletin": "2026-07-03",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-427383"
+  },
+  {
+   "numero": "580/2026",
+   "fecha": "2026-07-07",
+   "fecha_boletin": "2026-07-08",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-427516"
+  },
+  {
+   "numero": "585/2026",
+   "fecha": "2026-07-08",
+   "fecha_boletin": "2026-07-13",
+   "titulo": "EMERGENCIA DEL SECTOR ENERGETICO NACIONA - PRORROGA",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-427566"
+  },
+  {
+   "numero": "594/2026",
+   "fecha": "2026-07-15",
+   "fecha_boletin": "2026-07-16",
+   "titulo": "MODIFICACION",
+   "tema": "PRESUPUESTO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-427717"
+  },
+  {
+   "numero": "650/2026",
+   "fecha": "2026-07-23",
+   "fecha_boletin": "2026-07-24",
+   "titulo": "EJERCICIO MULTINACIONAL 'PANAMAX 2026' - AUTORIZACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-428101"
+  },
+  {
+   "numero": "667/2026",
+   "fecha": "2026-07-27",
+   "fecha_boletin": "2026-07-28",
+   "titulo": "LICITACION PUBLICA - CONVOCATORIA",
+   "tema": "SISTEMA HIDROELECTRICO LOS NIHUILES",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-428190"
+  },
+  {
+   "numero": "681/2026",
+   "fecha": "2026-07-29",
+   "fecha_boletin": "2026-07-30",
+   "titulo": "LEY 25871 - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-428321"
+  },
+  {
+   "numero": "717/2026",
+   "fecha": "2026-08-05",
+   "fecha_boletin": "2026-08-06",
+   "titulo": "EJERCICIOS MILITARES 'FRATERNO XXXIX' 'VIEKAREN XXVI' 'SIFOREX XIV' Y 'UNITAS LXVII' -  AUTORIZACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-428613"
+  },
+  {
+   "numero": "736/2026",
+   "fecha": "2026-08-14",
+   "fecha_boletin": "2026-08-14",
+   "titulo": "DISPOSICIONES",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-428911"
+  },
+  {
+   "numero": "771/2026",
+   "fecha": "2026-08-20",
+   "fecha_boletin": "2026-08-21",
+   "titulo": "LEY DE MINISTERIOS - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-429094"
+  },
+  {
+   "numero": "867/2026",
+   "fecha": "2026-09-03",
+   "fecha_boletin": "2026-09-04",
+   "titulo": "MODIFICACION",
+   "tema": "PRESUPUESTO ADMINISTRACION NACIONAL 2026",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-429670",
+   "nota": "Infoleg no lo marca como DNU (clase_norma vacía), pero el texto se dicta «en acuerdo general de ministros» con invocación del art. 99 inc. 3 CN y cita la Ley 26.122: es DNU. Agregado tras leer el texto."
+  },
+  {
+   "numero": "1103/2026",
+   "fecha": "2026-09-25",
+   "fecha_boletin": "2026-09-28",
+   "titulo": "VISITA OFICIAL DE SU SANTIDAD EL PAPA LEON XIV",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-430580"
+  }
+ ]
+}
