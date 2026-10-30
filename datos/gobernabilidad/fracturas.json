@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Gobernabilidad: fracturas y tensiones en la coalición de gobierno",
-  "actualizado": "2026-10-25",
+  "actualizado": "2026-10-30",
   "periodo": "desde el 10/12/2023",
   "aviso": "Los hechos llevan fuente. 'estado', 'gravedad_sugerida' y 'estado_sugerido' son lectura propia y se indican como tal.",
   "criterio_gravedad": {
@@ -463,6 +463,40 @@
     "https://www.perfil.com/noticias/amp/politica/el-gobierno-oficializo-a-pablo-di-liscia-en-discapacidad-reemplaza-a-vilches-en-plena-discusion-por-el-presupuesto-2027.phtml",
     "https://www.noticiasnqn.com.ar/noticias/2026/09/21/353461-renuncio-maria-belen-agudiez-funcionaria-cercana-a-karina-milei"
    ]
+  },
+  {
+   "fecha": "2026-10-28",
+   "actores": [
+    "PRO (Ritondo, Jorge Macri, Frigerio, Goerling)",
+    "La Libertad Avanza"
+   ],
+   "tipo": "aliados",
+   "que_paso": "El PRO no firmó el dictamen del Presupuesto 2027 que el oficialismo esperaba cerrar el 28/10: Ritondo había enviado a Martín Menem siete pedidos de cambios (combustibles, concesiones viales, coparticipación y deuda con la Ciudad, entre otros). En el Senado, el jefe del bloque PRO, Martín Goerling, se opone a eliminar o suspender las PASO, y Mauricio Macri consideró estancadas las negociaciones electorales con LLA (29/10).",
+   "estado": "abierta",
+   "gravedad_sugerida": 2,
+   "criterio": "Condiciona una ley clave (dictamen postergado) sin ruptura de bloque ni voto en contra.",
+   "fuentes": [
+    "https://www.lanacion.com.ar/politica/congreso-pro-complica-al-gobierno-con-objeciones-al-presupuesto-2027-la-reforma-electoral-y-la-ley-nid30102026/",
+    "https://www.cronista.com/economia-politica/presupuesto-2027-el-pro-demora-el-dictamen-y-presiona-por-fondos-para-caba-e-impuesto-a-los-combustibles/",
+    "https://www.diariopopular.com.ar/policiales/el-gobierno-postergo-el-dictamen-del-presupuesto-2027-falta-acuerdos-n926678"
+   ]
+  },
+  {
+   "fecha": "2026-10-28",
+   "actores": [
+    "CGT",
+    "Gobierno nacional",
+    "PJ"
+   ],
+   "tipo": "sindicatos",
+   "que_paso": "La mesa chica de la CGT archivó el quinto paro general y analiza en cambio una huelga nacional de dos a cuatro horas antes de fin de año y un acto en un estadio de fútbol para presionar al PJ por el armado electoral. El sector dialoguista reconoció como «gesto» el Decreto 612, que corrigió la reglamentación de la Ley 27.802 sobre cuotas solidarias. Las dos CTA mantienen su propio plan de lucha.",
+   "estado": "abierta",
+   "gravedad_sugerida": 2,
+   "criterio": "Conflicto sostenido, con baja de intensidad: se descarta por ahora el paro general.",
+   "fuentes": [
+    "https://www.infobae.com/politica/2026/10/28/sin-paros-generales-y-con-un-acto-en-una-cancha-la-nueva-estrategia-de-la-cgt-que-pone-en-la-mira-tanto-al-gobierno-como-al-pj/",
+    "https://www.baenegocios.com/sociedad/la-cgt-cancelo-el-paro-general-de-octubre-pero-las-dos-cta-quieren-mantener-la-huelga/"
+   ]
   }
  ],
  "relaciones": [
@@ -499,11 +533,11 @@
   {
    "actor": "PRO",
    "estado_sugerido": "tensión",
-   "lectura": "Lectura propia: vota con el gobierno las leyes clave, pero la relación política se rompió y está en recomposición.",
+   "lectura": "Lectura propia: vota con el gobierno las leyes clave, pero la relación política se rompió en julio y la recomposición está trabada: en octubre condicionó el Presupuesto 2027 y rechaza suspender las PASO.",
    "ultimo_hecho": {
-    "fecha": "2026-08-13",
-    "hecho": "Reunión formal PRO–gobierno en Casa Rosada (Santilli, Lule Menem, Ritondo, De Andreis) tras un llamado entre Karina Milei y Mauricio Macri.",
-    "fuente": "https://eleconomista.com.ar/politica/macri-milei-vuelven-acercarse-pro-gobierno-ya-negocian-rumbo-2027-n97380"
+    "fecha": "2026-10-28",
+    "hecho": "El PRO no firmó el dictamen del Presupuesto 2027 y condiciona su apoyo a siete cambios; su bloque del Senado se opone a suspender las PASO.",
+    "fuente": "https://www.lanacion.com.ar/politica/congreso-pro-complica-al-gobierno-con-objeciones-al-presupuesto-2027-la-reforma-electoral-y-la-ley-nid30102026/"
    }
   },
   {
@@ -540,17 +574,17 @@
   {
    "actor": "CGT y sindicatos",
    "estado_sugerido": "ruptura",
-   "lectura": "Lectura propia: cuatro paros generales, diálogo congelado desde mayo de 2026 y plan de protesta en curso.",
+   "lectura": "Lectura propia: cuatro paros generales y diálogo congelado desde mayo de 2026; en octubre la CGT bajó la intensidad (archivó el quinto paro), mientras las CTA y los gremios docentes y universitarios siguen con paros.",
    "ultimo_hecho": {
-    "fecha": "2026-08-12",
-    "hecho": "La CGT convocó una marcha al Ministerio de Economía y debatió un quinto paro general.",
-    "fuente": "https://eleconomista.com.ar/politica/la-cgt-anuncio-una-marcha-millones-endeudados-cuando-sera-pasa-paro-general-n97341"
+    "fecha": "2026-10-28",
+    "hecho": "La CGT archivó el quinto paro general y evalúa un paro de 2 a 4 horas y un acto en un estadio antes de fin de año.",
+    "fuente": "https://www.infobae.com/politica/2026/10/28/sin-paros-generales-y-con-un-acto-en-una-cancha-la-nueva-estrategia-de-la-cgt-que-pone-en-la-mira-tanto-al-gobierno-como-al-pj/"
    }
   }
  ],
  "indicadores": {
   "fracturas_abiertas": {
-   "valor": 9,
+   "valor": 11,
    "nota": "Cálculo propio: entradas del timeline con estado 'abierta' (las cerradas en el gabinete con causa judicial abierta no se cuentan)."
   },
   "ministros_y_jefes_de_gabinete_que_dejaron_el_cargo": {

@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Ejecutivo frente al Congreso: DNU, vetos e insistencias",
-  "actualizado": "2026-10-25",
+  "actualizado": "2026-10-30",
   "granularidad": {
    "dnu_firmados": "MENSUAL desde dic. 2023 hasta sep. 2026, por fecha de firma (fecha_sancion de Infoleg). Fuente: Base Infoleg de Normativa Nacional (datos.jus.gob.ar, act. 05/10/2026, último BO cargado 30/09/2026), decretos con clase_norma = DNU, validados con el texto completo de cada norma en argentina.gob.ar/normativa. Oct. 2026 queda null (fuera del corte). Lista completa en dnu_lista.",
    "dnu_validados_rechazados": "Por evento, con fecha. Son los casos documentados en prensa y en el informe del ODCL; no es un conteo exhaustivo verificado contra los registros de la Bicameral. Los meses en 0 quieren decir «no se encontró ninguna votación», no «está confirmado que no hubo».",
@@ -793,7 +793,18 @@
    "vetos_detalle": [],
    "insistencias_completadas": null,
    "votos_insistencia_por_camara": [],
-   "dnu_firmados_nota": "Fuera del corte de la Base Infoleg (último Boletín Oficial cargado: 30/09/2026). Sin dato."
+   "dnu_firmados_nota": "Fuera del corte de la Base Infoleg (último Boletín Oficial cargado: 30/09/2026; el recurso no se actualizó desde el 05/10/2026, verificado el 30/10/2026). Sin dato del total. DNU de octubre conocidos por prensa, sin conteo exhaustivo: 1157/2026 y 1286/2026 (IOSFA/OSFA, BO 28/10/2026).",
+   "dnu_conocidos_prensa": [
+    {
+     "numero": "1286/2026",
+     "fecha_boletin": "2026-10-28",
+     "tema": "Modifica el art. 7 del DNU 88/2026: limita el traspaso del personal del IOSFA en liquidación a la nueva OSFA",
+     "fuentes": [
+      "https://www.infobae.com/politica/2026/10/28/crisis-en-iosfa-el-gobierno-dicto-un-nuevo-dnu-para-seguir-con-el-ajuste-y-evitar-un-grave-desequilibrio-financiero/",
+      "https://www.cronista.com/economia-politica/obra-social-militar-el-gobierno-limita-por-dnu-el-traspaso-de-trabajadores-y-deja-abierta-la-salida-de-personal/"
+     ]
+    }
+   ]
   }
  ],
  "dnu_firmados_anual": [

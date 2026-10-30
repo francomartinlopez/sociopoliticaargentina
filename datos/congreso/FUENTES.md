@@ -1,6 +1,6 @@
 # Fuentes y faltantes · datos/congreso
 
-Actualizado: 2026-10-25. Cada número de `votaciones.json` y `ejecutivo.json` lleva su URL al lado. Este archivo resume de dónde salió todo y qué falta.
+Actualizado: 2026-10-30. Cada número de `votaciones.json` y `ejecutivo.json` lleva su URL al lado. Este archivo resume de dónde salió todo y qué falta.
 
 ## Fuentes usadas
 
@@ -67,3 +67,10 @@ La Capital, Los Andes, El Economista, Ámbito, Chequeado, Noticias NQN, Diario d
 - **Cruce con Chequeado (base SAIJ):** la lista suma 48 al 12/11/2024, contra 46 de Chequeado, y 83 al 30/09/2025, contra 82. No se identificaron las normas que explican la diferencia.
 - **En `ejecutivo.json`:** `serie_mensual[].dnu_firmados` y `dnu_firmados_detalle`, `meta.dnu_firmados_fuente`, `meta.granularidad.dnu_firmados`, `dnu_publicados_mensual` y `dnu_lista` (número, fecha de firma, fecha del BO, título, tema y URL de cada uno). El resto de los campos no se tocó.
 - **Scripts:** `/home/claude/scripts/dnu_extract.py`, `dnu_scan_texts.py`, `dnu_verify.py`, `dnu_update.py` y `dnu_cum.py`.
+
+## Corte del 30/10/2026
+- **Nueva votación:** reforma de la Ley de Salud Mental (proyecto del Ejecutivo), media sanción del Senado el 29/10/2026 (votada en la madrugada del 30) con 42-21-0. Fuentes: Parlamentario (0 abstenciones), El Intransigente, Información Regional y Desarrollo Zonal. No hay lista nominal ni ausentes publicados. En la misma sesión se aprobaron el RIIR, el mercado voluntario de carbono y otros proyectos, sin votos publicados (no se cargan).
+- **PASO 2027:** sigue sin dictamen en el Senado; el Gobierno postergó la comisión por falta de votos y el bloque PRO se opone (El Liberal, 18/10; La Nación, 30/10).
+- **Presupuesto 2027:** el dictamen previsto para el 28/10 en Diputados no se firmó porque el PRO no acompañó; se habla del 18 o el 25/11 para la sesión (El Cronista, La Nación). No hubo votación.
+- **DNU de octubre:** la Base Infoleg no se actualizó desde el 05/10/2026 (consultado el 30/10 en la API de datos.jus.gob.ar), así que octubre sigue en null. Se registró por prensa el DNU 1286/2026 (IOSFA/OSFA, BO 28/10/2026; Infobae y El Cronista) en `serie_mensual[2026-10].dnu_conocidos_prensa`, sin conteo exhaustivo.
+- **Vetos 2026:** no se encontró ninguno nuevo.

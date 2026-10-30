@@ -1,6 +1,6 @@
 # Calendario 2027: fuentes
 
-Consulta: 25/10/2026. Archivo: `2027.json`.
+Consulta: 25/10/2026; corte semanal del 30/10/2026. Archivo: `2027.json`.
 
 ## Nacional
 - **PASO: siguen vigentes por ley.** Al 22/10/2026 no hay ley que las elimine o las suspenda.
@@ -32,3 +32,8 @@ Consulta: 25/10/2026. Archivo: `2027.json`.
 - **A confirmar:**
   - El número de bancas por cámara (no se cargó, salvo Santa Fe con 50 diputados).
   - Si alguna reforma constitucional reciente cambió el esquema de renovación.
+
+## Corte del 30/10/2026
+- **PASO:** sin cambios legales; se actualizó el detalle (comisión postergada por falta de votos y oposición del PRO en el Senado).
+- **Río Negro:** El Destape (29/10/2026) tituló que Weretilneck «confirmó que adelantará elecciones», pero la nota no abrió (redirección en bucle). La fecha sigue sin fijar.
+- **Santa Fe:** no se encontró el decreto de convocatoria firmado.

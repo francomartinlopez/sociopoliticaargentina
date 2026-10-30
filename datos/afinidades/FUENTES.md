@@ -192,3 +192,10 @@ Actualizado: 2026-10-25. Esta sección completa los campos `tna` e `indicadores.
 
 ## Scripts
 `/home/claude/scripts/pa_fetch.py` (descarga), `pa_summary.py` (resumen) y `tna_update.py` (escritura en el JSON).
+
+---
+
+# Corte del 30/10/2026
+- **Senadores:** la reforma de Salud Mental (29/10/2026, 42-21-0, postura del gobierno afirmativa) no entra al índice porque no se publicó lista nominal. Diario Nuevo Día deduce los votos de Santa Cruz por pertenencia de bloque, no por votos informados: no se usa. Cargar cuando haya acta o lista de prensa.
+- **Transferencias:** Presupuesto Abierto, consultado el 30/10/2026, sigue dando 184.000 millones de ATN pagados en 2026: no hubo giros de ATN en octubre hasta la última actualización de la fuente. Octubre no se carga hasta cerrar el mes.
+- **Gobernadores:** no se encontraron hechos de la semana que cambien alguna categoría. Weretilneck (Río Negro) apoyó eliminar las PASO, según el título de El Destape (29/10), pero la nota no abrió.

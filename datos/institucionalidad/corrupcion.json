@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Causas judiciales que involucran a funcionarios del gobierno actual",
-  "actualizado": "2026-10-25",
+  "actualizado": "2026-10-30",
   "etapas": [
    "denuncia",
    "imputación",
@@ -46,8 +46,8 @@
    "estado": "sobreseimiento",
    "juzgado_fiscalia": "Juzgado Criminal y Correccional Federal a cargo de Marcelo Martínez de Giorgi (antes María Servini) · Fiscalía de Eduardo Taiano",
    "ultima_novedad": {
-    "fecha": "2026-10-23",
-    "hecho": "A pedido del fiscal Taiano, Martínez de Giorgi sobreseyó a Javier y Karina Milei y a los otros nueve investigados, sin indagatorias. Antes, el 03/07/2026, había apartado a las querellas, y la Cámara Federal (Sala I) lo confirmó el 04/09/2026. Las quejas de los damnificados siguen pendientes en Casación."
+    "fecha": "2026-10-30",
+    "hecho": "El sobreseimiento del 23/10 fue apelado por las querellas apartadas (Marchetto, Romeo y dos inversores bielorrusos, 27/10). La Procuraduría de Investigaciones Administrativas pidió reabrir la causa, asumió el ejercicio de la acción penal y, en subsidio, apeló ante la Sala I de la Cámara Federal. El juzgado debe resolver si concede las apelaciones; el apartamiento de las querellas sigue pendiente en Casación."
    },
    "otros_hitos": [
     {
@@ -57,6 +57,10 @@
     {
      "fecha": "2026-03-16",
      "hecho": "Un peritaje del teléfono de Novelli registró 8 contactos con el Presidente el 14/02/2025 y una nota sobre un acuerdo por US$ 5 millones con 'H'."
+    },
+    {
+     "fecha": "2026-10-23",
+     "hecho": "Sobreseimiento de Javier y Karina Milei y otros nueve investigados (Martínez de Giorgi, a pedido de Taiano)."
     }
    ],
    "respuesta_oficial": "Milei dijo que no estaba al tanto de los detalles del proyecto y borró la publicación (paráfrasis).",
@@ -65,10 +69,13 @@
     "https://www.elheraldo.com.ar/noticias/judiciales/la-justicia-sobreseyo-al-presidente-javier-milei-y-a-su-hermana-karina-en-la-causa-libra",
     "https://www.infobae.com/judiciales/2026/09/04/confirmaron-la-decision-de-apartar-a-las-querellas-en-la-causa-libra/",
     "https://www.diariodecuyo.com.ar/policiales/causa-libra-el-peritaje-que-revelo-un-extenso-entramado-llamadas-y-mensajes-n6568292",
-    "https://www.theblock.co/post/379796/argentinas-milei-provided-essential-collaboration-libra-project-congressional-report-finds"
+    "https://www.theblock.co/post/379796/argentinas-milei-provided-essential-collaboration-libra-project-congressional-report-finds",
+    "https://www.infobae.com/judiciales/2026/10/30/la-procuraduria-de-investigaciones-administrativas-pidio-reabrir-la-causa-libra-tras-el-sobreseimiento-de-javier-y-karina-milei/",
+    "http://www.eldestapeweb.com/politica/libra-damnificados-apelan-sobreseimiento-milei-duras-criticas-juez-fiscal-esperan-fallo-clave-casacion-20261027123734",
+    "https://revistaquorum.com.ar/2026/10/27/libra-querellantes-desplazados-apelan-el-sobreseimiento-del-presidente-milei-y-su-hermana/"
    ],
    "firme": false,
-   "estado_nota": "Sobreseimiento de primera instancia del 23/10/2026, no firme: las apelaciones ante Casación siguen pendientes."
+   "estado_nota": "Sobreseimiento de primera instancia del 23/10/2026, no firme: lo apelaron las querellas apartadas (27/10) y la PIA pidió reabrir la causa (30/10). El fiscal Taiano, que pidió el sobreseimiento, no apeló según Infobae."
   },
   {
    "caso": "ANDIS: presuntas coimas en la Agencia Nacional de Discapacidad (audios de Diego Spagnuolo)",
@@ -88,8 +95,8 @@
    "estado": "en trámite",
    "juzgado_fiscalia": "Juzgado Criminal y Correccional Federal N° 11 según las fuentes: resolvió Sebastián Casanello y en 2026 quedó a cargo Ariel Lijo como subrogante · Fiscales Franco Picardi y José Luis Agüero Iturbe · Cámara Federal, Sala II (Boico, Farah)",
    "ultima_novedad": {
-    "fecha": "2026-09-22",
-    "hecho": "La Cámara Federal confirmó los procesamientos de Spagnuolo y otras 18 personas, dictados por Casanello el 09/02/2026, y rechazó la nulidad planteada sobre los audios."
+    "fecha": "2026-10-29",
+    "hecho": "Trascendió un informe de Criminalística de Gendarmería sobre los audios: rasgos compatibles con una regrabación, cortes y cadena de custodia rota antes del análisis; no pudo atribuir técnicamente las voces. La Casa Rosada dijo que Gendarmería «no pudo determinar que los audios sean auténticos»; fuentes judiciales dijeron que aún no hay informe firmado y que el fiscal Picardi tiene otras pruebas. La defensa de Spagnuolo anticipó un pedido de nulidad."
    },
    "respuesta_oficial": "Desplazamiento 'preventivo'; el decreto invocó 'reforzar los valores éticos en la función pública'.",
    "fuentes": [
@@ -97,9 +104,19 @@
     "https://www.lavozdesanjusto.com.ar/causa-andis-procesaron-a-diego-spagnuolo-por-asociacion-ilicita",
     "https://batimes.com.ar/news/argentina/court-confirms-trial-of-former-andis-chief-diego-spagnuolo-on-graft-charges.phtml",
     "https://www.diariodecuyo.com.ar/politica/spagnuolo-y-los-acusados-la-causa-andis-buscan-revertir-sus-procesamientos-y-que-se-periten-los-audios-n6568853",
-    "https://eleconomista.com.ar/politica/audios-coimas-una-renuncia-forzada-escandalo-sacude-agencia-discapacidad-n87755"
+    "https://eleconomista.com.ar/politica/audios-coimas-una-renuncia-forzada-escandalo-sacude-agencia-discapacidad-n87755",
+    "https://www.lacapital.com.ar/politica/causa-andis-versiones-cruzadas-el-peritaje-los-audios-spagnuolo-n10289485.html",
+    "https://www.infobae.com/politica/2026/10/29/causa-andis-el-peritaje-tecnico-determino-que-los-audios-de-spagnuolo-no-son-autenticos/",
+    "https://www.pagina12.com.ar/2026/10/29/causa-andis-gendarmeria-no-pudo-determinar-la-autenticidad-de-los-audios-de-spagnuolo/",
+    "https://noticiasargentinas.com/politica/abogado-de-spagnuolo-anticipo-que-pedira-la--nulidad-de-la-causa-andis-_a6ae3d31583a79a91f394da4e"
    ],
-   "discrepancias": "Buenos Aires Times (23/09/2026) dice que la Cámara 'ordenó' el juicio; Perfil y otras fuentes hablan de confirmación de procesamientos. Se toma 'procesamiento'."
+   "discrepancias": "Buenos Aires Times (23/09/2026) dice que la Cámara 'ordenó' el juicio; Perfil y otras fuentes hablan de confirmación de procesamientos. Se toma 'procesamiento'. Peritaje de los audios (29/10/2026): Infobae y MDZ titulan que «no son auténticos»; Página/12, Rosario3 y La Capital, que Gendarmería «no pudo determinar» su autenticidad. Según La Capital, no hay todavía un informe firmado en el expediente. Se usa la versión más prudente.",
+   "otros_hitos": [
+    {
+     "fecha": "2026-09-22",
+     "hecho": "La Cámara Federal confirmó los procesamientos de Spagnuolo y otras 18 personas, dictados por Casanello el 09/02/2026, y rechazó la nulidad planteada sobre los audios."
+    }
+   ]
   },
   {
    "caso": "Manuel Adorni: presunto enriquecimiento ilícito",
@@ -140,21 +157,26 @@
     }
    ],
    "delitos_investigados": "Lavado de dinero, por un pago de US$ 200.000 recibido a comienzos de 2020 de una empresa ligada a Machado.",
-   "etapa_maxima": "imputación",
-   "etapa_nota": "Citado a indagatoria el 23/06/2026. Hay versiones de prensa que indican que se negó a declarar; fecha a confirmar. Embargo confirmado por la Cámara Federal de San Martín el 01/06/2026.",
+   "etapa_maxima": "procesamiento",
+   "etapa_nota": "Citado a indagatoria el 23/06/2026; compareció el 07/07/2026, no respondió preguntas y presentó un escrito. Procesado el 22/10/2026 por presunto lavado de activos, con prohibición de salir del país y embargo de $1.000 millones (sin prisión preventiva informada). Apeló el 27/10/2026 ante la Cámara Federal de San Martín.",
    "estado": "en trámite",
    "juzgado_fiscalia": "Juzgado Federal N° 2 de San Isidro (Lino Mirabelli) · Fiscal Fernando Domínguez. Hay una causa conexa en Comodoro Py (Martínez de Giorgi) por el uso del avión de Machado en 2019.",
    "ultima_novedad": {
-    "fecha": "2026-06-23",
-    "hecho": "Mirabelli citó a Espert a indagatoria."
+    "fecha": "2026-10-27",
+    "hecho": "Espert apeló su procesamiento del 22/10/2026 y pidió levantar el embargo de $1.000 millones; resuelve la Cámara Federal de San Martín."
    },
    "respuesta_oficial": "Espert reconoció el pago y lo atribuyó a su actividad privada (paráfrasis).",
    "fuentes": [
     "https://chequeado.com/el-explicador/jose-luis-espert-citado-a-indagatoria-como-avanzo-la-causa-por-su-vinculo-con-fred-machado/",
     "https://www.noticiasnqn.com.ar/amp/noticias/2026/07/07/342823-espert-sera-indagado-por-una-causa-de-presunto-lavado-de-dinero-vinculada-a-fred-machado",
-    "https://www.lavozdesanjusto.com.ar/jose-luis-espert-se-nego-a-declarar-en-la-causa-por-presunto-lavado-de-dinero-vinculada-a-fred-machado"
+    "https://www.lavozdesanjusto.com.ar/jose-luis-espert-se-nego-a-declarar-en-la-causa-por-presunto-lavado-de-dinero-vinculada-a-fred-machado",
+    "https://www.mdzol.com/politica/2026/10/22/procesaron-a-jose-luis-espert-por-el-dinero-vinculado-a-fred-machado-y-le-trabaron-un-embargo-millon-1990058.html",
+    "https://www.canal26.com/politica/2026/10/22/jose-luis-espert-fue-procesado-por-lavado-de-dinero-y-no-podra-salir-del-pais/",
+    "https://canal26.com/politica/2026/10/27/jose-luis-espert-apelo-su-procesamiento-por-lavado-de-dinero-y-pidio-que-levanten-el-embargo-de-1000-millones",
+    "https://elargentinodiario.com.ar/politica/07/07/2026/espert-se-nego-a-declarar-por-el-lavado-de-los-us-200-000-del-narco-fred-machado/"
    ],
-   "nota": "Espert ya no es funcionario; se incluye porque los hechos se investigan mientras era diputado y candidato oficialista."
+   "nota": "Espert ya no es funcionario; se incluye porque los hechos se investigan mientras era diputado y candidato oficialista.",
+   "discrepancias": "Año del pago: MDZ dice 2020 y Canal 26, 2019."
   }
  ],
  "denuncias_sin_avance_relevado": [
@@ -165,8 +187,9 @@
   }
  ],
  "faltantes": [
-  "Fecha de la indagatoria de Espert y si declaró o se negó.",
-  "Si el sobreseimiento de $LIBRA quedó firme (depende de Casación).",
+  "Si el juzgado concede las apelaciones contra el sobreseimiento de $LIBRA y qué resuelve la Cámara (y Casación sobre las querellas).",
+  "Contenido del informe firmado de Gendarmería sobre los audios de ANDIS (al 29/10 no estaba agregado, según fuentes judiciales).",
+  "Resolución de la Cámara de San Martín sobre el procesamiento de Espert.",
   "Situación de Francisco Adorni (imputado en una causa conexa, según El Economista; no verificado en detalle)."
  ]
 }

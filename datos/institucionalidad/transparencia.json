@@ -1,8 +1,15 @@
 {
  "meta": {
   "titulo": "Falta de transparencia: acceso a la información, secreto, datos públicos y prensa",
-  "actualizado": "2026-10-25",
-  "tipos": ["Acceso a la información", "Secreto", "Datos públicos", "Prensa", "Gastos reservados", "Informes de gestión"]
+  "actualizado": "2026-10-30",
+  "tipos": [
+   "Acceso a la información",
+   "Secreto",
+   "Datos públicos",
+   "Prensa",
+   "Gastos reservados",
+   "Informes de gestión"
+  ]
  },
  "kpis": [
   {
@@ -117,6 +124,16 @@
    "fuentes": [
     "https://www.lanacion.com.ar/politica/crece-el-malestar-en-el-senado-por-la-demora-de-santilli-en-concurrir-a-brindar-su-informe-nid20102026/",
     "https://www.noticiasdelacalle.com.ar/noticias/2026/09/17/195202-el-pj-exige-que-santilli-vaya-al-senado-hace-15-meses-que-no-viene-un-jefe-de-gabinete"
+   ]
+  },
+  {
+   "fecha": "2026-10-28",
+   "hecho": "Santilli acordó con la presidenta del bloque LLA del Senado, Patricia Bullrich, presentar su primer informe de gestión ante el Senado el 25/11/2026. Con eso se desactivó una resolución opositora que buscaba citarlo el 18/11. Sería el primer informe de un jefe de Gabinete en el Senado en 17 meses.",
+   "tipo": "Informes de gestión",
+   "que_establece_la_norma": "Art. 101 CN: el jefe de Gabinete debe concurrir al Congreso al menos una vez por mes, alternando las cámaras.",
+   "posicion_gobierno": "Fecha acordada con el bloque oficialista; todavía no ocurrió.",
+   "fuentes": [
+    "https://www.infobae.com/politica/2026/10/29/diego-santilli-presentara-su-primer-informe-de-gestion-en-el-senado-el-25-de-noviembre/"
    ]
   }
  ],

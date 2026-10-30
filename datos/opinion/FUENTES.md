@@ -1,6 +1,6 @@
 # Fuentes y faltantes · datos/opinion
 
-Actualizado: 2026-10-25. Cubre `encuestas.json`. Cada encuesta lleva al lado su `fuente_url`, su `fuente_fecha` y, cuando hay, `fuentes_cruce`.
+Actualizado: 2026-10-30. Cubre `encuestas.json`. Cada encuesta lleva al lado su `fuente_url`, su `fuente_fecha` y, cuando hay, `fuentes_cruce`.
 
 ## Criterio
 - Encuestas nacionales con campo entre el 01/11/2025 y el 25/10/2026, de consultoras que publican ficha técnica (n, campo, método o margen).
@@ -37,3 +37,11 @@ Actualizado: 2026-10-25. Cubre `encuestas.json`. Cada encuesta lleva al lado su 
 - **Sin aparición con ficha en el período:** Poliarquía (solo como campo del índice UTDT), Taquion, CB Consultora, Synopsis, Isonomía y Opina Argentina (esta mide imagen, no gestión).
 - **Confianza en instituciones:** solo QSocial (may-2026), y le faltan Justicia y Medios. No se encontraron cifras de la Argentina por institución en el Latinobarómetro 2026.
 - **Índice UTDT de octubre 2026:** no publicado al 25/10.
+
+## Cambios del corte del 30/10/2026
+- **Octubre 2026 pasa a 5 encuestadoras:** promedio 36,2 % de aprobación y 59,6 % de desaprobación (AtlasIntel, D'Alessio, ESPOP, Zuban Córdoba y Synopsis). Antes: 37,8 / 59,1 con tres.
+- **Zuban Córdoba oct-2026:** campo 16 al 19/10, 1.600 casos online, ±2,45; aprobación 34,1 y desaprobación 65,2. Coinciden Parlamentario, InfoPlatense y El Intransigente (26/10/2026).
+- **Synopsis oct-2026 (nueva encuestadora con ficha):** campo 12 al 17/10, 1.259 casos, ±2,8; evaluación positiva 33,6, regular 10,7 y negativa 55,6. Grupo La Provincia (ficha), DataClave (30/10) y El Censor del Oeste (29/10). Método no informado. Discrepancia: «muy mala» 42 (Grupo La Provincia) o 44,2 (DataClave).
+- **Índice UTDT de octubre:** 1,95 (+0,9 % contra septiembre), campo del 5 al 16/10 (Forbes y Economis, 26/10/2026).
+- **No cargada:** Celag (El Destape, 26/10/2026), 2.000 casos presenciales, imagen de Milei 38,6 / 58,2: mide imagen, no gestión, y no informa fechas de campo.
+- **Siguen faltando en octubre:** Management & Fit y Zentrix (de Zentrix solo se publicaron datos de ingresos, sin aprobación ni ficha).

@@ -1,8 +1,13 @@
 {
  "meta": {
   "titulo": "Incumplimientos legales: leyes no ejecutadas, fallos y plazos",
-  "actualizado": "2026-10-25",
-  "estados_posibles": ["vigente sin cumplir", "suspendida", "cumplida", "en litigio"],
+  "actualizado": "2026-10-30",
+  "estados_posibles": [
+   "vigente sin cumplir",
+   "suspendida",
+   "cumplida",
+   "en litigio"
+  ],
   "nota": "Las tres leyes de 2025 fueron vetadas y luego insistidas por los dos tercios de ambas cámaras (votos en datos/congreso/ejecutivo.json). El Ejecutivo las promulgó, pero suspendió su ejecución hasta que el Congreso defina el financiamiento, con base en el art. 5 de la Ley 24.629 y el art. 38 de la Ley 24.156."
  },
  "items": [
@@ -14,7 +19,11 @@
    "estado": "en litigio",
    "estado_nota": "Lectura propia: hay reglamentación tras un fallo, pero los prestadores denuncian incumplimientos en aranceles. No se encontró si el fallo de Campana quedó firme.",
    "fecha": "2025-09-22",
-   "ultima_novedad": {"fecha": "2026-02-25", "hecho": "El Foro Permanente de Discapacidad denuncia que el Ejecutivo 'desoye el mandato legislativo'.", "fuente": "https://www.minutouno.com/sociedad/foro-permanente-discapacidad-denuncia-que-persiste-la-crisis-del-sistema-prestacional-n6249330"},
+   "ultima_novedad": {
+    "fecha": "2026-02-25",
+    "hecho": "El Foro Permanente de Discapacidad denuncia que el Ejecutivo 'desoye el mandato legislativo'.",
+    "fuente": "https://www.minutouno.com/sociedad/foro-permanente-discapacidad-denuncia-que-persiste-la-crisis-del-sistema-prestacional-n6249330"
+   },
    "posicion_gobierno": "Aplicarla sin financiamiento pondría en riesgo la estabilidad fiscal; la ley no especifica fuentes de recursos (art. 38, Ley 24.156).",
    "fuentes": [
     "https://www.palabrasdelderecho.com.ar/articulo/6249/Promulgaron-la-Ley-de-Emergencia-en-Discapacidad-pero-suspendieron-su-ejecucion",
@@ -30,9 +39,13 @@
    "que_establece": "Garantiza el financiamiento de las universidades públicas, la recomposición salarial de docentes y no docentes, becas e investigación (arts. 4 a 7).",
    "que_hizo_el_gobierno": "El Decreto 759/2025 (BO 21/10/2025) la promulgó 'sin perjuicio de lo dispuesto por el artículo 5° de la Ley N° 24.629', lo que suspendió su ejecución hasta que el Congreso defina las fuentes de financiamiento. El 23/12/2025 el Juzgado Contencioso Administrativo Federal N° 11 (juez Martín Cormick) dictó una cautelar a favor del CIN. La Cámara (Sala III) la confirmó y el 25/06/2026 la Corte Suprema rechazó la queja del Estado. El 01/09/2026 el juez extendió la cautelar a la UBA, y el 06/10/2026 declaró inconstitucional el Decreto 759/2025 en la sentencia de fondo y ordenó cumplir la ley 'de inmediato'. En paralelo, el 10/06/2026 el gobierno firmó un acuerdo con el CIN y los gremios: 24,33 % de aumento salarial en dos tramos, 20 % más para gastos de funcionamiento y $50.000 millones para hospitales universitarios.",
    "estado": "en litigio",
-   "estado_nota": "Sentencia de primera instancia del 06/10/2026, apelable; la cautelar quedó firme tras el rechazo de la Corte.",
+   "estado_nota": "Sentencia de primera instancia del 06/10/2026, apelada por el Estado: el juez concedió el recurso con efecto suspensivo sobre la sentencia, pero la cautelar (salarios, becas y gastos de funcionamiento) sigue en ejecución. Resuelve la Cámara Contencioso Administrativo Federal.",
    "fecha": "2025-10-21",
-   "ultima_novedad": {"fecha": "2026-10-06", "hecho": "El Juzgado CAF 11 declaró inconstitucional el Decreto 759/2025 y ordenó aplicar la ley de inmediato.", "fuente": "https://www.palabrasdelderecho.com.ar/articulo/7040/La-Justicia-declaro-inconstitucional-el-decreto-que-freno-la-Ley-de-Financiamiento-Universitario-y-ordeno-aplicarla-de-inmediato"},
+   "ultima_novedad": {
+    "fecha": "2026-10-09",
+    "hecho": "Cormick concedió la apelación del Estado contra la sentencia del 06/10 con efecto suspensivo, y aclaró que la cautelar sigue vigente. Los gremios universitarios (CONADU Histórica, FAGDUT, FATUN, COAD) iniciaron paros el 28/10 por el cumplimiento de la ley.",
+    "fuente": "https://www.iprofesional.com/legales/466299-fondos-universitarios-justicia-mantiene-salarios-becas-gobierno"
+   },
    "posicion_gobierno": "La ley no tiene fuente de financiamiento. En el juicio, el Estado sostuvo que el acuerdo salarial del 10/06/2026 dejó sin sustento la cautelar.",
    "fuentes": [
     "https://www.argentina.gob.ar/normativa/nacional/norma-419007",
@@ -50,7 +63,11 @@
    "estado": "suspendida",
    "estado_nota": "No se encontró resolución judicial del amparo. La emergencia era por un año desde octubre de 2025: a confirmar si se considera vencida.",
    "fecha": "2025-10-21",
-   "ultima_novedad": {"fecha": "2026-04-29", "hecho": "La Res. 542/2026 de Salud reglamenta las residencias pese al art. 10 de la ley.", "fuente": "https://www.argentina.gob.ar/normativa/nacional/norma-425270"},
+   "ultima_novedad": {
+    "fecha": "2026-04-29",
+    "hecho": "La Res. 542/2026 de Salud reglamenta las residencias pese al art. 10 de la ley.",
+    "fuente": "https://www.argentina.gob.ar/normativa/nacional/norma-425270"
+   },
    "posicion_gobierno": "La ley cuesta unos $196.270 millones sin fuente de financiamiento, y el Ministerio de Salud tiene un déficit de $102.400 millones. El gobierno dice que tiene 'la voluntad de atender, dentro de las disponibilidades presupuestarias actuales', esas necesidades.",
    "fuentes": [
     "https://www.argentina.gob.ar/normativa/nacional/norma-419009",
@@ -66,9 +83,18 @@
    "que_establece": "El jefe de Gabinete 'debe concurrir al Congreso al menos una vez por mes', alternando las cámaras, durante las sesiones ordinarias (1 de marzo al 30 de noviembre). No prevé sanción.",
    "que_hizo_el_gobierno": "Posse presentó 1 informe de 3 (33 %). Francos presentó 5 en 14 meses de sesiones ordinarias (36 %); su último informe en el Senado fue el 26/06/2025. Adorni presentó uno solo, en Diputados, el 29/04/2026, y nunca fue al Senado. Santilli, en funciones desde el 30/06/2026, no concurrió a ninguna cámara hasta el 20/10/2026.",
    "estado": "vigente sin cumplir",
-   "fecha": "2026-10-20",
-   "kpi": {"informes_presentados_desde_2023_12": 7, "meses_de_sesiones_ordinarias_hasta_2026_10": 26, "informes_no_presentados_estimados": 19, "nota": "Cálculo propio: 9 meses en 2024, 9 en 2025 y 8 en 2026 (marzo a octubre), menos 7 informes (1+5+1+0). No descuenta prórrogas ni sesiones extraordinarias."},
-   "ultima_novedad": {"fecha": "2026-10-20", "hecho": "Crece el malestar en el Senado por la demora de Santilli; no concurre un jefe de Gabinete a esa cámara desde junio de 2025.", "fuente": "https://www.lanacion.com.ar/politica/crece-el-malestar-en-el-senado-por-la-demora-de-santilli-en-concurrir-a-brindar-su-informe-nid20102026/"},
+   "fecha": "2026-10-28",
+   "kpi": {
+    "informes_presentados_desde_2023_12": 7,
+    "meses_de_sesiones_ordinarias_hasta_2026_10": 26,
+    "informes_no_presentados_estimados": 19,
+    "nota": "Cálculo propio: 9 meses en 2024, 9 en 2025 y 8 en 2026 (marzo a octubre), menos 7 informes (1+5+1+0). No descuenta prórrogas ni sesiones extraordinarias."
+   },
+   "ultima_novedad": {
+    "fecha": "2026-10-28",
+    "hecho": "Santilli acordó presentar su primer informe en el Senado el 25/11/2026, a 17 meses del último informe de un jefe de Gabinete en esa cámara. Hasta el 30/10 no concurrió a ninguna cámara.",
+    "fuente": "https://www.infobae.com/politica/2026/10/29/diego-santilli-presentara-su-primer-informe-de-gestion-en-el-senado-el-25-de-noviembre/"
+   },
    "posicion_gobierno": "El entorno de Santilli invoca su 'reciente desembarco en el ministerio'.",
    "fuentes": [
     "https://chequeado.com/el-explicador/manuel-adorni-ira-por-primera-vez-al-congreso-los-jefes-de-gabinete-que-mas-cumplieron-con-esta-obligacion-constitucional/",
@@ -85,11 +111,14 @@
    "estado_nota": "No hubo fallo: la reapertura fue voluntaria. Se incluye como antecedente; el detalle está en transparencia.json.",
    "fecha": "2026-04-30",
    "posicion_gobierno": "El cierre fue una medida 'preventiva' de seguridad tras una denuncia de Casa Militar contra periodistas de TN.",
-   "fuentes": ["https://www.ambito.com/politica/ante-la-inminencia-un-fallo-adverso-ahora-el-gobierno-reabre-la-sala-periodistas-la-rosada-n6272841/amp", "https://www.lacapitalmdp.com/fopea-denuncio-ante-la-cidh-la-restriccion-al-acceso-de-periodistas-a-la-casa-rosada/"]
+   "fuentes": [
+    "https://www.ambito.com/politica/ante-la-inminencia-un-fallo-adverso-ahora-el-gobierno-reabre-la-sala-periodistas-la-rosada-n6272841/amp",
+    "https://www.lacapitalmdp.com/fopea-denuncio-ante-la-cidh-la-restriccion-al-acceso-de-periodistas-a-la-casa-rosada/"
+   ]
   }
  ],
  "faltantes": [
-  "Si el Estado apeló la sentencia del 06/10/2026 sobre la Ley 27.795, y el grado de cumplimiento efectivo de la cautelar.",
+  "Grado de cumplimiento efectivo de la cautelar sobre la Ley 27.795 (los gremios universitarios reclaman su cumplimiento).",
   "Si el fallo de Campana sobre la Ley 27.793 quedó firme o fue apelado, y el estado de los aranceles en 2026.",
   "Resolución del amparo colectivo del Garrahan sobre la Ley 27.796, y si la emergencia se considera vencida en octubre de 2026.",
   "No se encontraron otros fallos firmes incumplidos por el Ejecutivo con fuente verificable."

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "actualizado": "2026-10-25",
+  "actualizado": "2026-10-30",
   "descripcion": "Elecciones 2027: calendario nacional y qué elige cada distrito. Ver FUENTES.md."
  },
  "nacional": {
@@ -8,13 +8,15 @@
    "estado": "vigentes por ley; eliminación o suspensión en debate (a confirmar)",
    "fecha_legal": "2027-08-08",
    "regla": "Ley 26.571: segundo domingo de agosto del año de la elección nacional.",
-   "det": "Al 22/10/2026 no hay ley que elimine ni suspenda las PASO 2027. El proyecto del Ejecutivo (reforma electoral) está en la Comisión de Asuntos Constitucionales del Senado, sin dictamen ni consenso (15/09/2026). Bullrich pide aprobarlo antes de fin de año; Milei dijo el 22/10/2026 que 'no va a haber PASO'. Si no se sanciona una ley, se hacen el 8/8/2027.",
+   "det": "Al 30/10/2026 no hay ley que elimine ni suspenda las PASO 2027. El proyecto del Ejecutivo (reforma electoral) sigue en la Comisión de Asuntos Constitucionales del Senado, sin dictamen: el Gobierno postergó la convocatoria a la comisión por falta de los 37 votos (El Liberal, 18/10/2026) y evalúa prorrogar las sesiones ordinarias en diciembre. El bloque PRO del Senado se opone a eliminarlas o suspenderlas (La Nación, 30/10/2026). Milei dijo el 22/10/2026 que 'no va a haber PASO'. Si no se sanciona una ley, se hacen el 8/8/2027.",
    "fuentes": [
     "https://aldiaargentina.microjuris.com/2019/05/10/elecciones-nacionales-se-determina-la-fecha-de-las-paso-y-las-elecciones-generales-primera-y-segunda-vuelta/",
     "https://www.tiempoar.com.ar/ta_article/el-senado-retomo-en-comision-el-debate-sobre-reforma-politica-sin-consenso-todavia-para-eliminar-las-paso/amp/",
     "https://www.infozona.com.ar/suspension-de-las-paso-y-ficha-limpia-el-senado-debate-la-reforma-electoral-para-2027/",
     "https://eldestapeweb.com/politica/javier-milei-medidas-gobierno-vivo-ultimas-noticias-22-octubre-minuto-minuto-2026102265413",
-    "https://www.perfil.com/noticias/politica/suspension-de-las-paso-2027-los-gobernadores-aliados-de-milei-abren-la-puerta-al-cambio-y-la-definicion-queda-en-manos-del-senado.phtml"
+    "https://www.perfil.com/noticias/politica/suspension-de-las-paso-2027-los-gobernadores-aliados-de-milei-abren-la-puerta-al-cambio-y-la-definicion-queda-en-manos-del-senado.phtml",
+    "https://www.elliberal.com.ar/nota/95239/2026/10/reforma-politica--el-gobierno-frena-el-debate-en-el-senado-por-falta-de-votos-y-redefine-su-plan-hacia-2027",
+    "https://www.lanacion.com.ar/politica/congreso-pro-complica-al-gobierno-con-objeciones-al-presupuesto-2027-la-reforma-electoral-y-la-ley-nid30102026/"
    ]
   },
   "generales": {

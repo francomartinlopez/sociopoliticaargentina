@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Votaciones clave en el Congreso desde el 10/12/2023",
-  "actualizado": "2026-10-25",
+  "actualizado": "2026-10-30",
   "convenciones": {
    "afirmativos/negativos/abstenciones/ausentes": "Tal como los publican las fuentes; null = no publicado o no encontrado.",
    "DNU": "En los ítems con dnu=true los números siguen el sentido de la validez del decreto: afirmativos = a favor del decreto, negativos = por el rechazo. Muchas fuentes los informan al revés, como votos por el rechazo; cada caso lo aclara en 'nota'.",
@@ -713,10 +713,60 @@
    ]
   },
   {
+   "id": "salud-mental-2026",
+   "nombre": "Reforma de la Ley de Salud Mental (26.657)",
+   "impulsor": "gobierno",
+   "estado": "Media sanción del Senado (29/10/2026). Pasa a Diputados.",
+   "votaciones": [
+    {
+     "camara": "Senado",
+     "fecha": "2026-10-29",
+     "etapa": "Media sanción",
+     "tipo": "en general",
+     "afirmativos": 42,
+     "negativos": 21,
+     "abstenciones": 0,
+     "ausentes": null,
+     "resultado": "Aprobada en general. Pasa a Diputados",
+     "fuentes": [
+      {
+       "medio": "Parlamentario",
+       "url": "https://www.parlamentario.com/2026/10/30/el-senado-dio-media-sancion-a-la-reforma-de-la-ley-de-salud-mental/"
+      },
+      {
+       "medio": "El Intransigente",
+       "url": "https://elintransigente.com/2026/10/30/senado-nacion-reforma-ley-salud-mental-internaciones-involuntarias-diputados/"
+      },
+      {
+       "medio": "Información Regional",
+       "url": "https://informacionregional.com.ar/nacion/con-42-votos-a-favor-el-senado-dio-media-sancion-a-la-reforma-de-salud-mental-y-el-proyecto-paso-a-diputados-111000/"
+      },
+      {
+       "medio": "Desarrollo Zonal",
+       "url": "https://desarrollozonal.com/senado-aprobo-reforma-ley-de-salud-mental/"
+      }
+     ],
+     "nota": "Proyecto del Poder Ejecutivo (Desarrollo Zonal; Información Regional dice «impulsado por el Gobierno»). La sesión empezó el jueves 29/10 y la votación fue en la madrugada del viernes 30/10, según Información Regional. 0 abstenciones según Parlamentario; las demás fuentes no las informan. No se publicó lista nominal ni ausentes."
+    }
+   ],
+   "resumen_index": [
+    {
+     "camara": "Senado",
+     "fecha": "2026-10-29",
+     "etapa": "Media sanción",
+     "v": [
+      42,
+      21,
+      0
+     ]
+    }
+   ]
+  },
+  {
    "id": "eliminacion-paso-2027",
    "nombre": "Eliminación/suspensión de las PASO 2027 (reforma electoral)",
    "impulsor": "gobierno",
-   "estado": "Sin votación en ninguna cámara al 21/10/2026. Está en el Senado, sin dictamen de comisión. La próxima sesión del Senado estaba prevista para el 29/10 y el tema probablemente pase a noviembre. El gobierno evalúa suspenderlas solo para 2027.",
+   "estado": "Sin votación en ninguna cámara al 30/10/2026. Está congelada en el Senado, sin dictamen: el Gobierno postergó la reunión de Asuntos Constitucionales por falta de los 37 votos (El Liberal, 18/10/2026) y el bloque PRO del Senado se opone a eliminar o suspender las PASO (La Nación, 30/10/2026).",
    "votaciones": [],
    "fuentes_estado": [
     {
@@ -730,6 +780,14 @@
     {
      "medio": "Cadena 3 (26/07/2026)",
      "url": "https://www.cadena3.com/noticia/politica-y-economia/el-gobierno-no-consigue-los-votos-para-eliminar-las-paso-la-alternativa-que-manejan-en-el-senado_577039"
+    },
+    {
+     "medio": "El Liberal",
+     "url": "https://www.elliberal.com.ar/nota/95239/2026/10/reforma-politica--el-gobierno-frena-el-debate-en-el-senado-por-falta-de-votos-y-redefine-su-plan-hacia-2027"
+    },
+    {
+     "medio": "La Nación",
+     "url": "https://www.lanacion.com.ar/politica/congreso-pro-complica-al-gobierno-con-objeciones-al-presupuesto-2027-la-reforma-electoral-y-la-ley-nid30102026/"
     }
    ],
    "nota": "Hace falta mayoría absoluta: 37 senadores y 129 diputados. Según Parlamentario, LLA tiene 20 senadores hasta que asuma el reemplazo de Pagotto, que falleció.",

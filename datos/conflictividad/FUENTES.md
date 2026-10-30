@@ -1,6 +1,6 @@
 # Fuentes y faltantes · datos/conflictividad
 
-Actualizado: 2026-10-25 (segunda tanda). Período: 25/10/2025 a 25/10/2026.
+Actualizado: 2026-10-30 (corte semanal). Período: 30/10/2025 a 30/10/2026.
 
 ## Archivos
 - `ev.jsonl`: un hecho verificado por línea. Es el archivo que se edita.
@@ -53,3 +53,13 @@ Segunda tanda (búsqueda provincia por provincia):
 - **Excluidos a propósito:** los disturbios por los festejos y la derrota de la Selección (07/07 y 20/07/2026, también en Córdoba), porque no son conflictos sociopolíticos; los ataques a locales partidarios con solo pintadas (LLA Rosario, 15/10).
 - **Heridos civiles:** casi ninguna fuente da cifras de manifestantes heridos; las cargadas suelen ser de efectivos. Va aclarado en nota.
 - **Fechas aproximadas:** la protesta policial de Jujuy (noche del 9 al 10/03), el motín de Salta, los hechos de La Izquierda Diario y, en la segunda tanda, todos los que llevan «fecha deducida» en nota. La toma de Aires del Sur, los cortes de Salta y el paro de UnTER por el IPROSS (24/09) tienen fecha aproximada.
+
+## Corte del 30/10/2026
+- **Período móvil:** `build_hechos.py` ahora recibe la fecha de corte (`python3 build_hechos.py 2026-10-30`) y toma los 12 meses anteriores. Sale del mapa el motín de la Alcaidía de Salta (26/10/2025), que queda en `ev.jsonl` como historial. Las rutas del script pasaron a ser relativas a la carpeta.
+- **Puntos del mapa:** `puntos.json` lo genera ahora el mismo script. Las ciudades ya proyectadas con `geo.mjs` conservan su punto exacto (`puntos_ref.json`, tabla lat,lon → x,y). Las ciudades nuevas (Esquina, Chascomús, Pampa del Indio, San Vicente de Misiones y San Luis) se proyectan con un polinomio de grado 3 ajustado sobre las 45 ya proyectadas: error máximo de 0,08 px en el ajuste y de 0,16 px en validación cruzada (dejando una afuera). Se revisó que los 143 hechos anteriores mantienen exactamente sus coordenadas.
+- **25 hechos nuevos (168 en total):**
+  - Semana del 25 al 30/10: marcha de jubilados al Congreso con un cruce entre el diputado Pietragalla Corti y la Policía de la Ciudad (28/10, El Destape); paro universitario de CONADU Histórica, AGD-UBA, FAGDUT y FATUN (28/10, Infobae y Hoy Día) y de COAD en la UNR (28/10, El Cronista); marchas por la docente rural Nancy Godoy en Corrientes (26/10) y Esquina (28/10, «cientos de personas» según Infobae); paro nacional de CTERA por su femicidio (29/10, Diario Popular, Cadena 3 y El Argentino Diario) con marchas en Posadas, Chascomús y Concordia.
+  - Provincias con pocos hechos (búsqueda hacia atrás): San Luis pasa de 0 a 4 (27/02, 01/04 con represión frente a la Legislatura según ATE, 01/07 y 08/10); Santiago del Estero, Formosa y La Rioja suman las marchas universitarias del 12/05 y el 15/10; Chaco, el paro docente del 02/03 y el corte frustrado en Pampa del Indio (29/04); Misiones, los cortes yerbateros (20/04), el tractorazo (05/09) y la marcha universitaria de Posadas (15/10); Tierra del Fuego, el paro de la UOM en Mirgor (10/08) y el acampe del SUTEF (21/04).
+- **Fuentes de parte o con advertencia:** Agenfor es la agencia oficial del gobierno de Formosa; InfoGremiales es un medio sindical; el relato de San Luis del 01/04 es de ATE (las «decenas de heridos» no tienen número y quedaron en null). Varias crónicas se leyeron en réplicas de Examedia.
+- **Pendientes de esta semana (sin crónica o sin acceso):** marcha de ATEP, SADOP y APEMyS en Tucumán (29/10; GN Noticias no abrió); paro del SUTEF por Nancy Godoy en Tierra del Fuego (fechas contradictorias); movilización de AMSAFE y SADOP en Rosario (29/10; Conclusión no abrió); paro provincial de SUTECO en Corrientes (29/10); paro de la FUDB en Buenos Aires (30/10, solo convocatoria); paro de las dos CTA de «fines de octubre» (sin fecha confirmada ni crónica); adhesión de Docentes Autoconvocados en Formosa (sin fecha). La protesta de FeTERA en Atucha se habría pasado a noviembre.
+- **Cobertura:** Santiago del Estero, Formosa, La Rioja y San Juan siguen con 3 hechos; Tucumán, San Luis, Chaco, Corrientes y Tierra del Fuego con 4.

@@ -1,6 +1,6 @@
 # Gobernabilidad: fuentes
 
-Consulta: 25/10/2026. Archivo: `fracturas.json`. No había archivos previos en esta carpeta.
+Consulta: 25/10/2026; corte semanal del 30/10/2026. Archivo: `fracturas.json`. No había archivos previos en esta carpeta.
 
 ## Qué es dato y qué es lectura propia
 - **Datos con fuente:** fechas, actores y qué pasó. Cada entrada del timeline lleva al menos dos URL.
@@ -48,3 +48,9 @@ Consulta: 25/10/2026. Archivo: `fracturas.json`. No había archivos previos en e
 - **Interna de LLA:** detalle de la disputa Karina Milei–Santiago Caputo de marzo y abril de 2026. El Observador quedó fuera de la lista de dominios permitidos y se usó Infobae (10/06/2026), que se basa en fuentes reservadas.
 - **Resolución del amparo del PRO sobre la AGN:** no se encontró.
 - **Quinto paro de la CGT:** a la fecha de corte no se encontró ninguno convocado.
+
+## Corte del 30/10/2026
+- **PRO (28/10):** no firmó el dictamen del Presupuesto 2027 y pidió siete cambios; Goerling se opone a suspender las PASO y Macri dio por estancada la negociación electoral (La Nación, 30/10; El Cronista, 28/10; Diario Popular). Gravedad sugerida 2 (lectura propia).
+- **CGT (28/10):** archivó el quinto paro general y evalúa un paro de 2 a 4 horas y un acto en un estadio (Infobae, 28/10; contexto en BAE, 29/09). Gravedad sugerida 2.
+- **Fracturas abiertas:** 11 (entradas cuyo estado empieza con «abierta»).
+- **No cargado:** renuncia de César Lencina, subsecretario de Ciencia y Tecnología, con efecto el 29/10 tras 37 días en el cargo (Canal 26): es tercera línea.

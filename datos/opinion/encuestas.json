@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generado": "2026-10-25",
+  "generado": "2026-10-30",
   "periodo": [
    "2025-11-01",
-   "2026-10-25"
+   "2026-10-30"
   ],
   "criterio_inclusion": "Encuestas nacionales con al menos fechas de campo o n informados, de encuestadoras que publican ficha técnica. Cada número tiene URL y fecha de la fuente.",
   "metodo_promedio": "Promedio aritmético simple (sin ponderar por n ni por encuestadora) de aprobación y desaprobación de las encuestas con tipo_medicion='gestion' cuya fecha de fin de campo cae en el mes. Se excluyen: mediciones de imagen del presidente (Opina Argentina, Giacobbe), encuestas sin fecha de campo conocida, y olas sin cifras. Las olas de AtlasIntel y D'Alessio se asignan por fin de campo, no por el rótulo del informe (ver mes_etiqueta_informe). Redondeo a 1 decimal.",
@@ -168,14 +168,16 @@
   },
   {
    "mes": "2026-10",
-   "aprobacion": 37.8,
-   "desaprobacion": 59.1,
-   "n_encuestas": 3,
-   "n_encuestadoras": 3,
+   "aprobacion": 36.2,
+   "desaprobacion": 59.6,
+   "n_encuestas": 5,
+   "n_encuestadoras": 5,
    "encuestas": [
     "atlas-2026-09w",
     "dalessio-2026-10",
-    "espop-2026-10"
+    "espop-2026-10",
+    "zuban-2026-10",
+    "synopsis-2026-10"
    ],
    "alerta": null
   }
@@ -2574,6 +2576,71 @@
     "Poder Judicial": 16,
     "Cámara de Diputados": 16
    }
+  },
+  {
+   "id": "zuban-2026-10",
+   "encuestadora": "Zuban Córdoba y Asociados",
+   "campo_inicio": "2026-10-16",
+   "campo_fin": "2026-10-19",
+   "n": 1600,
+   "metodo": "online, cuestionario estructurado, mayores de 16; ponderada por género, edad, zona y voto presidencial 2023 (primera vuelta)",
+   "margen_error_pp": 2.45,
+   "aprobacion": 34.1,
+   "desaprobacion": 65.2,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {
+    "Axel Kicillof": {
+     "positiva": 46,
+     "negativa": 52.4
+    },
+    "Javier Milei": {
+     "positiva": 34.9,
+     "negativa": 64.1
+    },
+    "Mauricio Macri": {
+     "positiva": 31.8,
+     "negativa": 66.2
+    }
+   },
+   "problemas": {},
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.parlamentario.com/2026/10/26/una-encuesta-da-un-65-de-desaprobacion-de-milei-y-el-peronismo-aparece-al-frente-de-los-escenarios-para-2027/",
+   "fuente_fecha": "2026-10-26",
+   "fuentes_cruce": [
+    "https://www.infoplatense.com.ar/encuesta-zuban-cordoba-octubre-2026-kicillof-milei-2027/",
+    "https://elintransigente.com/2026/10/26/zubancordoba-encuesta-desaprobacion-milei-crecimiento-bullrich-kicillof/"
+   ],
+   "notas": "Aprobación 34,1/65,2 y ficha coinciden en las tres fuentes; método y ponderación de InfoPlatense. Parlamentario da además imagen positiva de Bregman (45,3) y Bullrich (43, +5,4 contra septiembre) sin la negativa, por eso no se cargan. Examedia tituló «35 % de aprobación y 64 % de desaprobación», que corresponden a la imagen de Milei (34,9/64,1).",
+   "en_promedio": true
+  },
+  {
+   "id": "synopsis-2026-10",
+   "encuestadora": "Synopsis",
+   "campo_inicio": "2026-10-12",
+   "campo_fin": "2026-10-17",
+   "n": 1259,
+   "metodo": null,
+   "margen_error_pp": 2.8,
+   "aprobacion": 33.6,
+   "desaprobacion": 55.6,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": null,
+   "imagen_dirigentes": {},
+   "problemas": {
+    "Desempleo": 39.2,
+    "Corrupción": 23.2,
+    "Educación": 9.2
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://grupolaprovincia.com/contenido/602943/encuesta-nacional-casi-el-60-pide-un-cambio-de-rumbo-y-crece-el-rechazo-a-la-ges",
+   "fuente_fecha": "2026-10-30",
+   "fuentes_cruce": [
+    "https://www.dataclave.com.ar/poder/octubre-termina-con-la-preocupacion-por-la-desocupacion-y-los-bajos-salarios-en-los-niveles-maximos-de-la-era-milei_a6ae4a9b70caa1b146253ed46",
+    "https://elcensordeloeste.com/2026/10/29/encuesta-nacional-de-synopsis-casi-el-60-pide-un-cambio-de-rumbo-y-crece-el-rechazo-a-la-gestion-nacional/"
+   ],
+   "notas": "Evaluación del gobierno en escala bueno/regular/malo: 33,6 positiva, 10,7 regular (DataClave) y 55,6 negativa. Campo y margen solo en Grupo La Provincia, que no fecha la nota (se usa la de DataClave, 30/10/2026); n = 1.259 coincide con DataClave. «Muy mala»: 42 según Grupo La Provincia y 44,2 según DataClave. Problemas: principales problemas del país (Grupo La Provincia; DataClave coincide en desempleo 39,2 y corrupción 23,2). Primera vez que Synopsis aparece con ficha en el período.",
+   "en_promedio": true
   }
  ],
  "indice_confianza_gobierno_utdt": {
@@ -2647,10 +2714,10 @@
    },
    {
     "mes": "2026-10",
-    "valor": null,
-    "campo": null,
-    "fuente": null,
-    "nota": "No publicado / no encontrado al 2026-10-25"
+    "valor": 1.95,
+    "campo": "2026-10-05/2026-10-16",
+    "fuente": "https://www.forbesargentina.com/today/la-confianza-gobierno-milei-subio-octubre-pero-acumula-una-caida-207-fines-2025-n101138",
+    "nota": "+0,9 % contra septiembre (1,94); -7 % interanual. Campo de Poliarquía, telefónico, 1.000 casos en 39 localidades. Coincide con Economis (26/10/2026): https://economis.com.ar/?p=500003"
    }
   ]
  },
