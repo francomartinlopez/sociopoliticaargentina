@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Falta de transparencia: acceso a la información, secreto, datos públicos y prensa",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-11-06",
   "tipos": [
    "Acceso a la información",
    "Secreto",
@@ -135,12 +135,23 @@
    "fuentes": [
     "https://www.infobae.com/politica/2026/10/29/diego-santilli-presentara-su-primer-informe-de-gestion-en-el-senado-el-25-de-noviembre/"
    ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "hecho": "FOPEA pidió la intervención del Relator Especial de la ONU para la libertad de expresión por la 'escalada' de agresiones contra la prensa; entre otras cosas cita los 11 días de cierre de la sala de periodistas de Casa Rosada y el Decreto 780/2024 sobre acceso a la información.",
+   "tipo": "Prensa",
+   "que_establece_la_norma": "Art. 14 y 32 CN (libertad de prensa); Ley 27.275 de acceso a la información.",
+   "fuentes": [
+    "https://fopea.org/fopea-pidio-la-intervencion-del-relator-especial-de-la-onu-por-la-escalada-de-agresiones-contra-el-periodismo/",
+    "https://www.analisisdigital.com.ar/nacionales/2026/10/26/fopea-pidio-la-intervencion-de-la-onu-por-la-escalada-de-agresiones-contra-el-periodismo"
+   ]
   }
  ],
  "faltantes": [
   "Tasa de pedidos de acceso denegados y serie posterior a abril de 2025: el dataset de la AAIP en descarga.aaip.gob.ar fue rechazado por el proxy.",
   "Conteo de decretos o resoluciones secretos o reservados del período.",
   "Relevamiento de estadísticas o bases discontinuadas (ACIJ, Poder Ciudadano o similares): no se encontró.",
-  "Situación de la conducción de la AAIP."
+  "Conducción de la AAIP: el sitio oficial sigue mostrando a Beatriz de Anchorena (Decreto 110/2022); sin confirmación periodística reciente.",
+  "Publicación de las declaraciones juradas 2025 de funcionarios (la OA prorrogó el plazo al 31/08/2026): no se verificó si ya están publicadas."
  ]
 }

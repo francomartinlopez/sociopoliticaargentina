@@ -1,6 +1,6 @@
 # Fuentes y faltantes · datos/congreso
 
-Actualizado: 2026-10-30. Cada número de `votaciones.json` y `ejecutivo.json` lleva su URL al lado. Este archivo resume de dónde salió todo y qué falta.
+Actualizado: 2026-11-06. Cada número de `votaciones.json` y `ejecutivo.json` lleva su URL al lado. Este archivo resume de dónde salió todo y qué falta.
 
 ## Fuentes usadas
 
@@ -74,3 +74,21 @@ La Capital, Los Andes, El Economista, Ámbito, Chequeado, Noticias NQN, Diario d
 - **Presupuesto 2027:** el dictamen previsto para el 28/10 en Diputados no se firmó porque el PRO no acompañó; se habla del 18 o el 25/11 para la sesión (El Cronista, La Nación). No hubo votación.
 - **DNU de octubre:** la Base Infoleg no se actualizó desde el 05/10/2026 (consultado el 30/10 en la API de datos.jus.gob.ar), así que octubre sigue en null. Se registró por prensa el DNU 1286/2026 (IOSFA/OSFA, BO 28/10/2026; Infobae y El Cronista) en `serie_mensual[2026-10].dnu_conocidos_prensa`, sin conteo exhaustivo.
 - **Vetos 2026:** no se encontró ninguno nuevo.
+
+## Corte del 06/11/2026
+- **Votaciones:** no hubo sesiones en el recinto de ninguna de las dos cámaras entre el 30/10 y el 06/11/2026. Parlamentario (06/11) llama «última sesión del Senado» a la del 29/10 y anticipa que la semana del 09/11 no habrá actividad por la visita del papa; Infobae (01/11) no registra sesiones para esta semana. No se cargó ninguna votación nueva.
+- **Presupuesto 2027:** sigue sin dictamen en Diputados. La firma pasó al 11 o el 17/11 (Perfil, 31/10) o al 12/11 (Infobae, 01/11); la sesión se piensa para el 18 o el 25/11, y el oficialismo ya cuenta con sesiones extraordinarias desde diciembre.
+- **PASO 2027:** sin dictamen ni votación. Se actualizó el `estado` en `votaciones.json` con Perfil (31/10) y El Tribuno (02/11).
+- **Salud Mental:** sigue sin lista nominal ni acta publicada. Se sumó elDiarioAR como fuente (solo bloques a favor y en contra).
+- **DNU firmados:** la Base Infoleg **se actualizó el 02/11/2026** (CSV del 01/11; último BO cargado: 30/10/2026; última fecha de sanción: 29/10/2026). Octubre se cargó en `serie_mensual[2026-10].dnu_firmados` = **2** (1157/2026 del 08/10, ejercicio «Arandú 2026»; 1286/2026 del 27/10, OSFA), en `dnu_lista` y en `dnu_publicados_mensual` (2). Totales 2026: 31 por firma y 33 por publicación. La lista de DNU marcados de dic. 2023 a sep. 2026 no cambió con la nueva versión.
+  - **Validación preliminar:** de los 177 decretos publicados en octubre, argentina.gob.ar/normativa solo devolvió el texto de 10 (los otros 167, incluidos el 1157 y el 1286, dan 404). Ninguno de los 10 tiene la fórmula de DNU. La prensa presenta a los dos como DNU (Economis para el 1157; Infobae y El Cronista para el 1286). Octubre queda marcado `dnu_firmados_estado: "preliminar"`.
+  - Scripts (en el scratchpad de la sesión, no en el repo): extracción del CSV, escaneo de textos de octubre y comparación con `dnu_lista`.
+- **DNU de la semana (02-06/11) por prensa:** no se encontró ninguno.
+- **Vetos e insistencias:** no se encontró ninguno nuevo. En Infoleg (BO hasta el 30/10) no hay decretos de 2026 con «observase» o «veto» en título o resumen. La búsqueda no es exhaustiva (en 2025 encuentra 4 de los 5 decretos de veto), así que los vetos de 2026 siguen en null.
+
+### Pendientes
+- **Validar octubre con el texto completo** cuando argentina.gob.ar publique los 167 textos que faltan, y buscar DNU sin marcar.
+- **Decretos firmados el 30-31/10** que salgan en el BO de noviembre: entran con la próxima versión de Infoleg.
+- **Lista nominal de Salud Mental (Senado, 29/10, 42-21-0):** sin acta ni lista de prensa. senado.gob.ar sigue bloqueado desde la shell (403 del proxy, 06/11).
+- **Presupuesto 2027 y PASO 2027:** revisar el dictamen del 11-17/11 y las sesiones del 18 o el 25/11.
+- Siguen vigentes los faltantes de la sección «Faltantes».

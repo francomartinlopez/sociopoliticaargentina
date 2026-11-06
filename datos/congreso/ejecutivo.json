@@ -1,11 +1,11 @@
 {
  "meta": {
   "titulo": "Ejecutivo frente al Congreso: DNU, vetos e insistencias",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-11-06",
   "granularidad": {
-   "dnu_firmados": "MENSUAL desde dic. 2023 hasta sep. 2026, por fecha de firma (fecha_sancion de Infoleg). Fuente: Base Infoleg de Normativa Nacional (datos.jus.gob.ar, act. 05/10/2026, último BO cargado 30/09/2026), decretos con clase_norma = DNU, validados con el texto completo de cada norma en argentina.gob.ar/normativa. Oct. 2026 queda null (fuera del corte). Lista completa en dnu_lista.",
+   "dnu_firmados": "MENSUAL desde dic. 2023 hasta oct. 2026, por fecha de firma (fecha_sancion de Infoleg). Fuente: Base Infoleg de Normativa Nacional (datos.jus.gob.ar, act. 02/11/2026, último BO cargado 30/10/2026), decretos con clase_norma = DNU. Dic. 2023–sep. 2026 validado con el texto completo de cada norma en argentina.gob.ar/normativa; oct. 2026 es PRELIMINAR: solo 10 de los 177 decretos publicados en octubre tenían texto disponible en argentina.gob.ar al 06/11/2026. Lista completa en dnu_lista.",
    "dnu_validados_rechazados": "Por evento, con fecha. Son los casos documentados en prensa y en el informe del ODCL; no es un conteo exhaustivo verificado contra los registros de la Bicameral. Los meses en 0 quieren decir «no se encontró ninguna votación», no «está confirmado que no hubo».",
-   "vetos": "Por evento, con fecha. La lista está completa hasta dic. 2025 según Chequeado (al 12/09/2025) y el ODCL (todas las leyes de 2025). Para 2026 va null porque no se encontró ningún veto y tampoco hay una fuente que confirme cero.",
+   "vetos": "Por evento, con fecha. La lista está completa hasta dic. 2025 según Chequeado (al 12/09/2025) y el ODCL (todas las leyes de 2025). Para 2026 va null porque no se encontró ningún veto y tampoco hay una fuente que confirme cero. Control del 06/11/2026: en la Base Infoleg (act. 02/11/2026, BO hasta el 30/10/2026) no aparece en 2026 ningún decreto que observe (vete) total o parcialmente una ley, según la búsqueda de «observase» y «veto» en título y resumen; la prensa del 30/10 al 06/11 tampoco informa vetos. Sigue en null porque la búsqueda por resumen no es exhaustiva: aplicada a 2025, encuentra 4 de los 5 decretos de veto (424, 647, 651 y 652/2025) y no el 534/2025, que vetó tres leyes.",
    "insistencias": "Por evento. 'insistencias_completadas' cuenta las leyes que lograron los 2/3 en ambas cámaras y se cuentan en el mes de la segunda votación."
   },
   "nota_index": "index.html dice que el 656/2024 fue el «único DNU rechazado por ambas cámaras». Ya no es así: el DNU 340/2025 también fue rechazado por las dos (06/08 y 21/08/2025).",
@@ -13,24 +13,24 @@
    "fuente": "Ministerio de Justicia, Base Infoleg de Normativa Nacional (datos abiertos)",
    "dataset": "https://datos.jus.gob.ar/dataset/base-infoleg-de-normativa-nacional (id d9a963ea-8b1d-4ca3-9dd9-07a4773e8c23)",
    "recurso": "https://datos.jus.gob.ar/dataset/d9a963ea-8b1d-4ca3-9dd9-07a4773e8c23/resource/bf0ec116-ad4e-4572-a476-e57167a84403/download/base-infoleg-normativa-nacional.zip",
-   "actualizacion_recurso": "2026-10-05 (CSV generado 2026-10-01)",
-   "corte_datos": "Última fecha_boletin cargada: 2026-09-30; última fecha_sancion: 2026-09-29.",
+   "actualizacion_recurso": "2026-11-02 (CSV generado 2026-11-01); la versión anterior era del 2026-10-05",
+   "corte_datos": "Última fecha_boletin cargada: 2026-10-30; última fecha_sancion: 2026-10-29.",
    "criterio": "tipo_norma = Decreto y clase_norma = DNU, firmados desde el 10/12/2023. Se cuenta por mes de firma (fecha_sancion); la serie por mes de publicación en el Boletín Oficial está en dnu_publicados_mensual.",
    "validacion": "Se leyó el texto completo de los 116 DNU de Infoleg y de los 3.229 decretos no marcados firmados entre el 10/12/2023 y el 30/09/2026 en argentina.gob.ar/normativa/nacional/norma-<id>/texto. Correcciones: se excluye el 44/2026 (decreto simple mal clasificado) y se agregan 493/2025, 521/2025 y 867/2026 (DNU sin marcar). El 302/2024 es DNU aunque el texto escribe «MNISTROS». El 254/2024 (promulgación parcial de la Ley 27.739, art. 80 CN) lleva acuerdo general de ministros pero no es DNU y no se cuenta. Casos conocidos: 70/2023 (20/12/2023), 656/2024 (19/07/2024), 179/2025 (10/03/2025), 340/2025 (20/05/2025) y 681/2026 (29/07/2026) son DNU; el 681/2025 es la promulgación de la Ley 27.793, no un DNU.",
    "totales_por_anio_firma": {
     "2023": 7,
     "2024": 47,
     "2025": 35,
-    "2026": 29
+    "2026": 31
    },
    "totales_por_anio_publicacion": {
     "2023": 7,
     "2024": 47,
     "2025": 33,
-    "2026": 31
+    "2026": 33
    },
    "cruce_odcl": "Coincide con el ODCL (U. Austral) en 2023 (7), 2024 (47) y 2025 (35), y con su detalle mensual de dic. 2025 (2), ene. 2026 (8) y feb. 2026 hasta el 6/2 (1). Sin las correcciones, Infoleg solo daba 33 en 2025 (le faltaban el 493 y el 521) y 9 en enero de 2026 (incluía el 44). Por fecha de publicación, 2025 da 33, porque el 941 y el 942/2025 (firmados el 31/12/2025) salieron en el BO del 02/01/2026.",
-   "nota_2026": "2026 (ene–sep, por firma): 29 DNU. Es el primer conteo de 2026 en este archivo; no hay un total publicado para cruzarlo. El DNU 1157/2026 citado en FUENTES.md es posterior al corte.",
+   "nota_2026": "2026 (ene–oct, por firma): 31 DNU (29 validados ene–sep + 2 preliminares de oct.). No hay un total publicado para cruzarlo.",
    "cruce_acumulados": [
     "2024-09-10: publicado 39 (ODCL – Universidad Austral (sep. 2024)) · lista Infoleg 39",
     "2024-09-23: publicado 42 (ODCL – Universidad Austral (sep. 2024)) · lista Infoleg 42",
@@ -38,7 +38,8 @@
     "2025-07-08: publicado 76 (ODCL – Universidad Austral (oct. 2025)) · lista Infoleg 76",
     "2025-09-30: publicado 82 (Chequeado – ranking DNU (act. 30/09/2025)) · lista Infoleg 83",
     "Coinciden los tres cortes del ODCL (39, 42 y 76). Chequeado (base SAIJ) da 46 al 12/11/2024 y 82 al 30/09/2025; la lista suma 2 y 1 más en esas fechas. No se pudo identificar qué normas faltan en el conteo de Chequeado. El total 2024 del ODCL (47) coincide con la lista."
-   ]
+   ],
+   "validacion_oct_2026": "Preliminar. De los 177 decretos publicados en el BO entre el 01/10 y el 30/10/2026, argentina.gob.ar/normativa devolvió el texto de 10 (consulta del 06/11/2026); los otros 167, incluidos el 1157 y el 1286, dieron error 404. Ninguno de los 10 textos leídos tiene la fórmula «en acuerdo general de ministros» ni cita la Ley 26.122. Los dos DNU de octubre son los que marca Infoleg y la prensa los presenta como DNU (Economis para el 1157; Infobae y El Cronista para el 1286). No se puede descartar un DNU sin marcar, como pasó con 3 de 3.345 decretos en el período anterior. Los decretos firmados el 30 y el 31/10 que salgan en el BO de noviembre todavía no están en la base."
   }
  },
  "serie_mensual": [
@@ -781,7 +782,7 @@
   },
   {
    "mes": "2026-10",
-   "dnu_firmados": null,
+   "dnu_firmados": 2,
    "dnu_validados_dip": 0,
    "dnu_validados_sen": 0,
    "dnu_rechazados_dip": 0,
@@ -793,8 +794,17 @@
    "vetos_detalle": [],
    "insistencias_completadas": null,
    "votos_insistencia_por_camara": [],
-   "dnu_firmados_nota": "Fuera del corte de la Base Infoleg (último Boletín Oficial cargado: 30/09/2026; el recurso no se actualizó desde el 05/10/2026, verificado el 30/10/2026). Sin dato del total. DNU de octubre conocidos por prensa, sin conteo exhaustivo: 1157/2026 y 1286/2026 (IOSFA/OSFA, BO 28/10/2026).",
+   "dnu_firmados_nota": "Base Infoleg act. 02/11/2026 (último BO cargado: 30/10/2026; consultada el 06/11/2026). Preliminar: solo se pudo leer el texto de 10 de los 177 decretos de octubre en argentina.gob.ar, y faltan los decretos firmados el 30-31/10 que se publiquen en noviembre.",
    "dnu_conocidos_prensa": [
+    {
+     "numero": "1157/2026",
+     "fecha_boletin": "2026-10-09",
+     "tema": "Autoriza la salida del país de medios y personal de fuerzas nacionales para el ejercicio combinado «Arandú 2026» con Brasil",
+     "fuentes": [
+      "https://economis.com.ar/?p=497344",
+      "https://www.perfil.com/noticias/politica/el-gobierno-autorizo-que-el-ejercito-argentino-participe-en-un-ejercicio-militar-con-brasil-cuando-y-donde-sera.phtml"
+     ]
+    },
     {
      "numero": "1286/2026",
      "fecha_boletin": "2026-10-28",
@@ -804,7 +814,12 @@
       "https://www.cronista.com/economia-politica/obra-social-militar-el-gobierno-limita-por-dnu-el-traspaso-de-trabajadores-y-deja-abierta-la-salida-de-personal/"
      ]
     }
-   ]
+   ],
+   "dnu_firmados_detalle": [
+    "1157/2026 (08/10)",
+    "1286/2026 (27/10)"
+   ],
+   "dnu_firmados_estado": "preliminar"
   }
  ],
  "dnu_firmados_anual": [
@@ -1570,7 +1585,7 @@
   }
  ],
  "dnu_publicados_mensual": {
-  "nota": "Mismos DNU de dnu_lista contados por mes de publicación en el Boletín Oficial (fecha_boletin de Infoleg). Corte: 30/09/2026.",
+  "nota": "Mismos DNU de dnu_lista contados por mes de publicación en el Boletín Oficial (fecha_boletin de Infoleg). Corte: 30/10/2026 (oct. 2026 preliminar).",
   "serie": [
    {
     "mes": "2023-12",
@@ -1710,7 +1725,7 @@
    },
    {
     "mes": "2026-10",
-    "dnu_publicados": null
+    "dnu_publicados": 2
    }
   ]
  },
@@ -2662,6 +2677,24 @@
    "titulo": "VISITA OFICIAL DE SU SANTIDAD EL PAPA LEON XIV",
    "tema": "PODER EJECUTIVO NACIONAL",
    "url": "https://www.argentina.gob.ar/normativa/nacional/norma-430580"
+  },
+  {
+   "numero": "1157/2026",
+   "fecha": "2026-10-08",
+   "fecha_boletin": "2026-10-09",
+   "titulo": "EJERCICIO COMBINADO 'ARANDU 2026'. AUTORIZACION.",
+   "tema": "PODER EJECUTIVO",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-431081",
+   "nota": "Marcado DNU por Infoleg (base act. 02/11/2026). Texto completo no disponible en argentina.gob.ar al 06/11/2026 (404): sin validar con el texto."
+  },
+  {
+   "numero": "1286/2026",
+   "fecha": "2026-10-27",
+   "fecha_boletin": "2026-10-28",
+   "titulo": "DECRETO 88/2026 - MODIFICACION",
+   "tema": "PODER EJECUTIVO NACIONAL",
+   "url": "https://www.argentina.gob.ar/normativa/nacional/norma-431682",
+   "nota": "Marcado DNU por Infoleg (base act. 02/11/2026). Texto completo no disponible en argentina.gob.ar al 06/11/2026 (404): sin validar con el texto. Obra Social de las Fuerzas Armadas (OSFA)."
   }
  ]
 }

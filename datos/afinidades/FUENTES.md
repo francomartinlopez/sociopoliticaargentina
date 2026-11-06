@@ -199,3 +199,41 @@ Actualizado: 2026-10-25. Esta sección completa los campos `tna` e `indicadores.
 - **Senadores:** la reforma de Salud Mental (29/10/2026, 42-21-0, postura del gobierno afirmativa) no entra al índice porque no se publicó lista nominal. Diario Nuevo Día deduce los votos de Santa Cruz por pertenencia de bloque, no por votos informados: no se usa. Cargar cuando haya acta o lista de prensa.
 - **Transferencias:** Presupuesto Abierto, consultado el 30/10/2026, sigue dando 184.000 millones de ATN pagados en 2026: no hubo giros de ATN en octubre hasta la última actualización de la fuente. Octubre no se carga hasta cerrar el mes.
 - **Gobernadores:** no se encontraron hechos de la semana que cambien alguna categoría. Weretilneck (Río Negro) apoyó eliminar las PASO, según el título de El Destape (29/10), pero la nota no abrió.
+
+---
+
+## Corte del 06/11/2026 · Gobernadores
+`gobernadores.json` tiene ahora `meta.actualizado` 2026-11-06. Hechos del 30/10 al 06/11/2026, más dos de septiembre que estaban pendientes de confirmación (Tierra del Fuego).
+
+### Cambio de categoría (lectura propia)
+- **Tierra del Fuego (Melella): de opositora a neutral.** Se confirmó la reunión con Santilli del 17/09/2026 (Diario Prensa, 17/09; Letra P, 18/09). Allí anunció que acompañará «en general» el Presupuesto 2027, con cambios en discapacidad y universidades, y el proyecto sobre Malvinas. Sigue en contra de eliminar las PASO. El 26/09 firmó con la Nación un anticipo financiero de hasta $45.000 millones (Letra P, 29/09; LPO, 16/10). Eso encaja en el criterio de neutral: acompaña algunas iniciativas y rechaza otras. La categoría anterior quedó en `categoria_anterior`.
+- **Nuevo conteo:** 6 afines, 13 neutrales y 5 opositoras.
+
+### Hechos cargados (sin cambio de categoría)
+- **Río Negro (Weretilneck), 29/10:** adelantará las elecciones provinciales de 2027 y respaldó eliminar las PASO (Ámbito y Neuquén Post, 29/10). Sigue neutral: compitió contra LLA en 2025 y critica la apertura comercial. Se agregó a `casos_dudosos`.
+- **Tucumán (Jaldo):** sigue rechazando la suspensión de las PASO (Los Andes, 02/11; Filo.news, 01/11).
+- **Mendoza (Cornejo):** no definió el voto de sus senadores sobre las PASO y busca garantías sobre Petri (Los Andes, 02/11). La frase «peor es elegir mal» (29/10) se toma de una columna de Memo (30/10). Sigue afín.
+- **Salta (Sáenz) y Misiones (Passalacqua):** condicionan su apoyo a las PASO (Los Andes, 02/11; Filo.news, 01/11).
+- **Santa Fe (Pullaro):** Los Andes lo ubica a favor de suspender las PASO (02/11).
+- **Buenos Aires (Kicillof):** el 30/10 la Corte aceptó la demanda por el fondo del transporte del interior y le dio 60 días a la Nación (El Tribuno e InfoRegión).
+- **La Rioja (Quintela):** cruce con Milei por el RIGI (28/10; La Red 88.3 y Acero y Roca). Se cierra el faltante «sin hecho posterior a junio».
+- **Catamarca (Jalil):** recibió a Milei en la inauguración de Rio Tinto (28/10; mismas fuentes).
+- **Formosa (Insfrán):** discursos del 17/10 y del 04/11 contra Milei (El Destape). Se cierra el faltante «sin hecho posterior a junio».
+
+### Pendientes
+- **Formosa:** los dos hechos tienen una sola fuente (El Destape). Falta una segunda.
+- **Mendoza:** la interpretación de Memo (Cornejo ofrecería votos por las PASO a cambio de que LLA no lleve candidato propio) es del columnista y no se cargó.
+- **Senadores de Tierra del Fuego:** que el diputado Tita no diera quórum el 15/10 a cambio de los anticipos sale de fuentes sin nombre (LPO). Se usa solo para el dato del anticipo.
+- **El Intransigente (29/10, Weretilneck)** y la nota de El Destape del corte anterior no abrieron. Se usaron Ámbito y Neuquén Post.
+
+## Corte del 06/11/2026 · transferencias
+- **Fuente:** Presupuesto Abierto, consultado el 06/11/2026. Según `rest-api/ejercicio/allForVisualizaciones`, el ejercicio 2026 se actualizó el 04/11/2026: octubre ya está cerrado en la fuente. Consultas reproducidas a mano con el mismo endpoint `donde-se-gasta/2026/filter` (los scripts de `/home/claude/scripts` no estaban); respuestas crudas en el scratchpad de la sesión, no en el repo.
+- **ATN de octubre 2026 = 0 pagado en las 24 jurisdicciones.** Presupuesto Abierto da 197.500 millones pagados en 2026: 184.000 a septiembre más 13.500 (Chaco 4.000, Corrientes 3.500, Entre Ríos 3.000, Misiones 3.000). [Economis, 03/11/2026](https://economis.com.ar/?p=501235) informa que en octubre no hubo ATN pagados y que esos 13.500 se devengaron el 30/10 y se pagan en noviembre. Las dos fuentes cierran provincia por provincia. Los 13.500 quedan como nota en cada provincia y se cargan en nov-2026.
+- **Ventana de 12 meses:** pasa a nov-2025 a oct-2026. Sale oct-2025 (13.000: Chaco 2.000, Entre Ríos 3.000, Neuquén 3.000, San Juan 2.000, Tucumán 3.000). Total: 273.000 → 260.000. Se recalcularon `atn_pct_gasto` y `atn_por_habitante_pesos` con los mismos denominadores.
+- **TNA 2026:** se actualizó el acumulado al 04/11/2026: 1.097.403 millones (antes 1.010.883 al 23/10). Municipios excluidos: 14.664. Se recalcularon `participacion_2026_pct` y `discrecionales_2026_acum_*`. TNA 2025 e indicadores `discrecionales_*` sin cambios.
+- **TNA nacional de octubre:** 89.259 millones pagados (-70,2 % real interanual), según Economis, que no nombra la fuente de la serie. Se cargó en `tna_mensual_2026_millones`. El acumulado ene-oct (1.055.722) es suma propia.
+- **Pendientes:** confirmar el TNA de octubre con Politikon Chaco u otra fuente; cargar los 13.500 de ATN en nov-2026 cuando cierre el mes; la apertura mensual de las TNA sigue sin poder bajarse (dgsiaf-repo con 403, API con token).
+
+## Corte del 06/11/2026 · senadores
+- **Sin cambios en `senadores.json`:** no hubo votaciones en el Senado entre el 30/10 y el 06/11/2026; Parlamentario (06/11) llama «última sesión» a la del 29/10. La reforma de Salud Mental (29/10, 42-21-0) sigue sin lista nominal: elDiarioAR solo informa los bloques (a favor: LLA, PRO, UCR, Movimiento por Misiones, Primero los Salteños, Despierta Chubut, Provincias Unidas y Movere; en contra: Justicialismo, Independencia y Convicción Federal). Los votos no se deducen por bloque, así que no se incorpora. No se corrió `build_senadores.py` y el JSON no se tocó.
+- **Pendientes:** acta o lista nominal de Salud Mental (senado.gob.ar sigue con 403 desde la shell, 06/11/2026); siguen los faltantes de arriba (Inocencia Fiscal I y II, pliegos de julio y agosto).

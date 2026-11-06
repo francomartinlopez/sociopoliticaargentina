@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Gobernabilidad: fracturas y tensiones en la coalición de gobierno",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-11-06",
   "periodo": "desde el 10/12/2023",
   "aviso": "Los hechos llevan fuente. 'estado', 'gravedad_sugerida' y 'estado_sugerido' son lectura propia y se indican como tal.",
   "criterio_gravedad": {
@@ -465,6 +465,23 @@
    ]
   },
   {
+   "fecha": "2026-10-22",
+   "actores": [
+    "Daniel González Casartelli (secretario de Coordinación de Energía y Minería)",
+    "Ministerio de Economía (Luis Caputo)"
+   ],
+   "tipo": "gabinete",
+   "que_paso": "Renunció el secretario de Coordinación de Energía y Minería, ex CEO de YPF, y lo explicó como «un ciclo que se acaba»; Caputo le agradeció en redes. La salida se oficializó el 30/10 por el Decreto 1304/2026, con efecto el 01/11. El cargo no se cubre: Energía (María Tettamanti) y Minería (Luis Lucero) siguen con sus secretarios.",
+   "estado": "cerrada (el cargo no se cubre)",
+   "gravedad_sugerida": 1,
+   "criterio": "Salida de segunda línea en buenos términos, sin efecto sobre la mayoría legislativa ni sobre el núcleo del gabinete.",
+   "fuentes": [
+    "https://www.cronista.com/economia-politica/renuncio-daniel-gonzalez-funcionario-clave-que-coordinaba-las-areas-de-energia-y-mineria/",
+    "https://www.infobae.com/economia/2026/10/30/oficializaron-la-renuncia-de-daniel-gonzalez-como-secretario-de-coordinacion-de-energia-y-mineria/",
+    "https://noticiasargentinas.com/economia/economia--una-designacion-y-una-renuncia_a6ae46a1145c3c55a7b562a3f"
+   ]
+  },
+  {
    "fecha": "2026-10-28",
    "actores": [
     "PRO (Ritondo, Jorge Macri, Frigerio, Goerling)",
@@ -497,17 +514,64 @@
     "https://www.infobae.com/politica/2026/10/28/sin-paros-generales-y-con-un-acto-en-una-cancha-la-nueva-estrategia-de-la-cgt-que-pone-en-la-mira-tanto-al-gobierno-como-al-pj/",
     "https://www.baenegocios.com/sociedad/la-cgt-cancelo-el-paro-general-de-octubre-pero-las-dos-cta-quieren-mantener-la-huelga/"
    ]
+  },
+  {
+   "fecha": "2026-11-01",
+   "actores": [
+    "La Libertad Avanza (Santilli)",
+    "UCR del Senado (Abad, Kroneberger, Fama)",
+    "PRO del Senado (Goerling, Cristina, Huala)",
+    "Osvaldo Jaldo (Tucumán)",
+    "Alfredo Cornejo (Mendoza)",
+    "Gustavo Sáenz (Salta)",
+    "Hugo Passalacqua (Misiones)"
+   ],
+   "tipo": "aliados",
+   "que_paso": "A menos de un mes del cierre de las sesiones ordinarias (30/11), la suspensión de las PASO 2027 sigue trabada en el Senado: LLA tiene 21 bancas y necesita 37 votos; según Los Andes habría acercado 11 de los 16 que le faltan, sin convertirlos en votos. Se oponen los radicales Abad, Kroneberger y Fama; los tres senadores del PRO tienen reparos; Jaldo rechaza la suspensión; Mendoza no definió su voto y Cornejo busca garantías sobre la candidatura de Luis Petri (el 29/10 dijo que «peor es elegir mal»); Sáenz y Passalacqua condicionan su apoyo a obras y decisiones económicas.",
+   "estado": "abierta",
+   "gravedad_sugerida": 2,
+   "criterio": "Traba una ley prioritaria por la resistencia de aliados (UCR, PRO y gobernadores), sin ruptura de bloque.",
+   "fuentes": [
+    "https://www.filo.news/noticia/2026/11/01/el-gobierno-busca-votos-para-suspender-las-paso-de-2027-y-enfrenta-resistencias-en-el-senado",
+    "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608",
+    "https://www.memo.com.ar/opinion/abrelatas-analisis-escenario-electoral-cornejo-petri-karina-pullaro/"
+   ]
+  },
+  {
+   "fecha": "2026-11-04",
+   "actores": [
+    "UCR de Diputados (Pamela Verasay)",
+    "Provincias Unidas",
+    "bloques provinciales",
+    "La Libertad Avanza (Martín Menem)",
+    "Ministerio de Economía"
+   ],
+   "tipo": "aliados",
+   "que_paso": "El Presupuesto 2027 sigue sin dictamen en Diputados. Además de los pedidos del PRO, la UCR reclama más fondos para universidades y discapacidad y mantener la actualización automática de la AUH; Provincias Unidas cuestiona el aumento de los subsidios al transporte del AMBA, y los bloques provinciales piden fondos para las cajas previsionales no transferidas. Una fuente oficial describió la discusión como «en un limbo» y sostuvo que la meta fiscal es innegociable para el Presidente. El dictamen pasó a noviembre (se mencionan el 11 o el 17/11) y la sesión prevista para el 18/11 podría correrse al 25/11.",
+   "estado": "abierta",
+   "gravedad_sugerida": 2,
+   "criterio": "Condiciona una ley clave (dictamen postergado) por reclamos de varios aliados, sin ruptura de bloque ni voto en contra.",
+   "fuentes": [
+    "https://www.infobae.com/politica/2026/11/04/presupuesto-2027-los-aliados-presionan-al-gobierno-con-pedidos-que-comprometen-el-deficit-cero/",
+    "https://www.diariopanorama.com/noticia/571904/presupuesto-2027-quedo-trabado-reclamos-gobernadores-bloques-aliados",
+    "https://www.ellitoral.com/politica/presupuesto2027-camaradediputados-negociaciones-tratamiento_0_AB2zQAYFNm.html",
+    "https://www.letrap.com.ar/congreso/presupuesto-2027-el-pro-y-el-radicalismo-rechazan-un-ajuste-milei-y-se-demora-el-acuerdo-n5427738"
+   ]
   }
  ],
  "relaciones": [
   {
    "actor": "Vicepresidenta",
    "estado_sugerido": "ruptura",
-   "lectura": "Lectura propia: el Presidente la definió como 'opositora' y la relación no tuvo recomposición desde 2025.",
+   "lectura": "Lectura propia: el Presidente la definió como 'opositora' y la relación no tuvo recomposición desde 2025. Volverán a coincidir en la recepción al papa León XIV (08/11/2026), por invitación oficial, pero en la misma semana ella lanzó en el Senado un programa de alivio de deudas para empleados que la prensa lee como una diferencia con la política económica.",
    "ultimo_hecho": {
-    "fecha": "2026-08-03",
-    "hecho": "Milei la llamó 'opositora' e 'intrascendente' tras sus dichos sobre la salud del Presidente.",
-    "fuente": "https://www.losandes.com.ar/politica/milei-redoblo-la-pelea-villarruel-y-la-trato-opositora-del-gobierno-es-una-intrascendente-n6000904"
+    "fecha": "2026-11-03",
+    "hecho": "Fue invitada a la recepción de Milei al papa León XIV del 08/11 en el Palacio Libertad (según La Gaceta, primer acto compartido desde el 09/07); el mismo día se conoció su decreto 0630/2026 de adelantos de haberes a tasa cero para empleados del Senado endeudados («La usura está mal»).",
+    "fuente": "https://www.lagaceta.com.ar/nota/1160778/politica/villarruel-coincidira-milei-visita-papa-pero-marco-diferencias-senado.html",
+    "fuentes": [
+     "https://www.lagaceta.com.ar/nota/1160778/politica/villarruel-coincidira-milei-visita-papa-pero-marco-diferencias-senado.html",
+     "https://www.canal26.com/politica/2026/11/05/milei-y-villarruel-volveran-a-coincidir-por-la-visita-del-papa-leon-xiv-uno-por-uno-los-gobernadores-y-empresarios-invitados/"
+    ]
    }
   },
   {
@@ -515,9 +579,9 @@
    "estado_sugerido": "tensión",
    "lectura": "Lectura propia: cuatro jefes de Gabinete en 31 meses; la última salida fue por una investigación judicial.",
    "ultimo_hecho": {
-    "fecha": "2026-09-21",
-    "hecho": "Renunció el secretario nacional de Discapacidad, Alejandro Vilches.",
-    "fuente": "https://www.noticiasnqn.com.ar/noticias/2026/09/21/353515-renuncio-alejandro-vilches-secretario-nacional-de-discapacidad"
+    "fecha": "2026-10-30",
+    "hecho": "Se oficializó (Decreto 1304/2026) la renuncia de Daniel González, secretario de Coordinación de Energía y Minería, anunciada el 22/10; el cargo no se cubre.",
+    "fuente": "https://www.infobae.com/economia/2026/10/30/oficializaron-la-renuncia-de-daniel-gonzalez-como-secretario-de-coordinacion-de-energia-y-mineria/"
    }
   },
   {
@@ -533,31 +597,39 @@
   {
    "actor": "PRO",
    "estado_sugerido": "tensión",
-   "lectura": "Lectura propia: vota con el gobierno las leyes clave, pero la relación política se rompió en julio y la recomposición está trabada: en octubre condicionó el Presupuesto 2027 y rechaza suspender las PASO.",
+   "lectura": "Lectura propia: vota con el gobierno las leyes clave, pero la relación política se rompió en julio y la recomposición está trabada: condiciona el Presupuesto 2027, rechaza suspender las PASO y el 02/11 postergó cualquier definición sobre una alianza para 2027.",
    "ultimo_hecho": {
-    "fecha": "2026-10-28",
-    "hecho": "El PRO no firmó el dictamen del Presupuesto 2027 y condiciona su apoyo a siete cambios; su bloque del Senado se opone a suspender las PASO.",
-    "fuente": "https://www.lanacion.com.ar/politica/congreso-pro-complica-al-gobierno-con-objeciones-al-presupuesto-2027-la-reforma-electoral-y-la-ley-nid30102026/"
+    "fecha": "2026-11-02",
+    "hecho": "La cúpula del PRO, con Mauricio Macri, postergó la definición de una alianza con LLA para 2027 («el calendario electoral no comenzó aún») y esperará la respuesta a sus cambios al Presupuesto 2027 y a la reforma electoral.",
+    "fuente": "https://www.iprofesional.com/politica/468113-macri-patea-la-definicion-de-la-alianza-con-milei-y-el-pro-duda-de-la-reforma-electoral",
+    "fuentes": [
+     "https://www.iprofesional.com/politica/468113-macri-patea-la-definicion-de-la-alianza-con-milei-y-el-pro-duda-de-la-reforma-electoral",
+     "https://informedigital.com.ar/macri-patea-la-definicion-de-la-alianza-con-milei-y-el-pro-duda-de-la-reforma-electoral/"
+    ]
    }
   },
   {
    "actor": "UCR",
    "estado_sugerido": "tensión",
-   "lectura": "Lectura propia: los gobernadores radicales acompañan 'con matices'; un sector del partido busca candidato propio para 2027.",
+   "lectura": "Lectura propia: los gobernadores radicales acompañan 'con matices'; un sector del partido busca candidato propio para 2027. En noviembre de 2026 el bloque de Diputados condiciona el Presupuesto 2027 (universidades, discapacidad, AUH) y tres senadores se oponen a suspender las PASO.",
    "ultimo_hecho": {
-    "fecha": "2026-08-06",
-    "hecho": "Sanz, Negri y Jesús Rodríguez proponen un candidato presidencial radical para 2027.",
-    "fuente": "https://www.lanacion.com.ar/politica/sanz-negri-y-jesus-rodriguez-piden-que-la-ucr-tenga-un-candidato-a-presidente-en-2027-para-enfrentar-nid06082026/"
+    "fecha": "2026-11-04",
+    "hecho": "La UCR, junto con el PRO, no dio el acompañamiento para el dictamen del Presupuesto 2027 y reclama más fondos para universidades y discapacidad; en el Senado, Abad, Kroneberger y Fama se oponen a suspender las PASO.",
+    "fuente": "https://www.diariopanorama.com/noticia/571904/presupuesto-2027-quedo-trabado-reclamos-gobernadores-bloques-aliados",
+    "fuentes": [
+     "https://www.diariopanorama.com/noticia/571904/presupuesto-2027-quedo-trabado-reclamos-gobernadores-bloques-aliados",
+     "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
+    ]
    }
   },
   {
    "actor": "Gobernadores que negocian con el gobierno",
    "estado_sugerido": "alineado",
-   "lectura": "Lectura propia: negocian el Presupuesto 2027 y la suspensión de las PASO sin conflicto público; el apoyo es transaccional. La postura de cada gobernador, provincia por provincia, está en la sección Afinidades.",
+   "lectura": "Lectura propia: negocian el Presupuesto 2027 y la suspensión de las PASO; el apoyo es transaccional y en noviembre varios lo condicionan a obras y fondos (Sáenz, Passalacqua) o lo niegan (Jaldo). La postura de cada gobernador, provincia por provincia, está en la sección Afinidades.",
    "ultimo_hecho": {
-    "fecha": "2026-09-16",
-    "hecho": "Santilli recibió a Jalil, Valdés, Sáenz y Jaldo (y luego a Sadir y Melella) para negociar el Presupuesto 2027 y las PASO; la reunión con Zdero se postergó.",
-    "fuente": "https://www.c5n.com/politica/reunion-diego-santilli-gobernadores-presupuesto-paso-miercoles-16-septiembre-2026"
+    "fecha": "2026-11-02",
+    "hecho": "Valdés, Pullaro y Zdero apoyan suspender las PASO; Jalil, Figueroa, Vidal, Llaryora y Torres se mostraron dispuestos con demandas provinciales; Jaldo la rechaza y Sáenz y Passalacqua la condicionan.",
+    "fuente": "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
    }
   },
   {
@@ -565,16 +637,21 @@
    "estado_sugerido": "ruptura",
    "lectura": "Lectura propia, sobre todo por el eje con Kicillof: varias demandas ante la Corte Suprema. El grupo es heterogéneo.",
    "ultimo_hecho": {
-    "fecha": "2026-04-21",
-    "hecho": "Audiencia en la Corte Suprema entre Nación y Buenos Aires por la deuda de ANSES con el IPS bonaerense, una de las siete demandas de Kicillof.",
-    "fuente": "https://www.letrap.com.ar/axel-kicillof-vs-javier-milei-los-fondos-que-la-corte-suprema-y-la-crisis-hagan-el-trabajo-n5423078"
-   },
-   "nota": "No se encontró un hecho de septiembre u octubre de 2026 con gobernadores opositores; el dato es de abril (convocatoria anunciada el 11/04)."
+    "fecha": "2026-10-30",
+    "hecho": "La Corte Suprema aceptó su competencia en la demanda de Buenos Aires por la eliminación del Fondo Compensador del transporte del interior (DNU 280/2024) y le dio a la Nación 60 días para responder. El 28/10, Milei criticó a Quintela en Catamarca («La Rioja no tiene ni un proyecto productivo») y el 04/11 Insfrán cuestionó al Presidente («se la pasa afuera»).",
+    "fuente": "https://www.eltribuno.com/nacionales/2026-10-30-16-18-0-la-corte-suprema-interviene-en-la-disputa-entre-javier-milei-y-axel-kicillof-por-los-subsidios-al-transporte",
+    "fuentes": [
+     "https://www.eltribuno.com/nacionales/2026-10-30-16-18-0-la-corte-suprema-interviene-en-la-disputa-entre-javier-milei-y-axel-kicillof-por-los-subsidios-al-transporte",
+     "https://www.inforegion.com.ar/2026/10/30/la-corte-intimo-a-milei-por-un-reclamo-de-la-provincia/",
+     "https://laredlarioja.com.ar/milei-apunto-contra-quintela-la-rioja-no-tiene-ni-un-proyecto-productivo/",
+     "https://www.eldestapeweb.com/informacion-general/acto-inauguracion-obra-publica-insfran-cruzo-milei-cuestiono-modelo-pais-pasa-afuera-2026114202958"
+    ]
+   }
   },
   {
    "actor": "CGT y sindicatos",
    "estado_sugerido": "ruptura",
-   "lectura": "Lectura propia: cuatro paros generales y diálogo congelado desde mayo de 2026; en octubre la CGT bajó la intensidad (archivó el quinto paro), mientras las CTA y los gremios docentes y universitarios siguen con paros.",
+   "lectura": "Lectura propia: cuatro paros generales y diálogo congelado desde mayo de 2026; en octubre la CGT bajó la intensidad (archivó el quinto paro) y, tras la visita del papa León XIV (07-11/11), prepara un cese de actividades de pocas horas con asambleas, sin fecha fijada; las CTA y los gremios docentes y universitarios siguen con paros.",
    "ultimo_hecho": {
     "fecha": "2026-10-28",
     "hecho": "La CGT archivó el quinto paro general y evalúa un paro de 2 a 4 horas y un acto en un estadio antes de fin de año.",
@@ -584,7 +661,7 @@
  ],
  "indicadores": {
   "fracturas_abiertas": {
-   "valor": 11,
+   "valor": 13,
    "nota": "Cálculo propio: entradas del timeline con estado 'abierta' (las cerradas en el gabinete con causa judicial abierta no se cuentan)."
   },
   "ministros_y_jefes_de_gabinete_que_dejaron_el_cargo": {

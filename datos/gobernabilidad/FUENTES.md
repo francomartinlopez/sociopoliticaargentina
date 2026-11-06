@@ -54,3 +54,22 @@ Consulta: 25/10/2026; corte semanal del 30/10/2026. Archivo: `fracturas.json`. N
 - **CGT (28/10):** archivó el quinto paro general y evalúa un paro de 2 a 4 horas y un acto en un estadio (Infobae, 28/10; contexto en BAE, 29/09). Gravedad sugerida 2.
 - **Fracturas abiertas:** 11 (entradas cuyo estado empieza con «abierta»).
 - **No cargado:** renuncia de César Lencina, subsecretario de Ciencia y Tecnología, con efecto el 29/10 tras 37 días en el cargo (Canal 26): es tercera línea.
+
+## Corte del 06/11/2026
+Búsqueda del 30/10 al 06/11/2026 (WebSearch + WebFetch). Se agregaron tres entradas al timeline (31 en total) y se actualizaron seis relaciones.
+- **Reforma electoral en el Senado (01/11):** la suspensión de las PASO sigue trabada. LLA tiene 21 bancas, necesita 37 y habría acercado 11 de los 16 votos que le faltan. Se oponen los radicales Abad, Kroneberger y Fama; el PRO tiene reparos; Jaldo la rechaza; Cornejo no definió el voto de Mendoza; Sáenz y Passalacqua la condicionan. Fuentes: Filo.news (01/11), Los Andes (02/11) y Memo (30/10, columna; de ahí se toma solo la cita de Cornejo). Gravedad sugerida 2 (lectura propia).
+- **Presupuesto 2027 trabado (04/11):** además de lo que pide el PRO (ya cargado el 28/10), la UCR reclama fondos para universidades, discapacidad y la AUH; Provincias Unidas critica los subsidios al transporte del AMBA, y los bloques provinciales piden fondos para las cajas previsionales. El dictamen pasó a noviembre (11 o 17/11) y la sesión podría ser el 18 o el 25/11. Fuentes: Infobae (04/11), Diario Panorama (04/11), El Litoral (28/10) y Letra P (27/10). Gravedad sugerida 2.
+- **Renuncia de Daniel González**, secretario de Coordinación de Energía y Minería: anunciada el 22/10 y oficializada el 30/10 (Decreto 1304/2026, con efecto el 01/11); el cargo no se cubre. Fuentes: El Cronista (22/10), Infobae (30/10) y Noticias Argentinas (30/10). Se carga con fecha del anuncio, cerrada, gravedad 1. Es segunda línea.
+- **Relaciones actualizadas:**
+  - Vicepresidenta: invitada a la recepción al papa León XIV del 08/11; el mismo día se conoció su programa de alivio de deudas para empleados del Senado (La Gaceta, 03/11; Canal 26, 05/11). Sigue en «ruptura».
+  - PRO: el 02/11 postergó la definición de la alianza con LLA para 2027 (iProfesional e Informe Digital, 02/11).
+  - UCR, gobernadores que negocian y Gabinete: con los hechos de arriba.
+  - Gobernadores opositores: se cierra el faltante de septiembre y octubre. El 30/10 la Corte Suprema aceptó la demanda bonaerense por el fondo del transporte del interior y le dio a la Nación 60 días para responder (El Tribuno e InfoRegión, 30/10). También se suman el cruce Milei–Quintela (28/10) y las críticas de Insfrán (04/11).
+- **Fracturas abiertas:** 13, dos más que el corte anterior. Se cuentan las entradas cuyo estado empieza con «abierta».
+
+### Pendientes
+- **CGT:** el cese de actividades de 4 a 6 horas (El Monterizo, 28/10) o de 2 a 4 horas (Letra P) se definiría después de la visita del Papa (07-11/11), en un Consejo Directivo sin fecha confirmada. La nota de Letra P sobre el documento que la CGT le llevará a León XIV no muestra fecha de publicación. No se cargó una entrada nueva: solo se actualizó la lectura de la relación.
+- **Sebastián Pareja** (diputado, armador de LLA bonaerense): el 06/11 se presentó una denuncia por enriquecimiento ilícito (Juzgado Federal 7, Casanello; Código Baires, 06/11; elDiarioAR, 05/11). Es una denuncia, no un hecho probado, y corresponde a `institucionalidad/corrupcion.json`. Agencia Nova (06/11) dice que su entorno atribuye la causa a la interna con Santiago Caputo, pero la cita es de fuentes sin nombre y es una sola: no se cargó como hecho de la interna de LLA.
+- **Villarruel:** la nota de MDZ del 31/10 sobre sus diferencias económicas con Milei no abrió (error del sitio). La de El Destape sobre la «crisis del papel» redirigió y no se leyó.
+- **Interna de LLA (Karina Milei–Santiago Caputo):** no se encontró un hecho nuevo con fecha de la semana y dos fuentes.
+- **Renuncias:** no se encontraron otras de primera o segunda línea entre el 30/10 y el 06/11. Ya se designó un reemplazo para César Lencina (tercera línea, Perfil y Prensa Mercosur, 01/11), pero no se carga.

@@ -32,3 +32,13 @@ Consulta: 25/10/2026. Archivo: `estado.json`.
 - **Envíos 2024-2025:** no hay conteo. iProfesional cita que en dos años no se elevaron pliegos, salvo excepciones.
 - **Sesiones posteriores al 27/08/2026:** no se encontraron.
 - Para cerrar estos tres puntos hay que verificar en senado.gob.ar (no accesible desde aquí).
+
+## Corte del 06/11/2026
+- **Pliegos:** entre el 30/10 y el 03/11 se envió una tanda de 27 pliegos ([Central de Noticias Madariaga](https://www.centraldenoticiasmadariaga.com/2026/11/milei-mando-al-senado-el-pliego-de.html)); [Parlamentario](https://www.parlamentario.com/2026/11/06/antes-que-culminen-las-ordinarias-acuerdos-analizara-los-pliegos-de-mas-de-60-candidatos/) habla de «otra treintena». Incluye el de Daniel Rafecas para la vocalía 7 de la Cámara Nacional de Casación en lo Criminal y Correccional, que ingresó el 03/11 ([iProfesional](https://www.iprofesional.com/legales/468250-ascenso-daniel-rafecas-disputa-comodoro-py-tablero-judicial), [La Nación](https://www.lanacion.com.ar/politica/milei-impulsa-el-ascenso-del-juez-rafecas-y-se-podria-abrir-una-nueva-vacante-en-comodoro-py-nid03112026/)). Debe tomar estado parlamentario en la sesión prevista para el 19/11.
+- **Audiencias de Acuerdos:** 64 postulantes, los días 17, 18 y 27/11 (Parlamentario).
+- **Corte Suprema y Procurador:** sin cambios. Casal sigue interino y no hay pliego para un titular ([La Nación, 06/11](https://www.lanacion.com.ar/politica/mahiques-despeja-los-problemas-judiciales-del-gobierno-y-presiona-para-ser-el-jefe-de-los-fiscales-nid06112026/)).
+
+### Pendientes
+- No se encontró una medición nueva de vacantes posterior al 18/10.
+- Las sesiones con pliegos aprobados después del 27/08 siguen sin verificar. Parlamentario menciona unas 170 designaciones tratadas en el año, sin desglose.
+- Falta el número exacto de pliegos de la última tanda (27 o 30).

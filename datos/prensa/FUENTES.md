@@ -16,3 +16,14 @@ Consulta: 25/10/2026. Archivo: `agresiones.json`.
 ## Advertencias
 - **Categorías del sitio:** "Amenaza/intimidación" no existe como categoría en FOPEA, así que queda en null. En la sección "mapeo_categorias" del JSON está la correspondencia aproximada.
 - **Autores:** FOPEA agrupa en estatal, paraestatal y no estatal. Las sumas de "funcionarios_publicos" y "fuerzas_seguridad" del período de 12 meses son agrupaciones propias, explicadas en el JSON.
+
+## Corte del 06/11/2026
+- **Dato parcial de 2026 (nuevo campo `parcial_2026`):** al 26/10/2026 FOPEA atribuye 175 agresiones al Presidente, más del 60 % del año, y dice que ya se superó el récord de 2025, sin dar el total. Serie total: 116 (2023), 179 (2024) y 278 (2025). Fuentes: [comunicado de FOPEA](https://fopea.org/fopea-pidio-la-intervencion-del-relator-especial-de-la-onu-por-la-escalada-de-agresiones-contra-el-periodismo/), [Análisis Digital](https://www.analisisdigital.com.ar/nacionales/2026/10/26/fopea-pidio-la-intervencion-de-la-onu-por-la-escalada-de-agresiones-contra-el-periodismo) y [Somos Jujuy](https://www.somosjujuy.com.ar/nacionales/fopea-llevo-onu-agresiones-milei-periodistas-pidio-intervenga-argentina-n126170).
+- **Discrepancia:** los casos atribuidos a Milei en 2023 son 5 según FOPEA y 2 según Análisis Digital. Se usa FOPEA.
+- **Hechos destacados cargados:** balas de goma a siete trabajadores de prensa en la Marcha Federal Universitaria (octubre); discurso en la Fundación Faro (23/10) y anuncio de acciones legales contra Saguier y Alconada Mon (24/10), según [Cadena 3](https://www.cadena3.com/noticia/politica-y-economia/fopea-denuncio-una-escalada-de-violencia-sin-precedentes-de-milei-contra-los-periodistas_606661) y [Perfil](https://www.perfil.com/noticias/politica/javier-milei-insiste-en-atacar-a-la-prensa-y-amenaza-con-acciones-legales-tras-el-cierre-del-caso-libra.phtml); pedido a la ONU (26/10).
+- **Período del 30/10 al 06/11:** no se encontraron comunicados nuevos de FOPEA ni de ADEPA sobre agresiones.
+
+### Pendientes
+- `monitoreo.fopea.org/comunicados/` no respondió al pedido de permiso. Por eso no se pudo revisar el listado completo del período, y el conteo mensual sigue en null.
+- No se pudo abrir la nota de El Intransigente (30/10) sobre el reclamo de AEA.
+- Falta el total de agresiones de 2026.

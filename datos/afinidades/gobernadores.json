@@ -1,15 +1,15 @@
 {
  "meta": {
   "titulo": "Afinidad de cada gobernador con el gobierno nacional (Javier Milei)",
-  "actualizado": "2026-10-25",
-  "unidad": "Gobernador o jefe de Gobierno en funciones al 25/10/2026.",
+  "actualizado": "2026-11-06",
+  "unidad": "Gobernador o jefe de Gobierno en funciones al 06/11/2026.",
   "regla": "Lectura propia. afin: el gobernador fue aliado electoral de La Libertad Avanza en 2025 (listas conjuntas o acuerdo explícito) o respalda en público la agenda del gobierno sin oponerse a sus leyes clave. neutral: acompaña algunas iniciativas y se opone a otras (gobernadores dialoguistas, miembros de Provincias Unidas, peronistas que negocian votos con el gobierno). opositora: confronta abiertamente con el gobierno (conducción de Fuerza Patria o kirchnerista, o gobernadores que encabezan la oposición), o sus legisladores votan en contra de todas las leyes clave.",
   "evidencia": "Hechos de 2024-2026: Pacto de Mayo (09/07/2024), alianzas de las legislativas del 26/10/2025, votos de los senadores del espacio del gobernador en el Presupuesto 2026, la reforma laboral y Propiedad Privada (de datos/afinidades/senadores.json), reuniones y acuerdos con la Jefatura de Gabinete, viajes con el Presidente, la sesión opositora contra el DNU 70/23 del 15/10/2026, declaraciones y conflictos judiciales.",
   "alianza_2025": "Con quién compitió el espacio del gobernador en las legislativas nacionales del 26/10/2025. Los nombres de lista salen del escrutinio provisorio de la DINE (datos/electoral/diputados-2025-generales.json).",
   "conteo": {
    "afin": 6,
-   "neutral": 12,
-   "opositora": 6
+   "neutral": 13,
+   "opositora": 5
   },
   "casos_dudosos": {
    "SAN JUAN": "Afín por apoyo explícito a la agenda; no fue aliado electoral en 2025 (compitió con lista propia). Podría leerse neutral.",
@@ -21,12 +21,12 @@
    "CATAMARCA": "Peronista dialoguista con apoyo al Presupuesto, pero su senador votó en contra de la reforma laboral y sus diputados dieron quórum a la sesión contra el DNU 70/23.",
    "SANTIAGO DEL ESTERO": "El gobernador tiene un tono moderado y no se sumó al eje de Kicillof; la categoría opositora se apoya sobre todo en el voto de sus senadores. Podría leerse neutral.",
    "LA PAMPA": "Dialoga con Santilli y asistió a la reunión de oct. 2025, pero no aporta votos y mantiene reclamos judiciales; podría leerse neutral.",
-   "TIERRA DEL FUEGO": "En 2026 retomó el diálogo (reforma electoral); su único senador provincial es kirchnerista y no le responde. Podría leerse neutral.",
-   "CIUDAD AUTONOMA DE BUENOS AIRES": "Afín por la lista conjunta de 2025 y su respaldo público, con tensión política por 2027 (disputa Mauricio Macri–Milei, posible candidatura propia de LLA)."
+   "TIERRA DEL FUEGO": "Pasó de opositora a neutral en el corte del 06/11/2026 (apoyo general al Presupuesto 2027 y anticipos financieros de la Nación). Podría volver a leerse opositora si confronta en el Congreso: su único senador es kirchnerista y no le responde.",
+   "CIUDAD AUTONOMA DE BUENOS AIRES": "Afín por la lista conjunta de 2025 y su respaldo público, con tensión política por 2027 (disputa Mauricio Macri–Milei, posible candidatura propia de LLA).",
+   "RIO NEGRO": "Neutral: compitió contra LLA en 2025 y critica la apertura comercial, pero respalda el RIGI y la eliminación de las PASO (29/10/2026); no tiene senadores propios. Podría pasar a afín si se suma a un acuerdo electoral con LLA."
   },
   "advertencias": [
    "La categoría es una lectura propia a partir de hechos con fuente, no una medición. Puede no coincidir con el índice de senadores (senadores.json), que mide a los tres senadores de la provincia, no al gobernador.",
-   "En Formosa y La Rioja no se encontró un hecho con fuente posterior a junio de 2026; ultima_novedad es el último encontrado.",
    "Comitiva a París (30/09-02/10/2026): las fuentes son previas al viaje; se menciona como 'anunciado' o 'confirmado' según Perfil (28/09/2026)."
   ]
  },
@@ -67,6 +67,14 @@
       "https://eleconomista.com.ar/politica/milei-prometio-2028-historico-reelecto-cruzo-kicillof-revelo-su-bazuca-dolares-n98545",
       "https://eleconomista.com.ar/economia/toto-caputo-kicillof-anticristo-n98493/amp"
      ]
+    },
+    {
+     "fecha": "2026-10-30",
+     "hecho": "La Corte Suprema aceptó su competencia en la demanda bonaerense por la eliminación del Fondo Compensador del transporte del interior (art. 18 del DNU 280/2024) y le dio a la Nación 60 días para responder.",
+     "fuentes": [
+      "https://www.eltribuno.com/nacionales/2026-10-30-16-18-0-la-corte-suprema-interviene-en-la-disputa-entre-javier-milei-y-axel-kicillof-por-los-subsidios-al-transporte",
+      "https://www.inforegion.com.ar/2026/10/30/la-corte-intimo-a-milei-por-un-reclamo-de-la-provincia/"
+     ]
     }
    ],
    "alianza_2025": "Fuerza Patria (peronismo unificado), en competencia con La Libertad Avanza, que ganó por estrecho margen.",
@@ -75,9 +83,9 @@
     "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-01",
-    "hecho": "Milei, en el Coloquio de IDEA, llamó «comunista» a Kicillof y dijo que es «casi insultante» debatir con él.",
-    "fuente": "https://eleconomista.com.ar/politica/milei-prometio-2028-historico-reelecto-cruzo-kicillof-revelo-su-bazuca-dolares-n98545"
+    "fecha": "2026-10-30",
+    "hecho": "La Corte Suprema aceptó su competencia en la demanda bonaerense por la eliminación del Fondo Compensador del transporte del interior (art. 18 del DNU 280/2024) y le dio a la Nación 60 días para responder.",
+    "fuente": "https://www.eltribuno.com/nacionales/2026-10-30-16-18-0-la-corte-suprema-interviene-en-la-disputa-entre-javier-milei-y-axel-kicillof-por-los-subsidios-al-transporte"
    }
   },
   "CATAMARCA": {
@@ -117,6 +125,14 @@
       "https://www.senado.gob.ar/votaciones/detalleActa/2678",
       "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml"
      ]
+    },
+    {
+     "fecha": "2026-10-28",
+     "hecho": "Recibió a Milei en la inauguración de la expansión de Fénix 1B y la puesta en marcha de Sal de Vida (Rio Tinto); el Presidente destacó a Catamarca como ejemplo del RIGI.",
+     "fuentes": [
+      "https://laredlarioja.com.ar/milei-apunto-contra-quintela-la-rioja-no-tiene-ni-un-proyecto-productivo/",
+      "https://aceroyroca.com/2026/10/29/noticias-cruce-milei-quintela-rigi-mineria/"
+     ]
     }
    ],
    "alianza_2025": "Fuerza Patria (lista del PJ provincial), en competencia con La Libertad Avanza; ganó la provincia.",
@@ -125,9 +141,9 @@
     "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Los tres diputados de Elijo Catamarca bajaron al recinto en la sesión opositora para rechazar el DNU 70/23, que fracasó por falta de quórum.",
-    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+    "fecha": "2026-10-28",
+    "hecho": "Recibió a Milei en la inauguración de la expansión de Fénix 1B y la puesta en marcha de Sal de Vida (Rio Tinto); el Presidente destacó a Catamarca como ejemplo del RIGI.",
+    "fuente": "https://laredlarioja.com.ar/milei-apunto-contra-quintela-la-rioja-no-tiene-ni-un-proyecto-productivo/"
    }
   },
   "CHACO": {
@@ -446,6 +462,20 @@
      "fuentes": [
       "https://www.letrap.com.ar/politica/gildo-insfran-corto-la-dulzura-acuso-javier-milei-entregar-el-pais-y-pidio-no-votar-verdugos-n5422190"
      ]
+    },
+    {
+     "fecha": "2026-10-17",
+     "hecho": "En el acto del Día de la Lealtad dijo que no habla con ningún funcionario nacional desde hace tres años («lo que yo no soy es comprable») y denunció deudas de la Nación con la provincia y la suspensión de 53 obras.",
+     "fuentes": [
+      "https://www.eldestapeweb.com/informacion-general/soy-dialoguista-no-soy-comprable-dia-lealtad-insfran-denuncio-abandono-milei-20261019165011"
+     ]
+    },
+    {
+     "fecha": "2026-11-04",
+     "hecho": "En una inauguración en Estanislao del Campo criticó a Milei: «se la pasa afuera» y «en tres años, no inauguró ni un metro de pavimento».",
+     "fuentes": [
+      "https://www.eldestapeweb.com/informacion-general/acto-inauguracion-obra-publica-insfran-cruzo-milei-cuestiono-modelo-pais-pasa-afuera-2026114202958"
+     ]
     }
    ],
    "alianza_2025": "Frente de la Victoria (PJ), en competencia con La Libertad Avanza; ganó la provincia.",
@@ -454,9 +484,9 @@
     "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
    ],
    "ultima_novedad": {
-    "fecha": "2026-03-01",
-    "hecho": "Discurso de apertura de sesiones con duras críticas a Milei (no se encontró un hecho posterior con fuente).",
-    "fuente": "https://www.letrap.com.ar/politica/gildo-insfran-corto-la-dulzura-acuso-javier-milei-entregar-el-pais-y-pidio-no-votar-verdugos-n5422190"
+    "fecha": "2026-11-04",
+    "hecho": "En una inauguración en Estanislao del Campo criticó a Milei: «se la pasa afuera» y «en tres años, no inauguró ni un metro de pavimento».",
+    "fuente": "https://www.eldestapeweb.com/informacion-general/acto-inauguracion-obra-publica-insfran-cruzo-milei-cuestiono-modelo-pais-pasa-afuera-2026114202958"
    }
   },
   "JUJUY": {
@@ -592,6 +622,14 @@
      "fuentes": [
       "https://www.letrap.com.ar/politica/el-plan-ricardo-quintela-un-modelo-riojano-argentina-y-un-jefe-campana-axel-kicillof-n5424280"
      ]
+    },
+    {
+     "fecha": "2026-10-28",
+     "hecho": "Milei, en Catamarca, dijo que «Quintela decidió oponerse al RIGI y hoy La Rioja no tiene ni un proyecto productivo»; Quintela respondió: «Me opuse, me opongo y me opondré siempre».",
+     "fuentes": [
+      "https://laredlarioja.com.ar/milei-apunto-contra-quintela-la-rioja-no-tiene-ni-un-proyecto-productivo/",
+      "https://aceroyroca.com/2026/10/29/noticias-cruce-milei-quintela-rigi-mineria/"
+     ]
     }
    ],
    "alianza_2025": "Federales Defendamos La Rioja (PJ), en competencia con La Libertad Avanza; ganó por 782 votos en el escrutinio definitivo.",
@@ -600,9 +638,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-06-05",
-    "hecho": "Se postuló en la discusión presidencial del peronismo y denunció la negativa de la Nación a adelantarle coparticipación (no se encontró un hecho posterior con fuente).",
-    "fuente": "https://www.letrap.com.ar/politica/el-plan-ricardo-quintela-un-modelo-riojano-argentina-y-un-jefe-campana-axel-kicillof-n5424280"
+    "fecha": "2026-10-28",
+    "hecho": "Milei, en Catamarca, dijo que «Quintela decidió oponerse al RIGI y hoy La Rioja no tiene ni un proyecto productivo»; Quintela respondió: «Me opuse, me opongo y me opondré siempre».",
+    "fuente": "https://laredlarioja.com.ar/milei-apunto-contra-quintela-la-rioja-no-tiene-ni-un-proyecto-productivo/"
    }
   },
   "MENDOZA": {
@@ -639,6 +677,14 @@
      "fuentes": [
       "https://eleconomista.com.ar/politica/la-casa-rosada-recibe-gobernadores-aliados-negociaria-acuerdos-electorales-cara-2027-n94428"
      ]
+    },
+    {
+     "fecha": "2026-11-02",
+     "hecho": "Mendoza no definió el voto de sus senadores sobre la suspensión de las PASO y Cornejo busca garantías sobre la candidatura de Luis Petri; el 29/10, en Rosario, dijo que «peor es elegir mal» al hablar del costo de las elecciones.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608",
+      "https://www.memo.com.ar/opinion/abrelatas-analisis-escenario-electoral-cornejo-petri-karina-pullaro/"
+     ]
     }
    ],
    "alianza_2025": "Con La Libertad Avanza (frente La Libertad Avanza–Cambia Mendoza), ganador en la provincia.",
@@ -647,9 +693,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-19",
-    "hecho": "Fue, con Figueroa, uno de los dos gobernadores presentes en el discurso de Milei en la AOG Patagonia, en Neuquén.",
-    "fuente": "https://www.letrap.com.ar/rigipalooza-neuquen-milei-pidio-que-florezcan-mil-vaca-muerta-cotillon-violeta-y-fervor-empresario-n5427503"
+    "fecha": "2026-11-02",
+    "hecho": "Mendoza no definió el voto de sus senadores sobre la suspensión de las PASO y Cornejo busca garantías sobre la candidatura de Luis Petri; el 29/10, en Rosario, dijo que «peor es elegir mal» al hablar del costo de las elecciones.",
+    "fuente": "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
    }
   },
   "MISIONES": {
@@ -690,6 +736,14 @@
       "https://www.perfil.com/noticias/amp/politica/diputados-misioneros-se-reagrupan-detras-de-passalacqua.phtml",
       "https://www.perfil.com/noticias/nea/crisis-en-misiones-passalacqua-consolido-apoyo-de-intendentes-y-rovira-enfrenta-ola-de-desafiliaciones.phtml"
      ]
+    },
+    {
+     "fecha": "2026-11-02",
+     "hecho": "Condiciona su apoyo a la suspensión de las PASO a respuestas sobre la yerba mate y obras en las rutas 12 y 14.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608",
+      "https://www.filo.news/noticia/2026/11/01/el-gobierno-busca-votos-para-suspender-las-paso-de-2027-y-enfrenta-resistencias-en-el-senado"
+     ]
     }
    ],
    "alianza_2025": "Lista propia del Frente Renovador (Renovador de la Concordia NEO), en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -698,9 +752,9 @@
     "https://www.mdzol.com/politica/misiones-el-oficialismo-provincial-cada-vez-mas-alejando-del-gobierno-javier-milei-n1338532"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Tres de sus cuatro diputados bajaron al recinto en la sesión opositora contra el DNU 70/23, que fracasó por falta de quórum.",
-    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+    "fecha": "2026-11-02",
+    "hecho": "Condiciona su apoyo a la suspensión de las PASO a respuestas sobre la yerba mate y obras en las rutas 12 y 14.",
+    "fuente": "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
    }
   },
   "NEUQUEN": {
@@ -781,6 +835,14 @@
      "fuentes": [
       "https://eleconomista.com.ar/energia/weretilneck-no-hay-vuelta-atras-nuevo-modelo-energetico-argentina-n97393"
      ]
+    },
+    {
+     "fecha": "2026-10-29",
+     "hecho": "Confirmó que Río Negro adelantará sus elecciones de 2027 y respaldó eliminar las PASO («cada partido debería elegir a sus propios candidatos»); destacó que Neuquén y Río Negro «han creado empleo privado en el gobierno de Milei».",
+     "fuentes": [
+      "https://www.ambito.com/ambito-nacional/elecciones-2027-alberto-weretilneck-confirmo-que-adelantara-los-comicios-rio-negro-y-respaldo-la-eliminacion-las-paso-n6339273",
+      "https://neuquenpost.com/weretilneck-confirmo-que-rio-negro-adelantara-las-elecciones-de-2027-y-respaldo-la-eliminacion-de-las-paso/"
+     ]
     }
    ],
    "alianza_2025": "Juntos Defendemos Río Negro (lista provincial propia), en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -788,9 +850,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-09-28",
-    "hecho": "Figuró, confirmado, entre los 13 gobernadores de la comitiva de Milei a París.",
-    "fuente": "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
+    "fecha": "2026-10-29",
+    "hecho": "Confirmó que Río Negro adelantará sus elecciones de 2027 y respaldó eliminar las PASO («cada partido debería elegir a sus propios candidatos»); destacó que Neuquén y Río Negro «han creado empleo privado en el gobierno de Milei».",
+    "fuente": "https://www.ambito.com/ambito-nacional/elecciones-2027-alberto-weretilneck-confirmo-que-adelantara-los-comicios-rio-negro-y-respaldo-la-eliminacion-las-paso-n6339273"
    }
   },
   "SALTA": {
@@ -821,6 +883,14 @@
       "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml",
       "https://www.senado.gob.ar/votaciones/detalleActa/2623"
      ]
+    },
+    {
+     "fecha": "2026-11-02",
+     "hecho": "Condiciona su apoyo a la suspensión de las PASO al Presupuesto 2027 y a la licitación del Belgrano Cargas.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608",
+      "https://www.filo.news/noticia/2026/11/01/el-gobierno-busca-votos-para-suspender-las-paso-de-2027-y-enfrenta-resistencias-en-el-senado"
+     ]
     }
    ],
    "alianza_2025": "Primero los Salteños (lista provincial propia), en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -829,9 +899,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Dos de sus diputados (Biella y Outes) dieron quórum a la sesión opositora contra el DNU 70/23, que igual fracasó; el gobierno ofreció inversiones en el Belgrano Cargas.",
-    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+    "fecha": "2026-11-02",
+    "hecho": "Condiciona su apoyo a la suspensión de las PASO al Presupuesto 2027 y a la licitación del Belgrano Cargas.",
+    "fuente": "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
    }
   },
   "SAN JUAN": {
@@ -1018,6 +1088,14 @@
       "https://www.lanacion.com.ar/politica/provincias-unidas-se-desgrana-gobernadores-enfocados-en-reelegir-votos-dispersos-en-el-congreso-y-nid29092026/",
       "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
      ]
+    },
+    {
+     "fecha": "2026-11-02",
+     "hecho": "Los Andes lo ubica entre los gobernadores que se pronunciaron a favor de suspender las PASO; el 29/10 compartió con Karina Milei la Ronda de Negocios RIGI en Rosario.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608",
+      "https://www.memo.com.ar/opinion/abrelatas-analisis-escenario-electoral-cornejo-petri-karina-pullaro/"
+     ]
     }
    ],
    "alianza_2025": "Provincias Unidas, en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -1026,9 +1104,9 @@
     "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Dos diputados santafesinos de Provincias Unidas (Scaglia y Núñez) se ausentaron y no dieron quórum a la sesión opositora contra el DNU 70/23.",
-    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+    "fecha": "2026-11-02",
+    "hecho": "Los Andes lo ubica entre los gobernadores que se pronunciaron a favor de suspender las PASO; el 29/10 compartió con Karina Milei la Ronda de Negocios RIGI en Rosario.",
+    "fuente": "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
    }
   },
   "SANTIAGO DEL ESTERO": {
@@ -1078,8 +1156,8 @@
    "gobernador": "Gustavo Melella",
    "partido": "FORJA (frente Defendamos Tierra del Fuego)",
    "desde": 2019,
-   "categoria": "opositora",
-   "motivo": "No firmó el Pacto de Mayo, confrontó con el gobierno por la baja de aranceles y estuvo meses excluido del diálogo; en 2026 retomó contactos con la Jefatura de Gabinete.",
+   "categoria": "neutral",
+   "motivo": "No firmó el Pacto de Mayo y confrontó con el gobierno por la baja de aranceles en 2025, pero en 2026 retomó el diálogo con la Jefatura de Gabinete: anunció apoyo general al Presupuesto 2027 y recibe anticipos financieros de la Nación, mientras se opone a eliminar las PASO.",
    "hechos": [
     {
      "fecha": "2024-07-09",
@@ -1111,6 +1189,22 @@
       "https://www.letrap.com.ar/politica/tierra-del-fuego-la-reunion-santilli-levanto-suspicacias-el-apoyo-melella-la-reforma-electoral-n5424655",
       "https://eleconomista.com.ar/politica/con-congreso-pausa-santilli-acelero-sus-reuniones-gobernadores-n95953"
      ]
+    },
+    {
+     "fecha": "2026-09-17",
+     "hecho": "Se reunió con Santilli en Casa Rosada (confirmado): anunció que acompañará «en general» el Presupuesto 2027, con cambios en discapacidad y universidades, y el proyecto sobre Malvinas; sigue en contra de eliminar las PASO, aunque Letra P dice que «podría acompañar» su suspensión.",
+     "fuentes": [
+      "https://www.diarioprensa.com.ar/melella-planteo-ante-santilli-la-agenda-de-tierra-del-fuego/",
+      "https://www.letrap.com.ar/politica/gustavo-melella-ensaya-un-pacto-sobrevivir-santilli-y-se-suma-al-scrum-gobernadores-dialoguistas-n5426670"
+     ]
+    },
+    {
+     "fecha": "2026-09-26",
+     "hecho": "Firmó con el secretario de Hacienda, Carlos Guberman, un anticipo financiero de hasta $45.000 millones a cuenta de coparticipación (Decreto provincial 1663/26); Letra P lo vincula con su «guiño» para suspender las PASO.",
+     "fuentes": [
+      "https://www.letrap.com.ar/politica/tierra-del-fuego-melella-no-llega-fin-mes-y-acordo-la-nacion-otro-anticipo-45000-millones-n5426965",
+      "https://www.lapoliticaonline.com/politica/el-faltazo-del-fueguino-tita-a-cambio-de-los-anticipos-financieros-para-que-melella-llegue-a-fin-de-mes-7230/"
+     ]
     }
    ],
    "alianza_2025": "Defendamos Tierra del Fuego (lista provincial propia), en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -1119,9 +1213,14 @@
     "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
    ],
    "ultima_novedad": {
-    "fecha": "2026-09-17",
-    "hecho": "Tenía prevista una reunión con Santilli por el Presupuesto 2027 y las PASO (no se confirmó si se realizó).",
-    "fuente": "https://www.c5n.com/politica/reunion-diego-santilli-gobernadores-presupuesto-paso-miercoles-16-septiembre-2026"
+    "fecha": "2026-09-26",
+    "hecho": "Firmó con el secretario de Hacienda, Carlos Guberman, un anticipo financiero de hasta $45.000 millones a cuenta de coparticipación (Decreto provincial 1663/26); Letra P lo vincula con su «guiño» para suspender las PASO.",
+    "fuente": "https://www.letrap.com.ar/politica/tierra-del-fuego-melella-no-llega-fin-mes-y-acordo-la-nacion-otro-anticipo-45000-millones-n5426965"
+   },
+   "categoria_anterior": {
+    "categoria": "opositora",
+    "hasta": "2026-10-30",
+    "motivo_cambio": "Corte del 06/11/2026: se confirmó la reunión con Santilli del 17/09/2026, en la que anunció apoyo general al Presupuesto 2027, y el anticipo financiero acordado con la Nación; acompaña algunas iniciativas y rechaza otras (PASO), que es el criterio de neutral."
    }
   },
   "TUCUMAN": {
@@ -1160,6 +1259,14 @@
      "fuentes": [
       "https://www.c5n.com/politica/reunion-diego-santilli-gobernadores-presupuesto-paso-miercoles-16-septiembre-2026"
      ]
+    },
+    {
+     "fecha": "2026-11-02",
+     "hecho": "Sigue rechazando la suspensión de las PASO, lo que aleja los votos de las senadoras Beatriz Ávila y Sandra Mendoza.",
+     "fuentes": [
+      "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608",
+      "https://www.filo.news/noticia/2026/11/01/el-gobierno-busca-votos-para-suspender-las-paso-de-2027-y-enfrenta-resistencias-en-el-senado"
+     ]
     }
    ],
    "alianza_2025": "Frente Tucumán Primero (PJ), en competencia con La Libertad Avanza; ganó la provincia.",
@@ -1168,9 +1275,9 @@
     "https://eleconomista.com.ar/politica/milei-aterriza-tucuman-modo-campana-jaldo-como-aliado-circunstancial-n93463/amp"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Los tres diputados de Independencia no ocuparon sus bancas en la sesión opositora contra el DNU 70/23.",
-    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+    "fecha": "2026-11-02",
+    "hecho": "Sigue rechazando la suspensión de las PASO, lo que aleja los votos de las senadoras Beatriz Ávila y Sandra Mendoza.",
+    "fuente": "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
    }
   }
  }

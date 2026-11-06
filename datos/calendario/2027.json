@@ -1,6 +1,6 @@
 {
  "meta": {
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-11-06",
   "descripcion": "Elecciones 2027: calendario nacional y qué elige cada distrito. Ver FUENTES.md."
  },
  "nacional": {
@@ -8,7 +8,7 @@
    "estado": "vigentes por ley; eliminación o suspensión en debate (a confirmar)",
    "fecha_legal": "2027-08-08",
    "regla": "Ley 26.571: segundo domingo de agosto del año de la elección nacional.",
-   "det": "Al 30/10/2026 no hay ley que elimine ni suspenda las PASO 2027. El proyecto del Ejecutivo (reforma electoral) sigue en la Comisión de Asuntos Constitucionales del Senado, sin dictamen: el Gobierno postergó la convocatoria a la comisión por falta de los 37 votos (El Liberal, 18/10/2026) y evalúa prorrogar las sesiones ordinarias en diciembre. El bloque PRO del Senado se opone a eliminarlas o suspenderlas (La Nación, 30/10/2026). Milei dijo el 22/10/2026 que 'no va a haber PASO'. Si no se sanciona una ley, se hacen el 8/8/2027.",
+   "det": "Al 06/11/2026 no hay ley que elimine ni suspenda las PASO 2027. El proyecto del Ejecutivo (ingresó en abril) sigue sin dictamen en el Senado. LLA tiene 21 senadores y necesita 37: según Los Andes y El Tribuno (02/11/2026), el oficialismo habría sumado 11 de los 16 votos que le faltan. El Gobierno ya apunta a suspenderlas antes que a eliminarlas; el jefe de Gabinete, Diego Santilli, negocia con los gobernadores. Entre los dialoguistas hay posiciones divididas: el PRO quiere mantenerlas y el gobernador de Tucumán, Jaldo, se opone a suspenderlas. La Cámara Nacional Electoral pidió que cualquier cambio se apruebe con anticipación. Las sesiones ordinarias terminan a fin de noviembre; se habla de tratarlo antes de fin de año o, a más tardar, en extraordinarias en febrero (Seprin, 03/11/2026). Milei dijo el 22/10/2026 que 'no va a haber PASO'. Si no se sanciona una ley, se hacen el 8/8/2027.",
    "fuentes": [
     "https://aldiaargentina.microjuris.com/2019/05/10/elecciones-nacionales-se-determina-la-fecha-de-las-paso-y-las-elecciones-generales-primera-y-segunda-vuelta/",
     "https://www.tiempoar.com.ar/ta_article/el-senado-retomo-en-comision-el-debate-sobre-reforma-politica-sin-consenso-todavia-para-eliminar-las-paso/amp/",
@@ -16,7 +16,10 @@
     "https://eldestapeweb.com/politica/javier-milei-medidas-gobierno-vivo-ultimas-noticias-22-octubre-minuto-minuto-2026102265413",
     "https://www.perfil.com/noticias/politica/suspension-de-las-paso-2027-los-gobernadores-aliados-de-milei-abren-la-puerta-al-cambio-y-la-definicion-queda-en-manos-del-senado.phtml",
     "https://www.elliberal.com.ar/nota/95239/2026/10/reforma-politica--el-gobierno-frena-el-debate-en-el-senado-por-falta-de-votos-y-redefine-su-plan-hacia-2027",
-    "https://www.lanacion.com.ar/politica/congreso-pro-complica-al-gobierno-con-objeciones-al-presupuesto-2027-la-reforma-electoral-y-la-ley-nid30102026/"
+    "https://www.lanacion.com.ar/politica/congreso-pro-complica-al-gobierno-con-objeciones-al-presupuesto-2027-la-reforma-electoral-y-la-ley-nid30102026/",
+    "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608",
+    "https://www.eltribuno.com/nacionales/2026-11-2-0-0-0-en-el-senado-no-avanza-la-reforma-politica-para-eliminar-las-paso",
+    "https://www.seprin.info/2026/11/03/el-senado-vuelve-a-mostrarle-sus-limites-al-gobierno-y-enfria-la-reforma-electoral/"
    ]
   },
   "generales": {
@@ -135,9 +138,11 @@
     "fecha": null,
     "estado_fecha": "a confirmar",
     "desdobla": true,
-    "det": "La ley obliga a votar en fecha distinta de la nacional, según la prensa. Fecha sin fijar.",
+    "det": "La ley obliga a votar en fecha distinta de la nacional, según la prensa. Fecha sin fijar. La Legislatura suspendió por un año la ley de PASO provinciales (Ley 2073-Q) para 2027, con 17 votos y la ausencia de la mayoría del peronismo (sesión del 02/09/2026).",
     "fuentes": [
-     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html"
+     "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html",
+     "https://www.parlamentario.com/2026/09/02/chaco-suspendio-las-paso-para-2027/",
+     "https://www.ambito.com/ambito-nacional/chaco-se-adelanto-nacion-y-es-la-primera-provincia-suspender-las-paso-rumbo-al-2027-n6317585"
     ]
    },
    "leg": {
@@ -335,9 +340,10 @@
     "fecha": null,
     "estado_fecha": "a confirmar",
     "desdobla": true,
-    "det": "A confirmar: optaría por desdoblar; sin fecha.",
+    "det": "A confirmar: optaría por desdoblar; sin fecha. Desde 2027 vota con Boleta Única de Papel para los cargos provinciales (reforma electoral sancionada en diciembre de 2024 y publicada en febrero de 2025).",
     "fuentes": [
-     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario",
+     "https://www.elonce.com/politica/se-aprobo-la-reforma-electoral-que-implementa-la-boleta-unica-en-entre-rios.htm"
     ]
    },
    "leg": {
@@ -649,10 +655,12 @@
     "fecha": null,
     "estado_fecha": "a confirmar",
     "desdobla": true,
-    "det": "La ley obliga a votar en fecha distinta de la nacional, según la prensa. Fecha sin fijar.",
+    "det": "Desdoblará. Weretilneck confirmó que Río Negro adelantará sus elecciones provinciales respecto de las nacionales (Noticias NQN, 29/10/2026) y dijo: 'Campaña en mayo, elecciones en junio' (El Cordillerano, 30/10/2026). Es una intención: no hay día fijado ni convocatoria formal.",
     "fuentes": [
      "https://cholilaonline.ar/2026/09/elecciones-2027-que-provincias-desdoblan-y-cuales-votaran-junto-con-la-nacion.html",
-     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario"
+     "https://www.eleco.com.ar/nacionales/elecciones-2027-que-provincias-desdoblan-sus-comicios-y-cual-es-el-estado-del-calendario",
+     "https://www.noticiasnqn.com.ar/noticias/2026/10/29/358650-weretilneck-confirmo-que-rio-negro-adelantara-las-elecciones-y-respaldo-eliminar-las-paso",
+     "https://www.elcordillerano.com.ar/noticias/2026/10/30/270378-weretilneck-anticipo-que-las-elecciones-provinciales-serian-en-junio-de-2027"
     ]
    },
    "leg": {
@@ -845,9 +853,10 @@
     "fecha": "2027-06-13",
     "estado_fecha": "a confirmar",
     "desdobla": true,
-    "det": "Cronograma previsto: PASO provinciales 18/04/2027 y generales 13/06/2027. A confirmar: al 9/10/2026 el decreto de convocatoria no estaba firmado.",
+    "det": "Cronograma previsto: PASO provinciales 18/04/2027 y generales 13/06/2027. A confirmar: no se encontró el decreto de convocatoria firmado (consulta del 06/11/2026). Nuevo Código Electoral aprobado por unanimidad (Senado, 27/08/2026), rige para 2027: mantiene las PASO, baja el piso para pasar a las generales de 1,5 % a 1 % del padrón, sube el piso para entrar a Diputados de 3 % a 4 % y obliga a debatir a los candidatos a gobernador.",
     "fuentes": [
-     "https://www.letrap.com.ar/politica/asi-sera-el-cronograma-electoral-santa-fe-2027-paso-el-18-abril-y-generales-el-13-junio-n5427251"
+     "https://www.letrap.com.ar/politica/asi-sera-el-cronograma-electoral-santa-fe-2027-paso-el-18-abril-y-generales-el-13-junio-n5427251",
+     "https://santafe.mitelefe.com/legislativas/santa-fe-tiene-nuevo-codigo-electoral-los-cambios-que-regiran-desde-2027-pid2564301"
     ]
    },
    "leg": {

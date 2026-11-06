@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Incumplimientos legales: leyes no ejecutadas, fallos y plazos",
-  "actualizado": "2026-10-30",
+  "actualizado": "2026-11-06",
   "estados_posibles": [
    "vigente sin cumplir",
    "suspendida",
@@ -20,9 +20,9 @@
    "estado_nota": "Lectura propia: hay reglamentación tras un fallo, pero los prestadores denuncian incumplimientos en aranceles. No se encontró si el fallo de Campana quedó firme.",
    "fecha": "2025-09-22",
    "ultima_novedad": {
-    "fecha": "2026-02-25",
-    "hecho": "El Foro Permanente de Discapacidad denuncia que el Ejecutivo 'desoye el mandato legislativo'.",
-    "fuente": "https://www.minutouno.com/sociedad/foro-permanente-discapacidad-denuncia-que-persiste-la-crisis-del-sistema-prestacional-n6249330"
+    "fecha": "2026-11-05",
+    "hecho": "Un plenario de comisiones del Senado (Presupuesto y Población) firmó dictamen del proyecto de 'Fortalecimiento, Sostenibilidad y Eficiencia Permanente del Sistema de Discapacidad', con media sanción de Diputados, que replica casi todo el esquema de la Ley 27.793 sin carácter transitorio y agrega un cronograma de pago de deudas con prestadores. Lo acompañaron LLA, el PJ, el PRO, la UCR y bloques provinciales; Alejandra Vigo anticipó pedidos de cambios porque no se consultó al COFEDIS. Iría al recinto el 19/11. La emergencia vence el 31/12/2026.",
+    "fuente": "https://elargentinodiario.com.ar/politica/05/11/2026/ley-discapacidad-senado-dictamen-19-noviembre/"
    },
    "posicion_gobierno": "Aplicarla sin financiamiento pondría en riesgo la estabilidad fiscal; la ley no especifica fuentes de recursos (art. 38, Ley 24.156).",
    "fuentes": [
@@ -30,7 +30,8 @@
     "https://www.iprofesional.com/politica/443969-la-justicia-ordeno-la-aplicacion-inmediata-de-la-ley-de-emergencia-en-discapacidad",
     "https://www.noticiasnqn.com.ar/noticias/2025/12/12/324912-la-justicia-ordeno-aplicar-de-inmediato-la-ley-de-emergencia-en-discapacidad-y-declaro-invalida-su-suspension",
     "https://www.lagaceta.com.ar/nota/1123041/politica/milei-reglamento-emergencia-discapacidad-reformo-sistema-pensiones.html",
-    "https://www.minutouno.com/sociedad/foro-permanente-discapacidad-denuncia-que-persiste-la-crisis-del-sistema-prestacional-n6249330"
+    "https://www.minutouno.com/sociedad/foro-permanente-discapacidad-denuncia-que-persiste-la-crisis-del-sistema-prestacional-n6249330",
+    "https://elargentinodiario.com.ar/politica/05/11/2026/ley-discapacidad-senado-dictamen-19-noviembre/"
    ]
   },
   {
@@ -61,12 +62,11 @@
    "que_establece": "Declara la emergencia pediátrica por un año: asignación prioritaria de recursos, recomposición salarial del personal de salud pediátrica y de los residentes, el Garrahan como hospital de referencia nacional y derogación de la Res. 2109/25 de Salud.",
    "que_hizo_el_gobierno": "El Decreto 760/2025 (BO 21/10/2025) la promulgó 'sin perjuicio de lo dispuesto por el artículo 5° de la Ley N° 24.629', con lo que suspendió su ejecución. El 31/10/2025 la Decisión Administrativa 29/2025 amplió el presupuesto de hospitales pediátricos y de alta complejidad, entre ellos el Garrahan. El 28/04/2026 la Res. 542/2026 de Salud aprobó un nuevo reglamento de residencias, aunque la ley había derogado el anterior, y cita el Decreto 760/2025 para sostener que ese artículo es incompatible con la división de poderes. La APyT del Garrahan presentó un amparo colectivo y una denuncia penal (24/10/2025).",
    "estado": "suspendida",
-   "estado_nota": "No se encontró resolución judicial del amparo. La emergencia era por un año desde octubre de 2025: a confirmar si se considera vencida.",
+   "estado_nota": "La emergencia (un año) dejó de regir el 21/10/2026 sin haberse aplicado de manera integral, según los trabajadores del Garrahan. Ese día fracasó en Diputados, por falta de quórum, el intento de prorrogarla. No se encontró resolución judicial del amparo.",
    "fecha": "2025-10-21",
    "ultima_novedad": {
-    "fecha": "2026-04-29",
-    "hecho": "La Res. 542/2026 de Salud reglamenta las residencias pese al art. 10 de la ley.",
-    "fuente": "https://www.argentina.gob.ar/normativa/nacional/norma-425270"
+    "fecha": "2026-10-21",
+    "hecho": "Venció la emergencia pediátrica. En Diputados no se consiguió quórum para tratar su prórroga. La APyT del Garrahan denuncia faltantes de medicamentos oncológicos y prótesis (sin respuesta oficial en la nota)."
    },
    "posicion_gobierno": "La ley cuesta unos $196.270 millones sin fuente de financiamiento, y el Ministerio de Salud tiene un déficit de $102.400 millones. El gobierno dice que tiene 'la voluntad de atender, dentro de las disponibilidades presupuestarias actuales', esas necesidades.",
    "fuentes": [
@@ -74,7 +74,10 @@
     "https://www.argentina.gob.ar/normativa/nacional/ley-27796-419008",
     "https://www.mdzol.com/politica/el-gobierno-aun-no-aplica-la-emergencia-pediatrica-pero-aumento-el-presupuesto-hospitales-n1374672/amp",
     "https://www.minutouno.com/politica/trabajadores-del-hospital-garrahan-denunciaron-penalmente-javier-milei-no-aplicar-la-ley-emergencia-pediatrica-n6205754",
-    "https://www.argentina.gob.ar/normativa/nacional/norma-425270"
+    "https://www.argentina.gob.ar/normativa/nacional/norma-425270",
+    "https://gestionsindical.com/fin-ley-emergencia-pediatrica-denuncian-que-garrahan-les-saca-los-remedios-chicos-cancer/",
+    "https://examedia.com.ar/portada/post/88102148",
+    "https://www.parlamentario.com/2026/10/21/fracaso-un-pedido-para-incorporar-un-proyecto-para-prorrogar-la-emergencia-pediatrica/"
    ]
   },
   {
@@ -92,7 +95,7 @@
    },
    "ultima_novedad": {
     "fecha": "2026-10-28",
-    "hecho": "Santilli acordó presentar su primer informe en el Senado el 25/11/2026, a 17 meses del último informe de un jefe de Gabinete en esa cámara. Hasta el 30/10 no concurrió a ninguna cámara.",
+    "hecho": "Santilli acordó presentar su primer informe en el Senado el 25/11/2026, a 17 meses del último informe de un jefe de Gabinete en esa cámara. Hasta el 06/11 no concurrió a ninguna cámara.",
     "fuente": "https://www.infobae.com/politica/2026/10/29/diego-santilli-presentara-su-primer-informe-de-gestion-en-el-senado-el-25-de-noviembre/"
    },
    "posicion_gobierno": "El entorno de Santilli invoca su 'reciente desembarco en el ministerio'.",
@@ -120,7 +123,8 @@
  "faltantes": [
   "Grado de cumplimiento efectivo de la cautelar sobre la Ley 27.795 (los gremios universitarios reclaman su cumplimiento).",
   "Si el fallo de Campana sobre la Ley 27.793 quedó firme o fue apelado, y el estado de los aranceles en 2026.",
-  "Resolución del amparo colectivo del Garrahan sobre la Ley 27.796, y si la emergencia se considera vencida en octubre de 2026.",
-  "No se encontraron otros fallos firmes incumplidos por el Ejecutivo con fuente verificable."
+  "No se encontraron otros fallos firmes incumplidos por el Ejecutivo con fuente verificable.",
+  "Resolución del amparo colectivo del Garrahan sobre la Ley 27.796 (la emergencia ya venció el 21/10/2026).",
+  "Ley 27.795: no hubo resolución de la Cámara sobre la apelación del Estado entre el 30/10 y el 06/11."
  ]
 }

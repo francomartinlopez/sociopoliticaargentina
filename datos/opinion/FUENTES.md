@@ -1,6 +1,6 @@
 # Fuentes y faltantes · datos/opinion
 
-Actualizado: 2026-10-30. Cubre `encuestas.json`. Cada encuesta lleva al lado su `fuente_url`, su `fuente_fecha` y, cuando hay, `fuentes_cruce`.
+Actualizado: 2026-11-06. Cubre `encuestas.json`. Cada encuesta lleva al lado su `fuente_url`, su `fuente_fecha` y, cuando hay, `fuentes_cruce`.
 
 ## Criterio
 - Encuestas nacionales con campo entre el 01/11/2025 y el 25/10/2026, de consultoras que publican ficha técnica (n, campo, método o margen).
@@ -45,3 +45,21 @@ Actualizado: 2026-10-30. Cubre `encuestas.json`. Cada encuesta lleva al lado su 
 - **Índice UTDT de octubre:** 1,95 (+0,9 % contra septiembre), campo del 5 al 16/10 (Forbes y Economis, 26/10/2026).
 - **No cargada:** Celag (El Destape, 26/10/2026), 2.000 casos presenciales, imagen de Milei 38,6 / 58,2: mide imagen, no gestión, y no informa fechas de campo.
 - **Siguen faltando en octubre:** Management & Fit y Zentrix (de Zentrix solo se publicaron datos de ingresos, sin aprobación ni ficha).
+
+## Cambios del corte del 06/11/2026
+- **Octubre 2026 pasa a 8 encuestadoras:** promedio 34,7 % de aprobación y 59,9 % de desaprobación (AtlasIntel, D'Alessio, ESPOP, Zuban Córdoba, Synopsis, Zentrix, Analogías y Pulso Research). Antes: 36,2 / 59,6 con cinco.
+- **Zentrix oct-2026 (cargada):** campo 19 al 30/10, 1.278 casos, online autoadministrado con cuotas y ponderación, ±2,7 (teórico); aprueba 36,2, desaprueba 55,5, ni una ni otra 8. Ficha en 25 se Informa (01/11) y Perfil (04/11); cifras coinciden en El Sol (02/11), El Cronista (04/11), Deuda Prometida (02/11) y Prensa Latina (01/11). Imagen de Milei 35,9 / 58. Pasa a ser la última encuesta con problemas (respuesta múltiple).
+- **Analogías oct-2026 (cargada, publicada el 18/10 y no tomada en el corte anterior):** campo 10 al 14/10, 2.863 casos; gestión 31,5 positiva y 59,5 negativa (InfoPlatense, 18/10). El Cronista (25/10) confirma campo, n e imagen positiva de Milei (38,9); el sitio de la consultora confirma «seis de cada diez» negativa y saldo de -28. Método y margen no informados: entra con el mismo criterio que analogias-2026-02.
+- **Pulso Research oct-2026 (cargada):** campo 13 al 21/10, 1.006 casos; gestión 28,9 positiva y 66,4 negativa (EsChaco, 04/11). Grupo La Provincia coincide en las cifras y aporta imagen de siete dirigentes, pero no informa ficha ni fecha. Método y margen no informados.
+- **Noviembre 2026:** no se encontraron encuestas con campo terminado en noviembre. No se agregó la fila del mes en `promedio_mensual` (quedaría en «—»; el gráfico de `index.html` no admite valores nulos en la línea). Se agrega cuando haya datos, con alerta si hay menos de tres encuestadoras.
+- `meta.generado` y `meta.actualizado`: 2026-11-06.
+
+### No cargadas
+- **Management & Fit oct-2026:** no se publicó o no se encontró. La última ola encontrada sigue siendo septiembre (14 al 28/09).
+- **Opina Argentina, Poliarquía, Taquion, CB Consultora, Isonomía, Giacobbe, Circuitos, Opinaia, Trespuntozero, Proyección y Rubikon:** sin olas nacionales nuevas con aprobación de gestión y ficha en el período. Proyección (1 al 13/10, 1.231 casos, InfoPlatense 23/10) no informa aprobación de gestión. Trespuntozero (con La Sastrería, septiembre) no mide aprobación.
+
+### Pendientes
+- **Índice UTDT de noviembre:** todavía no publicado (sale hacia fin de mes).
+- **Revisar olas viejas encontradas en esta búsqueda, fuera del alcance del corte:** Management & Fit feb-2026 (9 al 24/02, 2.600 casos, mixto, ±2,1; aprueba 46,8, desaprueba 50,7; El Cronista, 03/03/2026), que no está en el archivo y podría cambiar el promedio de febrero; Analogías sep-2026 (5 al 8/09, 2.932 casos, IVR, ±2,0; Fénix 95.1 y Ámbito), donde las fuentes no coinciden en si 58,1 es gestión o imagen; Poliarquía sep-2026 (La Nación, 18/09/2026), sin revisar.
+- **Páginas que no abrieron:** MDZ (03/11, nota sobre varias encuestas), El Intransigente (19/10, cuatro mediciones) y Conclusión (encuesta de octubre con 60 % de rechazo, consultora no identificada). El PDF del informe de Analogías (Google Drive) no se abrió.
+- **Siguen faltando:** Management & Fit de octubre; segunda fuente con ficha para Pulso Research oct-2026; método y margen de Analogías y Pulso Research.

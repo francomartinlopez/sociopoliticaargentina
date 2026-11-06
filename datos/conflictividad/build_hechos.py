@@ -2,7 +2,7 @@ import json,collections,sys,os
 import numpy as np
 BASE=os.path.dirname(os.path.abspath(__file__))
 # Período: últimos 12 meses hasta la fecha de corte (argumento AAAA-MM-DD)
-CORTE=sys.argv[1] if len(sys.argv)>1 else '2026-10-30'
+CORTE=sys.argv[1] if len(sys.argv)>1 else '2026-11-06'
 DESDE=str(int(CORTE[:4])-1)+CORTE[4:]
 PROV={'BUENOS AIRES','CATAMARCA','CHACO','CHUBUT','CIUDAD AUTONOMA DE BUENOS AIRES','CORDOBA','CORRIENTES','ENTRE RIOS','FORMOSA','JUJUY','LA PAMPA','LA RIOJA','MENDOZA','MISIONES','NEUQUEN','RIO NEGRO','SALTA','SAN JUAN','SAN LUIS','SANTA CRUZ','SANTA FE','SANTIAGO DEL ESTERO','TIERRA DEL FUEGO','TUCUMAN'}
 CATS={'paro','toma','pol','mil','mpac','mvio','aten','carc','saq'}
@@ -43,7 +43,7 @@ meta=dict(titulo='Conflictividad social en Argentina: hechos significativos',per
    'procesados':'Personas con imputación o cargos formales informados; null si no se informó. Ver nota en cada caso.',
    'danos.nivel':'sin daños | menores | importantes | graves; null = sin dato.',
    'lat/lon':'Coordenadas del centro de la ciudad, no del punto exacto. Los paros nacionales se ubican en CABA y llevan aclaración en nota.'},
-  advertencias=['Cobertura parcial: '+str(len(out))+' hechos. Es una selección de hechos significativos con crónica verificable, no un censo: faltan muchas marchas semanales de jubilados, cortes de ruta y paros provinciales. Santiago del Estero, Formosa, La Rioja y San Juan siguen con 3 casos, y Tucumán, San Luis, Chaco, Corrientes y Tierra del Fuego con 4.','Muchos hechos tienen una sola fuente; algunos se apoyan en medios partidarios o militantes (La Izquierda Diario, FARCO, El Cohete a la Luna) y otros en crónicas previas del mismo día. Está indicado en cada nota.','No se encontraron saqueos ni conflictos militares en el período con las búsquedas hechas. Eso no prueba que no los haya habido.'])
+  advertencias=['Cobertura parcial: '+str(len(out))+' hechos. Es una selección de hechos significativos con crónica verificable, no un censo: faltan muchas marchas semanales de jubilados, cortes de ruta y paros provinciales. La Rioja sigue con 3 casos; Santiago del Estero, Formosa, Jujuy, La Pampa, Entre Ríos y Salta tienen 4, y San Juan, Tucumán, San Luis, Chaco, Corrientes y Tierra del Fuego, 5.','Muchos hechos tienen una sola fuente; algunos se apoyan en medios partidarios o militantes (La Izquierda Diario, FARCO, El Cohete a la Luna) y otros en crónicas previas del mismo día. Está indicado en cada nota.','No se encontraron saqueos ni conflictos militares en el período con las búsquedas hechas. Eso no prueba que no los haya habido.'])
 piq=dict(fuente='Diagnóstico Político, citado por Chequeado (01/03/2026) y por La Nación (13/01/2026)',
   urls=['https://chequeado.com/nota/javier-milei-en-la-apertura-de-sesiones-2026-hemos-terminado-con-los-piquetes-de-una-vez-por-todas-los-cuales-pasaron-de-9-mil-por-ano-a-0','https://www.lanacion.com.ar/politica/los-piquetes-se-redujeron-mas-del-527-desde-que-asumio-milei-hay-menos-protestas-de-las-nid13012026/'],
   anual={'2023':8239,'2024':5996,'2025':3893},

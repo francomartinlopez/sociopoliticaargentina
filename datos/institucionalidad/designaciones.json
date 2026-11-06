@@ -1,17 +1,45 @@
 {
  "meta": {
   "titulo": "Designaciones: Corte Suprema, pliegos judiciales y organismos de control",
-  "actualizado": "2026-10-25",
-  "relacion": "Los conteos de vacantes, pliegos y Corte salen de datos/justicia/estado.json (corte 25/10/2026). Este archivo agrega la cronología de las designaciones por decreto y los organismos de control."
+  "actualizado": "2026-11-06",
+  "relacion": "Los conteos de vacantes, pliegos y Corte salen de datos/justicia/estado.json (corte 06/11/2026). Este archivo agrega la cronología de las designaciones por decreto y los organismos de control."
  },
  "kpis": {
-  "integrantes_corte": {"valor": 3, "de": 5, "fuente_local": "datos/justicia/estado.json"},
-  "cargos_judiciales_vacantes": {"valor": 298, "pct": 29.7, "fecha": "2026-10-18", "fuente_local": "datos/justicia/estado.json"},
-  "pliegos_enviados_2026": {"valor": 218, "fecha": "2026-09-03", "fuente_local": "datos/justicia/estado.json"},
-  "pliegos_aprobados_senado_2026": {"valor": 129, "fecha": "2026-08-27", "fuente_local": "datos/justicia/estado.json", "nota": "La suma de sesiones da 141; ver nota_inconsistencia en estado.json."},
-  "pliegos_rechazados_desde_2023_12": {"valor": 2, "detalle": "Lijo y García-Mansilla, 03/04/2025"},
-  "designaciones_corte_por_decreto": {"valor": 2, "detalle": "Decreto 137/2025 (Lijo y García-Mansilla, 'en comisión')"},
-  "procurador_general": {"valor": "interino", "nombre": "Eduardo Casal", "fuente_local": "datos/justicia/estado.json"}
+  "integrantes_corte": {
+   "valor": 3,
+   "de": 5,
+   "fuente_local": "datos/justicia/estado.json"
+  },
+  "cargos_judiciales_vacantes": {
+   "valor": 298,
+   "pct": 29.7,
+   "fecha": "2026-10-18",
+   "fuente_local": "datos/justicia/estado.json"
+  },
+  "pliegos_enviados_2026": {
+   "valor": 218,
+   "fecha": "2026-09-03",
+   "fuente_local": "datos/justicia/estado.json"
+  },
+  "pliegos_aprobados_senado_2026": {
+   "valor": 129,
+   "fecha": "2026-08-27",
+   "fuente_local": "datos/justicia/estado.json",
+   "nota": "La suma de sesiones da 141; ver nota_inconsistencia en estado.json."
+  },
+  "pliegos_rechazados_desde_2023_12": {
+   "valor": 2,
+   "detalle": "Lijo y García-Mansilla, 03/04/2025"
+  },
+  "designaciones_corte_por_decreto": {
+   "valor": 2,
+   "detalle": "Decreto 137/2025 (Lijo y García-Mansilla, 'en comisión')"
+  },
+  "procurador_general": {
+   "valor": "interino",
+   "nombre": "Eduardo Casal",
+   "fuente_local": "datos/justicia/estado.json"
+  }
  },
  "corte_suprema_decreto_137_2025": [
   {
@@ -72,13 +100,35 @@
    {
     "fecha": "2026-05-14",
     "hecho": "El Senado aprobó por 58-11 el nuevo acuerdo de Carlos Mahiques (mayor de 75 años) para seguir en la Cámara de Casación; es el padre del ministro de Justicia.",
-    "fuentes": ["https://www.senado.gob.ar/votaciones/detalleActa/2691", "https://chequeado.com/nota/juzgados-vacantes-la-mayoria-de-los-candidatos-que-envio-el-gobierno-de-milei-al-senado-son-parte-de-la-familia-judicial"],
+    "fuentes": [
+     "https://www.senado.gob.ar/votaciones/detalleActa/2691",
+     "https://chequeado.com/nota/juzgados-vacantes-la-mayoria-de-los-candidatos-que-envio-el-gobierno-de-milei-al-senado-son-parte-de-la-familia-judicial"
+    ],
     "fuente_local": "datos/afinidades/FUENTES.md (acta 2691)"
    },
    {
     "fecha": "2026-05-22",
     "hecho": "Chequeado informó que la mayoría de los candidatos enviados al Senado pertenecen a la 'familia judicial'.",
-    "fuentes": ["https://chequeado.com/nota/juzgados-vacantes-la-mayoria-de-los-candidatos-que-envio-el-gobierno-de-milei-al-senado-son-parte-de-la-familia-judicial"]
+    "fuentes": [
+     "https://chequeado.com/nota/juzgados-vacantes-la-mayoria-de-los-candidatos-que-envio-el-gobierno-de-milei-al-senado-son-parte-de-la-familia-judicial"
+    ]
+   },
+   {
+    "fecha": "2026-11-03",
+    "hecho": "El Gobierno envió al Senado el pliego de Daniel Rafecas, titular del Juzgado Federal N° 3 de Comodoro Py, para la Vocalía N° 7 de la Cámara Nacional de Casación en lo Criminal y Correccional. Rafecas había obtenido el primer puesto en ese concurso en 2018. Si se aprueba, quedarían vacantes 5 de los 12 juzgados federales de Comodoro Py. Rafecas subroga hoy el juzgado de la causa $LIBRA.",
+    "fuentes": [
+     "https://www.iprofesional.com/legales/468250-ascenso-daniel-rafecas-disputa-comodoro-py-tablero-judicial",
+     "https://www.lanacion.com.ar/politica/milei-impulsa-el-ascenso-del-juez-rafecas-y-se-podria-abrir-una-nueva-vacante-en-comodoro-py-nid03112026/"
+    ]
+   },
+   {
+    "fecha": "2026-11-06",
+    "hecho": "La Comisión de Acuerdos del Senado fijó audiencias para 64 postulantes (27 el 17/11, 32 el 18/11 y 5 el 27/11). Otra tanda de pliegos (unos 30 según Parlamentario; 27 junto con el de Rafecas según otra nota) debe tomar estado parlamentario en la sesión prevista para el 19/11. La comisión sigue sin presidente tras la muerte del senador Pagotto.",
+    "fuentes": [
+     "https://www.parlamentario.com/2026/11/06/antes-que-culminen-las-ordinarias-acuerdos-analizara-los-pliegos-de-mas-de-60-candidatos/",
+     "https://www.centraldenoticiasmadariaga.com/2026/11/milei-mando-al-senado-el-pliego-de.html",
+     "https://www.iprofesional.com/legales/468250-ascenso-daniel-rafecas-disputa-comodoro-py-tablero-judicial"
+    ]
    }
   ]
  },
@@ -110,9 +160,12 @@
   },
   {
    "organismo": "Procuración General de la Nación",
-   "hecho": "Eduardo Casal sigue como procurador interino. No se encontró ningún pliego enviado en 2026 para un titular.",
+   "hecho": "Eduardo Casal sigue como procurador interino. No hay pliego enviado ni anuncio formal para un titular al 06/11/2026. La Nación informó versiones de que el ministro Mahiques aspira al cargo, sin confirmación oficial.",
    "estado": "interino",
-   "fuentes": ["https://www.diariojudicial.com/news-104569-eduardo-casal-fue-reelecto-como-presidente-de-la-asociacion-iberoamericana-de-ministerios-publicos"],
+   "fuentes": [
+    "https://www.diariojudicial.com/news-104569-eduardo-casal-fue-reelecto-como-presidente-de-la-asociacion-iberoamericana-de-ministerios-publicos",
+    "https://www.lanacion.com.ar/politica/mahiques-despeja-los-problemas-judiciales-del-gobierno-y-presiona-para-ser-el-jefe-de-los-fiscales-nid06112026/"
+   ],
    "fuente_local": "datos/justicia/estado.json"
   },
   {
@@ -139,7 +192,8 @@
  ],
  "faltantes": [
   "Resolución del amparo del PRO contra la designación de auditores de la AGN.",
-  "Quién conduce hoy la Agencia de Acceso a la Información Pública: no se verificó si sigue Beatriz de Anchorena (designada en 2022 hasta 2027) ni si hubo reemplazo.",
-  "No se encontró un listado de designaciones por decreto en reguladores (ENACOM, CNRT, etc.) con o sin concurso."
+  "No se encontró un listado de designaciones por decreto en reguladores (ENACOM, CNRT, etc.) con o sin concurso.",
+  "AAIP: el sitio oficial (argentina.gob.ar/aaip/autoridades) sigue mostrando como titular a Beatriz de Anchorena (Decreto 110/2022, mandato hasta 2027); no se encontró una fuente periodística reciente que lo confirme.",
+  "Número total de pliegos enviados en la tanda del 30/10-03/11/2026 (27 o unos 30, según la fuente)."
  ]
 }

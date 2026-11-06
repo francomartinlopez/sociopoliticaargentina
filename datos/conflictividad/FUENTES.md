@@ -1,6 +1,6 @@
 # Fuentes y faltantes · datos/conflictividad
 
-Actualizado: 2026-10-30 (corte semanal). Período: 30/10/2025 a 30/10/2026.
+Actualizado: 2026-11-06 (corte semanal). Período: 06/11/2025 a 06/11/2026.
 
 ## Archivos
 - `ev.jsonl`: un hecho verificado por línea. Es el archivo que se edita.
@@ -63,3 +63,23 @@ Segunda tanda (búsqueda provincia por provincia):
 - **Fuentes de parte o con advertencia:** Agenfor es la agencia oficial del gobierno de Formosa; InfoGremiales es un medio sindical; el relato de San Luis del 01/04 es de ATE (las «decenas de heridos» no tienen número y quedaron en null). Varias crónicas se leyeron en réplicas de Examedia.
 - **Pendientes de esta semana (sin crónica o sin acceso):** marcha de ATEP, SADOP y APEMyS en Tucumán (29/10; GN Noticias no abrió); paro del SUTEF por Nancy Godoy en Tierra del Fuego (fechas contradictorias); movilización de AMSAFE y SADOP en Rosario (29/10; Conclusión no abrió); paro provincial de SUTECO en Corrientes (29/10); paro de la FUDB en Buenos Aires (30/10, solo convocatoria); paro de las dos CTA de «fines de octubre» (sin fecha confirmada ni crónica); adhesión de Docentes Autoconvocados en Formosa (sin fecha). La protesta de FeTERA en Atucha se habría pasado a noviembre.
 - **Cobertura:** Santiago del Estero, Formosa, La Rioja y San Juan siguen con 3 hechos; Tucumán, San Luis, Chaco, Corrientes y Tierra del Fuego con 4.
+
+## Corte del 06/11/2026
+- **Período móvil:** `python3 build_hechos.py 2026-11-06` (también es el default). No sale ningún hecho del mapa: no había hechos cargados entre el 30/10 y el 05/11/2025. No hubo ciudades nuevas; se revisó que los 168 hechos anteriores conservan exactamente sus coordenadas y su punto en `puntos.json`.
+- **15 hechos nuevos (183 en total: 90 pacíficas, 35 paros, 32 con incidentes, 12 policiales, 6 tomas, 5 motines, 3 atentados; 90 con dos fuentes o más):**
+  - Semana del 31/10 al 06/11: marcha de antorchas en Esquina por Nancy Godoy (02/11, Perfil); paro nacional nodocente de FATUN (03/11, notas del mismo día); paro provincial del SUTEF por la Ley de Financiamiento Educativo (03/11, SUTEF y Radio Fueguina); marcha de jubilados al Congreso acompañada por la CATT y Camioneros (04/11, El Destape y DataGremial; sin cifras ni incidentes informados); «Marcha de las velas» de la UBA a Tribunales (04/11, Ámbito y elDiarioAR); protesta de ATE contra despidos en IOSFA en Posadas (05/11, Primera Edición y Radio Libertad); paro y marcha de los judiciales de AJUFSA a la Casa de Gobierno de Formosa (06/11, Diario Ahora y El Monterizo).
+  - Pendientes del corte anterior: paro y marcha docente en Tucumán (29/10, Primera Fuente y La Izquierda Diario); concentración de AMSAFE y SADOP en Rosario (29/10, TodoNEA, que cita a Conclusión).
+  - Provincias con pocos hechos (búsqueda hacia atrás): San Juan, marcha contra la reforma laboral (11/02, más de 3.000 según Canal 13) y paro docente con marcha al Centro Cívico (09/04, unas 500 según la policía); San Luis, concentraciones de ASDE en tres ciudades por Nancy Godoy (29/10); Santiago del Estero, Ni Una Menos (03/06); Chaco, marcha de la CGT y las dos CTA en Resistencia (08/07, fecha deducida). Además, la toma de la Secretaría de Educación (Palacio Sarmiento) por estudiantes universitarios en CABA (07/10), que faltaba.
+- **Fuentes de parte o con advertencia:** el sitio del SUTEF (paro del 03/11); La Izquierda Diario, en una nota de la agrupación Marrón Docente (Tucumán, 29/10); DataGremial, medio sindical (jubilados, 04/11). En Esquina la segunda fuente (Contexto Tucumán) reproduce la nota de Perfil. En la toma del Palacio Sarmiento, los «destrozos» son la versión del Ministerio de Capital Humano y la denuncia penal es un anuncio, no una imputación. El paro de FATUN y el de Formosa se apoyan en notas del mismo día o en la convocatoria.
+- **Revisados y no cargados:** el paro del 30/10 en Buenos Aires no fue de la FUDB: lo convocaron la Asociación de Maestrxs y el FRENDEP, y la FUDB no adhirió (InfoPlatense); el paro de la FUDB fue el del 29/10, dentro del de CTERA, con 87 % de acatamiento en Bragado y más de 70 % en Castelli según jefaturas y gremios (25 se Informa). En La Rioja el paro del 29/10 tuvo baja adhesión y no hubo marcha (Fénix 951, vía Examedia). La despedida de Nancy Godoy en Esquina (04/11) fue un acto con ceremonia religiosa. La protesta de ATE y otros gremios en el Complejo Atucha de Lima es de junio de 2026 (InfoGremiales, 26/06; fecha deducida 23/06) y se puede cargar en una próxima tanda.
+- **Pendientes (sin crónica o sin acceso):**
+  - FeTERA en Atucha: no se encontró ninguna convocatoria ni crónica de noviembre.
+  - Paro de las dos CTA de «fines de octubre»: sigue sin fecha confirmada ni crónica.
+  - Paro del SUTEF por Nancy Godoy: las notas lo ubican el viernes 30/10 (Ushuaia 24, 19640 Noticias, sitio del SUTEF), pero no se encontró crónica; 24horas.ar no se pudo leer (bloqueo por robots).
+  - Corrientes: paro provincial de SUTECO del 29/10, solo con notas de convocatoria; Diario La Voz del Chaco (versión de la marcha del 02/11) no abrió.
+  - Adhesión de Docentes Autoconvocados de Formosa: las notas de Diario La Mañana no muestran fecha; no se cargó.
+  - Chilecito, La Rioja: marcha contra la minería en el Famatina (15/04, Eduardo German y Prensa Obrera, sin cifras y con fechas poco claras); falta una fuente periodística más firme.
+  - Marcha universitaria en San Luis (El Diario de las Universidades, 19/10): la nota no da la fecha exacta.
+  - Paros nodocentes de FATUN del 12 y el 16/11 y semana de protesta de CONADU desde el 16/11: próximos cortes.
+  - Páginas que no abrieron: Conclusión (Atucha y Rosario), MisionesOnline (IOSFA), El Comercial de Formosa (judiciales), Diario Norte y El Diario de la Región (Chaco), Diario La Voz del Chaco (marcha en Esquina; la del 09/07 sí abrió).
+- **Cobertura:** La Rioja sigue con 3 hechos; Santiago del Estero y Formosa pasan a 4; San Juan, Tucumán, San Luis, Chaco, Corrientes y Tierra del Fuego, a 5.

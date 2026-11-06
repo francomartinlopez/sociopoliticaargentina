@@ -180,7 +180,7 @@ footer .wrap{display:flex;flex-direction:column;gap:6px}
   <div class="wrap">
     <div class="brand">
       <div><b>Monitor <span>Sociopolítico</span></b> <span class="sub">La Argentina, en sus votos, su Congreso y sus calles</span></div>
-      <span class="stamp"><i></i>Corte de datos: 30/10/2026 · se actualiza los viernes</span>
+      <span class="stamp"><i></i>Corte de datos: 06/11/2026 · se actualiza los viernes</span>
     </div>
     <nav class="idx" id="nav" aria-label="Secciones"></nav>
   </div>
@@ -614,10 +614,10 @@ function initEjecutivo(){
   $('#ej-bars').innerHTML = barChart([S.map(x => x.dnu_firmados || 0), S.map(x => sum(x, ['dnu_validados_dip','dnu_validados_sen'])), S.map(x => sum(x, ['dnu_rechazados_dip','dnu_rechazados_sen'])), S.map(x => sum(x, ['vetos_total','vetos_parcial'])), S.map(x => x.insistencias_completadas || 0)],
     M, ['#74B9EA', '#5BC08A', '#E05AA0', '#F0A93A', '#F0675F'], { t:'DNU firmados, votaciones del Congreso sobre DNU, vetos e insistencias por mes' });
   $('#ej-leg').innerHTML = '<span><i style="background:#74B9EA"></i>DNU firmados por el Ejecutivo</span><span><i style="background:#5BC08A"></i>DNU validados por una cámara</span><span><i style="background:#E05AA0"></i>DNU rechazados por una cámara</span><span><i style="background:#F0A93A"></i>Vetos</span><span><i style="background:#F0675F"></i>Insistencias completadas (leyes que el Congreso impuso con 2/3)</span>';
-  const A = [2023, 2024, 2025, 2026].map(y => ({ periodo: y === 2023 ? '2023 (desde 10/12)' : y === 2026 ? '2026 (ene–sep)' : String(y), dnu: S.filter(x => x.mes.startsWith(y)).reduce((a, x) => a + (x.dnu_firmados || 0), 0), fuente:{ medio:'Infoleg · Universidad Austral' } }));
+  const A = [2023, 2024, 2025, 2026].map(y => ({ periodo: y === 2023 ? '2023 (desde 10/12)' : y === 2026 ? '2026 (ene–oct)' : String(y), dnu: S.filter(x => x.mes.startsWith(y)).reduce((a, x) => a + (x.dnu_firmados || 0), 0), fuente:{ medio:'Infoleg · Universidad Austral' } }));
   $('#ej-anual').innerHTML = rows(A.map(x => ({ n:x.periodo, v:x.dnu, c:'#74B9EA', max: Math.max(...A.map(y => y.dnu || 0)) * 1.1, d:0, u:'' })))
     + `<span class="src">Fuente: ${[...new Set(A.map(x => x.fuente && x.fuente.medio).filter(Boolean))].join(' · ')}</span>`;
-  $('#ej-nota').textContent = 'DNU firmados: base Infoleg (Ministerio de Justicia), con el texto de cada decreto verificado; ' + E.dnu_lista.length + ' DNU desde el 10/12/2023. Datos hasta septiembre de 2026. En las votaciones del Congreso, un mes en cero significa que no se encontró ningún hecho; para 2026 no se encontraron vetos, pero no hay una fuente que confirme que no hubo.';
+  $('#ej-nota').textContent = 'DNU firmados: base Infoleg (Ministerio de Justicia), con el texto de cada decreto verificado; ' + E.dnu_lista.length + ' DNU desde el 10/12/2023. Datos hasta octubre de 2026 (octubre, preliminar: falta el texto completo de parte de los decretos en Infoleg). En las votaciones del Congreso, un mes en cero significa que no se encontró ningún hecho; para 2026 no se encontraron vetos, pero no hay una fuente que confirme que no hubo.';
   const C = E.comparacion_presidencias || [], cell = o => o ? esc(o.valor ?? '—') : '—';
   $('#ej-tab').innerHTML = `<table><thead><tr><th>Presidencia</th><th>DNU firmados</th><th>Vetos</th><th>Insistencias</th><th>DNU rechazados</th></tr></thead><tbody>${C.map(p => `<tr><td>${esc(p.presidencia)}</td><td>${cell(p.dnu_por_anio)}</td><td>${cell(p.vetos_por_anio)}</td><td>${cell(p.insistencias)}</td><td>${cell(p.dnu_rechazados)}</td></tr>`).join('')}</tbody></table>
     <span class="src">Fuente: Chequeado · Universidad Austral (ODCL) · ACIJ · Dirección de Información Parlamentaria de Diputados</span>`;
