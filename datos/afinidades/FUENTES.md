@@ -226,6 +226,24 @@ Actualizado: 2026-10-25. Esta sección completa los campos `tna` e `indicadores.
 - **Senadores de Tierra del Fuego:** que el diputado Tita no diera quórum el 15/10 a cambio de los anticipos sale de fuentes sin nombre (LPO). Se usa solo para el dato del anticipo.
 - **El Intransigente (29/10, Weretilneck)** y la nota de El Destape del corte anterior no abrieron. Se usaron Ámbito y Neuquén Post.
 
+## Corte del 13/11/2026 · Gobernadores
+`gobernadores.json` tiene ahora `meta.actualizado` 2026-11-13. Hechos del 07/11 al 13/11/2026 (WebSearch + WebFetch).
+
+### Cambios de categoría
+- **Ninguno.** Conteo sin cambios: 6 afines, 13 neutrales y 5 opositoras.
+
+### Hechos cargados
+- **Relevamiento de El Cronista sobre las PASO (12/11):** nueve gobernadores apoyan en público eliminarlas (Jalil, Figueroa, Zdero, Valdés, Torres, Orrego, Frigerio, Sadir y Pullaro); Vidal y Llaryora estarían «dispuestos a acompañar»; Cornejo, Sáenz y Passalacqua condicionan su apoyo y Jaldo lo rechaza. La cuenta oficial llega justo a 37 votos en el Senado. Se cargó como hecho en Catamarca, Chaco, Corrientes, San Juan, Jujuy, Santa Fe, Santa Cruz, Córdoba, Neuquén, Entre Ríos y Chubut. Es una sola fuente y es un relevamiento periodístico, no declaraciones de cada gobernador. Mendoza, Salta, Misiones y Tucumán no se tocaron: ya tenían la misma posición con fecha 02/11.
+- **Neuquén (Figueroa), 09/11:** convocó por Decreto 1860/2026 a elecciones provinciales el 14/02/2027. Nadia Márquez (LLA) descartó un acuerdo y anticipó candidato propio; según Infobae (13/11), en LLA «no cayó bien». Fuentes: Ámbito (09/11), Letra P (09/11) e Infobae (13/11). Sigue neutral; se actualizó `casos_dudosos`.
+- **PRO (Jorge Macri, Frigerio, Torres), 12/11:** Ritondo dijo que el bloque PRO acompañará la reforma política, pero que su postura depende de esos tres gobernadores (El Cronista, 12/11). El principio de acuerdo PRO–LLA por el Presupuesto 2027 incluye la coparticipación y un crédito de la CAF para la Ciudad y la baja del IVA del huevo que impulsó Frigerio (El Cronista, Perfil y Parlamentario, 12/11).
+- **Río Negro (Weretilneck), 10/11:** acotó la elección provincial a la segunda quincena de mayo o junio de 2027 y repitió su apoyo a eliminar las PASO (Diario Río Negro, 10/11; Noti-Río, 12/11).
+
+### Pendientes
+- **Formosa:** sigue faltando una segunda fuente para los hechos del 17/10 y el 04/11; la búsqueda de la semana no la encontró.
+- **Ritondo y los gobernadores del PRO:** la frase sale solo de El Cronista (12/11).
+- **Sin novedades con fuente en la semana:** Buenos Aires, La Pampa, La Rioja, Formosa, Santiago del Estero, Tierra del Fuego, San Luis, Mendoza, Misiones, Salta y Tucumán. Kicillof, Insfrán y Quintela coincidieron en la recepción al papa León XIV (08/11, Infobae), pero no se cargó porque no es un hecho de la relación con la Nación.
+- **MDZ (12/11, reacción del Senado a la presión por las PASO)** no abrió (error del sitio). Varias notas que el buscador mostraba como de noviembre de 2026 eran en realidad de 2024 (El Ancasti sobre Kicillof y Quintela; El Cronista sobre Jorge Macri) y se descartaron.
+
 ## Corte del 06/11/2026 · transferencias
 - **Fuente:** Presupuesto Abierto, consultado el 06/11/2026. Según `rest-api/ejercicio/allForVisualizaciones`, el ejercicio 2026 se actualizó el 04/11/2026: octubre ya está cerrado en la fuente. Consultas reproducidas a mano con el mismo endpoint `donde-se-gasta/2026/filter` (los scripts de `/home/claude/scripts` no estaban); respuestas crudas en el scratchpad de la sesión, no en el repo.
 - **ATN de octubre 2026 = 0 pagado en las 24 jurisdicciones.** Presupuesto Abierto da 197.500 millones pagados en 2026: 184.000 a septiembre más 13.500 (Chaco 4.000, Corrientes 3.500, Entre Ríos 3.000, Misiones 3.000). [Economis, 03/11/2026](https://economis.com.ar/?p=501235) informa que en octubre no hubo ATN pagados y que esos 13.500 se devengaron el 30/10 y se pagan en noviembre. Las dos fuentes cierran provincia por provincia. Los 13.500 quedan como nota en cada provincia y se cargan en nov-2026.
@@ -237,3 +255,13 @@ Actualizado: 2026-10-25. Esta sección completa los campos `tna` e `indicadores.
 ## Corte del 06/11/2026 · senadores
 - **Sin cambios en `senadores.json`:** no hubo votaciones en el Senado entre el 30/10 y el 06/11/2026; Parlamentario (06/11) llama «última sesión» a la del 29/10. La reforma de Salud Mental (29/10, 42-21-0) sigue sin lista nominal: elDiarioAR solo informa los bloques (a favor: LLA, PRO, UCR, Movimiento por Misiones, Primero los Salteños, Despierta Chubut, Provincias Unidas y Movere; en contra: Justicialismo, Independencia y Convicción Federal). Los votos no se deducen por bloque, así que no se incorpora. No se corrió `build_senadores.py` y el JSON no se tocó.
 - **Pendientes:** acta o lista nominal de Salud Mental (senado.gob.ar sigue con 403 desde la shell, 06/11/2026); siguen los faltantes de arriba (Inocencia Fiscal I y II, pliegos de julio y agosto).
+
+## Corte del 13/11/2026 · transferencias
+- **Fuente:** Presupuesto Abierto, consultado el 13/11/2026. El ejercicio 2026 se actualizó el 11/11/2026 (`rest-api/ejercicio/allForVisualizaciones`). El ATN pagado de 2026 sigue en 197.500 millones: no hubo giros de ATN después de los 13.500 de comienzos de noviembre.
+- **Distribución de los 13.500 (pagados a comienzos de noviembre):** Chaco 4.000, Corrientes 3.500, Entre Ríos 3.000 y Misiones 3.000. La confirman Politikon Chaco con datos de la DNAP ([Diario Río Negro/NA, 04/11](https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/); [El Argentino Diario, 05/11](https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/)) y Nadin Argañaraz sobre Presupuesto Abierto ([Economis, 04/11](https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/)). Coincide provincia por provincia con Presupuesto Abierto. Economis titula «9.500 millones a tres provincias» porque deja afuera a Chaco en el título; el cuerpo da los cuatro montos.
+- **Cómo se cargó:** en cada provincia, `atn.nov_2026_parcial_millones` (valor al 11/11, con fuentes; 0 en las otras 20) y `atn.acumulado_2026_al_11_11_millones`; en el total nacional, `totales_nacionales.atn_2026_nov_parcial_millones`; en `meta`, `control_2026_11_13` y `actualizado` = 2026-11-13. **No cambian** la ventana de 12 meses (nov-2025 a oct-2026), `total_12m_millones` ni los indicadores: noviembre no cerró.
+- **Pendientes:** al cierre de noviembre, pasar el mes a `por_mes_millones["2026-11"]` y mover la ventana a dic-2025 a nov-2026 (sale nov-2025, que es 0 en las 24; el total quedaría en 273.500 si no hay más giros), y recalcular `atn_pct_gasto` y `atn_por_habitante_pesos`. Siguen pendientes la confirmación del TNA de octubre con Politikon y la apertura mensual de las TNA.
+
+## Corte del 13/11/2026 · senadores
+- **Sin cambios en `senadores.json`:** no hubo sesiones en el recinto del Senado entre el 07 y el 13/11/2026. Noticias Argentinas (12/11) ubica la próxima sesión, con la ley de Discapacidad, el jueves de la semana siguiente; Infobae (12/11) y Perfil (13/11) no registran sesiones en la semana. No se corrió `build_senadores.py`.
+- **Pendientes:** sigue sin lista nominal la reforma de Salud Mental (29/10, 42-21-0); la búsqueda de la semana no encontró ninguna lista uno por uno y senado.gob.ar sigue con 403 desde la shell (13/11/2026). Siguen los faltantes de arriba.

@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generado": "2026-11-06",
+  "generado": "2026-11-13",
   "periodo": [
    "2025-11-01",
-   "2026-11-06"
+   "2026-11-13"
   ],
   "criterio_inclusion": "Encuestas nacionales con al menos fechas de campo o n informados, de encuestadoras que publican ficha técnica. Cada número tiene URL y fecha de la fuente.",
   "metodo_promedio": "Promedio aritmético simple (sin ponderar por n ni por encuestadora) de aprobación y desaprobación de las encuestas con tipo_medicion='gestion' cuya fecha de fin de campo cae en el mes. Se excluyen: mediciones de imagen del presidente (Opina Argentina, Giacobbe), encuestas sin fecha de campo conocida, y olas sin cifras. Las olas de AtlasIntel y D'Alessio se asignan por fin de campo, no por el rótulo del informe (ver mes_etiqueta_informe). Redondeo a 1 decimal.",
@@ -14,12 +14,13 @@
    "ESPOP (UdeSA) no mide confianza sino satisfacción con los poderes del Estado (campo satisfaccion_poderes).",
    "Confianza en instituciones: la única medición nacional por institución con varias instituciones es QSocial (mayo 2026, sin Justicia ni Medios). Zentrix dic-2025 solo mide el INDEC. Latinobarómetro 2026 se publicó en octubre, pero no se encontraron las cifras de la Argentina por institución.",
    "Sin fecha de campo (fuera del promedio): Pulso Research mar-2026, Zuban Córdoba mar/jul/ago-2026, Zentrix ago-2026, D'Alessio jul-2026. Los informes de zubancordoba.com (PDF) no se pudieron abrir.",
-   "Octubre 2026 incluye dos encuestas con n y fechas de campo pero sin método ni margen informados (Analogías y Pulso Research), con el mismo criterio que analogias-2026-02.",
-   "Noviembre 2026: al corte del 06/11 no hay encuestas con campo terminado en noviembre; el mes no figura todavía en promedio_mensual."
+   "Octubre 2026 incluye una encuesta con n y fechas de campo pero sin método ni margen informados (Analogías), con el mismo criterio que analogias-2026-02.",
+   "Noviembre 2026: al corte del 13/11 hay una sola encuesta con campo terminado en noviembre (AtlasIntel, 5 al 9/11). El promedio del mes figura con alerta por tener menos de tres encuestadoras."
   ],
   "verificacion_2026_10_25": "Revisado contra las fuentes primarias: dalessio-2025-12 (PDF de D'Alessio: 23-28/12, n=1.000, 46/53) y atlas-2025-11 (Bloomberg Línea: 22-27/11, n=3.111, ±2, 42,6/52). Se agregaron zentrix-2025-12, zentrix-2026-08, zentrix-2026-09, pulso-2026-03 y zuban-2026-03; se completaron las fichas de mf-2026-07, zentrix-2026-07, espop-2026-10, zuban-2026-07 y zuban-2026-09.",
-  "actualizado": "2026-11-06",
-  "cambios_2026_11_06": "Se agregaron zentrix-2026-10, analogias-2026-10 y pulso-2026-10 (todas con campo en octubre). Octubre pasa de 5 a 8 encuestadoras. Sin encuestas con campo en noviembre."
+  "actualizado": "2026-11-13",
+  "cambios_2026_11_06": "Se agregaron zentrix-2026-10, analogias-2026-10 y pulso-2026-10 (todas con campo en octubre). Octubre pasa de 5 a 8 encuestadoras. Sin encuestas con campo en noviembre.",
+  "cambios_2026_11_13": "Se agregó atlas-2026-10w (campo 5 al 9/11, rotulada octubre). Noviembre entra en promedio_mensual con una sola encuestadora y alerta. Se corrigió la ficha de pulso-2026-10 (campo 10 al 17/10, 1.500 casos, online, ±3,0, según Perfil); sus cifras no cambian y octubre queda igual."
  },
  "promedio_mensual": [
   {
@@ -187,6 +188,17 @@
     "pulso-2026-10"
    ],
    "alerta": null
+  },
+  {
+   "mes": "2026-11",
+   "aprobacion": 36.2,
+   "desaprobacion": 60.6,
+   "n_encuestas": 1,
+   "n_encuestadoras": 1,
+   "encuestas": [
+    "atlas-2026-10w"
+   ],
+   "alerta": "menos de 3 encuestadoras con ficha en el mes"
   }
  ],
  "encuestas": [
@@ -2730,11 +2742,11 @@
   {
    "id": "pulso-2026-10",
    "encuestadora": "Pulso Research (Brújula Social)",
-   "campo_inicio": "2026-10-13",
-   "campo_fin": "2026-10-21",
-   "n": 1006,
-   "metodo": null,
-   "margen_error_pp": null,
+   "campo_inicio": "2026-10-10",
+   "campo_fin": "2026-10-17",
+   "n": 1500,
+   "metodo": "online, cuestionario cerrado y estructurado con algunas preguntas abiertas; muestra no probabilística estratificada con cuotas por género y edad, ajustada por parámetros sociodemográficos y electorales",
+   "margen_error_pp": 3.0,
    "aprobacion": 28.9,
    "desaprobacion": 66.4,
    "tipo_medicion": "gestion",
@@ -2767,16 +2779,89 @@
     "Mauricio Macri": {
      "positiva": 28,
      "negativa": 67.1
+    },
+    "Diego Santilli": {
+     "positiva": 25.0,
+     "negativa": 44.1
+    },
+    "Maximiliano Pullaro": {
+     "positiva": 19.2,
+     "negativa": 35.8
     }
    },
    "problemas": {},
    "confianza_instituciones": {},
-   "fuente_url": "https://www.eschaco.com/vernota.asp?id_noticia=133981",
-   "fuente_fecha": "2026-11-04",
+   "fuente_url": "https://perfil.com/politica/una-encuesta-midio-a-10-dirigentes-politicos-y-solo-uno-tiene-mas-imagen-positiva-que-negativa-afypT4u3ceuw",
+   "fuente_fecha": "2026-11-06",
    "fuentes_cruce": [
-    "https://grupolaprovincia.com/contenido/603170/encuesta-imagen-dirigentes-politicos-milei-bregman-2026"
+    "https://www.eschaco.com/vernota.asp?id_noticia=133981",
+    "https://grupolaprovincia.com/contenido/603170/encuesta-imagen-dirigentes-politicos-milei-bregman-2026",
+    "https://diarioneuquino.com.ar/encuesta-nacional-el-66-desaprueba-la-gestion-de-milei-pero-la-oposicion-enfrenta-un-problema-de-liderazgo/",
+    "https://prensamercosur.org/2026/11/09/una-nueva-encuesta-revela-cifras-negativas-para-milei-pero-tiene-un-dato-que-preocupa-a-la-oposicion/",
+    "https://www.gentedesalta.com/politica/javier-milei-recibio-papa-leon-xiv-malas-noticias-una-nueva-encuesta-castiga-lo-considera-una-sus-fortalezas-n13770"
    ],
-   "notas": "Evaluación de la gestión nacional 28,9 positiva y 66,4 negativa (50,5 muy mal, 15,9 mal); coinciden EsChaco y Grupo La Provincia. Campo 13 al 21/10 y n = 1.006 solo en EsChaco. Método y margen no informados. Imagen de dirigentes de Grupo La Provincia (nota sin fecha; dice que se midieron diez dirigentes y nombra siete). Rumbo del gobierno: 26,4 correcto, 61,9 incorrecto.",
+   "notas": "Evaluación de la gestión nacional 28,9 positiva (13 muy bien, 15,9 bien) y 66,4 negativa (15,9 mal, 50,5 muy mal); ns/nc 4,7. Coinciden Perfil, EsChaco, Grupo La Provincia, Diario Neuquino (cita a Clarín), Prensa Mercosur y Gente de Salta. Ficha corregida el 13/11/2026 según Perfil (06/11/2026): campo 10 al 17/10, 1.500 casos, online, ±3,0 (95 %); Diario Neuquino, Prensa Mercosur y Detonados (12/11) coinciden en 10 al 17/10 y 1.500 casos. Discrepancia: EsChaco (04/11) daba campo 13 al 21/10 y 1.006 casos; se usa la ficha de Perfil. El cambio no mueve la encuesta de mes. Imagen de dirigentes de Perfil y Grupo La Provincia; Milei negativa 64,6 (Perfil, Grupo La Provincia) o 64,5 (Diario Neuquino, Prensa Mercosur, Gente de Salta). Sergio Uñac 12,1/23,8 en Perfil, no cargado porque la nota muestra un 64,1 sin rótulo. Rumbo del gobierno: 26,4 correcto, 61,9 incorrecto.",
+   "en_promedio": true
+  },
+  {
+   "id": "atlas-2026-10w",
+   "encuestadora": "AtlasIntel (Latam Pulse / Bloomberg)",
+   "campo_inicio": "2026-11-05",
+   "campo_fin": "2026-11-09",
+   "n": 2364,
+   "metodo": "online",
+   "margen_error_pp": 2,
+   "aprobacion": 36.2,
+   "desaprobacion": 60.6,
+   "tipo_medicion": "gestion",
+   "mes_etiqueta_informe": "2026-10",
+   "imagen_dirigentes": {
+    "Cristina Fernández de Kirchner": {
+     "positiva": 41,
+     "negativa": 53
+    },
+    "Axel Kicillof": {
+     "positiva": 39,
+     "negativa": 54
+    },
+    "Myriam Bregman": {
+     "positiva": 39,
+     "negativa": 51
+    },
+    "Patricia Bullrich": {
+     "positiva": 37,
+     "negativa": 57
+    },
+    "Javier Milei": {
+     "positiva": 36,
+     "negativa": 62
+    },
+    "Mauricio Macri": {
+     "positiva": 24,
+     "negativa": 66
+    }
+   },
+   "problemas": {
+    "Desempleo": 50.2,
+    "Corrupción": 40.2,
+    "Situación económica": 34.5,
+    "Precios altos e inflación": 32.4,
+    "Impunidad y sistema judicial": 25.6,
+    "Educación": 22.4,
+    "Debilitamiento de la democracia e instituciones": 20.9,
+    "Impuestos altos y dificultad para emprender": 18.3,
+    "Inseguridad": 17.3
+   },
+   "confianza_instituciones": {},
+   "fuente_url": "https://www.bloomberglinea.com/latinoamerica/argentina/milei-pierde-apoyo-mientras-crece-la-preocupacion-por-el-desempleo/",
+   "fuente_fecha": "2026-11-13",
+   "fuentes_cruce": [
+    "https://eleconomista.com.ar/politica/encuesta-demoledora-milei-rechazo-supera-60-hay-dato-alarma-gobierno-n99658",
+    "https://www.politicargentina.com/notas/202611/77131-milei-cae-en-las-encuestas-606-lo-desaprueba-y-lidera-cristina.html",
+    "https://www.miperiodico.com.ar/2026/11/13/milei-pierde-apoyo-encuesta-noviembre/",
+    "https://www.bloomberg.com/news/articles/2026-11-13/argentina-milei-pierde-apoyo-y-desempleo-es-la-mayor-preocupacion-mwet2oi8"
+   ],
+   "notas": "Rotulada 'octubre 2026' según El Economista; campo en noviembre, por eso cuenta en noviembre. Ficha (5 al 9/11, 2.364 casos, online, ±2 al 95 %) en Bloomberg Línea y Mi Periódico; campo y n coinciden en El Economista y Política Argentina. Aprobación 36,2 y desaprobación 60,6 (ns/nc 3,2) en El Economista y Política Argentina; Bloomberg Línea solo da imagen. Evaluación de la gestión (El Economista): 28,9 buena o excelente, 15,4 regular, 55,7 mala o muy mala. Imagen de Milei 36/62 (antes 38/59) en Bloomberg Línea y El Economista; Kicillof 39/54 en ambas; CFK, Bregman, Bullrich y Macri con negativa solo en El Economista (Política Argentina coincide en las positivas). Problemas (respuesta múltiple) de El Economista; Bloomberg Línea confirma desempleo primero, cerca de la mitad.",
    "en_promedio": true
   }
  ],

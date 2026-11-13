@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Falta de transparencia: acceso a la información, secreto, datos públicos y prensa",
-  "actualizado": "2026-11-06",
+  "actualizado": "2026-11-13",
   "tipos": [
    "Acceso a la información",
    "Secreto",
@@ -148,10 +148,10 @@
   }
  ],
  "faltantes": [
-  "Tasa de pedidos de acceso denegados y serie posterior a abril de 2025: el dataset de la AAIP en descarga.aaip.gob.ar fue rechazado por el proxy.",
+  "Tasa de pedidos de acceso denegados y serie posterior a abril de 2025: el dataset de la AAIP en descarga.aaip.gob.ar fue rechazado por el proxy (no se reintentó por otras vías).",
   "Conteo de decretos o resoluciones secretos o reservados del período.",
   "Relevamiento de estadísticas o bases discontinuadas (ACIJ, Poder Ciudadano o similares): no se encontró.",
-  "Conducción de la AAIP: el sitio oficial sigue mostrando a Beatriz de Anchorena (Decreto 110/2022); sin confirmación periodística reciente.",
-  "Publicación de las declaraciones juradas 2025 de funcionarios (la OA prorrogó el plazo al 31/08/2026): no se verificó si ya están publicadas."
+  "Conducción de la AAIP: Beatriz de Anchorena firma como titular la Resolución AAIP 104/2026 (BO 21/05/2026). No hay dato posterior.",
+  "Declaraciones juradas 2025: los principales funcionarios las presentaron ante la OA a fines de agosto de 2026 (iProfesional 31/08, Chequeado 01/09). Falta saber si el ministro de Defensa, Carlos Presti, la presentó: al 01/09 no lo había hecho, según Chequeado."
  ]
 }

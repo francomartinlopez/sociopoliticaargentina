@@ -1,6 +1,6 @@
 # Agresiones a periodistas: fuentes
 
-Consulta: 25/10/2026. Archivo: `agresiones.json`.
+Consulta: 25/10/2026 (última revisión: 13/11/2026). Archivo: `agresiones.json`.
 
 - **No hay datos mensuales.** Ni FOPEA ni ADEPA publican conteos por mes en las fuentes accesibles, y el sitio monitoreo.fopea.org no se pudo abrir. El campo `mensual` queda en null.
 - **No hay cifras de 2026.** En septiembre de 2026 FOPEA dijo que el récord de 2025 "ya fue superado" en 2026, sin dar números: [El Ancasti](https://www.elancasti.com.ar/politica-y-economia/entidades-periodisticas-alertaron-el-deterioro-la-libertad-prensa-y-el-avance-las-agresiones-n621411).
@@ -27,3 +27,10 @@ Consulta: 25/10/2026. Archivo: `agresiones.json`.
 - `monitoreo.fopea.org/comunicados/` no respondió al pedido de permiso. Por eso no se pudo revisar el listado completo del período, y el conteo mensual sigue en null.
 - No se pudo abrir la nota de El Intransigente (30/10) sobre el reclamo de AEA.
 - Falta el total de agresiones de 2026.
+
+## Corte del 13/11/2026
+- **Sin dato nuevo.** Entre el 06/11 y el 13/11/2026 no se encontraron comunicados ni informes de FOPEA o ADEPA con cifras nuevas de agresiones a periodistas. Lo más reciente sigue siendo el pedido de FOPEA a la ONU (26/10), ya cargado en `parcial_2026`. Solo cambió `meta.actualizado` (2026-11-13).
+
+### Pendientes
+- La página de fopea.org (comunicado del 26/10) no respondió al pedido de permiso, así que no se pudo revisar desde ahí el listado de comunicados posteriores. `monitoreo.fopea.org/comunicados/` sigue sin revisarse.
+- Siguen faltando el total de agresiones de 2026 y el conteo mensual.

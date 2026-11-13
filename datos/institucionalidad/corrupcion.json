@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Causas judiciales que involucran a funcionarios del gobierno actual",
-  "actualizado": "2026-11-06",
+  "actualizado": "2026-11-13",
   "etapas": [
    "denuncia",
    "imputación",
@@ -46,8 +46,8 @@
    "estado": "sobreseimiento",
    "juzgado_fiscalia": "Juzgado Criminal y Correccional Federal N° 8 (Marcelo Martínez de Giorgi; antes María Servini; subrogado por Daniel Rafecas durante la licencia del titular a comienzos de noviembre de 2026) · Fiscalía de Eduardo Taiano · PIA (Sergio Rodríguez) desde el 29-30/10/2026",
    "ultima_novedad": {
-    "fecha": "2026-11-04",
-    "hecho": "La Sala II de la Cámara Federal de Casación Penal (Slokar y Ledesma; Yacobucci en disidencia) hizo lugar a la queja de los damnificados apartados como querellantes y concedió el recurso de casación contra la decisión de la Sala I de la Cámara Federal que había confirmado su apartamiento. Según El Destape, todavía no resolvió el fondo (si vuelven a ser querellantes); el sobreseimiento sigue vigente. El pedido de reapertura de la PIA debe resolverlo el juez Daniel Rafecas, que subroga el juzgado mientras Martínez de Giorgi está de licencia. El 03/11 el Gobierno envió al Senado el pliego de Rafecas para Casación."
+    "fecha": "2026-11-12",
+    "hecho": "El fiscal Taiano dictaminó contra el pedido de la PIA de reabrir la causa y de asumir la investigación: sostuvo su pedido de sobreseimiento y dijo que la PIA plantea una discrepancia en la valoración de la prueba. Lo había pedido el juez Rafecas (subrogante), que le corrió vista. Ahora decide el titular del Juzgado N° 8, Martínez de Giorgi, ya de regreso de su licencia; si rechaza la reapertura, la PIA apeló en subsidio ante la Cámara Federal. En Casación, la audiencia sobre las querellas podría hacerse antes de fin de año y la resolución se espera para 2027 (Examedia/NA). El sobreseimiento sigue sin estar firme."
    },
    "otros_hitos": [
     {
@@ -65,6 +65,10 @@
     {
      "fecha": "2026-10-30",
      "hecho": "Recursos contra el sobreseimiento: las querellas apartadas apelaron (27/10) y la PIA (fiscal Sergio Rodríguez) pidió reabrir la causa y apeló en subsidio ante la Cámara Federal (29-30/10)."
+    },
+    {
+     "fecha": "2026-11-04",
+     "hecho": "Casación (Sala II, mayoría Slokar-Ledesma) concedió el recurso de los damnificados contra su apartamiento como querellantes. No reabre la causa ni toca el sobreseimiento."
     }
    ],
    "respuesta_oficial": "Milei dijo que no estaba al tanto de los detalles del proyecto y borró la publicación (paráfrasis).",
@@ -80,11 +84,14 @@
     "https://www.eldestapeweb.com/politica/reves-milei-libra-camara-casacion-acepto-queja-victimas-allana-camino-reincorporarlas-querellantes-2026114144934",
     "https://www.lapoliticaonline.com/judiciales/reves-para-milei-casa/",
     "https://www.lacapitalmdp.com/libra-una-fiscalia-especializada-apelo-el-sobreseimiento-de-milei-y-busca-reabrir-la-causa/",
-    "https://www.lanacion.com.ar/politica/milei-impulsa-el-ascenso-del-juez-rafecas-y-se-podria-abrir-una-nueva-vacante-en-comodoro-py-nid03112026/"
+    "https://www.lanacion.com.ar/politica/milei-impulsa-el-ascenso-del-juez-rafecas-y-se-podria-abrir-una-nueva-vacante-en-comodoro-py-nid03112026/",
+    "https://www.iprofesional.com/legales/468937-taiano-rechazo-reabrir-la-causa-libra-y-cuestiono-el-pedido-de-la-pia",
+    "https://examedia.com.ar/portada/post/88225537",
+    "https://cholilaonline.ar/2026/11/escandalo-libra-definiran-si-reabren-la-causa-contra-los-milei.html"
    ],
    "firme": false,
-   "estado_nota": "Sobreseimiento de primera instancia del 23/10/2026, no firme: lo apelaron las querellas apartadas (27/10) y la PIA pidió reabrir la causa y apeló en subsidio (29-30/10). El 04/11 Casación (Sala II) concedió el recurso de los damnificados contra su apartamiento, sin resolver todavía si vuelven como querellantes. El fiscal Taiano, que pidió el sobreseimiento, no apeló según Infobae.",
-   "discrepancias": "Casación (04/11/2026): LPO dice que 'readmitió a dos damnificados como querellantes'; El Destape dice que hizo lugar a la queja y concedió el recurso de casación, pero que el fondo (la reincorporación) está pendiente. Se usa la versión de El Destape, más prudente. Juzgado: La Capital (MdP) lo identifica como Juzgado Federal N° 8, hoy a cargo interinamente de Rafecas; La Nación explica que Rafecas lo subroga por la licencia de Martínez de Giorgi."
+   "estado_nota": "Sobreseimiento de primera instancia del 23/10/2026, no firme: lo apelaron las querellas apartadas (27/10) y la PIA pidió reabrir la causa y apeló en subsidio (29-30/10). El 04/11 Casación (Sala II) concedió el recurso de los damnificados contra su apartamiento, sin resolver el fondo. El 12/11 trascendió que Taiano se opuso a la reapertura; falta la decisión del juez.",
+   "discrepancias": "Casación (04/11/2026): LPO dice que 'readmitió a dos damnificados como querellantes'; El Destape dice que hizo lugar a la queja y concedió el recurso de casación, pero que el fondo (la reincorporación) está pendiente. Se usa la versión de El Destape, más prudente. Juzgado: La Capital (MdP) lo identifica como Juzgado Federal N° 8, hoy a cargo interinamente de Rafecas; La Nación explica que Rafecas lo subroga por la licencia de Martínez de Giorgi. Fecha del dictamen de Taiano: las notas del 12/11 no la precisan; se usa la de publicación."
   },
   {
    "caso": "ANDIS: presuntas coimas en la Agencia Nacional de Discapacidad (audios de Diego Spagnuolo)",
@@ -104,8 +111,8 @@
    "estado": "en trámite",
    "juzgado_fiscalia": "Juzgado Criminal y Correccional Federal N° 11 según las fuentes: resolvió Sebastián Casanello y en 2026 quedó a cargo Ariel Lijo como subrogante · Fiscales Franco Picardi y José Luis Agüero Iturbe · Cámara Federal, Sala II (Boico, Farah)",
    "ultima_novedad": {
-    "fecha": "2026-11-04",
-    "hecho": "Al 04/11, según fuentes judiciales citadas por NA (Examedia), el peritaje de Gendarmería sobre los audios 'aún no fue incorporado en la causa'. En paralelo, desde el 03/11 el juez Lijo toma una nueva tanda de 39 indagatorias, sobre todo a directivos de Suizo Argentina (Sebastián Nuner Uner se negó a declarar y presentó un escrito; estaban citados Jonathan y Emmanuel Kovalivker). Según El Destape, la causa suma 44 procesamientos; los fiscales pidieron el 16/10 la indagatoria de Spagnuolo por estos hechos y Lijo aún no la ordenó. El cronograma sigue el 11, 12, 13, 17, 18, 19, 24, 25 y 26/11."
+    "fecha": "2026-11-12",
+    "hecho": "Se conoció la pericia final de Gendarmería sobre los audios, firmada por tres peritos de la División Acústica Forense y nueve peritos de parte; cinco integrantes de la fiscalía y de la Datip firmaron en disidencia. Concluye que 'no fue posible establecer' si las voces corresponden a Spagnuolo, detecta características 'compatibles con un proceso de regrabación' y 'posibles operaciones de edición', y no pudo emitir una conclusión sobre el uso de IA; solo 14 de 58 archivos se consideraron aptos. No afirma que los audios sean falsos. El fiscal Picardi sostiene que los audios no son determinantes, porque la causa se apoya también en informes oficiales sobre sobreprecios. Siguen las indagatorias durante noviembre; después Lijo debe resolver la situación procesal de los indagados. Jonathan Kovalivker pidió la nulidad de allanamientos y requisas."
    },
    "respuesta_oficial": "Desplazamiento 'preventivo'; el decreto invocó 'reforzar los valores éticos en la función pública'.",
    "fuentes": [
@@ -119,9 +126,10 @@
     "https://www.pagina12.com.ar/2026/10/29/causa-andis-gendarmeria-no-pudo-determinar-la-autenticidad-de-los-audios-de-spagnuolo/",
     "https://noticiasargentinas.com/politica/abogado-de-spagnuolo-anticipo-que-pedira-la--nulidad-de-la-causa-andis-_a6ae3d31583a79a91f394da4e",
     "https://examedia.com.ar/portada/post/88179238",
-    "https://eldestapeweb.com/politica/andis-comenzo-nueva-tanda-39-indagatorias-hechos-corrupcion-discapacidad-numero-2-kovalivker-202611320414"
+    "https://eldestapeweb.com/politica/andis-comenzo-nueva-tanda-39-indagatorias-hechos-corrupcion-discapacidad-numero-2-kovalivker-202611320414",
+    "https://examedia.com.ar/portada/post/88228973"
    ],
-   "discrepancias": "Buenos Aires Times (23/09/2026) dice que la Cámara 'ordenó' el juicio; Perfil y otras fuentes hablan de confirmación de procesamientos. Se toma 'procesamiento'. Peritaje de los audios (29/10/2026): Infobae y MDZ titulan que «no son auténticos»; Página/12, Rosario3 y La Capital, que Gendarmería «no pudo determinar» su autenticidad. Según La Capital, no hay todavía un informe firmado en el expediente. Se usa la versión más prudente. Número de procesados: 19 confirmados por la Cámara el 22/09/2026 (Perfil); El Destape (03/11/2026) habla de 44 procesamientos en toda la causa, que incluye otros tramos.",
+   "discrepancias": "Buenos Aires Times (23/09/2026) dice que la Cámara 'ordenó' el juicio; Perfil y otras fuentes hablan de confirmación de procesamientos. Se toma 'procesamiento'. Peritaje de los audios (29/10/2026): Infobae y MDZ titulan que «no son auténticos»; Página/12, Rosario3 y La Capital, que Gendarmería «no pudo determinar» su autenticidad. Según La Capital, no hay todavía un informe firmado en el expediente. Se usa la versión más prudente. Número de procesados: 19 confirmados por la Cámara el 22/09/2026 (Perfil); El Destape (03/11/2026) habla de 44 procesamientos en toda la causa, que incluye otros tramos. Pericia final (12/11/2026): se toma de La Nación reproducida por Examedia; una sola fuente con el detalle de las firmas. Diario Panorama (29/10) ya había anticipado que no había elementos para confirmar la autenticidad.",
    "otros_hitos": [
     {
      "fecha": "2026-09-22",
@@ -130,6 +138,10 @@
     {
      "fecha": "2026-10-29",
      "hecho": "Trascendió un informe preliminar de Gendarmería sobre los audios (difundido por el Gobierno); según fuentes judiciales, no había informe firmado en el expediente."
+    },
+    {
+     "fecha": "2026-11-03",
+     "hecho": "Comenzó una tanda de 39 indagatorias (tramo Suizo Argentina), con cronograma hasta el 26/11."
     }
    ]
   },
@@ -152,7 +164,7 @@
    "juzgado_fiscalia": "Juzgado Criminal y Correccional Federal N° 4 (Ariel Lijo) · Fiscalía de Gerardo Pollicita",
    "ultima_novedad": {
     "fecha": "2026-11-06",
-    "hecho": "El fiscal Pollicita dictaminó que no hay 'elementos suficientes' para sostener la imputación por enriquecimiento ilícito, porque no se pudo acreditar que el aumento patrimonial ocurriera durante la función pública. No pidió el archivo: planteó la incompetencia y pidió remitir el expediente a la Justicia Nacional en lo Penal Económico para investigar una posible evasión tributaria. Lo decide el juez Lijo."
+    "hecho": "El fiscal Pollicita dictaminó que no hay 'elementos suficientes' para sostener la imputación por enriquecimiento ilícito, porque no se pudo acreditar que el aumento patrimonial ocurriera durante la función pública. No pidió el archivo: planteó la incompetencia y pidió remitir el expediente a la Justicia Nacional en lo Penal Económico para investigar una posible evasión tributaria. Lo decide el juez Lijo. Al 13/11 Lijo no resolvió. Según MDZ y Perfil, con fuentes cercanas al juez (trascendido, no resolución), Lijo evalúa pedir más pruebas sobre las billeteras de bitcoin antes de decidir sobre la incompetencia."
    },
    "respuesta_oficial": "Adorni: no hay 'enriquecimiento apreciable alguno que no admita explicación'; atribuye su patrimonio a bitcoin comprado en 2017 y vendido en 2018, y a ahorros previos a diciembre de 2023.",
    "fuentes": [
@@ -164,7 +176,9 @@
     "https://www.eldiarioar.com/politica/fiscal-pollicita-no-encontro-elementos-suficientes-acusar-enriquecimiento-ilicito-manuel-adorni_1_13644790.html",
     "https://elesquiu.com/politica/2026/11/6/la-causa-contra-adorni-podria-cambiar-de-fuero-tras-el-dictamen-del-fiscal-pollicita-602464.html",
     "https://www.lacapital.com.ar/politica/segun-el-fiscal-pollicita-no-hay-elementos-suficientes-sostener-que-adorni-se-enriquecio-ilicitamente-n10290858.html",
-    "https://www.lapoliticaonline.com/politica/pollicita-salva-a-adorni-de-la-causa-por-enriquecimiento-ilicito-y-pide-que-lo-investiguen-por-evasion/"
+    "https://www.lapoliticaonline.com/politica/pollicita-salva-a-adorni-de-la-causa-por-enriquecimiento-ilicito-y-pide-que-lo-investiguen-por-evasion/",
+    "https://noticias.perfil.com/noticias/politica/caso-adorni-el-juez-lijo-toma-distancia-del-fiscal-y-analiza-pedir-mas-pruebas.phtml",
+    "https://www.mdzol.com/politica/2026/11/12/ariel-lijo-toma-distancia-del-fiscal-y-evalua-pedir-mas-pruebas-en-la-causa-de-manuel-adorni-1994902.html"
    ],
    "estado_nota": "Sigue en trámite: el dictamen fiscal del 06/11/2026 no es un sobreseimiento ni una desestimación.",
    "otros_hitos": [
@@ -241,12 +255,12 @@
   }
  ],
  "faltantes": [
-  "$LIBRA: qué resuelve Casación sobre la reincorporación de las querellas, y qué resuelve el juzgado (Rafecas, subrogante) sobre el pedido de reapertura de la PIA y la concesión de las apelaciones.",
-  "ANDIS: informe firmado de Gendarmería sobre los audios (al 04/11 no estaba en el expediente) y si Lijo cita a Spagnuolo a indagatoria por el tramo Suizo Argentina.",
-  "Espert: no se encontraron novedades entre el 30/10 y el 06/11; falta la resolución de la Cámara Federal de San Martín sobre el procesamiento.",
-  "Adorni: decisión de Lijo sobre la incompetencia pedida por Pollicita (06/11/2026).",
-  "Reidel/Nucleoeléctrica: actividad posterior al 08/05/2026.",
-  "Créditos hipotecarios del Banco Nación a funcionarios (conflicto de competencia Capuchetti-Lijo, Perfil 10/05/2026): no se cargó porque no se verificó su estado actual.",
-  "Situación de Francisco Adorni (imputado en una causa conexa, según El Economista; no verificado en detalle)."
+  "$LIBRA: decisión de Martínez de Giorgi sobre la reapertura pedida por la PIA (Taiano se opuso el 12/11) y, si la rechaza, de la Cámara Federal; resolución de fondo de Casación sobre las querellas (esperada para 2027); admisibilidad de la apelación del inversor Juan Patricio Marchetto.",
+  "ANDIS: si la pericia final de Gendarmería ya está incorporada formalmente al expediente (no hay segunda fuente que lo diga) y si Lijo cita a Spagnuolo por el tramo Suizo Argentina.",
+  "Espert: sin novedades entre el 07/11 y el 13/11; falta la resolución de la Cámara Federal de San Martín sobre el procesamiento.",
+  "Adorni: decisión de Lijo sobre la incompetencia pedida por Pollicita (06/11/2026); al 13/11 solo hay trascendidos.",
+  "Reidel/Nucleoeléctrica: no se encontró actividad posterior al 08/05/2026.",
+  "Créditos hipotecarios del Banco Nación a funcionarios: la Cámara unificó la causa en el juzgado de Capuchetti (Perfil, Cronista); no se cargó porque no se verificó su etapa actual.",
+  "Francisco Adorni: según Tiempo de San Juan (06/07/2026) tiene una causa por presunta malversación ligada al IOSFA (juez Ramos, fiscal González, sin medidas de prueba) y otra por enriquecimiento ilícito (Rafecas subrogante, fiscal Marijuán, con pedido de indagatoria). No se verificó su estado actual."
  ]
 }

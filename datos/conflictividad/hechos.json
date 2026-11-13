@@ -1,8 +1,8 @@
 {
  "meta": {
   "titulo": "Conflictividad social en Argentina: hechos significativos",
-  "periodo": "2025-11-06 a 2026-11-06",
-  "actualizado": "2026-11-06",
+  "periodo": "2025-11-13 a 2026-11-13",
+  "actualizado": "2026-11-13",
   "categorias": {
    "paro": "Paros sindicales",
    "toma": "Tomas de empresas (y de organismos, aclarado en nota)",
@@ -22,7 +22,7 @@
    "lat/lon": "Coordenadas del centro de la ciudad, no del punto exacto. Los paros nacionales se ubican en CABA y llevan aclaración en nota."
   },
   "advertencias": [
-   "Cobertura parcial: 183 hechos. Es una selección de hechos significativos con crónica verificable, no un censo: faltan muchas marchas semanales de jubilados, cortes de ruta y paros provinciales. La Rioja sigue con 3 casos; Santiago del Estero, Formosa, Jujuy, La Pampa, Entre Ríos y Salta tienen 4, y San Juan, Tucumán, San Luis, Chaco, Corrientes y Tierra del Fuego, 5.",
+   "Cobertura parcial: 194 hechos. Es una selección de hechos significativos con crónica verificable, no un censo: faltan muchas marchas semanales de jubilados, cortes de ruta y paros provinciales. La Rioja sigue con 3 casos; Santiago del Estero, Formosa, Entre Ríos y Salta tienen 4, y La Pampa, Jujuy, San Juan, Tucumán, San Luis, Corrientes y Tierra del Fuego, 5.",
    "Muchos hechos tienen una sola fuente; algunos se apoyan en medios partidarios o militantes (La Izquierda Diario, FARCO, El Cohete a la Luna) y otros en crónicas previas del mismo día. Está indicado en cada nota.",
    "No se encontraron saqueos ni conflictos militares en el período con las búsquedas hechas. Eso no prueba que no los haya habido."
   ]
@@ -30,30 +30,6 @@
  "hechos": [
   {
    "id": "h001",
-   "fecha": "2025-11-12",
-   "categoria": "mvio",
-   "lugar": "CABA (Congreso)",
-   "provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
-   "lat": -34.6037,
-   "lon": -58.3816,
-   "personas_min": null,
-   "personas_max": null,
-   "detenidos": 2,
-   "procesados": null,
-   "muertos": 0,
-   "heridos": 0,
-   "danos": {
-    "nivel": "sin daños",
-    "justificacion": "No se informaron daños"
-   },
-   "descripcion": "Marcha semanal de jubilados frente al Congreso vallado; la PFA detuvo a dos personas, entre ellas el sacerdote Padre Paco, que luego fue liberado.",
-   "fuentes": [
-    "https://www.canal26.com/politica/2025/11/12/detuvieron-a-dos-personas-en-la-marcha-de-jubilados-en-el-congreso-uno-de-ellos-era-el-padre-paco/"
-   ],
-   "nota": "Se clasifica 'mvio' por las detenciones con aplicación del protocolo antipiquetes, sin violencia grave. El SAME asistió a una mujer mayor."
-  },
-  {
-   "id": "h002",
    "fecha": "2025-11-24",
    "categoria": "carc",
    "lugar": "General Roca",
@@ -76,7 +52,7 @@
    ]
   },
   {
-   "id": "h003",
+   "id": "h002",
    "fecha": "2025-12-04",
    "categoria": "paro",
    "lugar": "Santa Rosa (paro de UTELPa)",
@@ -100,7 +76,7 @@
    "nota": "Crónica previa (Letra P, martes 02/12/2025, «este jueves» = 04/12). Sin cifras de adhesión. El gobierno descontó el día, lo que motivó la protesta del 02/02/2026."
   },
   {
-   "id": "h004",
+   "id": "h003",
    "fecha": "2025-12-09",
    "categoria": "mpac",
    "lugar": "Avellaneda (Puente Pueyrredón)",
@@ -124,7 +100,7 @@
    "nota": "La cifra de 800 efectivos es de Crónica TV, citada por Infobae. Según el artículo, 'no se registraron incidentes'."
   },
   {
-   "id": "h005",
+   "id": "h004",
    "fecha": "2025-12-09",
    "categoria": "mpac",
    "lugar": "Mendoza (Legislatura y plaza Independencia)",
@@ -150,7 +126,7 @@
    "nota": "«Miles» según Diario Huarpe, sin cifra precisa. Yahoo/AP habla de «tensas protestas» sin incidentes concretos."
   },
   {
-   "id": "h006",
+   "id": "h005",
    "fecha": "2025-12-09",
    "categoria": "paro",
    "lugar": "Nacional (paro de ATE)",
@@ -174,7 +150,7 @@
    "nota": "La única fuente es la crónica del corte en Neuquén–Cipolletti, que menciona el 'paro nacional convocado por ATE'. No hay cifra de adhesión. Evento nacional ubicado en CABA."
   },
   {
-   "id": "h007",
+   "id": "h006",
    "fecha": "2025-12-09",
    "categoria": "mpac",
    "lugar": "Puente Neuquén–Cipolletti",
@@ -198,7 +174,7 @@
    "nota": "Corte en el peaje, del lado de Cipolletti (Río Negro)."
   },
   {
-   "id": "h008",
+   "id": "h007",
    "fecha": "2025-12-11",
    "categoria": "mvio",
    "lugar": "Mendoza",
@@ -222,7 +198,7 @@
    "nota": "17 detenidos según policía y organizaciones (13 en la capital y 4 en Godoy Cruz). Heridos: 7 policías según la policía; el abogado de Franco habla de 7 heridos entre los detenidos; se carga 7 sin sumar. El Sindicato de Prensa denunció violación de la libertad de expresión. Una sola fuente leída; el FIT presentó un proyecto de repudio."
   },
   {
-   "id": "h009",
+   "id": "h008",
    "fecha": "2025-12-15",
    "categoria": "aten",
    "lugar": "CABA (sede de Seivara, San Telmo)",
@@ -246,7 +222,7 @@
    "nota": "Se clasifica 'aten' como ataque intimidatorio a una sede sindical, sin intento de homicidio. Personas = los 3 atacantes. No se informaron detenidos."
   },
   {
-   "id": "h010",
+   "id": "h009",
    "fecha": "2025-12-17",
    "categoria": "mvio",
    "lugar": "CABA (Congreso)",
@@ -270,7 +246,7 @@
    "nota": "Sin cifras de detenidos ni heridos en la nota. Una sola fuente."
   },
   {
-   "id": "h011",
+   "id": "h010",
    "fecha": "2025-12-18",
    "categoria": "mpac",
    "lugar": "CABA (Plaza de Mayo)",
@@ -294,7 +270,7 @@
    ]
   },
   {
-   "id": "h012",
+   "id": "h011",
    "fecha": "2025-12-18",
    "categoria": "paro",
    "lugar": "Nacional (paro de ATE; marcha a Plaza de Mayo)",
@@ -318,7 +294,7 @@
    ]
   },
   {
-   "id": "h013",
+   "id": "h012",
    "fecha": "2025-12-29",
    "categoria": "mpac",
    "lugar": "Córdoba",
@@ -342,7 +318,7 @@
    "nota": "Una sola fuente; no informa cantidad de asistentes ni incidentes."
   },
   {
-   "id": "h014",
+   "id": "h013",
    "fecha": "2026-01-12",
    "categoria": "mpac",
    "lugar": "Córdoba (peaje de la autopista a Carlos Paz)",
@@ -366,7 +342,7 @@
    "nota": "Detenidos: ninguno mencionado. La denuncia penal de la concesionaria no es una imputación judicial, por eso procesados = null."
   },
   {
-   "id": "h015",
+   "id": "h014",
    "fecha": "2026-01-14",
    "categoria": "mpac",
    "lugar": "Pilar (Panamericana km 35)",
@@ -390,7 +366,7 @@
    "nota": "Fue el segundo corte de esa semana. Corte de ruta pacífico."
   },
   {
-   "id": "h016",
+   "id": "h015",
    "fecha": "2026-01-21",
    "categoria": "mvio",
    "lugar": "CABA (Congreso)",
@@ -414,7 +390,7 @@
    "nota": "Una mujer herida, asistida en las postas de salud; otros manifestantes necesitaron atención. No hubo detenciones; se identificó a dos personas."
   },
   {
-   "id": "h017",
+   "id": "h016",
    "fecha": "2026-02-02",
    "categoria": "mpac",
    "lugar": "Santa Rosa (Centro Cívico)",
@@ -438,7 +414,7 @@
    "nota": "Crónica previa del mismo día (convocatoria a las 10); sin cifras ni incidentes. Una sola fuente."
   },
   {
-   "id": "h018",
+   "id": "h017",
    "fecha": "2026-02-03",
    "categoria": "mpac",
    "lugar": "Resistencia (InSSSeP y Superior Tribunal de Justicia)",
@@ -462,7 +438,7 @@
    "nota": "Fecha deducida de «este martes» (nota del 04/02). Sin cifra de asistentes. Una sola fuente."
   },
   {
-   "id": "h019",
+   "id": "h018",
    "fecha": "2026-02-04",
    "categoria": "mvio",
    "lugar": "CABA (Congreso)",
@@ -486,7 +462,7 @@
    "nota": "Detenidos: 'al menos cuatro', entre ellos el Padre Paco Olveira. Heridos: 5 policías y 1 manifestante atendido."
   },
   {
-   "id": "h020",
+   "id": "h019",
    "fecha": "2026-02-04",
    "categoria": "mpac",
    "lugar": "Córdoba",
@@ -510,7 +486,7 @@
    "nota": "23 = gremios participantes según Sergio Castro (SEP); no hay cifra de asistentes. Sin incidentes informados."
   },
   {
-   "id": "h021",
+   "id": "h020",
    "fecha": "2026-02-04",
    "categoria": "mvio",
    "lugar": "Mendoza",
@@ -535,7 +511,7 @@
    "nota": "Más de 3.000 en la marcha central según FARCO (agencia de radios comunitarias). Fecha: FARCO (06/02) habla del «miércoles» = 04/02. Noticias Ambientales publica los nueve nombres de los detenidos. Se denunciaron golpes sin cifra de heridos."
   },
   {
-   "id": "h022",
+   "id": "h021",
    "fecha": "2026-02-06",
    "categoria": "mpac",
    "lugar": "San Salvador de Jujuy (Secretaría de Trabajo)",
@@ -560,7 +536,7 @@
    "nota": "Fecha deducida: «el viernes» previo a la nota del lunes 09/02. Más de medio centenar de despedidos sostenía el acampe (BAE, 23/12/2025); la empresa despidió entre 230 (BAE) y más de 300 (Jujuy Dice) trabajadores en 2025. No se encontró la fecha exacta de inicio del acampe."
   },
   {
-   "id": "h023",
+   "id": "h022",
    "fecha": "2026-02-10",
    "categoria": "pol",
    "lugar": "Rosario",
@@ -586,7 +562,7 @@
    "nota": "La protesta duró varios días (sábado 7 a miércoles 11/02 al menos). Al menos 20 efectivos quedaron bajo investigación (El Ancasti, 11/02). El gobernador Pullaro reconoció el reclamo y anunció aumentos. Según Infobae (12/02), empezó la noche del lunes 9/02 y se levantó después del anuncio de Pullaro, la tarde del 11/02: mínimo de $1.350.000 para policías y penitenciarios."
   },
   {
-   "id": "h024",
+   "id": "h023",
    "fecha": "2026-02-11",
    "categoria": "mvio",
    "lugar": "CABA (Congreso)",
@@ -613,7 +589,7 @@
    "nota": "Detenidos: 71 según la ministra Monteoliva (EFE vía Última Hora, 12/02). Otras cifras: 'al menos 37' (20 Policía de la Ciudad y 17 PFA) según Diario de Cuyo; al menos 31 según la Comisión Provincial por la Memoria; 15 según Jorge Macri. Heridos: 12 efectivos (7 federales y 5 de la Ciudad) según EFE; no hay cifra de manifestantes heridos. La votación terminó en la madrugada del 12/02. Infobae (14/02): la Policía de la Ciudad liberó a 15 de sus 16 detenidos (cargos de incendio, lesiones, resistencia, atentado y daño); el gobierno identificó a 17 prófugos y al 14/02 había detenido a dos."
   },
   {
-   "id": "h025",
+   "id": "h024",
    "fecha": "2026-02-11",
    "categoria": "mpac",
    "lugar": "San Juan (microcentro y plaza 25 de Mayo)",
@@ -638,7 +614,7 @@
    "nota": "«Más de 3000 manifestantes» según Canal 13 San Juan, sin atribuir el conteo; Diario Huarpe no da cifra. Canal 13 dice expresamente que no hubo incidentes en San Juan."
   },
   {
-   "id": "h026",
+   "id": "h025",
    "fecha": "2026-02-16",
    "categoria": "pol",
    "lugar": "La Matanza (Ciudad Evita)",
@@ -662,7 +638,7 @@
    "nota": "La Matanza: no más de 10 personas, y 5 ex efectivos investigados por averiguación de ilícito ('procesados' = investigados). La Plata: 6 personas; un ex penitenciario detenido por resistencia a la autoridad y liberado, y un agente pasado a disponibilidad."
   },
   {
-   "id": "h027",
+   "id": "h026",
    "fecha": "2026-02-18",
    "categoria": "toma",
    "lugar": "San Fernando (planta de FATE)",
@@ -688,7 +664,7 @@
    "nota": "16 = ocupantes según el juzgado; unos 20 trabajadores estaban en los techos. El gobierno dictó la conciliación obligatoria. Al día siguiente hubo un corte en la Panamericana (Diario de Cuyo, 19/02). La toma seguía el 18/09/2026, cuando la Cámara de Apelaciones de San Isidro (Sala 2) ordenó el desalojo; los trabajadores siguieron dentro de la planta (Crónica)."
   },
   {
-   "id": "h028",
+   "id": "h027",
    "fecha": "2026-02-19",
    "categoria": "mvio",
    "lugar": "CABA (Congreso)",
@@ -714,7 +690,7 @@
    "nota": "Detenidos: 16 según Infobae a las 23:15 (8 de la PFA y 8 de la Policía de la Ciudad); a la tarde Los Andes y Canal 26 informaban 12 (8 de la Ciudad, 2 de ellos menores, y 4 de la PFA). A tres hombres se les imputó daño y resistencia a la autoridad en sede policial; no consta proceso judicial."
   },
   {
-   "id": "h029",
+   "id": "h028",
    "fecha": "2026-02-19",
    "categoria": "mvio",
    "lugar": "Córdoba",
@@ -738,7 +714,7 @@
    "nota": "Episodio informado por El Doce TV, citado por Infobae; sin heridos ni detenidos mencionados. Sin cifra de asistentes. Una sola fuente leída."
   },
   {
-   "id": "h030",
+   "id": "h029",
    "fecha": "2026-02-19",
    "categoria": "mpac",
    "lugar": "Mendoza (nudo Costanera–Acceso Este)",
@@ -762,7 +738,7 @@
    "nota": "Sin cifra de asistentes. Infobae cita a MDZ. Una sola fuente leída."
   },
   {
-   "id": "h031",
+   "id": "h030",
    "fecha": "2026-02-19",
    "categoria": "mvio",
    "lugar": "Moreno (Acceso Oeste, RN 7)",
@@ -787,7 +763,7 @@
    "nota": "Ambas fuentes son de Infobae. No hay cifras de detenidos ni de heridos."
   },
   {
-   "id": "h032",
+   "id": "h031",
    "fecha": "2026-02-19",
    "categoria": "paro",
    "lugar": "Nacional (paro general CGT)",
@@ -813,7 +789,7 @@
    "nota": "Evento nacional ubicado en CABA. Aerolíneas Argentinas canceló 255 vuelos (TodoJujuy, 18/02). No se publicaron cifras de adhesión, ni sindicales ni oficiales."
   },
   {
-   "id": "h033",
+   "id": "h032",
    "fecha": "2026-02-19",
    "categoria": "mpac",
    "lugar": "Neuquén",
@@ -837,7 +813,7 @@
    "nota": "Concentración «multitudinaria» según Infobae, sin cifra. Una sola fuente."
   },
   {
-   "id": "h034",
+   "id": "h033",
    "fecha": "2026-02-19",
    "categoria": "mpac",
    "lugar": "San Miguel de Tucumán (plaza Independencia)",
@@ -861,7 +837,7 @@
    "nota": "Sin cifra de asistentes en Tucumán. Infobae cita a La Gaceta sobre el vallado y los cortes intermitentes. Una sola fuente leída."
   },
   {
-   "id": "h035",
+   "id": "h034",
    "fecha": "2026-02-20",
    "categoria": "aten",
    "lugar": "CABA (Escuela Superior de Gendarmería, San Telmo)",
@@ -885,7 +861,7 @@
    "nota": "Según la policía, la encomienda había llegado cuatro meses antes. No se informaron autores ni detenidos. Hace falta una segunda fuente."
   },
   {
-   "id": "h036",
+   "id": "h035",
    "fecha": "2026-02-24",
    "categoria": "toma",
    "lugar": "Río Grande (planta de Aires del Sur)",
@@ -910,7 +886,7 @@
    "nota": "Fecha = primera crónica que la informa en curso (Cadena 3, 24/02); no se halló la fecha exacta de inicio. 110 trabajadores según Cadena 3 y 140 según Anticipos."
   },
   {
-   "id": "h037",
+   "id": "h036",
    "fecha": "2026-02-25",
    "categoria": "mpac",
    "lugar": "Resistencia",
@@ -934,7 +910,7 @@
    "nota": "Perfil la califica de «masiva», sin cifra. Fecha deducida de «este miércoles» (nota del 26/02). Una sola fuente."
   },
   {
-   "id": "h038",
+   "id": "h037",
    "fecha": "2026-02-27",
    "categoria": "mvio",
    "lugar": "CABA (Congreso)",
@@ -959,7 +935,7 @@
    "nota": "Detenidos: 4 en Rivadavia al 1200 (3 por agresión a efectivos y 1 por resistencia). Heridos: 3 policías con lesiones leves. Operativo de unos 800 efectivos de la Policía de la Ciudad. Ese mismo día hubo un corte casi total de la Panamericana (ramal Tigre)."
   },
   {
-   "id": "h039",
+   "id": "h038",
    "fecha": "2026-02-27",
    "categoria": "mpac",
    "lugar": "Córdoba",
@@ -983,7 +959,7 @@
    "nota": "200 personas según Leonardo Gómez, de la Asamblea por el Agua (organizador). Una sola fuente."
   },
   {
-   "id": "h040",
+   "id": "h039",
    "fecha": "2026-02-27",
    "categoria": "mvio",
    "lugar": "Mendoza",
@@ -1007,7 +983,7 @@
    "nota": "Una sola fuente leída (FARCO, agencia de radios comunitarias); MendoVoz publicó el mismo día «Manifestantes aseguran haber sido reprimidos», pero la página no se pudo abrir. Sin cifras de asistentes, detenidos ni heridos."
   },
   {
-   "id": "h041",
+   "id": "h040",
    "fecha": "2026-02-27",
    "categoria": "pol",
    "lugar": "San Fernando del Valle de Catamarca",
@@ -1031,7 +1007,7 @@
    "nota": "Sin cifra de participantes. Detenidos y heridos en 0 porque la crónica completa no menciona ninguno. Una sola fuente."
   },
   {
-   "id": "h042",
+   "id": "h041",
    "fecha": "2026-02-27",
    "categoria": "mpac",
    "lugar": "San Luis (microcentro, frente al Correo Argentino)",
@@ -1055,7 +1031,7 @@
    "nota": "Una sola fuente. Sin cifras: la nota habla de «una nutrida columna de trabajadores»."
   },
   {
-   "id": "h043",
+   "id": "h042",
    "fecha": "2026-03-02",
    "categoria": "paro",
    "lugar": "Córdoba (paro de UEPC)",
@@ -1079,7 +1055,7 @@
    "nota": "Adhesión de 70 % a 80 % según la UEPC (Roberto Cristalli). Sin cifra de asistentes a la marcha ni incidentes."
   },
   {
-   "id": "h044",
+   "id": "h043",
    "fecha": "2026-03-02",
    "categoria": "paro",
    "lugar": "La Plata (paro docente bonaerense)",
@@ -1104,7 +1080,7 @@
    "nota": "Se ubica en La Plata, sede del gobierno provincial. Sin cifras de adhesión. Según La Nación (13/02), fue la primera vez que los gremios bonaerenses desafiaron a Kicillof con un paro; el informe de CEPA lo describe como el primer paro provincial en seis años."
   },
   {
-   "id": "h045",
+   "id": "h044",
    "fecha": "2026-03-02",
    "categoria": "paro",
    "lugar": "Nacional (paro docente de CTERA, UDA, CEA, SADOP y AMET)",
@@ -1129,7 +1105,7 @@
    "nota": "Sin cifra de adhesión. Evento nacional ubicado en CABA."
   },
   {
-   "id": "h046",
+   "id": "h045",
    "fecha": "2026-03-02",
    "categoria": "paro",
    "lugar": "Puente Neuquén–Cipolletti (paro de UnTER y ADUNC)",
@@ -1153,7 +1129,7 @@
    "nota": "Adhesión «mayor al 90 %» y más de 500 manifestantes, ambos según UnTER. Una sola fuente."
   },
   {
-   "id": "h047",
+   "id": "h046",
    "fecha": "2026-03-02",
    "categoria": "paro",
    "lugar": "Resistencia (paro del Frente Gremial Docente)",
@@ -1177,7 +1153,7 @@
    "nota": "Crónica del mismo día: informa el paro en curso; de la marcha de antorchas solo hay convocatoria. Una sola fuente. Sin cifras de adhesión."
   },
   {
-   "id": "h048",
+   "id": "h047",
    "fecha": "2026-03-02",
    "categoria": "mpac",
    "lugar": "San Fernando del Valle de Catamarca",
@@ -1201,7 +1177,7 @@
    "nota": "Sin cifras de asistentes. Cortes con paso cada dos horas. Una sola fuente."
   },
   {
-   "id": "h049",
+   "id": "h048",
    "fecha": "2026-03-02",
    "categoria": "paro",
    "lugar": "Santa Fe (paro de AMSAFE)",
@@ -1227,7 +1203,7 @@
    "nota": "Adhesión: 'más del 70 %' según AMSAFE; según el ministro Goity, abrió el 98 % de las escuelas. Ambas fuentes son de Aire de Santa Fe. Más de 10.000 en la marcha central según AMSAFE (Política de Santa Fe); va solo en personas_max por ser cifra sindical."
   },
   {
-   "id": "h050",
+   "id": "h049",
    "fecha": "2026-03-04",
    "categoria": "mvio",
    "lugar": "CABA (Secretaría de Trabajo, Alem 650)",
@@ -1251,7 +1227,7 @@
    "nota": "Detenido: Eduardo Belliboni (Polo Obrero). No se informaron heridos."
   },
   {
-   "id": "h051",
+   "id": "h050",
    "fecha": "2026-03-04",
    "categoria": "mpac",
    "lugar": "Esquel",
@@ -1275,7 +1251,7 @@
    "nota": "Se carga como muestra de una protesta recurrente (los días 4 de cada mes); hubo otras el 04/06 y el 04/09 según Diario La Portada. Sin cifra de asistentes. Una sola fuente."
   },
   {
-   "id": "h052",
+   "id": "h051",
    "fecha": "2026-03-04",
    "categoria": "mpac",
    "lugar": "San Fernando del Valle de Catamarca (Casa de Gobierno)",
@@ -1299,7 +1275,7 @@
    "nota": "El Esquiú la llama «multitudinaria», sin cifras. Una sola fuente."
   },
   {
-   "id": "h053",
+   "id": "h052",
    "fecha": "2026-03-07",
    "categoria": "pol",
    "lugar": "Cipolletti",
@@ -1323,7 +1299,7 @@
    "nota": "Fecha deducida de «este sábado» (nota del 08/03). Sin cifra de participantes. Los policías se declararon en asamblea permanente. Una sola fuente."
   },
   {
-   "id": "h054",
+   "id": "h053",
    "fecha": "2026-03-09",
    "categoria": "paro",
    "lugar": "Córdoba (paro de UEPC)",
@@ -1347,7 +1323,7 @@
    "nota": "Crónica previa del mismo día. El paro del 11/03 se suspendió tras una nueva oferta (La Voz de San Justo)."
   },
   {
-   "id": "h055",
+   "id": "h054",
    "fecha": "2026-03-09",
    "categoria": "pol",
    "lugar": "San Salvador de Jujuy",
@@ -1372,7 +1348,7 @@
    "nota": "La nota es del 10/03/2026 10:37 y describe la protesta 'durante la noche', es decir, la noche del 9 al 10. La fecha es aproximada."
   },
   {
-   "id": "h056",
+   "id": "h055",
    "fecha": "2026-03-11",
    "categoria": "mpac",
    "lugar": "San Juan",
@@ -1396,7 +1372,7 @@
    "nota": "Unos 500 manifestantes según Diario de Cuyo. Una sola fuente."
   },
   {
-   "id": "h057",
+   "id": "h056",
    "fecha": "2026-03-12",
    "categoria": "mpac",
    "lugar": "Río Gallegos (Legislatura)",
@@ -1421,7 +1397,7 @@
    "nota": "Sin cifra de asistentes. Una diputada pidió informes sobre tensión entre manifestantes y personal de seguridad, que la crónica no confirma."
   },
   {
-   "id": "h058",
+   "id": "h057",
    "fecha": "2026-03-18",
    "categoria": "mvio",
    "lugar": "CABA (Congreso)",
@@ -1445,7 +1421,7 @@
    "nota": "Los tres detenidos fueron liberados. El Destape dice «este martes», pero el 18/03/2026 fue miércoles, día habitual de la marcha. Una sola fuente."
   },
   {
-   "id": "h059",
+   "id": "h058",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "Bahía Blanca",
@@ -1469,7 +1445,7 @@
    "nota": "Tiempo Argentino dice que la convocatoria «sorprendió», sin cifra. Una sola fuente."
   },
   {
-   "id": "h060",
+   "id": "h059",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "CABA (Plaza de Mayo)",
@@ -1495,7 +1471,7 @@
    "nota": "100.000 = estimación del gobierno nacional (Canal 26). AFP habla de 'decenas de miles'. No se encontró una cifra de los organizadores."
   },
   {
-   "id": "h061",
+   "id": "h060",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "Córdoba",
@@ -1519,7 +1495,7 @@
    "nota": "'Más de 200.000 personas' según la Mesa de Trabajo por los Derechos Humanos de Córdoba (organizadora). No hay cifra policial."
   },
   {
-   "id": "h062",
+   "id": "h061",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "La Plata",
@@ -1543,7 +1519,7 @@
    "nota": "«Masiva convocatoria» según 0221, sin cifra. Una sola fuente leída (La Izquierda Diario, medio del PTS, también la cubrió)."
   },
   {
-   "id": "h063",
+   "id": "h062",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "Mar del Plata",
@@ -1568,7 +1544,7 @@
    "nota": "100.000 según Tiempo Argentino, que cita a 0223; La Capital MdP habla de 'miles' en 24 cuadras."
   },
   {
-   "id": "h064",
+   "id": "h063",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "Neuquén",
@@ -1592,7 +1568,7 @@
    ]
   },
   {
-   "id": "h065",
+   "id": "h064",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "Rosario",
@@ -1618,7 +1594,7 @@
    "nota": "«Miles de personas» y plaza San Martín «desbordada»; ninguna fuente da cifra."
   },
   {
-   "id": "h066",
+   "id": "h065",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "Salta",
@@ -1642,7 +1618,7 @@
    "nota": "Sin cifra de asistentes. El Tribuno dice que el grupo de la camioneta «parecía vinculado» al PJ. Una sola fuente."
   },
   {
-   "id": "h067",
+   "id": "h066",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "San Juan",
@@ -1665,7 +1641,7 @@
    ]
   },
   {
-   "id": "h068",
+   "id": "h067",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "San Miguel de Tucumán",
@@ -1690,7 +1666,7 @@
    "nota": "«Cientos» según Contexto Tucumán, sin cifra precisa."
   },
   {
-   "id": "h069",
+   "id": "h068",
    "fecha": "2026-03-24",
    "categoria": "mpac",
    "lugar": "San Salvador de Jujuy",
@@ -1715,7 +1691,7 @@
    "nota": "Sin cifra de asistentes; Perfil dice que la convocatoria de la tarde en la capital fue mayor que la de Guerrero."
   },
   {
-   "id": "h070",
+   "id": "h069",
    "fecha": "2026-03-26",
    "categoria": "mpac",
    "lugar": "San Juan",
@@ -1739,7 +1715,7 @@
    "nota": "Unas 100 personas en la capital según fuentes policiales (Diario Huarpe). Una sola fuente."
   },
   {
-   "id": "h071",
+   "id": "h070",
    "fecha": "2026-03-28",
    "categoria": "mpac",
    "lugar": "Corrientes",
@@ -1763,7 +1739,7 @@
    "nota": "Fecha deducida de «este sábado» (nota del 29/03). Sin cifras. Diario Ahora la calificó de «masiva movilización en capital e interior», pero la página no se pudo abrir."
   },
   {
-   "id": "h072",
+   "id": "h071",
    "fecha": "2026-04-01",
    "categoria": "mpac",
    "lugar": "CABA (Congreso)",
@@ -1787,7 +1763,7 @@
    "nota": "La nota es del 02/04/2026 y la marcha fue el miércoles 01/04. 'Decenas' de jubilados."
   },
   {
-   "id": "h073",
+   "id": "h072",
    "fecha": "2026-04-01",
    "categoria": "mvio",
    "lugar": "San Luis (inmediaciones de la Legislatura)",
@@ -1813,7 +1789,7 @@
    "nota": "El relato viene de ATE; ninguna nota trae versión oficial. ATE nacional (fuente de parte) habla de «decenas de heridos», sin número exacto, por eso heridos queda en null. SanLuis24 menciona detenciones sin cantidad."
   },
   {
-   "id": "h074",
+   "id": "h073",
    "fecha": "2026-04-02",
    "categoria": "pol",
    "lugar": "CABA (Edificio Centinela, Retiro)",
@@ -1838,7 +1814,7 @@
    "nota": "'Unas 200 personas' según Canal 26. Rechazaban el bono del Decreto 216/2026. En agosto de 2026 se convocó otra marcha de las fuerzas federales (Conclusión, 24/08), pero no se encontró una crónica."
   },
   {
-   "id": "h075",
+   "id": "h074",
    "fecha": "2026-04-06",
    "categoria": "pol",
    "lugar": "Posadas (Casa de Gobierno)",
@@ -1862,7 +1838,7 @@
    "nota": "Fecha = inicio del acampe según elDiarioAR (16/06). Arrancó con ocho efectivos y se sumaron otros, sin cifra final. Una sola fuente."
   },
   {
-   "id": "h076",
+   "id": "h075",
    "fecha": "2026-04-07",
    "categoria": "mvio",
    "lugar": "Avellaneda (Puente Pueyrredón)",
@@ -1887,7 +1863,7 @@
    "nota": "Infobae no informa detenidos ni heridos. Se cargan juntos todos los cortes del AMBA del día, ubicados en el Puente Pueyrredón, foco de los incidentes. Crónica publicó el mapa de cortes previsto en casi todas las provincias, pero no se cargaron por separado porque no hay crónicas posteriores de cada uno."
   },
   {
-   "id": "h077",
+   "id": "h076",
    "fecha": "2026-04-08",
    "categoria": "mvio",
    "lugar": "CABA (Congreso)",
@@ -1912,7 +1888,7 @@
    "nota": "Detenidos: 1 en la marcha + 7 activistas de Greenpeace (Canal 26). Hubo réplicas en Entre Ríos, Salta y San Rafael (Política Argentina). La reforma se aprobó en la madrugada del 09/04."
   },
   {
-   "id": "h078",
+   "id": "h077",
    "fecha": "2026-04-09",
    "categoria": "mvio",
    "lugar": "Mendoza",
@@ -1936,7 +1912,7 @@
    "nota": "8 detenidos (5 hombres y 3 mujeres) acusados de desórdenes en la vía pública, según El Editor Mendoza. Una sola fuente leída; Nicolás del Caño (FIT) también denunció las detenciones. Fecha deducida: la nota es del 09/04 y dice que la ley se aprobó «esa madrugada»."
   },
   {
-   "id": "h079",
+   "id": "h078",
    "fecha": "2026-04-09",
    "categoria": "paro",
    "lugar": "San Juan (paro de UDAP, UDA y AMET; Centro Cívico)",
@@ -1961,7 +1937,7 @@
    "nota": "Unas 500 personas según la Policía de San Juan (Diario La Provincia SJ). Adhesión «parcial», sin porcentaje. Los gremios avanzaron gracias a una cautelar, después de que la Subsecretaría de Trabajo frenara el paro de 48 horas de marzo (Tiempo de San Juan). Sin incidentes; hubo caos de tránsito."
   },
   {
-   "id": "h080",
+   "id": "h079",
    "fecha": "2026-04-15",
    "categoria": "mvio",
    "lugar": "Las Heras (Hospital Distrital)",
@@ -1986,7 +1962,7 @@
    "nota": "Se clasifica como manifestación con incidentes por las detenciones; no hubo violencia física informada. ATE es parte interesada. Los detenidos fueron trasladados a Pico Truncado; la acusación mencionada es impedir el funcionamiento del hospital, sin imputación formal informada."
   },
   {
-   "id": "h081",
+   "id": "h080",
    "fecha": "2026-04-15",
    "categoria": "toma",
    "lugar": "Río Gallegos (Consejo Provincial de Educación)",
@@ -2010,7 +1986,7 @@
    "nota": "Toma de un organismo público, no de una empresa. Terminó con la liberación de los detenidos el 16/04 (ATE). Sin cifra de participantes."
   },
   {
-   "id": "h082",
+   "id": "h081",
    "fecha": "2026-04-20",
    "categoria": "mvio",
    "lugar": "San Vicente (cortes de yerbateros en San Vicente, Dos de Mayo, Campo Ramón y Campo Grande)",
@@ -2035,7 +2011,7 @@
    "nota": "Radio Up (20/04) fecha el inicio «este lunes»; Plan B (21/04) habla del segundo día consecutivo. No se informan heridos ni detenidos."
   },
   {
-   "id": "h083",
+   "id": "h082",
    "fecha": "2026-04-21",
    "categoria": "paro",
    "lugar": "Nacional (paro de ATE; acto en Aeroparque)",
@@ -2058,7 +2034,7 @@
    ]
   },
   {
-   "id": "h084",
+   "id": "h083",
    "fecha": "2026-04-21",
    "categoria": "mpac",
    "lugar": "Ushuaia (frente a la Legislatura)",
@@ -2083,7 +2059,7 @@
    "nota": "Fecha deducida: Aire Libre (21/04) dice «este martes». Provincia 23 anunciaba para el 20/04 un paro, una marcha y un acampe; el acampe pudo empezar ese día. Sin cifras."
   },
   {
-   "id": "h085",
+   "id": "h084",
    "fecha": "2026-04-23",
    "categoria": "paro",
    "lugar": "Rawson («faltazo» docente)",
@@ -2108,7 +2084,7 @@
    "nota": "Paro de hecho, no convocado por un gremio. Más de 1.500 personas solo en Rawson, cifra similar en Puerto Madryn y algunos cientos en Comodoro, Esquel y la Comarca Andina, según El Cohete a la Luna (03/05). Fecha del 23/04 según El Cohete; ANCCOM (UBA) no da fecha exacta."
   },
   {
-   "id": "h086",
+   "id": "h085",
    "fecha": "2026-04-23",
    "categoria": "mpac",
    "lugar": "Río Gallegos",
@@ -2132,7 +2108,7 @@
    "nota": "Única fuente: La Izquierda Diario (medio partidario). 'Cientos de trabajadores y vecinos'. El año se deduce del día de la semana."
   },
   {
-   "id": "h087",
+   "id": "h086",
    "fecha": "2026-04-23",
    "categoria": "pol",
    "lugar": "Santa Rosa (Unidad 13 del SPF)",
@@ -2156,7 +2132,7 @@
    "nota": "Crónica previa del mismo día (convocatoria a las 10:30); sin cifra de asistentes. El personal del SPF no tiene representación gremial por ley."
   },
   {
-   "id": "h088",
+   "id": "h087",
    "fecha": "2026-04-28",
    "categoria": "mpac",
    "lugar": "Rawson",
@@ -2180,7 +2156,7 @@
    "nota": "Más de 6.000 personas en Rawson y unas 15.000 en toda la provincia según El Cohete a la Luna; personas_max corresponde al total provincial. La nota tiene fechas inconsistentes (26 o 28/04); se usa el martes 28/04. Una sola fuente."
   },
   {
-   "id": "h089",
+   "id": "h088",
    "fecha": "2026-04-29",
    "categoria": "mvio",
    "lugar": "Pampa del Indio (cruce de las rutas provinciales 3 y 4)",
@@ -2205,7 +2181,7 @@
    "nota": "Infobae fecha el operativo el miércoles 29/04. La versión de los hechos es la oficial (Ministerio de Seguridad provincial). Una foto de Infobae menciona detenidos, sin número."
   },
   {
-   "id": "h090",
+   "id": "h089",
    "fecha": "2026-04-29",
    "categoria": "mvio",
    "lugar": "Rawson (Vialidad Provincial)",
@@ -2231,7 +2207,7 @@
    "nota": "300 docentes en asamblea afuera según El Cohete a la Luna, que habla de gases y golpes a docentes. Ninguna fuente da cifras de heridos ni detenidos. Fecha deducida de «este miércoles» (Cholila Online, 30/04)."
   },
   {
-   "id": "h091",
+   "id": "h090",
    "fecha": "2026-04-30",
    "categoria": "mpac",
    "lugar": "CABA (Plaza de Mayo)",
@@ -2256,7 +2232,7 @@
    "nota": "Ambas notas son de TodoJujuy. No hay cifra de asistentes."
   },
   {
-   "id": "h092",
+   "id": "h091",
    "fecha": "2026-05-05",
    "categoria": "mvio",
    "lugar": "Puente Neuquén–Cipolletti",
@@ -2281,7 +2257,7 @@
    "nota": "Algunos manifestantes fueron asistidos por el gas, sin cifra. Adhesión al paro: 70 % según UnTER, 28 % según el gobierno el primer día (Infoarenales, 10/05)."
   },
   {
-   "id": "h093",
+   "id": "h092",
    "fecha": "2026-05-08",
    "categoria": "aten",
    "lugar": "Rosario (sede del Sindicato de Dragado y Balizamiento)",
@@ -2306,7 +2282,7 @@
    "nota": "Fecha deducida: Infobae (domingo 10/05) dice «la madrugada del viernes» = 08/05. Autores no identificados; el móvil no está establecido. Detenidos y heridos: ninguno informado."
   },
   {
-   "id": "h094",
+   "id": "h093",
    "fecha": "2026-05-12",
    "categoria": "mpac",
    "lugar": "CABA (Plaza Houssay – Plaza de Mayo)",
@@ -2331,7 +2307,7 @@
    "nota": "120.000 personas según el cálculo propio de La Nación (no es una cifra oficial; el gobierno no dio número). Heridos: 2 hombres atendidos por el SAME por caídas, uno trasladado al Argerich; no son heridos por represión. Detenidos: ninguno mencionado."
   },
   {
-   "id": "h095",
+   "id": "h094",
    "fecha": "2026-05-12",
    "categoria": "mpac",
    "lugar": "Córdoba",
@@ -2356,7 +2332,7 @@
    "nota": "«Más de 120 mil personas» según la Facultad de Artes de la UNC (parte convocante), sin indicar quién hizo el cálculo; La Nación la describe como «masiva» sin cifra."
   },
   {
-   "id": "h096",
+   "id": "h095",
    "fecha": "2026-05-12",
    "categoria": "mpac",
    "lugar": "Formosa (Plaza San Martín)",
@@ -2380,7 +2356,7 @@
    "nota": "Una sola fuente (Agenfor, agencia oficial del gobierno provincial). Sin cifras de asistentes."
   },
   {
-   "id": "h097",
+   "id": "h096",
    "fecha": "2026-05-12",
    "categoria": "mpac",
    "lugar": "La Rioja (avenida Carlos Menem al Rectorado de la UNLaR)",
@@ -2405,7 +2381,7 @@
    "nota": "Fecha deducida: Rioja Virtual (12/05) dice «este martes». Rioja Virtual dice «cientos» y El Destape «miles», sin número."
   },
   {
-   "id": "h098",
+   "id": "h097",
    "fecha": "2026-05-12",
    "categoria": "mpac",
    "lugar": "Mar del Plata",
@@ -2430,7 +2406,7 @@
    "nota": "«Altísima convocatoria» (La Nación) y «una verdadera multitud» que ocupó más de ocho cuadras (El Atlántico). Sin cifra."
   },
   {
-   "id": "h099",
+   "id": "h098",
    "fecha": "2026-05-12",
    "categoria": "mpac",
    "lugar": "Mendoza",
@@ -2454,7 +2430,7 @@
    "nota": "«Miles» según La Nación, sin cifra. Una sola fuente."
   },
   {
-   "id": "h100",
+   "id": "h099",
    "fecha": "2026-05-12",
    "categoria": "mpac",
    "lugar": "Neuquén",
@@ -2478,7 +2454,7 @@
    "nota": "Sin cifra de asistentes. Una sola fuente."
   },
   {
-   "id": "h101",
+   "id": "h100",
    "fecha": "2026-05-12",
    "categoria": "mpac",
    "lugar": "Posadas",
@@ -2502,7 +2478,7 @@
    "nota": "Sin cifra de asistentes. Una sola fuente."
   },
   {
-   "id": "h102",
+   "id": "h101",
    "fecha": "2026-05-12",
    "categoria": "mpac",
    "lugar": "Rosario",
@@ -2524,6 +2500,31 @@
     "https://www.lanacion.com.ar/politica/los-universitarios-tambien-marcharon-en-el-interior-del-pais-para-reclamar-que-el-gobierno-cumpla-la-nid12052026/"
    ],
    "nota": "«Una multitud» según La Nación, sin cifra. Una sola fuente."
+  },
+  {
+   "id": "h102",
+   "fecha": "2026-05-12",
+   "categoria": "mpac",
+   "lugar": "Santa Rosa (cuarta Marcha Federal Universitaria)",
+   "provincia": "LA PAMPA",
+   "lat": -36.6167,
+   "lon": -64.2833,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "No se informan incidentes"
+   },
+   "descripcion": "En la cuarta Marcha Federal Universitaria, estudiantes, docentes, nodocentes y vecinos marcharon desde la Plaza San Martín por la avenida San Martín hasta la rotonda del Centro Cívico y volvieron a la plaza, donde se leyó el documento de las organizaciones convocantes por la Ley de Financiamiento Universitario. Hubo otra marcha en General Pico.",
+   "fuentes": [
+    "https://www.laarena.com.ar/la-pampa/masiva-movilizacion-en-santa-rosa-por-la-universidad-publica-202651217490",
+    "https://diariotextual.com/inicio/index.php/2026/05/12/cuarto-marcha-universitaria-una-masiva-manifestacion-en-defensa-de-la-unlpam-en-santa-rosa-y-pico/"
+   ],
+   "nota": "Ampliación de provincias con pocos hechos. «Miles de manifestantes» según La Arena y «una multitud» según Diario Textual, sin cifra. Ninguna informa incidentes."
   },
   {
    "id": "h103",
@@ -4080,6 +4081,32 @@
   {
    "id": "h166",
    "fecha": "2026-10-28",
+   "categoria": "aten",
+   "lugar": "Bahía Blanca (barrio San Martín, domicilio de un dirigente gremial)",
+   "provincia": "BUENOS AIRES",
+   "lat": -38.7183,
+   "lon": -62.2663,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": 1,
+   "procesados": null,
+   "muertos": null,
+   "heridos": 1,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "Ataque a una persona, sin daños materiales informados"
+   },
+   "descripcion": "Luis Pérez, secretario general del Sindicato del Personal de Dragado y Balizamiento de Bahía Blanca, recibió un disparo en una rodilla cuando cerraba el portón de su casa, en Pedro Pico al 1500; el agresor, que llegó en moto, cruzó unas palabras con él y huyó sin intentar robarle. La FeMPINRA y otros gremios repudiaron el ataque.",
+   "fuentes": [
+    "https://www.infobae.com/sociedad/policiales/2026/10/29/video-un-sindicalista-sufrio-un-brutal-ataque-a-tiros-cuando-salia-de-su-casa-en-bahia-blanca/",
+    "https://notasdeactualidad.com.ar/balearon-a-un-sindicalistabahia-blanca-que-dijoataque-y-por-que-descarta-una-interna-gremial/",
+    "https://www.infobae.com/sociedad/policiales/2026/10/31/liberaron-al-acusado-de-haber-baleado-a-un-sindicalista-en-bahia-blanca/"
+   ],
+   "nota": "Hecho de semanas anteriores que faltaba. El móvil no está establecido: la fiscal Marina Lara (UFI 7) investiga si se vincula con un conflicto personal o con la actividad gremial; Pérez descartó una interna. Un sospechoso de 50 años fue detenido el jueves 29/10 y liberado el 30/10 por disposición de la Fiscalía, con prohibición de acercamiento (Infobae, 31/10); no se informó imputación. Pérez fue dado de alta horas después. DataGremial lo menciona como secretario adjunto; se usa el cargo de Infobae. Mismo sindicato que sufrió el ataque con molotov en Rosario (08/05), sin vínculo establecido."
+  },
+  {
+   "id": "h167",
+   "fecha": "2026-10-28",
    "categoria": "mvio",
    "lugar": "CABA (Congreso, marcha de jubilados)",
    "provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
@@ -4102,7 +4129,7 @@
    "nota": "Una sola fuente (El Destape). Sin cifras de asistentes, detenidos ni heridos. Según el Gobierno porteño, al vendedor se le labró un acta contravencional. Medios Rioja también publicó la marcha, pero la página no abrió."
   },
   {
-   "id": "h167",
+   "id": "h168",
    "fecha": "2026-10-28",
    "categoria": "paro",
    "lugar": "CABA (paro universitario nacional de CONADU Histórica, AGD-UBA, FAGDUT y FATUN)",
@@ -4127,7 +4154,7 @@
    "nota": "Paro nacional, ubicado en CABA. Sin cifras de adhesión. FAGDUT y FATUN también paran el 3, 12 y 16/11 (Infobae)."
   },
   {
-   "id": "h168",
+   "id": "h169",
    "fecha": "2026-10-28",
    "categoria": "mpac",
    "lugar": "Esquina (plaza central y calles céntricas)",
@@ -4151,7 +4178,7 @@
    "nota": "Una sola fuente (Infobae), que fecha la marcha el miércoles 28/10. Sin número exacto: la nota dice «cientos de personas». Los cinco detenidos que cita son imputados en la causa, no manifestantes."
   },
   {
-   "id": "h169",
+   "id": "h170",
    "fecha": "2026-10-28",
    "categoria": "paro",
    "lugar": "Rosario (paro de COAD en la UNR)",
@@ -4175,7 +4202,7 @@
    "nota": "Una sola fuente, publicada antes del inicio del paro. Sin cifras de adhesión."
   },
   {
-   "id": "h170",
+   "id": "h171",
    "fecha": "2026-10-29",
    "categoria": "paro",
    "lugar": "CABA (paro nacional docente de CTERA; Obelisco y Casa de Corrientes)",
@@ -4201,7 +4228,7 @@
    "nota": "Paro nacional, ubicado en CABA. Ninguna fuente da cifras de asistentes ni porcentajes de adhesión; Cadena 3 habla de «alto acatamiento» y UEPC de adhesión «alta» en Córdoba (valoraciones cualitativas)."
   },
   {
-   "id": "h171",
+   "id": "h172",
    "fecha": "2026-10-29",
    "categoria": "mpac",
    "lugar": "Chascomús (Reloj de los Italianos)",
@@ -4225,7 +4252,7 @@
    "nota": "Fecha deducida: la nota es del 30/10 y dice «anoche». Una sola fuente. Sin cifras: la marcha se describe como «concurrida»."
   },
   {
-   "id": "h172",
+   "id": "h173",
    "fecha": "2026-10-29",
    "categoria": "mpac",
    "lugar": "Concordia (Plaza 25 de Mayo, paro de CTERA)",
@@ -4249,7 +4276,7 @@
    "nota": "Una sola fuente: réplica en Examedia de una nota de 7Páginas. Fecha deducida: la nota dice «este jueves» (29/10/2026). Sin cifras."
   },
   {
-   "id": "h173",
+   "id": "h174",
    "fecha": "2026-10-29",
    "categoria": "mpac",
    "lugar": "Posadas (Plaza 9 de Julio a la Legislatura)",
@@ -4274,7 +4301,7 @@
    "nota": "Crónica de El Territorio, leída en la réplica de Examedia. Sin cifras de asistentes."
   },
   {
-   "id": "h174",
+   "id": "h175",
    "fecha": "2026-10-29",
    "categoria": "mpac",
    "lugar": "Rosario (plaza 25 de Mayo, paro de CTERA)",
@@ -4299,7 +4326,7 @@
    "nota": "Pendiente del corte anterior. Crónica de TodoNEA (30/10, «este jueves»), que toma declaraciones de Conclusión (esa página no abrió). Infocielo es la convocatoria. Sin cifras ni incidentes informados."
   },
   {
-   "id": "h175",
+   "id": "h176",
    "fecha": "2026-10-29",
    "categoria": "mpac",
    "lugar": "San Luis (frente al Correo Argentino; también Merlo y Villa Mercedes)",
@@ -4323,7 +4350,7 @@
    "nota": "Una sola fuente. Sin cifras de asistentes ni de adhesión; la nota no dice que ASDE haya convocado un paro propio."
   },
   {
-   "id": "h176",
+   "id": "h177",
    "fecha": "2026-10-29",
    "categoria": "paro",
    "lugar": "San Miguel de Tucumán (paro de CTERA; plaza Independencia y Casa de Gobierno)",
@@ -4348,7 +4375,32 @@
    "nota": "Pendiente del corte anterior. Primera Fuente (29/10) informa el «alto acatamiento» sin porcentaje. El relato de la marcha («cientos de docentes», corte frente a la Casa de Gobierno) es de La Izquierda Diario (medio del PTS), en una nota de la agrupación Marrón Docente que critica a las conducciones de ATEP y UDT. Sin cifra de asistentes."
   },
   {
-   "id": "h177",
+   "id": "h178",
+   "fecha": "2026-10-29",
+   "categoria": "mpac",
+   "lugar": "San Salvador de Jujuy (marcha docente por Nancy Godoy)",
+   "provincia": "JUJUY",
+   "lat": -24.1858,
+   "lon": -65.2995,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "No se informan incidentes"
+   },
+   "descripcion": "En el paro nacional de CTERA por el femicidio de la maestra rural Nancy Godoy, CEDEMS, ADEP y ADIUNJu marcharon por las calles de San Salvador de Jujuy para pedir justicia y la declaración de la emergencia educativa.",
+   "fuentes": [
+    "https://www.todojujuy.com/jujuy/docentes-marcharon-san-salvador-jujuy-pedir-justicia-nancy-godoy-n298156",
+    "https://elcongresista.mx/marchan-por-justicia-nancy-godoy-jujuy"
+   ],
+   "nota": "Réplica provincial del paro del 29/10 que faltaba. Sin cifras ni incidentes informados; ninguna de las dos notas describe el recorrido."
+  },
+  {
+   "id": "h179",
    "fecha": "2026-11-02",
    "categoria": "mpac",
    "lugar": "Esquina (casco céntrico, marcha de antorchas)",
@@ -4373,7 +4425,7 @@
    "nota": "Fecha deducida: Perfil (03/11) dice «durante la noche del lunes». Contexto Tucumán reproduce la misma nota, así que en la práctica es una sola fuente. Perfil la llama «masiva» y «multitudinaria» sin cifra. La despedida del 04/11 en la plaza 9 de Julio (Inforegión) fue un acto con ceremonia religiosa y no se cargó aparte."
   },
   {
-   "id": "h178",
+   "id": "h180",
    "fecha": "2026-11-03",
    "categoria": "paro",
    "lugar": "CABA (paro nacional nodocente de FATUN)",
@@ -4398,7 +4450,7 @@
    "nota": "Paro nacional ubicado en CABA. Crónicas previas: las dos notas son del mismo 03/11 y no traen datos de adhesión ni movilizaciones; no se halló crónica posterior. Coincidió con el último día del paro de una semana de CONADU Histórica (cargado el 28/10)."
   },
   {
-   "id": "h179",
+   "id": "h181",
    "fecha": "2026-11-03",
    "categoria": "paro",
    "lugar": "Ushuaia (paro provincial del SUTEF; también Río Grande y Tolhuin)",
@@ -4423,7 +4475,7 @@
    "nota": "El SUTEF (fuente de parte) habla de un «masivo paro» sin cifras. Radio Fueguina (03/11) confirma la tribuna de militantes del SUTEF en la sesión, pero no el desarrollo del paro. Los puntos de encuentro (Escuela N.º 1 de Ushuaia, Legislatura en Río Grande, Plaza Cívica de Tolhuin) salen de la convocatoria publicada por Minuto Fueguino (vía Examedia)."
   },
   {
-   "id": "h180",
+   "id": "h182",
    "fecha": "2026-11-04",
    "categoria": "mpac",
    "lugar": "CABA (Congreso, marcha de jubilados)",
@@ -4448,7 +4500,7 @@
    "nota": "Fecha: El Destape (04/11, «noticia en desarrollo») dice «como cada miércoles». Ninguna de las dos fuentes informa cifras, detenidos ni incidentes; se cargan en null y la clasificación pacífica sale de que no se reporta ninguno. DataGremial es un medio sindical."
   },
   {
-   "id": "h181",
+   "id": "h183",
    "fecha": "2026-11-04",
    "categoria": "mpac",
    "lugar": "CABA (Plaza Houssay a Tribunales, «Marcha de las velas»)",
@@ -4473,7 +4525,32 @@
    "nota": "Fecha: las notas (04/11 y 05/11) dicen «este miércoles». elDiarioAR habla de «miles» sin atribuir la estimación; no hay cifra, por eso personas queda en null. Participaron autoridades universitarias y la FUA (Ámbito). También la informó El Liberal, con foto de NA."
   },
   {
-   "id": "h182",
+   "id": "h184",
+   "fecha": "2026-11-04",
+   "categoria": "paro",
+   "lugar": "Neuquén (paro de 48 horas de ATEN y marcha provincial)",
+   "provincia": "NEUQUEN",
+   "lat": -38.9516,
+   "lon": -68.0591,
+   "personas_min": 8000,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "No se informan incidentes; cortes de tránsito de más de dos horas"
+   },
+   "descripcion": "Al cierre de un paro de 48 horas (03 y 04/11), ATEN marchó desde el monumento a San Martín por el centro de Neuquén, con docentes de varias localidades, en rechazo de la propuesta salarial del gobierno provincial para 2027 y para exigir una nueva mesa paritaria.",
+   "fuentes": [
+    "https://www.rionegro.com.ar/gremios/aten-marcha-hoy-en-neuquen-y-reclama-una-nueva-oferta-salarial-4783899/",
+    "https://diarioneuquino.com.ar/aten-marcho-por-el-centro-de-neuquen-durante-el-paro-de-48-horas-y-exigio-una-nueva-oferta-salarial/"
+   ],
+   "nota": "Hecho del corte anterior que faltaba. «Más de 8.000 personas» según Diario Río Negro, sin atribuir el conteo; Diario Neuquino dice «miles de docentes». Adhesión al paro «superior al 95 %» según la secretaria general Fany Mansilla (cifra del gremio). El gobierno convocó a ATEN a una nueva paritaria para el 16/11."
+  },
+  {
+   "id": "h185",
    "fecha": "2026-11-05",
    "categoria": "mpac",
    "lugar": "Posadas (frente a la sede de IOSFA)",
@@ -4498,7 +4575,7 @@
    "nota": "Crónica de Primera Edición (05/11, «este jueves»); la ciudad (Posadas) sale de la convocatoria de Radio Libertad (04/11). Las cifras de despidos son de ATE (Miriam López). Sin cifra de manifestantes. Es un conflicto del personal civil de una obra social militar, no un conflicto militar."
   },
   {
-   "id": "h183",
+   "id": "h186",
    "fecha": "2026-11-06",
    "categoria": "paro",
    "lugar": "Formosa (paro y marcha de AJUFSA a Casa de Gobierno)",
@@ -4521,6 +4598,207 @@
     "https://elmonterizo.com/la-justicia-de-formosa-dice-que-no-hay-plata-pero-la-marcha-a-casa-de-gobierno-apunta-a-los-ascensos-de-unos-pocos"
    ],
    "nota": "Crónica breve de Diario Ahora del mismo viernes 06/11 («hoy viernes»), sin cifras. El Monterizo (04/11, que cita a Expresdiario) es la convocatoria: paro parcial con marcha. El gremio venía de otras jornadas de paro en octubre (Diario Ahora, 21/10, marcha suspendida por lluvia)."
+  },
+  {
+   "id": "h187",
+   "fecha": "2026-11-10",
+   "categoria": "paro",
+   "lugar": "Comodoro Rivadavia (paro de 48 horas de ATE en escuelas)",
+   "provincia": "CHUBUT",
+   "lat": -45.8641,
+   "lon": -67.4966,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "No se informan incidentes"
+   },
+   "descripcion": "ATE Chubut hizo un paro de 48 horas (10 y 11/11) de docentes y auxiliares de la educación en toda la provincia, con paro, asambleas o retención de tareas, por aumento salarial y paritaria, el estado de los edificios escolares (escuelas con chinches en Comodoro) y la reincorporación de nueve trabajadores suspendidos. Tres manifestantes se encadenaron en la Subsecretaría de Trabajo.",
+   "fuentes": [
+    "https://www.adnsur.com.ar/sociedad/ate-cumple-un-paro-de-48-horas-en-chubut--reclamaron-salarios-y-por-las-escuelas-con-chinches-en-comodoro_a6af3034b2ef0898cb8e72b14",
+    "https://cholilaonline.ar/2026/11/paro-ate-chubut-trabajadores-encadenados-subsecretaria-trabajo.html"
+   ],
+   "nota": "Paro provincial ubicado en Comodoro Rivadavia, donde se concentraron los reclamos citados y se anunció una olla popular. Crónicas del primer día (10/11). Cholila Online no precisa la ciudad ni el día del encadenamiento (la nota está en su sección de Comodoro). Sin cifras de adhesión."
+  },
+  {
+   "id": "h188",
+   "fecha": "2026-11-10",
+   "categoria": "mpac",
+   "lugar": "La Plata (marcha docente a la Gobernación)",
+   "provincia": "BUENOS AIRES",
+   "lat": -34.9214,
+   "lon": -57.9545,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "Marcha pacífica según la crónica"
+   },
+   "descripcion": "Docentes de la UDEB, la Asociación de Maestrxs y autoconvocados de La Plata, Berisso, Ensenada y otros distritos marcharon desde el centro platense hasta la Gobernación por el carril rápido de la avenida 7, contra la propuesta salarial bonaerense y por las condiciones laborales.",
+   "fuentes": [
+    "https://borderperiodismo.com/actualidad/malestar-docente-bonaerense-marcharon-contra-kicillof-por-los-salarios-y-las-condiciones-laborales/"
+   ],
+   "nota": "Una sola fuente (Border Periodismo, 11/11): «cientos de docentes», sin cifra; dice que la protesta fue pacífica y no interrumpió el tránsito. No se encontró una segunda crónica."
+  },
+  {
+   "id": "h189",
+   "fecha": "2026-11-11",
+   "categoria": "mpac",
+   "lugar": "CABA (Congreso, marcha de jubilados)",
+   "provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
+   "lat": -34.6037,
+   "lon": -58.3816,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "No se informan incidentes"
+   },
+   "descripcion": "Nueva marcha de los miércoles de jubilados alrededor de la Plaza del Congreso, el día en que empezaba a cobrarse el haber mínimo de $444.158,46 (más el bono de $70.000), con reclamos por aumento y medicamentos. Coincidió con el cierre de la gira del papa León XIV por la Argentina y hubo carteles alusivos al Papa.",
+   "fuentes": [
+    "https://www.infobae.com/politica/2026/11/13/jubilados-piqueteros-y-partidos-de-izquierda-reactivan-el-plan-de-lucha-contra-el-gobierno-a-horas-de-la-partida-del-papa/",
+    "https://lavaca.org/protesta-social/marcha-de-jubilados-despues-del-papa-que"
+   ],
+   "nota": "Según Infobae se hizo «sin el habitual despliegue de fuerzas de seguridad». Ninguna de las dos notas da cifras ni informa incidentes o detenidos. Lavaca es un medio cooperativo cercano a los movimientos sociales. Para el 18/11 está convocado un «miércoles federal» frente a las sedes de ANSES."
+  },
+  {
+   "id": "h190",
+   "fecha": "2026-11-12",
+   "categoria": "paro",
+   "lugar": "CABA (paro total del subte y el Premetro)",
+   "provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
+   "lat": -34.6037,
+   "lon": -58.3816,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "Paro sin incidentes informados"
+   },
+   "descripcion": "La AGTSyP (metrodelegados) paró las seis líneas del subte y el Premetro desde las 21 hasta el cierre del servicio por la muerte de Oscar Pauer, ex operario del taller Rancagua de la línea B, que el gremio atribuye a la exposición al asbesto (el séptimo caso según el sindicato). Reclaman retirar el asbesto de la red y reemplazar las formaciones contaminadas.",
+   "fuentes": [
+    "https://www.a24.com/actualidad/paro-total-subtes-cuando-no-habra-servicio-n1616073",
+    "https://www.eldiarioar.com/sociedad/paro-subte-jueves-noche-muerte-trabajador-gremio-atribuye-asbesto_1_13654030.html"
+   ],
+   "nota": "A24 (12/11, 23 h) informa que el paro arrancó; elDiarioAR es la convocatoria con la versión de Emova, que lamentó el fallecimiento y sostiene que las mediciones de aire «arrojan resultados considerados adecuados para la salud». Sin cifras."
+  },
+  {
+   "id": "h191",
+   "fecha": "2026-11-12",
+   "categoria": "paro",
+   "lugar": "CABA (paro universitario nacional de CONADU Histórica, CONADU y FATUN)",
+   "provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
+   "lat": -34.6037,
+   "lon": -58.3816,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "Paro sin incidentes informados"
+   },
+   "descripcion": "CONADU Histórica empezó un paro docente de una semana (12 al 18/11) en universidades y colegios preuniversitarios, votado por su congreso extraordinario del 06/11; FATUN hizo el segundo de sus tres paros nodocentes de 24 horas y CONADU también paró. Reclaman el cumplimiento de la Ley de Financiamiento Universitario y un Presupuesto 2027 que la respete.",
+   "fuentes": [
+    "https://www.cuarto.com.ar/el-reclamo-persiste-universidades-publicas-inician-un-paro-de-una-semana/",
+    "https://www.infoplatense.com.ar/paro-unlp-jueves-12-noviembre-docentes-nodocentes-ley-financiamiento-universitario/",
+    "https://www.actualidadadiario.com/index.php/2026/11/12/los-nodocentes-de-uner-paran-hoy-y-los-docentes-inician-una-semana-de-huelga/"
+   ],
+   "nota": "Paro nacional ubicado en CABA. Crónicas del mismo 12/11, sin cifras de adhesión ni movilizaciones. Las notas difieren sobre CONADU: InfoPlatense lo da como paro de 24 horas (ADULP en la UNLP) y TodoJujuy (11/11) lo incluye en los siete días. Ejemplos locales: UNLP (ADULP y ATULP), UNER (Sitradu y Apuner). El tercer paro de FATUN es el 16/11."
+  },
+  {
+   "id": "h192",
+   "fecha": "2026-11-12",
+   "categoria": "carc",
+   "lugar": "Puerto Tirol (comisaría)",
+   "provincia": "CHACO",
+   "lat": -27.372,
+   "lon": -59.0824,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": 0,
+   "danos": {
+    "nivel": "menores",
+    "justificacion": "Rejas, candados de dos celdas, enchufes y mampostería del portón principal"
+   },
+   "descripcion": "En la noche del jueves y la madrugada del viernes, detenidos de la comisaría de Puerto Tirol se amotinaron cuando se les negó salir juntos al patio por el calor: patearon rejas, rompieron enchufes, arrojaron agua caliente a los policías y uno amenazó con apuñalar a un agente. Intervinieron fuerzas especiales, Infantería y bomberos voluntarios.",
+   "fuentes": [
+    "https://www.alertaurbana.com.ar/103593-motin-por-el-calor-en-la-comisaria-de-puerto-tirol-presos-destrozaron-celdas-y-amenazaron-con-apunalar-a-un-policia",
+    "https://datachaco.com/654542-un-reclamo-por-el-calor-termino-en-un-motin-con-danos-y-amenazas-en-puerto-tirol-que-paso"
+   ],
+   "nota": "Fecha deducida: «la noche del jueves y la madrugada de este viernes» en notas del 13/11. Las dos notas se basan en el parte policial. Heridos: ambas dicen que no hubo lesionados. La Fiscalía de Investigación Penal N.º 15 inició actuaciones por amenazas, atentado contra la autoridad y daños; Alerta Urbana nombra a cuatro presuntos instigadores, pero no se informa imputación formal (procesados en null). Se evaluaba trasladar a tres. Número total de presos involucrados sin dato."
+  },
+  {
+   "id": "h193",
+   "fecha": "2026-11-12",
+   "categoria": "paro",
+   "lugar": "Río Gallegos (paro provincial de ADOSAC y marcha con ATE)",
+   "provincia": "SANTA CRUZ",
+   "lat": -51.623,
+   "lon": -69.2168,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "No se informan incidentes"
+   },
+   "descripcion": "ADOSAC hizo un paro provincial docente de 24 horas, con movilizaciones en distintas localidades, por la falta de una oferta salarial en la paritaria; en Río Gallegos la concentración fue a las 18 en Kirchner y San Martín, convocada junto con ATE, que sostenía un paro de 72 horas en la semana. El gobierno llevó la próxima paritaria al 04/12 y el Ministerio de Trabajo dictó la conciliación obligatoria.",
+   "fuentes": [
+    "https://examedia.com.ar/portada/post/88228809",
+    "https://www.multimedioelsocavon.com.ar/2026/11/11/adosac-anuncio-un-paro-provincial-para-este-jueves-por-el-estancamiento-de-la-paritaria-docente/",
+    "https://elmonterizo.com/ate-va-a-la-audiencia-de-conciliacion-pero-el-paro-de-72-horas-sigue-firme"
+   ],
+   "nota": "Crónica de La Opinión Austral leída en la réplica de Examedia (12/11), con declaraciones de Pablo Coronel (ADOSAC) a LU12: «alta adhesión», sin porcentaje. Multimedio El Socavón y El Monterizo son convocatorias del 11/11; El Monterizo no precisa los días del paro de 72 horas de ATE. No se encontró crónica con cifras de la marcha."
+  },
+  {
+   "id": "h194",
+   "fecha": "2026-11-13",
+   "categoria": "paro",
+   "lugar": "CABA (Aeroparque y Ezeiza, «paro a la japonesa» de ATE-ANAC)",
+   "provincia": "CIUDAD AUTONOMA DE BUENOS AIRES",
+   "lat": -34.6037,
+   "lon": -58.3816,
+   "personas_min": null,
+   "personas_max": null,
+   "detenidos": null,
+   "procesados": null,
+   "muertos": null,
+   "heridos": null,
+   "danos": {
+    "nivel": "sin daños",
+    "justificacion": "Demoras en vuelos, sin incidentes"
+   },
+   "descripcion": "Los trabajadores de la ANAC agrupados en ATE hicieron desde las 6 un «paro a la japonesa» en Aeroparque y Ezeiza (controles en plataforma aplicados al pie de la letra) y retención de tareas del personal administrativo, por paritarias sectoriales que no se abren hace tres años y componentes salariales congelados. Anunciaron retención de tareas en los servicios de salvamento e incendio de todos los aeropuertos del 16 al 20/11.",
+   "fuentes": [
+    "https://elargentinodiario.com.ar/politica/13/11/2026/ate-anac-el-paro-a-la-japonesa-dejo-demoras-y-profundizara-las-medidas/",
+    "https://www.cronista.com/economia-politica/un-paro-a-la-japonesa-afecta-vuelos-en-aeroparque-y-ezeiza-cual-es-el-reclamo-de-ate-anac/"
+   ],
+   "nota": "Ubicado en CABA (Ezeiza está en la provincia de Buenos Aires). El Cronista contaba al menos ocho vuelos demorados al mediodía; El Argentino Diario habla de «demoras en algunos vuelos» sin cifra. No hubo cancelaciones informadas."
   }
  ],
  "piquetes": {

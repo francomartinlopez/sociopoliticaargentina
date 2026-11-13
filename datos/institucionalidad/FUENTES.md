@@ -67,3 +67,36 @@ Búsqueda del 30/10 al 06/11/2026.
 - **Causas sin cargar:** créditos del Banco Nación a funcionarios, porque no se verificó su estado actual.
 - **Transparencia:** AAIP, ya que el sitio oficial sigue mostrando a Beatriz de Anchorena y no hay confirmación reciente; tasa de denegaciones (descarga.aaip.gob.ar); publicación de las declaraciones juradas 2025.
 - **Leyes:** amparo del Garrahan; apelación de la Ley 27.795 ante la Cámara.
+
+## Corte del 13/11/2026
+Búsqueda del 07/11 al 13/11/2026.
+- **$LIBRA (etapa: imputación; estado: sobreseimiento no firme):** el 12/11 se conoció que Taiano dictaminó contra el pedido de la PIA de reabrir la causa y de asumir la investigación. Mantiene su pedido de sobreseimiento ([iProfesional](https://www.iprofesional.com/legales/468937-taiano-rechazo-reabrir-la-causa-libra-y-cuestiono-el-pedido-de-la-pia), [Examedia/NA](https://examedia.com.ar/portada/post/88225537)). Había sido Rafecas, como subrogante, quien le corrió vista ([Cholila Online](https://cholilaonline.ar/2026/11/escandalo-libra-definiran-si-reabren-la-causa-contra-los-milei.html)). Decide ahora Martínez de Giorgi; la PIA apeló en subsidio ante la Cámara Federal. Según Examedia, Casación podría hacer la audiencia sobre las querellas antes de fin de año y resolver en 2027. Tiempo Argentino (07/11) menciona que la Sala I rechazó un pedido de las querellas de volver a la causa, pero no da la fecha: no se carga.
+- **ANDIS (etapa: procesamiento; en trámite):** el 12/11 se conoció la pericia final de Gendarmería. Concluye que «no fue posible establecer» si las voces son de Spagnuolo y detecta rasgos «compatibles con un proceso de regrabación» y «posibles operaciones de edición». No concluye que los audios sean falsos. La firmaron tres peritos oficiales y nueve de parte; cinco de la fiscalía y la Datip lo hicieron en disidencia ([La Nación vía Examedia](https://examedia.com.ar/portada/post/88228973)). Hay una sola fuente con este detalle. Diario Panorama (29/10) ya había anticipado conclusiones similares. Continúan las indagatorias del tramo Suizo Argentina.
+- **Adorni (etapa: denuncia; en trámite):** Lijo no resolvió la incompetencia. MDZ y [Perfil](https://noticias.perfil.com/noticias/politica/caso-adorni-el-juez-lijo-toma-distancia-del-fiscal-y-analiza-pedir-mas-pruebas.phtml) informan, con fuentes cercanas al juez, que evalúa pedir más pruebas. Se carga como trascendido. La nota de MDZ no abrió (error del sitio).
+- **Espert y Reidel:** sin novedades en el período.
+- **Excluida:** la causa por la salida de Flávio Bolsonaro (Capuchetti, fiscal Ochoa) investiga presunto encubrimiento, no corrupción, y no tiene imputados ([Radio Rafaela, 05/11](https://radiorafaela.com.ar/nacionales/la-fiscalia-investiga-si-el-gobierno-utilizo-fondos-publicos-en-la-fuga-de-flavio-bolsonaro)). No se carga en `corrupcion.json`.
+- **Designaciones:**
+  - Casal sigue interino ([Diario Judicial, 11/11](https://www.diariojudicial.com/news-104860-casal-abre-el-libro-de-pases)).
+  - Corte: sin pliegos.
+  - Acuerdos confirmó las audiencias del 17, 18 y 27/11 (Parlamentario 12/11, Infobae 10/11). La presidencia de la comisión sigue en disputa.
+  - Última tanda de pliegos: Palabras del Derecho dice 27, con 28 entradas en su lista; Parlamentario, unos 30.
+- **Antecedentes que faltaban:**
+  - Decreto 467/2026 (16/06/2026), que modificó el 222/2003 y eliminó la etapa de observaciones ciudadanas ([Chequeado](https://chequeado.com/nota/el-gobierno-modifico-el-decreto-para-nombrar-jueces-de-la-corte-y-elimino-instancias-de-participacion-ciudadana), [Ámbito](https://www.ambito.com/politica/por-decreto-el-gobierno-javier-milei-oficializo-nuevos-requisitos-designar-jueces-la-corte-suprema-n6289071)).
+  - Designación de Gabriela Zangaro en la OA (Decreto 194/2026; Palabras del Derecho y Canal 26, que habla de «resolución»).
+  - Suspensión, el 28/04/2026, de la Bicameral del Defensor del Pueblo (Ámbito).
+  - Sesión del Senado del 16/07/2026 con 29 a 36 pliegos (ver `datos/justicia/FUENTES.md`).
+- **Incumplimientos:** sin cambios de estado. No hubo resolución de la Cámara sobre la Ley 27.795 ni sobre el amparo del Garrahan. La ley de discapacidad sigue prevista para el recinto el 19/11. Santilli no concurrió al Congreso, así que el conteo del art. 101 no cambia.
+- **Transparencia:**
+  - AAIP: Beatriz de Anchorena firma como titular la Res. AAIP 104/2026 ([Boletín Oficial, 21/05/2026](https://www.boletinoficial.gob.ar/detalleAviso/primera/342206/20260521)). Esta vez el Boletín Oficial sí abrió.
+  - DDJJ 2025: presentadas a fines de agosto (iProfesional 31/08, Chequeado 01/09). Presti no la había presentado al 01/09.
+
+### Pendientes
+- **Sin resolver:**
+  - $LIBRA: decisión de Martínez de Giorgi sobre la reapertura; fondo de Casación; apelación de Marchetto.
+  - ANDIS: incorporación formal de la pericia, con segunda fuente.
+  - Espert: Cámara de San Martín.
+  - Adorni: decisión de Lijo.
+  - Reidel: actividad posterior a mayo.
+- **Causas sin cargar:** créditos del Banco Nación (hoy en el juzgado de Capuchetti) y Francisco Adorni (IOSFA y enriquecimiento ilícito), porque no se verificó su etapa actual.
+- **Transparencia:** tasa de denegaciones de la AAIP (descarga.aaip.gob.ar sigue sin probarse); DDJJ de Presti; titular de la SIGEN.
+- **Fuentes que fallaron:** conclusion.com.ar y mdzol.com dieron error al abrir. eldestapeweb.com entró en un bucle de redirección.

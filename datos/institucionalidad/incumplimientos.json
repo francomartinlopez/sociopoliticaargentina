@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Incumplimientos legales: leyes no ejecutadas, fallos y plazos",
-  "actualizado": "2026-11-06",
+  "actualizado": "2026-11-13",
   "estados_posibles": [
    "vigente sin cumplir",
    "suspendida",
@@ -95,7 +95,7 @@
    },
    "ultima_novedad": {
     "fecha": "2026-10-28",
-    "hecho": "Santilli acordó presentar su primer informe en el Senado el 25/11/2026, a 17 meses del último informe de un jefe de Gabinete en esa cámara. Hasta el 06/11 no concurrió a ninguna cámara.",
+    "hecho": "Santilli acordó presentar su primer informe en el Senado el 25/11/2026, a 17 meses del último informe de un jefe de Gabinete en esa cámara. Hasta el 13/11 no concurrió a ninguna cámara.",
     "fuente": "https://www.infobae.com/politica/2026/10/29/diego-santilli-presentara-su-primer-informe-de-gestion-en-el-senado-el-25-de-noviembre/"
    },
    "posicion_gobierno": "El entorno de Santilli invoca su 'reciente desembarco en el ministerio'.",
@@ -124,7 +124,8 @@
   "Grado de cumplimiento efectivo de la cautelar sobre la Ley 27.795 (los gremios universitarios reclaman su cumplimiento).",
   "Si el fallo de Campana sobre la Ley 27.793 quedó firme o fue apelado, y el estado de los aranceles en 2026.",
   "No se encontraron otros fallos firmes incumplidos por el Ejecutivo con fuente verificable.",
-  "Resolución del amparo colectivo del Garrahan sobre la Ley 27.796 (la emergencia ya venció el 21/10/2026).",
-  "Ley 27.795: no hubo resolución de la Cámara sobre la apelación del Estado entre el 30/10 y el 06/11."
+  "Resolución del amparo colectivo del Garrahan sobre la Ley 27.796 (la emergencia ya venció el 21/10/2026): no se encontró al 13/11.",
+  "Ley 27.795: no se encontró resolución de la Cámara sobre la apelación del Estado al 13/11.",
+  "Ley de discapacidad: tratamiento en el recinto del Senado, previsto para el 19/11 (sin cambios entre el 07/11 y el 13/11)."
  ]
 }

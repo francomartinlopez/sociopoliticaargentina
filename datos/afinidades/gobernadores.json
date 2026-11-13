@@ -1,8 +1,8 @@
 {
  "meta": {
   "titulo": "Afinidad de cada gobernador con el gobierno nacional (Javier Milei)",
-  "actualizado": "2026-11-06",
-  "unidad": "Gobernador o jefe de Gobierno en funciones al 06/11/2026.",
+  "actualizado": "2026-11-13",
+  "unidad": "Gobernador o jefe de Gobierno en funciones al 13/11/2026.",
   "regla": "Lectura propia. afin: el gobernador fue aliado electoral de La Libertad Avanza en 2025 (listas conjuntas o acuerdo explícito) o respalda en público la agenda del gobierno sin oponerse a sus leyes clave. neutral: acompaña algunas iniciativas y se opone a otras (gobernadores dialoguistas, miembros de Provincias Unidas, peronistas que negocian votos con el gobierno). opositora: confronta abiertamente con el gobierno (conducción de Fuerza Patria o kirchnerista, o gobernadores que encabezan la oposición), o sus legisladores votan en contra de todas las leyes clave.",
   "evidencia": "Hechos de 2024-2026: Pacto de Mayo (09/07/2024), alianzas de las legislativas del 26/10/2025, votos de los senadores del espacio del gobernador en el Presupuesto 2026, la reforma laboral y Propiedad Privada (de datos/afinidades/senadores.json), reuniones y acuerdos con la Jefatura de Gabinete, viajes con el Presidente, la sesión opositora contra el DNU 70/23 del 15/10/2026, declaraciones y conflictos judiciales.",
   "alianza_2025": "Con quién compitió el espacio del gobernador en las legislativas nacionales del 26/10/2025. Los nombres de lista salen del escrutinio provisorio de la DINE (datos/electoral/diputados-2025-generales.json).",
@@ -14,7 +14,7 @@
   "casos_dudosos": {
    "SAN JUAN": "Afín por apoyo explícito a la agenda; no fue aliado electoral en 2025 (compitió con lista propia). Podría leerse neutral.",
    "SALTA": "Muy cercano en el Congreso (reforma laboral), pero compitió contra LLA y su senadora votó contra Propiedad Privada; podría leerse afín.",
-   "NEUQUEN": "Clave para el gobierno (energía, quórum), pero compitió contra LLA y se desmarca políticamente; podría leerse afín.",
+   "NEUQUEN": "Clave para el gobierno (energía, quórum) y a favor de eliminar las PASO, pero compitió contra LLA en 2025, se desmarca políticamente y adelantó la elección provincial al 14/02/2027 con LLA anunciando candidato propio; podría leerse afín por sus votos, no por su relación electoral.",
    "CHUBUT": "Provincias Unidas según la regla, pero hoy acompaña y negocia apoyar la reelección de Milei; podría pasar a afín.",
    "JUJUY": "Provincias Unidas; colabora en el Congreso y apoya suspender las PASO; podría pasar a afín.",
    "CORRIENTES": "Provincias Unidas; sus tres senadores votaron a favor de todas las leyes clave; podría pasar a afín.",
@@ -133,6 +133,13 @@
       "https://laredlarioja.com.ar/milei-apunto-contra-quintela-la-rioja-no-tiene-ni-un-proyecto-productivo/",
       "https://aceroyroca.com/2026/10/29/noticias-cruce-milei-quintela-rigi-mineria/"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Fuerza Patria (lista del PJ provincial), en competencia con La Libertad Avanza; ganó la provincia.",
@@ -141,9 +148,9 @@
     "https://www.elancasti.com.ar/edicion-impresa/quintela-pidio-la-renuncia-todos-n598387"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-28",
-    "hecho": "Recibió a Milei en la inauguración de la expansión de Fénix 1B y la puesta en marcha de Sal de Vida (Rio Tinto); el Presidente destacó a Catamarca como ejemplo del RIGI.",
-    "fuente": "https://laredlarioja.com.ar/milei-apunto-contra-quintela-la-rioja-no-tiene-ni-un-proyecto-productivo/"
+    "fecha": "2026-11-12",
+    "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+    "fuente": "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
    }
   },
   "CHACO": {
@@ -181,6 +188,13 @@
      "fuentes": [
       "https://www.letrap.com.ar/politica/el-acuerdometro-la-casa-rosada-los-gobernadores-las-24-provincias-rojo-violeta-n5427160"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Con La Libertad Avanza (frente conjunto con la UCR provincial), ganador en mayo y en octubre.",
@@ -189,9 +203,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-05",
-    "hecho": "Perfil lo ubica entre los gobernadores radicales que ya avanzaron con la suspensión de las PASO para 2027.",
-    "fuente": "https://www.perfil.com/noticias/amp/politica/gobierno-acelera-pacto-gobernadores-suspender-paso-votos-senado.phtml"
+    "fecha": "2026-11-12",
+    "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+    "fuente": "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
    }
   },
   "CHUBUT": {
@@ -230,6 +244,14 @@
       "https://www.lanacion.com.ar/politica/provincias-unidas-se-desgrana-gobernadores-enfocados-en-reelegir-votos-dispersos-en-el-congreso-y-nid29092026/",
       "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "El jefe del bloque PRO de Diputados, Cristian Ritondo, dijo que el bloque acompañará la reforma política, pero que su postura dependerá de lo que definan los tres gobernadores del PRO (Jorge Macri, Frigerio y Torres). El Cronista lo cuenta entre los gobernadores que apoyan en público eliminar las PASO.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/presupuesto-2027-el-gobierno-acordo-con-el-pro-los-cambios-y-pone-fecha-para-el-dictamen/",
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Despierta Chubut (Provincias Unidas), en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -238,9 +260,9 @@
     "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Un diputado chubutense de Provincias Unidas no dio quórum a la sesión opositora contra el DNU 70/23.",
-    "fuente": "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
+    "fecha": "2026-11-12",
+    "hecho": "El jefe del bloque PRO de Diputados, Cristian Ritondo, dijo que el bloque acompañará la reforma política, pero que su postura dependerá de lo que definan los tres gobernadores del PRO (Jorge Macri, Frigerio y Torres). El Cronista lo cuenta entre los gobernadores que apoyan en público eliminar las PASO.",
+    "fuente": "https://www.cronista.com/economia-politica/presupuesto-2027-el-gobierno-acordo-con-el-pro-los-cambios-y-pone-fecha-para-el-dictamen/"
    }
   },
   "CIUDAD AUTONOMA DE BUENOS AIRES": {
@@ -279,6 +301,15 @@
      "fuentes": [
       "https://www.letrap.com.ar/politica/el-acuerdometro-la-casa-rosada-los-gobernadores-las-24-provincias-rojo-violeta-n5427160"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "El jefe del bloque PRO de Diputados, Cristian Ritondo, dijo que el bloque acompañará la reforma política, pero que su postura dependerá de lo que definan los tres gobernadores del PRO (Jorge Macri, Frigerio y Torres). El principio de acuerdo PRO–LLA por el Presupuesto 2027 incluye regularizar la coparticipación de la Ciudad y autorizarle un crédito de la CAF; según Infobae, Jorge Macri evalúa votar junto con la elección presidencial.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/presupuesto-2027-el-gobierno-acordo-con-el-pro-los-cambios-y-pone-fecha-para-el-dictamen/",
+      "https://www.perfil.com/politica/la-libertad-avanza-logro-negociar-y-avanzar-en-un-acuerdo-politico-con-el-pro-para-conseguir-apoyo-al-presupuesto-2027-en-el-congreso-aB2YL0o24Z4Z",
+      "https://www.infobae.com/politica/2026/11/13/hay-que-acelerar-el-gobierno-presiona-a-los-gobernadores-para-suspender-las-paso-y-define-el-calendario-electoral/"
+     ]
     }
    ],
    "alianza_2025": "Con La Libertad Avanza (lista conjunta LLA–PRO), ganadora en la Ciudad.",
@@ -287,9 +318,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-13",
-    "hecho": "Calificó de «óptima» la relación con el gobierno nacional y dijo que una alianza PRO–LLA en la Ciudad se discutirá en marzo de 2027.",
-    "fuente": "https://www.ambito.com/jorge-macri-evalua-no-desdoblar-las-elecciones-caba-y-votar-octubre-2027-n6333140"
+    "fecha": "2026-11-12",
+    "hecho": "El jefe del bloque PRO de Diputados, Cristian Ritondo, dijo que el bloque acompañará la reforma política, pero que su postura dependerá de lo que definan los tres gobernadores del PRO (Jorge Macri, Frigerio y Torres). El principio de acuerdo PRO–LLA por el Presupuesto 2027 incluye regularizar la coparticipación de la Ciudad y autorizarle un crédito de la CAF; según Infobae, Jorge Macri evalúa votar junto con la elección presidencial.",
+    "fuente": "https://www.cronista.com/economia-politica/presupuesto-2027-el-gobierno-acordo-con-el-pro-los-cambios-y-pone-fecha-para-el-dictamen/"
    }
   },
   "CORDOBA": {
@@ -328,6 +359,13 @@
       "https://www.perfil.com/noticias/politica/ley-de-propiedad-privada-que-senadores-votaron-a-favor-y-cuales-en-contra.phtml",
       "https://www.senado.gob.ar/votaciones/detalleActa/2623"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los gobernadores «dispuestos a acompañar»; la cuenta oficial llega justo a los 37 votos en el Senado.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Provincias Unidas, en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -336,9 +374,9 @@
     "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Cinco de sus seis diputados bajaron al recinto en la sesión opositora para rechazar el DNU 70/23, que fracasó por falta de quórum.",
-    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+    "fecha": "2026-11-12",
+    "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los gobernadores «dispuestos a acompañar»; la cuenta oficial llega justo a los 37 votos en el Senado.",
+    "fuente": "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
    }
   },
   "CORRIENTES": {
@@ -372,6 +410,13 @@
       "https://www.c5n.com/politica/reunion-diego-santilli-gobernadores-presupuesto-paso-miercoles-16-septiembre-2026",
       "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Vamos Corrientes (Provincias Unidas), en competencia con La Libertad Avanza; ganó la provincia.",
@@ -380,9 +425,9 @@
     "https://www.ambito.com/gustavo-valdes-a5127194"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-05",
-    "hecho": "Se pronunció en contra de las PASO y planteó discutir incluso su eliminación.",
-    "fuente": "https://www.perfil.com/noticias/amp/politica/gobierno-acelera-pacto-gobernadores-suspender-paso-votos-senado.phtml"
+    "fecha": "2026-11-12",
+    "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+    "fuente": "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
    }
   },
   "ENTRE RIOS": {
@@ -413,6 +458,15 @@
       "https://eleconomista.com.ar/politica/la-casa-rosada-recibe-gobernadores-aliados-negociaria-acuerdos-electorales-cara-2027-n94428",
       "https://www.batimes.com.ar/news/argentina/mileis-la-libertad-avanza-party-sizes-up-provincial-agreements-for-2027-election.phtml"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "El jefe del bloque PRO de Diputados, Cristian Ritondo, dijo que el bloque acompañará la reforma política, pero que su postura dependerá de lo que definan los tres gobernadores del PRO (Jorge Macri, Frigerio y Torres). El principio de acuerdo PRO–LLA por el Presupuesto 2027 incluye bajar el IVA del huevo del 21 % al 10,5 %, un pedido impulsado por Frigerio. El Cronista también lo cuenta entre los gobernadores que apoyan eliminar las PASO.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/presupuesto-2027-el-gobierno-acordo-con-el-pro-los-cambios-y-pone-fecha-para-el-dictamen/",
+      "https://www.parlamentario.com/2026/11/12/los-aliados-le-piden-cambios-al-gobierno-por-la-ley-malvinas-y-ratificaron-el-cronograma-del-presupuesto-2027/",
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Con La Libertad Avanza («Alianza La Libertad Avanza»), ganadora en la provincia.",
@@ -421,9 +475,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-09-28",
-    "hecho": "Figuró entre los 13 gobernadores anunciados para la comitiva de Milei a París (30/09–02/10).",
-    "fuente": "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
+    "fecha": "2026-11-12",
+    "hecho": "El jefe del bloque PRO de Diputados, Cristian Ritondo, dijo que el bloque acompañará la reforma política, pero que su postura dependerá de lo que definan los tres gobernadores del PRO (Jorge Macri, Frigerio y Torres). El principio de acuerdo PRO–LLA por el Presupuesto 2027 incluye bajar el IVA del huevo del 21 % al 10,5 %, un pedido impulsado por Frigerio. El Cronista también lo cuenta entre los gobernadores que apoyan eliminar las PASO.",
+    "fuente": "https://www.cronista.com/economia-politica/presupuesto-2027-el-gobierno-acordo-con-el-pro-los-cambios-y-pone-fecha-para-el-dictamen/"
    }
   },
   "FORMOSA": {
@@ -525,6 +579,13 @@
       "https://www.lanacion.com.ar/politica/provincias-unidas-se-desgrana-gobernadores-enfocados-en-reelegir-votos-dispersos-en-el-congreso-y-nid29092026/",
       "https://www.perfil.com/noticias/amp/politica/milei-viaja-a-paris-13-gobernadores-bilateral-con-macron-y-las-fricciones-por-la-agenda.phtml"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Frente Jujuy Crece (Provincias Unidas), en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -533,9 +594,9 @@
     "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Dos diputados jujeños de Provincias Unidas no dieron quórum a la sesión opositora contra el DNU 70/23.",
-    "fuente": "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
+    "fecha": "2026-11-12",
+    "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+    "fuente": "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
    }
   },
   "LA PAMPA": {
@@ -794,6 +855,22 @@
      "fuentes": [
       "https://www.letrap.com.ar/rigipalooza-neuquen-milei-pidio-que-florezcan-mil-vaca-muerta-cotillon-violeta-y-fervor-empresario-n5427503"
      ]
+    },
+    {
+     "fecha": "2026-11-09",
+     "hecho": "Convocó por Decreto 1860/2026 a las elecciones provinciales del 14/02/2027, separadas de la nacional. La senadora Nadia Márquez, presidenta de LLA en Neuquén, ironizó («Nadie les cree nada. Pintemos de violeta»), descartó un acuerdo con el gobernador y anticipó candidato propio; según Infobae, en LLA la decisión «no cayó bien».",
+     "fuentes": [
+      "https://www.ambito.com/neuquen-confirmo-desdoblamiento-y-se-anticipa-el-2027-elegira-gobernador-febrero-n6343162",
+      "https://www.letrap.com.ar/enamorado-la-democracia-rolando-figueroa-puso-el-gancho-y-neuquen-elige-gobernador-el-14-febrero-n5428039",
+      "https://www.infobae.com/politica/2026/11/13/hay-que-acelerar-el-gobierno-presiona-a-los-gobernadores-para-suspender-las-paso-y-define-el-calendario-electoral/"
+     ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "La Neuquinidad (lista provincial propia), en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -802,9 +879,9 @@
     "https://www.ambito.com/c6335016"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-19",
-    "hecho": "Fue anfitrión de Milei en la AOG Patagonia y marcó distancia política: «distintas miradas, el mismo objetivo».",
-    "fuente": "https://www.letrap.com.ar/rigipalooza-neuquen-milei-pidio-que-florezcan-mil-vaca-muerta-cotillon-violeta-y-fervor-empresario-n5427503"
+    "fecha": "2026-11-09",
+    "hecho": "Convocó por Decreto 1860/2026 a las elecciones provinciales del 14/02/2027, separadas de la nacional. La senadora Nadia Márquez, presidenta de LLA en Neuquén, ironizó («Nadie les cree nada. Pintemos de violeta»), descartó un acuerdo con el gobernador y anticipó candidato propio; según Infobae, en LLA la decisión «no cayó bien».",
+    "fuente": "https://www.ambito.com/neuquen-confirmo-desdoblamiento-y-se-anticipa-el-2027-elegira-gobernador-febrero-n6343162"
    }
   },
   "RIO NEGRO": {
@@ -843,6 +920,14 @@
       "https://www.ambito.com/ambito-nacional/elecciones-2027-alberto-weretilneck-confirmo-que-adelantara-los-comicios-rio-negro-y-respaldo-la-eliminacion-las-paso-n6339273",
       "https://neuquenpost.com/weretilneck-confirmo-que-rio-negro-adelantara-las-elecciones-de-2027-y-respaldo-la-eliminacion-de-las-paso/"
      ]
+    },
+    {
+     "fecha": "2026-11-10",
+     "hecho": "Acotó la elección provincial a la segunda quincena de mayo o junio de 2027 («La decisión de desdoblar está tomada»; «me parece que antes no»), sin decreto, y volvió a pronunciarse a favor de eliminar las PASO.",
+     "fuentes": [
+      "https://www.rionegro.com.ar/politica/weretilneck-achico-la-ventana-electoral-en-rio-negro-cuando-podrian-ser-las-elecciones-2027/",
+      "https://www.noti-rio.com.ar/2026/11/weretilneck-apunta-a-mayo-o-junio-para-votar-gobernador-y-propone-que-los-municipios-elijan-despues/"
+     ]
     }
    ],
    "alianza_2025": "Juntos Defendemos Río Negro (lista provincial propia), en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -850,9 +935,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-29",
-    "hecho": "Confirmó que Río Negro adelantará sus elecciones de 2027 y respaldó eliminar las PASO («cada partido debería elegir a sus propios candidatos»); destacó que Neuquén y Río Negro «han creado empleo privado en el gobierno de Milei».",
-    "fuente": "https://www.ambito.com/ambito-nacional/elecciones-2027-alberto-weretilneck-confirmo-que-adelantara-los-comicios-rio-negro-y-respaldo-la-eliminacion-las-paso-n6339273"
+    "fecha": "2026-11-10",
+    "hecho": "Acotó la elección provincial a la segunda quincena de mayo o junio de 2027 («La decisión de desdoblar está tomada»; «me parece que antes no»), sin decreto, y volvió a pronunciarse a favor de eliminar las PASO.",
+    "fuente": "https://www.rionegro.com.ar/politica/weretilneck-achico-la-ventana-electoral-en-rio-negro-cuando-podrian-ser-las-elecciones-2027/"
    }
   },
   "SALTA": {
@@ -940,6 +1025,13 @@
       "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml",
       "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Por San Juan (lista provincial propia), en competencia con La Libertad Avanza; cada uno obtuvo un diputado.",
@@ -948,9 +1040,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Sus diputados no dieron quórum a la sesión opositora contra el DNU 70/23.",
-    "fuente": "https://www.perfil.com/noticias/politica/promesas-de-obras-presionesy-un-giro-con-la-ley-de-tierras-asi-vacio-el-gobierno-el-quorum-opositor-y-dejo-en-pie-el-dnu-70.phtml"
+    "fecha": "2026-11-12",
+    "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+    "fuente": "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
    }
   },
   "SAN LUIS": {
@@ -1038,6 +1130,13 @@
      "fuentes": [
       "https://www.lapoliticaonline.com/politica/crisis-total-en-santa-cruz-vidal-es-el-peor-gobernador-de-la-historia/"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los gobernadores «dispuestos a acompañar»; la cuenta oficial llega justo a los 37 votos en el Senado.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Por Santa Cruz (Provincias Unidas), en competencia con La Libertad Avanza; quedó tercera.",
@@ -1046,9 +1145,9 @@
     "https://resultados.gob.ar/api/resultado/totalizado?a%C3%B1o=2025&recuento=Provisorio&idEleccion=2&idCargo=3"
    ],
    "ultima_novedad": {
-    "fecha": "2026-10-15",
-    "hecho": "Los diputados de Santa Cruz se ausentaron y no dieron quórum a la sesión opositora contra el DNU 70/23.",
-    "fuente": "https://eleconomista.com.ar/politica/gobernadores-ayudaron-gobierno-salvar-dnu-70-diputados-n98901"
+    "fecha": "2026-11-12",
+    "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los gobernadores «dispuestos a acompañar»; la cuenta oficial llega justo a los 37 votos en el Senado.",
+    "fuente": "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
    }
   },
   "SANTA FE": {
@@ -1096,6 +1195,13 @@
       "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608",
       "https://www.memo.com.ar/opinion/abrelatas-analisis-escenario-electoral-cornejo-petri-karina-pullaro/"
      ]
+    },
+    {
+     "fecha": "2026-11-12",
+     "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+     "fuentes": [
+      "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
+     ]
     }
    ],
    "alianza_2025": "Provincias Unidas, en competencia con La Libertad Avanza, que ganó la provincia.",
@@ -1104,9 +1210,9 @@
     "https://www.ambito.com/a-un-ano-su-lanzamiento-que-queda-provincias-unidas-el-frente-los-gobernadores-que-desafio-javier-milei-n6305005/amp"
    ],
    "ultima_novedad": {
-    "fecha": "2026-11-02",
-    "hecho": "Los Andes lo ubica entre los gobernadores que se pronunciaron a favor de suspender las PASO; el 29/10 compartió con Karina Milei la Ronda de Negocios RIGI en Rosario.",
-    "fuente": "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
+    "fecha": "2026-11-12",
+    "hecho": "Según el relevamiento de El Cronista sobre la suspensión de las PASO, está entre los nueve gobernadores que apoyan en público eliminarlas; la cuenta oficial llega justo a los 37 votos en el Senado.",
+    "fuente": "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/"
    }
   },
   "SANTIAGO DEL ESTERO": {

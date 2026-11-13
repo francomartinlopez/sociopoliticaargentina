@@ -1,8 +1,8 @@
 {
  "meta": {
   "titulo": "Designaciones: Corte Suprema, pliegos judiciales y organismos de control",
-  "actualizado": "2026-11-06",
-  "relacion": "Los conteos de vacantes, pliegos y Corte salen de datos/justicia/estado.json (corte 06/11/2026). Este archivo agrega la cronología de las designaciones por decreto y los organismos de control."
+  "actualizado": "2026-11-13",
+  "relacion": "Los conteos de vacantes, pliegos y Corte salen de datos/justicia/estado.json (corte 13/11/2026). Este archivo agrega la cronología de las designaciones por decreto y los organismos de control."
  },
  "kpis": {
   "integrantes_corte": {
@@ -85,6 +85,17 @@
    ]
   },
   {
+   "fecha": "2026-06-16",
+   "hecho": "El Decreto 467/2026 (BO 16/06/2026) modificó el Decreto 222/2003 sobre la selección de jueces de la Corte (y, según Ámbito, también los procedimientos del Procurador y el Defensor General). Eliminó la etapa de 15 días hábiles en que la ciudadanía podía presentar observaciones ante el Ministerio de Justicia, la consulta a entidades y el artículo sobre diversidad de género, especialidad y región. Fijó cinco días para las declaraciones juradas y cinco para el informe de ARCA. Se mantienen la audiencia pública y las impugnaciones en el Senado.",
+   "posicion_gobierno": "La etapa ciudadana era 'una duplicación de instancias', porque el Senado ya tiene mecanismos similares.",
+   "criticas": "Poder Ciudadano, ACIJ y el Colegio Público de Abogados lo consideraron un retroceso en transparencia y participación.",
+   "fuentes": [
+    "https://chequeado.com/nota/el-gobierno-modifico-el-decreto-para-nombrar-jueces-de-la-corte-y-elimino-instancias-de-participacion-ciudadana",
+    "https://www.ambito.com/politica/por-decreto-el-gobierno-javier-milei-oficializo-nuevos-requisitos-designar-jueces-la-corte-suprema-n6289071"
+   ],
+   "nota": "Antecedente que faltaba en el archivo; se incorpora en el corte del 13/11/2026."
+  },
+  {
    "fecha": "2026-09-03",
    "hecho": "La Corte sigue con tres ministros (Rosatti, Rosenkrantz, Lorenzetti). El gobierno no envió nuevos candidatos; el ministro Mahiques dijo que Milei 'estudia candidatos'.",
    "fuentes": [
@@ -114,6 +125,15 @@
     ]
    },
    {
+    "fecha": "2026-07-16",
+    "hecho": "Sesión del Senado con pliegos judiciales que faltaba en el archivo: Perfil y Diario Panorama hablan de 29 pliegos aprobados; C5N, de 36 (34 en bloque y 2 aparte); Parlamentario, de 'una treintena'. Incluyó el nuevo acuerdo de Víctor Pesino (Cámara del Trabajo, mayor de 75 años), aprobado 35 a 32.",
+    "fuentes": [
+     "https://www.parlamentario.com/2026/07/16/el-oficialismo-aprobo-en-el-senado-el-pliego-de-victor-pesino-el-juez-que-repuso-la-ley-de-modernizacion-laboral/",
+     "https://www.c5n.com/politica/el-senado-aprobo-36-pliegos-judiciales-incluido-el-del-juez-que-avalo-la-reforma-laboral-n243727",
+     "https://diariopanorama.com/noticia/559800/senado-aprobo-29-pliegos-judiciales-avanzo-cobertura-vacantes-justicia"
+    ]
+   },
+   {
     "fecha": "2026-11-03",
     "hecho": "El Gobierno envió al Senado el pliego de Daniel Rafecas, titular del Juzgado Federal N° 3 de Comodoro Py, para la Vocalía N° 7 de la Cámara Nacional de Casación en lo Criminal y Correccional. Rafecas había obtenido el primer puesto en ese concurso en 2018. Si se aprueba, quedarían vacantes 5 de los 12 juzgados federales de Comodoro Py. Rafecas subroga hoy el juzgado de la causa $LIBRA.",
     "fuentes": [
@@ -123,11 +143,21 @@
    },
    {
     "fecha": "2026-11-06",
-    "hecho": "La Comisión de Acuerdos del Senado fijó audiencias para 64 postulantes (27 el 17/11, 32 el 18/11 y 5 el 27/11). Otra tanda de pliegos (unos 30 según Parlamentario; 27 junto con el de Rafecas según otra nota) debe tomar estado parlamentario en la sesión prevista para el 19/11. La comisión sigue sin presidente tras la muerte del senador Pagotto.",
+    "hecho": "La Comisión de Acuerdos del Senado fijó audiencias para 64 postulantes (27 el 17/11, 32 el 18/11 y 5 el 27/11). La tanda enviada entre el 30/10 y el 03/11 (27 pliegos según Palabras del Derecho, aunque su lista tiene 28 entradas; unos 30 según Parlamentario), con el de Rafecas, debe tomar estado parlamentario en la sesión prevista para el 19/11. La comisión sigue sin presidente tras la muerte del senador Pagotto (29/09).",
     "fuentes": [
      "https://www.parlamentario.com/2026/11/06/antes-que-culminen-las-ordinarias-acuerdos-analizara-los-pliegos-de-mas-de-60-candidatos/",
      "https://www.centraldenoticiasmadariaga.com/2026/11/milei-mando-al-senado-el-pliego-de.html",
-     "https://www.iprofesional.com/legales/468250-ascenso-daniel-rafecas-disputa-comodoro-py-tablero-judicial"
+     "https://www.iprofesional.com/legales/468250-ascenso-daniel-rafecas-disputa-comodoro-py-tablero-judicial",
+     "https://www.palabrasdelderecho.com.ar/articulo/7081/Con-la-nueva-tanda-de-candidatos,-Mahiques-impulso-mas-de-250-pliegos-judiciales"
+    ]
+   },
+   {
+    "fecha": "2026-11-12",
+    "hecho": "Parlamentario confirmó las audiencias del 17, 18 y 27/11. La presidencia de Acuerdos sigue en disputa: LLA la reclama, y bloques aliados proponen que la mantenga el vicepresidente, el radical Maximiliano Abad, hasta la renovación de autoridades en 2027. Según Palabras del Derecho, en la gestión de Mahiques se enviaron 'más de 250' pedidos de acuerdo.",
+    "fuentes": [
+     "https://www.parlamentario.com/2026/11/12/antes-que-culminen-las-ordinarias-acuerdos-analizara-los-pliegos-de-mas-de-60-candidatos/",
+     "https://www.infobae.com/politica/2026/11/10/pliegos-judiciales-el-senado-prepara-dos-audiencias-en-medio-de-la-puja-libertaria-por-la-comision-de-acuerdos/",
+     "https://www.palabrasdelderecho.com.ar/articulo/7081/Con-la-nueva-tanda-de-candidatos,-Mahiques-impulso-mas-de-250-pliegos-judiciales"
     ]
    }
   ]
@@ -154,17 +184,19 @@
    "estado": "vacante",
    "fuentes": [
     "https://www.diariojudicial.com/news-101438-para-el-pueblo-lo-que-es-del-pueblo",
-    "https://www.diariojudicial.com/news-88067-el-defensor-no-puede-esperar-mas"
+    "https://www.diariojudicial.com/news-88067-el-defensor-no-puede-esperar-mas",
+    "https://www.ambito.com/politica/congreso-se-suspendieron-las-reuniones-cuatro-comisiones-bicamerales-designar-cargos-claves-n6271821"
    ],
-   "nota": "No se encontró ningún avance en 2026."
+   "nota": "El 28/04/2026 se suspendió a último momento la constitución de la Comisión Bicameral del Defensor del Pueblo (y de la Defensoría de la Niñez), porque LLA y UxP no acordaban sus integrantes (Ámbito). No se encontraron avances posteriores."
   },
   {
    "organismo": "Procuración General de la Nación",
-   "hecho": "Eduardo Casal sigue como procurador interino. No hay pliego enviado ni anuncio formal para un titular al 06/11/2026. La Nación informó versiones de que el ministro Mahiques aspira al cargo, sin confirmación oficial.",
+   "hecho": "Eduardo Casal sigue como procurador interino: así lo nombra Diario Judicial el 11/11/2026, al informar su Resolución PGN 84/26 sobre traspaso de personal al Ministerio Público Fiscal. No hay pliego enviado ni anuncio formal de un titular al 13/11/2026. La Nación (06/11) recogió versiones de que el ministro Mahiques aspira al cargo, sin confirmación oficial.",
    "estado": "interino",
    "fuentes": [
     "https://www.diariojudicial.com/news-104569-eduardo-casal-fue-reelecto-como-presidente-de-la-asociacion-iberoamericana-de-ministerios-publicos",
-    "https://www.lanacion.com.ar/politica/mahiques-despeja-los-problemas-judiciales-del-gobierno-y-presiona-para-ser-el-jefe-de-los-fiscales-nid06112026/"
+    "https://www.lanacion.com.ar/politica/mahiques-despeja-los-problemas-judiciales-del-gobierno-y-presiona-para-ser-el-jefe-de-los-fiscales-nid06112026/",
+    "https://www.diariojudicial.com/news-104860-casal-abre-el-libro-de-pases"
    ],
    "fuente_local": "datos/justicia/estado.json"
   },
@@ -188,12 +220,26 @@
     "https://www.batimes.com.ar/news/economy/argentina-shelves-inflation-revamp-after-statistics-chief-quits.phtml",
     "https://batimes.com.ar/news/economy/government-denies-interference-after-indec-chiefs-departure.phtml"
    ]
+  },
+  {
+   "organismo": "Oficina Anticorrupción (OA)",
+   "fecha": "2026-03-16",
+   "hecho": "El Decreto 194/2026 designó a Gabriela Carmen Zangaro como titular de la OA desde el 16/03/2026, en reemplazo de Alejandro Melik, cuya renuncia se aceptó desde el 13/03/2026. Fue una de las primeras medidas de Mahiques en Justicia.",
+   "como_se_designa": "Por decreto del Poder Ejecutivo; la OA depende del Ministerio de Justicia.",
+   "estado": "titular designada",
+   "fuentes": [
+    "https://www.palabrasdelderecho.com.ar/articulo/6640/Oficializaron-a-Gabriela-Zangaro-como-nueva-titular-de-la-Oficina-Anticorrupcion",
+    "https://www.canal26.com/politica/2026/03/27/quien-es-gabriela-carmen-zangaro-la-nueva-titular-de-la-oficina-anticorrupcion/"
+   ],
+   "discrepancias": "Canal 26 habla de 'resolución 194/2026'; Palabras del Derecho, de Decreto 194/2026, y cita su art. 3. Se usa decreto.",
+   "nota": "Antecedente que faltaba; se incorpora en el corte del 13/11/2026."
   }
  ],
  "faltantes": [
   "Resolución del amparo del PRO contra la designación de auditores de la AGN.",
   "No se encontró un listado de designaciones por decreto en reguladores (ENACOM, CNRT, etc.) con o sin concurso.",
-  "AAIP: el sitio oficial (argentina.gob.ar/aaip/autoridades) sigue mostrando como titular a Beatriz de Anchorena (Decreto 110/2022, mandato hasta 2027); no se encontró una fuente periodística reciente que lo confirme.",
-  "Número total de pliegos enviados en la tanda del 30/10-03/11/2026 (27 o unos 30, según la fuente)."
+  "SIGEN: no se verificó quién es hoy su titular.",
+  "Número exacto de pliegos de la tanda del 30/10-03/11/2026: 27 según el texto de Palabras del Derecho (28 entradas en su lista), unos 30 según Parlamentario.",
+  "Cantidad exacta de pliegos aprobados el 16/07/2026: entre 29 y 36, según la fuente."
  ]
 }

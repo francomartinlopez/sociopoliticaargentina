@@ -42,3 +42,16 @@ Consulta: 25/10/2026. Archivo: `estado.json`.
 - No se encontró una medición nueva de vacantes posterior al 18/10.
 - Las sesiones con pliegos aprobados después del 27/08 siguen sin verificar. Parlamentario menciona unas 170 designaciones tratadas en el año, sin desglose.
 - Falta el número exacto de pliegos de la última tanda (27 o 30).
+
+## Corte del 13/11/2026
+- **Procurador:** Casal sigue como interino. Diario Judicial (11/11/2026) lo nombra así al informar la Res. PGN 84/26 ([nota](https://www.diariojudicial.com/news-104860-casal-abre-el-libro-de-pases)). No hay pliego para un titular.
+- **Corte Suprema:** sin cambios (3 de 5, sin candidatos enviados).
+- **Pliegos, última tanda:** [Palabras del Derecho](https://www.palabrasdelderecho.com.ar/articulo/7081/Con-la-nueva-tanda-de-candidatos,-Mahiques-impulso-mas-de-250-pliegos-judiciales) dice 27 pliegos, pero su lista tiene 28 entradas (mensajes 330/26 a 359/26): 21 jueces, 6 defensores y 1 fiscal. Parlamentario habla de unos 30. La misma nota dice que con Mahiques se enviaron «más de 250» pedidos de acuerdo.
+- **Sesión del 16/07/2026, que faltaba:** las cifras varían según la fuente. Perfil y [Diario Panorama](https://diariopanorama.com/noticia/559800/senado-aprobo-29-pliegos-judiciales-avanzo-cobertura-vacantes-justicia) dan 29; [C5N](https://www.c5n.com/politica/el-senado-aprobo-36-pliegos-judiciales-incluido-el-del-juez-que-avalo-la-reforma-laboral-n243727), 36; [Parlamentario](https://www.parlamentario.com/2026/07/16/el-oficialismo-aprobo-en-el-senado-el-pliego-de-victor-pesino-el-juez-que-repuso-la-ley-de-modernizacion-laboral/), «una treintena». El nuevo acuerdo de Pesino salió 35 a 32. Con esta sesión, 74 + (29 a 36) + 67 suman entre 170 y 177, en línea con las «unas 170» de Parlamentario. La cifra de 129 que publicó la prensa sigue sin explicarse.
+- **Audiencias de Acuerdos:** se confirmaron para el 17, 18 y 27/11 ([Parlamentario, 12/11](https://www.parlamentario.com/2026/11/12/antes-que-culminen-las-ordinarias-acuerdos-analizara-los-pliegos-de-mas-de-60-candidatos/); [Infobae, 10/11](https://www.infobae.com/politica/2026/11/10/pliegos-judiciales-el-senado-prepara-dos-audiencias-en-medio-de-la-puja-libertaria-por-la-comision-de-acuerdos/)).
+- **Consejo de la Magistratura:** aprobó 71 ternas con 296 candidatos ([Infobae, 05/11](https://www.infobae.com/judiciales/2026/11/05/el-consejo-de-la-magistratura-aprobo-otras-71-ternas-para-cubrir-vacantes-en-el-poder-judicial/)). No hay una medición nueva del total de vacantes, así que se mantiene la de 298 al 18/10.
+
+### Pendientes
+- **Vacantes:** no hay medición posterior al 18/10.
+- **Pliegos aprobados:** falta la cifra exacta del 16/07, y no se encontraron sesiones con pliegos entre el 28/08 y el 13/11. Hay que verificarlo en senado.gob.ar.
+- **Última tanda:** sigue sin cerrarse si fueron 27, 28 o 30 pliegos.

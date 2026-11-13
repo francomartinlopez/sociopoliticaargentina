@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Gobernabilidad: fracturas y tensiones en la coalición de gobierno",
-  "actualizado": "2026-11-06",
+  "actualizado": "2026-11-13",
   "periodo": "desde el 10/12/2023",
   "aviso": "Los hechos llevan fuente. 'estado', 'gravedad_sugerida' y 'estado_sugerido' son lectura propia y se indican como tal.",
   "criterio_gravedad": {
@@ -489,13 +489,15 @@
    ],
    "tipo": "aliados",
    "que_paso": "El PRO no firmó el dictamen del Presupuesto 2027 que el oficialismo esperaba cerrar el 28/10: Ritondo había enviado a Martín Menem siete pedidos de cambios (combustibles, concesiones viales, coparticipación y deuda con la Ciudad, entre otros). En el Senado, el jefe del bloque PRO, Martín Goerling, se opone a eliminar o suspender las PASO, y Mauricio Macri consideró estancadas las negociaciones electorales con LLA (29/10).",
-   "estado": "abierta",
+   "estado": "abierta (principio de acuerdo el 12/11: el Gobierno aceptó incluir los pedidos del PRO; firma del dictamen prevista para el 17/11 y Ritondo condiciona el acuerdo a que haya partidas para Discapacidad)",
    "gravedad_sugerida": 2,
    "criterio": "Condiciona una ley clave (dictamen postergado) sin ruptura de bloque ni voto en contra.",
    "fuentes": [
     "https://www.lanacion.com.ar/politica/congreso-pro-complica-al-gobierno-con-objeciones-al-presupuesto-2027-la-reforma-electoral-y-la-ley-nid30102026/",
     "https://www.cronista.com/economia-politica/presupuesto-2027-el-pro-demora-el-dictamen-y-presiona-por-fondos-para-caba-e-impuesto-a-los-combustibles/",
-    "https://www.diariopopular.com.ar/policiales/el-gobierno-postergo-el-dictamen-del-presupuesto-2027-falta-acuerdos-n926678"
+    "https://www.diariopopular.com.ar/policiales/el-gobierno-postergo-el-dictamen-del-presupuesto-2027-falta-acuerdos-n926678",
+    "https://www.cronista.com/economia-politica/presupuesto-2027-el-gobierno-acordo-con-el-pro-los-cambios-y-pone-fecha-para-el-dictamen/",
+    "https://www.perfil.com/politica/la-libertad-avanza-logro-negociar-y-avanzar-en-un-acuerdo-politico-con-el-pro-para-conseguir-apoyo-al-presupuesto-2027-en-el-congreso-aB2YL0o24Z4Z"
    ]
   },
   {
@@ -528,13 +530,15 @@
    ],
    "tipo": "aliados",
    "que_paso": "A menos de un mes del cierre de las sesiones ordinarias (30/11), la suspensión de las PASO 2027 sigue trabada en el Senado: LLA tiene 21 bancas y necesita 37 votos; según Los Andes habría acercado 11 de los 16 que le faltan, sin convertirlos en votos. Se oponen los radicales Abad, Kroneberger y Fama; los tres senadores del PRO tienen reparos; Jaldo rechaza la suspensión; Mendoza no definió su voto y Cornejo busca garantías sobre la candidatura de Luis Petri (el 29/10 dijo que «peor es elegir mal»); Sáenz y Passalacqua condicionan su apoyo a obras y decisiones económicas.",
-   "estado": "abierta",
+   "estado": "abierta (la Comisión de Asuntos Constitucionales fue convocada para el 17/11; el oficialismo apunta a sesionar el 26/11, sin los 37 votos asegurados)",
    "gravedad_sugerida": 2,
    "criterio": "Traba una ley prioritaria por la resistencia de aliados (UCR, PRO y gobernadores), sin ruptura de bloque.",
    "fuentes": [
     "https://www.filo.news/noticia/2026/11/01/el-gobierno-busca-votos-para-suspender-las-paso-de-2027-y-enfrenta-resistencias-en-el-senado",
     "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608",
-    "https://www.memo.com.ar/opinion/abrelatas-analisis-escenario-electoral-cornejo-petri-karina-pullaro/"
+    "https://www.memo.com.ar/opinion/abrelatas-analisis-escenario-electoral-cornejo-petri-karina-pullaro/",
+    "https://www.lagaceta.com.ar/nota/1162394/politica/senado-puso-fecha-al-debate-suspension-paso-medio-disputa-entre-menem-bullrich.html",
+    "https://www.0264noticias.com.ar/noticias/2026/11/12/117044-suspension-de-las-paso-el-gobierno-nacional-destrabo-las-negociaciones-con-los-aliados-y-convoco-a-la-comision-del-senado"
    ]
   },
   {
@@ -548,14 +552,35 @@
    ],
    "tipo": "aliados",
    "que_paso": "El Presupuesto 2027 sigue sin dictamen en Diputados. Además de los pedidos del PRO, la UCR reclama más fondos para universidades y discapacidad y mantener la actualización automática de la AUH; Provincias Unidas cuestiona el aumento de los subsidios al transporte del AMBA, y los bloques provinciales piden fondos para las cajas previsionales no transferidas. Una fuente oficial describió la discusión como «en un limbo» y sostuvo que la meta fiscal es innegociable para el Presidente. El dictamen pasó a noviembre (se mencionan el 11 o el 17/11) y la sesión prevista para el 18/11 podría correrse al 25/11.",
-   "estado": "abierta",
+   "estado": "abierta (dictamen previsto para el 17/11 y sesión para el 25/11; la UCR sigue reclamando más fondos para universidades)",
    "gravedad_sugerida": 2,
    "criterio": "Condiciona una ley clave (dictamen postergado) por reclamos de varios aliados, sin ruptura de bloque ni voto en contra.",
    "fuentes": [
     "https://www.infobae.com/politica/2026/11/04/presupuesto-2027-los-aliados-presionan-al-gobierno-con-pedidos-que-comprometen-el-deficit-cero/",
     "https://www.diariopanorama.com/noticia/571904/presupuesto-2027-quedo-trabado-reclamos-gobernadores-bloques-aliados",
     "https://www.ellitoral.com/politica/presupuesto2027-camaradediputados-negociaciones-tratamiento_0_AB2zQAYFNm.html",
-    "https://www.letrap.com.ar/congreso/presupuesto-2027-el-pro-y-el-radicalismo-rechazan-un-ajuste-milei-y-se-demora-el-acuerdo-n5427738"
+    "https://www.letrap.com.ar/congreso/presupuesto-2027-el-pro-y-el-radicalismo-rechazan-un-ajuste-milei-y-se-demora-el-acuerdo-n5427738",
+    "https://www.parlamentario.com/2026/11/12/los-aliados-le-piden-cambios-al-gobierno-por-la-ley-malvinas-y-ratificaron-el-cronograma-del-presupuesto-2027/",
+    "https://www.perfil.com/politica/la-libertad-avanza-logro-negociar-y-avanzar-en-un-acuerdo-politico-con-el-pro-para-conseguir-apoyo-al-presupuesto-2027-en-el-congreso-aB2YL0o24Z4Z"
+   ]
+  },
+  {
+   "fecha": "2026-11-11",
+   "actores": [
+    "Javier Milei",
+    "Patricia Bullrich (jefa del bloque de LLA en el Senado)",
+    "Karina Milei (secretaria general de la Presidencia)"
+   ],
+   "tipo": "partido",
+   "que_paso": "Milei compartió en sus historias de Instagram la frase «Hay gente dispuesta a hundir el barco cuando se da cuenta que no podrá ser el capitán», que fuentes oficiales y la prensa leyeron como un mensaje a Bullrich. La senadora venía marcando diferencias con la Casa Rosada (la declaración jurada de Adorni y la estrategia con las leyes de Discapacidad, Tierras y Presupuesto) y difundió una foto con unos 15 dirigentes de su corriente; se suspendió la última reunión de la mesa política. Según Los Andes (que cita a Clarín), el sector de Karina Milei habló de sacarla de la jefatura del bloque y su entorno respondió que no se sintió aludida. Al mismo tiempo, Martín Menem le trasladó a Bullrich parte de la responsabilidad por la demora en suspender las PASO; ella sostiene que el Gobierno todavía no tiene los votos.",
+   "estado": "abierta",
+   "gravedad_sugerida": 2,
+   "criterio": "Choque público entre el Presidente y la jefa del bloque oficialista del Senado, que afecta la conducción de un bloque legislativo en plena negociación de leyes clave, sin ruptura formal del bloque.",
+   "fuentes": [
+    "https://www.losandes.com.ar/politica/el-mensaje-sugestivo-milei-que-reavivo-la-interna-bullrich-gente-dispuesta-hundir-el-barco-n6013925",
+    "https://dib.com.ar/politica/milei-vs-bullrich-hay-gente-que-esta-dispuesta-hundir-el-barco-n57254",
+    "https://www.lagaceta.com.ar/nota/1162394/politica/senado-puso-fecha-al-debate-suspension-paso-medio-disputa-entre-menem-bullrich.html",
+    "https://infogoya.com/senado-el-gobierno-presiona-a-bullrich-para-suspender-las-paso-pero-dudan-de-que-esten-los-votos-necesarios/"
    ]
   }
  ],
@@ -563,14 +588,14 @@
   {
    "actor": "Vicepresidenta",
    "estado_sugerido": "ruptura",
-   "lectura": "Lectura propia: el Presidente la definió como 'opositora' y la relación no tuvo recomposición desde 2025. Volverán a coincidir en la recepción al papa León XIV (08/11/2026), por invitación oficial, pero en la misma semana ella lanzó en el Senado un programa de alivio de deudas para empleados que la prensa lee como una diferencia con la política económica.",
+   "lectura": "Lectura propia: el Presidente la definió como 'opositora' y la relación no tuvo recomposición desde 2025. En la recepción al papa León XIV (08/11/2026) coincidieron, pero Milei bajó del escenario sin saludarla y al día siguiente ella dijo que no recibió la acreditación para la misa (la Casa Rosada sostiene que la invitación se cursó el 04/11).",
    "ultimo_hecho": {
-    "fecha": "2026-11-03",
-    "hecho": "Fue invitada a la recepción de Milei al papa León XIV del 08/11 en el Palacio Libertad (según La Gaceta, primer acto compartido desde el 09/07); el mismo día se conoció su decreto 0630/2026 de adelantos de haberes a tasa cero para empleados del Senado endeudados («La usura está mal»).",
-    "fuente": "https://www.lagaceta.com.ar/nota/1160778/politica/villarruel-coincidira-milei-visita-papa-pero-marco-diferencias-senado.html",
+    "fecha": "2026-11-08",
+    "hecho": "En el acto con León XIV en el Palacio Libertad, Milei bajó del escenario sin saludar a Villarruel, que lo esperaba al pie de la escalinata; el Papa sí la saludó. El 09/11 ella dijo en X: «Nunca recibimos el QR para poder ingresar a los distintos controles de seguridad» de la misa; la Casa Rosada respondió que la invitación se envió el 04/11.",
+    "fuente": "https://www.infobae.com/politica/2026/11/09/la-foto-de-unidad-la-multiplicidad-de-lecturas-del-mensaje-y-un-desplante-de-milei-lo-que-dejo-el-acto-de-leon-xiv-en-el-palacio-libertad/",
     "fuentes": [
-     "https://www.lagaceta.com.ar/nota/1160778/politica/villarruel-coincidira-milei-visita-papa-pero-marco-diferencias-senado.html",
-     "https://www.canal26.com/politica/2026/11/05/milei-y-villarruel-volveran-a-coincidir-por-la-visita-del-papa-leon-xiv-uno-por-uno-los-gobernadores-y-empresarios-invitados/"
+     "https://www.infobae.com/politica/2026/11/09/la-foto-de-unidad-la-multiplicidad-de-lecturas-del-mensaje-y-un-desplante-de-milei-lo-que-dejo-el-acto-de-leon-xiv-en-el-palacio-libertad/",
+     "https://diariohoy.net/politica/el-papa-fue-testigo-de-la-pelea-entre-milei-y-villarruel-290083"
     ]
    }
   },
@@ -587,49 +612,58 @@
   {
    "actor": "Interna de La Libertad Avanza",
    "estado_sugerido": "tensión",
-   "lectura": "Lectura propia: disputa Karina Milei–Santiago Caputo y fricción con Bullrich, sin rupturas formales de bloque en 2026.",
+   "lectura": "Lectura propia: disputa Karina Milei–Santiago Caputo y fricción con Bullrich, sin rupturas formales de bloque en 2026. En noviembre la tensión con Bullrich se hizo pública: el Presidente le dedicó un mensaje («hundir el barco») y Martín Menem la responsabilizó por la demora de la reforma electoral en el Senado.",
    "ultimo_hecho": {
-    "fecha": "2026-06-10",
-    "hecho": "Infobae describe disputas abiertas de Karina Milei con Caputo y Bullrich de cara a 2027.",
-    "fuente": "https://www.infobae.com/politica/2026/06/10/rodeada-por-las-internas-karina-milei-se-muestra-hiperactiva-y-ordena-a-su-tropa-de-cara-a-2027/"
+    "fecha": "2026-11-11",
+    "hecho": "Milei compartió la frase «Hay gente dispuesta a hundir el barco cuando se da cuenta que no podrá ser el capitán», leída en el Gobierno como un mensaje a Patricia Bullrich, jefa del bloque de LLA en el Senado.",
+    "fuente": "https://www.losandes.com.ar/politica/el-mensaje-sugestivo-milei-que-reavivo-la-interna-bullrich-gente-dispuesta-hundir-el-barco-n6013925",
+    "fuentes": [
+     "https://www.losandes.com.ar/politica/el-mensaje-sugestivo-milei-que-reavivo-la-interna-bullrich-gente-dispuesta-hundir-el-barco-n6013925",
+     "https://dib.com.ar/politica/milei-vs-bullrich-hay-gente-que-esta-dispuesta-hundir-el-barco-n57254"
+    ]
    }
   },
   {
    "actor": "PRO",
    "estado_sugerido": "tensión",
-   "lectura": "Lectura propia: vota con el gobierno las leyes clave, pero la relación política se rompió en julio y la recomposición está trabada: condiciona el Presupuesto 2027, rechaza suspender las PASO y el 02/11 postergó cualquier definición sobre una alianza para 2027.",
+   "lectura": "Lectura propia: vota con el gobierno las leyes clave, pero la relación política se rompió en julio y no hay acuerdo electoral para 2027 (el 02/11 postergó esa definición). El 12/11 cerró un principio de acuerdo por el Presupuesto 2027; sobre las PASO, Ritondo dijo que el bloque acompañará la reforma política, pero que su postura depende de los gobernadores Jorge Macri, Frigerio y Torres.",
    "ultimo_hecho": {
-    "fecha": "2026-11-02",
-    "hecho": "La cúpula del PRO, con Mauricio Macri, postergó la definición de una alianza con LLA para 2027 («el calendario electoral no comenzó aún») y esperará la respuesta a sus cambios al Presupuesto 2027 y a la reforma electoral.",
-    "fuente": "https://www.iprofesional.com/politica/468113-macri-patea-la-definicion-de-la-alianza-con-milei-y-el-pro-duda-de-la-reforma-electoral",
+    "fecha": "2026-11-12",
+    "hecho": "LLA y el PRO alcanzaron un principio de acuerdo por el Presupuesto 2027: se incorporan, entre otros, la prórroga de los regímenes autopartistas hasta 2032, el crédito de la CAF para la Ciudad, la regularización de la coparticipación porteña y la baja del IVA al huevo. Ritondo condicionó el acuerdo a que haya partidas para la Ley de Discapacidad.",
+    "fuente": "https://www.cronista.com/economia-politica/presupuesto-2027-el-gobierno-acordo-con-el-pro-los-cambios-y-pone-fecha-para-el-dictamen/",
     "fuentes": [
-     "https://www.iprofesional.com/politica/468113-macri-patea-la-definicion-de-la-alianza-con-milei-y-el-pro-duda-de-la-reforma-electoral",
-     "https://informedigital.com.ar/macri-patea-la-definicion-de-la-alianza-con-milei-y-el-pro-duda-de-la-reforma-electoral/"
+     "https://www.cronista.com/economia-politica/presupuesto-2027-el-gobierno-acordo-con-el-pro-los-cambios-y-pone-fecha-para-el-dictamen/",
+     "https://www.perfil.com/politica/la-libertad-avanza-logro-negociar-y-avanzar-en-un-acuerdo-politico-con-el-pro-para-conseguir-apoyo-al-presupuesto-2027-en-el-congreso-aB2YL0o24Z4Z",
+     "https://www.parlamentario.com/2026/11/12/los-aliados-le-piden-cambios-al-gobierno-por-la-ley-malvinas-y-ratificaron-el-cronograma-del-presupuesto-2027/"
     ]
    }
   },
   {
    "actor": "UCR",
    "estado_sugerido": "tensión",
-   "lectura": "Lectura propia: los gobernadores radicales acompañan 'con matices'; un sector del partido busca candidato propio para 2027. En noviembre de 2026 el bloque de Diputados condiciona el Presupuesto 2027 (universidades, discapacidad, AUH) y tres senadores se oponen a suspender las PASO.",
+   "lectura": "Lectura propia: los gobernadores radicales acompañan 'con matices'; un sector del partido busca candidato propio para 2027. En noviembre de 2026 el bloque de Diputados condiciona el Presupuesto 2027 (universidades: el proyecto prevé $7,3 billones y los rectores piden $11 billones) y en el Senado la UCR y el PRO se muestran reticentes a suspender las PASO y proponen que dejen de ser obligatorias.",
    "ultimo_hecho": {
-    "fecha": "2026-11-04",
-    "hecho": "La UCR, junto con el PRO, no dio el acompañamiento para el dictamen del Presupuesto 2027 y reclama más fondos para universidades y discapacidad; en el Senado, Abad, Kroneberger y Fama se oponen a suspender las PASO.",
-    "fuente": "https://www.diariopanorama.com/noticia/571904/presupuesto-2027-quedo-trabado-reclamos-gobernadores-bloques-aliados",
+    "fecha": "2026-11-12",
+    "hecho": "Mientras el PRO cerraba un principio de acuerdo por el Presupuesto 2027, la UCR (interlocutor: Lisandro Nieri) seguía reclamando más fondos para universidades, sin acuerdo informado.",
+    "fuente": "https://www.perfil.com/politica/la-libertad-avanza-logro-negociar-y-avanzar-en-un-acuerdo-politico-con-el-pro-para-conseguir-apoyo-al-presupuesto-2027-en-el-congreso-aB2YL0o24Z4Z",
     "fuentes": [
-     "https://www.diariopanorama.com/noticia/571904/presupuesto-2027-quedo-trabado-reclamos-gobernadores-bloques-aliados",
-     "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
+     "https://www.perfil.com/politica/la-libertad-avanza-logro-negociar-y-avanzar-en-un-acuerdo-politico-con-el-pro-para-conseguir-apoyo-al-presupuesto-2027-en-el-congreso-aB2YL0o24Z4Z",
+     "https://infogoya.com/senado-el-gobierno-presiona-a-bullrich-para-suspender-las-paso-pero-dudan-de-que-esten-los-votos-necesarios/"
     ]
    }
   },
   {
    "actor": "Gobernadores que negocian con el gobierno",
    "estado_sugerido": "alineado",
-   "lectura": "Lectura propia: negocian el Presupuesto 2027 y la suspensión de las PASO; el apoyo es transaccional y en noviembre varios lo condicionan a obras y fondos (Sáenz, Passalacqua) o lo niegan (Jaldo). La postura de cada gobernador, provincia por provincia, está en la sección Afinidades.",
+   "lectura": "Lectura propia: negocian el Presupuesto 2027 y la suspensión de las PASO; el apoyo es transaccional (fondos, deudas y ATN) y algunos lo condicionan (Cornejo, Sáenz, Passalacqua) o lo niegan (Jaldo). La cuenta oficial llega justo a 37 votos en el Senado. El adelantamiento de la elección de Neuquén al 14/02/2027 cayó mal en LLA. La postura de cada gobernador, provincia por provincia, está en la sección Afinidades.",
    "ultimo_hecho": {
-    "fecha": "2026-11-02",
-    "hecho": "Valdés, Pullaro y Zdero apoyan suspender las PASO; Jalil, Figueroa, Vidal, Llaryora y Torres se mostraron dispuestos con demandas provinciales; Jaldo la rechaza y Sáenz y Passalacqua la condicionan.",
-    "fuente": "https://www.losandes.com.ar/politica/se-acerca-el-fin-del-periodo-ordinario-del-senado-y-el-gobierno-no-logra-avanzar-la-eliminacion-las-paso-n6012608"
+    "fecha": "2026-11-12",
+    "hecho": "Según El Cronista, nueve gobernadores apoyan en público eliminar las PASO (Jalil, Figueroa, Zdero, Valdés, Torres, Orrego, Frigerio, Sadir y Pullaro), Vidal y Llaryora estarían dispuestos, Cornejo, Sáenz y Passalacqua condicionan su apoyo y Jaldo lo rechaza; la cuenta oficial llega justo a 37 votos. Santilli hizo convocar la comisión del Senado para el 17/11 para presionar a los gobernadores a definirse.",
+    "fuente": "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/",
+    "fuentes": [
+     "https://www.cronista.com/economia-politica/activan-ronda-final-con-gobernadores-para-definir-paso-y-presupuesto-la-cuenta-que-manejan-y-que-puede-caer/",
+     "https://www.infobae.com/politica/2026/11/13/hay-que-acelerar-el-gobierno-presiona-a-los-gobernadores-para-suspender-las-paso-y-define-el-calendario-electoral/"
+    ]
    }
   },
   {
@@ -651,17 +685,18 @@
   {
    "actor": "CGT y sindicatos",
    "estado_sugerido": "ruptura",
-   "lectura": "Lectura propia: cuatro paros generales y diálogo congelado desde mayo de 2026; en octubre la CGT bajó la intensidad (archivó el quinto paro) y, tras la visita del papa León XIV (07-11/11), prepara un cese de actividades de pocas horas con asambleas, sin fecha fijada; las CTA y los gremios docentes y universitarios siguen con paros.",
+   "lectura": "Lectura propia: cuatro paros generales y diálogo congelado desde mayo de 2026; en octubre la CGT bajó la intensidad (archivó el quinto paro). Tras la visita del papa León XIV, al 10/11 no había convocado ninguna medida; según dirigentes sin nombre citados por Clarín (vía Fénix, 13/11), prepara un cese parcial de dos a cuatro horas con asambleas para los primeros días de diciembre, sin fecha fijada. Las CTA y los gremios docentes y universitarios siguen con paros.",
    "ultimo_hecho": {
     "fecha": "2026-10-28",
     "hecho": "La CGT archivó el quinto paro general y evalúa un paro de 2 a 4 horas y un acto en un estadio antes de fin de año.",
     "fuente": "https://www.infobae.com/politica/2026/10/28/sin-paros-generales-y-con-un-acto-en-una-cancha-la-nueva-estrategia-de-la-cgt-que-pone-en-la-mira-tanto-al-gobierno-como-al-pj/"
-   }
+   },
+   "nota": "El cese parcial de diciembre sale de fuentes sin nombre y no tiene fecha: no se cargó como hecho. Fuentes: https://www.fenix951.com.ar/noticia.php?id=360264 (13/11/2026) y https://www.agencianova.com/politica/2026/11/10/175087/ni-el-papa-los-levanta-de-la-siesta-la-cgt-sigue-sin-convocar-al-paro-pese-al-respaldo-de-leon-xiv-al-sindicalismo/ (10/11/2026)."
   }
  ],
  "indicadores": {
   "fracturas_abiertas": {
-   "valor": 13,
+   "valor": 14,
    "nota": "Cálculo propio: entradas del timeline con estado 'abierta' (las cerradas en el gabinete con causa judicial abierta no se cuentan)."
   },
   "ministros_y_jefes_de_gabinete_que_dejaron_el_cargo": {

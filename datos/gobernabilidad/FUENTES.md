@@ -73,3 +73,23 @@ Búsqueda del 30/10 al 06/11/2026 (WebSearch + WebFetch). Se agregaron tres entr
 - **Villarruel:** la nota de MDZ del 31/10 sobre sus diferencias económicas con Milei no abrió (error del sitio). La de El Destape sobre la «crisis del papel» redirigió y no se leyó.
 - **Interna de LLA (Karina Milei–Santiago Caputo):** no se encontró un hecho nuevo con fecha de la semana y dos fuentes.
 - **Renuncias:** no se encontraron otras de primera o segunda línea entre el 30/10 y el 06/11. Ya se designó un reemplazo para César Lencina (tercera línea, Perfil y Prensa Mercosur, 01/11), pero no se carga.
+
+## Corte del 13/11/2026
+Búsqueda del 07/11 al 13/11/2026 (WebSearch + WebFetch). Se agregó una entrada al timeline (32 en total), se actualizaron tres estados y seis relaciones.
+- **Interna de LLA: Milei y Bullrich (11/11):** Milei compartió en Instagram «Hay gente dispuesta a hundir el barco cuando se da cuenta que no podrá ser el capitán», leído como un mensaje a Patricia Bullrich, jefa del bloque de LLA en el Senado. Fuentes: Los Andes (11/11) y DIB (12/11); la acusación de Martín Menem por la demora en las PASO sale de La Gaceta (13/11), y la discusión sobre los votos, de Perfil (vía infogoya, 12/11). Gravedad sugerida 2 (lectura propia): afecta la conducción de un bloque legislativo, sin ruptura formal. La frase «Que me corran, pero no les sale ni una ley más» la atribuye Los Andes a Bullrich citando a Clarín; no se usó como cita textual en el JSON.
+- **Estados actualizados (siguen «abierta»):**
+  - PRO, 28/10: principio de acuerdo por el Presupuesto 2027 el 12/11, con dictamen previsto para el 17/11 (El Cronista y Perfil, 12/11).
+  - PASO, 01/11: la comisión del Senado fue convocada para el 17/11 y el recinto, para el 26/11 (La Gaceta, 13/11; 0264 Noticias, 12/11).
+  - Presupuesto, 04/11: dictamen el 17/11 y sesión el 25/11; la UCR sigue sin acuerdo por universidades (Parlamentario y Perfil, 12/11).
+- **Relaciones actualizadas:**
+  - Vicepresidenta: desplante de Milei en el acto con León XIV (08/11; Infobae, 09/11). Villarruel dice que no recibió la acreditación para la misa (Diario Hoy, 11/11). Sigue en «ruptura».
+  - Interna de LLA, PRO, UCR y gobernadores que negocian: con los hechos de arriba. El Cronista (12/11) da la cuenta de 37 votos justos y la lista de gobernadores; Infobae (13/11) cuenta que la elección de Neuquén cayó mal en LLA.
+  - CGT: al 10/11 no había convocado ninguna medida (Agencia Nova). Según dirigentes sin nombre citados por Clarín (vía Fénix, 13/11), prepara un cese parcial de 2 a 4 horas para principios de diciembre. Solo cambió la lectura y se agregó una `nota`.
+- **Fracturas abiertas:** 14, una más que el corte anterior.
+
+### Pendientes
+- **No cargado:** renuncia de Carlos Terrado, vicepresidente primero de la Autoridad Regulatoria Nuclear (Decreto 1351/2026, 11/11; Canal 26). Es un directorio de organismo, no gabinete de primera o segunda línea, y no se informaron motivos.
+- **CGT:** la nota de El Destape del 11/11 con detalles de la medida no abrió (redirección en bucle). El paro parcial no tiene fecha ni fuente con nombre.
+- **MDZ (12/11)** sobre la reacción del Senado no abrió (error del sitio). La nota de El Intransigente (12/11) sobre el cronograma del Presupuesto tampoco.
+- **Reunión Milei–Bullrich:** la prensa la anticipa para después de la visita del Papa, pero al corte no se confirmó.
+- **Composición de Diputados en 2026:** sigue sin actualización.

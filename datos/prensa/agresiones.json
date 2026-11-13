@@ -1,6 +1,6 @@
 {
  "meta": {
-  "actualizado": "2026-11-06",
+  "actualizado": "2026-11-13",
   "fuente": "FOPEA, Monitoreo de Libertad de Expresión (informes anuales). ADEPA no publica conteos en las notas consultadas.",
   "granularidad": "anual",
   "mensual_disponible": false,
@@ -176,6 +176,6 @@
    "https://www.cadena3.com/noticia/politica-y-economia/fopea-denuncio-una-escalada-de-violencia-sin-precedentes-de-milei-contra-los-periodistas_606661",
    "https://www.perfil.com/noticias/politica/javier-milei-insiste-en-atacar-a-la-prensa-y-amenaza-con-acciones-legales-tras-el-cierre-del-caso-libra.phtml"
   ],
-  "nota": "Dato parcial de FOPEA al 26/10/2026; no se carga en el gráfico anual. Atribuidas a Milei en 2023: FOPEA dice 5 y Análisis Digital, 2; se usa el comunicado de FOPEA. Entre el 30/10 y el 06/11/2026 no se encontraron nuevos comunicados de FOPEA sobre agresiones."
+  "nota": "Dato parcial de FOPEA al 26/10/2026; no se carga en el gráfico anual. Atribuidas a Milei en 2023: FOPEA dice 5 y Análisis Digital, 2; se usa el comunicado de FOPEA. Entre el 30/10 y el 13/11/2026 no se encontraron nuevos comunicados de FOPEA ni de ADEPA con datos de agresiones; el total de 2026 sigue sin publicarse."
  }
 }

@@ -1,6 +1,6 @@
 # Fuentes y faltantes · datos/opinion
 
-Actualizado: 2026-11-06. Cubre `encuestas.json`. Cada encuesta lleva al lado su `fuente_url`, su `fuente_fecha` y, cuando hay, `fuentes_cruce`.
+Actualizado: 2026-11-13. Cubre `encuestas.json`. Cada encuesta lleva al lado su `fuente_url`, su `fuente_fecha` y, cuando hay, `fuentes_cruce`.
 
 ## Criterio
 - Encuestas nacionales con campo entre el 01/11/2025 y el 25/10/2026, de consultoras que publican ficha técnica (n, campo, método o margen).
@@ -63,3 +63,20 @@ Actualizado: 2026-11-06. Cubre `encuestas.json`. Cada encuesta lleva al lado su 
 - **Revisar olas viejas encontradas en esta búsqueda, fuera del alcance del corte:** Management & Fit feb-2026 (9 al 24/02, 2.600 casos, mixto, ±2,1; aprueba 46,8, desaprueba 50,7; El Cronista, 03/03/2026), que no está en el archivo y podría cambiar el promedio de febrero; Analogías sep-2026 (5 al 8/09, 2.932 casos, IVR, ±2,0; Fénix 95.1 y Ámbito), donde las fuentes no coinciden en si 58,1 es gestión o imagen; Poliarquía sep-2026 (La Nación, 18/09/2026), sin revisar.
 - **Páginas que no abrieron:** MDZ (03/11, nota sobre varias encuestas), El Intransigente (19/10, cuatro mediciones) y Conclusión (encuesta de octubre con 60 % de rechazo, consultora no identificada). El PDF del informe de Analogías (Google Drive) no se abrió.
 - **Siguen faltando:** Management & Fit de octubre; segunda fuente con ficha para Pulso Research oct-2026; método y margen de Analogías y Pulso Research.
+
+## Cambios del corte del 13/11/2026
+- **AtlasIntel nov-2026 (cargada como `atlas-2026-10w`):** campo 5 al 9/11, 2.364 casos, online, ±2 (95 %); aprueba 36,2, desaprueba 60,6, ns/nc 3,2. El informe está rotulado «octubre 2026» (El Economista), pero cuenta en noviembre por el fin de campo. Ficha en Bloomberg Línea y Mi Periódico (13/11); aprobación y desaprobación en El Economista y Política Argentina (13/11). Imagen de Milei 36/62 (antes 38/59). Por primera vez en más de un año el desempleo es el primer problema (50,2, respuesta múltiple).
+- **Noviembre 2026 entra en `promedio_mensual` con una sola encuesta:** 36,2 % de aprobación y 60,6 % de desaprobación, con alerta «menos de 3 encuestadoras con ficha en el mes». Se recalcula cuando salgan más olas.
+- **Pulso Research oct-2026, ficha corregida:** Perfil (06/11) publica la ficha completa: campo 10 al 17/10, 1.500 casos, online no probabilística con cuotas, ±3,0. Coinciden en campo y n Diario Neuquino (cita a Clarín), Prensa Mercosur (09/11) y Detonados (12/11). EsChaco (04/11) daba 13 al 21/10 y 1.006 casos: queda como discrepancia. Las cifras (28,9 / 66,4) no cambian y la encuesta sigue en octubre, así que el promedio de octubre queda en 34,7 / 59,9. Se agregaron Santilli (25/44,1) y Pullaro (19,2/35,8) a la imagen de dirigentes. Milei negativa: 64,6 (Perfil, Grupo La Provincia) o 64,5 (Diario Neuquino, Prensa Mercosur).
+- **Octubre 2026:** sin cambios en el promedio (8 encuestadoras). Ahora solo Analogías entra sin método ni margen.
+- `meta.generado`, `meta.actualizado` y fin de `meta.periodo`: 2026-11-13.
+
+### No cargadas
+- **Ranking regional de presidentes (MDZ, 11/11; Diario de Cuyo; OPI Santa Cruz, 12/11):** mide imagen de presidentes de la región, no aprobación de gestión. La nota de MDZ no abrió.
+- **Sin olas nuevas encontradas con campo en noviembre:** D'Alessio, ESPOP (UdeSA), Zuban Córdoba, Management & Fit, Zentrix, Synopsis, Analogías, Opina Argentina, Poliarquía, Giacobbe, CB Consultora y el resto.
+
+### Pendientes
+- **Índice UTDT de noviembre:** todavía no publicado al 13/11 (la ola de octubre salió el 26/10).
+- **Management & Fit de octubre:** sigue sin aparecer.
+- **Páginas que no abrieron:** El Destape (13/11, «nueva encuesta revela que su imagen negativa trepó»; consultora no identificada, la redirección no se pudo seguir), Diario El Norte («fuerte rechazo a Milei», probablemente Pulso Research, sin confirmar) y MDZ (11/11).
+- Siguen pendientes de la semana anterior: M&F feb-2026, Analogías sep-2026 y Poliarquía sep-2026 (fuera del alcance del corte); método y margen de Analogías oct-2026.

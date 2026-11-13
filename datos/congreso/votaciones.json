@@ -1,7 +1,7 @@
 {
  "meta": {
   "titulo": "Votaciones clave en el Congreso desde el 10/12/2023",
-  "actualizado": "2026-11-06",
+  "actualizado": "2026-11-13",
   "convenciones": {
    "afirmativos/negativos/abstenciones/ausentes": "Tal como los publican las fuentes; null = no publicado o no encontrado.",
    "DNU": "En los ítems con dnu=true los números siguen el sentido de la validez del decreto: afirmativos = a favor del decreto, negativos = por el rechazo. Muchas fuentes los informan al revés, como votos por el rechazo; cada caso lo aclara en 'nota'.",
@@ -750,7 +750,7 @@
        "url": "https://www.eldiarioar.com/politica/senado-aprobo-general-reforma-ley-salud-mental-habilita-internaciones-involuntarias_1_13626441.html"
       }
      ],
-     "nota": "Proyecto del Poder Ejecutivo (Desarrollo Zonal; Información Regional dice «impulsado por el Gobierno»). La sesión empezó el jueves 29/10 y la votación fue en la madrugada del viernes 30/10, según Información Regional. 0 abstenciones según Parlamentario; las demás fuentes no las informan. No se publicó lista nominal ni ausentes. Al 06/11/2026 sigue sin publicarse la lista nominal; elDiarioAR solo informa los bloques que votaron a favor y en contra."
+     "nota": "Proyecto del Poder Ejecutivo (Desarrollo Zonal; Información Regional dice «impulsado por el Gobierno»). La sesión empezó el jueves 29/10 y la votación fue en la madrugada del viernes 30/10, según Información Regional. 0 abstenciones según Parlamentario; las demás fuentes no las informan. No se publicó lista nominal ni ausentes. Al 13/11/2026 sigue sin publicarse la lista nominal; elDiarioAR solo informa los bloques que votaron a favor y en contra."
     }
    ],
    "resumen_index": [
@@ -770,7 +770,7 @@
    "id": "eliminacion-paso-2027",
    "nombre": "Eliminación/suspensión de las PASO 2027 (reforma electoral)",
    "impulsor": "gobierno",
-   "estado": "Sin votación en ninguna cámara al 06/11/2026. Sigue congelada en el Senado, sin dictamen: el Gobierno postergó la reunión de Asuntos Constitucionales por falta de los 37 votos (El Liberal, 18/10/2026), el bloque PRO del Senado se opone a eliminar o suspender las PASO (La Nación, 30/10/2026) y la UCR es la principal resistencia (Perfil, 31/10/2026). Al 02/11/2026 el oficialismo seguía buscando los votos, sin sesión prevista (El Tribuno).",
+   "estado": "Sin votación en ninguna cámara al 13/11/2026. Sigue en el Senado sin dictamen ni sesión fijada: el Gobierno postergó la reunión de Asuntos Constitucionales por falta de los 37 votos (El Liberal, 18/10/2026), el bloque PRO del Senado se opone a eliminar o suspender las PASO (La Nación, 30/10/2026) y la UCR es la principal resistencia (Perfil, 31/10/2026). El 12/11/2026 Martín Menem dijo esperar la media sanción del Senado «en las próximas dos semanas», y lo calificó de «expresión de deseo» (Infobae, 12/11/2026).",
    "votaciones": [],
    "fuentes_estado": [
     {
@@ -800,6 +800,10 @@
     {
      "medio": "El Tribuno (02/11/2026)",
      "url": "https://www.eltribuno.com/nacionales/2026-11-2-0-0-0-en-el-senado-no-avanza-la-reforma-politica-para-eliminar-las-paso"
+    },
+    {
+     "medio": "Infobae (12/11/2026)",
+     "url": "https://www.infobae.com/politica/2026/11/12/martin-menem-presiona-a-bullrich-espera-que-el-senado-suspenda-las-paso-en-los-proximos-15-dias/"
     }
    ],
    "nota": "Hace falta mayoría absoluta: 37 senadores y 129 diputados. Según Parlamentario, LLA tiene 20 senadores hasta que asuma el reemplazo de Pagotto, que falleció.",

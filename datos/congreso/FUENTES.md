@@ -1,6 +1,6 @@
 # Fuentes y faltantes · datos/congreso
 
-Actualizado: 2026-11-06. Cada número de `votaciones.json` y `ejecutivo.json` lleva su URL al lado. Este archivo resume de dónde salió todo y qué falta.
+Actualizado: 2026-11-13. Cada número de `votaciones.json` y `ejecutivo.json` lleva su URL al lado. Este archivo resume de dónde salió todo y qué falta.
 
 ## Fuentes usadas
 
@@ -91,4 +91,21 @@ La Capital, Los Andes, El Economista, Ámbito, Chequeado, Noticias NQN, Diario d
 - **Decretos firmados el 30-31/10** que salgan en el BO de noviembre: entran con la próxima versión de Infoleg.
 - **Lista nominal de Salud Mental (Senado, 29/10, 42-21-0):** sin acta ni lista de prensa. senado.gob.ar sigue bloqueado desde la shell (403 del proxy, 06/11).
 - **Presupuesto 2027 y PASO 2027:** revisar el dictamen del 11-17/11 y las sesiones del 18 o el 25/11.
+- Siguen vigentes los faltantes de la sección «Faltantes».
+
+## Corte del 13/11/2026
+- **Votaciones:** no hubo sesiones en el recinto de ninguna de las dos cámaras entre el 07 y el 13/11/2026. Perfil (13/11) e Infobae (12/11) solo registran negociaciones, como la reunión del 12/11 en la Presidencia de Diputados entre LLA y los bloques aliados. Noticias Argentinas (12/11) ubica la próxima sesión del Senado, con la ley de Discapacidad, el jueves de la semana siguiente. No se cargó ninguna votación nueva.
+- **Presupuesto 2027:** sigue sin dictamen. El cronograma acordado el 12/11 es dictamen el martes 17/11 y sesión el miércoles 25/11 (El Liberal, 12/11; Perfil, 13/11, que aclara que la fecha no es segura). Infobae (12/11) anticipa que antes podría tratarse la reforma de la Carta Orgánica del BCRA.
+- **PASO 2027:** sin dictamen ni sesión. Martín Menem espera la media sanción del Senado «en las próximas dos semanas» y lo llamó «expresión de deseo» (Infobae, 12/11). Se actualizó el `estado` en `votaciones.json`.
+- **Salud Mental:** sigue sin lista nominal ni acta.
+- **DNU firmados:** la Base Infoleg **no tuvo versión nueva**: la API de datos.jus.gob.ar da la última modificación del recurso el 02/11/2026 (consulta del 13/11). Noviembre no se carga.
+- **Validación de octubre (sigue preliminar, pero avanzó):** se volvió a bajar el ZIP del 02/11 y se pidieron los textos de los 177 decretos publicados en octubre en argentina.gob.ar/normativa. Respondieron 36 (antes 10); 141 siguen con 404. **El 1157/2026 y el 1286/2026 quedan validados** con el texto completo: acuerdo general de ministros, art. 99 inc. 3 CN y Ley 26.122. Ninguno de los otros 34 textos tiene esas marcas. El conteo de octubre sigue en 2 y `dnu_firmados_estado` sigue en «preliminar». Se actualizaron `meta.granularidad.dnu_firmados`, `dnu_firmados_fuente.validacion_oct_2026` y `control_2026_11_13`, la nota de octubre en `serie_mensual` y las notas del 1157 y el 1286 en `dnu_lista`. Los scripts quedaron en el scratchpad de la sesión, no en el repo.
+- **DNU de la semana (07-13/11) por prensa:** no se encontró ninguno. El Decreto 1350/2026 (BO 11/11, iniciativa privada para el Centro de Fronteras de Paso de los Libres; El Destape) no figura como DNU en la nota y no se cuenta. La Disposición 721/2026 (IOSFA, retiros voluntarios; Infobae, 12/11) no es un decreto.
+- **Vetos e insistencias:** no se encontró ninguno nuevo. Los vetos de 2026 siguen en null.
+
+### Pendientes
+- **Validar octubre** con los 141 textos que faltan en argentina.gob.ar y buscar DNU sin marcar.
+- **Base Infoleg de noviembre:** cuando se publique, cargar los decretos firmados el 30-31/10 y los DNU de noviembre.
+- **Lista nominal de Salud Mental (Senado, 29/10, 42-21-0):** senado.gob.ar sigue con 403 desde la shell (13/11).
+- **Presupuesto 2027:** dictamen del 17/11 y sesión del 25/11. **PASO 2027:** posible sesión del Senado. **Discapacidad:** posible sesión del Senado la semana del 16/11.
 - Siguen vigentes los faltantes de la sección «Faltantes».

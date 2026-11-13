@@ -1,6 +1,6 @@
 # Fuentes y faltantes · datos/conflictividad
 
-Actualizado: 2026-11-06 (corte semanal). Período: 06/11/2025 a 06/11/2026.
+Actualizado: 2026-11-13 (corte semanal). Período: 13/11/2025 a 13/11/2026.
 
 ## Archivos
 - `ev.jsonl`: un hecho verificado por línea. Es el archivo que se edita.
@@ -83,3 +83,18 @@ Segunda tanda (búsqueda provincia por provincia):
   - Paros nodocentes de FATUN del 12 y el 16/11 y semana de protesta de CONADU desde el 16/11: próximos cortes.
   - Páginas que no abrieron: Conclusión (Atucha y Rosario), MisionesOnline (IOSFA), El Comercial de Formosa (judiciales), Diario Norte y El Diario de la Región (Chaco), Diario La Voz del Chaco (marcha en Esquina; la del 09/07 sí abrió).
 - **Cobertura:** La Rioja sigue con 3 hechos; Santiago del Estero y Formosa pasan a 4; San Juan, Tucumán, San Luis, Chaco, Corrientes y Tierra del Fuego, a 5.
+
+## Corte del 13/11/2026
+- **Período móvil:** `python3 build_hechos.py 2026-11-13` (también es el default). Sale del mapa la marcha al Congreso del 12/11/2025, que queda en `ev.jsonl` como historial. Ciudades nuevas: Puerto Tirol y Comodoro Rivadavia, proyectadas con el polinomio (coordenadas del centro urbano). Se revisó que los 182 hechos anteriores que siguen en el período conservan exactamente sus coordenadas y su punto en `puntos.json`.
+- **12 hechos nuevos (194 en total: 94 pacíficas, 41 paros, 31 con incidentes, 12 policiales, 6 tomas, 6 motines, 4 atentados; 101 con dos fuentes o más):**
+  - Semana del 07 al 13/11: marcha docente de la UDEB, la Asociación de Maestrxs y autoconvocados a la Gobernación en La Plata (10/11, una sola fuente: Border Periodismo); paro de 48 horas de ATE Chubut en escuelas, con tres trabajadores encadenados (10/11, ADNSUR y Cholila Online); marcha de jubilados al Congreso al cierre de la visita de León XIV, sin el despliegue policial habitual (11/11, Infobae y lavaca); paro universitario nacional de CONADU Histórica (una semana, 12 al 18/11), CONADU y FATUN (12/11); paro provincial de ADOSAC con marcha junto a ATE en Río Gallegos (12/11, La Opinión Austral vía Examedia); paro total del subte por la muerte de un trabajador que el gremio atribuye al asbesto (12/11, A24 y elDiarioAR); motín en la comisaría de Puerto Tirol, Chaco, sin heridos (noche del 12 al 13/11, fecha deducida; Alerta Urbana y DataChaco, ambas sobre el parte policial); «paro a la japonesa» de ATE-ANAC en Aeroparque y Ezeiza (13/11, El Argentino Diario y El Cronista).
+  - Hechos anteriores que faltaban: paro de 48 horas y marcha provincial de ATEN en Neuquén (04/11, más de 8.000 personas según Diario Río Negro); disparo contra Luis Pérez, secretario general del Sindicato de Dragado y Balizamiento de Bahía Blanca (28/10; móvil no establecido, un sospechoso detenido y liberado); marcha docente por Nancy Godoy en San Salvador de Jujuy (29/10).
+  - Provincias con pocos hechos (búsqueda hacia atrás): La Pampa, cuarta Marcha Federal Universitaria en Santa Rosa (12/05, La Arena y Diario Textual); Jujuy, la marcha del 29/10.
+- **Fuentes de parte o con advertencia:** lavaca es un medio cooperativo cercano a los movimientos sociales; la adhesión de ATEN (más de 95 %) es cifra del gremio. El motín de Puerto Tirol se apoya solo en el parte policial. En Río Gallegos solo hay una crónica (réplica de Examedia) y dos convocatorias. El paro universitario y el de ATE-ANAC se cargaron con notas del mismo día.
+- **Revisados y no cargados:** paro de Ademys con marcha a la Jefatura de Gobierno porteña (04/11, solo convocatoria de Pura Ciudad); marchas de UEPC Capital en Córdoba (02/11 según el sitio de UEPC y otra jornada informada por Cadena 3 el 05/11, sin fecha exacta; Vía País no abrió); paro de la Asociación de Maestrxs bonaerense del 06/11 (solo convocatoria); paro nacional de CTERA y ATE del 03/08 en La Rioja (El Destape: acatamiento dispar y sin marcha); acciones del 29/10 en General Pico (Infopico, sin detalle); marcha de ATE Chilecito a Casa de Gobierno de La Rioja (El Independiente, fecha sin mes); marchas por Nancy Godoy en el Obelisco (29/10, C5N; CABA ya está sobrerrepresentada).
+- **Pendientes (sin crónica o sin acceso):**
+  - Paro de las dos CTA de «fines de octubre», paro del SUTEF por Nancy Godoy (30/10), paro de SUTECO del 29/10, adhesión de Docentes Autoconvocados de Formosa, marcha de Chilecito contra la minería (15/04) y marcha universitaria de San Luis: siguen como en el corte anterior; no se volvieron a buscar o no apareció fuente nueva.
+  - La Rioja sigue con 3 hechos: no se encontró ninguna crónica nueva con fecha y fuente firmes.
+  - Próximos cortes: tercer paro de FATUN (16/11), resto del paro de CONADU Histórica (hasta el 18/11), «miércoles federal» de jubilados frente a ANSES (18/11), retención de tareas de ATE-ANAC en los servicios de incendio de los aeropuertos (16 al 20/11), paritaria de ATEN (16/11) y movilización universitaria al Congreso el día en que se trate el Presupuesto 2027.
+  - Páginas que no abrieron: Vía País (UEPC), El Intransigente (ATE-ANAC y subte), MDZ (subte), Diputados Bonaerenses (marcha docente y de becarios de salud a la Gobernación, que sería la segunda fuente de La Plata del 10/11), La Nueva de Bahía Blanca (redirección).
+- **Cobertura:** La Rioja sigue con 3 hechos; Santiago del Estero, Formosa, Entre Ríos y Salta con 4; La Pampa y Jujuy pasan a 5. CABA sube a 47 de 194 (24 %).

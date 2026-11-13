@@ -20,8 +20,9 @@
   ],
   "metodo_tna": "Presupuesto Abierto, visualización «¿Dónde se gasta?» (endpoint REST público rest-api/visualizaciones/donde-se-gasta/{ejercicio}/filter), crédito PAGADO por ubicación geográfica, filtrado por inciso 5, principal 7 (corrientes) y 8 (capital) y parcial 1 a 5 (Administración Pública Provincial; 2 y 5 sin movimientos; 3 empresas públicas provinciales; 4 instituciones de enseñanza provinciales). Los ATN se identifican con el mismo endpoint filtrando servicio 325 (Ministerio del Interior), programa 19 (Relaciones con las Provincias y Desarrollo Regional), actividad 21 (ATN). Por qué año 2025 y no nov-2025 a oct-2026 (ventana de los ATN): la fuente accesible solo da acumulados por ejercicio. Las bases mensuales (credito-mensual en dgsiaf-repo.mecon.gob.ar) siguen bloqueadas y la API /api/v1/credito pide un token personal. 2025 es el último período de 12 meses completo por provincia y coincide con el año del denominador. 2026 va como acumulado al 04/11/2026 (antes, al 23/10/2026).",
   "control_2026_10_30": "Presupuesto Abierto (¿Dónde se gasta?, servicio 325, programa 19, actividad 21), consultado el 30/10/2026: el ATN pagado de 2026 sigue en 184.000 millones, igual que el acumulado ene-sep. No se registran giros de ATN en octubre hasta la última actualización de la fuente; octubre no se carga hasta que termine el mes y lo confirme una segunda fuente.",
-  "actualizado": "2026-11-06",
-  "control_2026_11_06": "Presupuesto Abierto (rest-api/ejercicio/allForVisualizaciones: ejercicio 2026 actualizado el 04/11/2026), consultado el 06/11/2026: ATN pagado 2026 = 197.500 millones (184.000 a septiembre + 13.500 en Chaco 4.000, Corrientes 3.500, Entre Ríos 3.000 y Misiones 3.000). Economis (03/11/2026) informa que en octubre no hubo ATN pagados y que esos montos se devengaron el 30/10 y se pagan en noviembre. Se carga oct-2026 = 0 en las 24 jurisdicciones; los 13.500 van a nov-2026 cuando cierre el mes."
+  "actualizado": "2026-11-13",
+  "control_2026_11_06": "Presupuesto Abierto (rest-api/ejercicio/allForVisualizaciones: ejercicio 2026 actualizado el 04/11/2026), consultado el 06/11/2026: ATN pagado 2026 = 197.500 millones (184.000 a septiembre + 13.500 en Chaco 4.000, Corrientes 3.500, Entre Ríos 3.000 y Misiones 3.000). Economis (03/11/2026) informa que en octubre no hubo ATN pagados y que esos montos se devengaron el 30/10 y se pagan en noviembre. Se carga oct-2026 = 0 en las 24 jurisdicciones; los 13.500 van a nov-2026 cuando cierre el mes.",
+  "control_2026_11_13": "Presupuesto Abierto (rest-api/ejercicio/allForVisualizaciones: ejercicio 2026 actualizado el 11/11/2026), consultado el 13/11/2026: ATN pagado 2026 = 197.500 millones, sin cambios desde el 04/11 (no hubo otros giros de ATN hasta la última actualización). La distribución de los 13.500 pagados a comienzos de noviembre (Chaco 4.000, Corrientes 3.500, Entre Ríos 3.000, Misiones 3.000) la confirman Politikon Chaco (Diario Río Negro/NA, 04/11; El Argentino Diario, 05/11) y Argañaraz (Economis, 04/11), y coincide provincia por provincia con Presupuesto Abierto. Se carga en atn.nov_2026_parcial_millones de cada provincia. Noviembre no cerró: la ventana de 12 meses (nov-2025 a oct-2026), total_12m_millones y los indicadores no cambian. Al cierre de noviembre, la ventana pasa a dic-2025 a nov-2026 (sale nov-2025, que es 0 en las 24)."
  },
  "totales_nacionales": {
   "atn_12m_millones": 260000,
@@ -146,6 +147,35 @@
     }
    ],
    "nota": "Oct-2026: 0 pagado. 13.500 devengados el 30/10 y pagados a comienzos de noviembre."
+  },
+  "atn_2026_nov_parcial_millones": {
+   "valor": 13500,
+   "al": "2026-11-11",
+   "detalle": "Chaco 4.000, Corrientes 3.500, Entre Ríos 3.000 y Misiones 3.000 (devengados el 30/10, pagados a comienzos de noviembre)",
+   "acumulado_2026_al_11_11_millones": 197500,
+   "fuentes": [
+    {
+     "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+     "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+     "fecha": "2026-11-04"
+    },
+    {
+     "f": "El Argentino Diario (Politikon Chaco)",
+     "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+     "fecha": "2026-11-05"
+    },
+    {
+     "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+     "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+     "fecha": "2026-11-04"
+    },
+    {
+     "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+     "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+     "fecha": "2026-11-13"
+    }
+   ],
+   "nota": "Economis titula «9.500 millones a tres provincias» porque deja afuera a Chaco en el título; el cuerpo de la nota da los cuatro montos (13.500). El Argentino Diario y Diario Río Negro (Politikon) informan 184.000 en los diez primeros meses de 2026 (18 % de los 1.204.482 millones recaudados por el fondo) y ningún giro en octubre."
   }
  },
  "provincias": {
@@ -212,7 +242,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 0
+    "acumulado_2026_ene_oct_millones": 0,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 0
    },
    "tna": {
     "total_12m_millones": 483170.7,
@@ -409,7 +467,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 18500
+    "acumulado_2026_ene_oct_millones": 18500,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 18500
    },
    "tna": {
     "total_12m_millones": 35011.5,
@@ -560,7 +646,35 @@
     "acumulado_2026_ene_oct_millones": 10000,
     "notas": [
      "Oct-2026: 0 pagado. Se devengaron 4.000 millones el 30/10/2026. pagados a comienzos de noviembre (Economis. 03/11/2026). Presupuesto Abierto. con datos al 04/11/2026. ya los registra como pagados: ATN 2026 = 14.000 millones. Se cargan en nov-2026 cuando cierre el mes."
-    ]
+    ],
+    "nov_2026_parcial_millones": {
+     "valor": 4000,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 14000
    },
    "tna": {
     "total_12m_millones": 109493.4,
@@ -708,7 +822,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 6500
+    "acumulado_2026_ene_oct_millones": 6500,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 6500
    },
    "tna": {
     "total_12m_millones": 23345.3,
@@ -857,7 +999,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 0
+    "acumulado_2026_ene_oct_millones": 0,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 0
    },
    "tna": {
     "total_12m_millones": 1172231.3,
@@ -1010,7 +1180,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 5000
+    "acumulado_2026_ene_oct_millones": 5000,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 5000
    },
    "tna": {
     "total_12m_millones": 69339.7,
@@ -1173,7 +1371,35 @@
     "acumulado_2026_ene_oct_millones": 19000,
     "notas": [
      "Oct-2026: 0 pagado. Se devengaron 3.500 millones el 30/10/2026. pagados a comienzos de noviembre (Economis. 03/11/2026). Presupuesto Abierto. con datos al 04/11/2026. ya los registra como pagados: ATN 2026 = 22.500 millones. Se cargan en nov-2026 cuando cierre el mes."
-    ]
+    ],
+    "nov_2026_parcial_millones": {
+     "valor": 3500,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 22500
    },
    "tna": {
     "total_12m_millones": 26708.6,
@@ -1343,7 +1569,35 @@
     "acumulado_2026_ene_oct_millones": 15000,
     "notas": [
      "Oct-2026: 0 pagado. Se devengaron 3.000 millones el 30/10/2026. pagados a comienzos de noviembre (Economis. 03/11/2026). Presupuesto Abierto. con datos al 04/11/2026. ya los registra como pagados: ATN 2026 = 18.000 millones. Se cargan en nov-2026 cuando cierre el mes."
-    ]
+    ],
+    "nov_2026_parcial_millones": {
+     "valor": 3000,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 18000
    },
    "tna": {
     "total_12m_millones": 61960.3,
@@ -1508,7 +1762,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 0
+    "acumulado_2026_ene_oct_millones": 0,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 0
    },
    "tna": {
     "total_12m_millones": 16116.1,
@@ -1645,7 +1927,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 13500
+    "acumulado_2026_ene_oct_millones": 13500,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 13500
    },
    "tna": {
     "total_12m_millones": 27876.1,
@@ -1793,7 +2103,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 3500
+    "acumulado_2026_ene_oct_millones": 3500,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 3500
    },
    "tna": {
     "total_12m_millones": 6632.9,
@@ -1961,7 +2299,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 0
+    "acumulado_2026_ene_oct_millones": 0,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 0
    },
    "tna": {
     "total_12m_millones": 15025.2,
@@ -2121,7 +2487,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 14000
+    "acumulado_2026_ene_oct_millones": 14000,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 14000
    },
    "tna": {
     "total_12m_millones": 22758.0,
@@ -2265,7 +2659,35 @@
     "acumulado_2026_ene_oct_millones": 25000,
     "notas": [
      "Oct-2026: 0 pagado. Se devengaron 3.000 millones el 30/10/2026. pagados a comienzos de noviembre (Economis. 03/11/2026). Presupuesto Abierto. con datos al 04/11/2026. ya los registra como pagados: ATN 2026 = 28.000 millones. Se cargan en nov-2026 cuando cierre el mes."
-    ]
+    ],
+    "nov_2026_parcial_millones": {
+     "valor": 3000,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 28000
    },
    "tna": {
     "total_12m_millones": 32378.7,
@@ -2413,7 +2835,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 12000
+    "acumulado_2026_ene_oct_millones": 12000,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 12000
    },
    "tna": {
     "total_12m_millones": 83103.4,
@@ -2572,7 +3022,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 0
+    "acumulado_2026_ene_oct_millones": 0,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 0
    },
    "tna": {
     "total_12m_millones": 12788.2,
@@ -2727,7 +3205,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 18000
+    "acumulado_2026_ene_oct_millones": 18000,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 18000
    },
    "tna": {
     "total_12m_millones": 46570.8,
@@ -2875,7 +3381,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 10000
+    "acumulado_2026_ene_oct_millones": 10000,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 10000
    },
    "tna": {
     "total_12m_millones": 17516.1,
@@ -3011,7 +3545,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 0
+    "acumulado_2026_ene_oct_millones": 0,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 0
    },
    "tna": {
     "total_12m_millones": 15605.2,
@@ -3148,7 +3710,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 6000
+    "acumulado_2026_ene_oct_millones": 6000,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 6000
    },
    "tna": {
     "total_12m_millones": 45306.1,
@@ -3288,7 +3878,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 8000
+    "acumulado_2026_ene_oct_millones": 8000,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 8000
    },
    "tna": {
     "total_12m_millones": 55112.7,
@@ -3477,7 +4095,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 0
+    "acumulado_2026_ene_oct_millones": 0,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 0
    },
    "tna": {
     "total_12m_millones": 26378.0,
@@ -3625,7 +4271,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 0
+    "acumulado_2026_ene_oct_millones": 0,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 0
    },
    "tna": {
     "total_12m_millones": 11264.8,
@@ -3775,7 +4449,35 @@
       "fecha": "2026-11-06"
      }
     ],
-    "acumulado_2026_ene_oct_millones": 0
+    "acumulado_2026_ene_oct_millones": 0,
+    "nov_2026_parcial_millones": {
+     "valor": 0,
+     "al": "2026-11-11",
+     "estado": "parcial: noviembre no cerró; no entra en total_12m_millones ni en los indicadores hasta el cierre del mes",
+     "fuentes": [
+      {
+       "f": "Diario Río Negro / Noticias Argentinas (Politikon Chaco, datos de la DNAP)",
+       "url": "https://www.rionegro.com.ar/economia/cuatro-provincias-recibieron-atn-en-el-inicio-de-noviembre-como-se-distribuye-el-reparto-en-2026-4784202/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "El Argentino Diario (Politikon Chaco)",
+       "url": "https://elargentinodiario.com.ar/politica/05/11/2026/atn-noviembre-corrientes-chaco-entre-rios-misiones-politikon/",
+       "fecha": "2026-11-05"
+      },
+      {
+       "f": "Economis (relevamiento de Nadin Argañaraz sobre Presupuesto Abierto, crédito pagado)",
+       "url": "https://economis.com.ar/nacion-reactivo-los-atn-en-noviembre-y-giro-9-500-millones-a-misiones-corrientes-y-entre-rios/",
+       "fecha": "2026-11-04"
+      },
+      {
+       "f": "Presupuesto Abierto (Ministerio de Economía), «¿Dónde se gasta?», servicio 325, programa 19, actividad 21, etapa pagado (ejercicio 2026 actualizado el 11/11/2026)",
+       "url": "https://www.presupuestoabierto.gob.ar/sici/visualizacion-donde-se-gasta",
+       "fecha": "2026-11-13"
+      }
+     ]
+    },
+    "acumulado_2026_al_11_11_millones": 0
    },
    "tna": {
     "total_12m_millones": 74441.1,
